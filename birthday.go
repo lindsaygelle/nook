@@ -4,6 +4,7 @@ import (
 	"time"
 )
 
+// Birthday is the Animal Crossing characters birthday information.
 type Birthday struct {
 	Day   uint8
 	Month time.Month

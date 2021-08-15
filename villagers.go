@@ -1,13 +1,18 @@
 package nook
 
-import "golang.org/x/text/language"
+import (
+	"fmt"
 
+	"golang.org/x/text/language"
+)
+
+// Villagers is a collection of Villager.
 type Villagers map[string]Villager
 
-func (v Villagers) Add(language language.Tag, villager Villager) {
-	name := villager.Name.Must(language)
+func (v Villagers) Add(key language.Tag, villager Villager) {
+	name := villager.Name.Must(key)
 	if !name.Ok() {
-		panic(villager)
+		panic(fmt.Sprintf("%s.Name[%s].Ok() != true", villager.Name.Must(language.AmericanEnglish).Value, key.String()))
 	}
 	v[name.Value] = villager
 }
@@ -44,7 +49,7 @@ func (v Villagers) Has(key string) bool {
 func (v Villagers) Must(key string) Villager {
 	villager, ok := v.Get(key)
 	if !ok {
-		panic(key)
+		panic(fmt.Sprintf("Villagers[%s] not found", key))
 	}
 	return villager
 }

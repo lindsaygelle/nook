@@ -6,6 +6,7 @@ import (
 	"golang.org/x/text/language"
 )
 
+// Languages is a collection of language information.
 type Languages map[language.Tag]Name
 
 func (v Languages) Add(name Name) {

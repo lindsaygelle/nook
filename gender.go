@@ -2,6 +2,7 @@ package nook
 
 import "golang.org/x/text/language"
 
+// Gender is the biological gender given to an Animal Crossing character.
 type Gender struct {
 	Name Languages
 }
