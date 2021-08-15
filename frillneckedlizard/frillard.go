@@ -29,7 +29,7 @@ var (
 
 	frillardDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	frillardFrenchName = nook.Name{
 		Language: language.French,
@@ -57,11 +57,11 @@ var (
 
 	frillardRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	frillardSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	frillardSpanishName = nook.Name{
 		Language: language.Spanish,
@@ -69,7 +69,7 @@ var (
 
 	frillardTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

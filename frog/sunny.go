@@ -25,23 +25,23 @@ var (
 
 	sunnyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyJapaneseName = nook.Name{
 		Language: language.Japanese,
@@ -49,27 +49,27 @@ var (
 
 	sunnyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,27 +101,27 @@ var (
 var (
 	sunnyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "でちょ"}
 
 	sunnyCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyFrenchPhrase = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyGermanPhrase = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyItalianPhrase = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyJapanesePhrase = nook.Name{
 		Language: language.Japanese,
@@ -129,27 +129,27 @@ var (
 
 	sunnyKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnySimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnySpanishPhrase = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	sunnyTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

@@ -25,23 +25,23 @@ var (
 
 	pokoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoJapaneseName = nook.Name{
 		Language: language.Japanese,
@@ -49,27 +49,27 @@ var (
 
 	pokoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,27 +101,27 @@ var (
 var (
 	pokoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "へへ"}
 
 	pokoCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoFrenchPhrase = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoGermanPhrase = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoItalianPhrase = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoJapanesePhrase = nook.Name{
 		Language: language.Japanese,
@@ -129,27 +129,27 @@ var (
 
 	pokoKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoSpanishPhrase = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pokoTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

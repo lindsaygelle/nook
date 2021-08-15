@@ -29,7 +29,7 @@ var (
 
 	carloDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	carloFrenchName = nook.Name{
 		Language: language.French,
@@ -57,11 +57,11 @@ var (
 
 	carloRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	carloSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	carloSpanishName = nook.Name{
 		Language: language.Spanish,

@@ -29,7 +29,7 @@ var (
 
 	rhodaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	rhodaFrenchName = nook.Name{
 		Language: language.French,
@@ -49,7 +49,7 @@ var (
 
 	rhodaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	rhodaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
@@ -57,7 +57,7 @@ var (
 
 	rhodaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	rhodaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -69,7 +69,7 @@ var (
 
 	rhodaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	rhodaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "clucky"}
 
 	rhodaCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
@@ -109,7 +109,7 @@ var (
 
 	rhodaDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	rhodaFrenchPhrase = nook.Name{
 		Language: language.French,
@@ -129,7 +129,7 @@ var (
 
 	rhodaKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	rhodaLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
@@ -137,7 +137,7 @@ var (
 
 	rhodaRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	rhodaSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -149,7 +149,7 @@ var (
 
 	rhodaTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

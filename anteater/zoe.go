@@ -25,11 +25,11 @@ var (
 
 	zoeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeFrenchName = nook.Name{
 		Language: language.French,
@@ -49,15 +49,15 @@ var (
 
 	zoeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -69,7 +69,7 @@ var (
 
 	zoeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,15 +101,15 @@ var (
 var (
 	zoeAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "whiiifff"}
 
 	zoeCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeFrenchPhrase = nook.Name{
 		Language: language.French,
@@ -129,15 +129,15 @@ var (
 
 	zoeKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	zoeSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -149,7 +149,7 @@ var (
 
 	zoeTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

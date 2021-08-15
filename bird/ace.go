@@ -25,11 +25,11 @@ var (
 
 	aceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceFrenchName = nook.Name{
 		Language: language.French,
@@ -49,15 +49,15 @@ var (
 
 	aceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -69,7 +69,7 @@ var (
 
 	aceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,15 +101,15 @@ var (
 var (
 	aceAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "ace"}
 
 	aceCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceFrenchPhrase = nook.Name{
 		Language: language.French,
@@ -129,15 +129,15 @@ var (
 
 	aceKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	aceSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -149,7 +149,7 @@ var (
 
 	aceTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

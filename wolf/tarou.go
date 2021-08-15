@@ -25,23 +25,23 @@ var (
 
 	tarouCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouGermanName = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouJapaneseName = nook.Name{
 		Language: language.Japanese,
@@ -49,27 +49,27 @@ var (
 
 	tarouKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,27 +101,27 @@ var (
 var (
 	tarouAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "ワオーン"}
 
 	tarouCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouFrenchPhrase = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouGermanPhrase = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouItalianPhrase = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouJapanesePhrase = nook.Name{
 		Language: language.Japanese,
@@ -129,27 +129,27 @@ var (
 
 	tarouKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouSpanishPhrase = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	tarouTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

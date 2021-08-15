@@ -25,23 +25,23 @@ var (
 
 	nobuoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoJapaneseName = nook.Name{
 		Language: language.Japanese,
@@ -49,27 +49,27 @@ var (
 
 	nobuoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,27 +101,27 @@ var (
 var (
 	nobuoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "ブツブツ"}
 
 	nobuoCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoFrenchPhrase = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoGermanPhrase = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoItalianPhrase = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoJapanesePhrase = nook.Name{
 		Language: language.Japanese,
@@ -129,27 +129,27 @@ var (
 
 	nobuoKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoSpanishPhrase = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	nobuoTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

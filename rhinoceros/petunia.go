@@ -25,23 +25,23 @@ var (
 
 	petuniaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaJapaneseName = nook.Name{
 		Language: language.Japanese,
@@ -49,27 +49,27 @@ var (
 
 	petuniaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,27 +101,27 @@ var (
 var (
 	petuniaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "メルシィ"}
 
 	petuniaCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaFrenchPhrase = nook.Name{
 		Language: language.French,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaGermanPhrase = nook.Name{
 		Language: language.German,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaItalianPhrase = nook.Name{
 		Language: language.Italian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaJapanesePhrase = nook.Name{
 		Language: language.Japanese,
@@ -129,27 +129,27 @@ var (
 
 	petuniaKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaSpanishPhrase = nook.Name{
 		Language: language.Spanish,
-		Value:    "N/A"}
+		Value:    ""}
 
 	petuniaTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

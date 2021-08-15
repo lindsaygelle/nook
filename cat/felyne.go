@@ -29,7 +29,7 @@ var (
 
 	felyneDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	felyneFrenchName = nook.Name{
 		Language: language.French,
@@ -57,11 +57,11 @@ var (
 
 	felyneRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	felyneSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	felyneSpanishName = nook.Name{
 		Language: language.Spanish,
@@ -69,7 +69,7 @@ var (
 
 	felyneTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -109,7 +109,7 @@ var (
 
 	felyneDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	felyneFrenchPhrase = nook.Name{
 		Language: language.French,
@@ -137,11 +137,11 @@ var (
 
 	felyneRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	felyneSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "N/A"}
+		Value:    ""}
 
 	felyneSpanishPhrase = nook.Name{
 		Language: language.Spanish,
@@ -149,7 +149,7 @@ var (
 
 	felyneTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (

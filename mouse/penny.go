@@ -29,7 +29,7 @@ var (
 
 	pennyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pennyFrenchName = nook.Name{
 		Language: language.French,
@@ -49,7 +49,7 @@ var (
 
 	pennyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pennyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
@@ -57,7 +57,7 @@ var (
 
 	pennyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pennySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -69,7 +69,7 @@ var (
 
 	pennyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	pennyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    ""}
+		Value:    "ska-WEAK"}
 
 	pennyCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
@@ -109,7 +109,7 @@ var (
 
 	pennyDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pennyFrenchPhrase = nook.Name{
 		Language: language.French,
@@ -129,7 +129,7 @@ var (
 
 	pennyKoreanPhrase = nook.Name{
 		Language: language.Korean,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pennyLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
@@ -137,7 +137,7 @@ var (
 
 	pennyRussianPhrase = nook.Name{
 		Language: language.Russian,
-		Value:    "N/A"}
+		Value:    ""}
 
 	pennySimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
@@ -149,7 +149,7 @@ var (
 
 	pennyTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "N/A"}
+		Value:    ""}
 )
 
 var (
