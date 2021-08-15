@@ -25,51 +25,51 @@ var (
 
 	midgeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Michèleloulou"}
+		Value:    "Michèle"}
 
 	midgeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Midgekwetter"}
+		Value:    "Midge"}
 
 	midgeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Michèleloulou"}
+		Value:    "Michèle"}
 
 	midgeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Annatwitiriti"}
+		Value:    "Anna"}
 
 	midgeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Minùfirulì"}
+		Value:    "Minù"}
 
 	midgeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "うずまきキョン"}
+		Value:    "うずまき"}
 
 	midgeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "핑글이핑그르르"}
+		Value:    "핑글이"}
 
 	midgeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Palomaarrurrú"}
+		Value:    "Paloma"}
 
 	midgeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Миджтви-тви"}
+		Value:    "Мидж"}
 
 	midgeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小酒窝脸红"}
+		Value:    "小酒窝"}
 
 	midgeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Palomaarrurrú"}
+		Value:    "Paloma"}
 
 	midgeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小酒窩臉紅"}
+		Value:    "小酒窩"}
 )
 
 var (

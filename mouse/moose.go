@@ -25,51 +25,51 @@ var (
 
 	mooseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Joachimbééléé"}
+		Value:    "Joachim"}
 
 	mooseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Moosekleintje"}
+		Value:    "Moose"}
 
 	mooseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Joachimbééléé"}
+		Value:    "Joachim"}
 
 	mooseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mausbertkäääse"}
+		Value:    "Mausbert"}
 
 	mooseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Aldoquink"}
+		Value:    "Aldo"}
 
 	mooseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピンにゃろ"}
+		Value:    "ピン"}
 
 	mooseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "핑짜샤"}
+		Value:    "핑"}
 
 	mooseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Satoatiza"}
+		Value:    "Sato"}
 
 	mooseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Музкоротышка"}
+		Value:    "Муз"}
 
 	mooseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿聘可恶"}
+		Value:    "阿聘"}
 
 	mooseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Satoatiza"}
+		Value:    "Sato"}
 
 	mooseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿聘可惡"}
+		Value:    "阿聘"}
 )
 
 var (

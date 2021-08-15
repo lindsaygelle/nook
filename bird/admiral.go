@@ -25,51 +25,51 @@ var (
 
 	admiralCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maréchalcornichon"}
+		Value:    "Maréchal"}
 
 	admiralDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Admiralyep yep"}
+		Value:    "Admiral"}
 
 	admiralFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maréchalcornichon"}
+		Value:    "Maréchal"}
 
 	admiralGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ansgaroh, ja"}
+		Value:    "Ansgar"}
 
 	admiralItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Adolfocipissi"}
+		Value:    "Adolfo"}
 
 	admiralJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "イッテツってか"}
+		Value:    "イッテツ"}
 
 	admiralKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "일섭오예"}
+		Value:    "일섭"}
 
 	admiralLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Avutardopiuc-piuc"}
+		Value:    "Avutardo"}
 
 	admiralRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Адмиралчиф-чиф"}
+		Value:    "Адмирал"}
 
 	admiralSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "李彻贯彻"}
+		Value:    "李彻"}
 
 	admiralSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Avutardoavechucho"}
+		Value:    "Avutardo"}
 
 	admiralTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "李徹貫徹"}
+		Value:    "李徹"}
 )
 
 var (

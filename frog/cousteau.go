@@ -25,51 +25,51 @@ var (
 
 	cousteauCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Figarobidule"}
+		Value:    "Figaro"}
 
 	cousteauDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cousteauoui oui"}
+		Value:    "Cousteau"}
 
 	cousteauFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Figarobidule"}
+		Value:    "Figaro"}
 
 	cousteauGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jacquesoui, oui"}
+		Value:    "Jacques"}
 
 	cousteauItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Jacqueset voilà"}
+		Value:    "Jacques"}
 
 	cousteauJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハルマキのことよ"}
+		Value:    "ハルマキ"}
 
 	cousteauKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "왕서방라이라이"}
+		Value:    "왕서방"}
 
 	cousteauLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cousteauoui oui"}
+		Value:    "Cousteau"}
 
 	cousteauRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кустоуи-уи"}
+		Value:    "Кусто"}
 
 	cousteauSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "春卷不客气"}
+		Value:    "春卷"}
 
 	cousteauSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cousteauoui oui"}
+		Value:    "Cousteau"}
 
 	cousteauTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "春卷不客氣"}
+		Value:    "春卷"}
 )
 
 var (

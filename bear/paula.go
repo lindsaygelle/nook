@@ -25,51 +25,51 @@ var (
 
 	paulaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Wendytourlou"}
+		Value:    "Wendy"}
 
 	paulaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Paulajodelie"}
+		Value:    "Paula"}
 
 	paulaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Wendyléchouille"}
+		Value:    "Wendy"}
 
 	paulaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Paulabralala"}
+		Value:    "Paula"}
 
 	paulaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Brunabah"}
+		Value:    "Bruna"}
 
 	paulaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "レイチェルヤッホー"}
+		Value:    "レイチェル"}
 
 	paulaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "레이첼야호야호"}
+		Value:    "레이첼"}
 
 	paulaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Liziborobó"}
+		Value:    "Lizi"}
 
 	paulaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Паулайодль"}
+		Value:    "Паула"}
 
 	paulaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "瑞秋耶呼"}
+		Value:    "瑞秋"}
 
 	paulaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Liziborobó"}
+		Value:    "Lizi"}
 
 	paulaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "瑞秋耶呼"}
+		Value:    "瑞秋"}
 )
 
 var (

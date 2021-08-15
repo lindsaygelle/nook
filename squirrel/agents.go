@@ -25,51 +25,51 @@ var (
 
 	agentsCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ninjettehaï-ya"}
+		Value:    "Ninjette"}
 
 	agentsDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Agent Ssidekick"}
+		Value:    "Agent S"}
 
 	agentsFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ninjettepoto"}
+		Value:    "Ninjette"}
 
 	agentsGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Karinstrampl"}
+		Value:    "Karin"}
 
 	agentsItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Agente Sspalla"}
+		Value:    "Agente S"}
 
 	agentsJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "２ごうせいやっ"}
+		Value:    "２ごう"}
 
 	agentsKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "2호흠냐"}
+		Value:    "2호"}
 
 	agentsLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Fardiliahai-ááá"}
+		Value:    "Fardilia"}
 
 	agentsRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Агент Сколлега"}
+		Value:    "Агент С"}
 
 	agentsSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿二嘿唷"}
+		Value:    "阿二"}
 
 	agentsSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Fardiliapiñita"}
+		Value:    "Fardilia"}
 
 	agentsTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿二嘿唷"}
+		Value:    "阿二"}
 )
 
 var (

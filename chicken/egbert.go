@@ -25,51 +25,51 @@ var (
 
 	egbertCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Herbertdi di dou"}
+		Value:    "Herbert"}
 
 	egbertDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Egbertkukelejus"}
+		Value:    "Egbert"}
 
 	egbertFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Herbertdi di dou"}
+		Value:    "Herbert"}
 
 	egbertGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Waldemarduudle-du"}
+		Value:    "Waldemar"}
 
 	egbertItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Chiccodu du du"}
+		Value:    "Chicco"}
 
 	egbertJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "しもやけだヨ"}
+		Value:    "しもやけ"}
 
 	egbertKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "김희짜잔"}
+		Value:    "김희"}
 
 	egbertLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Norbertokikirikí"}
+		Value:    "Norberto"}
 
 	egbertRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Эгберткукареку"}
+		Value:    "Эгберт"}
 
 	egbertSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "黄金鸡很优"}
+		Value:    "黄金鸡"}
 
 	egbertSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Norbertokikirikí"}
+		Value:    "Norberto"}
 
 	egbertTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "黃金雞很優"}
+		Value:    "黃金雞"}
 )
 
 var (

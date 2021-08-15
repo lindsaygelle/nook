@@ -25,51 +25,51 @@ var (
 
 	rolfCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ralfgrrrufff"}
+		Value:    "Ralf"}
 
 	rolfDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rolfgrrrolf"}
+		Value:    "Rolf"}
 
 	rolfFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ralfgrrrufff"}
+		Value:    "Ralf"}
 
 	rolfGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Borisbrüll"}
+		Value:    "Boris"}
 
 	rolfItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rolfgrrrolf"}
+		Value:    "Rolf"}
 
 	rolfJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チョモランだガー"}
+		Value:    "チョモラン"}
 
 	rolfKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "호랭이근데"}
+		Value:    "호랭이"}
 
 	rolfLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Albinogrooorf"}
+		Value:    "Albino"}
 
 	rolfRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рольфгр-р-рольф"}
+		Value:    "Рольф"}
 
 	rolfSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "朱穆朗王"}
+		Value:    "朱穆朗"}
 
 	rolfSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Albinogrooorf"}
+		Value:    "Albino"}
 
 	rolfTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "朱穆朗王"}
+		Value:    "朱穆朗"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	broffinaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jomon œuf"}
+		Value:    "Jo"}
 
 	broffinaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Broffinakakel"}
+		Value:    "Broffina"}
 
 	broffinaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jomon œuf"}
+		Value:    "Jo"}
 
 	broffinaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Elfriedeeieiei"}
+		Value:    "Elfriede"}
 
 	broffinaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Concettaovodè"}
+		Value:    "Concetta"}
 
 	broffinaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カサンドラケッコー"}
+		Value:    "カサンドラ"}
 
 	broffinaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "히킨오싹오싹"}
+		Value:    "히킨"}
 
 	broffinaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Brunildakiriquicó"}
+		Value:    "Brunilda"}
 
 	broffinaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Броффинаки-ки-ки"}
+		Value:    "Броффина"}
 
 	broffinaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "凯西咯咯"}
+		Value:    "凯西"}
 
 	broffinaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Brunildapitas"}
+		Value:    "Brunilda"}
 
 	broffinaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "凱西咯咯"}
+		Value:    "凱西"}
 )
 
 var (

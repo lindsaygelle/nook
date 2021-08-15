@@ -25,51 +25,51 @@ var (
 
 	paoloCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Paolofanfan"}
+		Value:    "Paolo"}
 
 	paoloDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Paologabber"}
+		Value:    "Paolo"}
 
 	paoloFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Paolofanfan"}
+		Value:    "Paolo"}
 
 	paoloGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Paolopruuust"}
+		Value:    "Paolo"}
 
 	paoloItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Paolinopistaaaa"}
+		Value:    "Paolino"}
 
 	paoloJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パオロパオ"}
+		Value:    "パオロ"}
 
 	paoloKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "파올로파오"}
+		Value:    "파올로"}
 
 	paoloLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Paolopruuuf"}
+		Value:    "Paolo"}
 
 	paoloRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Паолодруг"}
+		Value:    "Паоло"}
 
 	paoloSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "保罗保罗"}
+		Value:    "保罗"}
 
 	paoloSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Paoloamigante"}
+		Value:    "Paolo"}
 
 	paoloTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "保羅保羅"}
+		Value:    "保羅"}
 )
 
 var (

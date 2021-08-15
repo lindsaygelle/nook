@@ -25,51 +25,51 @@ var (
 
 	kitCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キットだキョ"}
+		Value:    "キット"}
 
 	kitKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	kitTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	piglegCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "XavierUnknown"}
+		Value:    "Xavier"}
 
 	piglegDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	piglegFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "XavierUnknown"}
+		Value:    "Xavier"}
 
 	piglegGermanName = nook.Name{
 		Language: language.German,
-		Value:    "JonasUnknown"}
+		Value:    "Jonas"}
 
 	piglegItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Drakegrugno"}
+		Value:    "Drake"}
 
 	piglegJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "バチコーメヨーソロ"}
+		Value:    "バチコーメ"}
 
 	piglegKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	piglegLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "JamoncioUnknown"}
+		Value:    "Jamoncio"}
 
 	piglegRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	piglegSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	piglegSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "JamoncioUnknown"}
+		Value:    "Jamoncio"}
 
 	piglegTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

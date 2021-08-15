@@ -25,51 +25,51 @@ var (
 
 	fuchsiaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rosanneframbou"}
+		Value:    "Rosanne"}
 
 	fuchsiaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Fuchsiameid"}
+		Value:    "Fuchsia"}
 
 	fuchsiaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rosannerosace"}
+		Value:    "Rosanne"}
 
 	fuchsiaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Selinazick"}
+		Value:    "Selina"}
 
 	fuchsiaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Fuxiacervilà"}
+		Value:    "Fuxia"}
 
 	fuchsiaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジェシカなんしか"}
+		Value:    "ジェシカ"}
 
 	fuchsiaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "제시카핑크크"}
+		Value:    "제시카"}
 
 	fuchsiaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rosalinabraaaam"}
+		Value:    "Rosalina"}
 
 	fuchsiaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фуксиязазноба"}
+		Value:    "Фуксия"}
 
 	fuchsiaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "洁西卡西卡"}
+		Value:    "洁西卡"}
 
 	fuchsiaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rosalinabraaaam"}
+		Value:    "Rosalina"}
 
 	fuchsiaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "潔西卡西卡"}
+		Value:    "潔西卡"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	fuchsiaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "girlfriendprecious"}
+		Value:    "girlfriend"}
 
 	fuchsiaCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

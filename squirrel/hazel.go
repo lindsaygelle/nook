@@ -25,51 +25,51 @@ var (
 
 	hazelCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pamelatac tac"}
+		Value:    "Pamela"}
 
 	hazelDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hazelbrauw"}
+		Value:    "Hazel"}
 
 	hazelFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pamelatac tac"}
+		Value:    "Pamela"}
 
 	hazelGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nadinekekeke"}
+		Value:    "Nadine"}
 
 	hazelItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cigliolablink"}
+		Value:    "Cigliola"}
 
 	hazelJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アイリスだもんね"}
+		Value:    "アイリス"}
 
 	hazelKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아이리스알아알아"}
+		Value:    "아이리스"}
 
 	hazelLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Anacardatac-tac"}
+		Value:    "Anacarda"}
 
 	hazelRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хейзелфундук"}
+		Value:    "Хейзел"}
 
 	hazelSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "艾栗丝当然哦"}
+		Value:    "艾栗丝"}
 
 	hazelSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Anacardacastaña"}
+		Value:    "Anacarda"}
 
 	hazelTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "艾栗絲當然囉"}
+		Value:    "艾栗絲"}
 )
 
 var (

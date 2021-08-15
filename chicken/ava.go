@@ -25,51 +25,51 @@ var (
 
 	avaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Evacô-cômment"}
+		Value:    "Eva"}
 
 	avaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Avasnavel"}
+		Value:    "Ava"}
 
 	avaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Evacô-cômment"}
+		Value:    "Eva"}
 
 	avaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Giselabiiika"}
+		Value:    "Gisela"}
 
 	avaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Avasbecsbec"}
+		Value:    "Ava"}
 
 	avaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ドミグラのよぉ"}
+		Value:    "ドミグラ"}
 
 	avaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에바그랬대요"}
+		Value:    "에바"}
 
 	avaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Avakikiú"}
+		Value:    "Ava"}
 
 	avaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аваклювик"}
+		Value:    "Ава"}
 
 	avaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "陶米咕是唷"}
+		Value:    "陶米咕"}
 
 	avaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Avapiquito"}
+		Value:    "Ava"}
 
 	avaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "陶米咕是唷"}
+		Value:    "陶米咕"}
 )
 
 var (

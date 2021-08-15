@@ -25,51 +25,51 @@ var (
 
 	pennyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Barbaraoh pétard!"}
+		Value:    "Barbara"}
 
 	pennyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	pennyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Barbaraoh pétard!"}
+		Value:    "Barbara"}
 
 	pennyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Susipiiquie"}
+		Value:    "Susi"}
 
 	pennyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "MorettaUnknown"}
+		Value:    "Moretta"}
 
 	pennyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ネズこなのさ"}
+		Value:    "ネズこ"}
 
 	pennyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	pennyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Penélopecarambita"}
+		Value:    "Penélope"}
 
 	pennyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	pennySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小小Unknown"}
+		Value:    "小小"}
 
 	pennySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Penélopecarambita"}
+		Value:    "Penélope"}
 
 	pennyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

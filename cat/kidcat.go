@@ -25,51 +25,51 @@ var (
 
 	kidcatCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Câlinpsst"}
+		Value:    "Câlin"}
 
 	kidcatDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kid Catpsst"}
+		Value:    "Kid Cat"}
 
 	kidcatFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Câlinpsst"}
+		Value:    "Câlin"}
 
 	kidcatGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pitmaunz"}
+		Value:    "Pit"}
 
 	kidcatItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Zampapsst"}
+		Value:    "Zampa"}
 
 	kidcatJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "１ごうとぉっ"}
+		Value:    "１ごう"}
 
 	kidcatKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "1호얍"}
+		Value:    "1호"}
 
 	kidcatLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gatománpsst"}
+		Value:    "Gatomán"}
 
 	kidcatRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кид Кэтшш"}
+		Value:    "Кид Кэт"}
 
 	kidcatSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿一喝"}
+		Value:    "阿一"}
 
 	kidcatSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gatománsoldado"}
+		Value:    "Gatomán"}
 
 	kidcatTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿一喝"}
+		Value:    "阿一"}
 )
 
 var (

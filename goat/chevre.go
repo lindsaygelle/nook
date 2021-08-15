@@ -25,51 +25,51 @@ var (
 
 	chevreCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Biquettela baa"}
+		Value:    "Biquette"}
 
 	chevreDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chevrela mèè"}
+		Value:    "Chevre"}
 
 	chevreFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Biquettela baa"}
+		Value:    "Biquette"}
 
 	chevreGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Anettemääääh"}
+		Value:    "Anette"}
 
 	chevreItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dilettabeeello"}
+		Value:    "Diletta"}
 
 	chevreJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ユキっぺ"}
+		Value:    "ユキ"}
 
 	chevreKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "윤이맞아유"}
+		Value:    "윤이"}
 
 	chevreLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cabriolabeee-beee"}
+		Value:    "Cabriola"}
 
 	chevreRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шеврле ме-е-е"}
+		Value:    "Шевр"}
 
 	chevreSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雪儿呗"}
+		Value:    "雪儿"}
 
 	chevreSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cabriolabeee-beee"}
+		Value:    "Cabriola"}
 
 	chevreTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雪兒唄"}
+		Value:    "雪兒"}
 )
 
 var (

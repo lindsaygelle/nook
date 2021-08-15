@@ -25,51 +25,51 @@ var (
 
 	curlyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tirboucoink"}
+		Value:    "Tirbou"}
 
 	curlyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Curlyhupsaknor"}
+		Value:    "Curly"}
 
 	curlyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tirboucoink"}
+		Value:    "Tirbou"}
 
 	curlyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Oinkoinkoink"}
+		Value:    "Oink"}
 
 	curlyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Riccioloniooink"}
+		Value:    "Ricciolo"}
 
 	curlyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハムカツどもども"}
+		Value:    "ハムカツ"}
 
 	curlyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "햄까스꿀꿀"}
+		Value:    "햄까스"}
 
 	curlyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rufuetoñoink"}
+		Value:    "Rufueto"}
 
 	curlyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Керлихряк-бряк"}
+		Value:    "Керли"}
 
 	curlySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "胜利感谢"}
+		Value:    "胜利"}
 
 	curlySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rufuetoñoink"}
+		Value:    "Rufueto"}
 
 	curlyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "勝利感謝"}
+		Value:    "勝利"}
 )
 
 var (

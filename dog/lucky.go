@@ -25,51 +25,51 @@ var (
 
 	luckyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ramsèsgraaaouch"}
+		Value:    "Ramsès"}
 
 	luckyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Luckywww-⁠au"}
+		Value:    "Lucky"}
 
 	luckyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ramsèsgraaaouch"}
+		Value:    "Ramsès"}
 
 	luckyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Viktorrrr-awau"}
+		Value:    "Viktor"}
 
 	luckyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Feliceossorrr"}
+		Value:    "Felice"}
 
 	luckyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ラッキーらしいよ"}
+		Value:    "ラッキー"}
 
 	luckyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "럭키그렇대"}
+		Value:    "럭키"}
 
 	luckyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pupasguuuuf"}
+		Value:    "Pupas"}
 
 	luckyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лакиррр-ой-ой"}
+		Value:    "Лаки"}
 
 	luckySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "大吉大概"}
+		Value:    "大吉"}
 
 	luckySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "PupasguuuuAY"}
+		Value:    "Pupas"}
 
 	luckyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "大吉大概"}
+		Value:    "大吉"}
 )
 
 var (

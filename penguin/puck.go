@@ -25,51 +25,51 @@ var (
 
 	puckCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Hervébrrrrrrrrr"}
+		Value:    "Hervé"}
 
 	puckDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Puckbrrrrrrrrr"}
+		Value:    "Puck"}
 
 	puckFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Hervébrrrrrrrrr"}
+		Value:    "Hervé"}
 
 	puckGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Puckbrrrrrrrrr"}
+		Value:    "Puck"}
 
 	puckItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Glacidobrrrrrrrrr"}
+		Value:    "Glacido"}
 
 	puckJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ホッケーさぶー"}
+		Value:    "ホッケー"}
 
 	puckKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "하키엣취"}
+		Value:    "하키"}
 
 	puckLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Fredobrrr-uah"}
+		Value:    "Fredo"}
 
 	puckRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пакбрр"}
+		Value:    "Пак"}
 
 	puckSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "哈奇候补"}
+		Value:    "哈奇"}
 
 	puckSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Fredosardinilla"}
+		Value:    "Fredo"}
 
 	puckTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "哈奇候補"}
+		Value:    "哈奇"}
 )
 
 var (

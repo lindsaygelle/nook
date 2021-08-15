@@ -25,51 +25,51 @@ var (
 
 	holdenCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Glutingluglu"}
+		Value:    "Glutin"}
 
 	holdenDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	holdenFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Glutingluglu"}
+		Value:    "Glutin"}
 
 	holdenGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Holdenklebstift"}
+		Value:    "Holden"}
 
 	holdenItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Collottoincollo"}
+		Value:    "Collotto"}
 
 	holdenJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "のりぼうノリノリ"}
+		Value:    "のりぼう"}
 
 	holdenKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "노리보둠칫둠칫"}
+		Value:    "노리보"}
 
 	holdenLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Holdentudiquesí"}
+		Value:    "Holden"}
 
 	holdenRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	holdenSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	holdenSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Holdentudiquesí"}
+		Value:    "Holden"}
 
 	holdenTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

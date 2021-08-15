@@ -25,51 +25,51 @@ var (
 
 	twirpCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	twirpDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	twirpFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Neuneuoufffff"}
+		Value:    "Neuneu"}
 
 	twirpGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Meiktschirp"}
+		Value:    "Meik"}
 
 	twirpItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "FurbeccoCIRP"}
+		Value:    "Furbecco"}
 
 	twirpJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "でチュンでチュン"}
+		Value:    "でチュン"}
 
 	twirpKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	twirpLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	twirpRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	twirpSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "子谈咻"}
+		Value:    "子谈"}
 
 	twirpSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "TomásPÍO-PÍO"}
+		Value:    "Tomás"}
 
 	twirpTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

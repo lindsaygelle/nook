@@ -25,51 +25,51 @@ var (
 
 	cashmereCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cashmirbêllissime"}
+		Value:    "Cashmir"}
 
 	cashmereDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cashmerebè-⁠ste"}
+		Value:    "Cashmere"}
 
 	cashmereFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cashmirbêllissime"}
+		Value:    "Cashmir"}
 
 	cashmereGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lanabäääby"}
+		Value:    "Lana"}
 
 	cashmereItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cashmerebeensì"}
+		Value:    "Cashmere"}
 
 	cashmereJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ラムールありんす"}
+		Value:    "ラムール"}
 
 	cashmereKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "캐시미어포근포근"}
+		Value:    "캐시미어"}
 
 	cashmereLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cachemirbaaa-buá"}
+		Value:    "Cachemir"}
 
 	cashmereRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кашмирбэ-эби"}
+		Value:    "Кашмир"}
 
 	cashmereSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "爱睦爱"}
+		Value:    "爱睦"}
 
 	cashmereSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cachemirpeeeque"}
+		Value:    "Cachemir"}
 
 	cashmereTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "愛睦愛"}
+		Value:    "愛睦"}
 )
 
 var (

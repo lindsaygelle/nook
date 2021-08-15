@@ -25,51 +25,51 @@ var (
 
 	booneCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Babouinma noix"}
+		Value:    "Babouin"}
 
 	booneDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Boonebavi-AAN"}
+		Value:    "Boone"}
 
 	booneFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Babouinma noix"}
+		Value:    "Babouin"}
 
 	booneGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kongugh"}
+		Value:    "Kong"}
 
 	booneItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Babubaboom"}
+		Value:    "Babu"}
 
 	booneJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "まんたろうウルトラ"}
+		Value:    "まんたろう"}
 
 	booneKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "만복이야임마"}
+		Value:    "만복이"}
 
 	booneLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Babúangaua"}
+		Value:    "Babú"}
 
 	booneRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Буинбабум"}
+		Value:    "Буин"}
 
 	booneSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "万泰这家伙"}
+		Value:    "万泰"}
 
 	booneSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Babúangaua"}
+		Value:    "Babú"}
 
 	booneTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "萬泰超級"}
+		Value:    "萬泰"}
 )
 
 var (

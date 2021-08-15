@@ -25,51 +25,51 @@ var (
 
 	pudgeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gradublouloute"}
+		Value:    "Gradub"}
 
 	pudgeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pudgepudding"}
+		Value:    "Pudge"}
 
 	pudgeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gradublouloute"}
+		Value:    "Gradub"}
 
 	pudgeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bertramgriesgram"}
+		Value:    "Bertram"}
 
 	pudgeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tombolopulcino"}
+		Value:    "Tombolo"}
 
 	pudgeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "きんぞうんもう"}
+		Value:    "きんぞう"}
 
 	pudgeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "우띠아이참"}
+		Value:    "우띠"}
 
 	pudgeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bollitobruah"}
+		Value:    "Bollito"}
 
 	pudgeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Паджкарапуз"}
+		Value:    "Падж"}
 
 	pudgeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿钦真是的"}
+		Value:    "阿钦"}
 
 	pudgeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bollitorebollos"}
+		Value:    "Bollito"}
 
 	pudgeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿欽真是的"}
+		Value:    "阿欽"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	pudgeAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "pudgygolly"}
+		Value:    "pudgy"}
 
 	pudgeCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

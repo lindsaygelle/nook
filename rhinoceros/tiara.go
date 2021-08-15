@@ -25,51 +25,51 @@ var (
 
 	tiaraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	tiaraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	tiaraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tiaramon hippy"}
+		Value:    "Tiara"}
 
 	tiaraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Roswithaherzchen"}
+		Value:    "Roswitha"}
 
 	tiaraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Corneliadolcezza"}
+		Value:    "Cornelia"}
 
 	tiaraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ワイハてゆーか"}
+		Value:    "ワイハ"}
 
 	tiaraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	tiaraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	tiaraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	tiaraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "锋锋呀嗨"}
+		Value:    "锋锋"}
 
 	tiaraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tiaraamorcito"}
+		Value:    "Tiara"}
 
 	tiaraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

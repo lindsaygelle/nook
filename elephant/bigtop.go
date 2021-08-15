@@ -25,51 +25,51 @@ var (
 
 	bigtopCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Milesvipère"}
+		Value:    "Miles"}
 
 	bigtopDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Big Topboef"}
+		Value:    "Big Top"}
 
 	bigtopFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Milesvipère"}
+		Value:    "Miles"}
 
 	bigtopGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bennitruuu"}
+		Value:    "Benni"}
 
 	bigtopItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Grande Cfurfante"}
+		Value:    "Grande C"}
 
 	bigtopJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "３ごううりゃー"}
+		Value:    "３ごう"}
 
 	bigtopKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "3호으랏차"}
+		Value:    "3호"}
 
 	bigtopLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Déividduuud"}
+		Value:    "Déivid"}
 
 	bigtopRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Биг-Топхитрюга"}
+		Value:    "Биг-Топ"}
 
 	bigtopSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿三哈啊"}
+		Value:    "阿三"}
 
 	bigtopSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Déividmutante"}
+		Value:    "Déivid"}
 
 	bigtopTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿三哈啊"}
+		Value:    "阿三"}
 )
 
 var (

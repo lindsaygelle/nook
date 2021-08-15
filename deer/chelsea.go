@@ -25,51 +25,51 @@ var (
 
 	chelseaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chelseabibiche"}
+		Value:    "Chelsea"}
 
 	chelseaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chelseamelodietje"}
+		Value:    "Chelsea"}
 
 	chelseaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chelseabibiche"}
+		Value:    "Chelsea"}
 
 	chelseaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Chelseadenkpink"}
+		Value:    "Chelsea"}
 
 	chelseaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Chelseamelodì"}
+		Value:    "Chelsea"}
 
 	chelseaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チェルシーメロメロ"}
+		Value:    "チェルシー"}
 
 	chelseaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "첼시하트하트"}
+		Value:    "첼시"}
 
 	chelseaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chelseamelomelo"}
+		Value:    "Chelsea"}
 
 	chelseaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Челсибисквит"}
+		Value:    "Челси"}
 
 	chelseaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雀儿喜喜喜"}
+		Value:    "雀儿喜"}
 
 	chelseaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chelseamelomelo"}
+		Value:    "Chelsea"}
 
 	chelseaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雀兒喜喜喜"}
+		Value:    "雀兒喜"}
 )
 
 var (

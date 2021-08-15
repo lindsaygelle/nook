@@ -25,51 +25,51 @@ var (
 
 	ribbotCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Crabotcroac"}
+		Value:    "Crabot"}
 
 	ribbotDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ribbotkwwwrrrk"}
+		Value:    "Ribbot"}
 
 	ribbotFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Crabotcroac"}
+		Value:    "Crabot"}
 
 	ribbotGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Robbiquarrrk"}
+		Value:    "Robbi"}
 
 	ribbotItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ranabotcracrà"}
+		Value:    "Ranabot"}
 
 	ribbotJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ガチャだロボ"}
+		Value:    "ガチャ"}
 
 	ribbotKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "철컥오버"}
+		Value:    "철컥"}
 
 	ribbotLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ranobotcrobit"}
+		Value:    "Ranobot"}
 
 	ribbotRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рибботквак-дзынь"}
+		Value:    "Риббот"}
 
 	ribbotSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "锵锵机器"}
+		Value:    "锵锵"}
 
 	ribbotSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ranobotcrobit"}
+		Value:    "Ranobot"}
 
 	ribbotTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "鏘鏘機器"}
+		Value:    "鏘鏘"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	ribbotAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "toadyzzrrbbit"}
+		Value:    "toady"}
 
 	ribbotCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

@@ -25,51 +25,51 @@ var (
 
 	hornsbyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cornioeuh"}
+		Value:    "Cornio"}
 
 	hornsbyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hornsbysneuzel"}
+		Value:    "Hornsby"}
 
 	hornsbyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cornioeuh"}
+		Value:    "Cornio"}
 
 	hornsbyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rüdigerschneuzel"}
+		Value:    "Rüdiger"}
 
 	hornsbyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rinosplush"}
+		Value:    "Rino"}
 
 	hornsbyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "みつおのネン"}
+		Value:    "みつお"}
 
 	hornsbyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "뿌람뿔뿔"}
+		Value:    "뿌람"}
 
 	hornsbyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rinokaplut"}
+		Value:    "Rino"}
 
 	hornsbyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хорнсбишнобель"}
+		Value:    "Хорнсби"}
 
 	hornsbySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "光雄念念"}
+		Value:    "光雄"}
 
 	hornsbySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rinonarigón"}
+		Value:    "Rino"}
 
 	hornsbyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "光雄念念"}
+		Value:    "光雄"}
 )
 
 var (

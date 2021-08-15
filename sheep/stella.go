@@ -25,51 +25,51 @@ var (
 
 	stellaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bigoudimon agneau"}
+		Value:    "Bigoudi"}
 
 	stellaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Stellamèèèh"}
+		Value:    "Stella"}
 
 	stellaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bigoudimon agneau"}
+		Value:    "Bigoudi"}
 
 	stellaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Stellabadabing"}
+		Value:    "Stella"}
 
 	stellaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Merinabeeene"}
+		Value:    "Merina"}
 
 	stellaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アクリルウール"}
+		Value:    "アクリル"}
 
 	stellaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아크릴울"}
+		Value:    "아크릴"}
 
 	stellaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Merinabaa-bii"}
+		Value:    "Merina"}
 
 	stellaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Стеллабэ-дабинь"}
+		Value:    "Стелла"}
 
 	stellaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "毡毡羊毛"}
+		Value:    "毡毡"}
 
 	stellaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Merinano veeeas"}
+		Value:    "Merina"}
 
 	stellaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "氈氈羊毛"}
+		Value:    "氈氈"}
 )
 
 var (

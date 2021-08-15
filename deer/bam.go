@@ -25,51 +25,51 @@ var (
 
 	bamCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Nacertêtedebois"}
+		Value:    "Nacer"}
 
 	bamDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bamgaffel"}
+		Value:    "Bam"}
 
 	bamFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Nacertêtedebois"}
+		Value:    "Nacer"}
 
 	bamGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Benjaminweihweih"}
+		Value:    "Benjamin"}
 
 	bamItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Corneliohop hop"}
+		Value:    "Cornelio"}
 
 	bamJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タケルナラね"}
+		Value:    "タケル"}
 
 	bamKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "록키슉슉"}
+		Value:    "록키"}
 
 	bamLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Corneliocaplúúú"}
+		Value:    "Cornelio"}
 
 	bamRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бамскок-скок"}
+		Value:    "Бам"}
 
 	bamSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小健梅花"}
+		Value:    "小健"}
 
 	bamSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Corneliogalilla"}
+		Value:    "Cornelio"}
 
 	bamTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小健梅花"}
+		Value:    "小健"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	bamAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "booshprangkablang"}
+		Value:    "boosh"}
 
 	bamCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

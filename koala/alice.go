@@ -25,51 +25,51 @@ var (
 
 	aliceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Alicechef"}
+		Value:    "Alice"}
 
 	aliceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Alicechef"}
+		Value:    "Alice"}
 
 	aliceFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Alicechef"}
+		Value:    "Alice"}
 
 	aliceGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Konnyschnarchhh"}
+		Value:    "Konny"}
 
 	aliceItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Alicetesorino"}
+		Value:    "Alice"}
 
 	aliceJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "メルボルンキラリ"}
+		Value:    "メルボルン"}
 
 	aliceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "멜버른반짝"}
+		Value:    "멜버른"}
 
 	aliceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Zelandaeucaliup"}
+		Value:    "Zelanda"}
 
 	aliceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Алисалидер"}
+		Value:    "Алиса"}
 
 	aliceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莫儿晶亮"}
+		Value:    "莫儿"}
 
 	aliceSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Zelandatú"}
+		Value:    "Zelanda"}
 
 	aliceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莫兒晶亮"}
+		Value:    "莫兒"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	oliveCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Grisatrognon"}
+		Value:    "Grisa"}
 
 	oliveDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Olivehoningkelkje"}
+		Value:    "Olive"}
 
 	oliveFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Grisatrognon"}
+		Value:    "Grisa"}
 
 	oliveGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lindahonigtopf"}
+		Value:    "Linda"}
 
 	oliveItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Oliviafagiolino"}
+		Value:    "Olivia"}
 
 	oliveJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピッコロマグ"}
+		Value:    "ピッコロ"}
 
 	oliveKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "올리브오잉"}
+		Value:    "올리브"}
 
 	oliveLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Osalinapanipof"}
+		Value:    "Osalina"}
 
 	oliveRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Оливмилашка"}
+		Value:    "Олив"}
 
 	oliveSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "毕克萝马克杯"}
+		Value:    "毕克萝"}
 
 	oliveSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Osalinapanalito"}
+		Value:    "Osalina"}
 
 	oliveTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "畢克蘿馬克杯"}
+		Value:    "畢克蘿"}
 )
 
 var (

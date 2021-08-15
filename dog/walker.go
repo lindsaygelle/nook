@@ -25,51 +25,51 @@ var (
 
 	walkerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Georgeouh"}
+		Value:    "George"}
 
 	walkerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Walkerwaf"}
+		Value:    "Walker"}
 
 	walkerFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Georgeouh"}
+		Value:    "George"}
 
 	walkerGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Fidowafff"}
+		Value:    "Fido"}
 
 	walkerItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Walterwuff"}
+		Value:    "Walter"}
 
 	walkerJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ベンバウ"}
+		Value:    "ベン"}
 
 	walkerKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "벤컹컹"}
+		Value:    "벤"}
 
 	walkerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mikiguuu-ah"}
+		Value:    "Miki"}
 
 	walkerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Уокерау-у"}
+		Value:    "Уокер"}
 
 	walkerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿笨咆"}
+		Value:    "阿笨"}
 
 	walkerSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mikihuesitos"}
+		Value:    "Miki"}
 
 	walkerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿笨咆"}
+		Value:    "阿笨"}
 )
 
 var (

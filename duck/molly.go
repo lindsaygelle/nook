@@ -25,51 +25,51 @@ var (
 
 	mollyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mollycanénette"}
+		Value:    "Molly"}
 
 	mollyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mollytopper"}
+		Value:    "Molly"}
 
 	mollyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mollycanénette"}
+		Value:    "Molly"}
 
 	mollyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Monikakrümel"}
+		Value:    "Monika"}
 
 	mollyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mollycoin coin"}
+		Value:    "Molly"}
 
 	mollyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カモミそうかも"}
+		Value:    "カモミ"}
 
 	mollyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "귀오미그럴지도"}
+		Value:    "귀오미"}
 
 	mollyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Deiracuáquidi"}
+		Value:    "Deira"}
 
 	mollyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Молликрякульки"}
+		Value:    "Молли"}
 
 	mollySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "亚美说不定鸭"}
+		Value:    "亚美"}
 
 	mollySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Deiradeverdá"}
+		Value:    "Deira"}
 
 	mollyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "亞美說不定鴨"}
+		Value:    "亞美"}
 )
 
 var (

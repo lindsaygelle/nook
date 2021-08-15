@@ -25,51 +25,51 @@ var (
 
 	grouchoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ronchongrou-gnon"}
+		Value:    "Ronchon"}
 
 	grouchoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Grouchobrom"}
+		Value:    "Groucho"}
 
 	grouchoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ronchongrou-gnon"}
+		Value:    "Ronchon"}
 
 	grouchoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ernstbrummel"}
+		Value:    "Ernst"}
 
 	grouchoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Grouchogrum grum"}
+		Value:    "Groucho"}
 
 	grouchoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クローワォー"}
+		Value:    "クロー"}
 
 	grouchoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "거무틱어쩌라구"}
+		Value:    "거무틱"}
 
 	grouchoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Grouchojorrr"}
+		Value:    "Groucho"}
 
 	grouchoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Граучобур-бур"}
+		Value:    "Граучо"}
 
 	grouchoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "爪爪哇哇"}
+		Value:    "爪爪"}
 
 	grouchoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Grouchojorrr"}
+		Value:    "Groucho"}
 
 	grouchoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "爪爪哇哇"}
+		Value:    "爪爪"}
 )
 
 var (

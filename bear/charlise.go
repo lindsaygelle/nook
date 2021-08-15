@@ -25,51 +25,51 @@ var (
 
 	charliseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Zabouchacha"}
+		Value:    "Zabou"}
 
 	charliseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Charlisepff"}
+		Value:    "Charlise"}
 
 	charliseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Zabouverlue"}
+		Value:    "Zabou"}
 
 	charliseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tabeabärbär"}
+		Value:    "Tabea"}
 
 	charliseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Orsolasbuff"}
+		Value:    "Orsola"}
 
 	charliseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャーミーよいしょ"}
+		Value:    "チャーミー"}
 
 	charliseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "챠미으랏차차"}
+		Value:    "챠미"}
 
 	charliseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Charourrrgh"}
+		Value:    "Charo"}
 
 	charliseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шарлизого-го"}
+		Value:    "Шарлиз"}
 
 	charliseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "恰咪唷咻"}
+		Value:    "恰咪"}
 
 	charliseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Charocomolooyes"}
+		Value:    "Charo"}
 
 	charliseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "恰咪唷咻"}
+		Value:    "恰咪"}
 )
 
 var (

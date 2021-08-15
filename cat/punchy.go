@@ -25,51 +25,51 @@ var (
 
 	punchyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cédricmimine"}
+		Value:    "Cédric"}
 
 	punchyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Punchyplof"}
+		Value:    "Punchy"}
 
 	punchyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cédricblébléblé"}
+		Value:    "Cédric"}
 
 	punchyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Julianmrmpft"}
+		Value:    "Julian"}
 
 	punchyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Felixmaramao"}
+		Value:    "Felix"}
 
 	punchyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビンタだのら"}
+		Value:    "ビンタ"}
 
 	punchyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "빙티노라줘"}
+		Value:    "빙티"}
 
 	punchyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Félixgruuuah"}
+		Value:    "Félix"}
 
 	punchyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Панчиотдыхаем"}
+		Value:    "Панчи"}
 
 	punchySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "尔光晃晃"}
+		Value:    "尔光"}
 
 	punchySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Félixarenque"}
+		Value:    "Félix"}
 
 	punchyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "爾光晃晃"}
+		Value:    "爾光"}
 )
 
 var (

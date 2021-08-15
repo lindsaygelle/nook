@@ -25,51 +25,51 @@ var (
 
 	scootCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Scooterzak zak"}
+		Value:    "Scooter"}
 
 	scootDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Scootbroem"}
+		Value:    "Scoot"}
 
 	scootFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Scooterzak zak"}
+		Value:    "Scooter"}
 
 	scootGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Helmutflitzer"}
+		Value:    "Helmut"}
 
 	scootItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Guizzozip zoom"}
+		Value:    "Guizzo"}
 
 	scootJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マモルグワッ"}
+		Value:    "マモル"}
 
 	scootKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "지키미꾸왁"}
+		Value:    "지키미"}
 
 	scootLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chemazapizum"}
+		Value:    "Chema"}
 
 	scootRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Скутбрум-брум"}
+		Value:    "Скут"}
 
 	scootSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿守呱呱"}
+		Value:    "阿守"}
 
 	scootSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chemazapizum"}
+		Value:    "Chema"}
 
 	scootTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿守呱呱"}
+		Value:    "阿守"}
 )
 
 var (

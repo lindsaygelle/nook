@@ -25,51 +25,51 @@ var (
 
 	velmaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Vératu vois"}
+		Value:    "Véra"}
 
 	velmaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Velmameh"}
+		Value:    "Velma"}
 
 	velmaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Vératu vois"}
+		Value:    "Véra"}
 
 	velmaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Wilmamecker"}
+		Value:    "Wilma"}
 
 	velmaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Belardablip"}
+		Value:    "Belarda"}
 
 	velmaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピティエザーマス"}
+		Value:    "ピティエ"}
 
 	velmaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "벨마똑바로해"}
+		Value:    "벨마"}
 
 	velmaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Erikaverááás-tú"}
+		Value:    "Erika"}
 
 	velmaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Велмаме-е-е"}
+		Value:    "Велма"}
 
 	velmaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "班长起立"}
+		Value:    "班长"}
 
 	velmaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Erikaveráaas-tú"}
+		Value:    "Erika"}
 
 	velmaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "班長起立"}
+		Value:    "班長"}
 )
 
 var (

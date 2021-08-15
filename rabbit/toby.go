@@ -25,51 +25,51 @@ var (
 
 	tobyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tobykérocarot"}
+		Value:    "Toby"}
 
 	tobyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tobykikk'r"}
+		Value:    "Toby"}
 
 	tobyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tobykérocarot"}
+		Value:    "Toby"}
 
 	tobyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tobykerokero"}
+		Value:    "Toby"}
 
 	tobyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tobykerokero"}
+		Value:    "Toby"}
 
 	tobyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トビーけろけろ"}
+		Value:    "トビー"}
 
 	tobyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "토비케로케로"}
+		Value:    "토비"}
 
 	tobyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tobykeroppi"}
+		Value:    "Toby"}
 
 	tobyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тобизайцеквак"}
+		Value:    "Тоби"}
 
 	tobySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "咚比蛙蛙"}
+		Value:    "咚比"}
 
 	tobySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tobykeroppi"}
+		Value:    "Toby"}
 
 	tobyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "咚比蛙蛙"}
+		Value:    "咚比"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	eponaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Éponahippépique"}
+		Value:    "Épona"}
 
 	eponaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	eponaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Éponahippépique"}
+		Value:    "Épona"}
 
 	eponaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Eponalonlon"}
+		Value:    "Epona"}
 
 	eponaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Eponaliiinnn"}
+		Value:    "Epona"}
 
 	eponaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エポナヒンヒン"}
+		Value:    "エポナ"}
 
 	eponaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에포나히힝"}
+		Value:    "에포나"}
 
 	eponaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Eponalon lon"}
+		Value:    "Epona"}
 
 	eponaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	eponaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	eponaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Eponalon lon"}
+		Value:    "Epona"}
 
 	eponaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

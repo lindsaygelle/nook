@@ -25,51 +25,51 @@ var (
 
 	cleoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cléabeauté"}
+		Value:    "Cléa"}
 
 	cleoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cleosnoepje"}
+		Value:    "Cleo"}
 
 	cleoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cléabeauté"}
+		Value:    "Cléa"}
 
 	cleoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Birgitplätzchen"}
+		Value:    "Birgit"}
 
 	cleoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Susannadolcetto"}
+		Value:    "Susanna"}
 
 	cleoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アイソトープあそばせ"}
+		Value:    "アイソトープ"}
 
 	cleoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아이소토프훗훗"}
+		Value:    "아이소토프"}
 
 	cleoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Clotildehop-puá"}
+		Value:    "Clotilde"}
 
 	cleoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Клеорафинад"}
+		Value:    "Клео"}
 
 	cleoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小铀游游"}
+		Value:    "小铀"}
 
 	cleoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Clotildebomboncito"}
+		Value:    "Clotilde"}
 
 	cleoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小鈾遊遊"}
+		Value:    "小鈾"}
 )
 
 var (

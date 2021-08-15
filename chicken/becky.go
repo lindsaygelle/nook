@@ -25,51 +25,51 @@ var (
 
 	beckyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Sonyacôôôôt"}
+		Value:    "Sonya"}
 
 	beckyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Beckykuiken"}
+		Value:    "Becky"}
 
 	beckyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sonyacôôôôt"}
+		Value:    "Sonya"}
 
 	beckyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ingabokbok"}
+		Value:    "Inga"}
 
 	beckyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Annettacoccoricò"}
+		Value:    "Annetta"}
 
 	beckyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アリアハレルヤ"}
+		Value:    "アリア"}
 
 	beckyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아리아도레미"}
+		Value:    "아리아"}
 
 	beckyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Raminacucurrús"}
+		Value:    "Ramina"}
 
 	beckyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Беккимодненько"}
+		Value:    "Бекки"}
 
 	beckySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "咏旋哈雷路亚"}
+		Value:    "咏旋"}
 
 	beckySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Raminacucurrús"}
+		Value:    "Ramina"}
 
 	beckyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "詠旋哈雷路亞"}
+		Value:    "詠旋"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	bootsCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Crokomiam miam"}
+		Value:    "Croko"}
 
 	bootsDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bootssmikkel"}
+		Value:    "Boots"}
 
 	bootsFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Crokomariolle"}
+		Value:    "Croko"}
 
 	bootsGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tilmannschmatzi"}
+		Value:    "Tilmann"}
 
 	bootsItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Croccognammi"}
+		Value:    "Crocco"}
 
 	bootsJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ホウサクだぴょん"}
+		Value:    "ホウサク"}
 
 	bootsKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "풍작만세"}
+		Value:    "풍작"}
 
 	bootsLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Brauliocrococroco"}
+		Value:    "Braulio"}
 
 	bootsRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бутскусь"}
+		Value:    "Бутс"}
 
 	bootsSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "丰年跳"}
+		Value:    "丰年"}
 
 	bootsSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Brauliocrococroco"}
+		Value:    "Braulio"}
 
 	bootsTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "豐年跳"}
+		Value:    "豐年"}
 )
 
 var (

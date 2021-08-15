@@ -25,51 +25,51 @@ var (
 
 	quillsonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Narcissearrêêêête"}
+		Value:    "Narcisse"}
 
 	quillsonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Quillsonsmient"}
+		Value:    "Quillson"}
 
 	quillsonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Narcissearrêêêête"}
+		Value:    "Narcisse"}
 
 	quillsonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Quentinpluster"}
+		Value:    "Quentin"}
 
 	quillsonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Verdoniocua cua"}
+		Value:    "Verdonio"}
 
 	quillsonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タックンマジかよ"}
+		Value:    "タックン"}
 
 	quillsonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "덕근리얼리"}
+		Value:    "덕근"}
 
 	quillsonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cuáltercuacoac"}
+		Value:    "Cuálter"}
 
 	quillsonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Квилсоншу-утка"}
+		Value:    "Квилсон"}
 
 	quillsonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "何童说真的"}
+		Value:    "何童"}
 
 	quillsonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cuálterverdoncho"}
+		Value:    "Cuálter"}
 
 	quillsonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "何童說真的"}
+		Value:    "何童"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	nobuoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "のぶおブツブツ"}
+		Value:    "のぶお"}
 
 	nobuoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nobuoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

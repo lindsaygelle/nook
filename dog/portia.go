@@ -25,51 +25,51 @@ var (
 
 	portiaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Dalmabrute"}
+		Value:    "Dalma"}
 
 	portiaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Portiakeffer"}
+		Value:    "Portia"}
 
 	portiaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Dalmabrute"}
+		Value:    "Dalma"}
 
 	portiaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Isoldefrechi"}
+		Value:    "Isolde"}
 
 	portiaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Porziaronfietto"}
+		Value:    "Porzia"}
 
 	portiaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブレンダフンッ"}
+		Value:    "ブレンダ"}
 
 	portiaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "블랜더흥"}
+		Value:    "블랜더"}
 
 	portiaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Amandaruf-ruf"}
+		Value:    "Amanda"}
 
 	portiaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Порциятяв-ряв"}
+		Value:    "Порция"}
 
 	portiaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "傅兰屋屋"}
+		Value:    "傅兰"}
 
 	portiaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Amandaruf-ruf"}
+		Value:    "Amanda"}
 
 	portiaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "傅蘭屋屋"}
+		Value:    "傅蘭"}
 )
 
 var (

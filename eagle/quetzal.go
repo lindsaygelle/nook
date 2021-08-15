@@ -25,51 +25,51 @@ var (
 
 	quetzalCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	quetzalDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	quetzalFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Quetzalcouêêêtzal"}
+		Value:    "Quetzal"}
 
 	quetzalGermanName = nook.Name{
 		Language: language.German,
-		Value:    "EnriqueKRIKRI"}
+		Value:    "Enrique"}
 
 	quetzalItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "QuetzalOCCHIO"}
+		Value:    "Quetzal"}
 
 	quetzalJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハチェットゲロッパ"}
+		Value:    "ハチェット"}
 
 	quetzalKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	quetzalLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	quetzalRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	quetzalSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "战斧喳喳"}
+		Value:    "战斧"}
 
 	quetzalSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Quetzalcuiii"}
+		Value:    "Quetzal"}
 
 	quetzalTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

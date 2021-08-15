@@ -25,51 +25,51 @@ var (
 
 	judyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lauraoh là là"}
+		Value:    "Laura"}
 
 	judyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Judynee maar"}
+		Value:    "Judy"}
 
 	judyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lauraoh là là"}
+		Value:    "Laura"}
 
 	judyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Misuzuträum"}
+		Value:    "Misuzu"}
 
 	judyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Misuzumisu misu"}
+		Value:    "Misuzu"}
 
 	judyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "みすずあらら"}
+		Value:    "みすず"}
 
 	judyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "미애어머머"}
+		Value:    "미애"}
 
 	judyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Roseznauyuyuy"}
+		Value:    "Rosezna"}
 
 	judyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джудиохохонюшки"}
+		Value:    "Джуди"}
 
 	judySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "美玲哎呀"}
+		Value:    "美玲"}
 
 	judySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Roseznaqué cosas"}
+		Value:    "Rosezna"}
 
 	judyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "美玲哎呀"}
+		Value:    "美玲"}
 )
 
 var (

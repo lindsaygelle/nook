@@ -25,51 +25,51 @@ var (
 
 	roaldCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Reynaldpépépère"}
+		Value:    "Reynald"}
 
 	roaldDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Roaldm-m-maatje"}
+		Value:    "Roald"}
 
 	roaldFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Reynaldpépépère"}
+		Value:    "Reynald"}
 
 	roaldGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rolandk-k-kumpel"}
+		Value:    "Roland"}
 
 	roaldItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Angelinobr-br-brr"}
+		Value:    "Angelino"}
 
 	roaldJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ペンタだペン"}
+		Value:    "ペンタ"}
 
 	roaldKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "펭수팽팽"}
+		Value:    "펭수"}
 
 	roaldLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bobititirito"}
+		Value:    "Bobi"}
 
 	roaldRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Роальдд-дружище"}
+		Value:    "Роальд"}
 
 	roaldSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "企鹅达企鹅"}
+		Value:    "企鹅达"}
 
 	roaldSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bobititirito"}
+		Value:    "Bobi"}
 
 	roaldTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "企鵝達企鵝"}
+		Value:    "企鵝達"}
 )
 
 var (

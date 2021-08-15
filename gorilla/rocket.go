@@ -25,51 +25,51 @@ var (
 
 	rocketCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gertrudepatouche"}
+		Value:    "Gertrude"}
 
 	rocketDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rocketvroem"}
+		Value:    "Rocket"}
 
 	rocketFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gertrudepatouche"}
+		Value:    "Gertrude"}
 
 	rocketGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Katrinbrahaha"}
+		Value:    "Katrin"}
 
 	rocketItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Kingauhatà"}
+		Value:    "Kinga"}
 
 	rocketJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "４ごうそりゃっ"}
+		Value:    "４ごう"}
 
 	rocketKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "4호끼얍"}
+		Value:    "4호"}
 
 	rocketLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gloriauga-uga"}
+		Value:    "Gloria"}
 
 	rocketRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рокетна взлет"}
+		Value:    "Рокет"}
 
 	rocketSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿四煞啊"}
+		Value:    "阿四"}
 
 	rocketSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gloriauga-uga"}
+		Value:    "Gloria"}
 
 	rocketTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿四煞啊"}
+		Value:    "阿四"}
 )
 
 var (

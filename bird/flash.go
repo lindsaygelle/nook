@@ -25,51 +25,51 @@ var (
 
 	flashCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flashDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flashFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mauricecuicui"}
+		Value:    "Maurice"}
 
 	flashGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Floschätzchen"}
+		Value:    "Flo"}
 
 	flashItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Balenoflash"}
+		Value:    "Baleno"}
 
 	flashJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "みちるチルチル"}
+		Value:    "みちる"}
 
 	flashKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flashLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flashRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flashSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flashSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Maurocari"}
+		Value:    "Mauro"}
 
 	flashTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	melbaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Melbapêchou"}
+		Value:    "Melba"}
 
 	melbaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Melbatoastje"}
+		Value:    "Melba"}
 
 	melbaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Melbapêchou"}
+		Value:    "Melba"}
 
 	melbaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Korneliazubba"}
+		Value:    "Kornelia"}
 
 	melbaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Melbatoasty"}
+		Value:    "Melba"}
 
 	melbaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アデレードとっても"}
+		Value:    "アデレード"}
 
 	melbaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아델레이드정말로요"}
+		Value:    "아델레이드"}
 
 	melbaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Melbapichú"}
+		Value:    "Melba"}
 
 	melbaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мельбахрустяшка"}
+		Value:    "Мельба"}
 
 	melbaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿得不得了"}
+		Value:    "阿得"}
 
 	melbaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Melbatesoro"}
+		Value:    "Melba"}
 
 	melbaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿得不得了"}
+		Value:    "阿得"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	cupcakeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	cupcakeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	cupcakeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bellahum miam"}
+		Value:    "Bella"}
 
 	cupcakeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bärbelschätzchen"}
+		Value:    "Bärbel"}
 
 	cupcakeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Chiccazucchero"}
+		Value:    "Chicca"}
 
 	cupcakeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クリスピーかしら"}
+		Value:    "クリスピー"}
 
 	cupcakeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	cupcakeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	cupcakeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	cupcakeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "晶晶明白"}
+		Value:    "晶晶"}
 
 	cupcakeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rositapastelito"}
+		Value:    "Rosita"}
 
 	cupcakeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

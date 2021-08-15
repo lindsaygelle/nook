@@ -25,51 +25,51 @@ var (
 
 	rolloCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rolloDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rolloFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Hippoque diable"}
+		Value:    "Hippo"}
 
 	rolloGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Winfriedrülps"}
+		Value:    "Winfried"}
 
 	rolloItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rollotrippo"}
+		Value:    "Rollo"}
 
 	rolloJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヒポクラテスなのな"}
+		Value:    "ヒポクラテス"}
 
 	rolloKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rolloLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rolloRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rolloSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗素哈"}
+		Value:    "罗素"}
 
 	rolloSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Hipohip-hip"}
+		Value:    "Hipo"}
 
 	rolloTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	sallyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Damiatac"}
+		Value:    "Damia"}
 
 	sallyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sallymuskaatje"}
+		Value:    "Sally"}
 
 	sallyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Damiatac"}
+		Value:    "Damia"}
 
 	sallyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hannemuskat"}
+		Value:    "Hanne"}
 
 	sallyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rossellanocciolina"}
+		Value:    "Rossella"}
 
 	sallyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ララミーったら"}
+		Value:    "ララミー"}
 
 	sallyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "라라미까꿍"}
+		Value:    "라라미"}
 
 	sallyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pralinéraminí"}
+		Value:    "Praliné"}
 
 	sallyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Саллимускатик"}
+		Value:    "Салли"}
 
 	sallySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "拉拉米要是"}
+		Value:    "拉拉米"}
 
 	sallySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pralinéramita"}
+		Value:    "Praliné"}
 
 	sallyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "拉拉米要是"}
+		Value:    "拉拉米"}
 )
 
 var (

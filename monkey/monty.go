@@ -25,51 +25,51 @@ var (
 
 	montyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lourantl'outang"}
+		Value:    "Lourant"}
 
 	montyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Montyorang"}
+		Value:    "Monty"}
 
 	montyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lourantl'outang"}
+		Value:    "Lourant"}
 
 	montyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Danielabbo"}
+		Value:    "Daniel"}
 
 	montyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mimmog'tang"}
+		Value:    "Mimmo"}
 
 	montyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サルモンティバナーナ"}
+		Value:    "サルモンティ"}
 
 	montyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "몽티바나나"}
+		Value:    "몽티"}
 
 	montyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Burtonuuuuh-ah"}
+		Value:    "Burton"}
 
 	montyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Монтиух-эх"}
+		Value:    "Монти"}
 
 	montySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "皮猴香蕉"}
+		Value:    "皮猴"}
 
 	montySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Burtonuuuuh-ah"}
+		Value:    "Burton"}
 
 	montyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "皮猴香蕉"}
+		Value:    "皮猴"}
 )
 
 var (

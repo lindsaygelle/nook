@@ -25,51 +25,51 @@ var (
 
 	angusCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Angusmeuh meuh"}
+		Value:    "Angus"}
 
 	angusDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Angusdenderund"}
+		Value:    "Angus"}
 
 	angusFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Angusmeuh meuh"}
+		Value:    "Angus"}
 
 	angusGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Angusbrrruzzl"}
+		Value:    "Angus"}
 
 	angusItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Angusmacmoo"}
+		Value:    "Angus"}
 
 	angusJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "セルバンテスふふ"}
+		Value:    "セルバンテス"}
 
 	angusKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "반데스후후"}
+		Value:    "반데스"}
 
 	angusLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Alistebufff"}
+		Value:    "Aliste"}
 
 	angusRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ангусмакму-у-у"}
+		Value:    "Ангус"}
 
 	angusSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "施万德呼呼"}
+		Value:    "施万德"}
 
 	angusSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Alistecuernos"}
+		Value:    "Aliste"}
 
 	angusTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "施萬德呼呼"}
+		Value:    "施萬德"}
 )
 
 var (

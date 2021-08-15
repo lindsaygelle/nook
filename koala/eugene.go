@@ -25,51 +25,51 @@ var (
 
 	eugeneCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jamyoh yeah"}
+		Value:    "Jamy"}
 
 	eugeneDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Eugeneyeah"}
+		Value:    "Eugene"}
 
 	eugeneFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jamyyapaphoto"}
+		Value:    "Jamy"}
 
 	eugeneGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sunnyyeah"}
+		Value:    "Sunny"}
 
 	eugeneItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Corradokoahola"}
+		Value:    "Corrado"}
 
 	eugeneJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ロッキーおいおい"}
+		Value:    "ロッキー"}
 
 	eugeneKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "코알야야야"}
+		Value:    "코알"}
 
 	eugeneLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Eucalínouyeah"}
+		Value:    "Eucalín"}
 
 	eugeneRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Юджинприятель"}
+		Value:    "Юджин"}
 
 	eugeneSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗奇喂喂"}
+		Value:    "罗奇"}
 
 	eugeneSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Eucalínouyeah"}
+		Value:    "Eucalín"}
 
 	eugeneTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅奇喂喂"}
+		Value:    "羅奇"}
 )
 
 var (

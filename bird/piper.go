@@ -25,51 +25,51 @@ var (
 
 	piperCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Neigepuic puic"}
+		Value:    "Neige"}
 
 	piperDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pipertjiep tjiep"}
+		Value:    "Piper"}
 
 	piperFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Neigepuic puic"}
+		Value:    "Neige"}
 
 	piperGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Iristschikadii"}
+		Value:    "Iris"}
 
 	piperItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Giulivacocoricò"}
+		Value:    "Giuliva"}
 
 	piperJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "レイコけどー"}
+		Value:    "レイコ"}
 
 	piperKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "파이프허나"}
+		Value:    "파이프"}
 
 	piperLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bárbarachupiyá"}
+		Value:    "Bárbara"}
 
 	piperRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пайперчики-чик"}
+		Value:    "Пайпер"}
 
 	piperSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "丽婷山雀"}
+		Value:    "丽婷"}
 
 	piperSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bárbarachupiyá"}
+		Value:    "Bárbara"}
 
 	piperTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "麗婷山雀"}
+		Value:    "麗婷"}
 )
 
 var (

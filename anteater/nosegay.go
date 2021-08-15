@@ -25,51 +25,51 @@ var (
 
 	nosegayCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nosegayDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nosegayFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tamarahoooonk"}
+		Value:    "Tamara"}
 
 	nosegayGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hortenseschnauf"}
+		Value:    "Hortense"}
 
 	nosegayItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Naricahoooonk"}
+		Value:    "Narica"}
 
 	nosegayJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アリンコでアリ"}
+		Value:    "アリンコ"}
 
 	nosegayKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nosegayLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nosegayRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	nosegaySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小蚁确实"}
+		Value:    "小蚁"}
 
 	nosegaySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Marisaachís"}
+		Value:    "Marisa"}
 
 	nosegayTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

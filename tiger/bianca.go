@@ -25,51 +25,51 @@ var (
 
 	biancaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Noémiela vie"}
+		Value:    "Noémie"}
 
 	biancaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Biancawitje"}
+		Value:    "Bianca"}
 
 	biancaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Noémiecroky"}
+		Value:    "Noémie"}
 
 	biancaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bettinaprrr"}
+		Value:    "Bettina"}
 
 	biancaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Grattinayeppa"}
+		Value:    "Grattina"}
 
 	biancaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "コユキでヒョウ"}
+		Value:    "コユキ"}
 
 	biancaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "백희그래호"}
+		Value:    "백희"}
 
 	biancaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Biancaruarri"}
+		Value:    "Bianca"}
 
 	biancaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бьянкахлоп-хлоп"}
+		Value:    "Бьянка"}
 
 	biancaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小雪雪豹"}
+		Value:    "小雪"}
 
 	biancaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Biancaguiñito"}
+		Value:    "Bianca"}
 
 	biancaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小雪雪豹"}
+		Value:    "小雪"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	timbraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Sélènebarbiche"}
+		Value:    "Sélène"}
 
 	timbraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Timbradenappel"}
+		Value:    "Timbra"}
 
 	timbraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sélènebarbiche"}
+		Value:    "Sélène"}
 
 	timbraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tippsibwäääh"}
+		Value:    "Tippsi"}
 
 	timbraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ambrapecoramè"}
+		Value:    "Ambra"}
 
 	timbraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "つかさまつわ"}
+		Value:    "つかさ"}
 
 	timbraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "잔디달려"}
+		Value:    "잔디"}
 
 	timbraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Hebrayalovééés"}
+		Value:    "Hebra"}
 
 	timbraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тимбрасосенка"}
+		Value:    "Тимбра"}
 
 	timbraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿司等啊"}
+		Value:    "阿司"}
 
 	timbraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Hebrayalovéees"}
+		Value:    "Hebra"}
 
 	timbraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿司等啊"}
+		Value:    "阿司"}
 )
 
 var (

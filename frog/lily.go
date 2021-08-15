@@ -25,51 +25,51 @@ var (
 
 	lilyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rainazzrrbbitt"}
+		Value:    "Raina"}
 
 	lilyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Lilypadje"}
+		Value:    "Lily"}
 
 	lilyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rainawatich'"}
+		Value:    "Raina"}
 
 	lilyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lilianekröti"}
+		Value:    "Liliane"}
 
 	lilyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gigliolagragragra"}
+		Value:    "Gigliola"}
 
 	lilyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "レイニーでちゅ"}
+		Value:    "レイニー"}
 
 	lilyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "레이니그래요"}
+		Value:    "레이니"}
 
 	lilyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Liliriiibit"}
+		Value:    "Lili"}
 
 	lilyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лиликва"}
+		Value:    "Лили"}
 
 	lilySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雷妮雨雨"}
+		Value:    "雷妮"}
 
 	lilySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lilimosquita"}
+		Value:    "Lili"}
 
 	lilyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雷妮雨雨"}
+		Value:    "雷妮"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	lilyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "zzrrbbittoady"}
+		Value:    "zzrrbbit"}
 
 	lilyCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

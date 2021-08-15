@@ -25,51 +25,51 @@ var (
 
 	breeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Quenotteboulette"}
+		Value:    "Quenotte"}
 
 	breeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Breekaaskoekje"}
+		Value:    "Bree"}
 
 	breeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Quenotteboulette"}
+		Value:    "Quenotte"}
 
 	breeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jennykicher"}
+		Value:    "Jenny"}
 
 	breeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ginellaformaggino"}
+		Value:    "Ginella"}
 
 	breeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サラなーんて"}
+		Value:    "サラ"}
 
 	breeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "사라글치머"}
+		Value:    "사라"}
 
 	breeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Briequesuá"}
+		Value:    "Brie"}
 
 	breeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Брисы-ы-ыр"}
+		Value:    "Бри"}
 
 	breeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "西瓜皮说说的"}
+		Value:    "西瓜皮"}
 
 	breeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Brieorejas"}
+		Value:    "Brie"}
 
 	breeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "西瓜皮說說的"}
+		Value:    "西瓜皮"}
 )
 
 var (

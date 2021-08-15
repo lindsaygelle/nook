@@ -25,51 +25,51 @@ var (
 
 	roryCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Herculeexcellent"}
+		Value:    "Hercule"}
 
 	roryDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rorykoninklijk"}
+		Value:    "Rory"}
 
 	roryFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Herculecriniou"}
+		Value:    "Hercule"}
 
 	roryGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Leongraaah"}
+		Value:    "Leon"}
 
 	roryItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ruggeroroar"}
+		Value:    "Ruggero"}
 
 	roryJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アーサーナハッ"}
+		Value:    "アーサー"}
 
 	roryKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아더크릉"}
+		Value:    "아더"}
 
 	roryLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rogelioticotaco"}
+		Value:    "Rogelio"}
 
 	roryRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рорикапитально"}
+		Value:    "Рори"}
 
 	rorySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "亚瑟哪哈"}
+		Value:    "亚瑟"}
 
 	rorySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rogelioticotaco"}
+		Value:    "Rogelio"}
 
 	roryTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "亞瑟哪哈"}
+		Value:    "亞瑟"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	gonzoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gonzocalyptus"}
+		Value:    "Gonzo"}
 
 	gonzoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gonzopartner"}
+		Value:    "Gonzo"}
 
 	gonzoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gonzogalopin"}
+		Value:    "Gonzo"}
 
 	gonzoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Heribertpartner"}
+		Value:    "Heribert"}
 
 	gonzoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gonzodinamite"}
+		Value:    "Gonzo"}
 
 	gonzoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ゴンゾーだがや"}
+		Value:    "ゴンゾー"}
 
 	gonzoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "근성버텨"}
+		Value:    "근성"}
 
 	gonzoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Broncojorf-jorf"}
+		Value:    "Bronco"}
 
 	gonzoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гонзонапарник"}
+		Value:    "Гонзо"}
 
 	gonzoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "钢锁钱钱"}
+		Value:    "钢锁"}
 
 	gonzoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Broncojorf-jorf"}
+		Value:    "Bronco"}
 
 	gonzoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "鋼鎖錢錢"}
+		Value:    "鋼鎖"}
 )
 
 var (

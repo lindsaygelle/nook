@@ -25,51 +25,51 @@ var (
 
 	koharuCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "こはるちょいと"}
+		Value:    "こはる"}
 
 	koharuKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	koharuTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

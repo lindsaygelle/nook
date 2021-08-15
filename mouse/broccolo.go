@@ -25,51 +25,51 @@ var (
 
 	broccoloCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Stevenflim-flam"}
+		Value:    "Steven"}
 
 	broccoloDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Broccolosmakelijk"}
+		Value:    "Broccolo"}
 
 	broccoloFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Stevenflim-flam"}
+		Value:    "Steven"}
 
 	broccoloGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Fritziknabba"}
+		Value:    "Fritzi"}
 
 	broccoloItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Francosquikko"}
+		Value:    "Franco"}
 
 	broccoloJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブロッコリーピコ"}
+		Value:    "ブロッコリー"}
 
 	broccoloKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "브로콜리앗차"}
+		Value:    "브로콜리"}
 
 	broccoloLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Brócoliflinflán"}
+		Value:    "Brócoli"}
 
 	broccoloRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Брокколоням-ням"}
+		Value:    "Брокколо"}
 
 	broccoloSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "茜蓝微微"}
+		Value:    "茜蓝"}
 
 	broccoloSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Brócolidientes"}
+		Value:    "Brócoli"}
 
 	broccoloTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "茜藍微微"}
+		Value:    "茜藍"}
 )
 
 var (

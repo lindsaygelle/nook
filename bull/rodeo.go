@@ -25,51 +25,51 @@ var (
 
 	rodeoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Flècheolé"}
+		Value:    "Flèche"}
 
 	rodeoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rodeocowboy"}
+		Value:    "Rodeo"}
 
 	rodeoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Flèchecrac"}
+		Value:    "Flèche"}
 
 	rodeoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Torooléolé"}
+		Value:    "Toro"}
 
 	rodeoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rodeooléolé"}
+		Value:    "Rodeo"}
 
 	rodeoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ロデオさすがに"}
+		Value:    "ロデオ"}
 
 	rodeoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "로데오디용"}
+		Value:    "로데오"}
 
 	rodeoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rodeoolé"}
+		Value:    "Rodeo"}
 
 	rodeoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Родеоковбой"}
+		Value:    "Родео"}
 
 	rodeoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗迪欧了不起"}
+		Value:    "罗迪欧"}
 
 	rodeoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rodeoolé"}
+		Value:    "Rodeo"}
 
 	rodeoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅迪歐了不起"}
+		Value:    "羅迪歐"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	hamletCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jojochicots"}
+		Value:    "Jojo"}
 
 	hamletDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hamlethammie"}
+		Value:    "Hamlet"}
 
 	hamletFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jojochicots"}
+		Value:    "Jojo"}
 
 	hamletGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hamidtwirps"}
+		Value:    "Hamid"}
 
 	hamletItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Amletopuff pant"}
+		Value:    "Amleto"}
 
 	hamletJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハムスケハム"}
+		Value:    "ハムスケ"}
 
 	hamletKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "햄스틴햄햄"}
+		Value:    "햄스틴"}
 
 	hamletLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bombochucufá"}
+		Value:    "Bombo"}
 
 	hamletRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гамлетхомячок"}
+		Value:    "Гамлет"}
 
 	hamletSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "哈姆火腿"}
+		Value:    "哈姆"}
 
 	hamletSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bombochucufá"}
+		Value:    "Bombo"}
 
 	hamletTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "哈姆火腿"}
+		Value:    "哈姆"}
 )
 
 var (

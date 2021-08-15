@@ -25,51 +25,51 @@ var (
 
 	axelCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Axelsplaf"}
+		Value:    "Axel"}
 
 	axelDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "AxelPWAAP"}
+		Value:    "Axel"}
 
 	axelFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Axelsplaf"}
+		Value:    "Axel"}
 
 	axelGermanName = nook.Name{
 		Language: language.German,
-		Value:    "AxelTUUUUT"}
+		Value:    "Axel"}
 
 	axelItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "SandroSBONK"}
+		Value:    "Sandro"}
 
 	axelJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エックスエルでゴンス"}
+		Value:    "エックスエル"}
 
 	axelKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "엑스엘리히힛"}
+		Value:    "엑스엘리"}
 
 	axelLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Eustakioankagua"}
+		Value:    "Eustakio"}
 
 	axelRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аксельпотрубим"}
+		Value:    "Аксель"}
 
 	axelSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "大大嘻嘻"}
+		Value:    "大大"}
 
 	axelSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Eustakioankagua"}
+		Value:    "Eustakio"}
 
 	axelTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "大大嘻嘻"}
+		Value:    "大大"}
 )
 
 var (

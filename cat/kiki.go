@@ -25,51 +25,51 @@ var (
 
 	kikiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kikichti minou"}
+		Value:    "Kiki"}
 
 	kikiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kikipoesjemauw"}
+		Value:    "Kiki"}
 
 	kikiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kikichti minou"}
+		Value:    "Kiki"}
 
 	kikiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kikimiausi"}
+		Value:    "Kiki"}
 
 	kikiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Kikimieaoo"}
+		Value:    "Kiki"}
 
 	kikiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キャビアだニ"}
+		Value:    "キャビア"}
 
 	kikiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "캐비어뭐라지요"}
+		Value:    "캐비어"}
 
 	kikiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ágatamichifiú"}
+		Value:    "Ágata"}
 
 	kikiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кикикисуля"}
+		Value:    "Кики"}
 
 	kikiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "余子酱酱酱"}
+		Value:    "余子酱"}
 
 	kikiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ágatagalletita"}
+		Value:    "Ágata"}
 
 	kikiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "余子醬醬醬"}
+		Value:    "余子醬"}
 )
 
 var (

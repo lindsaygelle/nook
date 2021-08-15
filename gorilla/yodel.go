@@ -25,51 +25,51 @@ var (
 
 	yodelCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	yodelDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	yodelFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Thomasyolahitoou"}
+		Value:    "Thomas"}
 
 	yodelGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jürgenjodeli"}
+		Value:    "Jürgen"}
 
 	yodelItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Yodelullallà"}
+		Value:    "Yodel"}
 
 	yodelJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヨーデルヨホホー"}
+		Value:    "ヨーデル"}
 
 	yodelKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	yodelLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	yodelRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	yodelSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	yodelSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Asdrúbaljoya"}
+		Value:    "Asdrúbal"}
 
 	yodelTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

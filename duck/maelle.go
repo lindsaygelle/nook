@@ -25,51 +25,51 @@ var (
 
 	maelleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maëllecanardou"}
+		Value:    "Maëlle"}
 
 	maelleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Maellepulletje"}
+		Value:    "Maelle"}
 
 	maelleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maëllecanardou"}
+		Value:    "Maëlle"}
 
 	maelleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sissientchen"}
+		Value:    "Sissi"}
 
 	maelleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Palmitapaperotto"}
+		Value:    "Palmita"}
 
 	maelleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アンヌふぅ"}
+		Value:    "アンヌ"}
 
 	maelleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "앤우아"}
+		Value:    "앤"}
 
 	maelleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Patidifúplumi-piú"}
+		Value:    "Patidifú"}
 
 	maelleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Маэльжелторотик"}
+		Value:    "Маэль"}
 
 	maelleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "安妮叹"}
+		Value:    "安妮"}
 
 	maelleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Patidifúperla"}
+		Value:    "Patidifú"}
 
 	maelleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "安妮嘆"}
+		Value:    "安妮"}
 )
 
 var (

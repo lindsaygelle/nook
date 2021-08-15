@@ -25,51 +25,51 @@ var (
 
 	tabbyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tigrimi-AOUUH"}
+		Value:    "Tigri"}
 
 	tabbyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tabbymi-WAUW"}
+		Value:    "Tabby"}
 
 	tabbyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tigrimi-AOUUH"}
+		Value:    "Tigri"}
 
 	tabbyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Zitamrriau"}
+		Value:    "Zita"}
 
 	tabbyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "LiscameOW"}
+		Value:    "Lisca"}
 
 	tabbyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トラこにゃは"}
+		Value:    "トラこ"}
 
 	tabbyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "호냥이삐뽀"}
+		Value:    "호냥이"}
 
 	tabbyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lianaanimiaul"}
+		Value:    "Liana"}
 
 	tabbyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тэббимя-ого"}
+		Value:    "Тэбби"}
 
 	tabbySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小虎喵吼"}
+		Value:    "小虎"}
 
 	tabbySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lianaanimiaul"}
+		Value:    "Liana"}
 
 	tabbyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小虎喵吼"}
+		Value:    "小虎"}
 )
 
 var (

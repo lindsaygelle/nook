@@ -25,51 +25,51 @@ var (
 
 	chaiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chaïpachipach"}
+		Value:    "Chaï"}
 
 	chaiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chaikaneel"}
+		Value:    "Chai"}
 
 	chaiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chaïpachipach"}
+		Value:    "Chaï"}
 
 	chaiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Chaizimtroll"}
+		Value:    "Chai"}
 
 	chaiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Chairuuu ruuu"}
+		Value:    "Chai"}
 
 	chaiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フィーカロルロル"}
+		Value:    "フィーカ"}
 
 	chaiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "피카롤롤"}
+		Value:    "피카"}
 
 	chaiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chaivuelalto"}
+		Value:    "Chai"}
 
 	chaiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Чаймашу ушами"}
+		Value:    "Чай"}
 
 	chaiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "啡卡大耳"}
+		Value:    "啡卡"}
 
 	chaiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chaivuelalto"}
+		Value:    "Chai"}
 
 	chaiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "啡卡大耳"}
+		Value:    "啡卡"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	roscoeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Roscoshérif"}
+		Value:    "Rosco"}
 
 	roscoeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Roscoenihihiet"}
+		Value:    "Roscoe"}
 
 	roscoeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Roscoshérif"}
+		Value:    "Rosco"}
 
 	roscoeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jollygaloppp"}
+		Value:    "Jolly"}
 
 	roscoeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Roscoenay"}
+		Value:    "Roscoe"}
 
 	roscoeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シュバルツブルル"}
+		Value:    "シュバルツ"}
 
 	roscoeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "슈베르트부르르"}
+		Value:    "슈베르트"}
 
 	roscoeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jerezañiii"}
+		Value:    "Jereza"}
 
 	roscoeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Росконе-е-ет"}
+		Value:    "Роско"}
 
 	roscoeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "黑马布鲁鲁"}
+		Value:    "黑马"}
 
 	roscoeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jerezabípedo"}
+		Value:    "Jereza"}
 
 	roscoeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "黑馬布魯魯"}
+		Value:    "黑馬"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	carrieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kangamon pit"}
+		Value:    "Kanga"}
 
 	carrieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Carriekleine"}
+		Value:    "Carrie"}
 
 	carrieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kangapoupon"}
+		Value:    "Kanga"}
 
 	carrieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Carolabeutel"}
+		Value:    "Carola"}
 
 	carrieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Taschinagnegné"}
+		Value:    "Taschina"}
 
 	carrieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マミィだフン"}
+		Value:    "マミィ"}
 
 	carrieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마미오롤로"}
+		Value:    "마미"}
 
 	carrieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lolaarrorró"}
+		Value:    "Lola"}
 
 	carrieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кэрридитятко"}
+		Value:    "Кэрри"}
 
 	carrieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "妈咪亲亲"}
+		Value:    "妈咪"}
 
 	carrieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lolabebé"}
+		Value:    "Lola"}
 
 	carrieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "媽咪親親"}
+		Value:    "媽咪"}
 )
 
 var (

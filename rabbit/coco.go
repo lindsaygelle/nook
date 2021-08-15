@@ -25,51 +25,51 @@ var (
 
 	cocoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cocotouloulou"}
+		Value:    "Coco"}
 
 	cocoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cocobojoing"}
+		Value:    "Coco"}
 
 	cocoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cocotouloulou"}
+		Value:    "Coco"}
 
 	cocoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kokohoppsa"}
+		Value:    "Koko"}
 
 	cocoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cocoevviva"}
+		Value:    "Coco"}
 
 	cocoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "やよいはにょ"}
+		Value:    "やよい"}
 
 	cocoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "이요삐용"}
+		Value:    "이요"}
 
 	cocoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cocolocatoin-toin"}
+		Value:    "Cocoloca"}
 
 	cocoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кокопрыг-скок"}
+		Value:    "Коко"}
 
 	cocoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "仰韶土俑"}
+		Value:    "仰韶"}
 
 	cocoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cocolocatoin-toin"}
+		Value:    "Cocoloca"}
 
 	cocoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "仰韶土俑"}
+		Value:    "仰韶"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	zellCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Régiswapiti"}
+		Value:    "Régis"}
 
 	zellDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Zellgazellig"}
+		Value:    "Zell"}
 
 	zellFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Régiswapiti"}
+		Value:    "Régis"}
 
 	zellGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Waltersproing"}
+		Value:    "Walter"}
 
 	zellItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Antilioarriba"}
+		Value:    "Antilio"}
 
 	zellJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ネルソンたしかに"}
+		Value:    "ネルソン"}
 
 	zellKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "넬슨슴사사"}
+		Value:    "넬슨"}
 
 	zellLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Corvilobambín"}
+		Value:    "Corvilo"}
 
 	zellRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Зеллпрыг-прыг"}
+		Value:    "Зелл"}
 
 	zellSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "森森鹿营"}
+		Value:    "森森"}
 
 	zellSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Corvilobambín"}
+		Value:    "Corvilo"}
 
 	zellTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "森森鹿營"}
+		Value:    "森森"}
 )
 
 var (

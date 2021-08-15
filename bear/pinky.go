@@ -25,51 +25,51 @@ var (
 
 	pinkyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rosineouah"}
+		Value:    "Rosine"}
 
 	pinkyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pinkywauw"}
+		Value:    "Pinky"}
 
 	pinkyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rosineouah"}
+		Value:    "Rosine"}
 
 	pinkyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Piaschätzchen"}
+		Value:    "Pia"}
 
 	pinkyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pinkycubetto"}
+		Value:    "Pinky"}
 
 	pinkyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タンタンわぉ"}
+		Value:    "タンタン"}
 
 	pinkyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "링링와"}
+		Value:    "링링"}
 
 	pinkyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Violetaguah"}
+		Value:    "Violeta"}
 
 	pinkyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пинкину и ну"}
+		Value:    "Пинки"}
 
 	pinkySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "丹丹哇喔"}
+		Value:    "丹丹"}
 
 	pinkySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Violetaterronillo"}
+		Value:    "Violeta"}
 
 	pinkyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "丹丹哇喔"}
+		Value:    "丹丹"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	pinkyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "cubbiewah"}
+		Value:    "cubbie"}
 
 	pinkyCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

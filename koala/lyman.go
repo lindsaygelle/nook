@@ -25,51 +25,51 @@ var (
 
 	lymanCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kalyptussandwich"}
+		Value:    "Kalyptus"}
 
 	lymanDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Lymanchips"}
+		Value:    "Lyman"}
 
 	lymanFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kalyptussandwich"}
+		Value:    "Kalyptus"}
 
 	lymanGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pepeliptus"}
+		Value:    "Pepe"}
 
 	lymanItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Nicolaponzipò"}
+		Value:    "Nicola"}
 
 	lymanJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オズモンドわ～い"}
+		Value:    "オズモンド"}
 
 	lymanKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "오즈먼드우와"}
+		Value:    "오즈먼드"}
 
 	lymanLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chipitralalá"}
+		Value:    "Chipi"}
 
 	lymanRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лайманничего"}
+		Value:    "Лайман"}
 
 	lymanSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "敖志明哇"}
+		Value:    "敖志明"}
 
 	lymanSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chipitrololó"}
+		Value:    "Chipi"}
 
 	lymanTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "敖志明哇～"}
+		Value:    "敖志明"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	azizCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	azizDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	azizFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Azizzigoto"}
+		Value:    "Aziz"}
 
 	azizGermanName = nook.Name{
 		Language: language.German,
-		Value:    "DanielRRAAHH"}
+		Value:    "Daniel"}
 
 	azizItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "LionelloROAR"}
+		Value:    "Lionello"}
 
 	azizJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アッサムカンジー"}
+		Value:    "アッサム"}
 
 	azizKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	azizLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	azizRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	azizSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿三罗尔"}
+		Value:    "阿三"}
 
 	azizSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Leonardoaborigen"}
+		Value:    "Leonardo"}
 
 	azizTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

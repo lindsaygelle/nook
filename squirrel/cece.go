@@ -25,51 +25,51 @@ var (
 
 	ceceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kalamaréôte"}
+		Value:    "Kala"}
 
 	ceceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	ceceFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kalamaréôte"}
+		Value:    "Kala"}
 
 	ceceGermanName = nook.Name{
 		Language: language.German,
-		Value:    "A-Chanaioli"}
+		Value:    "A-Chan"}
 
 	ceceItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ceciliacalacala"}
+		Value:    "Cecilia"}
 
 	ceceJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "なぎさよろしく"}
+		Value:    "なぎさ"}
 
 	ceceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "나기사잘지내자"}
+		Value:    "나기사"}
 
 	ceceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ardunacosmar"}
+		Value:    "Arduna"}
 
 	ceceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	ceceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	ceceSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ardunacosmar"}
+		Value:    "Arduna"}
 
 	ceceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

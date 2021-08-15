@@ -25,51 +25,51 @@ var (
 
 	sprocketCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Laflèchepik pik"}
+		Value:    "Laflèche"}
 
 	sprocketDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sprocketklik-kluk"}
+		Value:    "Sprocket"}
 
 	sprocketFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Laflèchepik pik"}
+		Value:    "Laflèche"}
 
 	sprocketGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lutzaffenzahn"}
+		Value:    "Lutz"}
 
 	sprocketItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Frankieniiun"}
+		Value:    "Frankie"}
 
 	sprocketJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヘルツだメカ"}
+		Value:    "ヘルツ"}
 
 	sprocketKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "헤르츠치지직"}
+		Value:    "헤르츠"}
 
 	sprocketLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ráfagachiuuun"}
+		Value:    "Ráfaga"}
 
 	sprocketRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Спрокетдзынь"}
+		Value:    "Спрокет"}
 
 	sprocketSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "鹤兹机械"}
+		Value:    "鹤兹"}
 
 	sprocketSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ráfagachiuuun"}
+		Value:    "Ráfaga"}
 
 	sprocketTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "鶴茲機械"}
+		Value:    "鶴茲"}
 )
 
 var (

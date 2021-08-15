@@ -25,51 +25,51 @@ var (
 
 	rodCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Marceltip top"}
+		Value:    "Marcel"}
 
 	rodDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rodtoppie"}
+		Value:    "Rod"}
 
 	rodFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Marceltip top"}
+		Value:    "Marcel"}
 
 	rodGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Manniboa-ey"}
+		Value:    "Manni"}
 
 	rodItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Riccardoflapflap"}
+		Value:    "Riccardo"}
 
 	rodJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジャンすっげぇ"}
+		Value:    "ジャン"}
 
 	rodKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "쟝무진장"}
+		Value:    "쟝"}
 
 	rodLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rodichopchop"}
+		Value:    "Rodi"}
 
 	rodRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Родмастерски"}
+		Value:    "Род"}
 
 	rodSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿将厉害"}
+		Value:    "阿将"}
 
 	rodSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rodiquesito"}
+		Value:    "Rodi"}
 
 	rodTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿將厲害"}
+		Value:    "阿將"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	billCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chocochoupichou"}
+		Value:    "Choco"}
 
 	billDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Billkwaker"}
+		Value:    "Bill"}
 
 	billFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chocochoupichou"}
+		Value:    "Choco"}
 
 	billGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Billquako"}
+		Value:    "Bill"}
 
 	billItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ginoquaquo"}
+		Value:    "Gino"}
 
 	billJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピータンだね"}
+		Value:    "ピータン"}
 
 	billKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "코코아탕"}
+		Value:    "코코아"}
 
 	billLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Paquitocuaco"}
+		Value:    "Paquito"}
 
 	billRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Биллкряко"}
+		Value:    "Билл"}
 
 	billSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "皮蛋蛋是啊"}
+		Value:    "皮蛋"}
 
 	billSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Paquitocuaco"}
+		Value:    "Paquito"}
 
 	billTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "皮蛋蛋是啊"}
+		Value:    "皮蛋"}
 )
 
 var (

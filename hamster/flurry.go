@@ -25,51 +25,51 @@ var (
 
 	flurryCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Emmaabajoujou"}
+		Value:    "Emma"}
 
 	flurryDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Flurrydonsbal"}
+		Value:    "Flurry"}
 
 	flurryFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Emmaabajoujou"}
+		Value:    "Emma"}
 
 	flurryGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Emiliemillimilli"}
+		Value:    "Emilie"}
 
 	flurryItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Meringafondue"}
+		Value:    "Meringa"}
 
 	flurryJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ゆきみなのです"}
+		Value:    "ゆきみ"}
 
 	flurryKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "뽀야미뽀드득"}
+		Value:    "뽀야미"}
 
 	flurryLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lluvianomnom"}
+		Value:    "Lluvia"}
 
 	flurryRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фларрипушистик"}
+		Value:    "Фларри"}
 
 	flurrySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雪美对啊"}
+		Value:    "雪美"}
 
 	flurrySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lluvianomnom"}
+		Value:    "Lluvia"}
 
 	flurryTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雪美對啊"}
+		Value:    "雪美"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	rizzoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Sourizzinouik"}
+		Value:    "Sourizzi"}
 
 	rizzoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rizzopiephoi"}
+		Value:    "Rizzo"}
 
 	rizzoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sourizzinouik"}
+		Value:    "Sourizzi"}
 
 	rizzoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rickyfieps"}
+		Value:    "Ricky"}
 
 	rizzoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rizzosquiii"}
+		Value:    "Rizzo"}
 
 	rizzoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ちょろきちがってん"}
+		Value:    "ちょろきち"}
 
 	rizzoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "조르쥐힐끔힐끔"}
+		Value:    "조르쥐"}
 
 	rizzoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ratolónñiiiik"}
+		Value:    "Ratolón"}
 
 	rizzoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Риццопи-и-и"}
+		Value:    "Риццо"}
 
 	rizzoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "悄俊蹑蹑"}
+		Value:    "悄俊"}
 
 	rizzoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ratolónñiiiik"}
+		Value:    "Ratolón"}
 
 	rizzoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "悄俊躡躡"}
+		Value:    "悄俊"}
 )
 
 var (

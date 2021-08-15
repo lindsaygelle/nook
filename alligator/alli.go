@@ -25,51 +25,51 @@ var (
 
 	alliCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Alliegraaagh"}
+		Value:    "Allie"}
 
 	alliDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Alligraaach"}
+		Value:    "Alli"}
 
 	alliFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Alliegraaagh"}
+		Value:    "Allie"}
 
 	alliGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Aligraaach"}
+		Value:    "Ali"}
 
 	alliItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Alligraaag"}
+		Value:    "Alli"}
 
 	alliJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クロコどすえ"}
+		Value:    "クロコ"}
 
 	alliKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "크로크얘야"}
+		Value:    "크로크"}
 
 	alliLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Codrilamuamú"}
+		Value:    "Codrila"}
 
 	alliRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Эллигра-а-а"}
+		Value:    "Элли"}
 
 	alliSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "鳄罗思鳄鱼皮"}
+		Value:    "鳄罗思"}
 
 	alliSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Codrilalagartija"}
+		Value:    "Codrila"}
 
 	alliTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "鱷羅思鱷魚皮"}
+		Value:    "鱷羅思"}
 )
 
 var (

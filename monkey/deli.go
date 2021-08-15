@@ -25,51 +25,51 @@ var (
 
 	deliCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Magogoliaaaane"}
+		Value:    "Magogo"}
 
 	deliDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Delismak"}
+		Value:    "Deli"}
 
 	deliFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Magogoliaaaane"}
+		Value:    "Magogo"}
 
 	deliGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Antonmiekmiek"}
+		Value:    "Anton"}
 
 	deliItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bobopanzé"}
+		Value:    "Bobo"}
 
 	deliJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "デリーだぜ"}
+		Value:    "デリー"}
 
 	deliKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "델리흠냐리"}
+		Value:    "델리"}
 
 	deliLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Canañim-ñim"}
+		Value:    "Cana"}
 
 	deliRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Деличавк-чавк"}
+		Value:    "Дели"}
 
 	deliSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "德里去吧"}
+		Value:    "德里"}
 
 	deliSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Canamillón"}
+		Value:    "Cana"}
 
 	deliTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "德里去吧"}
+		Value:    "德里"}
 )
 
 var (

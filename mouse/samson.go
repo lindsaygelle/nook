@@ -25,51 +25,51 @@ var (
 
 	samsonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Samsonscouic"}
+		Value:    "Samson"}
 
 	samsonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Samsonpiepklein"}
+		Value:    "Samson"}
 
 	samsonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Samsonscouic"}
+		Value:    "Samson"}
 
 	samsonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Samsonpieeeps"}
+		Value:    "Samson"}
 
 	samsonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sansonepisquak"}
+		Value:    "Sansone"}
 
 	samsonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピースチュー"}
+		Value:    "ピース"}
 
 	samsonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "피스쪽"}
+		Value:    "피스"}
 
 	samsonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sansónescuác"}
+		Value:    "Sansón"}
 
 	samsonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Самсонревушка"}
+		Value:    "Самсон"}
 
 	samsonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "和平吱"}
+		Value:    "和平"}
 
 	samsonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sansónflojeras"}
+		Value:    "Sansón"}
 
 	samsonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "和平吱"}
+		Value:    "和平"}
 )
 
 var (

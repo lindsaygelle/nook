@@ -25,51 +25,51 @@ var (
 
 	gigiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gloriacrôazou"}
+		Value:    "Gloria"}
 
 	gigiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gigikwaakette"}
+		Value:    "Gigi"}
 
 	gigiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gloriacrôazou"}
+		Value:    "Gloria"}
 
 	gigiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Violettaquaki"}
+		Value:    "Violetta"}
 
 	gigiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Raganàgurghigù"}
+		Value:    "Raganà"}
 
 	gigiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リンダベイビィ"}
+		Value:    "リンダ"}
 
 	gigiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "린다베이비"}
+		Value:    "린다"}
 
 	gigiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cleocroá-croá"}
+		Value:    "Cleo"}
 
 	gigiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джиджиквакет"}
+		Value:    "Джиджи"}
 
 	gigiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "林妲宝贝"}
+		Value:    "林妲"}
 
 	gigiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cleotrebolito"}
+		Value:    "Cleo"}
 
 	gigiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "林妲寶貝"}
+		Value:    "林妲"}
 )
 
 var (

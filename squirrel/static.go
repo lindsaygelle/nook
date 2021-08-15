@@ -25,51 +25,51 @@ var (
 
 	staticCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Électrokrzzt"}
+		Value:    "Électro"}
 
 	staticDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Staticbliksems"}
+		Value:    "Static"}
 
 	staticFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Électrokrzzt"}
+		Value:    "Électro"}
 
 	staticGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rudolfkrazz"}
+		Value:    "Rudolf"}
 
 	staticItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Protonesguscio"}
+		Value:    "Protone"}
 
 	staticJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "スパークピカッ"}
+		Value:    "スパーク"}
 
 	staticKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "스파크콰광"}
+		Value:    "스파크"}
 
 	staticLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Protónkreee"}
+		Value:    "Protón"}
 
 	staticRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Статиквж-ж-ж"}
+		Value:    "Статик"}
 
 	staticSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "闪电闪闪"}
+		Value:    "闪电"}
 
 	staticSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Protónavería"}
+		Value:    "Protón"}
 
 	staticTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "閃電閃閃"}
+		Value:    "閃電"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	sylviaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Madsid'la balle"}
+		Value:    "Madsi"}
 
 	sylviaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sylviaboing"}
+		Value:    "Sylvia"}
 
 	sylviaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Madsid'la balle"}
+		Value:    "Madsi"}
 
 	sylviaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sylviaflottflott"}
+		Value:    "Sylvia"}
 
 	sylviaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Silviasaltolà"}
+		Value:    "Silvia"}
 
 	sylviaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シルビアよねー"}
+		Value:    "シルビア"}
 
 	sylviaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "실비아이자슥"}
+		Value:    "실비아"}
 
 	sylviaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cándidado-doing"}
+		Value:    "Cándida"}
 
 	sylviaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Сильвияпрыг"}
+		Value:    "Сильвия"}
 
 	sylviaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "希薇亚对耶"}
+		Value:    "希薇亚"}
 
 	sylviaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cándidapúgil"}
+		Value:    "Cándida"}
 
 	sylviaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "希薇亞對耶"}
+		Value:    "希薇亞"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	sylviaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "joeyboing"}
+		Value:    "joey"}
 
 	sylviaCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

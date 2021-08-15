@@ -25,51 +25,51 @@ var (
 
 	shoukichiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "しょうきちズン"}
+		Value:    "しょうきち"}
 
 	shoukichiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	shoukichiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

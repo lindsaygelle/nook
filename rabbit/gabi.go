@@ -25,51 +25,51 @@ var (
 
 	gabiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gabymon lièvre"}
+		Value:    "Gaby"}
 
 	gabiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gabihonnepon"}
+		Value:    "Gabi"}
 
 	gabiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gabymon lièvre"}
+		Value:    "Gaby"}
 
 	gabiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gabiliebling"}
+		Value:    "Gabi"}
 
 	gabiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gabrimielito"}
+		Value:    "Gabri"}
 
 	gabiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ペチカだっち"}
+		Value:    "ペチカ"}
 
 	gabiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "패티카꺄오"}
+		Value:    "패티카"}
 
 	gabiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pilucareboing"}
+		Value:    "Piluca"}
 
 	gabiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Габизайчик мой"}
+		Value:    "Габи"}
 
 	gabiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "珮琪琪他"}
+		Value:    "珮琪"}
 
 	gabiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pilucamari"}
+		Value:    "Piluca"}
 
 	gabiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "珮琪琪他"}
+		Value:    "珮琪"}
 )
 
 var (

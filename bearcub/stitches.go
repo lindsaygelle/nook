@@ -25,51 +25,51 @@ var (
 
 	stitchesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Miroou bien"}
+		Value:    "Miro"}
 
 	stitchesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Stitchespluche"}
+		Value:    "Stitches"}
 
 	stitchesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Miroou bien"}
+		Value:    "Miro"}
 
 	stitchesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Berrybrummm"}
+		Value:    "Berry"}
 
 	stitchesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Toppettaohilà"}
+		Value:    "Toppetta"}
 
 	stitchesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パッチなのれす"}
+		Value:    "パッチ"}
 
 	stitchesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "패치그런거죠"}
+		Value:    "패치"}
 
 	stitchesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Parchespaguahhh"}
+		Value:    "Parches"}
 
 	stitchesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Стичесплюш-плюш"}
+		Value:    "Стичес"}
 
 	stitchesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "玩具熊玩玩"}
+		Value:    "玩具熊"}
 
 	stitchesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Parchespeluche"}
+		Value:    "Parches"}
 
 	stitchesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "玩具熊玩玩"}
+		Value:    "玩具熊"}
 )
 
 var (

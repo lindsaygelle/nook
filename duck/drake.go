@@ -25,51 +25,51 @@ var (
 
 	drakeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Colvertben couac"}
+		Value:    "Colvert"}
 
 	drakeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Drakesnabbel"}
+		Value:    "Drake"}
 
 	drakeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Colvertcanard"}
+		Value:    "Colvert"}
 
 	drakeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gustavschnabbl"}
+		Value:    "Gustav"}
 
 	drakeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dragoquaqua"}
+		Value:    "Drago"}
 
 	drakeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フォアグラかもね"}
+		Value:    "フォアグラ"}
 
 	drakeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "푸아그라어쩌면"}
+		Value:    "푸아그라"}
 
 	drakeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Dracocui-cuac"}
+		Value:    "Draco"}
 
 	drakeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Дрейккра-а"}
+		Value:    "Дрейк"}
 
 	drakeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "肥肝或许鸭"}
+		Value:    "肥肝"}
 
 	drakeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Dracopolluelo"}
+		Value:    "Draco"}
 
 	drakeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "肥肝或許鴨"}
+		Value:    "肥肝"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	baroldCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Manudodododu"}
+		Value:    "Manu"}
 
 	baroldDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Baroldwelpje"}
+		Value:    "Barold"}
 
 	baroldFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Manudodododu"}
+		Value:    "Manu"}
 
 	baroldGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hubertmwuuu"}
+		Value:    "Hubert"}
 
 	baroldItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Placidobabalù"}
+		Value:    "Placido"}
 
 	baroldJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ニッシーいっそ"}
+		Value:    "ニッシー"}
 
 	baroldKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "곰시아니그냥"}
+		Value:    "곰시"}
 
 	baroldLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Plácidoapurri"}
+		Value:    "Plácido"}
 
 	baroldRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Барольдберлога"}
+		Value:    "Барольд"}
 
 	baroldSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿西算了"}
+		Value:    "阿西"}
 
 	baroldSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Plácidoapurri"}
+		Value:    "Plácido"}
 
 	baroldTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿西算了"}
+		Value:    "阿西"}
 )
 
 var (

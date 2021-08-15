@@ -25,51 +25,51 @@ var (
 
 	clayCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Guidopindépice"}
+		Value:    "Guido"}
 
 	clayDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Clayboink"}
+		Value:    "Clay"}
 
 	clayFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Guidopindépice"}
+		Value:    "Guido"}
 
 	clayGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dietmarbacki"}
+		Value:    "Dietmar"}
 
 	clayItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Carmelopopomf"}
+		Value:    "Carmelo"}
 
 	clayJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "どぐろうどきどき"}
+		Value:    "どぐろう"}
 
 	clayKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "햄둥둥게둥게"}
+		Value:    "햄둥"}
 
 	clayLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bolichetucu-tucu"}
+		Value:    "Boliche"}
 
 	clayRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Клэйстук-стук"}
+		Value:    "Клэй"}
 
 	claySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "子墨忐忑不安"}
+		Value:    "子墨"}
 
 	claySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bolichetucu-tucu"}
+		Value:    "Boliche"}
 
 	clayTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "子墨忐忑不安"}
+		Value:    "子墨"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	jittersCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gilbertbouerk"}
+		Value:    "Gilbert"}
 
 	jittersDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Jitterstjulp"}
+		Value:    "Jitters"}
 
 	jittersFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gilbertbouerk"}
+		Value:    "Gilbert"}
 
 	jittersGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Alexzischhh"}
+		Value:    "Alex"}
 
 	jittersItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Brividobzzert"}
+		Value:    "Brivido"}
 
 	jittersJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジーニョだニョ"}
+		Value:    "ジーニョ"}
 
 	jittersKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "딩요삼바"}
+		Value:    "딩요"}
 
 	jittersLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cameliopío-pío"}
+		Value:    "Camelio"}
 
 	jittersRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джиттерсбзе-е-ерт"}
+		Value:    "Джиттерс"}
 
 	jittersSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "纪诺诺诺"}
+		Value:    "纪诺"}
 
 	jittersSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cameliopío-pío"}
+		Value:    "Camelio"}
 
 	jittersTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "紀諾諾諾"}
+		Value:    "紀諾"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	fillyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Palominapapaye"}
+		Value:    "Palomina"}
 
 	fillyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	fillyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Palominapapaye"}
+		Value:    "Palomina"}
 
 	fillyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Beatehühott"}
+		Value:    "Beate"}
 
 	fillyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Filippagalop"}
+		Value:    "Filippa"}
 
 	fillyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "7ごうはぁっ！"}
+		Value:    "7ごう"}
 
 	fillyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "7호타앗"}
+		Value:    "7호"}
 
 	fillyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Séptimagalope"}
+		Value:    "Séptima"}
 
 	fillyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	fillySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	fillySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Séptimagalope"}
+		Value:    "Séptima"}
 
 	fillyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

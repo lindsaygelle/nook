@@ -25,51 +25,51 @@ var (
 
 	doraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Doracoui-coui"}
+		Value:    "Dora"}
 
 	doraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Dorapieperig"}
+		Value:    "Dora"}
 
 	doraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Doratatouille"}
+		Value:    "Dora"}
 
 	doraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Doraquieek"}
+		Value:    "Dora"}
 
 	doraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Serenasquiksquik"}
+		Value:    "Serena"}
 
 	doraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "とめだべ"}
+		Value:    "とめ"}
 
 	doraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "티미찍찍"}
+		Value:    "티미"}
 
 	doraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Doricuiqui"}
+		Value:    "Dori"}
 
 	doraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Дорапип-пип"}
+		Value:    "Дора"}
 
 	doraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "杜美美吧"}
+		Value:    "杜美"}
 
 	doraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Doricuiqui"}
+		Value:    "Dori"}
 
 	doraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "杜美美吧"}
+		Value:    "杜美"}
 )
 
 var (

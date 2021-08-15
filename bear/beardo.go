@@ -25,51 +25,51 @@ var (
 
 	beardoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Eustacheciao"}
+		Value:    "Eustache"}
 
 	beardoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Beardosnorhaar"}
+		Value:    "Beardo"}
 
 	beardoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Eustachepoilodos"}
+		Value:    "Eustache"}
 
 	beardoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bertholdbrrroho"}
+		Value:    "Berthold"}
 
 	beardoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Barnabaandale"}
+		Value:    "Barnaba"}
 
 	beardoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ベアードオッホン"}
+		Value:    "ベアード"}
 
 	beardoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "베어드오홍홍"}
+		Value:    "베어드"}
 
 	beardoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bernabébigotre"}
+		Value:    "Bernabé"}
 
 	beardoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Беардоусы мои"}
+		Value:    "Беардо"}
 
 	beardoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "熊大叔咳咳"}
+		Value:    "熊大叔"}
 
 	beardoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bernabébigotre"}
+		Value:    "Bernabé"}
 
 	beardoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "熊大叔咳咳"}
+		Value:    "熊大叔"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	savannahCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Savanawimbowé"}
+		Value:    "Savana"}
 
 	savannahDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Savannahpony"}
+		Value:    "Savannah"}
 
 	savannahFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Savanawimbowé"}
+		Value:    "Savana"}
 
 	savannahGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Zarawichichi"}
+		Value:    "Zara"}
 
 	savannahItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Savannahhip hip"}
+		Value:    "Savannah"}
 
 	savannahJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サバンナってば"}
+		Value:    "サバンナ"}
 
 	savannahKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "사반나맞아요"}
+		Value:    "사반나"}
 
 	savannahLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sabanaazuquita"}
+		Value:    "Sabana"}
 
 	savannahRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Саваннаи все"}
+		Value:    "Саванна"}
 
 	savannahSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "草斑娜说到"}
+		Value:    "草斑娜"}
 
 	savannahSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sabanaazucarillo"}
+		Value:    "Sabana"}
 
 	savannahTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "草斑娜說到"}
+		Value:    "草斑娜"}
 )
 
 var (

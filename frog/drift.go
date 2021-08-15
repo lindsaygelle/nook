@@ -25,51 +25,51 @@ var (
 
 	driftCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gordonbraaaa"}
+		Value:    "Gordon"}
 
 	driftDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Driftgozer"}
+		Value:    "Drift"}
 
 	driftFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gordonbraaaa"}
+		Value:    "Gordon"}
 
 	driftGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Casparquak"}
+		Value:    "Caspar"}
 
 	driftItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Prosperogirin"}
+		Value:    "Prospero"}
 
 	driftJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ドクゲロゲロ"}
+		Value:    "ドク"}
 
 	driftKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "덕개굴개굴"}
+		Value:    "덕"}
 
 	driftLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Surfíndribit"}
+		Value:    "Surfín"}
 
 	driftRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Дрифтбро"}
+		Value:    "Дрифт"}
 
 	driftSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "毒仔聒聒"}
+		Value:    "毒仔"}
 
 	driftSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Surfíncolega"}
+		Value:    "Surfín"}
 
 	driftTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "毒仔嘓嘓"}
+		Value:    "毒仔"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	driftAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "brahdribbit"}
+		Value:    "brah"}
 
 	driftCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

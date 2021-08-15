@@ -25,51 +25,51 @@ var (
 
 	rooneyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mikesavate"}
+		Value:    "Mike"}
 
 	rooneyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rooneyboks"}
+		Value:    "Rooney"}
 
 	rooneyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mikesavate"}
+		Value:    "Mike"}
 
 	rooneyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Robertbonk"}
+		Value:    "Robert"}
 
 	rooneyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Balzakbalz balz"}
+		Value:    "Balzak"}
 
 	rooneyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マイクやるぜ"}
+		Value:    "マイク"}
 
 	rooneyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마이크아자"}
+		Value:    "마이크"}
 
 	rooneyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cerillochimpón"}
+		Value:    "Cerillo"}
 
 	rooneyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рунихук"}
+		Value:    "Руни"}
 
 	rooneySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "麦克做就对了"}
+		Value:    "麦克"}
 
 	rooneySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cerillochimpón"}
+		Value:    "Cerillo"}
 
 	rooneyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "麥克做就對了"}
+		Value:    "麥克"}
 )
 
 var (

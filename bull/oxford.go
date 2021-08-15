@@ -25,51 +25,51 @@ var (
 
 	oxfordCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	oxfordDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	oxfordFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sorbonnela vache"}
+		Value:    "Sorbonne"}
 
 	oxfordGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rolfbulli, hä"}
+		Value:    "Rolf"}
 
 	oxfordItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Angusmuuh"}
+		Value:    "Angus"}
 
 	oxfordJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "イワオでんがな"}
+		Value:    "イワオ"}
 
 	oxfordKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	oxfordLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	oxfordRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	oxfordSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "岩岩可不"}
+		Value:    "岩岩"}
 
 	oxfordSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Astaúlfotorito"}
+		Value:    "Astaúlfo"}
 
 	oxfordTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

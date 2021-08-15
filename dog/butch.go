@@ -25,51 +25,51 @@ var (
 
 	butchCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "AvrilWROOOOUF"}
+		Value:    "Avril"}
 
 	butchDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "ButchBROEEEF"}
+		Value:    "Butch"}
 
 	butchFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "AvrilWROOOOUF"}
+		Value:    "Avril"}
 
 	butchGermanName = nook.Name{
 		Language: language.German,
-		Value:    "HassoGRRUFF"}
+		Value:    "Hasso"}
 
 	butchItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "AttilaROOOOOF"}
+		Value:    "Attila"}
 
 	butchJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジョンノン"}
+		Value:    "ジョン"}
 
 	butchKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "존아니"}
+		Value:    "존"}
 
 	butchLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Brunogruf-gruf"}
+		Value:    "Bruno"}
 
 	butchRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бутчррр-гав"}
+		Value:    "Бутч"}
 
 	butchSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "约翰侬"}
+		Value:    "约翰"}
 
 	butchSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Brunogruf-gruf"}
+		Value:    "Bruno"}
 
 	butchTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "約翰儂"}
+		Value:    "約翰"}
 )
 
 var (

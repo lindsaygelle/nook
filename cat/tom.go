@@ -25,51 +25,51 @@ var (
 
 	tomCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tommistigri"}
+		Value:    "Tom"}
 
 	tomDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tommiauw moe"}
+		Value:    "Tom"}
 
 	tomFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tommistigri"}
+		Value:    "Tom"}
 
 	tomGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Timofauch"}
+		Value:    "Timo"}
 
 	tomItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Isidoromi-IAO"}
+		Value:    "Isidoro"}
 
 	tomJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "バンタムナックル"}
+		Value:    "バンタム"}
 
 	tomKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "밴덤쳇"}
+		Value:    "밴덤"}
 
 	tomLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Zapirónmiooou"}
+		Value:    "Zapirón"}
 
 	tomRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Томмя-я-яоза"}
+		Value:    "Том"}
 
 	tomSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿邦切"}
+		Value:    "阿邦"}
 
 	tomSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Zapirónmiooou"}
+		Value:    "Zapirón"}
 
 	tomTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿邦關節"}
+		Value:    "阿邦"}
 )
 
 var (

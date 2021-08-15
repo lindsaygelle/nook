@@ -25,51 +25,51 @@ var (
 
 	freyaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Luppamon loulou"}
+		Value:    "Luppa"}
 
 	freyaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Freyafjord"}
+		Value:    "Freya"}
 
 	freyaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Luppamon loulou"}
+		Value:    "Luppa"}
 
 	freyaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Freyaähmmm"}
+		Value:    "Freya"}
 
 	freyaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Freyauuuff"}
+		Value:    "Freya"}
 
 	freyaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ツンドラなのだわ"}
+		Value:    "ツンドラ"}
 
 	freyaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "산드라유행이야"}
+		Value:    "산드라"}
 
 	freyaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lupitaauuuff"}
+		Value:    "Lupita"}
 
 	freyaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фреяхрусть"}
+		Value:    "Фрея"}
 
 	freyaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "冰冰就是说哇"}
+		Value:    "冰冰"}
 
 	freyaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lupitaauuuff"}
+		Value:    "Lupita"}
 
 	freyaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "冰冰就是說哇"}
+		Value:    "冰冰"}
 )
 
 var (

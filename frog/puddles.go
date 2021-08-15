@@ -25,51 +25,51 @@ var (
 
 	puddlesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rénatasplufff"}
+		Value:    "Rénata"}
 
 	puddlesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Puddlesplons"}
+		Value:    "Puddles"}
 
 	puddlesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rénatasplufff"}
+		Value:    "Rénata"}
 
 	puddlesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Neleplatschi"}
+		Value:    "Nele"}
 
 	puddlesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Graziasplash"}
+		Value:    "Grazia"}
 
 	puddlesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チョキっちゃ"}
+		Value:    "チョキ"}
 
 	puddlesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "가위그랬쪄"}
+		Value:    "가위"}
 
 	puddlesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Nenúfaresplís"}
+		Value:    "Nenúfar"}
 
 	puddlesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ренатаплюх"}
+		Value:    "Рената"}
 
 	puddlesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "剪刀石头"}
+		Value:    "剪刀"}
 
 	puddlesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Nenúfaresplís"}
+		Value:    "Nenúfar"}
 
 	puddlesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "剪刀石頭"}
+		Value:    "剪刀"}
 )
 
 var (

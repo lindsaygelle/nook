@@ -25,51 +25,51 @@ var (
 
 	callyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Céliacacahuète"}
+		Value:    "Célia"}
 
 	callyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Callycashew"}
+		Value:    "Cally"}
 
 	callyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Céliayeeeees"}
+		Value:    "Célia"}
 
 	callyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hörnchenhuiii"}
+		Value:    "Hörnchen"}
 
 	callyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "RosaSCRUNCH"}
+		Value:    "Rosa"}
 
 	callyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パセリララー"}
+		Value:    "パセリ"}
 
 	callyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "파슬리랄랄라"}
+		Value:    "파슬리"}
 
 	callyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Almendrañip-ñip"}
+		Value:    "Almendra"}
 
 	callyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кэллиух ты"}
+		Value:    "Кэлли"}
 
 	callySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小芹啦啦"}
+		Value:    "小芹"}
 
 	callySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Almendramacadamia"}
+		Value:    "Almendra"}
 
 	callyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小芹啦啦"}
+		Value:    "小芹"}
 )
 
 var (

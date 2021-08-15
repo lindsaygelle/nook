@@ -25,51 +25,51 @@ var (
 
 	celiaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Garancebebec"}
+		Value:    "Garance"}
 
 	celiaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Celiapluimpje"}
+		Value:    "Celia"}
 
 	celiaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Garancebebec"}
+		Value:    "Garance"}
 
 	celiaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lorakraaack"}
+		Value:    "Lora"}
 
 	celiaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Celiaah bon"}
+		Value:    "Celia"}
 
 	celiaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ティファニーそうね"}
+		Value:    "ティファニー"}
 
 	celiaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "티파니그래맞아"}
+		Value:    "티파니"}
 
 	celiaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jazmínplumí"}
+		Value:    "Jazmín"}
 
 	celiaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Селияперышко"}
+		Value:    "Селия"}
 
 	celiaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "蒂芬妮是呢"}
+		Value:    "蒂芬妮"}
 
 	celiaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jazmínplumis"}
+		Value:    "Jazmín"}
 
 	celiaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "蒂芬妮是呢"}
+		Value:    "蒂芬妮"}
 )
 
 var (

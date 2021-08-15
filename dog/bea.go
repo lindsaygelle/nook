@@ -25,51 +25,51 @@ var (
 
 	beaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Béamon chaton"}
+		Value:    "Béa"}
 
 	beaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Beabingo"}
+		Value:    "Bea"}
 
 	beaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Béamon chaton"}
+		Value:    "Béa"}
 
 	beaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Beabingo"}
+		Value:    "Bea"}
 
 	beaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cucciolabingo"}
+		Value:    "Cucciola"}
 
 	beaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ベーグルグー"}
+		Value:    "ベーグル"}
 
 	beaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "베이글쫀득"}
+		Value:    "베이글"}
 
 	beaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Beagufi-guf"}
+		Value:    "Bea"}
 
 	beaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Беадинго"}
+		Value:    "Беа"}
 
 	beaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "贝果宾果"}
+		Value:    "贝果"}
 
 	beaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Beahuesín"}
+		Value:    "Bea"}
 
 	beaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "貝果賓果"}
+		Value:    "貝果"}
 )
 
 var (

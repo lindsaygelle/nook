@@ -25,51 +25,51 @@ var (
 
 	kodyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Billgrih grih"}
+		Value:    "Bill"}
 
 	kodyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kodyokidoki"}
+		Value:    "Kody"}
 
 	kodyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Billgrih grih"}
+		Value:    "Bill"}
 
 	kodyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Berndokeydokey"}
+		Value:    "Bernd"}
 
 	kodyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Salomoneoki-doki"}
+		Value:    "Salomone"}
 
 	kodyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アイダホのこころ"}
+		Value:    "アイダホ"}
 
 	kodyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아이다호나는나야"}
+		Value:    "아이다호"}
 
 	kodyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Orestesgraaau"}
+		Value:    "Orestes"}
 
 	kodyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кодигррр"}
+		Value:    "Коди"}
 
 	kodySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "艾德豪精神"}
+		Value:    "艾德豪"}
 
 	kodySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Orestesmola"}
+		Value:    "Orestes"}
 
 	kodyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "艾德豪精神"}
+		Value:    "艾德豪"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	kodyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "okey-dokeygrah grah"}
+		Value:    "okey-dokey"}
 
 	kodyCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

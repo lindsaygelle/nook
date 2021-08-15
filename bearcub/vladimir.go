@@ -25,51 +25,51 @@ var (
 
 	vladimirCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Vladimirniet"}
+		Value:    "Vladimir"}
 
 	vladimirDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Vladimirnjet"}
+		Value:    "Vladimir"}
 
 	vladimirFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Vladimirniet"}
+		Value:    "Vladimir"}
 
 	vladimirGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Vladimirnastrovje"}
+		Value:    "Vladimir"}
 
 	vladimirItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Vladimirnyet"}
+		Value:    "Vladimir"}
 
 	vladimirJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ガビやんけ"}
+		Value:    "ガビ"}
 
 	vladimirKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "곰비참말로"}
+		Value:    "곰비"}
 
 	vladimirLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Vladimirnyet"}
+		Value:    "Vladimir"}
 
 	vladimirRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Владимирну не-е-ет"}
+		Value:    "Владимир"}
 
 	vladimirSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "嘉弼唉唷"}
+		Value:    "嘉弼"}
 
 	vladimirSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Vladimirnyet"}
+		Value:    "Vladimir"}
 
 	vladimirTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "嘉弼唉唷"}
+		Value:    "嘉弼"}
 )
 
 var (

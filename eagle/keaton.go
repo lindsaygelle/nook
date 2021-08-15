@@ -25,51 +25,51 @@ var (
 
 	keatonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Enzoroyaaaal"}
+		Value:    "Enzo"}
 
 	keatonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Keatonvleugels"}
+		Value:    "Keaton"}
 
 	keatonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Enzoroyaaaal"}
+		Value:    "Enzo"}
 
 	keatonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kaikiiiiiih"}
+		Value:    "Kai"}
 
 	keatonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Aquiliobaila"}
+		Value:    "Aquilio"}
 
 	keatonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フランクでーッス"}
+		Value:    "フランク"}
 
 	keatonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "프랭크수리수리"}
+		Value:    "프랭크"}
 
 	keatonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Luchoflopflop"}
+		Value:    "Lucho"}
 
 	keatonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Китонкрыло"}
+		Value:    "Китон"}
 
 	keatonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "法兰克是"}
+		Value:    "法兰克"}
 
 	keatonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Luchoflopflop"}
+		Value:    "Lucho"}
 
 	keatonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "法蘭克是"}
+		Value:    "法蘭克"}
 )
 
 var (

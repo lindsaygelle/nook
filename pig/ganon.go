@@ -25,51 +25,51 @@ var (
 
 	ganonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ganonganouïrk"}
+		Value:    "Ganon"}
 
 	ganonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	ganonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ganonganouïrk"}
+		Value:    "Ganon"}
 
 	ganonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ganonganoink"}
+		Value:    "Ganon"}
 
 	ganonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ganontrisgrunf"}
+		Value:    "Ganon"}
 
 	ganonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ガノンフォース"}
+		Value:    "ガノン"}
 
 	ganonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "가논포스"}
+		Value:    "가논"}
 
 	ganonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ganonganoink"}
+		Value:    "Ganon"}
 
 	ganonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	ganonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	ganonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ganonganoink"}
+		Value:    "Ganon"}
 
 	ganonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

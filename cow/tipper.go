@@ -25,51 +25,51 @@ var (
 
 	tipperCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Valéchoupette"}
+		Value:    "Valé"}
 
 	tipperDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tipperboelala"}
+		Value:    "Tipper"}
 
 	tipperFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Valéchoupette"}
+		Value:    "Valé"}
 
 	tipperGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Angeladingdong"}
+		Value:    "Angela"}
 
 	tipperItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tippersì sì sì"}
+		Value:    "Tipper"}
 
 	tipperJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "まきばミルミル"}
+		Value:    "まきば"}
 
 	tipperKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마틸다우유우유"}
+		Value:    "마틸다"}
 
 	tipperLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pintamuamuuu"}
+		Value:    "Pinta"}
 
 	tipperRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Типпертеленок"}
+		Value:    "Типпер"}
 
 	tipperSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "牧牧牛奶"}
+		Value:    "牧牧"}
 
 	tipperSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pintacuernitos"}
+		Value:    "Pinta"}
 
 	tipperTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "牧牧牛奶"}
+		Value:    "牧牧"}
 )
 
 var (

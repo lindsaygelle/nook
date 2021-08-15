@@ -25,51 +25,51 @@ var (
 
 	auroraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Auroreb-b-bébé"}
+		Value:    "Aurore"}
 
 	auroraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Aurorab-b-baby"}
+		Value:    "Aurora"}
 
 	auroraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Auroreb-b-bébé"}
+		Value:    "Aurore"}
 
 	auroraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sonjab-bestens"}
+		Value:    "Sonja"}
 
 	auroraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Aurorab-b-baby"}
+		Value:    "Aurora"}
 
 	auroraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オーロラだジョー"}
+		Value:    "オーロラ"}
 
 	auroraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "오로라랄라"}
+		Value:    "오로라"}
 
 	auroraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Aurorapescadí"}
+		Value:    "Aurora"}
 
 	auroraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аврорак-к-крошка"}
+		Value:    "Аврора"}
 
 	auroraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "欧若拉若"}
+		Value:    "欧若拉"}
 
 	auroraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Aurorapescadito"}
+		Value:    "Aurora"}
 
 	auroraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "歐若拉若"}
+		Value:    "歐若拉"}
 )
 
 var (

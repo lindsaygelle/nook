@@ -25,51 +25,51 @@ var (
 
 	candiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Sucretteclaquos"}
+		Value:    "Sucrette"}
 
 	candiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Candizoetje"}
+		Value:    "Candi"}
 
 	candiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sucretteclaquos"}
+		Value:    "Sucrette"}
 
 	candiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Renateschatzi"}
+		Value:    "Renate"}
 
 	candiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mellasquitto"}
+		Value:    "Mella"}
 
 	candiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "かんゆですワ"}
+		Value:    "かんゆ"}
 
 	candiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "사탕달짝지근"}
+		Value:    "사탕"}
 
 	candiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chuchiescuic"}
+		Value:    "Chuchi"}
 
 	candiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кэндисладость"}
+		Value:    "Кэнди"}
 
 	candiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "甘油滑滑"}
+		Value:    "甘油"}
 
 	candiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chuchiyogurín"}
+		Value:    "Chuchi"}
 
 	candiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "甘油滑滑"}
+		Value:    "甘油"}
 )
 
 var (

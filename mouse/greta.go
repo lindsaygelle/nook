@@ -25,51 +25,51 @@ var (
 
 	gretaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gretaokka"}
+		Value:    "Greta"}
 
 	gretaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gretapiepzak"}
+		Value:    "Greta"}
 
 	gretaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gretatéma"}
+		Value:    "Greta"}
 
 	gretaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gretelnagnag"}
+		Value:    "Gretel"}
 
 	gretaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gretarattaplan"}
+		Value:    "Greta"}
 
 	gretaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ふくこおほほ"}
+		Value:    "ふくこ"}
 
 	gretaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "복자오호호"}
+		Value:    "복자"}
 
 	gretaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jimenañiñi-ñiá"}
+		Value:    "Jimena"}
 
 	gretaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гретаписк"}
+		Value:    "Грета"}
 
 	gretaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "如意呵呵呵"}
+		Value:    "如意"}
 
 	gretaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jimenabocadito"}
+		Value:    "Jimena"}
 
 	gretaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "如意呵呵呵"}
+		Value:    "如意"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	weberCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bébertplumeau"}
+		Value:    "Bébert"}
 
 	weberDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Weberkwaaah"}
+		Value:    "Weber"}
 
 	weberFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bébertplumeau"}
+		Value:    "Bébert"}
 
 	weberGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Volkerquaa"}
+		Value:    "Volker"}
 
 	weberItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pasqualequaaa"}
+		Value:    "Pasquale"}
 
 	weberJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アチョットピヨ"}
+		Value:    "アチョット"}
 
 	weberKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아잠만꽥꽥"}
+		Value:    "아잠만"}
 
 	weberLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Paticiocuaa-cuaa"}
+		Value:    "Paticio"}
 
 	weberRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Веберкря-а"}
+		Value:    "Вебер"}
 
 	weberSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "卿德唧唧"}
+		Value:    "卿德"}
 
 	weberSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Paticiocuaa-cuaa"}
+		Value:    "Paticio"}
 
 	weberTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "卿德唧唧"}
+		Value:    "卿德"}
 )
 
 var (

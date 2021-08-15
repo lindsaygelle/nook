@@ -25,51 +25,51 @@ var (
 
 	rowanCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maritobanane"}
+		Value:    "Marito"}
 
 	rowanDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rowanmango"}
+		Value:    "Rowan"}
 
 	rowanFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maritobanane"}
+		Value:    "Marito"}
 
 	rowanGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gisbertmango"}
+		Value:    "Gisbert"}
 
 	rowanItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ernestomango"}
+		Value:    "Ernesto"}
 
 	rowanJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ゴメスまったく"}
+		Value:    "ゴメス"}
 
 	rowanKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "고메스내참"}
+		Value:    "고메스"}
 
 	rowanLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Miguelóngurruf"}
+		Value:    "Miguelón"}
 
 	rowanRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Роуэнманго"}
+		Value:    "Роуэн"}
 
 	rowanSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "戈麦斯完全"}
+		Value:    "戈麦斯"}
 
 	rowanSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Miguelónturista"}
+		Value:    "Miguelón"}
 
 	rowanTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "戈麥斯完全"}
+		Value:    "戈麥斯"}
 )
 
 var (

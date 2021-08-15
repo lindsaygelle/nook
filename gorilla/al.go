@@ -25,51 +25,51 @@ var (
 
 	alCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gustaveouba-oub"}
+		Value:    "Gustave"}
 
 	alDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Alaiaiai"}
+		Value:    "Al"}
 
 	alFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gustaveouba-oub"}
+		Value:    "Gustave"}
 
 	alGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kokonguga-uga"}
+		Value:    "Kokong"}
 
 	alItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gregoriobananao"}
+		Value:    "Gregorio"}
 
 	alJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "たもつウヒョッ"}
+		Value:    "たもつ"}
 
 	alKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "우락부락"}
+		Value:    "우락"}
 
 	alLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Álexjuju-já"}
+		Value:    "Álex"}
 
 	alRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Элух-ух-ух"}
+		Value:    "Эл"}
 
 	alSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿保呜呼"}
+		Value:    "阿保"}
 
 	alSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Álexchocolate"}
+		Value:    "Álex"}
 
 	alTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿保嗚呼"}
+		Value:    "阿保"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	alAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "hoo hoo haayyyeee"}
+		Value:    "hoo hoo ha"}
 
 	alCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

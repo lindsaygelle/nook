@@ -25,51 +25,51 @@ var (
 
 	chicoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chicoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chicoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rapidoma croûte"}
+		Value:    "Rapido"}
 
 	chicoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pablogriiins"}
+		Value:    "Pablo"}
 
 	chicoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cirocaciotta"}
+		Value:    "Ciro"}
 
 	chicoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チューボーナリ"}
+		Value:    "チューボー"}
 
 	chicoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chicoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chicoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chicoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "吱吱哗哗"}
+		Value:    "吱吱"}
 
 	chicoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chicoquesito"}
+		Value:    "Chico"}
 
 	chicoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

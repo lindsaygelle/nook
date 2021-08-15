@@ -25,51 +25,51 @@ var (
 
 	dozerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	dozerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	dozerFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Doudouzzzzzz"}
+		Value:    "Doudou"}
 
 	dozerGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nickischnarch"}
+		Value:    "Nicki"}
 
 	dozerItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ronfozzzzzz"}
+		Value:    "Ronfo"}
 
 	dozerJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "スリープでアリ"}
+		Value:    "スリープ"}
 
 	dozerKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	dozerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	dozerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	dozerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "忪忪咕"}
+		Value:    "忪忪"}
 
 	dozerSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Toñozzzzzz"}
+		Value:    "Toño"}
 
 	dozerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

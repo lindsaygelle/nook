@@ -25,51 +25,51 @@ var (
 
 	pluckyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Poulettegaline"}
+		Value:    "Poulette"}
 
 	pluckyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pluckykippetje"}
+		Value:    "Plucky"}
 
 	pluckyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Poulettegaline"}
+		Value:    "Poulette"}
 
 	pluckyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mareilehühnermist"}
+		Value:    "Mareile"}
 
 	pluckyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Coccazampoli"}
+		Value:    "Cocca"}
 
 	pluckyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パタヤどうだい"}
+		Value:    "パタヤ"}
 
 	pluckyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "파타야그게어때"}
+		Value:    "파타야"}
 
 	pluckyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Herminiacorocó"}
+		Value:    "Herminia"}
 
 	pluckyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Плакищип-щип"}
+		Value:    "Плаки"}
 
 	pluckySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "帕塔雅泰泰"}
+		Value:    "帕塔雅"}
 
 	pluckySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Herminiatesorito"}
+		Value:    "Herminia"}
 
 	pluckyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "帕塔雅泰泰"}
+		Value:    "帕塔雅"}
 )
 
 var (

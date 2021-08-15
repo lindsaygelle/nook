@@ -25,51 +25,51 @@ var (
 
 	gwenCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gwenh-h-h-hon"}
+		Value:    "Gwen"}
 
 	gwenDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gwend-d-duifje"}
+		Value:    "Gwen"}
 
 	gwenFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gwenh-h-h-hon"}
+		Value:    "Gwen"}
 
 	gwenGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Judithsssweetie"}
+		Value:    "Judith"}
 
 	gwenItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gelindaa-a-amor"}
+		Value:    "Gelinda"}
 
 	gwenJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ポーラウフフ"}
+		Value:    "ポーラ"}
 
 	gwenKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "폴라우훗훗"}
+		Value:    "폴라"}
 
 	gwenLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Fabiolaki-ki-kiú"}
+		Value:    "Fabiola"}
 
 	gwenRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гвенм-милашка"}
+		Value:    "Гвен"}
 
 	gwenSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "宝拉唔呼呼"}
+		Value:    "宝拉"}
 
 	gwenSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Fabiolacrustáceo"}
+		Value:    "Fabiola"}
 
 	gwenTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "寶拉唔呼呼"}
+		Value:    "寶拉"}
 )
 
 var (

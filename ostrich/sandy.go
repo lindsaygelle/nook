@@ -25,51 +25,51 @@ var (
 
 	sandyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ottieeuh quoi"}
+		Value:    "Ottie"}
 
 	sandyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sandyraprap"}
+		Value:    "Sandy"}
 
 	sandyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ottieeuh quoi"}
+		Value:    "Ottie"}
 
 	sandyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sentaflottilda"}
+		Value:    "Senta"}
 
 	sandyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Alessiavruum"}
+		Value:    "Alessia"}
 
 	sandyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ランだチョー"}
+		Value:    "ラン"}
 
 	sandyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "샌디그렇다조"}
+		Value:    "샌디"}
 
 	sandyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Priscilafiuuun"}
+		Value:    "Priscila"}
 
 	sandyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Сэндибыстро"}
+		Value:    "Сэнди"}
 
 	sandySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小岚鸵鸟"}
+		Value:    "小岚"}
 
 	sandySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Priscilafiuuun"}
+		Value:    "Priscila"}
 
 	sandyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小嵐鴕鳥"}
+		Value:    "小嵐"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	bonesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Nonosyip yip"}
+		Value:    "Nonos"}
 
 	bonesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bonessnuf snuf"}
+		Value:    "Bones"}
 
 	bonesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Nonosyip yip"}
+		Value:    "Nonos"}
 
 	bonesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Strolchhechel"}
+		Value:    "Strolch"}
 
 	bonesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tobiayip yip"}
+		Value:    "Tobia"}
 
 	bonesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トミネッ"}
+		Value:    "トミ"}
 
 	bonesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "토미옙"}
+		Value:    "토미"}
 
 	bonesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cándidoyip yip"}
+		Value:    "Cándido"}
 
 	bonesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Боунстяв-тяв"}
+		Value:    "Боунс"}
 
 	bonesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿富对吧"}
+		Value:    "阿富"}
 
 	bonesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cándidoyip yip"}
+		Value:    "Cándido"}
 
 	bonesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿富對吧"}
+		Value:    "阿富"}
 )
 
 var (

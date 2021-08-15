@@ -25,51 +25,51 @@ var (
 
 	fritaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Clarabêlmouêêê"}
+		Value:    "Clarabêl"}
 
 	fritaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Fritaooi zeg"}
+		Value:    "Frita"}
 
 	fritaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Clarabêlmouêêê"}
+		Value:    "Clarabêl"}
 
 	fritaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Martinaknuddel"}
+		Value:    "Martina"}
 
 	fritaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Landabeee la la"}
+		Value:    "Landa"}
 
 	fritaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ウェンディだポテ"}
+		Value:    "ウェンディ"}
 
 	fritaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "웬디포테토"}
+		Value:    "웬디"}
 
 	fritaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Oviniaberebé"}
+		Value:    "Ovinia"}
 
 	fritaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фритамутончик"}
+		Value:    "Фрита"}
 
 	fritaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "温蒂薯薯"}
+		Value:    "温蒂"}
 
 	fritaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Oviniaberebé"}
+		Value:    "Ovinia"}
 
 	fritaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "溫蒂薯薯"}
+		Value:    "溫蒂"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	sueeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	sueeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	sueeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Peguygroingroin"}
+		Value:    "Peguy"}
 
 	sueeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sabrinaschnaub"}
+		Value:    "Sabrina"}
 
 	sueeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Piggyoinksnoink"}
+		Value:    "Piggy"}
 
 	sueeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブルジョアざんす"}
+		Value:    "ブルジョア"}
 
 	sueeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	sueeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	sueeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	sueeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "娇娇烦死"}
+		Value:    "娇娇"}
 
 	sueeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Porciapiojo"}
+		Value:    "Porcia"}
 
 	sueeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

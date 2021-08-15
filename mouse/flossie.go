@@ -25,51 +25,51 @@ var (
 
 	flossieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flossieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flossieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chiquitamicrobe"}
+		Value:    "Chiquita"}
 
 	flossieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Amaliequietsch"}
+		Value:    "Amalie"}
 
 	flossieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Florindafischietto"}
+		Value:    "Florinda"}
 
 	flossieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピスタチオガハハ"}
+		Value:    "ピスタチオ"}
 
 	flossieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flossieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flossieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flossieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	flossieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Oregildao sea"}
+		Value:    "Oregilda"}
 
 	flossieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	borisCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Borisminot"}
+		Value:    "Boris"}
 
 	borisDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Borisoink"}
+		Value:    "Boris"}
 
 	borisFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Borisminot"}
+		Value:    "Boris"}
 
 	borisGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bollequiek"}
+		Value:    "Bolle"}
 
 	borisItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Borissgrunf"}
+		Value:    "Boris"}
 
 	borisJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ダリーブヒッ"}
+		Value:    "ダリー"}
 
 	borisKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "보리쌀"}
+		Value:    "보리"}
 
 	borisLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Borisoink"}
+		Value:    "Boris"}
 
 	borisRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Борисхрю-хряк"}
+		Value:    "Борис"}
 
 	borisSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "达利噗嘻"}
+		Value:    "达利"}
 
 	borisSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Borisoink"}
+		Value:    "Boris"}
 
 	borisTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "達利噗嘻"}
+		Value:    "達利"}
 )
 
 var (

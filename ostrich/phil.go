@@ -25,51 +25,51 @@ var (
 
 	philCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Philbécot"}
+		Value:    "Phil"}
 
 	philDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Philstruis"}
+		Value:    "Phil"}
 
 	philFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Philbécot"}
+		Value:    "Phil"}
 
 	philGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ingozwoing"}
+		Value:    "Ingo"}
 
 	philItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Enzotambien"}
+		Value:    "Enzo"}
 
 	philJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ケインホロロ"}
+		Value:    "ケイン"}
 
 	philKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "케인호롤로"}
+		Value:    "케인"}
 
 	philLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Amaliojurk"}
+		Value:    "Amalio"}
 
 	philRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Филхех"}
+		Value:    "Фил"}
 
 	philSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "凯恩轰隆隆"}
+		Value:    "凯恩"}
 
 	philSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Amaliojurk"}
+		Value:    "Amalio"}
 
 	philTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "凱恩轟隆隆"}
+		Value:    "凱恩"}
 )
 
 var (

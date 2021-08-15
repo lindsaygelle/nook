@@ -25,51 +25,51 @@ var (
 
 	queenieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Reinepoupoule"}
+		Value:    "Reine"}
 
 	queenieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Queeniekippie"}
+		Value:    "Queenie"}
 
 	queenieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Reinepoupoule"}
+		Value:    "Reine"}
 
 	queenieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Isabellahühnchen"}
+		Value:    "Isabella"}
 
 	queenieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Reginapolpetta"}
+		Value:    "Regina"}
 
 	queenieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タキュやっぱし"}
+		Value:    "タキュ"}
 
 	queenieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "택주역시"}
+		Value:    "택주"}
 
 	queenieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Marujitaplumifá"}
+		Value:    "Marujita"}
 
 	queenieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Квиницыпленок"}
+		Value:    "Квини"}
 
 	queenieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "果果果然"}
+		Value:    "果果"}
 
 	queenieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Marujitagallina"}
+		Value:    "Marujita"}
 
 	queenieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "果果果然"}
+		Value:    "果果"}
 )
 
 var (

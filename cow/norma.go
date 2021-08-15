@@ -25,51 +25,51 @@ var (
 
 	normaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Normameuh nan"}
+		Value:    "Norma"}
 
 	normaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Normaboehoe"}
+		Value:    "Norma"}
 
 	normaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Normameuh nan"}
+		Value:    "Norma"}
 
 	normaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nellymuuuhi"}
+		Value:    "Nelly"}
 
 	normaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Normamu muuu"}
+		Value:    "Norma"}
 
 	normaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "いさこうふ"}
+		Value:    "いさこ"}
 
 	normaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "미자에헤"}
+		Value:    "미자"}
 
 	normaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Normamu-mu"}
+		Value:    "Norma"}
 
 	normaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Нормадо-ре-му"}
+		Value:    "Норма"}
 
 	normaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "晨曦微笑"}
+		Value:    "晨曦"}
 
 	normaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Normamu-mu"}
+		Value:    "Norma"}
 
 	normaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "晨曦微笑"}
+		Value:    "晨曦"}
 )
 
 var (

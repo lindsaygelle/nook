@@ -25,51 +25,51 @@ var (
 
 	trufflesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Trufajambon"}
+		Value:    "Trufa"}
 
 	trufflesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Trufflessnuiter"}
+		Value:    "Truffles"}
 
 	trufflesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Trufajambon"}
+		Value:    "Trufa"}
 
 	trufflesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Luzieschnauzie"}
+		Value:    "Luzie"}
 
 	trufflesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Grufettaficcanaso"}
+		Value:    "Grufetta"}
 
 	trufflesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トンコだわさ"}
+		Value:    "トンコ"}
 
 	trufflesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "탱고거라예"}
+		Value:    "탱고"}
 
 	trufflesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Trufasoink-oink"}
+		Value:    "Trufas"}
 
 	trufflesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Трафлсхрюша"}
+		Value:    "Трафлс"}
 
 	trufflesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "嘟嘟哇赛"}
+		Value:    "嘟嘟"}
 
 	trufflesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Trufasoink-oink"}
+		Value:    "Trufas"}
 
 	trufflesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "嘟嘟哇賽"}
+		Value:    "嘟嘟"}
 )
 
 var (

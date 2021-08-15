@@ -25,51 +25,51 @@ var (
 
 	bluebearCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Myrtilleprune"}
+		Value:    "Myrtille"}
 
 	bluebearDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bluebearperzik"}
+		Value:    "Bluebear"}
 
 	bluebearFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Myrtilleprune"}
+		Value:    "Myrtille"}
 
 	bluebearGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Birtefrüchtchen"}
+		Value:    "Birte"}
 
 	bluebearItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Azzurrapepè"}
+		Value:    "Azzurra"}
 
 	bluebearJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "グルミンキュン"}
+		Value:    "グルミン"}
 
 	bluebearKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "글루민두근"}
+		Value:    "글루민"}
 
 	bluebearLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Celestemelí-melá"}
+		Value:    "Celeste"}
 
 	bluebearRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Блюбеарперсик"}
+		Value:    "Блюбеар"}
 
 	bluebearSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "娃娃怦怦"}
+		Value:    "娃娃"}
 
 	bluebearSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Celestecielito"}
+		Value:    "Celeste"}
 
 	bluebearTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "娃娃怦怦"}
+		Value:    "娃娃"}
 )
 
 var (

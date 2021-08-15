@@ -25,51 +25,51 @@ var (
 
 	willowCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maïtourni"}
+		Value:    "Maï"}
 
 	willowDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Willowwollebol"}
+		Value:    "Willow"}
 
 	willowFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maïtourni"}
+		Value:    "Maï"}
 
 	willowGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nataschablö-ö-ök"}
+		Value:    "Natascha"}
 
 	willowItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Belindababeeebí"}
+		Value:    "Belinda"}
 
 	willowJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マリーですのよ"}
+		Value:    "マリー"}
 
 	willowKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마리됐거든"}
+		Value:    "마리"}
 
 	willowLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cuquibabeeebí"}
+		Value:    "Cuqui"}
 
 	willowRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Уиллоупасемся"}
+		Value:    "Уиллоу"}
 
 	willowSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "梅丽诺是的唷"}
+		Value:    "梅丽诺"}
 
 	willowSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cuquibabeeebí"}
+		Value:    "Cuqui"}
 
 	willowTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "梅麗諾是的唷"}
+		Value:    "梅麗諾"}
 )
 
 var (

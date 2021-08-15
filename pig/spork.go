@@ -25,51 +25,51 @@ var (
 
 	sporkCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Justindiantre"}
+		Value:    "Justin"}
 
 	sporkDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cracklesnurk"}
+		Value:    "Crackle"}
 
 	sporkFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Justindiantre"}
+		Value:    "Justin"}
 
 	sporkGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Schwartegrunz"}
+		Value:    "Schwarte"}
 
 	sporkItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cicciolosnork"}
+		Value:    "Cicciolo"}
 
 	sporkJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ポークだブー"}
+		Value:    "ポーク"}
 
 	sporkKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "포크꼬르륵"}
+		Value:    "포크"}
 
 	sporkLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Esporkpork"}
+		Value:    "Espork"}
 
 	sporkRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Крэклхрю"}
+		Value:    "Крэкл"}
 
 	sporkSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "肉肉噗"}
+		Value:    "肉肉"}
 
 	sporkSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Esporkpork"}
+		Value:    "Espork"}
 
 	sporkTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "肉肉噗"}
+		Value:    "肉肉"}
 )
 
 var (

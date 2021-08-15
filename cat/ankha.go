@@ -25,51 +25,51 @@ var (
 
 	ankhaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Nefertimi-i-i-ouh"}
+		Value:    "Neferti"}
 
 	ankhaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ankhasfinx"}
+		Value:    "Ankha"}
 
 	ankhaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Nefertimi-i-i-ouh"}
+		Value:    "Neferti"}
 
 	ankhaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kleomi-miau"}
+		Value:    "Kleo"}
 
 	ankhaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cleomiao miao"}
+		Value:    "Cleo"}
 
 	ankhaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ナイルクフフ"}
+		Value:    "ナイル"}
 
 	ankhaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "클레오파트라"}
+		Value:    "클레오"}
 
 	ankhaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Patrimarramius"}
+		Value:    "Patri"}
 
 	ankhaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Анками-мяу"}
+		Value:    "Анка"}
 
 	ankhaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "艳后尼罗"}
+		Value:    "艳后"}
 
 	ankhaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Patrimarramius"}
+		Value:    "Patri"}
 
 	ankhaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "艷后尼羅"}
+		Value:    "艷后"}
 )
 
 var (

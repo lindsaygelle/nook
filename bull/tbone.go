@@ -25,51 +25,51 @@ var (
 
 	tboneCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Steakosmes cornes"}
+		Value:    "Steakos"}
 
 	tboneDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "T-Bonemoehoe"}
+		Value:    "T-Bone"}
 
 	tboneFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Steakosvachte"}
+		Value:    "Steakos"}
 
 	tboneGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mariushhmmuuuhh"}
+		Value:    "Marius"}
 
 	tboneItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Victormuuusica"}
+		Value:    "Victor"}
 
 	tboneJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ボルシチだっぺ"}
+		Value:    "ボルシチ"}
 
 	tboneKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "티본워메에"}
+		Value:    "티본"}
 
 	tboneLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bovimuuuchi"}
+		Value:    "Bovi"}
 
 	tboneRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ти-Боунбычок"}
+		Value:    "Ти-Боун"}
 
 	tboneSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗宋是呗"}
+		Value:    "罗宋"}
 
 	tboneSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bovimuooola"}
+		Value:    "Bovi"}
 
 	tboneTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅宋是唄"}
+		Value:    "羅宋"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	tammiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lilibooof"}
+		Value:    "Lili"}
 
 	tammiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tammichimpie"}
+		Value:    "Tammi"}
 
 	tammiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lilibooof"}
+		Value:    "Lili"}
 
 	tammiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bonniagaga"}
+		Value:    "Bonni"}
 
 	tammiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tammiscimmietta"}
+		Value:    "Tammi"}
 
 	tammiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エイプリルワオ"}
+		Value:    "エイプリル"}
 
 	tammiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에이프릴와우"}
+		Value:    "에이프릴"}
 
 	tammiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tamiuki-uki"}
+		Value:    "Tami"}
 
 	tammiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тэммишимпатяга"}
+		Value:    "Тэмми"}
 
 	tammiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "四月哇呜"}
+		Value:    "四月"}
 
 	tammiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tamiuki-uki"}
+		Value:    "Tami"}
 
 	tammiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "四月哇嗚"}
+		Value:    "四月"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	chopsCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Aaronlardon"}
+		Value:    "Aaron"}
 
 	chopsDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chopsmoddervet"}
+		Value:    "Chops"}
 
 	chopsFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Aaronlardon"}
+		Value:    "Aaron"}
 
 	chopsGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Clemensborsti"}
+		Value:    "Clemens"}
 
 	chopsItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Linooinc"}
+		Value:    "Lino"}
 
 	chopsJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トンファンだトン"}
+		Value:    "トンファン"}
 
 	chopsKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "돈후앙떼끼에로"}
+		Value:    "돈후앙"}
 
 	chopsLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Solomínzoink"}
+		Value:    "Solomín"}
 
 	chopsRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Чопсхряк-с"}
+		Value:    "Чопс"}
 
 	chopsSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "豚皇豚"}
+		Value:    "豚皇"}
 
 	chopsSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Solomínzoink"}
+		Value:    "Solomín"}
 
 	chopsTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "豚皇豚"}
+		Value:    "豚皇"}
 )
 
 var (

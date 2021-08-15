@@ -25,51 +25,51 @@ var (
 
 	peachesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Prunemustang"}
+		Value:    "Prune"}
 
 	peachesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Peacheshinnik"}
+		Value:    "Peaches"}
 
 	peachesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Prunemustang"}
+		Value:    "Prune"}
 
 	peachesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Clairenachbar"}
+		Value:    "Claire"}
 
 	peachesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ronzinaoh mamma"}
+		Value:    "Ronzina"}
 
 	peachesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ドサコだポン"}
+		Value:    "ドサコ"}
 
 	peachesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "말자몰라요"}
+		Value:    "말자"}
 
 	peachesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Perlaniiiih"}
+		Value:    "Perla"}
 
 	peachesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пичессоседушка"}
+		Value:    "Пичес"}
 
 	peachesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小薰蹦"}
+		Value:    "小薰"}
 
 	peachesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Perlaniiiih"}
+		Value:    "Perla"}
 
 	peachesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小薰蹦"}
+		Value:    "小薰"}
 )
 
 var (

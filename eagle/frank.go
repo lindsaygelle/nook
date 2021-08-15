@@ -25,51 +25,51 @@ var (
 
 	frankCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Greggaemaaaarre"}
+		Value:    "Greggae"}
 
 	frankDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Frankpletter"}
+		Value:    "Frank"}
 
 	frankFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Greggaemaaaarre"}
+		Value:    "Greggae"}
 
 	frankGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Arthurkriiieck"}
+		Value:    "Arthur"}
 
 	frankItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Frankrapaciao"}
+		Value:    "Frank"}
 
 	frankJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハルクダンケ"}
+		Value:    "ハルク"}
 
 	frankKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "헐크크헐"}
+		Value:    "헐크"}
 
 	frankLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Aquilinovulanico"}
+		Value:    "Aquilino"}
 
 	frankRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Франккрасава"}
+		Value:    "Франк"}
 
 	frankSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "浩克多谢"}
+		Value:    "浩克"}
 
 	frankSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Aquilinovulanico"}
+		Value:    "Aquilino"}
 
 	frankTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "浩克多謝"}
+		Value:    "浩克"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	erikCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Abrahambreuh"}
+		Value:    "Abraham"}
 
 	erikDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Erikschorsie"}
+		Value:    "Erik"}
 
 	erikFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Abrahambreuh"}
+		Value:    "Abraham"}
 
 	erikGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Erikhirschl"}
+		Value:    "Erik"}
 
 	erikItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cervasiorelax"}
+		Value:    "Cervasio"}
 
 	erikJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャックしかじか"}
+		Value:    "チャック"}
 
 	erikKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "자끄뚜비뚜바"}
+		Value:    "자끄"}
 
 	erikLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cervasioñume-ñume"}
+		Value:    "Cervasio"}
 
 	erikRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Эрикем мох"}
+		Value:    "Эрик"}
 
 	erikSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "查克鹿鹿"}
+		Value:    "查克"}
 
 	erikSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cervasioñume-ñume"}
+		Value:    "Cervasio"}
 
 	erikTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "查克鹿鹿"}
+		Value:    "查克"}
 )
 
 var (

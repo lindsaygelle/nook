@@ -25,51 +25,51 @@ var (
 
 	bonbonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Sylvettenananère"}
+		Value:    "Sylvette"}
 
 	bonbonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bonbonheer-lijk"}
+		Value:    "Bonbon"}
 
 	bonbonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sylvettenananère"}
+		Value:    "Sylvette"}
 
 	bonbonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Henrikehüppi"}
+		Value:    "Henrike"}
 
 	bonbonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lollyhurrah"}
+		Value:    "Lolly"}
 
 	bonbonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ミミィヤバッ"}
+		Value:    "ミミィ"}
 
 	bonbonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "미미어뜨케"}
+		Value:    "미미"}
 
 	bonbonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chocolatoh lalá"}
+		Value:    "Chocolat"}
 
 	bonbonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бонбонвкусняшка"}
+		Value:    "Бонбон"}
 
 	bonbonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "妙妙不妙"}
+		Value:    "妙妙"}
 
 	bonbonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chocolatoh lalá"}
+		Value:    "Chocolat"}
 
 	bonbonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "妙妙不妙"}
+		Value:    "妙妙"}
 )
 
 var (

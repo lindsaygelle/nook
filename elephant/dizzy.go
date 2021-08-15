@@ -25,51 +25,51 @@ var (
 
 	dizzyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pachywoutchou"}
+		Value:    "Pachy"}
 
 	dizzyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Dizzytrompet"}
+		Value:    "Dizzy"}
 
 	dizzyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pachywoutchou"}
+		Value:    "Pachy"}
 
 	dizzyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bastiantaraaaa"}
+		Value:    "Bastian"}
 
 	dizzyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Annibaleullà"}
+		Value:    "Annibale"}
 
 	dizzyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヒュージだゾウ"}
+		Value:    "ヒュージ"}
 
 	dizzyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "휴지휴휴"}
+		Value:    "휴지"}
 
 	dizzyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Quiquewuuulá"}
+		Value:    "Quique"}
 
 	dizzyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Диззитру-ру"}
+		Value:    "Диззи"}
 
 	dizzySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "巨巨象象"}
+		Value:    "巨巨"}
 
 	dizzySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Quiquenaricita"}
+		Value:    "Quique"}
 
 	dizzyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "巨巨象象"}
+		Value:    "巨巨"}
 )
 
 var (

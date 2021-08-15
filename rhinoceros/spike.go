@@ -25,51 +25,51 @@ var (
 
 	spikeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rhinogroumph"}
+		Value:    "Rhino"}
 
 	spikeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Spikeschelm"}
+		Value:    "Spike"}
 
 	spikeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rhinosaperlotte"}
+		Value:    "Rhino"}
 
 	spikeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Atzepunk"}
+		Value:    "Atze"}
 
 	spikeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Brutopachi"}
+		Value:    "Bruto"}
 
 	spikeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "スクワットでヤンキ"}
+		Value:    "スクワット"}
 
 	spikeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "스쿼트빠직"}
+		Value:    "스쿼트"}
 
 	spikeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Corniopapúm"}
+		Value:    "Cornio"}
 
 	spikeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Спайкбродяга"}
+		Value:    "Спайк"}
 
 	spikeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿蹲混混"}
+		Value:    "阿蹲"}
 
 	spikeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Corniogranuja"}
+		Value:    "Cornio"}
 
 	spikeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿蹲混混"}
+		Value:    "阿蹲"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	galaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Camilletigroin"}
+		Value:    "Camille"}
 
 	galaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Galasnufferd"}
+		Value:    "Gala"}
 
 	galaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Camilletigroin"}
+		Value:    "Camille"}
 
 	galaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Oinkalächel"}
+		Value:    "Oinka"}
 
 	galaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lisettagruffeffè"}
+		Value:    "Lisetta"}
 
 	galaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ためこちゃりん"}
+		Value:    "ためこ"}
 
 	galaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "꽃지땡그랑"}
+		Value:    "꽃지"}
 
 	galaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Maritachanchi"}
+		Value:    "Marita"}
 
 	galaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Галахрюк"}
+		Value:    "Гала"}
 
 	galaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小芽当啷"}
+		Value:    "小芽"}
 
 	galaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Maritachanchi"}
+		Value:    "Marita"}
 
 	galaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小芽噹啷"}
+		Value:    "小芽"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	macCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Brutusbabines"}
+		Value:    "Brutus"}
 
 	macDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Macwoewoef"}
+		Value:    "Mac"}
 
 	macFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Brutusbabines"}
+		Value:    "Brutus"}
 
 	macGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Wuffibellbell"}
+		Value:    "Wuffi"}
 
 	macItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Teoarfidenti"}
+		Value:    "Teo"}
 
 	macJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャンプモグ"}
+		Value:    "チャンプ"}
 
 	macKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "챔프우물우물"}
+		Value:    "챔프"}
 
 	macLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pitfrusky"}
+		Value:    "Pit"}
 
 	macRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Макау-у-гав"}
+		Value:    "Мак"}
 
 	macSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "金牌摘"}
+		Value:    "金牌"}
 
 	macSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pitfrusky"}
+		Value:    "Pit"}
 
 	macTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "金牌摘"}
+		Value:    "金牌"}
 )
 
 var (

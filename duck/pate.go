@@ -25,51 +25,51 @@ var (
 
 	pateCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Terrinecoin coin"}
+		Value:    "Terrine"}
 
 	pateDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Patekwakel"}
+		Value:    "Pate"}
 
 	pateFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Terrinecoin coin"}
+		Value:    "Terrine"}
 
 	pateGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Daunequaak"}
+		Value:    "Daune"}
 
 	pateItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Camillaquackquack"}
+		Value:    "Camilla"}
 
 	pateJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ナッキーメソメソ"}
+		Value:    "ナッキー"}
 
 	pateKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "나키아잉"}
+		Value:    "나키"}
 
 	pateLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Paticuaqui"}
+		Value:    "Pati"}
 
 	pateRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пэйткряки-кряк"}
+		Value:    "Пэйт"}
 
 	pateSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "爱哭鬼呜呜"}
+		Value:    "爱哭鬼"}
 
 	pateSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Paticuaqui"}
+		Value:    "Pati"}
 
 	pateTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "愛哭鬼嗚嗚"}
+		Value:    "愛哭鬼"}
 )
 
 var (

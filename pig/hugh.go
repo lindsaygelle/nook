@@ -25,51 +25,51 @@ var (
 
 	hughCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bonnocuick"}
+		Value:    "Bonno"}
 
 	hughDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hughsnuif"}
+		Value:    "Hugh"}
 
 	hughFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bonnocuick"}
+		Value:    "Bonno"}
 
 	hughGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hugoschniff"}
+		Value:    "Hugo"}
 
 	hughItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Jambonsnort"}
+		Value:    "Jambon"}
 
 	hughJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クッチャネとかね"}
+		Value:    "クッチャネ"}
 
 	hughKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "먹고파아님말구"}
+		Value:    "먹고파"}
 
 	hughLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jacobogroink"}
+		Value:    "Jacobo"}
 
 	hughRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хьюхрюк-хрюк"}
+		Value:    "Хью"}
 
 	hughSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿猪懒懒"}
+		Value:    "阿猪"}
 
 	hughSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jacobogroink"}
+		Value:    "Jacobo"}
 
 	hughTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿豬懶懶"}
+		Value:    "阿豬"}
 )
 
 var (

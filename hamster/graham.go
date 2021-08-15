@@ -25,51 +25,51 @@ var (
 
 	grahamCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Grahamau pif"}
+		Value:    "Graham"}
 
 	grahamDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Grahaminderdaad"}
+		Value:    "Graham"}
 
 	grahamFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Grahamau pif"}
+		Value:    "Graham"}
 
 	grahamGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Güntherhähäm"}
+		Value:    "Günther"}
 
 	grahamItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Evaristopaella"}
+		Value:    "Evaristo"}
 
 	grahamJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "グラハムですぞ"}
+		Value:    "グラハム"}
 
 	grahamKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "글라햄그렇다고"}
+		Value:    "글라햄"}
 
 	grahamLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Roelioñisqui"}
+		Value:    "Roelio"}
 
 	grahamRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Грэмрезонно"}
+		Value:    "Грэм"}
 
 	grahamSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "麦麦就是这样"}
+		Value:    "麦麦"}
 
 	grahamSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Roelioñisqui"}
+		Value:    "Roelio"}
 
 	grahamTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "麥麥就是這樣"}
+		Value:    "麥麥"}
 )
 
 var (

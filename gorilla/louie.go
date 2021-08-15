@@ -25,51 +25,51 @@ var (
 
 	louieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Louistonneau"}
+		Value:    "Louis"}
 
 	louieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Louieoe-oe-ah"}
+		Value:    "Louie"}
 
 	louieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Louistonneau"}
+		Value:    "Louis"}
 
 	louieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ludwigugh-ugh"}
+		Value:    "Ludwig"}
 
 	louieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Loubum bum"}
+		Value:    "Lou"}
 
 	louieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マッスルコング"}
+		Value:    "マッスル"}
 
 	louieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "머슬하압"}
+		Value:    "머슬"}
 
 	louieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lougorilérico"}
+		Value:    "Lou"}
 
 	louieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Луиух-ух-ах"}
+		Value:    "Луи"}
 
 	louieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "壮壮钢钢"}
+		Value:    "壮壮"}
 
 	louieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lougorilérico"}
+		Value:    "Lou"}
 
 	louieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "壯壯鋼鋼"}
+		Value:    "壯壯"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	louieAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "tootsodelayhoo hoo ha"}
+		Value:    "toots"}
 
 	louieCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

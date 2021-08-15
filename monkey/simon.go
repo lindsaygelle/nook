@@ -25,51 +25,51 @@ var (
 
 	simonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Simonzzziik"}
+		Value:    "Simon"}
 
 	simonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Simonzzzoeh oeh"}
+		Value:    "Simon"}
 
 	simonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Simonzzziik"}
+		Value:    "Simon"}
 
 	simonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Simonbannabanna"}
+		Value:    "Simon"}
 
 	simonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Simonzzzook"}
+		Value:    "Simon"}
 
 	simonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エテキチでござる"}
+		Value:    "エテキチ"}
 
 	simonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "시몬하옵니다"}
+		Value:    "시몬"}
 
 	simonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Simónchimpa"}
+		Value:    "Simón"}
 
 	simonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Саймондружок"}
+		Value:    "Саймон"}
 
 	simonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "远仁猿猿"}
+		Value:    "远仁"}
 
 	simonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Simónchimpa"}
+		Value:    "Simón"}
 
 	simonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "遠仁猿猿"}
+		Value:    "遠仁"}
 )
 
 var (

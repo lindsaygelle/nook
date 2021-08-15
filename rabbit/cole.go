@@ -25,51 +25,51 @@ var (
 
 	coleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Épicurechaaauuud"}
+		Value:    "Épicure"}
 
 	coleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Colegaaast"}
+		Value:    "Cole"}
 
 	coleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Épicurechaaauuud"}
+		Value:    "Épicure"}
 
 	coleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Karlmümml"}
+		Value:    "Karl"}
 
 	coleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lelloniglio"}
+		Value:    "Lello"}
 
 	coleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アマミンそうさね"}
+		Value:    "アマミン"}
 
 	coleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아마민나도나도"}
+		Value:    "아마민"}
 
 	coleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Nicolásmuyayo"}
+		Value:    "Nicolás"}
 
 	coleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Коулзайчелло"}
+		Value:    "Коул"}
 
 	coleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿甘就是如此"}
+		Value:    "阿甘"}
 
 	coleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Nicolásmuyayo"}
+		Value:    "Nicolás"}
 
 	coleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿甘就是如此"}
+		Value:    "阿甘"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	coleAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "duuudecoooooool"}
+		Value:    "duuude"}
 
 	coleCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

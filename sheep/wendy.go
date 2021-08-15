@@ -25,51 +25,51 @@ var (
 
 	wendyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Karenbê-bê-bê"}
+		Value:    "Karen"}
 
 	wendyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Wendylammetje"}
+		Value:    "Wendy"}
 
 	wendyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Karenbê-bê-bê"}
+		Value:    "Karen"}
 
 	wendyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Wolliwuschel"}
+		Value:    "Wolli"}
 
 	wendyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Agnolabeee-ehi"}
+		Value:    "Agnola"}
 
 	wendyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "みぞれイシシ"}
+		Value:    "みぞれ"}
 
 	wendyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "눈송이꺄르르"}
+		Value:    "눈송이"}
 
 	wendyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Franelabee-biis"}
+		Value:    "Franela"}
 
 	wendyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Вендиовечка"}
+		Value:    "Венди"}
 
 	wendySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雪花一丝丝"}
+		Value:    "雪花"}
 
 	wendySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Franelajoyita"}
+		Value:    "Franela"}
 
 	wendyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雪花一絲絲"}
+		Value:    "雪花"}
 )
 
 var (

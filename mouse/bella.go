@@ -25,51 +25,51 @@ var (
 
 	bellaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bellehiiiii"}
+		Value:    "Belle"}
 
 	bellaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bellaieps"}
+		Value:    "Bella"}
 
 	bellaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bellehiiiii"}
+		Value:    "Belle"}
 
 	bellaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Susivisavisa"}
+		Value:    "Susi"}
 
 	bellaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bellaeeks"}
+		Value:    "Bella"}
 
 	bellaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "イザベラギャハッ"}
+		Value:    "イザベラ"}
 
 	bellaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "이자벨캬학"}
+		Value:    "이자벨"}
 
 	bellaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pritypetisú"}
+		Value:    "Prity"}
 
 	bellaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Беллапип"}
+		Value:    "Белла"}
 
 	bellaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "贝拉嘎哈"}
+		Value:    "贝拉"}
 
 	bellaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pritypetisú"}
+		Value:    "Prity"}
 
 	bellaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "貝拉嘎哈"}
+		Value:    "貝拉"}
 )
 
 var (

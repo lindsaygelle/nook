@@ -25,51 +25,51 @@ var (
 
 	reneighCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jennifercrincrin"}
+		Value:    "Jennifer"}
 
 	reneighDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Reneighuhuh"}
+		Value:    "Reneigh"}
 
 	reneighFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jennifercrincrin"}
+		Value:    "Jennifer"}
 
 	reneighGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Andreatada"}
+		Value:    "Andrea"}
 
 	reneighItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Requinahiii-op"}
+		Value:    "Requina"}
 
 	reneighJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リアーナスン"}
+		Value:    "リアーナ"}
 
 	reneighKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "리아나쉬익"}
+		Value:    "리아나"}
 
 	reneighLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Corceliajuááá"}
+		Value:    "Corcelia"}
 
 	reneighRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ренино-но"}
+		Value:    "Рени"}
 
 	reneighSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雷哈娜哼"}
+		Value:    "雷哈娜"}
 
 	reneighSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Corceliaalehop"}
+		Value:    "Corcelia"}
 
 	reneighTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雷哈娜哼"}
+		Value:    "雷哈娜"}
 )
 
 var (

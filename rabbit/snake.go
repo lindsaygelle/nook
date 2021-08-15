@@ -25,51 +25,51 @@ var (
 
 	snakeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jeannotmon lapin"}
+		Value:    "Jeannot"}
 
 	snakeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Snakeninja"}
+		Value:    "Snake"}
 
 	snakeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jeannotmon lapin"}
+		Value:    "Jeannot"}
 
 	snakeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Philiphopplahopp"}
+		Value:    "Philip"}
 
 	snakeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Razzobun bun"}
+		Value:    "Razzo"}
 
 	snakeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "モモチニンニン"}
+		Value:    "モモチ"}
 
 	snakeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "닌토닌닌"}
+		Value:    "닌토"}
 
 	snakeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rayoboin-boing"}
+		Value:    "Rayo"}
 
 	snakeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Снейкзаяссс"}
+		Value:    "Снейк"}
 
 	snakeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "百川忍忍"}
+		Value:    "百川"}
 
 	snakeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rayoboin-boing"}
+		Value:    "Rayo"}
 
 	snakeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "百川忍忍"}
+		Value:    "百川"}
 )
 
 var (

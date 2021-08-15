@@ -25,51 +25,51 @@ var (
 
 	raddleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Fabienkroah"}
+		Value:    "Fabien"}
 
 	raddleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Raddlekraah"}
+		Value:    "Raddle"}
 
 	raddleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Fabienkroah"}
+		Value:    "Fabien"}
 
 	raddleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sanitatü"}
+		Value:    "Sani"}
 
 	raddleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Massimorrruuuak"}
+		Value:    "Massimo"}
 
 	raddleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カックンへくしっ"}
+		Value:    "カックン"}
 
 	raddleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "개군콜록"}
+		Value:    "개군"}
 
 	raddleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Radiolocroaqui"}
+		Value:    "Radiolo"}
 
 	raddleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рэддлах-ох"}
+		Value:    "Рэддл"}
 
 	raddleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "嘉俊哈啾"}
+		Value:    "嘉俊"}
 
 	raddleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Radiolocroaqui"}
+		Value:    "Radiolo"}
 
 	raddleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "嘉俊哈啾"}
+		Value:    "嘉俊"}
 )
 
 var (

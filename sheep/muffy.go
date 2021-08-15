@@ -25,51 +25,51 @@ var (
 
 	muffyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Charlènetricoti"}
+		Value:    "Charlène"}
 
 	muffyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Muffynachtvacht"}
+		Value:    "Muffy"}
 
 	muffyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Charlènetricoti"}
+		Value:    "Charlène"}
 
 	muffyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Marionknuffi"}
+		Value:    "Marion"}
 
 	muffyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Morenalanadà"}
+		Value:    "Morena"}
 
 	muffyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フリルおつかれ"}
+		Value:    "フリル"}
 
 	muffyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "프릴수고"}
+		Value:    "프릴"}
 
 	muffyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Muarélanavá"}
+		Value:    "Muaré"}
 
 	muffyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Маффитравинка"}
+		Value:    "Маффи"}
 
 	muffySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "彭澎辛苦了"}
+		Value:    "彭澎"}
 
 	muffySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Muarélanas"}
+		Value:    "Muaré"}
 
 	muffyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "彭澎辛苦了"}
+		Value:    "彭澎"}
 )
 
 var (

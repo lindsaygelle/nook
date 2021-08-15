@@ -25,51 +25,51 @@ var (
 
 	luchaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Condoryaaaah"}
+		Value:    "Condor"}
 
 	luchaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Luchakakauw"}
+		Value:    "Lucha"}
 
 	luchaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Condoryaaaah"}
+		Value:    "Condor"}
 
 	luchaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lukasmauser"}
+		Value:    "Lukas"}
 
 	luchaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Loretolorito"}
+		Value:    "Loreto"}
 
 	luchaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マスカラスカァー"}
+		Value:    "マスカラス"}
 
 	luchaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마스카라스까아악"}
+		Value:    "마스카라스"}
 
 	luchaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Plumeriopío"}
+		Value:    "Plumerio"}
 
 	luchaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лучакар-ко"}
+		Value:    "Луча"}
 
 	luchaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "摔角鸦嘎"}
+		Value:    "摔角鸦"}
 
 	luchaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Plumeriopicopico"}
+		Value:    "Plumerio"}
 
 	luchaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "摔角鴉嘎"}
+		Value:    "摔角鴉"}
 )
 
 var (

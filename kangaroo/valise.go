@@ -25,51 +25,51 @@ var (
 
 	valiseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	valiseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	valiseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pochettep'tit bout"}
+		Value:    "Pochette"}
 
 	valiseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Elkekrabbel"}
+		Value:    "Elke"}
 
 	valiseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pochettebonjour"}
+		Value:    "Pochette"}
 
 	valiseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エプロンピョン"}
+		Value:    "エプロン"}
 
 	valiseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	valiseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	valiseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	valiseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "昭昭噼哟"}
+		Value:    "昭昭"}
 
 	valiseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ana Rosapersonilla"}
+		Value:    "Ana Rosa"}
 
 	valiseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

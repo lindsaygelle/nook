@@ -25,51 +25,51 @@ var (
 
 	kiddCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Moktarmouhai"}
+		Value:    "Moktar"}
 
 	kiddDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kiddwatte"}
+		Value:    "Kidd"}
 
 	kiddFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mokhtarmouhai"}
+		Value:    "Mokhtar"}
 
 	kiddGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bockimehehe"}
+		Value:    "Bocki"}
 
 	kiddItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Vittoriobalido"}
+		Value:    "Vittorio"}
 
 	kiddJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "やさおはぁ～"}
+		Value:    "やさお"}
 
 	kiddKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "염두리웁스"}
+		Value:    "염두리"}
 
 	kiddLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cabrálexein"}
+		Value:    "Cabrálex"}
 
 	kiddRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Киддтак"}
+		Value:    "Кидд"}
 
 	kiddSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "文青啊"}
+		Value:    "文青"}
 
 	kiddSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cabrálexein"}
+		Value:    "Cabrálex"}
 
 	kiddTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "文青啊"}
+		Value:    "文青"}
 )
 
 var (

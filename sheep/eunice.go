@@ -25,51 +25,51 @@ var (
 
 	euniceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bérénicebêbêêêêh"}
+		Value:    "Bérénice"}
 
 	euniceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Eunicekrulletje"}
+		Value:    "Eunice"}
 
 	euniceFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bérénicebêbêêêêh"}
+		Value:    "Bérénice"}
 
 	euniceGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Edithla-a-amm"}
+		Value:    "Edith"}
 
 	euniceItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tenerinalaaagna"}
+		Value:    "Tenerina"}
 
 	euniceJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "モヘアメェー"}
+		Value:    "モヘア"}
 
 	euniceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "곱슬이메에에"}
+		Value:    "곱슬이"}
 
 	euniceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lanolinayupitiii"}
+		Value:    "Lanolina"}
 
 	euniceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Юнисребрышко"}
+		Value:    "Юнис"}
 
 	euniceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "毛海儿咩"}
+		Value:    "毛海儿"}
 
 	euniceSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lanolinaveeenga"}
+		Value:    "Lanolina"}
 
 	euniceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "毛海兒咩"}
+		Value:    "毛海兒"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	boomerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ethanhumanoïde"}
+		Value:    "Ethan"}
 
 	boomerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Boomermens"}
+		Value:    "Boomer"}
 
 	boomerFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ethanboudiou"}
+		Value:    "Ethan"}
 
 	boomerGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Maxmenschlein"}
+		Value:    "Max"}
 
 	boomerItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Icaroglacius"}
+		Value:    "Icaro"}
 
 	boomerJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ショーイツーツツ"}
+		Value:    "ショーイ"}
 
 	boomerKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "팽기에헴헴"}
+		Value:    "팽기"}
 
 	boomerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Serafinoglaciux"}
+		Value:    "Serafino"}
 
 	boomerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бумерчеловек"}
+		Value:    "Бумер"}
 
 	boomerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "秀益轧轧"}
+		Value:    "秀益"}
 
 	boomerSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Serafinohumanoide"}
+		Value:    "Serafino"}
 
 	boomerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "秀益軋軋"}
+		Value:    "秀益"}
 )
 
 var (

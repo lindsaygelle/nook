@@ -25,51 +25,51 @@ var (
 
 	yukaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Calypsotss tss"}
+		Value:    "Calypso"}
 
 	yukaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Yukatss tss"}
+		Value:    "Yuka"}
 
 	yukaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Calypsotss tss"}
+		Value:    "Calypso"}
 
 	yukaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Utegrins"}
+		Value:    "Ute"}
 
 	yukaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Yukatsé tsé"}
+		Value:    "Yuka"}
 
 	yukaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ユーカリアラ"}
+		Value:    "ユーカリ"}
 
 	yukaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "유카리어맛"}
+		Value:    "유카리"}
 
 	yukaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Yukatsé tsé"}
+		Value:    "Yuka"}
 
 	yukaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Юкац-ц"}
+		Value:    "Юка"}
 
 	yukaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "尤嘉莉啊啦"}
+		Value:    "尤嘉莉"}
 
 	yukaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Yukapues"}
+		Value:    "Yuka"}
 
 	yukaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "尤嘉莉啊啦"}
+		Value:    "尤嘉莉"}
 )
 
 var (

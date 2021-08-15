@@ -25,51 +25,51 @@ var (
 
 	deirdreCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bichounepan"}
+		Value:    "Bichoune"}
 
 	deirdreDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Deirdrenou ja"}
+		Value:    "Deirdre"}
 
 	deirdreFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bichounepan"}
+		Value:    "Bichoune"}
 
 	deirdreGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dinatripptripp"}
+		Value:    "Dina"}
 
 	deirdreItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dariababam"}
+		Value:    "Daria"}
 
 	deirdreJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ナディアまいっか"}
+		Value:    "ナディア"}
 
 	deirdreKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "나디아됐고"}
+		Value:    "나디아"}
 
 	deirdreLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Venadauatever"}
+		Value:    "Venada"}
 
 	deirdreRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Дейрдрекак-то так"}
+		Value:    "Дейрдре"}
 
 	deirdreSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "娣雅随便啦"}
+		Value:    "娣雅"}
 
 	deirdreSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Venadarumiante"}
+		Value:    "Venada"}
 
 	deirdreTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "娣雅隨便啦"}
+		Value:    "娣雅"}
 )
 
 var (

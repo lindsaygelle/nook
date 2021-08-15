@@ -25,51 +25,51 @@ var (
 
 	tiaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Fannyénoooorme"}
+		Value:    "Fanny"}
 
 	tiaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tiakopje thee"}
+		Value:    "Tia"}
 
 	tiaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Fannyénoooorme"}
+		Value:    "Fanny"}
 
 	tiaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Eleonorehuiuiui"}
+		Value:    "Eleonore"}
 
 	tiaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Fannyparbleu"}
+		Value:    "Fanny"}
 
 	tiaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ティーナホッ"}
+		Value:    "ティーナ"}
 
 	tiaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "티나따끈따끈"}
+		Value:    "티나"}
 
 	tiaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Meraldasnuuuf"}
+		Value:    "Meralda"}
 
 	tiaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тиачайку-у"}
+		Value:    "Тиа"}
 
 	tiaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "茉莉呼"}
+		Value:    "茉莉"}
 
 	tiaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Meraldasnuuuf"}
+		Value:    "Meralda"}
 
 	tiaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "茉莉呼"}
+		Value:    "茉莉"}
 )
 
 var (

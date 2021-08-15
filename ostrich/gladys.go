@@ -25,51 +25,51 @@ var (
 
 	gladysCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gladyscodêt"}
+		Value:    "Gladys"}
 
 	gladysDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gladysen strek"}
+		Value:    "Gladys"}
 
 	gladysFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gladyscodêt"}
+		Value:    "Gladys"}
 
 	gladysGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sandraajajajjj"}
+		Value:    "Sandra"}
 
 	gladysItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Martastretch"}
+		Value:    "Marta"}
 
 	gladysJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ちとせですの"}
+		Value:    "ちとせ"}
 
 	gladysKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "빅토리아그렇지라"}
+		Value:    "빅토리아"}
 
 	gladysLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gladisplumiplú"}
+		Value:    "Gladis"}
 
 	gladysRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Глэдисрастяжка"}
+		Value:    "Глэдис"}
 
 	gladysSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "仙仙千岁"}
+		Value:    "仙仙"}
 
 	gladysSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gladisplumillas"}
+		Value:    "Gladis"}
 
 	gladysTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "仙仙千歲"}
+		Value:    "仙仙"}
 )
 
 var (

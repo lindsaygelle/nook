@@ -25,51 +25,51 @@ var (
 
 	annaliseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Âne-lisehippique"}
+		Value:    "Âne-lise"}
 
 	annaliseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Annaliseveulen"}
+		Value:    "Annalise"}
 
 	annaliseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Âne-lisegalapia"}
+		Value:    "Âne-lise"}
 
 	annaliseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Annerosemausezahn"}
+		Value:    "Annerose"}
 
 	annaliseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lisapalio"}
+		Value:    "Lisa"}
 
 	annaliseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シルブプレサヴァ"}
+		Value:    "シルブプレ"}
 
 	annaliseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "실부플레봉쥬르"}
+		Value:    "실부플레"}
 
 	annaliseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Isadoranih-nah"}
+		Value:    "Isadora"}
 
 	annaliseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лизакусь-кусь"}
+		Value:    "Лиза"}
 
 	annaliseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "舒芙蕾舒服"}
+		Value:    "舒芙蕾"}
 
 	annaliseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Isadoracriatura"}
+		Value:    "Isadora"}
 
 	annaliseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "舒芙蕾舒服"}
+		Value:    "舒芙蕾"}
 )
 
 var (

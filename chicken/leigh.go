@@ -25,51 +25,51 @@ var (
 
 	leighCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	leighDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	leighFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Huguettepoussinet"}
+		Value:    "Huguette"}
 
 	leighGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lorettagoldi"}
+		Value:    "Loretta"}
 
 	leighItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Piumettacocò"}
+		Value:    "Piumetta"}
 
 	leighJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ディアナだもん"}
+		Value:    "ディアナ"}
 
 	leighKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	leighLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	leighRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	leighSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "画眉啄啄"}
+		Value:    "画眉"}
 
 	leighSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tabitachuli"}
+		Value:    "Tabita"}
 
 	leighTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

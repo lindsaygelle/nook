@@ -25,51 +25,51 @@ var (
 
 	pompomCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pomponrah rah"}
+		Value:    "Pompon"}
 
 	pompomDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pompomhup hup"}
+		Value:    "Pompom"}
 
 	pompomFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pomponrah rah"}
+		Value:    "Pompon"}
 
 	pompomGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Erikakrah"}
+		Value:    "Erika"}
 
 	pompomItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ericaquoquiquà"}
+		Value:    "Erica"}
 
 	pompomJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "のりっぺだっピ"}
+		Value:    "のりっぺ"}
 
 	pompomKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "주디다삐"}
+		Value:    "주디"}
 
 	pompomLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Flopira-rá"}
+		Value:    "Flopi"}
 
 	pompomRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Помпомкрякушки"}
+		Value:    "Помпом"}
 
 	pompomSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "海苔裴裴裴"}
+		Value:    "海苔裴"}
 
 	pompomSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Flopisinplumas"}
+		Value:    "Flopi"}
 
 	pompomTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "海苔裴裴裴"}
+		Value:    "海苔裴"}
 )
 
 var (

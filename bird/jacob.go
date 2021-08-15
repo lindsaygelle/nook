@@ -25,51 +25,51 @@ var (
 
 	jacobCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jacobasticô"}
+		Value:    "Jacob"}
 
 	jacobDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Jacobsnappie"}
+		Value:    "Jacob"}
 
 	jacobFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jacobasticô"}
+		Value:    "Jacob"}
 
 	jacobGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jeskotirilü"}
+		Value:    "Jesko"}
 
 	jacobItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Valeriociiipito"}
+		Value:    "Valerio"}
 
 	jacobJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジャコテンっつーの"}
+		Value:    "ジャコテン"}
 
 	jacobKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "야곱그거야"}
+		Value:    "야곱"}
 
 	jacobLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Repollochiurp"}
+		Value:    "Repollo"}
 
 	jacobRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джейкобчуррп"}
+		Value:    "Джейкоб"}
 
 	jacobSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "余板话说"}
+		Value:    "余板"}
 
 	jacobSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Repollopelusilla"}
+		Value:    "Repollo"}
 
 	jacobTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "余板話說"}
+		Value:    "余板"}
 )
 
 var (

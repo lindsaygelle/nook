@@ -25,51 +25,51 @@ var (
 
 	snootyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tarinasnif snif"}
+		Value:    "Tarina"}
 
 	snootyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Snootysnuifff"}
+		Value:    "Snooty"}
 
 	snootyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tarinasnif snif"}
+		Value:    "Tarina"}
 
 	snootyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hildeschnuff"}
+		Value:    "Hilde"}
 
 	snootyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lucreziasniffff"}
+		Value:    "Lucrezia"}
 
 	snootyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "こまちたもれ"}
+		Value:    "こまち"}
 
 	snootyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "스누티추릅"}
+		Value:    "스누티"}
 
 	snootyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rosanarisniff"}
+		Value:    "Rosanari"}
 
 	snootyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Снутишмыг"}
+		Value:    "Снути"}
 
 	snootySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "贵妃麻烦了"}
+		Value:    "贵妃"}
 
 	snootySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rosanarisniff"}
+		Value:    "Rosanari"}
 
 	snootyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "貴妃麻煩了"}
+		Value:    "貴妃"}
 )
 
 var (

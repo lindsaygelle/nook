@@ -25,51 +25,51 @@ var (
 
 	ameliaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Auréliecroooa"}
+		Value:    "Aurélie"}
 
 	ameliaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ameliabroeder"}
+		Value:    "Amelia"}
 
 	ameliaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Auréliecroooa"}
+		Value:    "Aurélie"}
 
 	ameliaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Adelheidadlerauge"}
+		Value:    "Adelheid"}
 
 	ameliaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ameliamini mini"}
+		Value:    "Amelia"}
 
 	ameliaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アンデスカラカラ"}
+		Value:    "アンデス"}
 
 	ameliaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "안데스엄멈머"}
+		Value:    "안데스"}
 
 	ameliaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ameliacro-ah"}
+		Value:    "Amelia"}
 
 	ameliaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Амелиявот"}
+		Value:    "Амелия"}
 
 	ameliaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "安地斯卡拉卡拉"}
+		Value:    "安地斯"}
 
 	ameliaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ameliachinchilla"}
+		Value:    "Amelia"}
 
 	ameliaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "安地斯卡拉卡拉"}
+		Value:    "安地斯"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	ameliaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "eagletcuz"}
+		Value:    "eaglet"}
 
 	ameliaCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

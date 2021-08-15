@@ -25,51 +25,51 @@ var (
 
 	vestaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Hélainefoulââârd"}
+		Value:    "Hélaine"}
 
 	vestaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Vestabèèè"}
+		Value:    "Vesta"}
 
 	vestaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Hélainepupull"}
+		Value:    "Hélaine"}
 
 	vestaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dollybäääh"}
+		Value:    "Dolly"}
 
 	vestaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lanellabeeeby"}
+		Value:    "Lanella"}
 
 	vestaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "メリヤスなのね"}
+		Value:    "メリヤス"}
 
 	vestaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "메리어스쩝"}
+		Value:    "메리어스"}
 
 	vestaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Vestabeeeibi"}
+		Value:    "Vesta"}
 
 	vestaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Вестабе-е"}
+		Value:    "Веста"}
 
 	vestaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "绵绵就这样呀"}
+		Value:    "绵绵"}
 
 	vestaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Vestabeeeibi"}
+		Value:    "Vesta"}
 
 	vestaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "綿綿就這樣呀"}
+		Value:    "綿綿"}
 )
 
 var (

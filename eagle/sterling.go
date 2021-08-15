@@ -25,51 +25,51 @@ var (
 
 	sterlingCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Manfredkaputt"}
+		Value:    "Manfred"}
 
 	sterlingDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sterlinghavik"}
+		Value:    "Sterling"}
 
 	sterlingFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Manfredkaputt"}
+		Value:    "Manfred"}
 
 	sterlingGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Horstkrahkrah"}
+		Value:    "Horst"}
 
 	sterlingItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Beccodìchicchirò"}
+		Value:    "Beccodì"}
 
 	sterlingJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ギンカクやあッ"}
+		Value:    "ギンカク"}
 
 	sterlingKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "은수리호옷"}
+		Value:    "은수리"}
 
 	sterlingLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Arniescróóó"}
+		Value:    "Arni"}
 
 	sterlingRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Стерлингклекот"}
+		Value:    "Стерлинг"}
 
 	sterlingSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "银阁呀啊"}
+		Value:    "银阁"}
 
 	sterlingSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Arnimancuernas"}
+		Value:    "Arni"}
 
 	sterlingTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "銀閣呀啊"}
+		Value:    "銀閣"}
 )
 
 var (

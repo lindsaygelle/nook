@@ -25,51 +25,51 @@ var (
 
 	derwinCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Profderrrr"}
+		Value:    "Prof"}
 
 	derwinDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Derwinergo"}
+		Value:    "Derwin"}
 
 	derwinFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Profderrrr"}
+		Value:    "Prof"}
 
 	derwinGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Erwinkrook"}
+		Value:    "Erwin"}
 
 	derwinItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mikequaccolo"}
+		Value:    "Mike"}
 
 	derwinJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ボンね！ママ"}
+		Value:    "ボン"}
 
 	derwinKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "봉엄마"}
+		Value:    "봉"}
 
 	derwinLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Torcuatocuato"}
+		Value:    "Torcuato"}
 
 	derwinRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Дервинкррря"}
+		Value:    "Дервин"}
 
 	derwinSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿坊喂！妈妈"}
+		Value:    "阿坊"}
 
 	derwinSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Torcuatocuato"}
+		Value:    "Torcuato"}
 
 	derwinTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿坊喂！媽媽"}
+		Value:    "阿坊"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	janeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	janeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	janeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Janeouistiti"}
+		Value:    "Jane"}
 
 	janeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Janefreund"}
+		Value:    "Jane"}
 
 	janeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Janescimmietta"}
+		Value:    "Jane"}
 
 	janeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フィーバーだゴリ"}
+		Value:    "フィーバー"}
 
 	janeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	janeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	janeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	janeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "白毛嘣嘣"}
+		Value:    "白毛"}
 
 	janeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Janechimpa"}
+		Value:    "Jane"}
 
 	janeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

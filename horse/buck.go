@@ -25,51 +25,51 @@ var (
 
 	buckCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Danielhowdy"}
+		Value:    "Daniel"}
 
 	buckDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Buckdraver"}
+		Value:    "Buck"}
 
 	buckFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Danieltaty"}
+		Value:    "Daniel"}
 
 	buckGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rudiwiehie"}
+		Value:    "Rudi"}
 
 	buckItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Trottolocowboy"}
+		Value:    "Trottolo"}
 
 	buckJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヴァヤシコフなんちて"}
+		Value:    "ヴァヤシコフ"}
 
 	buckKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "바야시코프농담"}
+		Value:    "바야시코프"}
 
 	buckLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Trotónjopop"}
+		Value:    "Trotón"}
 
 	buckRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бакпартнер"}
+		Value:    "Бак"}
 
 	buckSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "威亚搞笑"}
+		Value:    "威亚"}
 
 	buckSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Trotónzanahoria"}
+		Value:    "Trotón"}
 
 	buckTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "威亞搞笑"}
+		Value:    "威亞"}
 )
 
 var (

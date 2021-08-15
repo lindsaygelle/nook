@@ -25,51 +25,51 @@ var (
 
 	rubyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rubisn'oreille"}
+		Value:    "Rubis"}
 
 	rubyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rubyhangoor"}
+		Value:    "Ruby"}
 
 	rubyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rubisn'oreille"}
+		Value:    "Rubis"}
 
 	rubyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rubinapaffpaff"}
+		Value:    "Rubina"}
 
 	rubyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rubinaorecchine"}
+		Value:    "Rubina"}
 
 	rubyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ルナフツーに"}
+		Value:    "ルナ"}
 
 	rubyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "루나보통이지"}
+		Value:    "루나"}
 
 	rubyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rubíorejí"}
+		Value:    "Rubí"}
 
 	rubyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рубиушки"}
+		Value:    "Руби"}
 
 	rubySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "月兔普通"}
+		Value:    "月兔"}
 
 	rubySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rubíorejitas"}
+		Value:    "Rubí"}
 
 	rubyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "月兔普通"}
+		Value:    "月兔"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	cydCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Punkbarda"}
+		Value:    "Punk"}
 
 	cydDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cydmieters"}
+		Value:    "Cyd"}
 
 	cydFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Punkbastringue"}
+		Value:    "Punk"}
 
 	cydGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sidhau"}
+		Value:    "Sid"}
 
 	cydItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sidrocking"}
+		Value:    "Sid"}
 
 	cydJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パンクスウス"}
+		Value:    "パンクス"}
 
 	cydKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "펑크스피스"}
+		Value:    "펑크스"}
 
 	cydLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ramónrocanrol"}
+		Value:    "Ramón"}
 
 	cydRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Сидрок-н-ролл"}
+		Value:    "Сид"}
 
 	cydSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "庞克斯摇滚"}
+		Value:    "庞克斯"}
 
 	cydSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ramónrocanrol"}
+		Value:    "Ramón"}
 
 	cydTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "龐克斯搖滾"}
+		Value:    "龐克斯"}
 )
 
 var (

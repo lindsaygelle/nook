@@ -25,51 +25,51 @@ var (
 
 	julianCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Licowestern"}
+		Value:    "Lico"}
 
 	julianDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Julianglitter"}
+		Value:    "Julian"}
 
 	julianFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Licotrottoune"}
+		Value:    "Lico"}
 
 	julianGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jimmywihihihi"}
+		Value:    "Jimmy"}
 
 	julianItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Giulianovamos"}
+		Value:    "Giuliano"}
 
 	julianJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジュリーね、キミ"}
+		Value:    "ジュリー"}
 
 	julianKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "유니오그대여"}
+		Value:    "유니오"}
 
 	julianLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Azulinotrotót"}
+		Value:    "Azulino"}
 
 	julianRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джулианблеск"}
+		Value:    "Джулиан"}
 
 	julianSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "朱黎喂！你"}
+		Value:    "朱黎"}
 
 	julianSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Azulinopinchito"}
+		Value:    "Azulino"}
 
 	julianTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "朱黎喂！你"}
+		Value:    "朱黎"}
 )
 
 var (

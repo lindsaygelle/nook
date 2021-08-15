@@ -25,51 +25,51 @@ var (
 
 	elvisCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Elvisbébé"}
+		Value:    "Elvis"}
 
 	elvisDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Elvisaloha"}
+		Value:    "Elvis"}
 
 	elvisFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Elvisbébé"}
+		Value:    "Elvis"}
 
 	elvisGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Leonardogrolll"}
+		Value:    "Leonardo"}
 
 	elvisItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Elvisunh-hunh"}
+		Value:    "Elvis"}
 
 	elvisJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キングダロガ"}
+		Value:    "キング"}
 
 	elvisKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "킹안그냐"}
+		Value:    "킹"}
 
 	elvisLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Elvisgroar"}
+		Value:    "Elvis"}
 
 	elvisRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Элвисбуги-вуги"}
+		Value:    "Элвис"}
 
 	elvisSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "皇狮听懂吧"}
+		Value:    "皇狮"}
 
 	elvisSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Elvisgroar"}
+		Value:    "Elvis"}
 
 	elvisTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "皇獅聽懂吧"}
+		Value:    "皇獅"}
 )
 
 var (

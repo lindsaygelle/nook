@@ -25,51 +25,51 @@ var (
 
 	buzzCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Phébusflap flap"}
+		Value:    "Phébus"}
 
 	buzzDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Buzzkaptein"}
+		Value:    "Buzz"}
 
 	buzzFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Phébusflap flap"}
+		Value:    "Phébus"}
 
 	buzzGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Balduinkäpten"}
+		Value:    "Balduin"}
 
 	buzzItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Goliacapo"}
+		Value:    "Golia"}
 
 	buzzJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ひでよしッキーッ"}
+		Value:    "ひでよし"}
 
 	buzzKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "근엄짜란～"}
+		Value:    "근엄"}
 
 	buzzLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Nabarcapííí"}
+		Value:    "Nabar"}
 
 	buzzRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Баззкапитан"}
+		Value:    "Базз"}
 
 	buzzSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "继光继继"}
+		Value:    "继光"}
 
 	buzzSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Nabarcadete"}
+		Value:    "Nabar"}
 
 	buzzTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "繼光繼繼"}
+		Value:    "繼光"}
 )
 
 var (

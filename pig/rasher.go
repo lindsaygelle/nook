@@ -25,51 +25,51 @@ var (
 
 	rasherCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Salamiporcelet"}
+		Value:    "Salami"}
 
 	rasherDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rasherbig"}
+		Value:    "Rasher"}
 
 	rasherFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Salamiporcelet"}
+		Value:    "Salami"}
 
 	rasherGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Edegronk"}
+		Value:    "Ede"}
 
 	rasherItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bronciosnoooink"}
+		Value:    "Broncio"}
 
 	rasherJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "グレオまんねん"}
+		Value:    "グレオ"}
 
 	rasherKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "글레이꾸엑"}
+		Value:    "글레이"}
 
 	rasherLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Curtisesnoink"}
+		Value:    "Curtis"}
 
 	rasherRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рашерхряк"}
+		Value:    "Рашер"}
 
 	rasherSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "古烈万年"}
+		Value:    "古烈"}
 
 	rasherSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Curtisporcino"}
+		Value:    "Curtis"}
 
 	rasherTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "古烈萬年"}
+		Value:    "古烈"}
 )
 
 var (

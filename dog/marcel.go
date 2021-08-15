@@ -25,51 +25,51 @@ var (
 
 	marcelCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ismaëlmiaouf"}
+		Value:    "Ismaël"}
 
 	marcelDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Marcelmais non"}
+		Value:    "Marcel"}
 
 	marcelFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ismaëlmiaouf"}
+		Value:    "Ismaël"}
 
 	marcelGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ronaldotusch"}
+		Value:    "Ronaldo"}
 
 	marcelItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Giosuèsnif snif"}
+		Value:    "Giosuè"}
 
 	marcelJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "もんじゃなんじゃ"}
+		Value:    "もんじゃ"}
 
 	marcelKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에드워드하옵소서"}
+		Value:    "에드워드"}
 
 	marcelLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Etonenonó"}
+		Value:    "Eto"}
 
 	marcelRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Марсельау-уи"}
+		Value:    "Марсель"}
 
 	marcelSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "文字烧什么字"}
+		Value:    "文字烧"}
 
 	marcelSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Etocolmillos"}
+		Value:    "Eto"}
 
 	marcelTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "文字燒什麼字"}
+		Value:    "文字燒"}
 )
 
 var (

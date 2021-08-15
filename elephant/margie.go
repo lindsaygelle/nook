@@ -25,51 +25,51 @@ var (
 
 	margieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maguytoutie"}
+		Value:    "Maguy"}
 
 	margieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Margiepwèèpie"}
+		Value:    "Margie"}
 
 	margieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maguytoutie"}
+		Value:    "Maguy"}
 
 	margieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Elisatrampl"}
+		Value:    "Elisa"}
 
 	margieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mariannatootie"}
+		Value:    "Marianna"}
 
 	margieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サリーシャララ"}
+		Value:    "サリー"}
 
 	margieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "샐리샬랄라"}
+		Value:    "샐리"}
 
 	margieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ritafiuf-fiuf"}
+		Value:    "Rita"}
 
 	margieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Марджитру-у-ти"}
+		Value:    "Марджи"}
 
 	margieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莎莉莎啦啦"}
+		Value:    "莎莉"}
 
 	margieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ritaflaqui"}
+		Value:    "Rita"}
 
 	margieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莎莉莎啦啦"}
+		Value:    "莎莉"}
 )
 
 var (

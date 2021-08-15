@@ -25,51 +25,51 @@ var (
 
 	faunaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bibitoudoux"}
+		Value:    "Bibi"}
 
 	faunaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Faunado ree mi"}
+		Value:    "Fauna"}
 
 	faunaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bibitoudoux"}
+		Value:    "Bibi"}
 
 	faunaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Fatimabimbam"}
+		Value:    "Fatima"}
 
 	faunaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cervinavule vu"}
+		Value:    "Cervina"}
 
 	faunaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ドレミでしか"}
+		Value:    "ドレミ"}
 
 	faunaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "솔미파샵파샵"}
+		Value:    "솔미"}
 
 	faunaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Faunapuchu"}
+		Value:    "Fauna"}
 
 	faunaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фаунаолешек"}
+		Value:    "Фауна"}
 
 	faunaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "音音小鹿"}
+		Value:    "音音"}
 
 	faunaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Faunapuchu"}
+		Value:    "Fauna"}
 
 	faunaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "音音小鹿"}
+		Value:    "音音"}
 )
 
 var (

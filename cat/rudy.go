@@ -25,51 +25,51 @@ var (
 
 	rudyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rougepifmouah"}
+		Value:    "Rougepif"}
 
 	rudyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rudyrobijn"}
+		Value:    "Rudy"}
 
 	rudyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rougepifalatienne"}
+		Value:    "Rougepif"}
 
 	rudyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Heinzkatzaaa"}
+		Value:    "Heinz"}
 
 	rudyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gomitoloron ron"}
+		Value:    "Gomitolo"}
 
 	rudyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャスとかナ"}
+		Value:    "チャス"}
 
 	rudyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "찰스그러거나"}
+		Value:    "찰스"}
 
 	rudyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rufinocachusco"}
+		Value:    "Rufino"}
 
 	rudyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рудишмяк"}
+		Value:    "Руди"}
 
 	rudySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "茶茶之类的"}
+		Value:    "茶茶"}
 
 	rudySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rufinocachusco"}
+		Value:    "Rufino"}
 
 	rudyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "茶茶之類的"}
+		Value:    "茶茶"}
 )
 
 var (

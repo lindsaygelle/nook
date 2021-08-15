@@ -25,51 +25,51 @@ var (
 
 	pecanCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pécanfouloulou"}
+		Value:    "Pécan"}
 
 	pecanDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pecaneekhoorn"}
+		Value:    "Pecan"}
 
 	pecanFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pécanfouloulou"}
+		Value:    "Pécan"}
 
 	pecanGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Noisettespatzl"}
+		Value:    "Noisette"}
 
 	pecanItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Nocinacipì"}
+		Value:    "Nocina"}
 
 	pecanJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "レベッカつんっ"}
+		Value:    "レベッカ"}
 
 	pecanKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "레베카쯧쯧"}
+		Value:    "레베카"}
 
 	pecanLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Camilapiñoní"}
+		Value:    "Camila"}
 
 	pecanRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пеканбурундук"}
+		Value:    "Пекан"}
 
 	pecanSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雷贝嘉正经"}
+		Value:    "雷贝嘉"}
 
 	pecanSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Camilapiñoncito"}
+		Value:    "Camila"}
 
 	pecanTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雷貝嘉正經"}
+		Value:    "雷貝嘉"}
 )
 
 var (

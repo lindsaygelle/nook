@@ -25,51 +25,51 @@ var (
 
 	domCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Boulochebroutille"}
+		Value:    "Bouloche"}
 
 	domDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Donnyprecies"}
+		Value:    "Donny"}
 
 	domFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Boulochebroutille"}
+		Value:    "Bouloche"}
 
 	domGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dominikjau"}
+		Value:    "Dominik"}
 
 	domItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ovilioveronò"}
+		Value:    "Ovilio"}
 
 	domJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ちゃちゃまるふんふん"}
+		Value:    "ちゃちゃまる"}
 
 	domKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "차둘뿜뿜"}
+		Value:    "차둘"}
 
 	domLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Fibriliodigoyó"}
+		Value:    "Fibrilio"}
 
 	domRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Домточно-точно"}
+		Value:    "Дом"}
 
 	domSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "茶茶丸哇耶"}
+		Value:    "茶茶丸"}
 
 	domSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Fibriliodiiigo yo"}
+		Value:    "Fibrilio"}
 
 	domTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "茶茶丸哇耶"}
+		Value:    "茶茶丸"}
 )
 
 var (

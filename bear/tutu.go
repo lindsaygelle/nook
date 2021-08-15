@@ -25,51 +25,51 @@ var (
 
 	tutuCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tutupic pic"}
+		Value:    "Tutu"}
 
 	tutuDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tutuhoningbij"}
+		Value:    "Tutu"}
 
 	tutuFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tutupic pic"}
+		Value:    "Tutu"}
 
 	tutuGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mandyhooonig"}
+		Value:    "Mandy"}
 
 	tutuItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lolagnifa"}
+		Value:    "Lola"}
 
 	tutuJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "れんにゅうファイト"}
+		Value:    "れんにゅう"}
 
 	tutuKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "연유사르르"}
+		Value:    "연유"}
 
 	tutuLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tutúfisflash"}
+		Value:    "Tutú"}
 
 	tutuRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тутуме-е-ед"}
+		Value:    "Туту"}
 
 	tutuSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "恋恋加油"}
+		Value:    "恋恋"}
 
 	tutuSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tutúfisflash"}
+		Value:    "Tutú"}
 
 	tutuTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "戀戀加油"}
+		Value:    "戀戀"}
 )
 
 var (

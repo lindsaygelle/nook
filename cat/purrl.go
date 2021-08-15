@@ -25,51 +25,51 @@ var (
 
 	purrlCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Perlechaton"}
+		Value:    "Perle"}
 
 	purrlDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Purrlkitten"}
+		Value:    "Purrl"}
 
 	purrlFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Perlechaton"}
+		Value:    "Perle"}
 
 	purrlGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Frankakätzchen"}
+		Value:    "Franka"}
 
 	purrlItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Felidiamicetto"}
+		Value:    "Felidia"}
 
 	purrlJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "たまふんっ"}
+		Value:    "たま"}
 
 	purrlKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "타마냠"}
+		Value:    "타마"}
 
 	purrlLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Wandamichimiu"}
+		Value:    "Wanda"}
 
 	purrlRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Перлкис-кис"}
+		Value:    "Перл"}
 
 	purrlSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小玉嗯嗯"}
+		Value:    "小玉"}
 
 	purrlSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Wandatontaina"}
+		Value:    "Wanda"}
 
 	purrlTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小玉嗯嗯"}
+		Value:    "小玉"}
 )
 
 var (

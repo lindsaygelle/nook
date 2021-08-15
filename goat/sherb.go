@@ -25,51 +25,51 @@ var (
 
 	sherbCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Capribââââille"}
+		Value:    "Capri"}
 
 	sherbDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sherboefff"}
+		Value:    "Sherb"}
 
 	sherbFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Capribââââille"}
+		Value:    "Capri"}
 
 	sherbGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Morpheusschlummer"}
+		Value:    "Morpheus"}
 
 	sherbItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Capraldobeeewn"}
+		Value:    "Capraldo"}
 
 	sherbJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "レムふわぁ"}
+		Value:    "レム"}
 
 	sherbKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "래미흐아앙"}
+		Value:    "래미"}
 
 	sherbLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Morfeobostezzz"}
+		Value:    "Morfeo"}
 
 	sherbRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шербмемеша"}
+		Value:    "Шерб"}
 
 	sherbSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雷姆轻飘"}
+		Value:    "雷姆"}
 
 	sherbSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Morfeobostezzz"}
+		Value:    "Morfeo"}
 
 	sherbTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雷姆輕飄"}
+		Value:    "雷姆"}
 )
 
 var (

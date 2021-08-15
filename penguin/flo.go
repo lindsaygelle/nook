@@ -25,51 +25,51 @@ var (
 
 	floCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Norafrigogo"}
+		Value:    "Nora"}
 
 	floDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Floduh"}
+		Value:    "Flo"}
 
 	floFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Noragolri"}
+		Value:    "Nora"}
 
 	floGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Susanneflatsch"}
+		Value:    "Susanne"}
 
 	floItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Nivesiglù"}
+		Value:    "Nives"}
 
 	floJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "レイラじゃんよ"}
+		Value:    "レイラ"}
 
 	floKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "레이라맞잖아"}
+		Value:    "레이라"}
 
 	floLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Nievesfresqui"}
+		Value:    "Nieves"}
 
 	floRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Флочхи"}
+		Value:    "Фло"}
 
 	floSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "蕾拉这样唷"}
+		Value:    "蕾拉"}
 
 	floSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Nievesfresqui"}
+		Value:    "Nieves"}
 
 	floTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "蕾拉這樣唷"}
+		Value:    "蕾拉"}
 )
 
 var (

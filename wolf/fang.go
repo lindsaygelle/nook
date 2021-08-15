@@ -25,51 +25,51 @@ var (
 
 	fangCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pierrotsagouin"}
+		Value:    "Pierrot"}
 
 	fangDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Fangknauw"}
+		Value:    "Fang"}
 
 	fangFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pierrotsagouin"}
+		Value:    "Pierrot"}
 
 	fangGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Grimmbraul"}
+		Value:    "Grimm"}
 
 	fangItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Zannafabuuula"}
+		Value:    "Zanna"}
 
 	fangJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シベリアですダス"}
+		Value:    "シベリア"}
 
 	fangKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "시베리아콜록콜록"}
+		Value:    "시베리아"}
 
 	fangLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Colmilloen-ñac"}
+		Value:    "Colmillo"}
 
 	fangRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фанггрызь"}
+		Value:    "Фанг"}
 
 	fangSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "史培亚这倒是"}
+		Value:    "史培亚"}
 
 	fangSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Colmilloen-ñac"}
+		Value:    "Colmillo"}
 
 	fangTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "史培亞這倒是"}
+		Value:    "史培亞"}
 )
 
 var (

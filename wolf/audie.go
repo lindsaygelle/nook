@@ -25,51 +25,51 @@ var (
 
 	audieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Monicatrottine"}
+		Value:    "Monica"}
 
 	audieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Audiefoxtrot"}
+		Value:    "Audie"}
 
 	audieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Monicatrottine"}
+		Value:    "Monica"}
 
 	audieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Katharinafoxtrott"}
+		Value:    "Katharina"}
 
 	audieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lupiliafoxtrot"}
+		Value:    "Lupilia"}
 
 	audieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "モニカアハッ"}
+		Value:    "モニカ"}
 
 	audieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "모니카아하핫"}
+		Value:    "모니카"}
 
 	audieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mónicaulalilá"}
+		Value:    "Mónica"}
 
 	audieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Одифокстрот"}
+		Value:    "Оди"}
 
 	audieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莫妮卡呀哈"}
+		Value:    "莫妮卡"}
 
 	audieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mónicamaravilla"}
+		Value:    "Mónica"}
 
 	audieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莫妮卡呀哈"}
+		Value:    "莫妮卡"}
 )
 
 var (

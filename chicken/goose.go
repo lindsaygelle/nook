@@ -25,51 +25,51 @@ var (
 
 	gooseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Poulibouyaka"}
+		Value:    "Pouli"}
 
 	gooseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Goosetoktok"}
+		Value:    "Goose"}
 
 	gooseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Poulibouyaka"}
+		Value:    "Pouli"}
 
 	gooseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Konradbuaa-ka-ka"}
+		Value:    "Konrad"}
 
 	gooseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Chiricòcucù"}
+		Value:    "Chiricò"}
 
 	gooseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ケンタだコケ"}
+		Value:    "ケンタ"}
 
 	gooseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "건태키득"}
+		Value:    "건태"}
 
 	gooseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gusbukááá"}
+		Value:    "Gus"}
 
 	gooseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гуско-кей"}
+		Value:    "Гус"}
 
 	gooseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "肯肯咕咕"}
+		Value:    "肯肯"}
 
 	gooseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Guscaracol"}
+		Value:    "Gus"}
 
 	gooseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "肯肯咕咕"}
+		Value:    "肯肯"}
 )
 
 var (

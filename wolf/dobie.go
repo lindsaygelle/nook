@@ -25,51 +25,51 @@ var (
 
 	dobieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Loupiotloudonc"}
+		Value:    "Loupiot"}
 
 	dobieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Dobieeh"}
+		Value:    "Dobie"}
 
 	dobieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Loupiotpeuchère"}
+		Value:    "Loupiot"}
 
 	dobieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sigmundheuuul"}
+		Value:    "Sigmund"}
 
 	dobieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sigmundgnams"}
+		Value:    "Sigmund"}
 
 	dobieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "けんゴホゴホ"}
+		Value:    "けん"}
 
 	dobieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "켄음음"}
+		Value:    "켄"}
 
 	dobieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Germánooomm"}
+		Value:    "Germán"}
 
 	dobieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Добиом-м-м..."}
+		Value:    "Доби"}
 
 	dobieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿研咳呵"}
+		Value:    "阿研"}
 
 	dobieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Germánooomm"}
+		Value:    "Germán"}
 
 	dobieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿研咳呵"}
+		Value:    "阿研"}
 )
 
 var (

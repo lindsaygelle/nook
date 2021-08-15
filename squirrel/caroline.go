@@ -25,51 +25,51 @@ var (
 
 	carolineCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Isabellehoulaaaa"}
+		Value:    "Isabelle"}
 
 	carolineDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Carolinehoelaaa"}
+		Value:    "Caroline"}
 
 	carolineFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Isabellehoulaaaa"}
+		Value:    "Isabelle"}
 
 	carolineGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ricardahulaaaa"}
+		Value:    "Ricarda"}
 
 	carolineItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Carolinaehilaaà"}
+		Value:    "Carolina"}
 
 	carolineJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キャロラインユー"}
+		Value:    "キャロライン"}
 
 	carolineKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "캐롤라인휴"}
+		Value:    "캐롤라인"}
 
 	carolineLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Marilóulaaaa"}
+		Value:    "Mariló"}
 
 	carolineRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Каролинауа-а-а"}
+		Value:    "Каролина"}
 
 	carolineSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "贾萝琳你"}
+		Value:    "贾萝琳"}
 
 	carolineSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Marilóulaaaa"}
+		Value:    "Mariló"}
 
 	carolineTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "賈蘿琳你"}
+		Value:    "賈蘿琳"}
 )
 
 var (

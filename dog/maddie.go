@@ -25,51 +25,51 @@ var (
 
 	maddieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Olympeyoupi"}
+		Value:    "Olympe"}
 
 	maddieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Maddiejippie"}
+		Value:    "Maddie"}
 
 	maddieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Olympeyoup"}
+		Value:    "Olympe"}
 
 	maddieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Agneshurra"}
+		Value:    "Agnes"}
 
 	maddieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cristinayuuuppii"}
+		Value:    "Cristina"}
 
 	maddieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マロンワンツー"}
+		Value:    "マロン"}
 
 	maddieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마롱달코미"}
+		Value:    "마롱"}
 
 	maddieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Martinareguau"}
+		Value:    "Martina"}
 
 	maddieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мэддиур-ра"}
+		Value:    "Мэдди"}
 
 	maddieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "麻蓉一二"}
+		Value:    "麻蓉"}
 
 	maddieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Martinachupi"}
+		Value:    "Martina"}
 
 	maddieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "麻蓉一二"}
+		Value:    "麻蓉"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	blancheCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Sophieviiiite"}
+		Value:    "Sophie"}
 
 	blancheDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Blanchejuist ja"}
+		Value:    "Blanche"}
 
 	blancheFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Sophieviiiite"}
+		Value:    "Sophie"}
 
 	blancheGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Christaflaum"}
+		Value:    "Christa"}
 
 	blancheItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Emiliabien sur"}
+		Value:    "Emilia"}
 
 	blancheJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "しのぶですのね"}
+		Value:    "しのぶ"}
 
 	blancheKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "신옥그랬구나"}
+		Value:    "신옥"}
 
 	blancheLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rocíoigh-igh"}
+		Value:    "Rocío"}
 
 	blancheRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бланшвот так"}
+		Value:    "Бланш"}
 
 	blancheSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小偲是嘛"}
+		Value:    "小偲"}
 
 	blancheSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rocíogoticas"}
+		Value:    "Rocío"}
 
 	blancheTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小偲是嘛"}
+		Value:    "小偲"}
 )
 
 var (

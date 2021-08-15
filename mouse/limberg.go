@@ -25,51 +25,51 @@ var (
 
 	limbergCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gruyèrescriiich"}
+		Value:    "Gruyère"}
 
 	limbergDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Limbergpiepsels"}
+		Value:    "Limberg"}
 
 	limbergFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gruyèrescriiich"}
+		Value:    "Gruyère"}
 
 	limbergGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rafaelpfiffikus"}
+		Value:    "Rafael"}
 
 	limbergItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rosicosquick"}
+		Value:    "Rosico"}
 
 	limbergJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "らっきょてやんで"}
+		Value:    "らっきょ"}
 
 	limbergKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "단무지긍가벼"}
+		Value:    "단무지"}
 
 	limbergLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Camemberscroch"}
+		Value:    "Camember"}
 
 	limbergRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лимбергфью-фью"}
+		Value:    "Лимберг"}
 
 	limbergSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "韭菜非也"}
+		Value:    "韭菜"}
 
 	limbergSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Camembercaramba"}
+		Value:    "Camember"}
 
 	limbergTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "韭菜非也"}
+		Value:    "韭菜"}
 )
 
 var (

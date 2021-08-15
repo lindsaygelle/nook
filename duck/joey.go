@@ -25,51 +25,51 @@ var (
 
 	joeyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Josephbeeeuuuurk"}
+		Value:    "Joseph"}
 
 	joeyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Joeykèèèk"}
+		Value:    "Joey"}
 
 	joeyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Josephbeeeuuuurk"}
+		Value:    "Joseph"}
 
 	joeyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kalletschiiirp"}
+		Value:    "Kalle"}
 
 	joeyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pinosquack"}
+		Value:    "Pino"}
 
 	joeyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リチャードでヤンス"}
+		Value:    "リチャード"}
 
 	joeyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "리처드그래유"}
+		Value:    "리처드"}
 
 	joeyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pascualuac-uac"}
+		Value:    "Pascual"}
 
 	joeyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джоуикряк"}
+		Value:    "Джоуи"}
 
 	joeySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "李察鸭鸭"}
+		Value:    "李察"}
 
 	joeySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pascualuac-uac"}
+		Value:    "Pascual"}
 
 	joeyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "李察鴨鴨"}
+		Value:    "李察"}
 )
 
 var (

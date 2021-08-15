@@ -25,51 +25,51 @@ var (
 
 	bessieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	bessieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	bessieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Florettemeuh'fin"}
+		Value:    "Florette"}
 
 	bessieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Karlabutterli"}
+		Value:    "Karla"}
 
 	bessieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bettamuuffola"}
+		Value:    "Betta"}
 
 	bessieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アモーレずら"}
+		Value:    "アモーレ"}
 
 	bessieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	bessieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	bessieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	bessieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "茜茜啧啧"}
+		Value:    "茜茜"}
 
 	bessieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Muurielcuernis"}
+		Value:    "Muuriel"}
 
 	bessieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	octavianCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Octavechenapan"}
+		Value:    "Octave"}
 
 	octavianDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Octavianzuignap"}
+		Value:    "Octavian"}
 
 	octavianFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Octavechenapan"}
+		Value:    "Octave"}
 
 	octavianGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ottfriedschling"}
+		Value:    "Ottfried"}
 
 	octavianItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ottavioperdindi"}
+		Value:    "Ottavio"}
 
 	octavianJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "おくたろうタコ"}
+		Value:    "おくたろう"}
 
 	octavianKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "문복쭉쭉"}
+		Value:    "문복"}
 
 	octavianLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Octavioglop-glop"}
+		Value:    "Octavio"}
 
 	octavianRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Октавианвсе пропало"}
+		Value:    "Октавиан"}
 
 	octavianSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "张瑜章鱼"}
+		Value:    "张瑜"}
 
 	octavianSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Octaviochupatinta"}
+		Value:    "Octavio"}
 
 	octavianTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "張瑜章魚"}
+		Value:    "張瑜"}
 )
 
 var (

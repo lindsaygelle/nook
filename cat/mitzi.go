@@ -25,51 +25,51 @@ var (
 
 	mitziCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mistigrimeeeeeh"}
+		Value:    "Mistigri"}
 
 	mitziDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mitzimieuw"}
+		Value:    "Mitzi"}
 
 	mitziFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mistigrimeeeeeh"}
+		Value:    "Mistigri"}
 
 	mitziGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Miezimuh"}
+		Value:    "Miezi"}
 
 	mitziItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Zampettamiao"}
+		Value:    "Zampetta"}
 
 	mitziJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マールニャー"}
+		Value:    "マール"}
 
 	mitziKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마르야～옹"}
+		Value:    "마르"}
 
 	mitziLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Misimisi-misi"}
+		Value:    "Misi"}
 
 	mitziRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Митцимяу-мяу"}
+		Value:    "Митци"}
 
 	mitziSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "圆圆喵"}
+		Value:    "圆圆"}
 
 	mitziSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Misimisi-misi"}
+		Value:    "Misi"}
 
 	mitziTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "圓圓喵"}
+		Value:    "圓圓"}
 )
 
 var (

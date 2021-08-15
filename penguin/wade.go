@@ -25,51 +25,51 @@ var (
 
 	wadeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Migloublanbec"}
+		Value:    "Miglou"}
 
 	wadeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Wadezo is 't"}
+		Value:    "Wade"}
 
 	wadeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Migloublanbec"}
+		Value:    "Miglou"}
 
 	wadeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Staksiwackel"}
+		Value:    "Staksi"}
 
 	wadeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pliniouhiii uuuh"}
+		Value:    "Plinio"}
 
 	wadeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カマボコだからね"}
+		Value:    "カマボコ"}
 
 	wadeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "호떡뒤집어"}
+		Value:    "호떡"}
 
 	wadeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Petínespoink"}
+		Value:    "Petín"}
 
 	wadeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Уэйдвот так вот"}
+		Value:    "Уэйд"}
 
 	wadeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "竹轮所以啦"}
+		Value:    "竹轮"}
 
 	wadeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Petínpersonaje"}
+		Value:    "Petín"}
 
 	wadeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "竹輪所以啦"}
+		Value:    "竹輪"}
 )
 
 var (

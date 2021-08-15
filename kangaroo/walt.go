@@ -25,51 +25,51 @@ var (
 
 	waltCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Waltpopoche"}
+		Value:    "Walt"}
 
 	waltDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Waltzakkies"}
+		Value:    "Walt"}
 
 	waltFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Waltpopoche"}
+		Value:    "Walt"}
 
 	waltGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sinanboingboing"}
+		Value:    "Sinan"}
 
 	waltItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Zompoboing"}
+		Value:    "Zompo"}
 
 	waltJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カンロクじゃのう"}
+		Value:    "カンロク"}
 
 	waltKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "관록어험"}
+		Value:    "관록"}
 
 	waltLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Brincoboing"}
+		Value:    "Brinco"}
 
 	waltRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Уолткарманчик"}
+		Value:    "Уолт"}
 
 	waltSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "袋钢别装了"}
+		Value:    "袋钢"}
 
 	waltSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Brincoboing"}
+		Value:    "Brinco"}
 
 	waltTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "袋鋼別裝了"}
+		Value:    "袋鋼"}
 )
 
 var (

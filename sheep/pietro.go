@@ -25,51 +25,51 @@ var (
 
 	pietroCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pietrohahaha"}
+		Value:    "Pietro"}
 
 	pietroDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pietroalaaf"}
+		Value:    "Pietro"}
 
 	pietroFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pietrobamboche"}
+		Value:    "Pietro"}
 
 	pietroGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pietrohelau"}
+		Value:    "Pietro"}
 
 	pietroItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Giulivopeco peco"}
+		Value:    "Giulivo"}
 
 	pietroJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジュペッティグフフ"}
+		Value:    "ジュペッティ"}
 
 	pietroKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "피엘므흐흐"}
+		Value:    "피엘"}
 
 	pietroLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Kikolormoquimoqui"}
+		Value:    "Kikolor"}
 
 	pietroRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пьетробе-бе"}
+		Value:    "Пьетро"}
 
 	pietroSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "皮耶罗丑丑"}
+		Value:    "皮耶罗"}
 
 	pietroSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Kikolormoquimoqui"}
+		Value:    "Kikolor"}
 
 	pietroTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "皮耶羅丑丑"}
+		Value:    "皮耶羅"}
 )
 
 var (

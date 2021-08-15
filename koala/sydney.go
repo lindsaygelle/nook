@@ -25,51 +25,51 @@ var (
 
 	sydneyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Koalinemon trésor"}
+		Value:    "Koaline"}
 
 	sydneyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sydneyzonnetje"}
+		Value:    "Sydney"}
 
 	sydneyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Koalinemon trésor"}
+		Value:    "Koaline"}
 
 	sydneyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Silkesternchen"}
+		Value:    "Silke"}
 
 	sydneyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sidneycalipto"}
+		Value:    "Sidney"}
 
 	sydneyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シドニーだコアラ"}
+		Value:    "シドニー"}
 
 	sydneyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "시드니발그레"}
+		Value:    "시드니"}
 
 	sydneyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sidneycalipto"}
+		Value:    "Sidney"}
 
 	sydneyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Сиднисолнышко"}
+		Value:    "Сидни"}
 
 	sydneySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "思颖无尾熊"}
+		Value:    "思颖"}
 
 	sydneySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sidneysúper"}
+		Value:    "Sidney"}
 
 	sydneyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "思穎無尾熊"}
+		Value:    "思穎"}
 )
 
 var (

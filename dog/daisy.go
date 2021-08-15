@@ -25,51 +25,51 @@ var (
 
 	daisyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Naomiemon chou"}
+		Value:    "Naomie"}
 
 	daisyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Daisyhazewind"}
+		Value:    "Daisy"}
 
 	daisyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Naomiemon chou"}
+		Value:    "Naomie"}
 
 	daisyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Doriswauwau"}
+		Value:    "Doris"}
 
 	daisyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Fiorellabau WOW"}
+		Value:    "Fiorella"}
 
 	daisyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "バニラだよね"}
+		Value:    "バニラ"}
 
 	daisyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "바닐라그렇죠"}
+		Value:    "바닐라"}
 
 	daisyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Luisaguaucito"}
+		Value:    "Luisa"}
 
 	daisyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Дейзитяв-ого"}
+		Value:    "Дейзи"}
 
 	daisySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "香草对不对"}
+		Value:    "香草"}
 
 	daisySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Luisaguaay"}
+		Value:    "Luisa"}
 
 	daisyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "香草對不對"}
+		Value:    "香草"}
 )
 
 var (

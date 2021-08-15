@@ -25,51 +25,51 @@ var (
 
 	chadderCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mozzarcheese"}
+		Value:    "Mozzar"}
 
 	chadderDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chaddercheese"}
+		Value:    "Chadder"}
 
 	chadderFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mozzarfrometon"}
+		Value:    "Mozzar"}
 
 	chadderGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Charliehoho"}
+		Value:    "Charlie"}
 
 	chadderItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gruvieroiiik"}
+		Value:    "Gruviero"}
 
 	chadderJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チーズまあね"}
+		Value:    "チーズ"}
 
 	chadderKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "치즈꼬리꼬리"}
+		Value:    "치즈"}
 
 	chadderLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Roquefundifún"}
+		Value:    "Roque"}
 
 	chadderRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Чаддерсырок"}
+		Value:    "Чаддер"}
 
 	chadderSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "起司也是啦"}
+		Value:    "起司"}
 
 	chadderSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Roquefundifún"}
+		Value:    "Roque"}
 
 	chadderTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "起司也是啦"}
+		Value:    "起司"}
 )
 
 var (

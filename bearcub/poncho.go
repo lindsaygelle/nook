@@ -25,51 +25,51 @@ var (
 
 	ponchoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Théonounours"}
+		Value:    "Théo"}
 
 	ponchoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ponchobeertje"}
+		Value:    "Poncho"}
 
 	ponchoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Théonounours"}
+		Value:    "Théo"}
 
 	ponchoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tonibärli"}
+		Value:    "Toni"}
 
 	ponchoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ponchobabà"}
+		Value:    "Poncho"}
 
 	ponchoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ポンチョモン"}
+		Value:    "ポンチョ"}
 
 	ponchoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "봉추몽"}
+		Value:    "봉추"}
 
 	ponchoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ponchopruah"}
+		Value:    "Poncho"}
 
 	ponchoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пончомедвежонок"}
+		Value:    "Пончо"}
 
 	ponchoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "蓬蓬萌"}
+		Value:    "蓬蓬"}
 
 	ponchoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ponchobolita"}
+		Value:    "Poncho"}
 
 	ponchoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "蓬蓬萌"}
+		Value:    "蓬蓬"}
 )
 
 var (

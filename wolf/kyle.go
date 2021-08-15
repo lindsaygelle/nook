@@ -25,51 +25,51 @@ var (
 
 	kyleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Garygarooouuu"}
+		Value:    "Gary"}
 
 	kyleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kylealfa"}
+		Value:    "Kyle"}
 
 	kyleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Garygarooouuu"}
+		Value:    "Gary"}
 
 	kyleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Wolfgangahuuu"}
+		Value:    "Wolfgang"}
 
 	kyleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ululosgnack"}
+		Value:    "Ululo"}
 
 	kyleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リカルドオゥイェ"}
+		Value:    "リカルド"}
 
 	kyleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "리카르도오우예"}
+		Value:    "리카르도"}
 
 	kyleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ataúlfoaujujú"}
+		Value:    "Ataúlfo"}
 
 	kyleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кайлвожак"}
+		Value:    "Кайл"}
 
 	kyleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "李可喔耶"}
+		Value:    "李可"}
 
 	kyleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ataúlfoaujujú"}
+		Value:    "Ataúlfo"}
 
 	kyleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "李可喔耶"}
+		Value:    "李可"}
 )
 
 var (

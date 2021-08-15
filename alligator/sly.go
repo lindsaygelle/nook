@@ -25,51 +25,51 @@ var (
 
 	slyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chuckrepos"}
+		Value:    "Chuck"}
 
 	slyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Slyingerukt"}
+		Value:    "Sly"}
 
 	slyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chuckrepos"}
+		Value:    "Chuck"}
 
 	slyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Steveschnapp"}
+		Value:    "Steve"}
 
 	slyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dribertociaf"}
+		Value:    "Driberto"}
 
 	slyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハイドカサコソ"}
+		Value:    "ハイド"}
 
 	slyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "하이드부스럭"}
+		Value:    "하이드"}
 
 	slyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Estallónsmack"}
+		Value:    "Estallón"}
 
 	slyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Слайура-а-а"}
+		Value:    "Слай"}
 
 	slySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "海德唰唰"}
+		Value:    "海德"}
 
 	slySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Estallóncapón"}
+		Value:    "Estallón"}
 
 	slyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "海德唰唰"}
+		Value:    "海德"}
 )
 
 var (

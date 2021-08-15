@@ -25,51 +25,51 @@ var (
 
 	claudiaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Vaninagrou grou"}
+		Value:    "Vanina"}
 
 	claudiaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Claudiaolala"}
+		Value:    "Claudia"}
 
 	claudiaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Vaninagrou grou"}
+		Value:    "Vanina"}
 
 	claudiaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lillykchhh"}
+		Value:    "Lilly"}
 
 	claudiaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lillasmack"}
+		Value:    "Lilla"}
 
 	claudiaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マリリンアハ～ン"}
+		Value:    "マリリン"}
 
 	claudiaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "신디잇힝"}
+		Value:    "신디"}
 
 	claudiaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lilumindundi"}
+		Value:    "Lilu"}
 
 	claudiaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Клаудияо-ля-ля"}
+		Value:    "Клаудия"}
 
 	claudiaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "马丽莲啊哈"}
+		Value:    "马丽莲"}
 
 	claudiaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lilumindundi"}
+		Value:    "Lilu"}
 
 	claudiaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "馬麗蓮啊哈"}
+		Value:    "馬麗蓮"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	cubeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cubecococopain"}
+		Value:    "Cube"}
 
 	cubeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cubek-k-kerel"}
+		Value:    "Cube"}
 
 	cubeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cubecococopain"}
+		Value:    "Cube"}
 
 	cubeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Cubed-d-dude"}
+		Value:    "Cube"}
 
 	cubeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cubettobrivido"}
+		Value:    "Cubetto"}
 
 	cubeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビスペンペン"}
+		Value:    "ビス"}
 
 	cubeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "빙수땡땡"}
+		Value:    "빙수"}
 
 	cubeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cubewaap"}
+		Value:    "Cube"}
 
 	cubeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кьюбч-чубрик"}
+		Value:    "Кьюб"}
 
 	cubeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗斯十字"}
+		Value:    "罗斯"}
 
 	cubeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cubewaap"}
+		Value:    "Cube"}
 
 	cubeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅斯十字"}
+		Value:    "羅斯"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	cubeAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "d-d-dudebrainfreeze"}
+		Value:    "d-d-dude"}
 
 	cubeCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

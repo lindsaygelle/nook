@@ -25,51 +25,51 @@ var (
 
 	henryCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Henrikôwa"}
+		Value:    "Henri"}
 
 	henryDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Henrysnurkwaak"}
+		Value:    "Henry"}
 
 	henryFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Henripustule"}
+		Value:    "Henri"}
 
 	henryGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Freddyquappi"}
+		Value:    "Freddy"}
 
 	henryItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Renatocroac"}
+		Value:    "Renato"}
 
 	henryJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヘンリーむにゃ"}
+		Value:    "ヘンリー"}
 
 	henryKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "헨리음냐음냐"}
+		Value:    "헨리"}
 
 	henryLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sapertocruacruá"}
+		Value:    "Saperto"}
 
 	henryRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Генриква-храп"}
+		Value:    "Генри"}
 
 	henrySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "亨利滴咕"}
+		Value:    "亨利"}
 
 	henrySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sapertocruacruá"}
+		Value:    "Saperto"}
 
 	henryTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "亨利滴咕"}
+		Value:    "亨利"}
 )
 
 var (

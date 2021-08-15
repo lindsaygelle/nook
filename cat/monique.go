@@ -25,51 +25,51 @@ var (
 
 	moniqueCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Moniquepffffft"}
+		Value:    "Monique"}
 
 	moniqueDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Moniquepffffft"}
+		Value:    "Monique"}
 
 	moniqueFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Moniquepffffft"}
+		Value:    "Monique"}
 
 	moniqueGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Moniquemrrrrrrr"}
+		Value:    "Monique"}
 
 	moniqueItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Marylinmiaù"}
+		Value:    "Marylin"}
 
 	moniqueJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジェーンウフーン"}
+		Value:    "ジェーン"}
 
 	moniqueKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "제인우"}
+		Value:    "제인"}
 
 	moniqueLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Moniqueronrón"}
+		Value:    "Monique"}
 
 	moniqueRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Моникфи-фи"}
+		Value:    "Моник"}
 
 	moniqueSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "珍珍嗯哼"}
+		Value:    "珍珍"}
 
 	moniqueSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Moniqueronrón"}
+		Value:    "Monique"}
 
 	moniqueTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "珍珍嗯哼"}
+		Value:    "珍珍"}
 )
 
 var (

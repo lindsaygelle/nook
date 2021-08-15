@@ -25,51 +25,51 @@ var (
 
 	petuniaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	petuniaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	petuniaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pétuniamouh mouh"}
+		Value:    "Pétunia"}
 
 	petuniaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Petuniamuh-la-la"}
+		Value:    "Petunia"}
 
 	petuniaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Petuniamuu la la"}
+		Value:    "Petunia"}
 
 	petuniaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "しもふりザマス"}
+		Value:    "しもふり"}
 
 	petuniaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	petuniaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	petuniaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	petuniaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "彤彤哞呜"}
+		Value:    "彤彤"}
 
 	petuniaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Petuniamuu-la-la"}
+		Value:    "Petunia"}
 
 	petuniaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	hectorCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hectorDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hectorFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Hectormon coco"}
+		Value:    "Hector"}
 
 	hectorGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hektorkikiriii"}
+		Value:    "Hektor"}
 
 	hectorItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pettorechirichì"}
+		Value:    "Pettore"}
 
 	hectorJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピロシなのだ"}
+		Value:    "ピロシ"}
 
 	hectorKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hectorLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hectorRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hectorSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "博博叮叮"}
+		Value:    "博博"}
 
 	hectorSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Héctoryuu-ju"}
+		Value:    "Héctor"}
 
 	hectorTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

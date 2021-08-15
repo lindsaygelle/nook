@@ -25,51 +25,51 @@ var (
 
 	pangoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mathildapouuuuuf"}
+		Value:    "Mathilda"}
 
 	pangoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pangosnufffff"}
+		Value:    "Pango"}
 
 	pangoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mathildapouuuuuf"}
+		Value:    "Mathilda"}
 
 	pangoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mathildaschnieef"}
+		Value:    "Mathilda"}
 
 	pangoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Carlottasnuuf"}
+		Value:    "Carlotta"}
 
 	pangoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パトラだっしー"}
+		Value:    "パトラ"}
 
 	pangoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "패트라라지요"}
+		Value:    "패트라"}
 
 	pangoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Aspidorasnuf-snuf"}
+		Value:    "Aspidora"}
 
 	pangoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пангоснуф-снуф"}
+		Value:    "Панго"}
 
 	pangoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "佩希希希"}
+		Value:    "佩希"}
 
 	pangoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Aspidorasnuf-snuf"}
+		Value:    "Aspidora"}
 
 	pangoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "佩希希希"}
+		Value:    "佩希"}
 )
 
 var (

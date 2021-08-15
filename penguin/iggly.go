@@ -25,51 +25,51 @@ var (
 
 	igglyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Urbainzozio"}
+		Value:    "Urbain"}
 
 	igglyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Igglywaggelaar"}
+		Value:    "Iggly"}
 
 	igglyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Urbainzozio"}
+		Value:    "Urbain"}
 
 	igglyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pingiplitsch"}
+		Value:    "Pingi"}
 
 	igglyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Picciotubi tubi"}
+		Value:    "Piccio"}
 
 	igglyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "のりまきクルクル"}
+		Value:    "のりまき"}
 
 	igglyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "김말이펭글펭글"}
+		Value:    "김말이"}
 
 	igglyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bobochirpi"}
+		Value:    "Bobo"}
 
 	igglyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Иглиластошлеп"}
+		Value:    "Игли"}
 
 	igglySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "花寿司卷卷"}
+		Value:    "花寿司"}
 
 	igglySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bobochirpi"}
+		Value:    "Bobo"}
 
 	igglyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "花壽司捲捲"}
+		Value:    "花壽司"}
 )
 
 var (

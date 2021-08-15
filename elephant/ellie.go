@@ -25,51 +25,51 @@ var (
 
 	ellieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ellasacrelotte"}
+		Value:    "Ella"}
 
 	ellieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Elliedreumes"}
+		Value:    "Ellie"}
 
 	ellieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ellasacrelotte"}
+		Value:    "Ella"}
 
 	ellieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Elfipolter"}
+		Value:    "Elfi"}
 
 	ellieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ellycaromé"}
+		Value:    "Elly"}
 
 	ellieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エクレアララン"}
+		Value:    "エクレア"}
 
 	ellieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에끌레르트랄라"}
+		Value:    "에끌레르"}
 
 	ellieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Elifi-fiú"}
+		Value:    "Eli"}
 
 	ellieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Эллакроха"}
+		Value:    "Элла"}
 
 	ellieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "泡芙啦啷"}
+		Value:    "泡芙"}
 
 	ellieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Elitrompi"}
+		Value:    "Eli"}
 
 	ellieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "泡芙啦啷"}
+		Value:    "泡芙"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	ellieAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "wee oneli'l one"}
+		Value:    "wee one"}
 
 	ellieCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

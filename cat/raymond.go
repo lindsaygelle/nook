@@ -25,51 +25,51 @@ var (
 
 	raymondCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Raymondpanache"}
+		Value:    "Raymond"}
 
 	raymondDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Raymondnetjes"}
+		Value:    "Raymond"}
 
 	raymondFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Raymondpanache"}
+		Value:    "Raymond"}
 
 	raymondGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gunnarweeßte"}
+		Value:    "Gunnar"}
 
 	raymondItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Raimondorrricooo"}
+		Value:    "Raimondo"}
 
 	raymondJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジャックキリッ"}
+		Value:    "ジャック"}
 
 	raymondKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "잭슨우쭐"}
+		Value:    "잭슨"}
 
 	raymondLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Narcisoatilda"}
+		Value:    "Narciso"}
 
 	raymondRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Реймондстильненько"}
+		Value:    "Реймонд"}
 
 	raymondSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "杰克严肃"}
+		Value:    "杰克"}
 
 	raymondSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Narcisoatilda"}
+		Value:    "Narciso"}
 
 	raymondTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "傑克嚴肅"}
+		Value:    "傑克"}
 )
 
 var (

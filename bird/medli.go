@@ -25,51 +25,51 @@ var (
 
 	medliCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Médolielalalyre"}
+		Value:    "Médolie"}
 
 	medliDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	medliFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Médolielalalyre"}
+		Value:    "Médolie"}
 
 	medliGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Medoliehilfhilf"}
+		Value:    "Medolie"}
 
 	medliItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Famirèplinplon"}
+		Value:    "Famirè"}
 
 	medliJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "メドリくらさい"}
+		Value:    "メドリ"}
 
 	medliKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "메들리핑그르르"}
+		Value:    "메들리"}
 
 	medliLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Medliplimplín"}
+		Value:    "Medli"}
 
 	medliRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	medliSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	medliSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Medliplimplín"}
+		Value:    "Medli"}
 
 	medliTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

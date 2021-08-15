@@ -25,51 +25,51 @@ var (
 
 	stuCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Beubeumeuh quoi"}
+		Value:    "Beubeu"}
 
 	stuDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Stuboe-jend"}
+		Value:    "Stu"}
 
 	stuFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Beubeumeuh quoi"}
+		Value:    "Beubeu"}
 
 	stuGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Carlosmuhuhu"}
+		Value:    "Carlos"}
 
 	stuItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Carlosciaumù"}
+		Value:    "Carlos"}
 
 	stuJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "モーリスだなっす"}
+		Value:    "モーリス"}
 
 	stuKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "모리스알것소"}
+		Value:    "모리스"}
 
 	stuLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Vitorinoolé y olé"}
+		Value:    "Vitorino"}
 
 	stuRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Стьюму-у"}
+		Value:    "Стью"}
 
 	stuSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "毛乐时奔驰"}
+		Value:    "毛乐时"}
 
 	stuSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Vitorinoolé y olé"}
+		Value:    "Vitorino"}
 
 	stuTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "毛樂時奔馳"}
+		Value:    "毛樂時"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	stuAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "moo-dudemrooooo"}
+		Value:    "moo-dude"}
 
 	stuCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

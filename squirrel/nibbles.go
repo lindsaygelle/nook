@@ -25,51 +25,51 @@ var (
 
 	nibblesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lolagrignotte"}
+		Value:    "Lola"}
 
 	nibblesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Nibblesknabbel"}
+		Value:    "Nibbles"}
 
 	nibblesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lolanunuche"}
+		Value:    "Lola"}
 
 	nibblesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Knuspiknusper"}
+		Value:    "Knuspi"}
 
 	nibblesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rododeatruciolo"}
+		Value:    "Rododea"}
 
 	nibblesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ガリガリガジガジ"}
+		Value:    "ガリガリ"}
 
 	nibblesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "그리미송송"}
+		Value:    "그리미"}
 
 	nibblesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Dentinatrocitrí"}
+		Value:    "Dentina"}
 
 	nibblesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ниблзорешек"}
+		Value:    "Ниблз"}
 
 	nibblesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "咬咬咯吱咯吱"}
+		Value:    "咬咬"}
 
 	nibblesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Dentinabellotita"}
+		Value:    "Dentina"}
 
 	nibblesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "咬咬咯吱咯吱"}
+		Value:    "咬咬"}
 )
 
 var (

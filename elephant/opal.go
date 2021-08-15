@@ -25,51 +25,51 @@ var (
 
 	opalCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Opalinegropif"}
+		Value:    "Opaline"}
 
 	opalDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Opalsnoet"}
+		Value:    "Opal"}
 
 	opalFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Opalinegropif"}
+		Value:    "Opaline"}
 
 	opalGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Olgatröööt"}
+		Value:    "Olga"}
 
 	opalItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Opalsnoob"}
+		Value:    "Opal"}
 
 	opalJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オパールヨン"}
+		Value:    "オパール"}
 
 	opalKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "오팔땡"}
+		Value:    "오팔"}
 
 	opalLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ópaloflip-flop"}
+		Value:    "Ópalo"}
 
 	opalRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Опалхобот"}
+		Value:    "Опал"}
 
 	opalSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "露露勇"}
+		Value:    "露露"}
 
 	opalSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ópaloflip-flop"}
+		Value:    "Ópalo"}
 
 	opalTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "露露勇"}
+		Value:    "露露"}
 )
 
 var (

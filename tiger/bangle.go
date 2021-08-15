@@ -25,51 +25,51 @@ var (
 
 	bangleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bengalema souris"}
+		Value:    "Bengale"}
 
 	bangleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Banglegrommf"}
+		Value:    "Bangle"}
 
 	bangleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bengalema souris"}
+		Value:    "Bengale"}
 
 	bangleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tamaraschnurf"}
+		Value:    "Tamara"}
 
 	bangleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Tigriziagrouf"}
+		Value:    "Tigrizia"}
 
 	bangleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ルーズなのぉー"}
+		Value:    "ルーズ"}
 
 	bangleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "루주쪼옥쪽"}
+		Value:    "루주"}
 
 	bangleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Felinagri-gruá"}
+		Value:    "Felina"}
 
 	bangleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бэнглр-р-рф"}
+		Value:    "Бэнгл"}
 
 	bangleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "卢姿是喔"}
+		Value:    "卢姿"}
 
 	bangleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Felinami vida"}
+		Value:    "Felina"}
 
 	bangleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "盧姿是喔"}
+		Value:    "盧姿"}
 )
 
 var (

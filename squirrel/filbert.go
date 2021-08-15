@@ -25,51 +25,51 @@ var (
 
 	filbertCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Filibertgogo"}
+		Value:    "Filibert"}
 
 	filbertDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Filbertvent"}
+		Value:    "Filbert"}
 
 	filbertFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Filibertgogo"}
+		Value:    "Filibert"}
 
 	filbertGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Felixmanno"}
+		Value:    "Felix"}
 
 	filbertItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Scricciognic gnic"}
+		Value:    "Scriccio"}
 
 	filbertJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リッキーでしゅ"}
+		Value:    "リッキー"}
 
 	filbertKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "리키예용"}
+		Value:    "리키"}
 
 	filbertLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Filbertoguirlache"}
+		Value:    "Filberto"}
 
 	filbertRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Филбертдружище"}
+		Value:    "Филберт"}
 
 	filbertSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "瑞奇是哦"}
+		Value:    "瑞奇"}
 
 	filbertSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Filbertoguirlache"}
+		Value:    "Filberto"}
 
 	filbertTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "瑞奇是囉"}
+		Value:    "瑞奇"}
 )
 
 var (

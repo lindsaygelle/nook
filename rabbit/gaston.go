@@ -25,51 +25,51 @@ var (
 
 	gastonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gastoncahuète"}
+		Value:    "Gaston"}
 
 	gastonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gastonmon amour"}
+		Value:    "Gaston"}
 
 	gastonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gastoncahuète"}
+		Value:    "Gaston"}
 
 	gastonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gastonherzblatt"}
+		Value:    "Gaston"}
 
 	gastonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gastoncherie"}
+		Value:    "Gaston"}
 
 	gastonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "モサキチムホッ"}
+		Value:    "モサキチ"}
 
 	gastonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "대길쿨럭"}
+		Value:    "대길"}
 
 	gastonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gastónmon chou"}
+		Value:    "Gastón"}
 
 	gastonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гастонмон зайшу"}
+		Value:    "Гастон"}
 
 	gastonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "猛兔唔贺"}
+		Value:    "猛兔"}
 
 	gastonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gastónmon chou"}
+		Value:    "Gastón"}
 
 	gastonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "猛兔唔賀"}
+		Value:    "猛兔"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	juneCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Agnèscacou"}
+		Value:    "Agnès"}
 
 	juneDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Junewolkje"}
+		Value:    "June"}
 
 	juneFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Agnèscacou"}
+		Value:    "Agnès"}
 
 	juneGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Junaschönheit"}
+		Value:    "Juna"}
 
 	juneItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Junegrrande"}
+		Value:    "June"}
 
 	juneJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "メイアルネ"}
+		Value:    "メイ"}
 
 	juneKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "메이있죠"}
+		Value:    "메이"}
 
 	juneLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Hanalulúlurilá"}
+		Value:    "Hanalulú"}
 
 	juneRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джунрадуга-дуга"}
+		Value:    "Джун"}
 
 	juneSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿妹有耶"}
+		Value:    "阿妹"}
 
 	juneSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Hanalulúcielo"}
+		Value:    "Hanalulú"}
 
 	juneTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿妹有耶"}
+		Value:    "阿妹"}
 )
 
 var (

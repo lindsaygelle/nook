@@ -25,51 +25,51 @@ var (
 
 	ursalaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Oursulagroumpf"}
+		Value:    "Oursula"}
 
 	ursalaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ursalaoemf"}
+		Value:    "Ursala"}
 
 	ursalaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Oursulagroumpf"}
+		Value:    "Oursula"}
 
 	ursalaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ursulabrumbrum"}
+		Value:    "Ursula"}
 
 	ursalaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ursulagruuunf"}
+		Value:    "Ursula"}
 
 	ursalaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ネーヤやーねぇ"}
+		Value:    "ネーヤ"}
 
 	ursalaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "네이아그라지"}
+		Value:    "네이아"}
 
 	ursalaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Úrsulagrumf"}
+		Value:    "Úrsula"}
 
 	ursalaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Урсалагррум"}
+		Value:    "Урсала"}
 
 	ursalaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "妮雅呀呐"}
+		Value:    "妮雅"}
 
 	ursalaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Úrsulagrumf"}
+		Value:    "Úrsula"}
 
 	ursalaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "妮雅呀吶"}
+		Value:    "妮雅"}
 )
 
 var (

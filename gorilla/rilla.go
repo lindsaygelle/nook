@@ -25,51 +25,51 @@ var (
 
 	rillaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rillarorille"}
+		Value:    "Rilla"}
 
 	rillaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rillahello"}
+		Value:    "Rilla"}
 
 	rillaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rillarorille"}
+		Value:    "Rilla"}
 
 	rillaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rillakittykong"}
+		Value:    "Rilla"}
 
 	rillaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rillaarrruuu"}
+		Value:    "Rilla"}
 
 	rillaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リラハロー"}
+		Value:    "リラ"}
 
 	rillaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "릴라헬로"}
+		Value:    "릴라"}
 
 	rillaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rilakittybún"}
+		Value:    "Rila"}
 
 	rillaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Риллаалло"}
+		Value:    "Рилла"}
 
 	rillaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莉拉哈罗"}
+		Value:    "莉拉"}
 
 	rillaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rilakittybún"}
+		Value:    "Rila"}
 
 	rillaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莉拉哈囉"}
+		Value:    "莉拉"}
 )
 
 var (

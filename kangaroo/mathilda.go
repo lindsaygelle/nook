@@ -25,51 +25,51 @@ var (
 
 	mathildaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mathilderiquiqui"}
+		Value:    "Mathilde"}
 
 	mathildaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mathildaukkepuk"}
+		Value:    "Mathilda"}
 
 	mathildaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mathilderiquiqui"}
+		Value:    "Mathilde"}
 
 	mathildaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Margaknirps"}
+		Value:    "Marga"}
 
 	mathildaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Matildaoplà"}
+		Value:    "Matilda"}
 
 	mathildaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アザラクッハ"}
+		Value:    "アザラク"}
 
 	mathildaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "안젤라응"}
+		Value:    "안젤라"}
 
 	mathildaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pugildaala-rorro"}
+		Value:    "Pugilda"}
 
 	mathildaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Матильдамалютка"}
+		Value:    "Матильда"}
 
 	mathildaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "亚莎嘿"}
+		Value:    "亚莎"}
 
 	mathildaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pugildapeso mosca"}
+		Value:    "Pugilda"}
 
 	mathildaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "亞莎嘿"}
+		Value:    "亞莎"}
 )
 
 var (

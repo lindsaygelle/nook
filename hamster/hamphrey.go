@@ -25,51 +25,51 @@ var (
 
 	hamphreyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Charlesgna gna"}
+		Value:    "Charles"}
 
 	hamphreyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hamphreysnuifsnuif"}
+		Value:    "Hamphrey"}
 
 	hamphreyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Charlesbalivernes"}
+		Value:    "Charles"}
 
 	hamphreyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Heinrichsquiep"}
+		Value:    "Heinrich"}
 
 	hamphreyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Neronespatapumf"}
+		Value:    "Nerone"}
 
 	hamphreyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハムジカーッ"}
+		Value:    "ハムジ"}
 
 	hamphreyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "햄쥐카악"}
+		Value:    "햄쥐"}
 
 	hamphreyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Arsenionoquenó"}
+		Value:    "Arsenio"}
 
 	hamphreyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хэмфрифырк"}
+		Value:    "Хэмфри"}
 
 	hamphreySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小仓怒"}
+		Value:    "小仓"}
 
 	hamphreySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Arsenioandaquenó"}
+		Value:    "Arsenio"}
 
 	hamphreyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小倉怒"}
+		Value:    "小倉"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	jeremiahCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jérémiebrooap"}
+		Value:    "Jérémie"}
 
 	jeremiahDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Jeremiahrikkekik"}
+		Value:    "Jeremiah"}
 
 	jeremiahFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jérémiebrooap"}
+		Value:    "Jérémie"}
 
 	jeremiahGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jörgnidip"}
+		Value:    "Jörg"}
 
 	jeremiahItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Geremiafri fri"}
+		Value:    "Geremia"}
 
 	jeremiahJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クワトロにゃむ"}
+		Value:    "クワトロ"}
 
 	jeremiahKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "드리미딩동댕"}
+		Value:    "드리미"}
 
 	jeremiahLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jeremíascroc-croc"}
+		Value:    "Jeremías"}
 
 	jeremiahRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джеремиябуль-буль"}
+		Value:    "Джеремия"}
 
 	jeremiahSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿刻嚼嚼"}
+		Value:    "阿刻"}
 
 	jeremiahSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jeremíascroc-croc"}
+		Value:    "Jeremías"}
 
 	jeremiahTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿刻嚼嚼"}
+		Value:    "阿刻"}
 )
 
 var (

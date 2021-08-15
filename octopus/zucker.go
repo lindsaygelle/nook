@@ -25,51 +25,51 @@ var (
 
 	zuckerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Marvinsploush"}
+		Value:    "Marvin"}
 
 	zuckerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Zuckerbloep"}
+		Value:    "Zucker"}
 
 	zuckerFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Marvinsploush"}
+		Value:    "Marvin"}
 
 	zuckerGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ottokarsaug"}
+		Value:    "Ottokar"}
 
 	zuckerItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Poldoblub"}
+		Value:    "Poldo"}
 
 	zuckerJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タコヤせやねん"}
+		Value:    "タコヤ"}
 
 	zuckerKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "탁호약히"}
+		Value:    "탁호"}
 
 	zuckerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Paulinochurubú"}
+		Value:    "Paulino"}
 
 	zuckerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Цукербуль"}
+		Value:    "Цукер"}
 
 	zuckerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "章丸丸认同"}
+		Value:    "章丸丸"}
 
 	zuckerSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Paulinochurubú"}
+		Value:    "Paulino"}
 
 	zuckerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "章丸丸認同"}
+		Value:    "章丸丸"}
 )
 
 var (

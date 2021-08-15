@@ -25,51 +25,51 @@ var (
 
 	lollyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Linetteron-ron"}
+		Value:    "Linette"}
 
 	lollyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Lollyzuurtje"}
+		Value:    "Lolly"}
 
 	lollyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Linetteron-ron"}
+		Value:    "Linette"}
 
 	lollyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Felinekratz"}
+		Value:    "Feline"}
 
 	lollyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Matypurrrr"}
+		Value:    "Maty"}
 
 	lollyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ラムネあのね"}
+		Value:    "ラムネ"}
 
 	lollyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "사이다퐁퐁"}
+		Value:    "사이다"}
 
 	lollyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Felipurrrr"}
+		Value:    "Feli"}
 
 	lollyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лолликонфетка"}
+		Value:    "Лолли"}
 
 	lollySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "柠檬娜娜个"}
+		Value:    "柠檬娜"}
 
 	lollySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Felipurrrr"}
+		Value:    "Feli"}
 
 	lollyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "檸檬娜娜個"}
+		Value:    "檸檬娜"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	shepCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mehdipedigree"}
+		Value:    "Mehdi"}
 
 	shepDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Shepschapie"}
+		Value:    "Shep"}
 
 	shepFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mehdipedigree"}
+		Value:    "Mehdi"}
 
 	shepGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Thomasheffheff"}
+		Value:    "Thomas"}
 
 	shepItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Franginoguau guau"}
+		Value:    "Frangino"}
 
 	shepJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ボブワンダー"}
+		Value:    "ボブ"}
 
 	shepKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "밥안보여"}
+		Value:    "밥"}
 
 	shepLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Flecogrrruau"}
+		Value:    "Fleco"}
 
 	shepRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шепбр-р-разер"}
+		Value:    "Шеп"}
 
 	shepSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "包伯汪想想"}
+		Value:    "包伯"}
 
 	shepSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Flecotufos"}
+		Value:    "Fleco"}
 
 	shepTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "包伯汪想想"}
+		Value:    "包伯"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	shepAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "baaa manbaa baa baa"}
+		Value:    "baaa man"}
 
 	shepCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

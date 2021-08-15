@@ -25,51 +25,51 @@ var (
 
 	kittyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kittymiaaaouh"}
+		Value:    "Kitty"}
 
 	kittyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kittygiechel"}
+		Value:    "Kitty"}
 
 	kittyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kittymiaaaouh"}
+		Value:    "Kitty"}
 
 	kittyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Karenmiezmiez"}
+		Value:    "Karen"}
 
 	kittyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Esterfusolo"}
+		Value:    "Ester"}
 
 	kittyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ショコラフフ"}
+		Value:    "ショコラ"}
 
 	kittyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "쇼콜라자갸"}
+		Value:    "쇼콜라"}
 
 	kittyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Kasandramiaul"}
+		Value:    "Kasandra"}
 
 	kittyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Киттимр-мр-мр"}
+		Value:    "Китти"}
 
 	kittySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "朱古莉古古"}
+		Value:    "朱古莉"}
 
 	kittySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Kasandracascabel"}
+		Value:    "Kasandra"}
 
 	kittyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "朱古莉古古"}
+		Value:    "朱古莉"}
 )
 
 var (

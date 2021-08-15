@@ -25,51 +25,51 @@ var (
 
 	rexCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Léolionceau"}
+		Value:    "Léo"}
 
 	rexDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rexcoole kat"}
+		Value:    "Rex"}
 
 	rexFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Léolionceau"}
+		Value:    "Léo"}
 
 	rexGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rexcoolcat"}
+		Value:    "Rex"}
 
 	rexItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rexgrrringo"}
+		Value:    "Rex"}
 
 	rexJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サンデーだオン"}
+		Value:    "サンデー"}
 
 	rexKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "렉스티라이온"}
+		Value:    "렉스"}
 
 	rexLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Leonciogrrreh"}
+		Value:    "Leoncio"}
 
 	rexRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рексспокойно"}
+		Value:    "Рекс"}
 
 	rexSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "晴天狮狮"}
+		Value:    "晴天"}
 
 	rexSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Leonciomelenas"}
+		Value:    "Leoncio"}
 
 	rexTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "晴天獅獅"}
+		Value:    "晴天"}
 )
 
 var (

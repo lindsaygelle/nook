@@ -25,51 +25,51 @@ var (
 
 	goldieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mirzaouaf"}
+		Value:    "Mirza"}
 
 	goldieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Goldiewoef"}
+		Value:    "Goldie"}
 
 	goldieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mirzaouaf"}
+		Value:    "Mirza"}
 
 	goldieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bienchenwuff"}
+		Value:    "Bienchen"}
 
 	goldieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dorawuf wuf"}
+		Value:    "Dora"}
 
 	goldieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キャラメルワン"}
+		Value:    "キャラメル"}
 
 	goldieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "카라멜왈왈"}
+		Value:    "카라멜"}
 
 	goldieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tereguau-guau"}
+		Value:    "Tere"}
 
 	goldieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Голдитяв"}
+		Value:    "Голди"}
 
 	goldieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "牛奶糖汪"}
+		Value:    "牛奶糖"}
 
 	goldieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tereguau-guau"}
+		Value:    "Tere"}
 
 	goldieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "牛奶糖汪"}
+		Value:    "牛奶糖"}
 )
 
 var (

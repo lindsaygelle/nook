@@ -25,51 +25,51 @@ var (
 
 	ketchupCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Ketchupplouf"}
+		Value:    "Ketchup"}
 
 	ketchupDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ketchuptomaatje"}
+		Value:    "Ketchup"}
 
 	ketchupFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ketchupplouf"}
+		Value:    "Ketchup"}
 
 	ketchupGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pullundapullilol"}
+		Value:    "Pullunda"}
 
 	ketchupItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ketchupquaraquack"}
+		Value:    "Ketchup"}
 
 	ketchupJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ケチャッププチ"}
+		Value:    "ケチャップ"}
 
 	ketchupKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "케첩찌익"}
+		Value:    "케첩"}
 
 	ketchupLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Kétchupcuic-cuic"}
+		Value:    "Kétchup"}
 
 	ketchupRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кетчуппокрякушка"}
+		Value:    "Кетчуп"}
 
 	ketchupSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "番茄酱噗吱"}
+		Value:    "番茄酱"}
 
 	ketchupSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Kétchupcuic-cuic"}
+		Value:    "Kétchup"}
 
 	ketchupTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "番茄醬噗吱"}
+		Value:    "番茄醬"}
 )
 
 var (

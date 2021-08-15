@@ -25,51 +25,51 @@ var (
 
 	genjiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kalimochi"}
+		Value:    "Kali"}
 
 	genjiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Genjimochi"}
+		Value:    "Genji"}
 
 	genjiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kalimochi"}
+		Value:    "Kali"}
 
 	genjiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Akigoseimas"}
+		Value:    "Aki"}
 
 	genjiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Genjimochi"}
+		Value:    "Genji"}
 
 	genjiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ゲンジまろ"}
+		Value:    "ゲンジ"}
 
 	genjiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "토시땡글"}
+		Value:    "토시"}
 
 	genjiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sumomochi"}
+		Value:    "Sumo"}
 
 	genjiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гэндзизайпончик"}
+		Value:    "Гэндзи"}
 
 	genjiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "儒林臣"}
+		Value:    "儒林"}
 
 	genjiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sumomochi"}
+		Value:    "Sumo"}
 
 	genjiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "儒林臣"}
+		Value:    "儒林"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	genjiAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "otakumochi"}
+		Value:    "otaku"}
 
 	genjiCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

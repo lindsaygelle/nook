@@ -25,51 +25,51 @@ var (
 
 	princeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Princeboiiiiing"}
+		Value:    "Prince"}
 
 	princeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Princeblurp"}
+		Value:    "Prince"}
 
 	princeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Princeboiiiiing"}
+		Value:    "Prince"}
 
 	princeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Prinzgurp"}
+		Value:    "Prinz"}
 
 	princeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Principeberp"}
+		Value:    "Principe"}
 
 	princeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カールですだ"}
+		Value:    "カール"}
 
 	princeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "카일이리오슈"}
+		Value:    "카일"}
 
 	princeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Felipebuuurp"}
+		Value:    "Felipe"}
 
 	princeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Принсквак-квак"}
+		Value:    "Принс"}
 
 	princeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "青呱是的"}
+		Value:    "青呱"}
 
 	princeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Felipebuuurp"}
+		Value:    "Felipe"}
 
 	princeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "青呱是的"}
+		Value:    "青呱"}
 )
 
 var (

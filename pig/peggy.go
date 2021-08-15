@@ -25,51 +25,51 @@ var (
 
 	peggyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rosefleur"}
+		Value:    "Rose"}
 
 	peggyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Peggyknorrelief"}
+		Value:    "Peggy"}
 
 	peggyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rosefleur"}
+		Value:    "Rose"}
 
 	peggyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Quiekieglotz"}
+		Value:    "Quiekie"}
 
 	peggyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sallyoink"}
+		Value:    "Sally"}
 
 	peggyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ちえりぷるる"}
+		Value:    "ちえり"}
 
 	peggyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "체리아앙"}
+		Value:    "체리"}
 
 	peggyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Peggytrufits"}
+		Value:    "Peggy"}
 
 	peggyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пеггихрюмпатяга"}
+		Value:    "Пегги"}
 
 	peggySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "千惠弹弹"}
+		Value:    "千惠"}
 
 	peggySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Peggytrufita"}
+		Value:    "Peggy"}
 
 	peggyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "千惠彈彈"}
+		Value:    "千惠"}
 )
 
 var (

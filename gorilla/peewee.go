@@ -25,51 +25,51 @@ var (
 
 	peeweeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gogogadget"}
+		Value:    "Gogo"}
 
 	peeweeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Peeweedwerg"}
+		Value:    "Peewee"}
 
 	peeweeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gogogadget"}
+		Value:    "Gogo"}
 
 	peeweeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Manfredzwerg"}
+		Value:    "Manfred"}
 
 	peeweeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Kongbaaanane"}
+		Value:    "Kong"}
 
 	peeweeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ダンベルガオ"}
+		Value:    "ダンベル"}
 
 	peeweeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "덤벨겉멋"}
+		Value:    "덤벨"}
 
 	peeweeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lotarcani"}
+		Value:    "Lotar"}
 
 	peeweeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пивимелкота"}
+		Value:    "Пиви"}
 
 	peeweeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "哑铃高高"}
+		Value:    "哑铃"}
 
 	peeweeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lotarcani"}
+		Value:    "Lotar"}
 
 	peeweeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "啞鈴高高"}
+		Value:    "啞鈴"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	peeweeAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "li'l dudeli'l bitty baby"}
+		Value:    "li'l dude"}
 
 	peeweeCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

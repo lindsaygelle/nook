@@ -25,51 +25,51 @@ var (
 
 	anabelleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Anabellegrognon"}
+		Value:    "Anabelle"}
 
 	anabelleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Anabellesnork"}
+		Value:    "Anabelle"}
 
 	anabelleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Anabellegrognon"}
+		Value:    "Anabelle"}
 
 	anabelleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Annabellpuuust"}
+		Value:    "Annabell"}
 
 	anabelleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Annalisasnorty"}
+		Value:    "Annalisa"}
 
 	anabelleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "あるみマジでー"}
+		Value:    "あるみ"}
 
 	anabelleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아롱이정말"}
+		Value:    "아롱이"}
 
 	anabelleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Anabelfa-fiú"}
+		Value:    "Anabel"}
 
 	anabelleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Анабельхрум-хрум"}
+		Value:    "Анабель"}
 
 	anabelleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "有美真的假的"}
+		Value:    "有美"}
 
 	anabelleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Anabelesnoink"}
+		Value:    "Anabel"}
 
 	anabelleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "有美真的假的"}
+		Value:    "有美"}
 )
 
 var (

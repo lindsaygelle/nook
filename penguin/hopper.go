@@ -25,51 +25,51 @@ var (
 
 	hopperCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Victormanette"}
+		Value:    "Victor"}
 
 	hopperDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hopperĳsje"}
+		Value:    "Hopper"}
 
 	hopperFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Victormanette"}
+		Value:    "Victor"}
 
 	hopperGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Haukeslaschi"}
+		Value:    "Hauke"}
 
 	hopperItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pinguaiosguish"}
+		Value:    "Pinguaio"}
 
 	hopperJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ダルマンちぅねん"}
+		Value:    "ダルマン"}
 
 	hopperKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "달만이아따"}
+		Value:    "달만이"}
 
 	hopperLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Güiñónesploch"}
+		Value:    "Güiñón"}
 
 	hopperRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хопперледок"}
+		Value:    "Хоппер"}
 
 	hopperSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "达满禅"}
+		Value:    "达满"}
 
 	hopperSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Güiñónesploch"}
+		Value:    "Güiñón"}
 
 	hopperTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "達滿禪"}
+		Value:    "達滿"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	frigaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Frigabourfff"}
+		Value:    "Friga"}
 
 	frigaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Frigabrrrhmpf"}
+		Value:    "Friga"}
 
 	frigaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Frigabourfff"}
+		Value:    "Friga"}
 
 	frigaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Friedagrrmpf"}
+		Value:    "Frieda"}
 
 	frigaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Fridabrrrumf"}
+		Value:    "Frida"}
 
 	frigaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サブリナツルルン"}
+		Value:    "サブリナ"}
 
 	frigaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "사브리나으쓱"}
+		Value:    "사브리나"}
 
 	frigaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Fridaurfff"}
+		Value:    "Frida"}
 
 	frigaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фригабрр-хм"}
+		Value:    "Фрига"}
 
 	frigaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "谢宾娜滑溜溜"}
+		Value:    "谢宾娜"}
 
 	frigaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Fridaheladito"}
+		Value:    "Frida"}
 
 	frigaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "謝賓娜滑溜溜"}
+		Value:    "謝賓娜"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	shariCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lunatavu"}
+		Value:    "Luna"}
 
 	shariDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sharibrutaaltje"}
+		Value:    "Shari"}
 
 	shariFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lunatavu"}
+		Value:    "Luna"}
 
 	shariGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Utamakimaki"}
+		Value:    "Uta"}
 
 	shariItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ninìbabbuh"}
+		Value:    "Ninì"}
 
 	shariJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シェリーウキキ"}
+		Value:    "シェリー"}
 
 	shariKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "젤리우끼네"}
+		Value:    "젤리"}
 
 	shariLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Montsebabuí"}
+		Value:    "Montse"}
 
 	shariRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шарищекасто"}
+		Value:    "Шари"}
 
 	shariSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "雪莉呜吱吱"}
+		Value:    "雪莉"}
 
 	shariSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Montsetunante"}
+		Value:    "Montse"}
 
 	shariTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "雪莉嗚吱吱"}
+		Value:    "雪莉"}
 )
 
 var (

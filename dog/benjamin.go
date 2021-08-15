@@ -25,51 +25,51 @@ var (
 
 	benjaminCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bernardocroquettes"}
+		Value:    "Bernardo"}
 
 	benjaminDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Benjaminoké dan"}
+		Value:    "Benjamin"}
 
 	benjaminFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bernardocroquettes"}
+		Value:    "Bernardo"}
 
 	benjaminGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Wastlwinsel"}
+		Value:    "Wastl"}
 
 	benjaminItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bernardobauuau"}
+		Value:    "Bernardo"}
 
 	benjaminJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハチではでは"}
+		Value:    "ハチ"}
 
 	benjaminKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "땡칠이그럼그럼"}
+		Value:    "땡칠이"}
 
 	benjaminLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bernardotirirí"}
+		Value:    "Bernardo"}
 
 	benjaminRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бернардопор-рядок"}
+		Value:    "Бернардо"}
 
 	benjaminSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小八那么那么"}
+		Value:    "小八"}
 
 	benjaminSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bernardotirirí"}
+		Value:    "Bernardo"}
 
 	benjaminTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小八那麼那麼"}
+		Value:    "小八"}
 )
 
 var (

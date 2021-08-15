@@ -25,51 +25,51 @@ var (
 
 	peanutCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rachidanoisette"}
+		Value:    "Rachida"}
 
 	peanutDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Peanutluilak"}
+		Value:    "Peanut"}
 
 	peanutFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rachidanoisette"}
+		Value:    "Rachida"}
 
 	peanutGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Paulinafaulenzer"}
+		Value:    "Paulina"}
 
 	peanutItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rachelesgronch"}
+		Value:    "Rachele"}
 
 	peanutJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ももこなのよ"}
+		Value:    "ももこ"}
 
 	peanutKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "핑키거얌"}
+		Value:    "핑키"}
 
 	peanutLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Belindaesñik"}
+		Value:    "Belinda"}
 
 	peanutRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пинатлень"}
+		Value:    "Пинат"}
 
 	peanutSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小桃就是唷"}
+		Value:    "小桃"}
 
 	peanutSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Belindaalmendrita"}
+		Value:    "Belinda"}
 
 	peanutTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小桃就是唷"}
+		Value:    "小桃"}
 )
 
 var (

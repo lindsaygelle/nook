@@ -25,51 +25,51 @@ var (
 
 	whitneyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Blanchebing bang"}
+		Value:    "Blanche"}
 
 	whitneyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Whitneyhap"}
+		Value:    "Whitney"}
 
 	whitneyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Blanchesbam"}
+		Value:    "Blanche"}
 
 	whitneyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lupajaulll"}
+		Value:    "Lupa"}
 
 	whitneyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Biancasnappy"}
+		Value:    "Bianca"}
 
 	whitneyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビアンカステキね"}
+		Value:    "ビアンカ"}
 
 	whitneyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "비앙카멋져"}
+		Value:    "비앙카"}
 
 	whitneyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lupeauf-auf"}
+		Value:    "Lupe"}
 
 	whitneyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Уитницап"}
+		Value:    "Уитни"}
 
 	whitneySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "毕安卡漂亮"}
+		Value:    "毕安卡"}
 
 	whitneySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lupeauf-auf"}
+		Value:    "Lupe"}
 
 	whitneyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "畢安卡漂亮"}
+		Value:    "畢安卡"}
 )
 
 var (

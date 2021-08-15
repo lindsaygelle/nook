@@ -25,51 +25,51 @@ var (
 
 	inkwellCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pigmentosplat"}
+		Value:    "Pigmento"}
 
 	inkwellDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	inkwellFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pigmentosplat"}
+		Value:    "Pigmento"}
 
 	inkwellGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kleckssplat"}
+		Value:    "Klecks"}
 
 	inkwellItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Polpottosplat"}
+		Value:    "Polpotto"}
 
 	inkwellJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "スミダクンガチで"}
+		Value:    "スミダクン"}
 
 	inkwellKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "멍무리진심"}
+		Value:    "멍무리"}
 
 	inkwellLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tinteliotinta va"}
+		Value:    "Tintelio"}
 
 	inkwellRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	inkwellSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	inkwellSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tinteliotinta va"}
+		Value:    "Tintelio"}
 
 	inkwellTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

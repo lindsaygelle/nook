@@ -25,51 +25,51 @@ var (
 
 	frecklesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Caropoussin"}
+		Value:    "Caro"}
 
 	frecklesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Freckleseendje"}
+		Value:    "Freckles"}
 
 	frecklesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Caropoussin"}
+		Value:    "Caro"}
 
 	frecklesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Quacksschnatter"}
+		Value:    "Quacks"}
 
 	frecklesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Semolaqua qua"}
+		Value:    "Semola"}
 
 	frecklesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マグロぎょぎょ"}
+		Value:    "マグロ"}
 
 	frecklesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "다랑어물물"}
+		Value:    "다랑어"}
 
 	frecklesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rebecacui-cuá"}
+		Value:    "Rebeca"}
 
 	frecklesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фреклсутенок"}
+		Value:    "Фреклс"}
 
 	frecklesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小鲔鱼鱼"}
+		Value:    "小鲔"}
 
 	frecklesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rebecacui-cuá"}
+		Value:    "Rebeca"}
 
 	frecklesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小鮪魚魚"}
+		Value:    "小鮪"}
 )
 
 var (

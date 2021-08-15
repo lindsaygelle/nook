@@ -25,51 +25,51 @@ var (
 
 	phoebeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Faustinechanmé"}
+		Value:    "Faustine"}
 
 	phoebeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Phoebevonkje"}
+		Value:    "Phoebe"}
 
 	phoebeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Faustinechanmé"}
+		Value:    "Faustine"}
 
 	phoebeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Philippapieks"}
+		Value:    "Philippa"}
 
 	phoebeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Feniciabehmù"}
+		Value:    "Fenicia"}
 
 	phoebeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヒノコアツイわ"}
+		Value:    "ヒノコ"}
 
 	phoebeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "휘니아뜨뜨"}
+		Value:    "휘니"}
 
 	phoebeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Avelinaequilicuá"}
+		Value:    "Avelina"}
 
 	phoebeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фибиискорка"}
+		Value:    "Фиби"}
 
 	phoebeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "火鸟好热"}
+		Value:    "火鸟"}
 
 	phoebeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Avelinaequilicuá"}
+		Value:    "Avelina"}
 
 	phoebeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "火鳥好熱"}
+		Value:    "火鳥"}
 )
 
 var (

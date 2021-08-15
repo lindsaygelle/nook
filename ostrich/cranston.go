@@ -25,51 +25,51 @@ var (
 
 	cranstonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gabinomelette"}
+		Value:    "Gabin"}
 
 	cranstonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cranstonzweetband"}
+		Value:    "Cranston"}
 
 	cranstonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gabinomelette"}
+		Value:    "Gabin"}
 
 	cranstonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Guidohappahappa"}
+		Value:    "Guido"}
 
 	cranstonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Carmineboa"}
+		Value:    "Carmine"}
 
 	cranstonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トキオおよよ"}
+		Value:    "トキオ"}
 
 	cranstonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "타키오요용"}
+		Value:    "타키"}
 
 	cranstonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Carmelogruqui"}
+		Value:    "Carmelo"}
 
 	cranstonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Крэнстонне потей"}
+		Value:    "Крэнстон"}
 
 	cranstonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "朱禄哎呀呀"}
+		Value:    "朱禄"}
 
 	cranstonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Carmelogruqui"}
+		Value:    "Carmelo"}
 
 	cranstonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "朱祿哎呀呀"}
+		Value:    "朱祿"}
 )
 
 var (

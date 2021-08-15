@@ -25,51 +25,51 @@ var (
 
 	ikeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Isaacpot d'miel"}
+		Value:    "Isaac"}
 
 	ikeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ikeja denk"}
+		Value:    "Ike"}
 
 	ikeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Isaacpot d'miel"}
+		Value:    "Isaac"}
 
 	ikeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ikebrrruah"}
+		Value:    "Ike"}
 
 	ikeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ortensiosgrugno"}
+		Value:    "Ortensio"}
 
 	ikeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ダイクボウズ"}
+		Value:    "ダイク"}
 
 	ikeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "대공터프"}
+		Value:    "대공"}
 
 	ikeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Astillasgrurrr"}
+		Value:    "Astillas"}
 
 	ikeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Айкгарр-сон"}
+		Value:    "Айк"}
 
 	ikeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "大功施主"}
+		Value:    "大功"}
 
 	ikeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Astillastornillos"}
+		Value:    "Astillas"}
 
 	ikeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "大功施主"}
+		Value:    "大功"}
 )
 
 var (

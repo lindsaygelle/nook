@@ -25,51 +25,51 @@ var (
 
 	nanaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mireillepo po"}
+		Value:    "Mireille"}
 
 	nanaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Nanabanaan"}
+		Value:    "Nana"}
 
 	nanaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mireillepo po"}
+		Value:    "Mireille"}
 
 	nanaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dorotheaspitzi"}
+		Value:    "Dorothea"}
 
 	nanaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Nanàpo po"}
+		Value:    "Nanà"}
 
 	nanaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チッチウキャ"}
+		Value:    "チッチ"}
 
 	nanaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "키키끼끼"}
+		Value:    "키키"}
 
 	nanaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Nanaukiú"}
+		Value:    "Nana"}
 
 	nanaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Нанапу-пу"}
+		Value:    "Нана"}
 
 	nanaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "七七唔唔"}
+		Value:    "七七"}
 
 	nanaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Nanamonada"}
+		Value:    "Nana"}
 
 	nanaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "七七唔唔"}
+		Value:    "七七"}
 )
 
 var (

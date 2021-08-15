@@ -25,51 +25,51 @@ var (
 
 	pippyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Nadiati' lièvre"}
+		Value:    "Nadia"}
 
 	pippyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pippyhaasje"}
+		Value:    "Pippy"}
 
 	pippyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Nadiati' lièvre"}
+		Value:    "Nadia"}
 
 	pippyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lottahihi"}
+		Value:    "Lotta"}
 
 	pippyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pippignaf"}
+		Value:    "Pippi"}
 
 	pippyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ロッタなのサ"}
+		Value:    "ロッタ"}
 
 	pippyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "로타울랄라"}
+		Value:    "로타"}
 
 	pippyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mélonirequeboing"}
+		Value:    "Méloni"}
 
 	pippyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пиппизайчишка"}
+		Value:    "Пиппи"}
 
 	pippySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗塔就这样啦"}
+		Value:    "罗塔"}
 
 	pippySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mélonipipita"}
+		Value:    "Méloni"}
 
 	pippyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅塔就這樣啦"}
+		Value:    "羅塔"}
 )
 
 var (

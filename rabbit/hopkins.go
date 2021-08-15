@@ -25,51 +25,51 @@ var (
 
 	hopkinsCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Grignotepfui"}
+		Value:    "Grignote"}
 
 	hopkinsDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hopkinsstamper"}
+		Value:    "Hopkins"}
 
 	hopkinsFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Grignotepfui"}
+		Value:    "Grignote"}
 
 	hopkinsGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Poldipuschel"}
+		Value:    "Poldi"}
 
 	hopkinsItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Azegliosiiigh"}
+		Value:    "Azeglio"}
 
 	hopkinsJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "プースケぷぅ"}
+		Value:    "プースケ"}
 
 	hopkinsKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "홉킨스뿌우"}
+		Value:    "홉킨스"}
 
 	hopkinsLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Saltiagofiiiiú"}
+		Value:    "Saltiago"}
 
 	hopkinsRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хопкинстоп-топ"}
+		Value:    "Хопкинс"}
 
 	hopkinsSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "风杰风"}
+		Value:    "风杰"}
 
 	hopkinsSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Saltiagovida extra"}
+		Value:    "Saltiago"}
 
 	hopkinsTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "風杰風"}
+		Value:    "風杰"}
 )
 
 var (

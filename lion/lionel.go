@@ -25,51 +25,51 @@ var (
 
 	lionelCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Léopoldpapatte"}
+		Value:    "Léopold"}
 
 	lionelDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Lionelexact"}
+		Value:    "Lionel"}
 
 	lionelFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Léopoldpapatte"}
+		Value:    "Léopold"}
 
 	lionelGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lorenzgrrroooh"}
+		Value:    "Lorenz"}
 
 	lionelItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Leonidaahora"}
+		Value:    "Leonida"}
 
 	lionelJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ライオネルまさしく"}
+		Value:    "ライオネル"}
 
 	lionelKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "라이오넬옳거니"}
+		Value:    "라이오넬"}
 
 	lionelLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lionelpicoplás"}
+		Value:    "Lionel"}
 
 	lionelRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лайонелчесть имею"}
+		Value:    "Лайонел"}
 
 	lionelSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "赖恩睿正确"}
+		Value:    "赖恩睿"}
 
 	lionelSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lionelpicoplás"}
+		Value:    "Lionel"}
 
 	lionelTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "賴恩睿正確"}
+		Value:    "賴恩睿"}
 )
 
 var (

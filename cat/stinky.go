@@ -25,51 +25,51 @@ var (
 
 	stinkyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tupuxmiaoum"}
+		Value:    "Tupux"}
 
 	stinkyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "StinkyBAH"}
+		Value:    "Stinky"}
 
 	stinkyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tupuxmiaoum"}
+		Value:    "Tupux"}
 
 	stinkyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Stefanfauchch"}
+		Value:    "Stefan"}
 
 	stinkyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "PuzzoloGAAHHH"}
+		Value:    "Puzzolo"}
 
 	stinkyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アセクサダァーッ"}
+		Value:    "アセクサ"}
 
 	stinkyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "땀띠아뵤"}
+		Value:    "땀띠"}
 
 	stinkyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Micifuzmarramiau"}
+		Value:    "Micifuz"}
 
 	stinkyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Стинкифу-у-у"}
+		Value:    "Стинки"}
 
 	stinkySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "男子汗打啊"}
+		Value:    "男子汗"}
 
 	stinkySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Micifuzmarramiau"}
+		Value:    "Micifuz"}
 
 	stinkyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "男子汗打啊"}
+		Value:    "男子汗"}
 )
 
 var (

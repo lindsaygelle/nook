@@ -25,51 +25,51 @@ var (
 
 	budCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Léonardmon man"}
+		Value:    "Léonard"}
 
 	budDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Budmaaaan"}
+		Value:    "Bud"}
 
 	budFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Léonardm'pote"}
+		Value:    "Léonard"}
 
 	budGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dieterkumpel"}
+		Value:    "Dieter"}
 
 	budItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Leoruggi"}
+		Value:    "Leo"}
 
 	budJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "グラさんメ～ン"}
+		Value:    "グラさん"}
 
 	budKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "선글요～맨"}
+		Value:    "선글"}
 
 	budLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Surfleogrrrau"}
+		Value:    "Surfleo"}
 
 	budRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бадче-е-ел"}
+		Value:    "Бад"}
 
 	budSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莫敬男人"}
+		Value:    "莫敬"}
 
 	budSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Surfleosabes"}
+		Value:    "Surfleo"}
 
 	budTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莫敬男人"}
+		Value:    "莫敬"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	budAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "doodmaaanshredded"}
+		Value:    "dood"}
 
 	budCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

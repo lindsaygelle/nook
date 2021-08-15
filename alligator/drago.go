@@ -25,51 +25,51 @@ var (
 
 	dragoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Dragoducroc"}
+		Value:    "Drago"}
 
 	dragoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Dragopuf"}
+		Value:    "Drago"}
 
 	dragoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Dragoducroc"}
+		Value:    "Drago"}
 
 	dragoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Frederikhömpf"}
+		Value:    "Frederik"}
 
 	dragoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dragoniotic tac"}
+		Value:    "Dragonio"}
 
 	dragoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タツオえーと"}
+		Value:    "タツオ"}
 
 	dragoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "용남이띠용띠용"}
+		Value:    "용남이"}
 
 	dragoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Dragonioñami"}
+		Value:    "Dragonio"}
 
 	dragoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Драгоогонь"}
+		Value:    "Драго"}
 
 	dragoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿龙然后"}
+		Value:    "阿龙"}
 
 	dragoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Dragonioquemarrr"}
+		Value:    "Dragonio"}
 
 	dragoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿龍然後"}
+		Value:    "阿龍"}
 )
 
 var (

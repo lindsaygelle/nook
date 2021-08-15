@@ -25,51 +25,51 @@ var (
 
 	anchovyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Miguelmuf-muf"}
+		Value:    "Miguel"}
 
 	anchovyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Anchovytsjiiirp"}
+		Value:    "Anchovy"}
 
 	anchovyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Miguelmuf-muf"}
+		Value:    "Miguel"}
 
 	anchovyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Armintschurp"}
+		Value:    "Armin"}
 
 	anchovyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Acciugaciripì"}
+		Value:    "Acciuga"}
 
 	anchovyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アンチョビでシ"}
+		Value:    "アンチョビ"}
 
 	anchovyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "안쵸비이어라"}
+		Value:    "안쵸비"}
 
 	anchovyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Boquerónpiu-piu"}
+		Value:    "Boquerón"}
 
 	anchovyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Анчоуичик-чирик"}
+		Value:    "Анчоуи"}
 
 	anchovySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "凤尾如斯"}
+		Value:    "凤尾"}
 
 	anchovySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Boquerónpiu-piu"}
+		Value:    "Boquerón"}
 
 	anchovyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "鳳尾如斯"}
+		Value:    "鳳尾"}
 )
 
 var (

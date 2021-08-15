@@ -25,51 +25,51 @@ var (
 
 	pattyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Margauxoui oui"}
+		Value:    "Margaux"}
 
 	pattyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pattykoebeest"}
+		Value:    "Patty"}
 
 	pattyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Margauxallez"}
+		Value:    "Margaux"}
 
 	pattyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Patriciamuuhna"}
+		Value:    "Patricia"}
 
 	pattyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pattytruuulà"}
+		Value:    "Patty"}
 
 	pattyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カルピだモー"}
+		Value:    "カルピ"}
 
 	pattyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "밀크음메"}
+		Value:    "밀크"}
 
 	pattyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Vacarenamuuuu"}
+		Value:    "Vacarena"}
 
 	pattyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пэттиму-му"}
+		Value:    "Пэтти"}
 
 	pattySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿排牟"}
+		Value:    "阿排"}
 
 	pattySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Vacarenamuuuu"}
+		Value:    "Vacarena"}
 
 	pattyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿排牟"}
+		Value:    "阿排"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	rickyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rockydingo"}
+		Value:    "Rocky"}
 
 	rickyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rickymafnoot"}
+		Value:    "Ricky"}
 
 	rickyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rockydingo"}
+		Value:    "Rocky"}
 
 	rickyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ronnyknorz"}
+		Value:    "Ronny"}
 
 	rickyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sberlonocciola"}
+		Value:    "Sberlo"}
 
 	rickyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "カジロウキッ"}
+		Value:    "カジロウ"}
 
 	rickyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "갈가리사각사각"}
+		Value:    "갈가리"}
 
 	rickyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Altramuzcrac-crac"}
+		Value:    "Altramuz"}
 
 	rickyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Рикиарахис"}
+		Value:    "Рики"}
 
 	rickySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "嘉治炯炯"}
+		Value:    "嘉治"}
 
 	rickySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Altramuzcáscaras"}
+		Value:    "Altramuz"}
 
 	rickyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "嘉治炯炯"}
+		Value:    "嘉治"}
 )
 
 var (

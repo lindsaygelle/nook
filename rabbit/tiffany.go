@@ -25,51 +25,51 @@ var (
 
 	tiffanyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tiphainepinpin"}
+		Value:    "Tiphaine"}
 
 	tiffanyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tiffanyknijnelijn"}
+		Value:    "Tiffany"}
 
 	tiffanyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tiphainepinpin"}
+		Value:    "Tiphaine"}
 
 	tiffanyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Michelleöhrchen"}
+		Value:    "Michelle"}
 
 	tiffanyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Stefaniabunbun"}
+		Value:    "Stefania"}
 
 	tiffanyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "バズレーってさ"}
+		Value:    "バズレー"}
 
 	tiffanyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "바슬레라던데"}
+		Value:    "바슬레"}
 
 	tiffanyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tiffanytoin-lalá"}
+		Value:    "Tiffany"}
 
 	tiffanyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тиффанизайчонок"}
+		Value:    "Тиффани"}
 
 	tiffanySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "大姐头我说呀"}
+		Value:    "大姐头"}
 
 	tiffanySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tiffanypompón"}
+		Value:    "Tiffany"}
 
 	tiffanyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "大姐頭我說呀"}
+		Value:    "大姐頭"}
 )
 
 var (

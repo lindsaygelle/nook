@@ -25,51 +25,51 @@ var (
 
 	kenCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kenchicken"}
+		Value:    "Ken"}
 
 	kenDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Keneiteraard"}
+		Value:    "Ken"}
 
 	kenFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kenpôt pôt"}
+		Value:    "Ken"}
 
 	kenGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Hannesgockgock"}
+		Value:    "Hannes"}
 
 	kenItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Aligalliquiriqui"}
+		Value:    "Aligalli"}
 
 	kenJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クロベエコッケイ"}
+		Value:    "クロベエ"}
 
 	kenKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "오골깜깜"}
+		Value:    "오골"}
 
 	kenLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pichónkirrí"}
+		Value:    "Pichón"}
 
 	kenRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кенэто точно"}
+		Value:    "Кен"}
 
 	kenSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "乌骨鸡骨鸡"}
+		Value:    "乌骨鸡"}
 
 	kenSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pichónkirrí"}
+		Value:    "Pichón"}
 
 	kenTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "烏骨雞骨雞"}
+		Value:    "烏骨雞"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	champCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "ThibauttchouTCHOU"}
+		Value:    "Thibaut"}
 
 	champDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	champFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "ThibauttchouTCHOU"}
+		Value:    "Thibaut"}
 
 	champGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tschitau-u-u"}
+		Value:    "Tschita"}
 
 	champItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Champchoo CHOO"}
+		Value:    "Champ"}
 
 	champJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "さるおウッキー"}
+		Value:    "さるお"}
 
 	champKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "몽돌이야아아"}
+		Value:    "몽돌이"}
 
 	champLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Micouh-ah-ah"}
+		Value:    "Mico"}
 
 	champRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	champSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	champSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Micouh-ah-ah"}
+		Value:    "Mico"}
 
 	champTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

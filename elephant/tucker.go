@@ -25,51 +25,51 @@ var (
 
 	tuckerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Barrymammouth"}
+		Value:    "Barry"}
 
 	tuckerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tuckerpluisie"}
+		Value:    "Tucker"}
 
 	tuckerFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Barrymammouth"}
+		Value:    "Barry"}
 
 	tuckerGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Thorstenpuuuuuh"}
+		Value:    "Thorsten"}
 
 	tuckerItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sventolobarrir"}
+		Value:    "Sventolo"}
 
 	tuckerJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "はじめもじゃ"}
+		Value:    "はじめ"}
 
 	tuckerKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "맘모뿌뿌"}
+		Value:    "맘모"}
 
 	tuckerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pirolopurupú"}
+		Value:    "Pirolo"}
 
 	tuckerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Такербивень"}
+		Value:    "Такер"}
 
 	tuckerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿原毛毛"}
+		Value:    "阿原"}
 
 	tuckerSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pirolopurupú"}
+		Value:    "Pirolo"}
 
 	tuckerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿原毛毛"}
+		Value:    "阿原"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	curtCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Curtbouboule"}
+		Value:    "Curt"}
 
 	curtDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Curtbrombeer"}
+		Value:    "Curt"}
 
 	curtFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Curtbouboule"}
+		Value:    "Curt"}
 
 	curtGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kurtgrumml"}
+		Value:    "Kurt"}
 
 	curtItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Curtgrrroan"}
+		Value:    "Curt"}
 
 	curtJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ガンテツウム"}
+		Value:    "ガンテツ"}
 
 	curtKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "뚝심음"}
+		Value:    "뚝심"}
 
 	curtLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gorbachégromp"}
+		Value:    "Gorbaché"}
 
 	curtRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кертмахрово"}
+		Value:    "Керт"}
 
 	curtSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "铁熊嗯唔"}
+		Value:    "铁熊"}
 
 	curtSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gorbachéoye"}
+		Value:    "Gorbaché"}
 
 	curtTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "鐵熊嗯唔"}
+		Value:    "鐵熊"}
 )
 
 var (

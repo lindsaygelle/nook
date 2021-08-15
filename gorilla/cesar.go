@@ -25,51 +25,51 @@ var (
 
 	cesarCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Césarbrutus"}
+		Value:    "César"}
 
 	cesarDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cesarhoogheid"}
+		Value:    "Cesar"}
 
 	cesarFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Césarbrutus"}
+		Value:    "César"}
 
 	cesarGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Alfredohoheit"}
+		Value:    "Alfredo"}
 
 	cesarItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cesaredado"}
+		Value:    "Cesare"}
 
 	cesarJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アランウホウホ"}
+		Value:    "アラン"}
 
 	cesarKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "앨런우갸우갸"}
+		Value:    "앨런"}
 
 	cesarLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Césarejeeem"}
+		Value:    "César"}
 
 	cesarRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Цезарьвысочество"}
+		Value:    "Цезарь"}
 
 	cesarSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿朗拍胸脯"}
+		Value:    "阿朗"}
 
 	cesarSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Césarmonigote"}
+		Value:    "César"}
 
 	cesarTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿朗拍胸脯"}
+		Value:    "阿朗"}
 )
 
 var (

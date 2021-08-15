@@ -25,51 +25,51 @@ var (
 
 	clydeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Dorianmouh-ouh"}
+		Value:    "Dorian"}
 
 	clydeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Clydeklipklop"}
+		Value:    "Clyde"}
 
 	clydeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Dorianmouh-ouh"}
+		Value:    "Dorian"}
 
 	clydeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tommischauder"}
+		Value:    "Tommi"}
 
 	clydeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lalloclop clop"}
+		Value:    "Lallo"}
 
 	clydeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "デースケぴろぴろ"}
+		Value:    "デースケ"}
 
 	clydeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마철이다그닥"}
+		Value:    "마철이"}
 
 	clydeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Moeclip-clop"}
+		Value:    "Moe"}
 
 	clydeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Клайдцок-цок"}
+		Value:    "Клайд"}
 
 	clydeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "笛笛吹卷卷"}
+		Value:    "笛笛"}
 
 	clydeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Moetroteras"}
+		Value:    "Moe"}
 
 	clydeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "笛笛吹捲捲"}
+		Value:    "笛笛"}
 )
 
 var (

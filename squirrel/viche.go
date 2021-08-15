@@ -25,51 +25,51 @@ var (
 
 	vicheCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maramarébasse"}
+		Value:    "Mara"}
 
 	vicheDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	vicheFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maramarébasse"}
+		Value:    "Mara"}
 
 	vicheGermanName = nook.Name{
 		Language: language.German,
-		Value:    "L-Pyonlimone"}
+		Value:    "L-Pyon"}
 
 	vicheItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Vickymaromaro"}
+		Value:    "Vicky"}
 
 	vicheJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "みさきなんね"}
+		Value:    "みさき"}
 
 	vicheKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "미사키그거좋아"}
+		Value:    "미사키"}
 
 	vicheLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ardeltacostina"}
+		Value:    "Ardelta"}
 
 	vicheRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	vicheSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	vicheSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ardeltacostina"}
+		Value:    "Ardelta"}
 
 	vicheTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

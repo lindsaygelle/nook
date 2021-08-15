@@ -25,51 +25,51 @@ var (
 
 	merryCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Suzymiou-mi"}
+		Value:    "Suzy"}
 
 	merryDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Merrymi-jippie"}
+		Value:    "Merry"}
 
 	merryFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Suzymiou-mi"}
+		Value:    "Suzy"}
 
 	merryGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mischkaprrrrr"}
+		Value:    "Mischka"}
 
 	merryItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Katypffffft"}
+		Value:    "Katy"}
 
 	merryJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "さっちにゃん"}
+		Value:    "さっち"}
 
 	merryKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "유네찌냥냥"}
+		Value:    "유네찌"}
 
 	merryLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Susimichifú"}
+		Value:    "Susi"}
 
 	merryRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мерримяуи-и-и"}
+		Value:    "Мерри"}
 
 	merrySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莎莎喵嗯"}
+		Value:    "莎莎"}
 
 	merrySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Susimichifú"}
+		Value:    "Susi"}
 
 	merryTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莎莎喵嗯"}
+		Value:    "莎莎"}
 )
 
 var (

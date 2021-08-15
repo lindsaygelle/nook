@@ -25,51 +25,51 @@ var (
 
 	chuckCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chuckDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chuckFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Léondugong"}
+		Value:    "Léon"}
 
 	chuckGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pacodaddel"}
+		Value:    "Paco"}
 
 	chuckItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bullomummamia"}
+		Value:    "Bullo"}
 
 	chuckJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビフテキってんだ"}
+		Value:    "ビフテキ"}
 
 	chuckKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chuckLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chuckRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	chuckSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "拉面伙计"}
+		Value:    "拉面"}
 
 	chuckSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tauriciocobarde"}
+		Value:    "Tauricio"}
 
 	chuckTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

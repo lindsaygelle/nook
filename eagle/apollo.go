@@ -25,51 +25,51 @@ var (
 
 	apolloCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Apollontrraaaa"}
+		Value:    "Apollon"}
 
 	apolloDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Apollopoeh"}
+		Value:    "Apollo"}
 
 	apolloFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Apollontrraaaa"}
+		Value:    "Apollon"}
 
 	apolloGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Apolloahhh"}
+		Value:    "Apollo"}
 
 	apolloItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Apollopah"}
+		Value:    "Apollo"}
 
 	apolloJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アポロだワイ"}
+		Value:    "アポロ"}
 
 	apolloKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아폴로다꿇어"}
+		Value:    "아폴로"}
 
 	apolloLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Apolorapahhh"}
+		Value:    "Apolo"}
 
 	apolloRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аполлопф-ф"}
+		Value:    "Аполло"}
 
 	apolloSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿波罗唔咿"}
+		Value:    "阿波罗"}
 
 	apolloSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Apolorapaz"}
+		Value:    "Apolo"}
 
 	apolloTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿波羅唔咿"}
+		Value:    "阿波羅"}
 )
 
 var (

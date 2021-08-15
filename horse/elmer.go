@@ -25,51 +25,51 @@ var (
 
 	elmerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Martinmouuuuiii"}
+		Value:    "Martin"}
 
 	elmerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Elmerjonkie"}
+		Value:    "Elmer"}
 
 	elmerFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Martinmouuuuiii"}
+		Value:    "Martin"}
 
 	elmerGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Emilanfänger"}
+		Value:    "Emil"}
 
 	elmerItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Orestepinopino"}
+		Value:    "Oreste"}
 
 	elmerJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サブレだヒヒン"}
+		Value:    "サブレ"}
 
 	elmerKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "샤브렌히히힝"}
+		Value:    "샤브렌"}
 
 	elmerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jacintohop-uah"}
+		Value:    "Jacinto"}
 
 	elmerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Элмержеребенок"}
+		Value:    "Элмер"}
 
 	elmerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "酥饼酥酥"}
+		Value:    "酥饼"}
 
 	elmerSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jacintopezuñitas"}
+		Value:    "Jacinto"}
 
 	elmerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "酥餅酥酥"}
+		Value:    "酥餅"}
 )
 
 var (

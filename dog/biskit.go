@@ -25,51 +25,51 @@ var (
 
 	biskitCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Crocketclair"}
+		Value:    "Crocket"}
 
 	biskitDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Biskitmakker"}
+		Value:    "Biskit"}
 
 	biskitFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Crocketclair"}
+		Value:    "Crocket"}
 
 	biskitGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kekskläff"}
+		Value:    "Keks"}
 
 	biskitItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Buffettobrrranco"}
+		Value:    "Buffetto"}
 
 	biskitJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ロビンだイヌ"}
+		Value:    "ロビン"}
 
 	biskitKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "로빈멍멍"}
+		Value:    "로빈"}
 
 	biskitLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Amnesioguau"}
+		Value:    "Amnesio"}
 
 	biskitRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бискитпр-риятяв"}
+		Value:    "Бискит"}
 
 	biskitSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗宾狗狗"}
+		Value:    "罗宾"}
 
 	biskitSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Amnesioguau"}
+		Value:    "Amnesio"}
 
 	biskitTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅賓狗狗"}
+		Value:    "羅賓"}
 )
 
 var (

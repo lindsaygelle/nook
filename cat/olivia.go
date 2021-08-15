@@ -25,51 +25,51 @@ var (
 
 	oliviaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Oliviarrrrrrrrr"}
+		Value:    "Olivia"}
 
 	oliviaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Oliviaprrrrrr"}
+		Value:    "Olivia"}
 
 	oliviaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Oliviarrrrrrrrr"}
+		Value:    "Olivia"}
 
 	oliviaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Biancaschnurr"}
+		Value:    "Bianca"}
 
 	oliviaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Micinapurrr"}
+		Value:    "Micina"}
 
 	oliviaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オリビアなんやん"}
+		Value:    "オリビア"}
 
 	oliviaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "올리비아머냐"}
+		Value:    "올리비아"}
 
 	oliviaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Oliviamichimiau"}
+		Value:    "Olivia"}
 
 	oliviaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Оливиямур-мяу"}
+		Value:    "Оливия"}
 
 	oliviaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "奥莉什么"}
+		Value:    "奥莉"}
 
 	oliviaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Oliviaraspas"}
+		Value:    "Olivia"}
 
 	oliviaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "奧莉什麼"}
+		Value:    "奧莉"}
 )
 
 var (

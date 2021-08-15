@@ -25,51 +25,51 @@ var (
 
 	croqueCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Carlosouaoua"}
+		Value:    "Carlos"}
 
 	croqueDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Croqueja dááág"}
+		Value:    "Croque"}
 
 	croqueFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Carloscrapoupou"}
+		Value:    "Carlos"}
 
 	croqueGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Carloschleck"}
+		Value:    "Carlo"}
 
 	croqueItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gracidoumpf"}
+		Value:    "Gracido"}
 
 	croqueJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タイシしからば"}
+		Value:    "タイシ"}
 
 	croqueKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "투투툴툴"}
+		Value:    "투투"}
 
 	croqueLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ranolfoyastá"}
+		Value:    "Ranolfo"}
 
 	croqueRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кроквроде того"}
+		Value:    "Крок"}
 
 	croqueSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "太子子曰"}
+		Value:    "太子"}
 
 	croqueSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ranolfoyastá"}
+		Value:    "Ranolfo"}
 
 	croqueTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "太子子曰"}
+		Value:    "太子"}
 )
 
 var (

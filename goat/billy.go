@@ -25,51 +25,51 @@ var (
 
 	billyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Seguinbêê quoi"}
+		Value:    "Seguin"}
 
 	billyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Billynôh"}
+		Value:    "Billy"}
 
 	billyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Seguineh bââlèze"}
+		Value:    "Seguin"}
 
 	billyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Henneso-o-ja-a-a"}
+		Value:    "Hennes"}
 
 	billyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Billysorbeeelli"}
+		Value:    "Billy"}
 
 	billyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アーシンドよのう"}
+		Value:    "アーシンド"}
 
 	billyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "힘드러알아줘"}
+		Value:    "힘드러"}
 
 	billyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Britobeerree"}
+		Value:    "Brito"}
 
 	billyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Биллитакие-сякие"}
+		Value:    "Билли"}
 
 	billySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "亚星唷喏"}
+		Value:    "亚星"}
 
 	billySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Britofenómeno"}
+		Value:    "Brito"}
 
 	billyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "亞星唷喏"}
+		Value:    "亞星"}
 )
 
 var (

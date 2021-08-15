@@ -25,51 +25,51 @@ var (
 
 	etoileCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Étoilemohair"}
+		Value:    "Étoile"}
 
 	etoileDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Étoilekikilala"}
+		Value:    "Étoile"}
 
 	etoileFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Étoilemohair"}
+		Value:    "Étoile"}
 
 	etoileGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Etoilekikilala"}
+		Value:    "Etoile"}
 
 	etoileItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Étoileovinin"}
+		Value:    "Étoile"}
 
 	etoileJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エトワールメロメロ"}
+		Value:    "エトワール"}
 
 	etoileKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에뜨와르폭신폭신"}
+		Value:    "에뜨와르"}
 
 	etoileLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Etoilekikilala"}
+		Value:    "Etoile"}
 
 	etoileRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Этуальмягенько"}
+		Value:    "Этуаль"}
 
 	etoileSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "彩星毛茸茸"}
+		Value:    "彩星"}
 
 	etoileSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Etoilekikilala"}
+		Value:    "Etoile"}
 
 	etoileTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "彩星毛茸茸"}
+		Value:    "彩星"}
 )
 
 var (

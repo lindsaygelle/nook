@@ -25,51 +25,51 @@ var (
 
 	meganCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Candyberlingot"}
+		Value:    "Candy"}
 
 	meganDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Meganlolly"}
+		Value:    "Megan"}
 
 	meganFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Candyberlingot"}
+		Value:    "Candy"}
 
 	meganGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dagmarlollipop"}
+		Value:    "Dagmar"}
 
 	meganItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dolciniasucré"}
+		Value:    "Dolcinia"}
 
 	meganJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キャンディぺろ"}
+		Value:    "キャンディ"}
 
 	meganKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "캔디낼름"}
+		Value:    "캔디"}
 
 	meganLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Carmelatutifruti"}
+		Value:    "Carmela"}
 
 	meganRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мегансладенько"}
+		Value:    "Меган"}
 
 	meganSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "糖果舔舔"}
+		Value:    "糖果"}
 
 	meganSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Carmelatutifruti"}
+		Value:    "Carmela"}
 
 	meganTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "糖果舔舔"}
+		Value:    "糖果"}
 )
 
 var (

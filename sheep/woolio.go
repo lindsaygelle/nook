@@ -25,51 +25,51 @@ var (
 
 	woolioCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	woolioDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	woolioFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Moumoutebêêêê quoi"}
+		Value:    "Moumoute"}
 
 	woolioGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Wullebizääää"}
+		Value:    "Wulle"}
 
 	woolioItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Moerosbaallo"}
+		Value:    "Moero"}
 
 	woolioJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ホシオヨロシク"}
+		Value:    "ホシオ"}
 
 	woolioKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	woolioLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	woolioRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	woolioSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "星星帮忙"}
+		Value:    "星星"}
 
 	woolioSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Esquilopaaasssa"}
+		Value:    "Esquilo"}
 
 	woolioTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

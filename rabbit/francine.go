@@ -25,51 +25,51 @@ var (
 
 	francineCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Nadinecarotte"}
+		Value:    "Nadine"}
 
 	francineDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Francinewortels"}
+		Value:    "Francine"}
 
 	francineFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Nadinecarotte"}
+		Value:    "Nadine"}
 
 	francineGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Manuhey man"}
+		Value:    "Manu"}
 
 	francineItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Francalulalà"}
+		Value:    "Franca"}
 
 	francineJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フランソワルララ"}
+		Value:    "フランソワ"}
 
 	francineKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "프랑소와쇼봉"}
+		Value:    "프랑소와"}
 
 	francineLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Natachakaninchen"}
+		Value:    "Natacha"}
 
 	francineRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Франсинморковка"}
+		Value:    "Франсин"}
 
 	francineSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "法蓝琪噜啦啦"}
+		Value:    "法蓝琪"}
 
 	francineSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Natachakaninchen"}
+		Value:    "Natacha"}
 
 	francineTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "法藍琪嚕啦啦"}
+		Value:    "法藍琪"}
 )
 
 var (

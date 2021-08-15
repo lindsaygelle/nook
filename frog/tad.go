@@ -25,51 +25,51 @@ var (
 
 	tadCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rénatonénuf"}
+		Value:    "Rénato"}
 
 	tadDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tadsluuuurp"}
+		Value:    "Tad"}
 
 	tadFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rénatonénuf"}
+		Value:    "Rénato"}
 
 	tadGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Paulschlürpf"}
+		Value:    "Paul"}
 
 	tadItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Achillesluuuurp"}
+		Value:    "Achille"}
 
 	tadJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タンボだよん"}
+		Value:    "タンボ"}
 
 	tadKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "텀보흐압"}
+		Value:    "텀보"}
 
 	tadLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Saltoniozump"}
+		Value:    "Saltonio"}
 
 	tadRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тэджабррр"}
+		Value:    "Тэд"}
 
 	tadSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿田蝌蚪"}
+		Value:    "阿田"}
 
 	tadSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Saltoniozump"}
+		Value:    "Saltonio"}
 
 	tadTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿田蝌蚪"}
+		Value:    "阿田"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	violetCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gaëllegong"}
+		Value:    "Gaëlle"}
 
 	violetDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Violetlieverd"}
+		Value:    "Violet"}
 
 	violetFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gaëllegong"}
+		Value:    "Gaëlle"}
 
 	violetGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kongaauauauu"}
+		Value:    "Konga"}
 
 	violetItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Kongatump tump"}
+		Value:    "Konga"}
 
 	violetJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ウズメアイヤ"}
+		Value:    "ウズメ"}
 
 	violetKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "줌마에그머닛"}
+		Value:    "줌마"}
 
 	violetLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Magentauh-uh"}
+		Value:    "Magenta"}
 
 	violetRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Конгасластена"}
+		Value:    "Конга"}
 
 	violetSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "吴紫眉唉呀"}
+		Value:    "吴紫眉"}
 
 	violetSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Magentacanapé"}
+		Value:    "Magenta"}
 
 	violetTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "吳紫眉唉呀"}
+		Value:    "吳紫眉"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	violetAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "faboomsweetie"}
+		Value:    "faboom"}
 
 	violetCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

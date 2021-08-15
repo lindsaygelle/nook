@@ -25,51 +25,51 @@ var (
 
 	texCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Émiliengla gla"}
+		Value:    "Émilien"}
 
 	texDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Texpicante"}
+		Value:    "Tex"}
 
 	texFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Émiliengla gla"}
+		Value:    "Émilien"}
 
 	texGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Matzewatschl"}
+		Value:    "Matze"}
 
 	texItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Freddyfrio"}
+		Value:    "Freddy"}
 
 	texJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ボルトベイベッ"}
+		Value:    "ボルト"}
 
 	texKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "볼트베이베"}
+		Value:    "볼트"}
 
 	texLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tomeosiclaro"}
+		Value:    "Tomeo"}
 
 	texRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тексогонек"}
+		Value:    "Текс"}
 
 	texSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "伏特宝宝"}
+		Value:    "伏特"}
 
 	texSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tomeosiclaro"}
+		Value:    "Tomeo"}
 
 	texTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "伏特寶寶"}
+		Value:    "伏特"}
 )
 
 var (

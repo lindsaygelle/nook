@@ -25,51 +25,51 @@ var (
 
 	ozzieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kokokoa là là"}
+		Value:    "Koko"}
 
 	ozzieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Ozzieouwe beer"}
+		Value:    "Ozzie"}
 
 	ozzieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kokokoa là là"}
+		Value:    "Koko"}
 
 	ozzieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Oskaraltes Haus"}
+		Value:    "Oskar"}
 
 	ozzieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ozzyulabadula"}
+		Value:    "Ozzy"}
 
 	ozzieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ドングリククッ"}
+		Value:    "ドングリ"}
 
 	ozzieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "동동이큐큐"}
+		Value:    "동동이"}
 
 	ozzieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Koloakoahhh"}
+		Value:    "Koloa"}
 
 	ozzieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Оззимедведище"}
+		Value:    "Оззи"}
 
 	ozzieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿栗颗颗"}
+		Value:    "阿栗"}
 
 	ozzieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Koloaosete"}
+		Value:    "Koloa"}
 
 	ozzieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿栗顆顆"}
+		Value:    "阿栗"}
 )
 
 var (

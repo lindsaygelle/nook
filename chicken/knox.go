@@ -25,51 +25,51 @@ var (
 
 	knoxCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Wolframra-ta-tak"}
+		Value:    "Wolfram"}
 
 	knoxDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Knoxnestei"}
+		Value:    "Knox"}
 
 	knoxFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Wolframra-ta-tak"}
+		Value:    "Wolfram"}
 
 	knoxGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tschiwiknusprig"}
+		Value:    "Tschiwi"}
 
 	knoxItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Kalinuovole"}
+		Value:    "Kalin"}
 
 	knoxJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キンカクせいッ"}
+		Value:    "キンカク"}
 
 	knoxKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "금끼오하앗"}
+		Value:    "금끼오"}
 
 	knoxLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Tonococorocó"}
+		Value:    "Tono"}
 
 	knoxRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Нокскороко"}
+		Value:    "Нокс"}
 
 	knoxSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "金阁等待"}
+		Value:    "金阁"}
 
 	knoxSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Tonomazorca"}
+		Value:    "Tono"}
 
 	knoxTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "金閣等待"}
+		Value:    "金閣"}
 )
 
 var (

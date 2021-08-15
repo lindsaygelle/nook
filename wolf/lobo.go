@@ -25,51 +25,51 @@ var (
 
 	loboCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Loboah rooooo"}
+		Value:    "Lobo"}
 
 	loboDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Loboaooooeee"}
+		Value:    "Lobo"}
 
 	loboFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Loboah rooooo"}
+		Value:    "Lobo"}
 
 	loboGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lupoauuuuuu"}
+		Value:    "Lupo"}
 
 	loboItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lupenetchuuuu"}
+		Value:    "Lupen"}
 
 	loboJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブンジロウだぜよ"}
+		Value:    "ブンジロウ"}
 
 	loboKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "늑태봐봐"}
+		Value:    "늑태"}
 
 	loboLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lupoauuuh"}
+		Value:    "Lupo"}
 
 	loboRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лобоау-у-у"}
+		Value:    "Лобо"}
 
 	loboSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "潘奇隆不然呢"}
+		Value:    "潘奇隆"}
 
 	loboSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lupoauuuh"}
+		Value:    "Lupo"}
 
 	loboTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "潘奇隆不然呢"}
+		Value:    "潘奇隆"}
 )
 
 var (

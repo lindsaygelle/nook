@@ -25,51 +25,51 @@ var (
 
 	huggyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tinanounours"}
+		Value:    "Tina"}
 
 	huggyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	huggyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tinanounours"}
+		Value:    "Tina"}
 
 	huggyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Heikebärchen"}
+		Value:    "Heike"}
 
 	huggyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Colettecoalilà"}
+		Value:    "Colette"}
 
 	huggyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ダッコエヘ"}
+		Value:    "ダッコ"}
 
 	huggyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	huggyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mimíosi-cosi"}
+		Value:    "Mimí"}
 
 	huggyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	huggySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "包包啀"}
+		Value:    "包包"}
 
 	huggySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mimíosi-cosi"}
+		Value:    "Mimí"}
 
 	huggyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

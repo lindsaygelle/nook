@@ -25,51 +25,51 @@ var (
 
 	claudeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Claudesans rire"}
+		Value:    "Claude"}
 
 	claudeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Claudehopsala"}
+		Value:    "Claude"}
 
 	claudeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Claudesans rire"}
+		Value:    "Claude"}
 
 	claudeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Claudehüpfauf"}
+		Value:    "Claude"}
 
 	claudeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Claudehoppela"}
+		Value:    "Claude"}
 
 	claudeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビネガーぶいぶい"}
+		Value:    "ビネガー"}
 
 	claudeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "비니거아으셔"}
+		Value:    "비니거"}
 
 	claudeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pablohópala"}
+		Value:    "Pablo"}
 
 	claudeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Клодскок-поскок"}
+		Value:    "Клод"}
 
 	claudeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿醋酸酸"}
+		Value:    "阿醋"}
 
 	claudeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pablohópala"}
+		Value:    "Pablo"}
 
 	claudeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿醋酸酸"}
+		Value:    "阿醋"}
 )
 
 var (

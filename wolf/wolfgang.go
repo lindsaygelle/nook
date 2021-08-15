@@ -25,51 +25,51 @@ var (
 
 	wolfgangCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Wolfgangsnurffff"}
+		Value:    "Wolfgang"}
 
 	wolfgangDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Wolfgangsnauw"}
+		Value:    "Wolfgang"}
 
 	wolfgangFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Wolfgangsnurffff"}
+		Value:    "Wolfgang"}
 
 	wolfgangGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Weberknurrr"}
+		Value:    "Weber"}
 
 	wolfgangItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Wolfgangzanna"}
+		Value:    "Wolfgang"}
 
 	wolfgangJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ロボのな"}
+		Value:    "ロボ"}
 
 	wolfgangKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "로보거봐"}
+		Value:    "로보"}
 
 	wolfgangLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Wolfigrauuuh"}
+		Value:    "Wolfi"}
 
 	wolfgangRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Вольфиау-рр"}
+		Value:    "Вольфи"}
 
 	wolfgangSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗博罗罗"}
+		Value:    "罗博"}
 
 	wolfgangSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Wolfigrauuuh"}
+		Value:    "Wolfi"}
 
 	wolfgangTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅博羅羅"}
+		Value:    "羅博"}
 )
 
 var (

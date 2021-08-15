@@ -25,51 +25,51 @@ var (
 
 	mallaryCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mallorycoinpff"}
+		Value:    "Mallory"}
 
 	mallaryDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mallarykwaks"}
+		Value:    "Mallary"}
 
 	mallaryFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mallorycoinpff"}
+		Value:    "Mallory"}
 
 	mallaryGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Marinaquackpss"}
+		Value:    "Marina"}
 
 	mallaryItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Sofiaquackplà"}
+		Value:    "Sofia"}
 
 	mallaryJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "スミモモヨネ"}
+		Value:    "スミモモ"}
 
 	mallaryKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "스미모모모"}
+		Value:    "스미모"}
 
 	mallaryLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mirtarecuac"}
+		Value:    "Mirta"}
 
 	mallaryRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мэлларикряк-фи"}
+		Value:    "Мэллари"}
 
 	mallarySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "苏米八十八"}
+		Value:    "苏米"}
 
 	mallarySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mirtarecuac"}
+		Value:    "Mirta"}
 
 	mallaryTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "蘇米八十八"}
+		Value:    "蘇米"}
 )
 
 var (

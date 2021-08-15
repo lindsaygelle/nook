@@ -25,51 +25,51 @@ var (
 
 	merengueCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pattyconfiture"}
+		Value:    "Patty"}
 
 	merengueDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Merengueschuimpje"}
+		Value:    "Merengue"}
 
 	merengueFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pattyma fraise"}
+		Value:    "Patty"}
 
 	merengueGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mariatrarapp"}
+		Value:    "Maria"}
 
 	merengueItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Irinarien"}
+		Value:    "Irina"}
 
 	merengueJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パティでシュガ"}
+		Value:    "パティ"}
 
 	merengueKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "스트로베리베리베리"}
+		Value:    "스트로베리"}
 
 	merengueLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Naturafruti"}
+		Value:    "Natura"}
 
 	merengueRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Меренгкексик"}
+		Value:    "Меренг"}
 
 	merengueSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "草莓糖糖"}
+		Value:    "草莓"}
 
 	merengueSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Naturafresitas"}
+		Value:    "Natura"}
 
 	merengueTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "草莓糖糖"}
+		Value:    "草莓"}
 )
 
 var (

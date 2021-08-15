@@ -25,51 +25,51 @@ var (
 
 	rodneyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chicoyes sir"}
+		Value:    "Chico"}
 
 	rodneyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rodneyle ham"}
+		Value:    "Rodney"}
 
 	rodneyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chicocaries"}
+		Value:    "Chico"}
 
 	rodneyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Reinholdmjamjam"}
+		Value:    "Reinhold"}
 
 	rodneyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rosikkioflop"}
+		Value:    "Rosikkio"}
 
 	rodneyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジミーヒュー"}
+		Value:    "ジミー"}
 
 	rodneyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "지미휴우"}
+		Value:    "지미"}
 
 	rodneyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Chusquisadoya"}
+		Value:    "Chusquis"}
 
 	rodneyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Родниле хом"}
+		Value:    "Родни"}
 
 	rodneySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "米米咻咻"}
+		Value:    "米米"}
 
 	rodneySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Chusquisadoya"}
+		Value:    "Chusquis"}
 
 	rodneyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "米米咻咻"}
+		Value:    "米米"}
 )
 
 var (

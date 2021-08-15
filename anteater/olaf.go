@@ -25,51 +25,51 @@ var (
 
 	olafCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Blairyesss"}
+		Value:    "Blair"}
 
 	olafDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Olaftoet"}
+		Value:    "Olaf"}
 
 	olafFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Blairtartarin"}
+		Value:    "Blair"}
 
 	olafGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Olafmwahaaa"}
+		Value:    "Olaf"}
 
 	olafItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ettoreswish"}
+		Value:    "Ettore"}
 
 	olafJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アントニオムーチョ"}
+		Value:    "アントニオ"}
 
 	olafKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "안토니오무쵸"}
+		Value:    "안토니오"}
 
 	olafLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Olaffruf"}
+		Value:    "Olaf"}
 
 	olafRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Олафуф-уф"}
+		Value:    "Олаф"}
 
 	olafSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "安东尼欧啦"}
+		Value:    "安东尼"}
 
 	olafSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Olaffruf"}
+		Value:    "Olaf"}
 
 	olafTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "安東尼歐啦"}
+		Value:    "安東尼"}
 )
 
 var (

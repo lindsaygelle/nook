@@ -25,51 +25,51 @@ var (
 
 	ohareCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Civetamigo"}
+		Value:    "Civet"}
 
 	ohareDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "O'Hareamigo"}
+		Value:    "O'Hare"}
 
 	ohareFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Civetpécaïre"}
+		Value:    "Civet"}
 
 	ohareGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nicoamigo"}
+		Value:    "Nico"}
 
 	ohareItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Fritzaquesí"}
+		Value:    "Fritz"}
 
 	ohareJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サントスアミーゴ"}
+		Value:    "サントス"}
 
 	ohareKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "산토스아미고"}
+		Value:    "산토스"}
 
 	ohareLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ernestotralarí"}
+		Value:    "Ernesto"}
 
 	ohareRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "О'Хэарамиго"}
+		Value:    "О'Хэар"}
 
 	ohareSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "桑托斯朋友"}
+		Value:    "桑托斯"}
 
 	ohareSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ernestotralarí"}
+		Value:    "Ernesto"}
 
 	ohareTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "桑托斯朋友"}
+		Value:    "桑托斯"}
 )
 
 var (

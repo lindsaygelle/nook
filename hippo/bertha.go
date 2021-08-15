@@ -25,51 +25,51 @@ var (
 
 	berthaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Berthagloups"}
+		Value:    "Bertha"}
 
 	berthaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Berthablubber"}
+		Value:    "Bertha"}
 
 	berthaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bertharololol"}
+		Value:    "Bertha"}
 
 	berthaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Bertablubber"}
+		Value:    "Berta"}
 
 	berthaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Umbertablup"}
+		Value:    "Umberta"}
 
 	berthaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "あんこそうです"}
+		Value:    "あんこ"}
 
 	berthaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "베티맞습니다"}
+		Value:    "베티"}
 
 	berthaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bertaglub-glub"}
+		Value:    "Berta"}
 
 	berthaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бертабултых"}
+		Value:    "Берта"}
 
 	berthaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "豆沙没错"}
+		Value:    "豆沙"}
 
 	berthaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bertaglub-glub"}
+		Value:    "Berta"}
 
 	berthaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "豆沙沒錯"}
+		Value:    "豆沙"}
 )
 
 var (

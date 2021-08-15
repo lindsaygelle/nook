@@ -25,51 +25,51 @@ var (
 
 	chesterCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Placidepla-pla"}
+		Value:    "Placide"}
 
 	chesterDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chesterbamboe"}
+		Value:    "Chester"}
 
 	chesterFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Placidepla-pla"}
+		Value:    "Placide"}
 
 	chesterGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Eduardbaaambus"}
+		Value:    "Eduard"}
 
 	chesterItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Clementebrupp"}
+		Value:    "Clemente"}
 
 	chesterJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パンタだバンブ"}
+		Value:    "パンタ"}
 
 	chesterKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "팬타부끄"}
+		Value:    "팬타"}
 
 	chesterLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Osunioahivá"}
+		Value:    "Osunio"}
 
 	chesterRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Честербамбук"}
+		Value:    "Честер"}
 
 	chesterSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "胖达竹子"}
+		Value:    "胖达"}
 
 	chesterSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Osunioahivá"}
+		Value:    "Osunio"}
 
 	chesterTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "胖達竹子"}
+		Value:    "胖達"}
 )
 
 var (

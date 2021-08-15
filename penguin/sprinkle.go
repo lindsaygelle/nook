@@ -25,51 +25,51 @@ var (
 
 	sprinkleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lauriemon glaçon"}
+		Value:    "Laurie"}
 
 	sprinkleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sprinklefrappé"}
+		Value:    "Sprinkle"}
 
 	sprinkleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lauriemon glaçon"}
+		Value:    "Laurie"}
 
 	sprinkleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Svenjabibib"}
+		Value:    "Svenja"}
 
 	sprinkleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Brinaunz unz"}
+		Value:    "Brina"}
 
 	sprinkleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フラッペヒヤリ"}
+		Value:    "フラッペ"}
 
 	sprinkleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "크리미꽁꽁"}
+		Value:    "크리미"}
 
 	sprinkleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rizoldafrapé"}
+		Value:    "Rizolda"}
 
 	sprinkleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Спринклпенка"}
+		Value:    "Спринкл"}
 
 	sprinkleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "冰莎凉爽"}
+		Value:    "冰莎"}
 
 	sprinkleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rizoldaesmoquin"}
+		Value:    "Rizolda"}
 
 	sprinkleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "冰莎涼爽"}
+		Value:    "冰莎"}
 )
 
 var (

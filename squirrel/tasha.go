@@ -25,51 +25,51 @@ var (
 
 	tashaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Nadeigeptigri"}
+		Value:    "Nadeige"}
 
 	tashaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tashajaja"}
+		Value:    "Tasha"}
 
 	tashaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Nadeigeptigri"}
+		Value:    "Nadeige"}
 
 	tashaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nataljatjaja"}
+		Value:    "Natalja"}
 
 	tashaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Teresamunch"}
+		Value:    "Teresa"}
 
 	tashaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ナターシャやるわね"}
+		Value:    "ナターシャ"}
 
 	tashaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "나타샤굿굿"}
+		Value:    "나타샤"}
 
 	tashaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Taniabi-buá"}
+		Value:    "Tania"}
 
 	tashaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ташаладно"}
+		Value:    "Таша"}
 
 	tashaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "娜塔丽做得好"}
+		Value:    "娜塔丽"}
 
 	tashaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Taniapincel"}
+		Value:    "Tania"}
 
 	tashaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "娜塔麗做得好"}
+		Value:    "娜塔麗"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	wlinkCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Link l.crépuscule"}
+		Value:    "Link l."}
 
 	wlinkDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	wlinkFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Link l.crépuscule"}
+		Value:    "Link l."}
 
 	wlinkGermanName = nook.Name{
 		Language: language.German,
-		Value:    "W. Linkschnupper"}
+		Value:    "W. Link"}
 
 	wlinkItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Link l.ruff ruff"}
+		Value:    "Link l."}
 
 	wlinkJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ウルフリンクくんくん"}
+		Value:    "ウルフリンク"}
 
 	wlinkKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "울프 링크아우우"}
+		Value:    "울프 링크"}
 
 	wlinkLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Link L.cachorro"}
+		Value:    "Link L."}
 
 	wlinkRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	wlinkSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	wlinkSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Link L.cachorro"}
+		Value:    "Link L."}
 
 	wlinkTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

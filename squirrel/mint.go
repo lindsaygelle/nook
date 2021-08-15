@@ -25,51 +25,51 @@ var (
 
 	mintCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Amandeahhhhhh"}
+		Value:    "Amande"}
 
 	mintDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mintahhhhhh"}
+		Value:    "Mint"}
 
 	mintFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Amandeahhhhhh"}
+		Value:    "Amande"}
 
 	mintGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Marikaknabber"}
+		Value:    "Marika"}
 
 	mintItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mentullasquercia"}
+		Value:    "Mentulla"}
 
 	mintJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ミントうっふん"}
+		Value:    "ミント"}
 
 	mintKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "민트우훗"}
+		Value:    "민트"}
 
 	mintLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mentabellotuá"}
+		Value:    "Menta"}
 
 	mintRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Минтах-ах"}
+		Value:    "Минт"}
 
 	mintSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小敏喔哼"}
+		Value:    "小敏"}
 
 	mintSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mentabichito"}
+		Value:    "Menta"}
 
 	mintTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小敏喔哼"}
+		Value:    "小敏"}
 )
 
 var (

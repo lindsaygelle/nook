@@ -25,51 +25,51 @@ var (
 
 	averyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Faustgrrraak"}
+		Value:    "Faust"}
 
 	averyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Averykra-hoe"}
+		Value:    "Avery"}
 
 	averyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Faustphélès"}
+		Value:    "Faust"}
 
 	averyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Quetzalflapp"}
+		Value:    "Quetzal"}
 
 	averyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Falcogawk"}
+		Value:    "Falco"}
 
 	averyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クスケチャアリョイ"}
+		Value:    "クスケチャ"}
 
 	averyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "쿠스케처내놔"}
+		Value:    "쿠스케처"}
 
 	averyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cuzcogrrraak"}
+		Value:    "Cuzco"}
 
 	averyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аверикурлы"}
+		Value:    "Авери"}
 
 	averySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "安谷斯溜溜"}
+		Value:    "安谷斯"}
 
 	averySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cuzcogrrraak"}
+		Value:    "Cuzco"}
 
 	averyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "安谷斯溜溜"}
+		Value:    "安谷斯"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	tankCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Benkaboum"}
+		Value:    "Ben"}
 
 	tankDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "TankklaBAM"}
+		Value:    "Tank"}
 
 	tankFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Benkaboum"}
+		Value:    "Ben"}
 
 	tankGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Frankrumpel"}
+		Value:    "Frank"}
 
 	tankItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rinaldozamperù"}
+		Value:    "Rinaldo"}
 
 	tankJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "くるぶしですサイ"}
+		Value:    "くるぶし"}
 
 	tankKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "탱크아뿔소"}
+		Value:    "탱크"}
 
 	tankLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Aníbaltapumba"}
+		Value:    "Aníbal"}
 
 	tankRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Танкбабах"}
+		Value:    "Танк"}
 
 	tankSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿足犀犀"}
+		Value:    "阿足"}
 
 	tankSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Aníbaltapumba"}
+		Value:    "Aníbal"}
 
 	tankTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿足犀犀"}
+		Value:    "阿足"}
 )
 
 var (

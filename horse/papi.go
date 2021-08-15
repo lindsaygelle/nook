@@ -25,51 +25,51 @@ var (
 
 	papiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bourricoen selle"}
+		Value:    "Bourrico"}
 
 	papiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Papihooooi"}
+		Value:    "Papi"}
 
 	papiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bourricoen selle"}
+		Value:    "Bourrico"}
 
 	papiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Friedelnichja"}
+		Value:    "Friedel"}
 
 	papiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pierinoclip clop"}
+		Value:    "Pierino"}
 
 	papiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オカッピだっけ"}
+		Value:    "オカッピ"}
 
 	papiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마사마그런가"}
+		Value:    "마사마"}
 
 	papiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bayocli-cló"}
+		Value:    "Bayo"}
 
 	papiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Паписе-е-ено"}
+		Value:    "Папи"}
 
 	papiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小冈听说是"}
+		Value:    "小冈"}
 
 	papiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bayoquepassa"}
+		Value:    "Bayo"}
 
 	papiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小岡聽說是"}
+		Value:    "小岡"}
 )
 
 var (

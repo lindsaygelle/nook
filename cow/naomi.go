@@ -25,51 +25,51 @@ var (
 
 	naomiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maikomerengue"}
+		Value:    "Maiko"}
 
 	naomiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Naomiloei"}
+		Value:    "Naomi"}
 
 	naomiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maikopistouille"}
+		Value:    "Maiko"}
 
 	naomiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jolandajoggi"}
+		Value:    "Jolanda"}
 
 	naomiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Melinamoumou"}
+		Value:    "Melina"}
 
 	naomiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハナコセボーン"}
+		Value:    "ハナコ"}
 
 	naomiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "화자메르시"}
+		Value:    "화자"}
 
 	naomiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Reginamumumu"}
+		Value:    "Regina"}
 
 	naomiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Наомимуля"}
+		Value:    "Наоми"}
 
 	naomiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "玉兰这样很好"}
+		Value:    "玉兰"}
 
 	naomiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Reginamerengue"}
+		Value:    "Regina"}
 
 	naomiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "玉蘭這樣很好"}
+		Value:    "玉蘭"}
 )
 
 var (

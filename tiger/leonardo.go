@@ -25,51 +25,51 @@ var (
 
 	leonardoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Dolphmes abdos"}
+		Value:    "Dolph"}
 
 	leonardoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Leonardoflex"}
+		Value:    "Leonardo"}
 
 	leonardoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Dolphrebelote"}
+		Value:    "Dolph"}
 
 	leonardoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Timkrrrrrr"}
+		Value:    "Tim"}
 
 	leonardoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bengalojoggingrrr"}
+		Value:    "Bengalo"}
 
 	leonardoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヒョウタじゃが"}
+		Value:    "ヒョウタ"}
 
 	leonardoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "범호어흥"}
+		Value:    "범호"}
 
 	leonardoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Leocadiomacoque"}
+		Value:    "Leocadio"}
 
 	leonardoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Леонардор-разминка"}
+		Value:    "Леонардо"}
 
 	leonardoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿彪但是"}
+		Value:    "阿彪"}
 
 	leonardoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Leocadiomacoque"}
+		Value:    "Leocadio"}
 
 	leonardoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿彪但是"}
+		Value:    "阿彪"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	hamboCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hamboDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hamboFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jambopti boudin"}
+		Value:    "Jambo"}
 
 	hamboGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Silviohajaaa"}
+		Value:    "Silvio"}
 
 	hamboItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Zamponeyo"}
+		Value:    "Zampone"}
 
 	hamboJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "はちまきだス"}
+		Value:    "はちまき"}
 
 	hamboKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hamboLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hamboRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hamboSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "头巾哈罗"}
+		Value:    "头巾"}
 
 	hamboSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Marcialmorcillita"}
+		Value:    "Marcial"}
 
 	hamboTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

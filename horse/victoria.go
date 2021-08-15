@@ -25,51 +25,51 @@ var (
 
 	victoriaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Victoriasusucre"}
+		Value:    "Victoria"}
 
 	victoriaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Victoriaklontje"}
+		Value:    "Victoria"}
 
 	victoriaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Victoriasusucre"}
+		Value:    "Victoria"}
 
 	victoriaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Emmagimazuka"}
+		Value:    "Emma"}
 
 	victoriaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Vittoriazolletta"}
+		Value:    "Vittoria"}
 
 	victoriaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "セントアローいくわよ"}
+		Value:    "セントアロー"}
 
 	victoriaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "센트엘로달리자"}
+		Value:    "센트엘로"}
 
 	victoriaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Victoriaclic-cloc"}
+		Value:    "Victoria"}
 
 	victoriaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Викториясахарок"}
+		Value:    "Виктория"}
 
 	victoriaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "圣萝走哦"}
+		Value:    "圣萝"}
 
 	victoriaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Victoriaterroncito"}
+		Value:    "Victoria"}
 
 	victoriaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "聖蘿走囉"}
+		Value:    "聖蘿"}
 )
 
 var (

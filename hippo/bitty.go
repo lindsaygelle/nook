@@ -25,51 +25,51 @@ var (
 
 	bittyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Potamajoli cœur"}
+		Value:    "Potama"}
 
 	bittyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bittyliefje"}
+		Value:    "Bitty"}
 
 	bittyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Potamajoli cœur"}
+		Value:    "Potama"}
 
 	bittyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Biggimei o mei"}
+		Value:    "Biggi"}
 
 	bittyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rosettabibù"}
+		Value:    "Rosetta"}
 
 	bittyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エーミーだピー"}
+		Value:    "エーミー"}
 
 	bittyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "비티쩝쩝"}
+		Value:    "비티"}
 
 	bittyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ofeliahipopop"}
+		Value:    "Ofelia"}
 
 	bittyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Биттидорогуша"}
+		Value:    "Битти"}
 
 	bittySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "艾咪哔哔"}
+		Value:    "艾咪"}
 
 	bittySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ofeliacorassón"}
+		Value:    "Ofelia"}
 
 	bittyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "艾咪嗶嗶"}
+		Value:    "艾咪"}
 )
 
 var (

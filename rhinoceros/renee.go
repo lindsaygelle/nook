@@ -25,51 +25,51 @@ var (
 
 	reneeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rinabadaboum"}
+		Value:    "Rina"}
 
 	reneeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Renéeyo yo yo"}
+		Value:    "Renée"}
 
 	reneeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rinabadaboum"}
+		Value:    "Rina"}
 
 	reneeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ilonabomm"}
+		Value:    "Ilona"}
 
 	reneeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Renatastomp"}
+		Value:    "Renata"}
 
 	reneeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "おさいパネェ"}
+		Value:    "おさい"}
 
 	reneeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "뿔님이킁킁"}
+		Value:    "뿔님이"}
 
 	reneeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rinapurrum"}
+		Value:    "Rina"}
 
 	reneeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Ренейоу"}
+		Value:    "Рене"}
 
 	reneeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "柴姐超强"}
+		Value:    "柴姐"}
 
 	reneeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rinapurrum"}
+		Value:    "Rina"}
 
 	reneeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "柴姐超強"}
+		Value:    "柴姐"}
 )
 
 var (

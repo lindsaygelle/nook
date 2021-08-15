@@ -25,51 +25,51 @@ var (
 
 	mottCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Aimégrif-grif"}
+		Value:    "Aimé"}
 
 	mottDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mottrrrrrauw"}
+		Value:    "Mott"}
 
 	mottFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Aimégrif-grif"}
+		Value:    "Aimé"}
 
 	mottGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Leonhardgröhl"}
+		Value:    "Leonhard"}
 
 	mottItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Leopoldgroarrivo"}
+		Value:    "Leopold"}
 
 	mottJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リックハハハ"}
+		Value:    "リック"}
 
 	mottKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "릭하하하"}
+		Value:    "릭"}
 
 	mottLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jonessapristi"}
+		Value:    "Jones"}
 
 	mottRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Моттзоосад"}
+		Value:    "Мотт"}
 
 	mottSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "李克哈哈哈"}
+		Value:    "李克"}
 
 	mottSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jonessapristi"}
+		Value:    "Jones"}
 
 	mottTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "李克哈哈哈"}
+		Value:    "李克"}
 )
 
 var (

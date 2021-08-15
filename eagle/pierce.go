@@ -25,51 +25,51 @@ var (
 
 	pierceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Napoléontout vu"}
+		Value:    "Napoléon"}
 
 	pierceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Piercearendsoog"}
+		Value:    "Pierce"}
 
 	pierceFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Napoléonœil agile"}
+		Value:    "Napoléon"}
 
 	pierceGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Adrianschwinge"}
+		Value:    "Adrian"}
 
 	pierceItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Attiliopronti via"}
+		Value:    "Attilio"}
 
 	pierceJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "セバスチャンバサバサ"}
+		Value:    "セバスチャン"}
 
 	pierceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "세바스찬퍼덕퍼덕"}
+		Value:    "세바스찬"}
 
 	pierceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Hugoaguilííí"}
+		Value:    "Hugo"}
 
 	pierceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пирсглаз-алмаз"}
+		Value:    "Пирс"}
 
 	pierceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "谢博强啪沙啪沙"}
+		Value:    "谢博强"}
 
 	pierceSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Hugoaguililla"}
+		Value:    "Hugo"}
 
 	pierceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "謝博強啪沙啪沙"}
+		Value:    "謝博強"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	pierceAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "wingerhawkeye"}
+		Value:    "winger"}
 
 	pierceCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

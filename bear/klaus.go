@@ -25,51 +25,51 @@ var (
 
 	klausCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Klausachtung"}
+		Value:    "Klaus"}
 
 	klausDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Klausstrudel"}
+		Value:    "Klaus"}
 
 	klausFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Klausachtung"}
+		Value:    "Klaus"}
 
 	klausGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Grischagruaaa"}
+		Value:    "Grischa"}
 
 	klausItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Macistebailar"}
+		Value:    "Maciste"}
 
 	klausJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クマロスオパー"}
+		Value:    "クマロス"}
 
 	klausKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "곰도로스라저"}
+		Value:    "곰도로스"}
 
 	klausLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gruñertoachurf"}
+		Value:    "Gruñerto"}
 
 	klausRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Клаусштрудель"}
+		Value:    "Клаус"}
 
 	klausSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "熊战士Over"}
+		Value:    "熊战士"}
 
 	klausSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gruñertoricitos"}
+		Value:    "Gruñerto"}
 
 	klausTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "熊戰士Over"}
+		Value:    "熊戰士"}
 )
 
 var (

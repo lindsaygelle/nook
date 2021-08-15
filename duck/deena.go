@@ -25,51 +25,51 @@ var (
 
 	deenaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Minayouhou"}
+		Value:    "Mina"}
 
 	deenaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Deenajoehoe"}
+		Value:    "Deena"}
 
 	deenaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Minayouhou"}
+		Value:    "Mina"}
 
 	deenaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Oliviajuhuu"}
+		Value:    "Olivia"}
 
 	deenaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dinaquiproquò"}
+		Value:    "Dina"}
 
 	deenaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "まりもマル"}
+		Value:    "まりも"}
 
 	deenaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마리모우우"}
+		Value:    "마리모"}
 
 	deenaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Martitayiuju"}
+		Value:    "Martita"}
 
 	deenaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Динакря-кря"}
+		Value:    "Дина"}
 
 	deenaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "球藻球球"}
+		Value:    "球藻"}
 
 	deenaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Martitamiguita"}
+		Value:    "Martita"}
 
 	deenaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "毬藻毬毬"}
+		Value:    "毬藻"}
 )
 
 var (

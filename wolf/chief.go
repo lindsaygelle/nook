@@ -25,51 +25,51 @@ var (
 
 	chiefCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chefmmmph"}
+		Value:    "Chef"}
 
 	chiefDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chiefhuil"}
+		Value:    "Chief"}
 
 	chiefFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chefmmmph"}
+		Value:    "Chef"}
 
 	chiefGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Saschaharrumff"}
+		Value:    "Sascha"}
 
 	chiefItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Artiglioarrrgh"}
+		Value:    "Artiglio"}
 
 	chiefJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チーフやんか"}
+		Value:    "チーフ"}
 
 	chiefKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "대장그렇잖여"}
+		Value:    "대장"}
 
 	chiefLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Zoiloejem"}
+		Value:    "Zoilo"}
 
 	chiefRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Чиффыр-р-рф"}
+		Value:    "Чиф"}
 
 	chiefSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "施傅不是嘛"}
+		Value:    "施傅"}
 
 	chiefSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Zoiloejem"}
+		Value:    "Zoilo"}
 
 	chiefTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "施傅不是嘛"}
+		Value:    "施傅"}
 )
 
 var (

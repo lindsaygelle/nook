@@ -25,51 +25,51 @@ var (
 
 	marinaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Marinabeurp"}
+		Value:    "Marina"}
 
 	marinaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Marinablorp"}
+		Value:    "Marina"}
 
 	marinaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Marinabeurp"}
+		Value:    "Marina"}
 
 	marinaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Marianneblubblub"}
+		Value:    "Marianne"}
 
 	marinaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Marinablurp"}
+		Value:    "Marina"}
 
 	marinaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タコリーナきゃ"}
+		Value:    "タコリーナ"}
 
 	marinaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "문리나캬캬"}
+		Value:    "문리나"}
 
 	marinaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Marinabliup"}
+		Value:    "Marina"}
 
 	marinaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Маринахлюп"}
+		Value:    "Марина"}
 
 	marinaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "章立娜咔"}
+		Value:    "章立娜"}
 
 	marinaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Marinadospatas"}
+		Value:    "Marina"}
 
 	marinaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "章立娜咔"}
+		Value:    "章立娜"}
 )
 
 var (

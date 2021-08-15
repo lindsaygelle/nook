@@ -25,51 +25,51 @@ var (
 
 	robinCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Robieta-di-da"}
+		Value:    "Robie"}
 
 	robinDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Robinlalala"}
+		Value:    "Robin"}
 
 	robinFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Robieta-di-da"}
+		Value:    "Robie"}
 
 	robinGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Juleladida"}
+		Value:    "Jule"}
 
 	robinItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rossanayuppidù"}
+		Value:    "Rossana"}
 
 	robinJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "パーチクさ"}
+		Value:    "パーチク"}
 
 	robinKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "파틱글쎄"}
+		Value:    "파틱"}
 
 	robinLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Arialarará"}
+		Value:    "Aria"}
 
 	robinRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Робинля-ля-ля"}
+		Value:    "Робин"}
 
 	robinSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "喳喳喳"}
+		Value:    "喳喳"}
 
 	robinSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ariapicatoste"}
+		Value:    "Aria"}
 
 	robinTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "喳喳喳"}
+		Value:    "喳喳"}
 )
 
 var (

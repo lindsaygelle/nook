@@ -25,51 +25,51 @@ var (
 
 	eloiseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Éloïsetooouut"}
+		Value:    "Éloïse"}
 
 	eloiseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Eloisepwèèèèèp"}
+		Value:    "Eloise"}
 
 	eloiseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Éloïsetooouut"}
+		Value:    "Éloïse"}
 
 	eloiseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Frauketuutuuuu"}
+		Value:    "Frauke"}
 
 	eloiseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Eloisanappole"}
+		Value:    "Eloisa"}
 
 	eloiseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エレフィンルン"}
+		Value:    "エレフィン"}
 
 	eloiseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "엘레핀훨훨"}
+		Value:    "엘레핀"}
 
 	eloiseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Eloísafruuuf"}
+		Value:    "Eloísa"}
 
 	eloiseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Элоизатру-тут"}
+		Value:    "Элоиза"}
 
 	eloiseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "艾勒芬鲁鲁"}
+		Value:    "艾勒芬"}
 
 	eloiseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Eloísaorejillas"}
+		Value:    "Eloísa"}
 
 	eloiseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "艾勒芬魯魯"}
+		Value:    "艾勒芬"}
 )
 
 var (

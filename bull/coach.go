@@ -25,51 +25,51 @@ var (
 
 	coachCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Arnoldbétail"}
+		Value:    "Arnold"}
 
 	coachDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Coachstoppel"}
+		Value:    "Coach"}
 
 	coachFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Arnoldmon cou"}
+		Value:    "Arnold"}
 
 	coachGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Arnoldschnoff"}
+		Value:    "Arnold"}
 
 	coachItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ercoleoooh issa"}
+		Value:    "Ercole"}
 
 	coachJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "テッチャンジョリッ"}
+		Value:    "テッチャン"}
 
 	coachKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "철소땅땅"}
+		Value:    "철소"}
 
 	coachLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cachochacho"}
+		Value:    "Cacho"}
 
 	coachRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Коучраз-два"}
+		Value:    "Коуч"}
 
 	coachSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "大常胡渣"}
+		Value:    "大常"}
 
 	coachSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cachochacho"}
+		Value:    "Cacho"}
 
 	coachTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "大常鬍渣"}
+		Value:    "大常"}
 )
 
 var (

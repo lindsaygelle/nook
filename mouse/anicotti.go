@@ -25,51 +25,51 @@ var (
 
 	anicottiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Anniedis donc"}
+		Value:    "Annie"}
 
 	anicottiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Anicotticannoli"}
+		Value:    "Anicotti"}
 
 	anicottiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Anniedis donc"}
+		Value:    "Annie"}
 
 	anicottiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Evapiepser"}
+		Value:    "Eva"}
 
 	anicottiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Squittacippoli"}
+		Value:    "Squitta"}
 
 	anicottiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ラザニアルンルン"}
+		Value:    "ラザニア"}
 
 	anicottiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "라자냐룰룰"}
+		Value:    "라자냐"}
 
 	anicottiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Clorindacloricló"}
+		Value:    "Clorinda"}
 
 	anicottiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аникоттиканноли"}
+		Value:    "Аникотти"}
 
 	anicottiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "罗萱儿开心"}
+		Value:    "罗萱儿"}
 
 	anicottiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Clorindacloricló"}
+		Value:    "Clorinda"}
 
 	anicottiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "羅萱兒開心"}
+		Value:    "羅萱兒"}
 )
 
 var (

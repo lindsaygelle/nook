@@ -25,51 +25,51 @@ var (
 
 	pashminaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chavrinamon moulin"}
+		Value:    "Chavrina"}
 
 	pashminaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pashminabokkig"}
+		Value:    "Pashmina"}
 
 	pashminaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chavrinamon moulin"}
+		Value:    "Chavrina"}
 
 	pashminaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pamelaheckmeck"}
+		Value:    "Pamela"}
 
 	pashminaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pashminaembeeeh"}
+		Value:    "Pashmina"}
 
 	pashminaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "バーバラかな"}
+		Value:    "バーバラ"}
 
 	pashminaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "바바라그러게"}
+		Value:    "바바라"}
 
 	pashminaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Carlane-eh"}
+		Value:    "Carla"}
 
 	pashminaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пашминакозлятки"}
+		Value:    "Пашмина"}
 
 	pashminaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "芭芭拉或许芭"}
+		Value:    "芭芭拉"}
 
 	pashminaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Carlamuy bieeen"}
+		Value:    "Carla"}
 
 	pashminaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "芭芭拉或許芭"}
+		Value:    "芭芭拉"}
 )
 
 var (

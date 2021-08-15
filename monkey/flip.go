@@ -25,51 +25,51 @@ var (
 
 	flipCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rudyoh hisse"}
+		Value:    "Rudy"}
 
 	flipDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Flipoe-⁠a-⁠a"}
+		Value:    "Flip"}
 
 	flipFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rudyoh hisse"}
+		Value:    "Rudy"}
 
 	flipGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pippokikiki"}
+		Value:    "Pippo"}
 
 	flipItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bennyclap clap"}
+		Value:    "Benny"}
 
 	flipJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "さすけどっこい"}
+		Value:    "さすけ"}
 
 	flipKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "원승빠샤"}
+		Value:    "원승"}
 
 	flipLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Monetafuá"}
+		Value:    "Monet"}
 
 	flipRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Флипу-у-у"}
+		Value:    "Флип"}
 
 	flipSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "天佑差不多"}
+		Value:    "天佑"}
 
 	flipSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Monetafuá"}
+		Value:    "Monet"}
 
 	flipTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "天佑差不多"}
+		Value:    "天佑"}
 )
 
 var (

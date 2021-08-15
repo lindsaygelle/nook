@@ -25,51 +25,51 @@ var (
 
 	floraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Justinerosi rosa"}
+		Value:    "Justine"}
 
 	floraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Floraroze"}
+		Value:    "Flora"}
 
 	floraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Justineguiboles"}
+		Value:    "Justine"}
 
 	floraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Floraflappflapp"}
+		Value:    "Flora"}
 
 	floraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Rosalbasivuplé"}
+		Value:    "Rosalba"}
 
 	floraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フララだミン"}
+		Value:    "フララ"}
 
 	floraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "플라라밍고밍고"}
+		Value:    "플라라"}
 
 	floraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Azucenacroqui"}
+		Value:    "Azucena"}
 
 	floraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Флорарозочка"}
+		Value:    "Флора"}
 
 	floraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "胡拉拉红鹤"}
+		Value:    "胡拉拉"}
 
 	floraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Azucenacroqui"}
+		Value:    "Azucena"}
 
 	floraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "胡拉拉紅鶴"}
+		Value:    "胡拉拉"}
 )
 
 var (

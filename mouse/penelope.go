@@ -25,51 +25,51 @@ var (
 
 	penelopeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Missygrugru"}
+		Value:    "Missy"}
 
 	penelopeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Penelopestrikje"}
+		Value:    "Penelope"}
 
 	penelopeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Missygrugru"}
+		Value:    "Missy"}
 
 	penelopeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Penelopebling"}
+		Value:    "Penelope"}
 
 	penelopeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Penelopecheeese"}
+		Value:    "Penelope"}
 
 	penelopeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チューこでちゅの"}
+		Value:    "チューこ"}
 
 	penelopeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "찍순이그러찍"}
+		Value:    "찍순이"}
 
 	penelopeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Adelabrillilí"}
+		Value:    "Adela"}
 
 	penelopeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Аделабантик"}
+		Value:    "Адела"}
 
 	penelopeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小啾啾啾"}
+		Value:    "小啾"}
 
 	penelopeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Adelamigas"}
+		Value:    "Adela"}
 
 	penelopeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小啾啾啾"}
+		Value:    "小啾"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	teddyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Teddygrrrrrr"}
+		Value:    "Teddy"}
 
 	teddyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Teddygrommm"}
+		Value:    "Teddy"}
 
 	teddyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Teddygrrrrrr"}
+		Value:    "Teddy"}
 
 	teddyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Torstengruff"}
+		Value:    "Torsten"}
 
 	teddyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Teddygruf"}
+		Value:    "Teddy"}
 
 	teddyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "たいへいたですたい"}
+		Value:    "たいへいた"}
 
 	teddyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "병태입네다"}
+		Value:    "병태"}
 
 	teddyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Teddygruuuf"}
+		Value:    "Teddy"}
 
 	teddyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Теддибыр-быр"}
+		Value:    "Тедди"}
 
 	teddySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "太平太好了"}
+		Value:    "太平"}
 
 	teddySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Teddygruuuf"}
+		Value:    "Teddy"}
 
 	teddyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "太平太好了"}
+		Value:    "太平"}
 )
 
 var (

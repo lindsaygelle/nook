@@ -25,51 +25,51 @@ var (
 
 	miraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Grisettezip zip"}
+		Value:    "Grisette"}
 
 	miraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mirastaartje"}
+		Value:    "Mira"}
 
 	miraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Grisetteauch auch"}
+		Value:    "Grisette"}
 
 	miraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mirajahopp"}
+		Value:    "Mira"}
 
 	miraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Martinabaffoplà"}
+		Value:    "Martina"}
 
 	miraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ミラコだムーン"}
+		Value:    "ミラコ"}
 
 	miraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "미랑거봐라"}
+		Value:    "미랑"}
 
 	miraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Amparohep-hep"}
+		Value:    "Amparo"}
 
 	miraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Миразайцехвост"}
+		Value:    "Мира"}
 
 	miraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "蜜拉月球"}
+		Value:    "蜜拉"}
 
 	miraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Amparomuesli"}
+		Value:    "Amparo"}
 
 	miraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "蜜拉月球"}
+		Value:    "蜜拉"}
 )
 
 var (

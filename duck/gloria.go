@@ -25,51 +25,51 @@ var (
 
 	gloriaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Déborahkwakos"}
+		Value:    "Déborah"}
 
 	gloriaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gloriakwebbel"}
+		Value:    "Gloria"}
 
 	gloriaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Déborahkwakos"}
+		Value:    "Déborah"}
 
 	gloriaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gustavianerv"}
+		Value:    "Gustavia"}
 
 	gloriaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pappypaperonz"}
+		Value:    "Pappy"}
 
 	gloriaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "スワンソンぎゃくに"}
+		Value:    "スワンソン"}
 
 	gloriaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "마릴린유～후"}
+		Value:    "마릴린"}
 
 	gloriaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jarreapicodoro"}
+		Value:    "Jarrea"}
 
 	gloriaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Глорияне кряк ли"}
+		Value:    "Глория"}
 
 	gloriaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "素返真相反"}
+		Value:    "素返真"}
 
 	gloriaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jarreapicodoro"}
+		Value:    "Jarrea"}
 
 	gloriaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "素返真相反"}
+		Value:    "素返真"}
 )
 
 var (

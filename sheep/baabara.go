@@ -25,51 +25,51 @@ var (
 
 	baabaraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bêêttychêêêri"}
+		Value:    "Bêêtty"}
 
 	baabaraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Baabaraschaaaapje"}
+		Value:    "Baabara"}
 
 	baabaraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bêêttychêêêri"}
+		Value:    "Bêêtty"}
 
 	baabaraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Babsidäääää"}
+		Value:    "Babsi"}
 
 	baabaraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Beabreeezza"}
+		Value:    "Bea"}
 
 	baabaraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トロワアンドゥ"}
+		Value:    "トロワ"}
 
 	baabaraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "트로와앤쥬"}
+		Value:    "트로와"}
 
 	baabaraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Beelénpeluuusas"}
+		Value:    "Beelén"}
 
 	baabaraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Бабарамила-ашка"}
+		Value:    "Бабара"}
 
 	baabaraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "华尔滋一二三"}
+		Value:    "华尔滋"}
 
 	baabaraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Beelénpeeelusa"}
+		Value:    "Beelén"}
 
 	baabaraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "華爾滋一二三"}
+		Value:    "華爾滋"}
 )
 
 var (

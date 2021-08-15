@@ -25,51 +25,51 @@ var (
 
 	skyeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mariloumumuseau"}
+		Value:    "Marilou"}
 
 	skyeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Skyeluchtpost"}
+		Value:    "Skye"}
 
 	skyeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mariloumumuseau"}
+		Value:    "Marilou"}
 
 	skyeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sabineahiii"}
+		Value:    "Sabine"}
 
 	skyeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lupillauuuhlalà"}
+		Value:    "Lupilla"}
 
 	skyeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リリィフワワ"}
+		Value:    "リリィ"}
 
 	skyeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "릴리후와와"}
+		Value:    "릴리"}
 
 	skyeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Alderiaauuu"}
+		Value:    "Alderia"}
 
 	skyeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Скайпилот"}
+		Value:    "Скай"}
 
 	skyeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "百合花花"}
+		Value:    "百合"}
 
 	skyeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Alderiaauuu"}
+		Value:    "Alderia"}
 
 	skyeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "百合花花"}
+		Value:    "百合"}
 )
 
 var (

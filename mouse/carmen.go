@@ -25,51 +25,51 @@ var (
 
 	carmenCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	carmenDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	carmenFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Carmenmamour"}
+		Value:    "Carmen"}
 
 	carmenGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Carmenäpfelchen"}
+		Value:    "Carmen"}
 
 	carmenItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Carmenbuffetto"}
+		Value:    "Carmen"}
 
 	carmenJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ゼリーんとんと"}
+		Value:    "ゼリー"}
 
 	carmenKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	carmenLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	carmenRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	carmenSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "卡门吱哧"}
+		Value:    "卡门"}
 
 	carmenSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Carmenbolilla"}
+		Value:    "Carmen"}
 
 	carmenTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

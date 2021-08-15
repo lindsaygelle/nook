@@ -25,51 +25,51 @@ var (
 
 	faithCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	faithDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	faithFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kolettealoha"}
+		Value:    "Kolette"}
 
 	faithGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Finchenaloha"}
+		Value:    "Finchen"}
 
 	faithItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Calipsoaloha"}
+		Value:    "Calipso"}
 
 	faithJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マーチサクッ"}
+		Value:    "マーチ"}
 
 	faithKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	faithLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	faithRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	faithSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	faithSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Feliciaaloha"}
+		Value:    "Felicia"}
 
 	faithTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

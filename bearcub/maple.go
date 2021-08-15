@@ -25,51 +25,51 @@ var (
 
 	mapleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Léachouchou"}
+		Value:    "Léa"}
 
 	mapleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Maplezoeterd"}
+		Value:    "Maple"}
 
 	mapleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Léachouchou"}
+		Value:    "Léa"}
 
 	mapleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Monadarling"}
+		Value:    "Mona"}
 
 	mapleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dulcineamiele"}
+		Value:    "Dulcinea"}
 
 	mapleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "メープルだベア"}
+		Value:    "メープル"}
 
 	mapleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "메이첼저기요"}
+		Value:    "메이첼"}
 
 	mapleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Dulcemielmiel"}
+		Value:    "Dulce"}
 
 	mapleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мейпллапушка"}
+		Value:    "Мейпл"}
 
 	mapleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小枫熊仔"}
+		Value:    "小枫"}
 
 	mapleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Dulcecaramelito"}
+		Value:    "Dulce"}
 
 	mapleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小楓熊仔"}
+		Value:    "小楓"}
 )
 
 var (

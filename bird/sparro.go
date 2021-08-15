@@ -25,51 +25,51 @@ var (
 
 	sparroCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Dariuspiaaaaf"}
+		Value:    "Darius"}
 
 	sparroDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sparrowreed"}
+		Value:    "Sparro"}
 
 	sparroFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Dariuspiaaaaf"}
+		Value:    "Darius"}
 
 	sparroGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Nestorbirtz"}
+		Value:    "Nestor"}
 
 	sparroItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Piumardoadiós"}
+		Value:    "Piumardo"}
 
 	sparroJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ちゅんのすけだチュン"}
+		Value:    "ちゅんのすけ"}
 
 	sparroKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "춘섭섭섭"}
+		Value:    "춘섭"}
 
 	sparroLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Jaimechirpi"}
+		Value:    "Jaime"}
 
 	sparroRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Спарротак-так"}
+		Value:    "Спарро"}
 
 	sparroSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "周之翔啁啁"}
+		Value:    "周之翔"}
 
 	sparroSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Jaimegorrión"}
+		Value:    "Jaime"}
 
 	sparroTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "周之翔啁啁"}
+		Value:    "周之翔"}
 )
 
 var (

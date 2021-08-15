@@ -25,51 +25,51 @@ var (
 
 	eliseCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Élisesteup"}
+		Value:    "Élise"}
 
 	eliseDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Elisekom op zeg"}
+		Value:    "Elise"}
 
 	eliseFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Élisesteup"}
+		Value:    "Élise"}
 
 	eliseGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Steffistrebstreb"}
+		Value:    "Steffi"}
 
 	eliseItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Elisaper favore"}
+		Value:    "Elisa"}
 
 	eliseJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "モンこだモン"}
+		Value:    "モンこ"}
 
 	eliseKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "몽자몽몽"}
+		Value:    "몽자"}
 
 	eliseLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mayrauh-lalá"}
+		Value:    "Mayra"}
 
 	eliseRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Элизасамо собой"}
+		Value:    "Элиза"}
 
 	eliseSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "孟琪孟孟"}
+		Value:    "孟琪"}
 
 	eliseSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mayraricura"}
+		Value:    "Mayra"}
 
 	eliseTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "孟琪孟孟"}
+		Value:    "孟琪"}
 )
 
 var (

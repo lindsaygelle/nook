@@ -25,51 +25,51 @@ var (
 
 	rosieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rosieflûte"}
+		Value:    "Rosie"}
 
 	rosieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Rosiegekkie"}
+		Value:    "Rosie"}
 
 	rosieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rosieflûte"}
+		Value:    "Rosie"}
 
 	rosieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sophieflöt"}
+		Value:    "Sophie"}
 
 	rosieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Grinfiatontolon"}
+		Value:    "Grinfia"}
 
 	rosieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブーケチェキ"}
+		Value:    "ブーケ"}
 
 	rosieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "부케헤이"}
+		Value:    "부케"}
 
 	rosieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mininamiaaau"}
+		Value:    "Minina"}
 
 	rosieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Розирыбка"}
+		Value:    "Рози"}
 
 	rosieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "彭花看看"}
+		Value:    "彭花"}
 
 	rosieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mininamiaaau"}
+		Value:    "Minina"}
 
 	rosieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "彭花看看"}
+		Value:    "彭花"}
 )
 
 var (

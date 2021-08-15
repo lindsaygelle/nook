@@ -25,51 +25,51 @@ var (
 
 	harryCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bobmille"}
+		Value:    "Bob"}
 
 	harryDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Harrystrandgast"}
+		Value:    "Harry"}
 
 	harryFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bobmille"}
+		Value:    "Bob"}
 
 	harryGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jürgenhöhöhö"}
+		Value:    "Jürgen"}
 
 	harryItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ercolinouhuhuh"}
+		Value:    "Ercolino"}
 
 	harryJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オリバーでっせ"}
+		Value:    "オリバー"}
 
 	harryKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "올리버냉큼오슈"}
+		Value:    "올리버"}
 
 	harryLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Harpoho-hop"}
+		Value:    "Harpo"}
 
 	harryRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гаррилежебока"}
+		Value:    "Гарри"}
 
 	harrySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "欧世豪世世"}
+		Value:    "欧世豪"}
 
 	harrySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Harpoalgas"}
+		Value:    "Harpo"}
 
 	harryTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "歐世豪世世"}
+		Value:    "歐世豪"}
 )
 
 var (

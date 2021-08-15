@@ -25,51 +25,51 @@ var (
 
 	twiggyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Titicoolos"}
+		Value:    "Titi"}
 
 	twiggyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Twiggyfwieeet"}
+		Value:    "Twiggy"}
 
 	twiggyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Titicoolos"}
+		Value:    "Titi"}
 
 	twiggyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Twiggyzwirtschi"}
+		Value:    "Twiggy"}
 
 	twiggyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Titticiiip"}
+		Value:    "Titti"}
 
 	twiggyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ピーチクッピ"}
+		Value:    "ピーチク"}
 
 	twiggyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "핀틱크"}
+		Value:    "핀틱"}
 
 	twiggyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Titítirití"}
+		Value:    "Tití"}
 
 	twiggyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Твиггитю-вить"}
+		Value:    "Твигги"}
 
 	twiggySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "叽叽叽"}
+		Value:    "叽叽"}
 
 	twiggySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Titítirití"}
+		Value:    "Tití"}
 
 	twiggyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "嘰嘰嘰"}
+		Value:    "嘰嘰"}
 )
 
 var (

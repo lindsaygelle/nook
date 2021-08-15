@@ -25,51 +25,51 @@ var (
 
 	rhodaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "ArletteUnknown"}
+		Value:    "Arlette"}
 
 	rhodaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rhodaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "ArletteUnknown"}
+		Value:    "Arlette"}
 
 	rhodaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Heleneglucker"}
+		Value:    "Helene"}
 
 	rhodaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Petulaskiok"}
+		Value:    "Petula"}
 
 	rhodaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブイヨンコッコ"}
+		Value:    "ブイヨン"}
 
 	rhodaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rhodaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "PocholaUnknown"}
+		Value:    "Pochola"}
 
 	rhodaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	rhodaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "布布Unknown"}
+		Value:    "布布"}
 
 	rhodaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "PocholaUnknown"}
+		Value:    "Pochola"}
 
 	rhodaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	bruceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Boubououain"}
+		Value:    "Boubou"}
 
 	bruceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bruceburl"}
+		Value:    "Bruce"}
 
 	bruceFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bouboununul"}
+		Value:    "Boubou"}
 
 	bruceGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Oswaldröööhr"}
+		Value:    "Oswald"}
 
 	bruceItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Arturouauwaii"}
+		Value:    "Arturo"}
 
 	bruceJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブルースしかしな"}
+		Value:    "ブルース"}
 
 	bruceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "브루스아비옹"}
+		Value:    "브루스"}
 
 	bruceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Aristoaquesí"}
+		Value:    "Aristo"}
 
 	bruceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Брюсзабияка"}
+		Value:    "Брюс"}
 
 	bruceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "布鹿斯福鹿寿"}
+		Value:    "布鹿斯"}
 
 	bruceSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Aristoaquesí"}
+		Value:    "Aristo"}
 
 	bruceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "布鹿斯福鹿壽"}
+		Value:    "布鹿斯"}
 )
 
 var (

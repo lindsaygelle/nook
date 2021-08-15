@@ -25,51 +25,51 @@ var (
 
 	luluCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	luluDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	luluFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lulumon bichon"}
+		Value:    "Lulu"}
 
 	luluGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Lulugääähn"}
+		Value:    "Lulu"}
 
 	luluItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lulùhippurrà"}
+		Value:    "Lulù"}
 
 	luluJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エルニーニョニョニョ"}
+		Value:    "エルニーニョ"}
 
 	luluKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	luluLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	luluRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	luluSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "萍萍妞妞"}
+		Value:    "萍萍"}
 
 	luluSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lulùlilalá"}
+		Value:    "Lulù"}
 
 	luluTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

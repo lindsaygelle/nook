@@ -25,51 +25,51 @@ var (
 
 	bubblesCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Hippyhip hop là"}
+		Value:    "Hippy"}
 
 	bubblesDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bubbleshipster"}
+		Value:    "Bubbles"}
 
 	bubblesFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Hippyhip hop là"}
+		Value:    "Hippy"}
 
 	bubblesGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Christinblupper"}
+		Value:    "Christin"}
 
 	bubblesItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ippolitahiippy"}
+		Value:    "Ippolita"}
 
 	bubblesJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャコでガンス"}
+		Value:    "チャコ"}
 
 	bubblesKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "차코히포포"}
+		Value:    "차코"}
 
 	bubblesLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Hipólitaglop-glop"}
+		Value:    "Hipólita"}
 
 	bubblesRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Баблсхипстер"}
+		Value:    "Баблс"}
 
 	bubblesSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "曹珂是是"}
+		Value:    "曹珂"}
 
 	bubblesSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Hipólitahippie"}
+		Value:    "Hipólita"}
 
 	bubblesTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "曹珂是是"}
+		Value:    "曹珂"}
 )
 
 var (

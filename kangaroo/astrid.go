@@ -25,51 +25,51 @@ var (
 
 	astridCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rhonamon étoile"}
+		Value:    "Rhona"}
 
 	astridDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Astridtroetel"}
+		Value:    "Astrid"}
 
 	astridFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rhonamon étoile"}
+		Value:    "Rhona"}
 
 	astridGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Astridschmusi"}
+		Value:    "Astrid"}
 
 	astridItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Stellafagotto"}
+		Value:    "Stella"}
 
 	astridJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キッズだパンク"}
+		Value:    "キッズ"}
 
 	astridKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "펑키맘뭘봐"}
+		Value:    "펑키맘"}
 
 	astridLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Astridbrillabrí"}
+		Value:    "Astrid"}
 
 	astridRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Астридлапочка"}
+		Value:    "Астрид"}
 
 	astridSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "童儿庞克"}
+		Value:    "童儿"}
 
 	astridSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Astridmascotita"}
+		Value:    "Astrid"}
 
 	astridTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "童兒龐克"}
+		Value:    "童兒"}
 )
 
 var (

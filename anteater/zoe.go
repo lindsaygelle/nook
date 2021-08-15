@@ -25,51 +25,51 @@ var (
 
 	zoeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	zoeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	zoeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Zoéfouf fouf"}
+		Value:    "Zoé"}
 
 	zoeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Zoeschnieef"}
+		Value:    "Zoe"}
 
 	zoeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Zoeoiiinfff"}
+		Value:    "Zoe"}
 
 	zoeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビーフンだモン"}
+		Value:    "ビーフン"}
 
 	zoeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	zoeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	zoeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	zoeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "蔓蔓没错"}
+		Value:    "蔓蔓"}
 
 	zoeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Nariciafufuf"}
+		Value:    "Naricia"}
 
 	zoeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

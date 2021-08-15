@@ -25,51 +25,51 @@ var (
 
 	felicityCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maudchatounet"}
+		Value:    "Maud"}
 
 	felicityDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Felicitymimimi"}
+		Value:    "Felicity"}
 
 	felicityFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maudchatounet"}
+		Value:    "Maud"}
 
 	felicityGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Minkamauzi"}
+		Value:    "Minka"}
 
 	felicityItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Millymeeeow"}
+		Value:    "Milly"}
 
 	felicityJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "みかっちね"}
+		Value:    "みかっち"}
 
 	felicityKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "예링우앙"}
+		Value:    "예링"}
 
 	felicityLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Michamiauito"}
+		Value:    "Micha"}
 
 	felicityRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Фелиситими-ми-ми"}
+		Value:    "Фелисити"}
 
 	felicitySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "美佳哪"}
+		Value:    "美佳"}
 
 	felicitySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Michamiauito"}
+		Value:    "Micha"}
 
 	felicityTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "美佳哪"}
+		Value:    "美佳"}
 )
 
 var (

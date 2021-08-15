@@ -25,51 +25,51 @@ var (
 
 	lopezCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jonyou bet"}
+		Value:    "Jon"}
 
 	lopezDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Lopezbokje"}
+		Value:    "Lopez"}
 
 	lopezFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jonjaunisse"}
+		Value:    "Jon"}
 
 	lopezGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Eckartbocko"}
+		Value:    "Eckart"}
 
 	lopezItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Lopezsdleng"}
+		Value:    "Lopez"}
 
 	lopezJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "トムソンがぜん"}
+		Value:    "トムソン"}
 
 	lopezKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "톰슨엣헴"}
+		Value:    "톰슨"}
 
 	lopezLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Agrestetrisca"}
+		Value:    "Agreste"}
 
 	lopezRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Лопесбубух"}
+		Value:    "Лопес"}
 
 	lopezSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "汤姆变了"}
+		Value:    "汤姆"}
 
 	lopezSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Agrestetrisca"}
+		Value:    "Agreste"}
 
 	lopezTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "湯姆變了"}
+		Value:    "湯姆"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	lopezAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "buckaroobadoom"}
+		Value:    "buckaroo"}
 
 	lopezCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

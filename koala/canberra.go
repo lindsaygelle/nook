@@ -25,51 +25,51 @@ var (
 
 	canberraCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kolalazyva"}
+		Value:    "Kolala"}
 
 	canberraDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Canberraechnie"}
+		Value:    "Canberra"}
 
 	canberraFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kolalazyva"}
+		Value:    "Kolala"}
 
 	canberraGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Carolinekolala"}
+		Value:    "Caroline"}
 
 	canberraItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Canberraeurekalì"}
+		Value:    "Canberra"}
 
 	canberraJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "キャンベラえ～"}
+		Value:    "キャンベラ"}
 
 	canberraKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "캔버라어어"}
+		Value:    "캔버라"}
 
 	canberraLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Canberrakoalalá"}
+		Value:    "Canberra"}
 
 	canberraRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Канберраох-хо"}
+		Value:    "Канберра"}
 
 	canberraSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "简培菈咦"}
+		Value:    "简培菈"}
 
 	canberraSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Canberrakolalá"}
+		Value:    "Canberra"}
 
 	canberraTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "簡培菈咦～"}
+		Value:    "簡培菈"}
 )
 
 var (

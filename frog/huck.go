@@ -25,51 +25,51 @@ var (
 
 	huckCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bajouenouille"}
+		Value:    "Bajoue"}
 
 	huckDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Huckhophop"}
+		Value:    "Huck"}
 
 	huckFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bajouenouille"}
+		Value:    "Bajoue"}
 
 	huckGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Knuthhops"}
+		Value:    "Knuth"}
 
 	huckItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bertohophop"}
+		Value:    "Berto"}
 
 	huckJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ストローとかー"}
+		Value:    "ストロー"}
 
 	huckKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "스트로싸우자"}
+		Value:    "스트로"}
 
 	huckLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ricardoajop"}
+		Value:    "Ricardo"}
 
 	huckRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Хакскок"}
+		Value:    "Хак"}
 
 	huckSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "吸管喝喝"}
+		Value:    "吸管"}
 
 	huckSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ricardogrillito"}
+		Value:    "Ricardo"}
 
 	huckTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "吸管喝喝"}
+		Value:    "吸管"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	jambetteCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Gambettequoi"}
+		Value:    "Gambette"}
 
 	jambetteDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Jambetteinderkwaak"}
+		Value:    "Jambette"}
 
 	jambetteFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Gambettequoi"}
+		Value:    "Gambette"}
 
 	jambetteGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Jeanettequaacki"}
+		Value:    "Jeanette"}
 
 	jambetteItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Giadacrok-ok"}
+		Value:    "Giada"}
 
 	jambetteJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "エスメラルダですわよ"}
+		Value:    "エスメラルダ"}
 
 	jambetteKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "에스메랄다쪼오옥"}
+		Value:    "에스메랄다"}
 
 	jambetteLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Anquitacroac"}
+		Value:    "Anquita"}
 
 	jambetteRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Джембеткво-кей"}
+		Value:    "Джембет"}
 
 	jambetteSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "翡翠是蛙"}
+		Value:    "翡翠"}
 
 	jambetteSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Anquitacroac"}
+		Value:    "Anquita"}
 
 	jambetteTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "翡翠是蛙"}
+		Value:    "翡翠"}
 )
 
 var (

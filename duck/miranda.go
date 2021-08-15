@@ -25,51 +25,51 @@ var (
 
 	mirandaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Maëlliscouac"}
+		Value:    "Maëllis"}
 
 	mirandaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Mirandakwektakel"}
+		Value:    "Miranda"}
 
 	mirandaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Maëlliscouac"}
+		Value:    "Maëllis"}
 
 	mirandaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tanyabrotbrot"}
+		Value:    "Tanya"}
 
 	mirandaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Mirandaquaquao"}
+		Value:    "Miranda"}
 
 	mirandaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ミランダなにさ"}
+		Value:    "ミランダ"}
 
 	mirandaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "미란다괜찮아"}
+		Value:    "미란다"}
 
 	mirandaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Mirandacua-cuá"}
+		Value:    "Miranda"}
 
 	mirandaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мирандапокрясающе"}
+		Value:    "Миранда"}
 
 	mirandaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "米兰达怎么回事"}
+		Value:    "米兰达"}
 
 	mirandaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Mirandacua-cuá"}
+		Value:    "Miranda"}
 
 	mirandaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "米蘭達怎麼回事"}
+		Value:    "米蘭達"}
 )
 
 var (

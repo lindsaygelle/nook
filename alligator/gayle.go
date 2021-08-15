@@ -25,51 +25,51 @@ var (
 
 	gayleCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Odilecroc-croc"}
+		Value:    "Odile"}
 
 	gayleDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gaylesnackje"}
+		Value:    "Gayle"}
 
 	gayleFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Odilecroquignou"}
+		Value:    "Odile"}
 
 	gayleGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rosazähni"}
+		Value:    "Rosa"}
 
 	gayleItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Codrilladésolée"}
+		Value:    "Codrilla"}
 
 	gayleJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アリゲッティワニャン"}
+		Value:    "アリゲッティ"}
 
 	gayleKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "앨리아거얌"}
+		Value:    "앨리"}
 
 	gayleLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Bonismuack"}
+		Value:    "Boni"}
 
 	gayleRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гейлперекус"}
+		Value:    "Гейл"}
 
 	gayleSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "爱莉鳄莉"}
+		Value:    "爱莉"}
 
 	gayleSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Bonicorazón"}
+		Value:    "Boni"}
 
 	gayleTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "愛莉鱷莉"}
+		Value:    "愛莉"}
 )
 
 var (

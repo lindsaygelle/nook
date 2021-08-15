@@ -25,51 +25,51 @@ var (
 
 	blaireCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cachoucoquille"}
+		Value:    "Cachou"}
 
 	blaireDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Blairenotendop"}
+		Value:    "Blaire"}
 
 	blaireFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cachoucoquille"}
+		Value:    "Cachou"}
 
 	blaireGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Klaraknack"}
+		Value:    "Klara"}
 
 	blaireItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ghiandascrick"}
+		Value:    "Ghianda"}
 
 	blaireJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シルエットふふん"}
+		Value:    "シルエット"}
 
 	blaireKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "실루엣헤헤헤"}
+		Value:    "실루엣"}
 
 	blaireLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Azabacheñicuá"}
+		Value:    "Azabache"}
 
 	blaireRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Блеркрошка"}
+		Value:    "Блер"}
 
 	blaireSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小影哼哼"}
+		Value:    "小影"}
 
 	blaireSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Azabachebayita"}
+		Value:    "Azabache"}
 
 	blaireTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小影哼哼"}
+		Value:    "小影"}
 )
 
 var (

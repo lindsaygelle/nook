@@ -25,51 +25,51 @@ var (
 
 	bunnieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Clarahé hé hé"}
+		Value:    "Clara"}
 
 	bunnieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Bunniehihi"}
+		Value:    "Bunnie"}
 
 	bunnieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Clarahé hé hé"}
+		Value:    "Clara"}
 
 	bunnieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Mimmitiihii"}
+		Value:    "Mimmi"}
 
 	bunnieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bonnytiptap"}
+		Value:    "Bonny"}
 
 	bunnieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "リリアンみたいな"}
+		Value:    "リリアン"}
 
 	bunnieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "릴리안그렇지뭐"}
+		Value:    "릴리안"}
 
 	bunnieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Conioy-oy-oy"}
+		Value:    "Coni"}
 
 	bunnieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Баннихи-хи"}
+		Value:    "Банни"}
 
 	bunnieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "莉莉安好像喔"}
+		Value:    "莉莉安"}
 
 	bunnieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Conioy-oy-oy"}
+		Value:    "Coni"}
 
 	bunnieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "莉莉安好像喔"}
+		Value:    "莉莉安"}
 )
 
 var (

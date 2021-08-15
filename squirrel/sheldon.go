@@ -25,51 +25,51 @@ var (
 
 	sheldonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Roypacane"}
+		Value:    "Roy"}
 
 	sheldonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Sheldontopfit"}
+		Value:    "Sheldon"}
 
 	sheldonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Roytoutouffe"}
+		Value:    "Roy"}
 
 	sheldonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Steffenhoppi"}
+		Value:    "Steffen"}
 
 	sheldonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Frugoloflash"}
+		Value:    "Frugolo"}
 
 	sheldonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クリスクリクリ"}
+		Value:    "クリス"}
 
 	sheldonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "크리스땡글땡글"}
+		Value:    "크리스"}
 
 	sheldonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Matracaszasca"}
+		Value:    "Matracas"}
 
 	sheldonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шелдонтреники"}
+		Value:    "Шелдон"}
 
 	sheldonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "克栗斯鼓栗鼓栗"}
+		Value:    "克栗斯"}
 
 	sheldonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Matracaszasca"}
+		Value:    "Matracas"}
 
 	sheldonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "克栗斯鼓栗鼓栗"}
+		Value:    "克栗斯"}
 )
 
 var (

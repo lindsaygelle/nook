@@ -25,51 +25,51 @@ var (
 
 	tybaltCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Jeffgrouaaah"}
+		Value:    "Jeff"}
 
 	tybaltDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tybaltbrrrrulll"}
+		Value:    "Tybalt"}
 
 	tybaltFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Jeffgrouaaah"}
+		Value:    "Jeff"}
 
 	tybaltGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Arnegrrrummel"}
+		Value:    "Arne"}
 
 	tybaltItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "UbaldogrrrRAH"}
+		Value:    "Ubaldo"}
 
 	tybaltJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハリマオだトラ"}
+		Value:    "ハリマオ"}
 
 	tybaltKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "티볼트으르렁"}
+		Value:    "티볼트"}
 
 	tybaltLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Teobaldoraaarruf"}
+		Value:    "Teobaldo"}
 
 	tybaltRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тибальтр-рык"}
+		Value:    "Тибальт"}
 
 	tybaltSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "谷丰虎虎"}
+		Value:    "谷丰"}
 
 	tybaltSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Teobaldobengala"}
+		Value:    "Teobaldo"}
 
 	tybaltTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "谷豐虎虎"}
+		Value:    "谷豐"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	delCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Hectorclap"}
+		Value:    "Hector"}
 
 	delDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Delgronk"}
+		Value:    "Del"}
 
 	delFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Hectorclap"}
+		Value:    "Hector"}
 
 	delGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Krokkihapp"}
+		Value:    "Krokki"}
 
 	delItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Krokkichomp"}
+		Value:    "Krokki"}
 
 	delJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヤマトプシュー"}
+		Value:    "ヤマト"}
 
 	delKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "파도맨처얼썩"}
+		Value:    "파도맨"}
 
 	delLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Crocochomp"}
+		Value:    "Croco"}
 
 	delRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Делщелк"}
+		Value:    "Дел"}
 
 	delSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "大和噗咻"}
+		Value:    "大和"}
 
 	delSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Crocochomp"}
+		Value:    "Croco"}
 
 	delTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "大和噗咻"}
+		Value:    "大和"}
 )
 
 var (

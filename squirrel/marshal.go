@@ -25,51 +25,51 @@ var (
 
 	marshalCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Mathéocarpe diem"}
+		Value:    "Mathéo"}
 
 	marshalDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Marshalknorrepot"}
+		Value:    "Marshal"}
 
 	marshalFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Mathéonanache"}
+		Value:    "Mathéo"}
 
 	marshalGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Huschkehuschhusch"}
+		Value:    "Huschke"}
 
 	marshalItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Scottardillà"}
+		Value:    "Scott"}
 
 	marshalJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジュンあながち"}
+		Value:    "ジュン"}
 
 	marshalKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "쭈니어차피"}
+		Value:    "쭈니"}
 
 	marshalLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Munchitecuén"}
+		Value:    "Munchi"}
 
 	marshalRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Маршалтихоня"}
+		Value:    "Маршал"}
 
 	marshalSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "小润不管怎样"}
+		Value:    "小润"}
 
 	marshalSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Munchitecuén"}
+		Value:    "Munchi"}
 
 	marshalTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "小潤不管怎樣"}
+		Value:    "小潤"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	cookieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Cookiewoufi"}
+		Value:    "Cookie"}
 
 	cookieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cookiekwispel"}
+		Value:    "Cookie"}
 
 	cookieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cookiewoufi"}
+		Value:    "Cookie"}
 
 	cookieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rosinuffnuff"}
+		Value:    "Rosi"}
 
 	cookieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Briciolabubabù"}
+		Value:    "Briciola"}
 
 	cookieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ペリーヌプリリン"}
+		Value:    "ペリーヌ"}
 
 	cookieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "베리초롱초롱"}
+		Value:    "베리"}
 
 	cookieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Puritacan"}
+		Value:    "Purita"}
 
 	cookieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кукигав-гав"}
+		Value:    "Куки"}
 
 	cookieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "珮琳琳琳"}
+		Value:    "珮琳"}
 
 	cookieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Puritafresita"}
+		Value:    "Purita"}
 
 	cookieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "珮琳琳琳"}
+		Value:    "珮琳"}
 )
 
 var (

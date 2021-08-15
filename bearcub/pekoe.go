@@ -25,51 +25,51 @@ var (
 
 	pekoeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Paulinelinou"}
+		Value:    "Pauline"}
 
 	pekoeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pekoebloempje"}
+		Value:    "Pekoe"}
 
 	pekoeFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Paulinelinou"}
+		Value:    "Pauline"}
 
 	pekoeGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Sandrineflüster"}
+		Value:    "Sandrine"}
 
 	pekoeItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Minapurrrimba"}
+		Value:    "Mina"}
 
 	pekoeJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ジャスミンチャ"}
+		Value:    "ジャスミン"}
 
 	pekoeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "재스민띵호아"}
+		Value:    "재스민"}
 
 	pekoeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Verapitiminí"}
+		Value:    "Vera"}
 
 	pekoeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пекоцветочек"}
+		Value:    "Пеко"}
 
 	pekoeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "佳敏佳佳"}
+		Value:    "佳敏"}
 
 	pekoeSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Verapitiminí"}
+		Value:    "Vera"}
 
 	pekoeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "佳敏佳佳"}
+		Value:    "佳敏"}
 )
 
 var (

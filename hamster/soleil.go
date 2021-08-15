@@ -25,51 +25,51 @@ var (
 
 	soleilCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Stellaciel"}
+		Value:    "Stella"}
 
 	soleilDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Soleilkorenwolf"}
+		Value:    "Soleil"}
 
 	soleilFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Stellagnognotte"}
+		Value:    "Stella"}
 
 	soleilGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Samirahümpf"}
+		Value:    "Samira"}
 
 	soleilItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cettinavriiin"}
+		Value:    "Cettina"}
 
 	soleilJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "シャンティだってば"}
+		Value:    "シャンティ"}
 
 	soleilKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "샨티파샤샤"}
+		Value:    "샨티"}
 
 	soleilLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sorayañiqui-ñú"}
+		Value:    "Soraya"}
 
 	soleilRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Солейо-хо-хо"}
+		Value:    "Солей"}
 
 	soleilSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "安安相信我"}
+		Value:    "安安"}
 
 	soleilSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sorayamoflete"}
+		Value:    "Soraya"}
 
 	soleilTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "安安相信我"}
+		Value:    "安安"}
 )
 
 var (

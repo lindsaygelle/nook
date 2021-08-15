@@ -25,51 +25,51 @@ var (
 
 	chrissyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kristinehop"}
+		Value:    "Kristine"}
 
 	chrissyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chrissysprankel"}
+		Value:    "Chrissy"}
 
 	chrissyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kristinehop"}
+		Value:    "Kristine"}
 
 	chrissyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Anneknuddl"}
+		Value:    "Anne"}
 
 	chrissyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Nataschalilalà"}
+		Value:    "Natascha"}
 
 	chrissyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "クリスチーヌリララ"}
+		Value:    "クリスチーヌ"}
 
 	chrissyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "크리스틴샤방"}
+		Value:    "크리스틴"}
 
 	chrissyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Lalimimomimo"}
+		Value:    "Lali"}
 
 	chrissyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Криссизолотце"}
+		Value:    "Крисси"}
 
 	chrissySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "克莉琪哩啦啦"}
+		Value:    "克莉琪"}
 
 	chrissySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Lalimimomimo"}
+		Value:    "Lali"}
 
 	chrissyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "克莉琪哩啦啦"}
+		Value:    "克莉琪"}
 )
 
 var (

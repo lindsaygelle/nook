@@ -25,51 +25,51 @@ var (
 
 	cobbCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Porkenandouille"}
+		Value:    "Porken"}
 
 	cobbDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cobbknakker"}
+		Value:    "Cobb"}
 
 	cobbFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Porkenandouille"}
+		Value:    "Porken"}
 
 	cobbGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Rolowürstel"}
+		Value:    "Rolo"}
 
 	cobbItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Wurstsalsicce"}
+		Value:    "Wurst"}
 
 	cobbJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ハカセでアール"}
+		Value:    "ハカセ"}
 
 	cobbKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "박사이노라"}
+		Value:    "박사"}
 
 	cobbLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Franfuásaperlipop"}
+		Value:    "Franfuá"}
 
 	cobbRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Коббсосиска"}
+		Value:    "Кобб"}
 
 	cobbSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "博士公亩"}
+		Value:    "博士"}
 
 	cobbSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Franfuásaperlipop"}
+		Value:    "Franfuá"}
 
 	cobbTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "博士公畝"}
+		Value:    "博士"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	poppyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Irèneabajoue"}
+		Value:    "Irène"}
 
 	poppyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Poppynootje"}
+		Value:    "Poppy"}
 
 	poppyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Irènescratchy"}
+		Value:    "Irène"}
 
 	poppyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tritanussi"}
+		Value:    "Trita"}
 
 	poppyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Granellasquittole"}
+		Value:    "Granella"}
 
 	poppyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "グミデス"}
+		Value:    "グミ"}
 
 	poppyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "다람도톨도톨"}
+		Value:    "다람"}
 
 	poppyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Encinanutinú"}
+		Value:    "Encina"}
 
 	poppyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Поппичок-чок"}
+		Value:    "Поппи"}
 
 	poppySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "软糖甜甜"}
+		Value:    "软糖"}
 
 	poppySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Encinaalbricias"}
+		Value:    "Encina"}
 
 	poppyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "軟糖甜甜"}
+		Value:    "軟糖"}
 )
 
 var (

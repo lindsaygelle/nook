@@ -25,51 +25,51 @@ var (
 
 	roccoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Bebelbabi"}
+		Value:    "Bebel"}
 
 	roccoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Roccohippo"}
+		Value:    "Rocco"}
 
 	roccoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Bebelbabi"}
+		Value:    "Bebel"}
 
 	roccoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Richipfffft"}
+		Value:    "Richi"}
 
 	roccoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Roccoipper"}
+		Value:    "Rocco"}
 
 	roccoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ゴンザレスだぎゃー"}
+		Value:    "ゴンザレス"}
 
 	roccoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "곤잘레스그러마"}
+		Value:    "곤잘레스"}
 
 	roccoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Rocohiponó"}
+		Value:    "Roco"}
 
 	roccoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Роккогиппи"}
+		Value:    "Рокко"}
 
 	roccoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "孔在来觉得是啦"}
+		Value:    "孔在来"}
 
 	roccoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Rocobatracio"}
+		Value:    "Roco"}
 
 	roccoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "孔在來覺得是啦"}
+		Value:    "孔在來"}
 )
 
 var (

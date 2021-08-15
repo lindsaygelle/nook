@@ -25,51 +25,51 @@ var (
 
 	pancettiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Lydiesabots"}
+		Value:    "Lydie"}
 
 	pancettiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Pancettikom kom"}
+		Value:    "Pancetti"}
 
 	pancettiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Lydiesabots"}
+		Value:    "Lydie"}
 
 	pancettiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Brigittegrubbel"}
+		Value:    "Brigitte"}
 
 	pancettiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cicciolagrufidù"}
+		Value:    "Cicciola"}
 
 	pancettiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ブリトニーやだも～"}
+		Value:    "ブリトニー"}
 
 	pancettiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "브리트니어우야"}
+		Value:    "브리트니"}
 
 	pancettiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Talíacuinoink"}
+		Value:    "Talía"}
 
 	pancettiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Панчеттихрюшка"}
+		Value:    "Панчетти"}
 
 	pancettiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "布兰妮讨厌啦"}
+		Value:    "布兰妮"}
 
 	pancettiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Talíamorrito"}
+		Value:    "Talía"}
 
 	pancettiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "布蘭妮討厭啦"}
+		Value:    "布蘭妮"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	chowCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Chulinlala"}
+		Value:    "Chulin"}
 
 	chowDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Chowkiai"}
+		Value:    "Chow"}
 
 	chowFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Chulinlala"}
+		Value:    "Chulin"}
 
 	chowGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Changhiijaa"}
+		Value:    "Chang"}
 
 	chowItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Chowchowehilà"}
+		Value:    "Chowchow"}
 
 	chowJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャウヤンアルヨ"}
+		Value:    "チャウヤン"}
 
 	chowKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "츄양그럼"}
+		Value:    "츄양"}
 
 	chowLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pandogrinchu"}
+		Value:    "Pando"}
 
 	chowRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Чауай-яй"}
+		Value:    "Чау"}
 
 	chowSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "朝阳有喔"}
+		Value:    "朝阳"}
 
 	chowSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pandoándale-oso"}
+		Value:    "Pando"}
 
 	chowTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "朝陽有喔"}
+		Value:    "朝陽"}
 )
 
 var (

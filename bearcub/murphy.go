@@ -25,51 +25,51 @@ var (
 
 	murphyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Eddiefait que"}
+		Value:    "Eddie"}
 
 	murphyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Murphyspruit"}
+		Value:    "Murphy"}
 
 	murphyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Eddiecanaille"}
+		Value:    "Eddie"}
 
 	murphyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Michaelliebelein"}
+		Value:    "Michael"}
 
 	murphyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Marcellogrizzel"}
+		Value:    "Marcello"}
 
 	murphyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "のりおですばい"}
+		Value:    "のりお"}
 
 	murphyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "머피샐리"}
+		Value:    "머피"}
 
 	murphyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Orsónheee"}
+		Value:    "Orsón"}
 
 	murphyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Мерфитоварищ"}
+		Value:    "Мерфи"}
 
 	murphySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "宪雄罢了"}
+		Value:    "宪雄"}
 
 	murphySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Orsónpelusita"}
+		Value:    "Orsón"}
 
 	murphyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "憲雄罷了"}
+		Value:    "憲雄"}
 )
 
 var (
@@ -101,7 +101,7 @@ var (
 var (
 	murphyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "laddiemalarkey"}
+		Value:    "laddie"}
 
 	murphyCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,

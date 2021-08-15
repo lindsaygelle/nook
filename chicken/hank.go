@@ -25,51 +25,51 @@ var (
 
 	hankCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hankDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hankFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Brucecocorico"}
+		Value:    "Bruce"}
 
 	hankGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Galiardobakbak"}
+		Value:    "Galiardo"}
 
 	hankItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pettoreboh boh"}
+		Value:    "Pettore"}
 
 	hankJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "タツたじゃん"}
+		Value:    "タツた"}
 
 	hankKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hankLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hankRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	hankSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "丁丁啾啾"}
+		Value:    "丁丁"}
 
 	hankSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Claudiococorico"}
+		Value:    "Claudio"}
 
 	hankTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

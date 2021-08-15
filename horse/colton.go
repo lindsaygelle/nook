@@ -25,51 +25,51 @@ var (
 
 	coltonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Tonyhue hue"}
+		Value:    "Tony"}
 
 	coltonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Coltonhortsik"}
+		Value:    "Colton"}
 
 	coltonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Tonyhue hue"}
+		Value:    "Tony"}
 
 	coltonGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Carstenhamham"}
+		Value:    "Carsten"}
 
 	coltonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Furiohiii"}
+		Value:    "Furio"}
 
 	coltonJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アンソニーごらんよ"}
+		Value:    "アンソニー"}
 
 	coltonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "안소니이거봐"}
+		Value:    "안소니"}
 
 	coltonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Furiojia"}
+		Value:    "Furio"}
 
 	coltonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Колтонглянь"}
+		Value:    "Колтон"}
 
 	coltonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "安索尼请看"}
+		Value:    "安索尼"}
 
 	coltonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Furiojia"}
+		Value:    "Furio"}
 
 	coltonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "安索尼請看"}
+		Value:    "安索尼"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	emeraldCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	emeraldDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	emeraldFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Émeraudesproiiing"}
+		Value:    "Émeraude"}
 
 	emeraldGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Emmaboioioing"}
+		Value:    "Emma"}
 
 	emeraldItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Smeraldaboing"}
+		Value:    "Smeralda"}
 
 	emeraldJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ケロミだケロ"}
+		Value:    "ケロミ"}
 
 	emeraldKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	emeraldLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	emeraldRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	emeraldSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "呱呱咕咕"}
+		Value:    "呱呱"}
 
 	emeraldSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Espeesproing"}
+		Value:    "Espe"}
 
 	emeraldTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

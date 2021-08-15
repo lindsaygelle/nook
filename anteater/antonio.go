@@ -25,51 +25,51 @@ var (
 
 	antonioCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Antoniopouet"}
+		Value:    "Antonio"}
 
 	antonioDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Antoniosnuit"}
+		Value:    "Antonio"}
 
 	antonioFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Antoniopouet"}
+		Value:    "Antonio"}
 
 	antonioGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Siggischlürrrf"}
+		Value:    "Siggi"}
 
 	antonioItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Antoniohonk"}
+		Value:    "Antonio"}
 
 	antonioJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マコトホントに"}
+		Value:    "マコト"}
 
 	antonioKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "퍼머거진짜로"}
+		Value:    "퍼머거"}
 
 	antonioLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Antoniofufuf"}
+		Value:    "Antonio"}
 
 	antonioRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Антониого-го-го"}
+		Value:    "Антонио"}
 
 	antonioSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阿诚真诚"}
+		Value:    "阿诚"}
 
 	antonioSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Antoniofufuf"}
+		Value:    "Antonio"}
 
 	antonioTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "阿誠真誠"}
+		Value:    "阿誠"}
 )
 
 var (

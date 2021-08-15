@@ -25,51 +25,51 @@ var (
 
 	kabukiCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Kabukimia-ouh"}
+		Value:    "Kabuki"}
 
 	kabukiDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Kabukimie-auw"}
+		Value:    "Kabuki"}
 
 	kabukiFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Kabukimia-ouh"}
+		Value:    "Kabuki"}
 
 	kabukiGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Kabukimiiiau"}
+		Value:    "Kabuki"}
 
 	kabukiItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Kabukimeooo-OH"}
+		Value:    "Kabuki"}
 
 	kabukiJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "かぶきちぃよぉー"}
+		Value:    "かぶきち"}
 
 	kabukiKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "가북희꺄"}
+		Value:    "가북희"}
 
 	kabukiLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Kabukiimikimono"}
+		Value:    "Kabuki"}
 
 	kabukiRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Кабукимя-я-яу"}
+		Value:    "Кабуки"}
 
 	kabukiSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "戈伍纪咦唷"}
+		Value:    "戈伍纪"}
 
 	kabukiSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Kabukiimikimono"}
+		Value:    "Kabuki"}
 
 	kabukiTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "戈伍紀咦唷"}
+		Value:    "戈伍紀"}
 )
 
 var (

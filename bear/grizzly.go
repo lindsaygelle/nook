@@ -25,51 +25,51 @@ var (
 
 	grizzlyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Grizzlycanaillou"}
+		Value:    "Grizzly"}
 
 	grizzlyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Grizzlygrrr"}
+		Value:    "Grizzly"}
 
 	grizzlyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Grizzlycanaillou"}
+		Value:    "Grizzly"}
 
 	grizzlyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Geraldgrrr"}
+		Value:    "Gerald"}
 
 	grizzlyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Grizzlygrrr"}
+		Value:    "Grizzly"}
 
 	grizzlyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ムーだクマ"}
+		Value:    "ムー"}
 
 	grizzlyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "무뚝냅둬"}
+		Value:    "무뚝"}
 
 	grizzlyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Gruñóngrrre"}
+		Value:    "Gruñón"}
 
 	grizzlyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гризлигрр"}
+		Value:    "Гризли"}
 
 	grizzlySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "穆穆熊熊"}
+		Value:    "穆穆"}
 
 	grizzlySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Gruñóntostón"}
+		Value:    "Gruñón"}
 
 	grizzlyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "穆穆熊熊"}
+		Value:    "穆穆"}
 )
 
 var (

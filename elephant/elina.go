@@ -25,51 +25,51 @@ var (
 
 	elinaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	elinaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	elinaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Fanfangarri"}
+		Value:    "Fanfan"}
 
 	elinaGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Elenazwerg"}
+		Value:    "Elena"}
 
 	elinaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Elliepesciolino"}
+		Value:    "Ellie"}
 
 	elinaJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビンディナマステ"}
+		Value:    "ビンディ"}
 
 	elinaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	elinaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	elinaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	elinaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "N/A"}
 
 	elinaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Elinacamarón"}
+		Value:    "Elina"}
 
 	elinaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

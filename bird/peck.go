@@ -25,51 +25,51 @@ var (
 
 	peckCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Pecpoupousse"}
+		Value:    "Pec"}
 
 	peckDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Peckwasbordje"}
+		Value:    "Peck"}
 
 	peckFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Pecpoupousse"}
+		Value:    "Pec"}
 
 	peckGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Pickoflatter"}
+		Value:    "Picko"}
 
 	peckItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Gheppiosprint"}
+		Value:    "Gheppio"}
 
 	peckJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ふみたろうブン"}
+		Value:    "ふみたろう"}
 
 	peckKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "문대츠츠츠"}
+		Value:    "문대"}
 
 	peckLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Picuetcachirp"}
+		Value:    "Picuet"}
 
 	peckRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Пектук-тук"}
+		Value:    "Пек"}
 
 	peckSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "文雄噗噗"}
+		Value:    "文雄"}
 
 	peckSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Picuetmuy fuerte"}
+		Value:    "Picuet"}
 
 	peckTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "文雄噗噗"}
+		Value:    "文雄"}
 )
 
 var (

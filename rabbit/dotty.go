@@ -25,51 +25,51 @@ var (
 
 	dottyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Dorothéelapinou"}
+		Value:    "Dorothée"}
 
 	dottyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Dottylamprei"}
+		Value:    "Dotty"}
 
 	dottyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Dorothéelapinou"}
+		Value:    "Dorothée"}
 
 	dottyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Dorouiui"}
+		Value:    "Doro"}
 
 	dottyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Dottycaroté"}
+		Value:    "Dotty"}
 
 	dottyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マーサラン"}
+		Value:    "マーサ"}
 
 	dottyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "서머룰루랄라"}
+		Value:    "서머"}
 
 	dottyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Katiatoini"}
+		Value:    "Katia"}
 
 	dottyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Доттималыш"}
+		Value:    "Дотти"}
 
 	dottySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "玛莎啷"}
+		Value:    "玛莎"}
 
 	dottySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Katiatrompis"}
+		Value:    "Katia"}
 
 	dottyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "瑪莎啷"}
+		Value:    "瑪莎"}
 )
 
 var (

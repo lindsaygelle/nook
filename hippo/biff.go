@@ -25,51 +25,51 @@ var (
 
 	biffCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Biffhips hips"}
+		Value:    "Biff"}
 
 	biffDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Biffspetter"}
+		Value:    "Biff"}
 
 	biffFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Biffhips hips"}
+		Value:    "Biff"}
 
 	biffGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Norbertskwiirt"}
+		Value:    "Norbert"}
 
 	biffItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pipposquirt"}
+		Value:    "Pippo"}
 
 	biffJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ガブリエルじゃけん"}
+		Value:    "ガブリエル"}
 
 	biffKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "가브리엘오도독"}
+		Value:    "가브리엘"}
 
 	biffLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Pipohipo-pipo"}
+		Value:    "Pipo"}
 
 	biffRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Биффмалек"}
+		Value:    "Бифф"}
 
 	biffSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "贾宝为因为"}
+		Value:    "贾宝为"}
 
 	biffSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Pipohipo-pipo"}
+		Value:    "Pipo"}
 
 	biffTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "賈寶為因為"}
+		Value:    "賈寶為"}
 )
 
 var (

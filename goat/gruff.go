@@ -25,51 +25,51 @@ var (
 
 	gruffCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Grognonhé bêêê"}
+		Value:    "Grognon"}
 
 	gruffDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Gruffmekker"}
+		Value:    "Gruff"}
 
 	gruffFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Grognonhé bêêê"}
+		Value:    "Grognon"}
 
 	gruffGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Gregormähmääh"}
+		Value:    "Gregor"}
 
 	gruffItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Capriolébleh eh"}
+		Value:    "Capriolé"}
 
 	gruffJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ビリーイェーイ"}
+		Value:    "ビリー"}
 
 	gruffKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "빌리예이예"}
+		Value:    "빌리"}
 
 	gruffLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sátiromeeeh"}
+		Value:    "Sátiro"}
 
 	gruffRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Граффме-хе-хе"}
+		Value:    "Графф"}
 
 	gruffSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "比利耶"}
+		Value:    "比利"}
 
 	gruffSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sátirozampoña"}
+		Value:    "Sátiro"}
 
 	gruffTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "比利耶"}
+		Value:    "比利"}
 )
 
 var (

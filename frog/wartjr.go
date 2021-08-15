@@ -25,51 +25,51 @@ var (
 
 	wartjrCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Crakoscroa-croa"}
+		Value:    "Crakos"}
 
 	wartjrDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Wart Jr.brulkikker"}
+		Value:    "Wart Jr."}
 
 	wartjrFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Crakoscroa-croa"}
+		Value:    "Crakos"}
 
 	wartjrGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Warzigrupap"}
+		Value:    "Warzi"}
 
 	wartjrItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Porrocracragnam"}
+		Value:    "Porro"}
 
 	wartjrJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "サムだぎゃ"}
+		Value:    "サム"}
 
 	wartjrKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "샘므흣"}
+		Value:    "샘"}
 
 	wartjrLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Saponciogrroac"}
+		Value:    "Saponcio"}
 
 	wartjrRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Варт-мл.ква-ква"}
+		Value:    "Варт-мл."}
 
 	wartjrSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "山姆山山"}
+		Value:    "山姆"}
 
 	wartjrSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Saponciogrroac"}
+		Value:    "Saponcio"}
 
 	wartjrTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "山姆山山"}
+		Value:    "山姆"}
 )
 
 var (

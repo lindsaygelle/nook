@@ -25,51 +25,51 @@ var (
 
 	vivianCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Vivianecrocroque"}
+		Value:    "Viviane"}
 
 	vivianDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Viviannonsens"}
+		Value:    "Vivian"}
 
 	vivianFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Vivianecrocroque"}
+		Value:    "Viviane"}
 
 	vivianGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Vivianescholli"}
+		Value:    "Viviane"}
 
 	vivianItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Vivianaarruuu"}
+		Value:    "Viviana"}
 
 	vivianJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヴァネッサだわよ"}
+		Value:    "ヴァネッサ"}
 
 	vivianKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "바네사그러하다"}
+		Value:    "바네사"}
 
 	vivianLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Vivianaaú-aú"}
+		Value:    "Viviana"}
 
 	vivianRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Вивьенвздор"}
+		Value:    "Вивьен"}
 
 	vivianSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "范妮沙喔呵呵"}
+		Value:    "范妮沙"}
 
 	vivianSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Vivianaaú-aú"}
+		Value:    "Viviana"}
 
 	vivianTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "范妮莎喔呵呵"}
+		Value:    "范妮莎"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	iggyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	iggyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	iggyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Cabrimon jojo"}
+		Value:    "Cabri"}
 
 	iggyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Georgkumpel"}
+		Value:    "Georg"}
 
 	iggyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Capricesalameee"}
+		Value:    "Caprice"}
 
 	iggyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "オトマツですじゃ"}
+		Value:    "オトマツ"}
 
 	iggyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	iggyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	iggyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	iggySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "炯炯Unknown"}
+		Value:    "炯炯"}
 
 	iggySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Montéscoleguiita"}
+		Value:    "Montés"}
 
 	iggyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

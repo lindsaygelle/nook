@@ -25,51 +25,51 @@ var (
 
 	otisCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	otisDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	otisFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Ottisj'pense"}
+		Value:    "Ottis"}
 
 	otisGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Ottodenk ich"}
+		Value:    "Otto"}
 
 	otisItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Pablotuitcì"}
+		Value:    "Pablo"}
 
 	otisJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "たくあんなのじゃ"}
+		Value:    "たくあん"}
 
 	otisKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	otisLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	otisRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	otisSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "长老神说"}
+		Value:    "长老"}
 
 	otisSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Otodigo"}
+		Value:    "Oto"}
 
 	otisTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (

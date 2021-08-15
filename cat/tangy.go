@@ -25,51 +25,51 @@ var (
 
 	tangyCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "MarineroooaR"}
+		Value:    "Marine"}
 
 	tangyDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Tangysinas"}
+		Value:    "Tangy"}
 
 	tangyFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "MarineroooaR"}
+		Value:    "Marine"}
 
 	tangyGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tanjagrraul"}
+		Value:    "Tanja"}
 
 	tangyItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "ArancinamiiiiaOU"}
+		Value:    "Arancina"}
 
 	tangyJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ヒャクパーみかん"}
+		Value:    "ヒャクパー"}
 
 	tangyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "백프로귤귤"}
+		Value:    "백프로"}
 
 	tangyLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Triciamirriau"}
+		Value:    "Tricia"}
 
 	tangyRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Тэнджифруктик"}
+		Value:    "Тэнджи"}
 
 	tangySimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "纯纯蜜柑"}
+		Value:    "纯纯"}
 
 	tangySpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Triciamandarinas"}
+		Value:    "Tricia"}
 
 	tangyTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "純純蜜柑"}
+		Value:    "純純"}
 )
 
 var (

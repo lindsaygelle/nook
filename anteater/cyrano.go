@@ -25,51 +25,51 @@ var (
 
 	cyranoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "CyranoATCHOUM"}
+		Value:    "Cyrano"}
 
 	cyranoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cyranoha-TSJOE"}
+		Value:    "Cyrano"}
 
 	cyranoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "CyranoATCHOUM"}
+		Value:    "Cyrano"}
 
 	cyranoGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Theoschneuf"}
+		Value:    "Theo"}
 
 	cyranoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Ciranoett-CCIÙ"}
+		Value:    "Cirano"}
 
 	cyranoJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "さくらじまでごわす"}
+		Value:    "さくらじま"}
 
 	cyranoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "사지마임돠"}
+		Value:    "사지마"}
 
 	cyranoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Ciranoachús"}
+		Value:    "Cirano"}
 
 	cyranoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Сираноапчхи"}
+		Value:    "Сирано"}
 
 	cyranoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "阳明有的"}
+		Value:    "阳明"}
 
 	cyranoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Ciranoachús"}
+		Value:    "Cirano"}
 
 	cyranoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "陽明有的"}
+		Value:    "陽明"}
 )
 
 var (

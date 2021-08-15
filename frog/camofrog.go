@@ -25,51 +25,51 @@ var (
 
 	camofrogCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Miloskaki"}
+		Value:    "Milos"}
 
 	camofrogDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Camofroggeef acht"}
+		Value:    "Camofrog"}
 
 	camofrogFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Milostaïaut"}
+		Value:    "Milos"}
 
 	camofrogGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Tarnoquak-quak"}
+		Value:    "Tarno"}
 
 	camofrogItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Cramboattacroak"}
+		Value:    "Crambo"}
 
 	camofrogJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "フルメタルわい"}
+		Value:    "フルメタル"}
 
 	camofrogKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "충성와이"}
+		Value:    "충성"}
 
 	camofrogLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Comandocroooa"}
+		Value:    "Comando"}
 
 	camofrogRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Камофрогшагом-квак"}
+		Value:    "Камофрог"}
 
 	camofrogSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "迷仔喂"}
+		Value:    "迷仔"}
 
 	camofrogSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Comandorecluta"}
+		Value:    "Comando"}
 
 	camofrogTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "迷仔喂"}
+		Value:    "迷仔"}
 )
 
 var (

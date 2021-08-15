@@ -25,51 +25,51 @@ var (
 
 	hippeuxCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Paulitotam-tam"}
+		Value:    "Paulito"}
 
 	hippeuxDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Hippeuxtuurlijk"}
+		Value:    "Hippeux"}
 
 	hippeuxFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Paulitotam-tam"}
+		Value:    "Paulito"}
 
 	hippeuxGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Herberthipphipp"}
+		Value:    "Herbert"}
 
 	hippeuxItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Poppyvale"}
+		Value:    "Poppy"}
 
 	hippeuxJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "ディビッドイェス"}
+		Value:    "ディビッド"}
 
 	hippeuxKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "데이빗예스"}
+		Value:    "데이빗"}
 
 	hippeuxLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Hipóleochofchof"}
+		Value:    "Hipóleo"}
 
 	hippeuxRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Гиппоестессно"}
+		Value:    "Гиппо"}
 
 	hippeuxSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "戴维Yes"}
+		Value:    "戴维"}
 
 	hippeuxSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Hipóleochofchof"}
+		Value:    "Hipóleo"}
 
 	hippeuxTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "戴維Yes"}
+		Value:    "戴維"}
 )
 
 var (

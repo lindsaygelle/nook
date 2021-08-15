@@ -25,51 +25,51 @@ var (
 
 	winnieCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Anneyoup là"}
+		Value:    "Anne"}
 
 	winnieDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Winnieknol"}
+		Value:    "Winnie"}
 
 	winnieFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Anneyoup là"}
+		Value:    "Anne"}
 
 	winnieGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Walliheu-ja"}
+		Value:    "Walli"}
 
 	winnieItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Clarabiadina"}
+		Value:    "Clara"}
 
 	winnieJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "マキバスターみゃあ"}
+		Value:    "マキバスター"}
 
 	winnieKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "카로틴당근당근"}
+		Value:    "카로틴"}
 
 	winnieLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Sooniaokeimakei"}
+		Value:    "Soonia"}
 
 	winnieRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Виннитык-дык"}
+		Value:    "Винни"}
 
 	winnieSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "马星星嘶嘶"}
+		Value:    "马星星"}
 
 	winnieSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Sooniaokeimakei"}
+		Value:    "Soonia"}
 
 	winnieTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "馬星星嘶嘶"}
+		Value:    "馬星星"}
 )
 
 var (

@@ -25,51 +25,51 @@ var (
 
 	cheriCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    "Rosalietralala"}
+		Value:    "Rosalie"}
 
 	cheriDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    "Cheritralala"}
+		Value:    "Cheri"}
 
 	cheriFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Rosalietralala"}
+		Value:    "Rosalie"}
 
 	cheriGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Claudiatralala"}
+		Value:    "Claudia"}
 
 	cheriItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Bonbontrallalà"}
+		Value:    "Bonbon"}
 
 	cheriJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "アセロラなんてね"}
+		Value:    "アセロラ"}
 
 	cheriKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    "아세로라어쩜이래"}
+		Value:    "아세로라"}
 
 	cheriLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    "Cerecitatralará"}
+		Value:    "Cerecita"}
 
 	cheriRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    "Шеритра-ля-ля"}
+		Value:    "Шери"}
 
 	cheriSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "樱桃开玩笑的"}
+		Value:    "樱桃"}
 
 	cheriSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Cerecitatralará"}
+		Value:    "Cerecita"}
 
 	cheriTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "櫻桃開玩笑的"}
+		Value:    "櫻桃"}
 )
 
 var (

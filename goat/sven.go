@@ -25,51 +25,51 @@ var (
 
 	svenCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "N/A"}
 
 	svenDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "N/A"}
 
 	svenFrenchName = nook.Name{
 		Language: language.French,
-		Value:    "Svenbeuh-heu"}
+		Value:    "Sven"}
 
 	svenGermanName = nook.Name{
 		Language: language.German,
-		Value:    "Svenmoooh"}
+		Value:    "Sven"}
 
 	svenItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    "Giacobbebee eh"}
+		Value:    "Giacobbe"}
 
 	svenJapaneseName = nook.Name{
 		Language: language.Japanese,
-		Value:    "チャマジとほほ"}
+		Value:    "チャマジ"}
 
 	svenKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "N/A"}
 
 	svenLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "N/A"}
 
 	svenRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "N/A"}
 
 	svenSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    "伯伯活活"}
+		Value:    "伯伯"}
 
 	svenSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    "Svenbuuueeeeh"}
+		Value:    "Sven"}
 
 	svenTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "N/A"}
 )
 
 var (
