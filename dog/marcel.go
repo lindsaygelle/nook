@@ -1,0 +1,177 @@
+package dog
+
+import (
+	"time"
+
+	"github.com/lindsaygelle/nook"
+	"golang.org/x/text/language"
+)
+
+var (
+	marcelBirthday = nook.Birthday{
+		Day:   31,
+		Month: time.December}
+)
+
+var (
+	marcelCode = nook.Code{
+		Value: "dog15"}
+)
+
+var (
+	marcelAmericanEnglishName = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "Marcel"}
+
+	marcelCanadianFrenchName = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "Ismaëlmiaouf"}
+
+	marcelDutchName = nook.Name{
+		Language: language.Dutch,
+		Value:    "Marcelmais non"}
+
+	marcelFrenchName = nook.Name{
+		Language: language.French,
+		Value:    "Ismaëlmiaouf"}
+
+	marcelGermanName = nook.Name{
+		Language: language.German,
+		Value:    "Ronaldotusch"}
+
+	marcelItalianName = nook.Name{
+		Language: language.Italian,
+		Value:    "Giosuèsnif snif"}
+
+	marcelJapaneseName = nook.Name{
+		Language: language.Japanese,
+		Value:    "もんじゃなんじゃ"}
+
+	marcelKoreanName = nook.Name{
+		Language: language.Korean,
+		Value:    "에드워드하옵소서"}
+
+	marcelLatinAmericanSpanishName = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "Etonenonó"}
+
+	marcelRussianName = nook.Name{
+		Language: language.Russian,
+		Value:    "Марсельау-уи"}
+
+	marcelSimplifiedChineseName = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "文字烧什么字"}
+
+	marcelSpanishName = nook.Name{
+		Language: language.Spanish,
+		Value:    "Etocolmillos"}
+
+	marcelTraditionalChineseName = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "文字燒什麼字"}
+)
+
+var (
+	marcelName = nook.Languages{
+		language.AmericanEnglish:      marcelAmericanEnglishName,
+		language.CanadianFrench:       marcelCanadianFrenchName,
+		language.Dutch:                marcelDutchName,
+		language.French:               marcelFrenchName,
+		language.German:               marcelGermanName,
+		language.Italian:              marcelItalianName,
+		language.Japanese:             marcelJapaneseName,
+		language.Korean:               marcelKoreanName,
+		language.LatinAmericanSpanish: marcelLatinAmericanSpanishName,
+		language.Russian:              marcelRussianName,
+		language.SimplifiedChinese:    marcelSimplifiedChineseName,
+		language.Spanish:              marcelSpanishName,
+		language.TraditionalChinese:   marcelTraditionalChineseName}
+)
+
+var (
+	marcelCharacter = nook.Character{
+		Animal:   Dog,
+		Birthday: marcelBirthday,
+		Code:     marcelCode,
+		Gender:   nook.Male,
+		Name:     marcelName}
+)
+
+var (
+	marcelAmericanEnglishPhrase = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "non"}
+
+	marcelCanadianFrenchPhrase = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "miaouf"}
+
+	marcelDutchPhrase = nook.Name{
+		Language: language.Dutch,
+		Value:    "mais non"}
+
+	marcelFrenchPhrase = nook.Name{
+		Language: language.French,
+		Value:    "miaouf"}
+
+	marcelGermanPhrase = nook.Name{
+		Language: language.German,
+		Value:    "tusch"}
+
+	marcelItalianPhrase = nook.Name{
+		Language: language.Italian,
+		Value:    "snif snif"}
+
+	marcelJapanesePhrase = nook.Name{
+		Language: language.Japanese,
+		Value:    "なんじゃ"}
+
+	marcelKoreanPhrase = nook.Name{
+		Language: language.Korean,
+		Value:    "하옵소서"}
+
+	marcelLatinAmericanSpanishPhrase = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "nenonó"}
+
+	marcelRussianPhrase = nook.Name{
+		Language: language.Russian,
+		Value:    "ау-уи"}
+
+	marcelSimplifiedChinesePhrase = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "什么字"}
+
+	marcelSpanishPhrase = nook.Name{
+		Language: language.Spanish,
+		Value:    "colmillos"}
+
+	marcelTraditionalChinesePhrase = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "什麼字"}
+)
+
+var (
+	marcelPhrase = nook.Languages{
+		language.AmericanEnglish:      marcelAmericanEnglishName,
+		language.CanadianFrench:       marcelCanadianFrenchName,
+		language.Dutch:                marcelDutchName,
+		language.French:               marcelFrenchName,
+		language.German:               marcelGermanName,
+		language.Italian:              marcelItalianName,
+		language.Japanese:             marcelJapaneseName,
+		language.Korean:               marcelKoreanName,
+		language.LatinAmericanSpanish: marcelLatinAmericanSpanishName,
+		language.Russian:              marcelRussianName,
+		language.SimplifiedChinese:    marcelSimplifiedChineseName,
+		language.Spanish:              marcelSpanishName,
+		language.TraditionalChinese:   marcelTraditionalChineseName}
+)
+
+var (
+	Marcel = nook.Villager{
+		Character:   marcelCharacter,
+		Personality: nook.Lazy,
+		Phrase:      marcelPhrase}
+)

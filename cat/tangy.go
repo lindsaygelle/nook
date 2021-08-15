@@ -1,0 +1,177 @@
+package cat
+
+import (
+	"time"
+
+	"github.com/lindsaygelle/nook"
+	"golang.org/x/text/language"
+)
+
+var (
+	tangyBirthday = nook.Birthday{
+		Day:   17,
+		Month: time.June}
+)
+
+var (
+	tangyCode = nook.Code{
+		Value: "cat05"}
+)
+
+var (
+	tangyAmericanEnglishName = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "Tangy"}
+
+	tangyCanadianFrenchName = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "MarineroooaR"}
+
+	tangyDutchName = nook.Name{
+		Language: language.Dutch,
+		Value:    "Tangysinas"}
+
+	tangyFrenchName = nook.Name{
+		Language: language.French,
+		Value:    "MarineroooaR"}
+
+	tangyGermanName = nook.Name{
+		Language: language.German,
+		Value:    "Tanjagrraul"}
+
+	tangyItalianName = nook.Name{
+		Language: language.Italian,
+		Value:    "ArancinamiiiiaOU"}
+
+	tangyJapaneseName = nook.Name{
+		Language: language.Japanese,
+		Value:    "ヒャクパーみかん"}
+
+	tangyKoreanName = nook.Name{
+		Language: language.Korean,
+		Value:    "백프로귤귤"}
+
+	tangyLatinAmericanSpanishName = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "Triciamirriau"}
+
+	tangyRussianName = nook.Name{
+		Language: language.Russian,
+		Value:    "Тэнджифруктик"}
+
+	tangySimplifiedChineseName = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "纯纯蜜柑"}
+
+	tangySpanishName = nook.Name{
+		Language: language.Spanish,
+		Value:    "Triciamandarinas"}
+
+	tangyTraditionalChineseName = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "純純蜜柑"}
+)
+
+var (
+	tangyName = nook.Languages{
+		language.AmericanEnglish:      tangyAmericanEnglishName,
+		language.CanadianFrench:       tangyCanadianFrenchName,
+		language.Dutch:                tangyDutchName,
+		language.French:               tangyFrenchName,
+		language.German:               tangyGermanName,
+		language.Italian:              tangyItalianName,
+		language.Japanese:             tangyJapaneseName,
+		language.Korean:               tangyKoreanName,
+		language.LatinAmericanSpanish: tangyLatinAmericanSpanishName,
+		language.Russian:              tangyRussianName,
+		language.SimplifiedChinese:    tangySimplifiedChineseName,
+		language.Spanish:              tangySpanishName,
+		language.TraditionalChinese:   tangyTraditionalChineseName}
+)
+
+var (
+	tangyCharacter = nook.Character{
+		Animal:   Cat,
+		Birthday: tangyBirthday,
+		Code:     tangyCode,
+		Gender:   nook.Female,
+		Name:     tangyName}
+)
+
+var (
+	tangyAmericanEnglishPhrase = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "reeeeOWR"}
+
+	tangyCanadianFrenchPhrase = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "roooaR"}
+
+	tangyDutchPhrase = nook.Name{
+		Language: language.Dutch,
+		Value:    "sinas"}
+
+	tangyFrenchPhrase = nook.Name{
+		Language: language.French,
+		Value:    "roooaR"}
+
+	tangyGermanPhrase = nook.Name{
+		Language: language.German,
+		Value:    "grraul"}
+
+	tangyItalianPhrase = nook.Name{
+		Language: language.Italian,
+		Value:    "miiiiaOU"}
+
+	tangyJapanesePhrase = nook.Name{
+		Language: language.Japanese,
+		Value:    "みかん"}
+
+	tangyKoreanPhrase = nook.Name{
+		Language: language.Korean,
+		Value:    "귤귤"}
+
+	tangyLatinAmericanSpanishPhrase = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "mirriau"}
+
+	tangyRussianPhrase = nook.Name{
+		Language: language.Russian,
+		Value:    "фруктик"}
+
+	tangySimplifiedChinesePhrase = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "蜜柑"}
+
+	tangySpanishPhrase = nook.Name{
+		Language: language.Spanish,
+		Value:    "mandarinas"}
+
+	tangyTraditionalChinesePhrase = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "蜜柑"}
+)
+
+var (
+	tangyPhrase = nook.Languages{
+		language.AmericanEnglish:      tangyAmericanEnglishName,
+		language.CanadianFrench:       tangyCanadianFrenchName,
+		language.Dutch:                tangyDutchName,
+		language.French:               tangyFrenchName,
+		language.German:               tangyGermanName,
+		language.Italian:              tangyItalianName,
+		language.Japanese:             tangyJapaneseName,
+		language.Korean:               tangyKoreanName,
+		language.LatinAmericanSpanish: tangyLatinAmericanSpanishName,
+		language.Russian:              tangyRussianName,
+		language.SimplifiedChinese:    tangySimplifiedChineseName,
+		language.Spanish:              tangySpanishName,
+		language.TraditionalChinese:   tangyTraditionalChineseName}
+)
+
+var (
+	Tangy = nook.Villager{
+		Character:   tangyCharacter,
+		Personality: nook.Peppy,
+		Phrase:      tangyPhrase}
+)

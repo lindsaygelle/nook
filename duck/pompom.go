@@ -1,0 +1,177 @@
+package duck
+
+import (
+	"time"
+
+	"github.com/lindsaygelle/nook"
+	"golang.org/x/text/language"
+)
+
+var (
+	pompomBirthday = nook.Birthday{
+		Day:   11,
+		Month: time.February}
+)
+
+var (
+	pompomCode = nook.Code{
+		Value: "duk05"}
+)
+
+var (
+	pompomAmericanEnglishName = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "Pompom"}
+
+	pompomCanadianFrenchName = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "Pomponrah rah"}
+
+	pompomDutchName = nook.Name{
+		Language: language.Dutch,
+		Value:    "Pompomhup hup"}
+
+	pompomFrenchName = nook.Name{
+		Language: language.French,
+		Value:    "Pomponrah rah"}
+
+	pompomGermanName = nook.Name{
+		Language: language.German,
+		Value:    "Erikakrah"}
+
+	pompomItalianName = nook.Name{
+		Language: language.Italian,
+		Value:    "Ericaquoquiquà"}
+
+	pompomJapaneseName = nook.Name{
+		Language: language.Japanese,
+		Value:    "のりっぺだっピ"}
+
+	pompomKoreanName = nook.Name{
+		Language: language.Korean,
+		Value:    "주디다삐"}
+
+	pompomLatinAmericanSpanishName = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "Flopira-rá"}
+
+	pompomRussianName = nook.Name{
+		Language: language.Russian,
+		Value:    "Помпомкрякушки"}
+
+	pompomSimplifiedChineseName = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "海苔裴裴裴"}
+
+	pompomSpanishName = nook.Name{
+		Language: language.Spanish,
+		Value:    "Flopisinplumas"}
+
+	pompomTraditionalChineseName = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "海苔裴裴裴"}
+)
+
+var (
+	pompomName = nook.Languages{
+		language.AmericanEnglish:      pompomAmericanEnglishName,
+		language.CanadianFrench:       pompomCanadianFrenchName,
+		language.Dutch:                pompomDutchName,
+		language.French:               pompomFrenchName,
+		language.German:               pompomGermanName,
+		language.Italian:              pompomItalianName,
+		language.Japanese:             pompomJapaneseName,
+		language.Korean:               pompomKoreanName,
+		language.LatinAmericanSpanish: pompomLatinAmericanSpanishName,
+		language.Russian:              pompomRussianName,
+		language.SimplifiedChinese:    pompomSimplifiedChineseName,
+		language.Spanish:              pompomSpanishName,
+		language.TraditionalChinese:   pompomTraditionalChineseName}
+)
+
+var (
+	pompomCharacter = nook.Character{
+		Animal:   Duck,
+		Birthday: pompomBirthday,
+		Code:     pompomCode,
+		Gender:   nook.Female,
+		Name:     pompomName}
+)
+
+var (
+	pompomAmericanEnglishPhrase = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "rah rah"}
+
+	pompomCanadianFrenchPhrase = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "rah rah"}
+
+	pompomDutchPhrase = nook.Name{
+		Language: language.Dutch,
+		Value:    "hup hup"}
+
+	pompomFrenchPhrase = nook.Name{
+		Language: language.French,
+		Value:    "rah rah"}
+
+	pompomGermanPhrase = nook.Name{
+		Language: language.German,
+		Value:    "krah"}
+
+	pompomItalianPhrase = nook.Name{
+		Language: language.Italian,
+		Value:    "quoquiquà"}
+
+	pompomJapanesePhrase = nook.Name{
+		Language: language.Japanese,
+		Value:    "だっピ"}
+
+	pompomKoreanPhrase = nook.Name{
+		Language: language.Korean,
+		Value:    "다삐"}
+
+	pompomLatinAmericanSpanishPhrase = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "ra-rá"}
+
+	pompomRussianPhrase = nook.Name{
+		Language: language.Russian,
+		Value:    "крякушки"}
+
+	pompomSimplifiedChinesePhrase = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "裴裴"}
+
+	pompomSpanishPhrase = nook.Name{
+		Language: language.Spanish,
+		Value:    "sinplumas"}
+
+	pompomTraditionalChinesePhrase = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "裴裴"}
+)
+
+var (
+	pompomPhrase = nook.Languages{
+		language.AmericanEnglish:      pompomAmericanEnglishName,
+		language.CanadianFrench:       pompomCanadianFrenchName,
+		language.Dutch:                pompomDutchName,
+		language.French:               pompomFrenchName,
+		language.German:               pompomGermanName,
+		language.Italian:              pompomItalianName,
+		language.Japanese:             pompomJapaneseName,
+		language.Korean:               pompomKoreanName,
+		language.LatinAmericanSpanish: pompomLatinAmericanSpanishName,
+		language.Russian:              pompomRussianName,
+		language.SimplifiedChinese:    pompomSimplifiedChineseName,
+		language.Spanish:              pompomSpanishName,
+		language.TraditionalChinese:   pompomTraditionalChineseName}
+)
+
+var (
+	Pompom = nook.Villager{
+		Character:   pompomCharacter,
+		Personality: nook.Peppy,
+		Phrase:      pompomPhrase}
+)

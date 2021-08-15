@@ -1,0 +1,177 @@
+package frog
+
+import (
+	"time"
+
+	"github.com/lindsaygelle/nook"
+	"golang.org/x/text/language"
+)
+
+var (
+	jambetteBirthday = nook.Birthday{
+		Day:   27,
+		Month: time.October}
+)
+
+var (
+	jambetteCode = nook.Code{
+		Value: "flg13"}
+)
+
+var (
+	jambetteAmericanEnglishName = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "Jambette"}
+
+	jambetteCanadianFrenchName = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "Gambettequoi"}
+
+	jambetteDutchName = nook.Name{
+		Language: language.Dutch,
+		Value:    "Jambetteinderkwaak"}
+
+	jambetteFrenchName = nook.Name{
+		Language: language.French,
+		Value:    "Gambettequoi"}
+
+	jambetteGermanName = nook.Name{
+		Language: language.German,
+		Value:    "Jeanettequaacki"}
+
+	jambetteItalianName = nook.Name{
+		Language: language.Italian,
+		Value:    "Giadacrok-ok"}
+
+	jambetteJapaneseName = nook.Name{
+		Language: language.Japanese,
+		Value:    "エスメラルダですわよ"}
+
+	jambetteKoreanName = nook.Name{
+		Language: language.Korean,
+		Value:    "에스메랄다쪼오옥"}
+
+	jambetteLatinAmericanSpanishName = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "Anquitacroac"}
+
+	jambetteRussianName = nook.Name{
+		Language: language.Russian,
+		Value:    "Джембеткво-кей"}
+
+	jambetteSimplifiedChineseName = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "翡翠是蛙"}
+
+	jambetteSpanishName = nook.Name{
+		Language: language.Spanish,
+		Value:    "Anquitacroac"}
+
+	jambetteTraditionalChineseName = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "翡翠是蛙"}
+)
+
+var (
+	jambetteName = nook.Languages{
+		language.AmericanEnglish:      jambetteAmericanEnglishName,
+		language.CanadianFrench:       jambetteCanadianFrenchName,
+		language.Dutch:                jambetteDutchName,
+		language.French:               jambetteFrenchName,
+		language.German:               jambetteGermanName,
+		language.Italian:              jambetteItalianName,
+		language.Japanese:             jambetteJapaneseName,
+		language.Korean:               jambetteKoreanName,
+		language.LatinAmericanSpanish: jambetteLatinAmericanSpanishName,
+		language.Russian:              jambetteRussianName,
+		language.SimplifiedChinese:    jambetteSimplifiedChineseName,
+		language.Spanish:              jambetteSpanishName,
+		language.TraditionalChinese:   jambetteTraditionalChineseName}
+)
+
+var (
+	jambetteCharacter = nook.Character{
+		Animal:   Frog,
+		Birthday: jambetteBirthday,
+		Code:     jambetteCode,
+		Gender:   nook.Female,
+		Name:     jambetteName}
+)
+
+var (
+	jambetteAmericanEnglishPhrase = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "croak-kay"}
+
+	jambetteCanadianFrenchPhrase = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "quoi"}
+
+	jambetteDutchPhrase = nook.Name{
+		Language: language.Dutch,
+		Value:    "inderkwaak"}
+
+	jambetteFrenchPhrase = nook.Name{
+		Language: language.French,
+		Value:    "quoi"}
+
+	jambetteGermanPhrase = nook.Name{
+		Language: language.German,
+		Value:    "quaacki"}
+
+	jambetteItalianPhrase = nook.Name{
+		Language: language.Italian,
+		Value:    "crok-ok"}
+
+	jambetteJapanesePhrase = nook.Name{
+		Language: language.Japanese,
+		Value:    "ですわよ"}
+
+	jambetteKoreanPhrase = nook.Name{
+		Language: language.Korean,
+		Value:    "쪼오옥"}
+
+	jambetteLatinAmericanSpanishPhrase = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "croac"}
+
+	jambetteRussianPhrase = nook.Name{
+		Language: language.Russian,
+		Value:    "кво-кей"}
+
+	jambetteSimplifiedChinesePhrase = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "是蛙"}
+
+	jambetteSpanishPhrase = nook.Name{
+		Language: language.Spanish,
+		Value:    "croac"}
+
+	jambetteTraditionalChinesePhrase = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "是蛙"}
+)
+
+var (
+	jambettePhrase = nook.Languages{
+		language.AmericanEnglish:      jambetteAmericanEnglishName,
+		language.CanadianFrench:       jambetteCanadianFrenchName,
+		language.Dutch:                jambetteDutchName,
+		language.French:               jambetteFrenchName,
+		language.German:               jambetteGermanName,
+		language.Italian:              jambetteItalianName,
+		language.Japanese:             jambetteJapaneseName,
+		language.Korean:               jambetteKoreanName,
+		language.LatinAmericanSpanish: jambetteLatinAmericanSpanishName,
+		language.Russian:              jambetteRussianName,
+		language.SimplifiedChinese:    jambetteSimplifiedChineseName,
+		language.Spanish:              jambetteSpanishName,
+		language.TraditionalChinese:   jambetteTraditionalChineseName}
+)
+
+var (
+	Jambette = nook.Villager{
+		Character:   jambetteCharacter,
+		Personality: nook.Normal,
+		Phrase:      jambettePhrase}
+)

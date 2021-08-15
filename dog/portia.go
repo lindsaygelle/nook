@@ -1,0 +1,177 @@
+package dog
+
+import (
+	"time"
+
+	"github.com/lindsaygelle/nook"
+	"golang.org/x/text/language"
+)
+
+var (
+	portiaBirthday = nook.Birthday{
+		Day:   25,
+		Month: time.October}
+)
+
+var (
+	portiaCode = nook.Code{
+		Value: "dog05"}
+)
+
+var (
+	portiaAmericanEnglishName = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "Portia"}
+
+	portiaCanadianFrenchName = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "Dalmabrute"}
+
+	portiaDutchName = nook.Name{
+		Language: language.Dutch,
+		Value:    "Portiakeffer"}
+
+	portiaFrenchName = nook.Name{
+		Language: language.French,
+		Value:    "Dalmabrute"}
+
+	portiaGermanName = nook.Name{
+		Language: language.German,
+		Value:    "Isoldefrechi"}
+
+	portiaItalianName = nook.Name{
+		Language: language.Italian,
+		Value:    "Porziaronfietto"}
+
+	portiaJapaneseName = nook.Name{
+		Language: language.Japanese,
+		Value:    "ブレンダフンッ"}
+
+	portiaKoreanName = nook.Name{
+		Language: language.Korean,
+		Value:    "블랜더흥"}
+
+	portiaLatinAmericanSpanishName = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "Amandaruf-ruf"}
+
+	portiaRussianName = nook.Name{
+		Language: language.Russian,
+		Value:    "Порциятяв-ряв"}
+
+	portiaSimplifiedChineseName = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "傅兰屋屋"}
+
+	portiaSpanishName = nook.Name{
+		Language: language.Spanish,
+		Value:    "Amandaruf-ruf"}
+
+	portiaTraditionalChineseName = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "傅蘭屋屋"}
+)
+
+var (
+	portiaName = nook.Languages{
+		language.AmericanEnglish:      portiaAmericanEnglishName,
+		language.CanadianFrench:       portiaCanadianFrenchName,
+		language.Dutch:                portiaDutchName,
+		language.French:               portiaFrenchName,
+		language.German:               portiaGermanName,
+		language.Italian:              portiaItalianName,
+		language.Japanese:             portiaJapaneseName,
+		language.Korean:               portiaKoreanName,
+		language.LatinAmericanSpanish: portiaLatinAmericanSpanishName,
+		language.Russian:              portiaRussianName,
+		language.SimplifiedChinese:    portiaSimplifiedChineseName,
+		language.Spanish:              portiaSpanishName,
+		language.TraditionalChinese:   portiaTraditionalChineseName}
+)
+
+var (
+	portiaCharacter = nook.Character{
+		Animal:   Dog,
+		Birthday: portiaBirthday,
+		Code:     portiaCode,
+		Gender:   nook.Female,
+		Name:     portiaName}
+)
+
+var (
+	portiaAmericanEnglishPhrase = nook.Name{
+		Language: language.AmericanEnglish,
+		Value:    "ruffian"}
+
+	portiaCanadianFrenchPhrase = nook.Name{
+		Language: language.CanadianFrench,
+		Value:    "brute"}
+
+	portiaDutchPhrase = nook.Name{
+		Language: language.Dutch,
+		Value:    "keffer"}
+
+	portiaFrenchPhrase = nook.Name{
+		Language: language.French,
+		Value:    "brute"}
+
+	portiaGermanPhrase = nook.Name{
+		Language: language.German,
+		Value:    "frechi"}
+
+	portiaItalianPhrase = nook.Name{
+		Language: language.Italian,
+		Value:    "ronfietto"}
+
+	portiaJapanesePhrase = nook.Name{
+		Language: language.Japanese,
+		Value:    "フンッ"}
+
+	portiaKoreanPhrase = nook.Name{
+		Language: language.Korean,
+		Value:    "흥"}
+
+	portiaLatinAmericanSpanishPhrase = nook.Name{
+		Language: language.LatinAmericanSpanish,
+		Value:    "ruf-ruf"}
+
+	portiaRussianPhrase = nook.Name{
+		Language: language.Russian,
+		Value:    "тяв-ряв"}
+
+	portiaSimplifiedChinesePhrase = nook.Name{
+		Language: language.SimplifiedChinese,
+		Value:    "屋屋"}
+
+	portiaSpanishPhrase = nook.Name{
+		Language: language.Spanish,
+		Value:    "ruf-ruf"}
+
+	portiaTraditionalChinesePhrase = nook.Name{
+		Language: language.TraditionalChinese,
+		Value:    "屋屋"}
+)
+
+var (
+	portiaPhrase = nook.Languages{
+		language.AmericanEnglish:      portiaAmericanEnglishName,
+		language.CanadianFrench:       portiaCanadianFrenchName,
+		language.Dutch:                portiaDutchName,
+		language.French:               portiaFrenchName,
+		language.German:               portiaGermanName,
+		language.Italian:              portiaItalianName,
+		language.Japanese:             portiaJapaneseName,
+		language.Korean:               portiaKoreanName,
+		language.LatinAmericanSpanish: portiaLatinAmericanSpanishName,
+		language.Russian:              portiaRussianName,
+		language.SimplifiedChinese:    portiaSimplifiedChineseName,
+		language.Spanish:              portiaSpanishName,
+		language.TraditionalChinese:   portiaTraditionalChineseName}
+)
+
+var (
+	Portia = nook.Villager{
+		Character:   portiaCharacter,
+		Personality: nook.Snooty,
+		Phrase:      portiaPhrase}
+)
