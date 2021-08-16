@@ -6,6 +6,7 @@ type Code struct {
 	Value string
 }
 
+// Ok returns a boolean indicating whether the Code information is complete.
 func (v Code) Ok() bool {
 	return v.Value != ""
 }

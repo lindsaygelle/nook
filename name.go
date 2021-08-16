@@ -8,6 +8,7 @@ type Name struct {
 	Value    string
 }
 
+// Ok returns a boolean indicating whether the Name information is complete.
 func (v Name) Ok() bool {
 	return v.Value != ""
 }

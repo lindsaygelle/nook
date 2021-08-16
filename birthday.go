@@ -10,6 +10,7 @@ type Birthday struct {
 	Month time.Month
 }
 
+// Ok returns a boolean indicating whether the Birthday information is complete.
 func (v Birthday) Ok() bool {
 	return (v.Day != 0) && (v.Month != 0)
 }
