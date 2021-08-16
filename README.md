@@ -1,74 +1,39 @@
 # Nook
-Nook is a Go package that exports the basic information for Animal Crossing characters.
+Nook exports basic information for characters that appear in the video game series Animal Crossing.
 
-## Animals
-This package groups each current Animal Crossing character by its animal type.
+Specifically this package focuses on the organisation and classification of residents and villagers.
+Residents in the context of this package are Animal Crossing characters that cannot
+be invited to live within the players town, city, village or island.
 
-|Animal|Number|
-|---|---|
-|[Alligator](./alligator)|9|
-|[Alpaca](./alpaca)|2|
-|[Anteater](./anteater)|10|
-|[Axolotl](./axolotl)|1|
-|[Bear](./bear)|16|
-|[Bear cub](./bearcub)|20|
-|[Beaver](./beaver)|2|
-|[Bird](./bird)|24|
-|[Boar](./boar)|2|
-|[Bull](./bull)|9|
-|[Camel](./camel)|1|
-|[Cat](./cat)|30|
-|[Chameleon](./chameleon)|2|
-|[Chicken](./chicken)|14|
-|[Cow](./cow)|8|
-|[Deer](./deer)|11|
-|[Dodo](./dodo)|2|
-|[Dog](./dog)|28|
-|[Duck](./duck)|19|
-|[Eagle](./eagle)|10|
-|[Elephant](./elephant)|13|
-|[Fox](./fox)|1|
-|[Frill-necked Lizard](./frillneckedlizard)|1|
-|[Frog](./frog)|20|
-|[Fur seal](./furseal)|1|
-|[Giraffe](./giraffe)|1|
-|[Goat](./goat)|10|
-|[Gorilla](./gorilla)|12|
-|[Gyroid](./gyroid)|1|
-|[Hamster](./hamster)|9|
-|[Hedgehog](./hedgehog)|3|
-|[Hippo](./hippo)|10|
-|[Horse](./horse)|17|
-|[Kangaroo](./kangaroo)|11|
-|[Koala](./koala)|11|
-|[Lion](./lion)|9|
-|[Mole](./mole)|2|
-|[Monkey](./monkey)|10|
-|[Mouse](./mouse)|19|
-|[Octopus](./octopus)|4|
-|[Ostrich](./ostrich)|12|
-|[Otter](./otter)|3|
-|[Owl](./owl)|2|
-|[Panther](./panther)|1|
-|[Peacock](./peacock)|1|
-|[Pelican](./pelican)|3|
-|[Penguin](./penguin)|15|
-|[Pig](./pig)|19|
-|[Pigeon](./pigeon)|1|
-|[Rabbit](./rabbit)|21|
-|[Raccoon](./raccoon)|1|
-|[Reindeer](./reindeer)|1|
-|[Reptile](./reptile)|0|
-|[Rhinoceros](./rhinoceros)|9|
-|[Seagull](./seagull)|2|
-|[Sheep](./sheep)|16|
-|[Skunk](./skunk)|1|
-|[Sloth](./sloth)|1|
-|[Squirrel](./squirrel)|22|
-|[Tapir](./tapir)|1|
-|[Tiger](./tiger)|7|
-|[Tortoise](./tortoise)|2|
-|[Turkey](./turkey)|1|
-|[Turtle](./turtle)|4|
-|[Walrus](./walrus)|1|
-|[Wolf](./wolf)|13|
+Villagers are Animal Crossing characters that live in homes within the players world but do not have
+a special function, such as Tom Nook or Isabelle.
+
+This package separates Animal Crossing characters by their animal type. This is a requirement due to the number
+of characters there are in the series, and that some characters overlap with other villagers in name
+or other elements that compose a character. An example of this is the name Petunia, who is both a Cow and a Rhinoceros villager. 
+Another example is Snooty, which is the name of one of the wolves and a personality type.
+
+The information for this package has largely been sourced from various Wiki pages across the internet.
+
+All contributions and corrections are welcome and encouraged.
+
+## Docker
+
+This code can be run and executed from within a Docker Container. 
+Below are the instructions to use the provided Dockerfile as the development and testing environment.
+
+### Building 
+Building the Container.
+
+```sh
+
+docker build . -t nook
+```
+
+### Running
+Developing and running Go from within the Container.
+
+```sh
+
+docker run -it --rm --name nook nook
+```
