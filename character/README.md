@@ -1,2 +1,2 @@
 # Character
-Character contains the various characters, grouped by animal type, found in the Animal Crossing series.
+Character contains the various characters and villagers found in the Animal Crossing series.

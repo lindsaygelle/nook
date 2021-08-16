@@ -1,2 +1,2 @@
 # Gender
-Gender exports the various genders of Character found in the Animal Crossing series.
+Gender exports the various genders of characters found in the Animal Crossing series.
