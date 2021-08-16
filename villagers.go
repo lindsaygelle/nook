@@ -10,7 +10,7 @@ import (
 type Villagers map[string]Villager
 
 // Add adds a Villager to the collection. Add uses the language.Tag as the key to be retrieved from the Villager.
-// On the condiiton the language.Tag cannot be found in the Villager.Name or the value is not OK, Villagers.Add panics.
+// On the condition the language.Tag cannot be found in the Villager.Name or the value is not OK, Villagers.Add panics.
 // When Villagers.Add panics, the error raised contains the name of the Villager in American English, as this is a known value.
 func (v Villagers) Add(key language.Tag, villager Villager) {
 	name := villager.Name.Must(key)
@@ -57,7 +57,7 @@ func (v Villagers) Has(key string) bool {
 }
 
 // Must returns a Villager from Villagers using the argument key.
-// Unlike Villagers.Get, Villagers.Must panics on the condiiton a Villager cannot be retrieved for the given key.
+// Unlike Villagers.Get, Villagers.Must panics on the condition a Villager cannot be retrieved for the given key.
 func (v Villagers) Must(key string) Villager {
 	villager, ok := v.Get(key)
 	if !ok {

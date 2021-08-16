@@ -10,7 +10,7 @@ import (
 type Residents map[string]Resident
 
 // Add adds a Resident to the collection. Add uses the language.Tag as the key to be retrieved from the Resident.
-// On the condiiton the language.Tag cannot be found in the Resident.Name or the value is not OK, Residents.Add panics.
+// On the condition the language.Tag cannot be found in the Resident.Name or the value is not OK, Residents.Add panics.
 // When Residents.Add panics, the error raised contains the name of the Resident in American English, as this is a known value.
 func (v Residents) Add(key language.Tag, resident Resident) {
 	name := resident.Name.Must(key)
@@ -57,7 +57,7 @@ func (v Residents) Has(key string) bool {
 }
 
 // Must returns a Resident from Residents using the argument key.
-// Unlike Residents.Get, Residents.Must panics on the condiiton a Resident cannot be retrieved for the given key.
+// Unlike Residents.Get, Residents.Must panics on the condition a Resident cannot be retrieved for the given key.
 func (v Residents) Must(key string) Resident {
 	Resident, ok := v.Get(key)
 	if !ok {
