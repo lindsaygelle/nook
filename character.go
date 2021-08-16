@@ -6,6 +6,7 @@ type Character struct {
 
 	Birthday Birthday
 	Code     Code
+	Key      Key
 	Gender   Gender
 	Name     Languages
 }

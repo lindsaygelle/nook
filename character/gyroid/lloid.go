@@ -5,6 +5,7 @@ import (
 
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
+	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/gender"
 	"golang.org/x/text/language"
 )
@@ -96,6 +97,7 @@ var (
 		Animal:   animal.Gyroid,
 		Birthday: lloidBirthday,
 		Code:     lloidCode,
+		Key:      character.Lloid,
 		Gender:   gender.Male,
 		Name:     lloidName}
 )
