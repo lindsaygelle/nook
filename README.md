@@ -59,7 +59,7 @@ the exposure to coding towards circular dependencies. Most of the decisions were
 Nook was built with extensibility in mind. The simplest way to add to the functionality of the package is to import the concrete type and apply the required changes.
 
 ### Character
-Below is an example of adding functionality to the `nook.Character` type.
+Below is an example of adding functionality to the `nook.Villager` type.
 
 ```go
 package main
@@ -83,7 +83,9 @@ type Villager struct{
 }
 
 func (v Villager) Greet() string {
-    return fmt.Sprintf("%s! My name is %s. Nice to meet you.", v.Phrase.Must(language.AmericanEnglish).Vale, v.Name.Must(language.AmericanEnglish).Value)
+    name := v.Name.Must(language.AmericanEnglish).Value
+    phrase := v.Phrase.Must(language.AmericanEnglish).Value
+    return fmt.Sprintf("%s! My name is %s. Nice to meet you.", phrase, name)
 }
 
 func makeVillager(villager nook.Villager) Villager {
