@@ -159,19 +159,19 @@ var (
 
 var (
 	cranstonPhrase = nook.Languages{
-		language.AmericanEnglish:      cranstonAmericanEnglishName,
-		language.CanadianFrench:       cranstonCanadianFrenchName,
-		language.Dutch:                cranstonDutchName,
-		language.French:               cranstonFrenchName,
-		language.German:               cranstonGermanName,
-		language.Italian:              cranstonItalianName,
-		language.Japanese:             cranstonJapaneseName,
-		language.Korean:               cranstonKoreanName,
-		language.LatinAmericanSpanish: cranstonLatinAmericanSpanishName,
-		language.Russian:              cranstonRussianName,
-		language.SimplifiedChinese:    cranstonSimplifiedChineseName,
-		language.Spanish:              cranstonSpanishName,
-		language.TraditionalChinese:   cranstonTraditionalChineseName}
+		language.AmericanEnglish:      cranstonAmericanEnglishPhrase,
+		language.CanadianFrench:       cranstonCanadianFrenchPhrase,
+		language.Dutch:                cranstonDutchPhrase,
+		language.French:               cranstonFrenchPhrase,
+		language.German:               cranstonGermanPhrase,
+		language.Italian:              cranstonItalianPhrase,
+		language.Japanese:             cranstonJapanesePhrase,
+		language.Korean:               cranstonKoreanPhrase,
+		language.LatinAmericanSpanish: cranstonLatinAmericanSpanishPhrase,
+		language.Russian:              cranstonRussianPhrase,
+		language.SimplifiedChinese:    cranstonSimplifiedChinesePhrase,
+		language.Spanish:              cranstonSpanishPhrase,
+		language.TraditionalChinese:   cranstonTraditionalChinesePhrase}
 )
 
 var (

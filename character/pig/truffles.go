@@ -159,19 +159,19 @@ var (
 
 var (
 	trufflesPhrase = nook.Languages{
-		language.AmericanEnglish:      trufflesAmericanEnglishName,
-		language.CanadianFrench:       trufflesCanadianFrenchName,
-		language.Dutch:                trufflesDutchName,
-		language.French:               trufflesFrenchName,
-		language.German:               trufflesGermanName,
-		language.Italian:              trufflesItalianName,
-		language.Japanese:             trufflesJapaneseName,
-		language.Korean:               trufflesKoreanName,
-		language.LatinAmericanSpanish: trufflesLatinAmericanSpanishName,
-		language.Russian:              trufflesRussianName,
-		language.SimplifiedChinese:    trufflesSimplifiedChineseName,
-		language.Spanish:              trufflesSpanishName,
-		language.TraditionalChinese:   trufflesTraditionalChineseName}
+		language.AmericanEnglish:      trufflesAmericanEnglishPhrase,
+		language.CanadianFrench:       trufflesCanadianFrenchPhrase,
+		language.Dutch:                trufflesDutchPhrase,
+		language.French:               trufflesFrenchPhrase,
+		language.German:               trufflesGermanPhrase,
+		language.Italian:              trufflesItalianPhrase,
+		language.Japanese:             trufflesJapanesePhrase,
+		language.Korean:               trufflesKoreanPhrase,
+		language.LatinAmericanSpanish: trufflesLatinAmericanSpanishPhrase,
+		language.Russian:              trufflesRussianPhrase,
+		language.SimplifiedChinese:    trufflesSimplifiedChinesePhrase,
+		language.Spanish:              trufflesSpanishPhrase,
+		language.TraditionalChinese:   trufflesTraditionalChinesePhrase}
 )
 
 var (

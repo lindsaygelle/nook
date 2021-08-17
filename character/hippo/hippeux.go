@@ -159,19 +159,19 @@ var (
 
 var (
 	hippeuxPhrase = nook.Languages{
-		language.AmericanEnglish:      hippeuxAmericanEnglishName,
-		language.CanadianFrench:       hippeuxCanadianFrenchName,
-		language.Dutch:                hippeuxDutchName,
-		language.French:               hippeuxFrenchName,
-		language.German:               hippeuxGermanName,
-		language.Italian:              hippeuxItalianName,
-		language.Japanese:             hippeuxJapaneseName,
-		language.Korean:               hippeuxKoreanName,
-		language.LatinAmericanSpanish: hippeuxLatinAmericanSpanishName,
-		language.Russian:              hippeuxRussianName,
-		language.SimplifiedChinese:    hippeuxSimplifiedChineseName,
-		language.Spanish:              hippeuxSpanishName,
-		language.TraditionalChinese:   hippeuxTraditionalChineseName}
+		language.AmericanEnglish:      hippeuxAmericanEnglishPhrase,
+		language.CanadianFrench:       hippeuxCanadianFrenchPhrase,
+		language.Dutch:                hippeuxDutchPhrase,
+		language.French:               hippeuxFrenchPhrase,
+		language.German:               hippeuxGermanPhrase,
+		language.Italian:              hippeuxItalianPhrase,
+		language.Japanese:             hippeuxJapanesePhrase,
+		language.Korean:               hippeuxKoreanPhrase,
+		language.LatinAmericanSpanish: hippeuxLatinAmericanSpanishPhrase,
+		language.Russian:              hippeuxRussianPhrase,
+		language.SimplifiedChinese:    hippeuxSimplifiedChinesePhrase,
+		language.Spanish:              hippeuxSpanishPhrase,
+		language.TraditionalChinese:   hippeuxTraditionalChinesePhrase}
 )
 
 var (

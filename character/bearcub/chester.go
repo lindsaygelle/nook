@@ -159,19 +159,19 @@ var (
 
 var (
 	chesterPhrase = nook.Languages{
-		language.AmericanEnglish:      chesterAmericanEnglishName,
-		language.CanadianFrench:       chesterCanadianFrenchName,
-		language.Dutch:                chesterDutchName,
-		language.French:               chesterFrenchName,
-		language.German:               chesterGermanName,
-		language.Italian:              chesterItalianName,
-		language.Japanese:             chesterJapaneseName,
-		language.Korean:               chesterKoreanName,
-		language.LatinAmericanSpanish: chesterLatinAmericanSpanishName,
-		language.Russian:              chesterRussianName,
-		language.SimplifiedChinese:    chesterSimplifiedChineseName,
-		language.Spanish:              chesterSpanishName,
-		language.TraditionalChinese:   chesterTraditionalChineseName}
+		language.AmericanEnglish:      chesterAmericanEnglishPhrase,
+		language.CanadianFrench:       chesterCanadianFrenchPhrase,
+		language.Dutch:                chesterDutchPhrase,
+		language.French:               chesterFrenchPhrase,
+		language.German:               chesterGermanPhrase,
+		language.Italian:              chesterItalianPhrase,
+		language.Japanese:             chesterJapanesePhrase,
+		language.Korean:               chesterKoreanPhrase,
+		language.LatinAmericanSpanish: chesterLatinAmericanSpanishPhrase,
+		language.Russian:              chesterRussianPhrase,
+		language.SimplifiedChinese:    chesterSimplifiedChinesePhrase,
+		language.Spanish:              chesterSpanishPhrase,
+		language.TraditionalChinese:   chesterTraditionalChinesePhrase}
 )
 
 var (

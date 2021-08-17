@@ -159,19 +159,19 @@ var (
 
 var (
 	elinaPhrase = nook.Languages{
-		language.AmericanEnglish:      elinaAmericanEnglishName,
-		language.CanadianFrench:       elinaCanadianFrenchName,
-		language.Dutch:                elinaDutchName,
-		language.French:               elinaFrenchName,
-		language.German:               elinaGermanName,
-		language.Italian:              elinaItalianName,
-		language.Japanese:             elinaJapaneseName,
-		language.Korean:               elinaKoreanName,
-		language.LatinAmericanSpanish: elinaLatinAmericanSpanishName,
-		language.Russian:              elinaRussianName,
-		language.SimplifiedChinese:    elinaSimplifiedChineseName,
-		language.Spanish:              elinaSpanishName,
-		language.TraditionalChinese:   elinaTraditionalChineseName}
+		language.AmericanEnglish:      elinaAmericanEnglishPhrase,
+		language.CanadianFrench:       elinaCanadianFrenchPhrase,
+		language.Dutch:                elinaDutchPhrase,
+		language.French:               elinaFrenchPhrase,
+		language.German:               elinaGermanPhrase,
+		language.Italian:              elinaItalianPhrase,
+		language.Japanese:             elinaJapanesePhrase,
+		language.Korean:               elinaKoreanPhrase,
+		language.LatinAmericanSpanish: elinaLatinAmericanSpanishPhrase,
+		language.Russian:              elinaRussianPhrase,
+		language.SimplifiedChinese:    elinaSimplifiedChinesePhrase,
+		language.Spanish:              elinaSpanishPhrase,
+		language.TraditionalChinese:   elinaTraditionalChinesePhrase}
 )
 
 var (

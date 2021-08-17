@@ -159,19 +159,19 @@ var (
 
 var (
 	roryPhrase = nook.Languages{
-		language.AmericanEnglish:      roryAmericanEnglishName,
-		language.CanadianFrench:       roryCanadianFrenchName,
-		language.Dutch:                roryDutchName,
-		language.French:               roryFrenchName,
-		language.German:               roryGermanName,
-		language.Italian:              roryItalianName,
-		language.Japanese:             roryJapaneseName,
-		language.Korean:               roryKoreanName,
-		language.LatinAmericanSpanish: roryLatinAmericanSpanishName,
-		language.Russian:              roryRussianName,
-		language.SimplifiedChinese:    rorySimplifiedChineseName,
-		language.Spanish:              rorySpanishName,
-		language.TraditionalChinese:   roryTraditionalChineseName}
+		language.AmericanEnglish:      roryAmericanEnglishPhrase,
+		language.CanadianFrench:       roryCanadianFrenchPhrase,
+		language.Dutch:                roryDutchPhrase,
+		language.French:               roryFrenchPhrase,
+		language.German:               roryGermanPhrase,
+		language.Italian:              roryItalianPhrase,
+		language.Japanese:             roryJapanesePhrase,
+		language.Korean:               roryKoreanPhrase,
+		language.LatinAmericanSpanish: roryLatinAmericanSpanishPhrase,
+		language.Russian:              roryRussianPhrase,
+		language.SimplifiedChinese:    rorySimplifiedChinesePhrase,
+		language.Spanish:              rorySpanishPhrase,
+		language.TraditionalChinese:   roryTraditionalChinesePhrase}
 )
 
 var (

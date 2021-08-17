@@ -159,19 +159,19 @@ var (
 
 var (
 	faunaPhrase = nook.Languages{
-		language.AmericanEnglish:      faunaAmericanEnglishName,
-		language.CanadianFrench:       faunaCanadianFrenchName,
-		language.Dutch:                faunaDutchName,
-		language.French:               faunaFrenchName,
-		language.German:               faunaGermanName,
-		language.Italian:              faunaItalianName,
-		language.Japanese:             faunaJapaneseName,
-		language.Korean:               faunaKoreanName,
-		language.LatinAmericanSpanish: faunaLatinAmericanSpanishName,
-		language.Russian:              faunaRussianName,
-		language.SimplifiedChinese:    faunaSimplifiedChineseName,
-		language.Spanish:              faunaSpanishName,
-		language.TraditionalChinese:   faunaTraditionalChineseName}
+		language.AmericanEnglish:      faunaAmericanEnglishPhrase,
+		language.CanadianFrench:       faunaCanadianFrenchPhrase,
+		language.Dutch:                faunaDutchPhrase,
+		language.French:               faunaFrenchPhrase,
+		language.German:               faunaGermanPhrase,
+		language.Italian:              faunaItalianPhrase,
+		language.Japanese:             faunaJapanesePhrase,
+		language.Korean:               faunaKoreanPhrase,
+		language.LatinAmericanSpanish: faunaLatinAmericanSpanishPhrase,
+		language.Russian:              faunaRussianPhrase,
+		language.SimplifiedChinese:    faunaSimplifiedChinesePhrase,
+		language.Spanish:              faunaSpanishPhrase,
+		language.TraditionalChinese:   faunaTraditionalChinesePhrase}
 )
 
 var (

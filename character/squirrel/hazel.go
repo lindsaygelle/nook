@@ -159,19 +159,19 @@ var (
 
 var (
 	hazelPhrase = nook.Languages{
-		language.AmericanEnglish:      hazelAmericanEnglishName,
-		language.CanadianFrench:       hazelCanadianFrenchName,
-		language.Dutch:                hazelDutchName,
-		language.French:               hazelFrenchName,
-		language.German:               hazelGermanName,
-		language.Italian:              hazelItalianName,
-		language.Japanese:             hazelJapaneseName,
-		language.Korean:               hazelKoreanName,
-		language.LatinAmericanSpanish: hazelLatinAmericanSpanishName,
-		language.Russian:              hazelRussianName,
-		language.SimplifiedChinese:    hazelSimplifiedChineseName,
-		language.Spanish:              hazelSpanishName,
-		language.TraditionalChinese:   hazelTraditionalChineseName}
+		language.AmericanEnglish:      hazelAmericanEnglishPhrase,
+		language.CanadianFrench:       hazelCanadianFrenchPhrase,
+		language.Dutch:                hazelDutchPhrase,
+		language.French:               hazelFrenchPhrase,
+		language.German:               hazelGermanPhrase,
+		language.Italian:              hazelItalianPhrase,
+		language.Japanese:             hazelJapanesePhrase,
+		language.Korean:               hazelKoreanPhrase,
+		language.LatinAmericanSpanish: hazelLatinAmericanSpanishPhrase,
+		language.Russian:              hazelRussianPhrase,
+		language.SimplifiedChinese:    hazelSimplifiedChinesePhrase,
+		language.Spanish:              hazelSpanishPhrase,
+		language.TraditionalChinese:   hazelTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	peeweePhrase = nook.Languages{
-		language.AmericanEnglish:      peeweeAmericanEnglishName,
-		language.CanadianFrench:       peeweeCanadianFrenchName,
-		language.Dutch:                peeweeDutchName,
-		language.French:               peeweeFrenchName,
-		language.German:               peeweeGermanName,
-		language.Italian:              peeweeItalianName,
-		language.Japanese:             peeweeJapaneseName,
-		language.Korean:               peeweeKoreanName,
-		language.LatinAmericanSpanish: peeweeLatinAmericanSpanishName,
-		language.Russian:              peeweeRussianName,
-		language.SimplifiedChinese:    peeweeSimplifiedChineseName,
-		language.Spanish:              peeweeSpanishName,
-		language.TraditionalChinese:   peeweeTraditionalChineseName}
+		language.AmericanEnglish:      peeweeAmericanEnglishPhrase,
+		language.CanadianFrench:       peeweeCanadianFrenchPhrase,
+		language.Dutch:                peeweeDutchPhrase,
+		language.French:               peeweeFrenchPhrase,
+		language.German:               peeweeGermanPhrase,
+		language.Italian:              peeweeItalianPhrase,
+		language.Japanese:             peeweeJapanesePhrase,
+		language.Korean:               peeweeKoreanPhrase,
+		language.LatinAmericanSpanish: peeweeLatinAmericanSpanishPhrase,
+		language.Russian:              peeweeRussianPhrase,
+		language.SimplifiedChinese:    peeweeSimplifiedChinesePhrase,
+		language.Spanish:              peeweeSpanishPhrase,
+		language.TraditionalChinese:   peeweeTraditionalChinesePhrase}
 )
 
 var (

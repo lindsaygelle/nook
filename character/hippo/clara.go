@@ -159,19 +159,19 @@ var (
 
 var (
 	claraPhrase = nook.Languages{
-		language.AmericanEnglish:      claraAmericanEnglishName,
-		language.CanadianFrench:       claraCanadianFrenchName,
-		language.Dutch:                claraDutchName,
-		language.French:               claraFrenchName,
-		language.German:               claraGermanName,
-		language.Italian:              claraItalianName,
-		language.Japanese:             claraJapaneseName,
-		language.Korean:               claraKoreanName,
-		language.LatinAmericanSpanish: claraLatinAmericanSpanishName,
-		language.Russian:              claraRussianName,
-		language.SimplifiedChinese:    claraSimplifiedChineseName,
-		language.Spanish:              claraSpanishName,
-		language.TraditionalChinese:   claraTraditionalChineseName}
+		language.AmericanEnglish:      claraAmericanEnglishPhrase,
+		language.CanadianFrench:       claraCanadianFrenchPhrase,
+		language.Dutch:                claraDutchPhrase,
+		language.French:               claraFrenchPhrase,
+		language.German:               claraGermanPhrase,
+		language.Italian:              claraItalianPhrase,
+		language.Japanese:             claraJapanesePhrase,
+		language.Korean:               claraKoreanPhrase,
+		language.LatinAmericanSpanish: claraLatinAmericanSpanishPhrase,
+		language.Russian:              claraRussianPhrase,
+		language.SimplifiedChinese:    claraSimplifiedChinesePhrase,
+		language.Spanish:              claraSpanishPhrase,
+		language.TraditionalChinese:   claraTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	croquePhrase = nook.Languages{
-		language.AmericanEnglish:      croqueAmericanEnglishName,
-		language.CanadianFrench:       croqueCanadianFrenchName,
-		language.Dutch:                croqueDutchName,
-		language.French:               croqueFrenchName,
-		language.German:               croqueGermanName,
-		language.Italian:              croqueItalianName,
-		language.Japanese:             croqueJapaneseName,
-		language.Korean:               croqueKoreanName,
-		language.LatinAmericanSpanish: croqueLatinAmericanSpanishName,
-		language.Russian:              croqueRussianName,
-		language.SimplifiedChinese:    croqueSimplifiedChineseName,
-		language.Spanish:              croqueSpanishName,
-		language.TraditionalChinese:   croqueTraditionalChineseName}
+		language.AmericanEnglish:      croqueAmericanEnglishPhrase,
+		language.CanadianFrench:       croqueCanadianFrenchPhrase,
+		language.Dutch:                croqueDutchPhrase,
+		language.French:               croqueFrenchPhrase,
+		language.German:               croqueGermanPhrase,
+		language.Italian:              croqueItalianPhrase,
+		language.Japanese:             croqueJapanesePhrase,
+		language.Korean:               croqueKoreanPhrase,
+		language.LatinAmericanSpanish: croqueLatinAmericanSpanishPhrase,
+		language.Russian:              croqueRussianPhrase,
+		language.SimplifiedChinese:    croqueSimplifiedChinesePhrase,
+		language.Spanish:              croqueSpanishPhrase,
+		language.TraditionalChinese:   croqueTraditionalChinesePhrase}
 )
 
 var (

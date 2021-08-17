@@ -159,19 +159,19 @@ var (
 
 var (
 	madamrosaPhrase = nook.Languages{
-		language.AmericanEnglish:      madamrosaAmericanEnglishName,
-		language.CanadianFrench:       madamrosaCanadianFrenchName,
-		language.Dutch:                madamrosaDutchName,
-		language.French:               madamrosaFrenchName,
-		language.German:               madamrosaGermanName,
-		language.Italian:              madamrosaItalianName,
-		language.Japanese:             madamrosaJapaneseName,
-		language.Korean:               madamrosaKoreanName,
-		language.LatinAmericanSpanish: madamrosaLatinAmericanSpanishName,
-		language.Russian:              madamrosaRussianName,
-		language.SimplifiedChinese:    madamrosaSimplifiedChineseName,
-		language.Spanish:              madamrosaSpanishName,
-		language.TraditionalChinese:   madamrosaTraditionalChineseName}
+		language.AmericanEnglish:      madamrosaAmericanEnglishPhrase,
+		language.CanadianFrench:       madamrosaCanadianFrenchPhrase,
+		language.Dutch:                madamrosaDutchPhrase,
+		language.French:               madamrosaFrenchPhrase,
+		language.German:               madamrosaGermanPhrase,
+		language.Italian:              madamrosaItalianPhrase,
+		language.Japanese:             madamrosaJapanesePhrase,
+		language.Korean:               madamrosaKoreanPhrase,
+		language.LatinAmericanSpanish: madamrosaLatinAmericanSpanishPhrase,
+		language.Russian:              madamrosaRussianPhrase,
+		language.SimplifiedChinese:    madamrosaSimplifiedChinesePhrase,
+		language.Spanish:              madamrosaSpanishPhrase,
+		language.TraditionalChinese:   madamrosaTraditionalChinesePhrase}
 )
 
 var (

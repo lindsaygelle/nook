@@ -159,19 +159,19 @@ var (
 
 var (
 	valisePhrase = nook.Languages{
-		language.AmericanEnglish:      valiseAmericanEnglishName,
-		language.CanadianFrench:       valiseCanadianFrenchName,
-		language.Dutch:                valiseDutchName,
-		language.French:               valiseFrenchName,
-		language.German:               valiseGermanName,
-		language.Italian:              valiseItalianName,
-		language.Japanese:             valiseJapaneseName,
-		language.Korean:               valiseKoreanName,
-		language.LatinAmericanSpanish: valiseLatinAmericanSpanishName,
-		language.Russian:              valiseRussianName,
-		language.SimplifiedChinese:    valiseSimplifiedChineseName,
-		language.Spanish:              valiseSpanishName,
-		language.TraditionalChinese:   valiseTraditionalChineseName}
+		language.AmericanEnglish:      valiseAmericanEnglishPhrase,
+		language.CanadianFrench:       valiseCanadianFrenchPhrase,
+		language.Dutch:                valiseDutchPhrase,
+		language.French:               valiseFrenchPhrase,
+		language.German:               valiseGermanPhrase,
+		language.Italian:              valiseItalianPhrase,
+		language.Japanese:             valiseJapanesePhrase,
+		language.Korean:               valiseKoreanPhrase,
+		language.LatinAmericanSpanish: valiseLatinAmericanSpanishPhrase,
+		language.Russian:              valiseRussianPhrase,
+		language.SimplifiedChinese:    valiseSimplifiedChinesePhrase,
+		language.Spanish:              valiseSpanishPhrase,
+		language.TraditionalChinese:   valiseTraditionalChinesePhrase}
 )
 
 var (

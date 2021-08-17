@@ -159,19 +159,19 @@ var (
 
 var (
 	keatonPhrase = nook.Languages{
-		language.AmericanEnglish:      keatonAmericanEnglishName,
-		language.CanadianFrench:       keatonCanadianFrenchName,
-		language.Dutch:                keatonDutchName,
-		language.French:               keatonFrenchName,
-		language.German:               keatonGermanName,
-		language.Italian:              keatonItalianName,
-		language.Japanese:             keatonJapaneseName,
-		language.Korean:               keatonKoreanName,
-		language.LatinAmericanSpanish: keatonLatinAmericanSpanishName,
-		language.Russian:              keatonRussianName,
-		language.SimplifiedChinese:    keatonSimplifiedChineseName,
-		language.Spanish:              keatonSpanishName,
-		language.TraditionalChinese:   keatonTraditionalChineseName}
+		language.AmericanEnglish:      keatonAmericanEnglishPhrase,
+		language.CanadianFrench:       keatonCanadianFrenchPhrase,
+		language.Dutch:                keatonDutchPhrase,
+		language.French:               keatonFrenchPhrase,
+		language.German:               keatonGermanPhrase,
+		language.Italian:              keatonItalianPhrase,
+		language.Japanese:             keatonJapanesePhrase,
+		language.Korean:               keatonKoreanPhrase,
+		language.LatinAmericanSpanish: keatonLatinAmericanSpanishPhrase,
+		language.Russian:              keatonRussianPhrase,
+		language.SimplifiedChinese:    keatonSimplifiedChinesePhrase,
+		language.Spanish:              keatonSpanishPhrase,
+		language.TraditionalChinese:   keatonTraditionalChinesePhrase}
 )
 
 var (

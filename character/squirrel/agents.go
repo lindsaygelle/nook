@@ -159,19 +159,19 @@ var (
 
 var (
 	agentsPhrase = nook.Languages{
-		language.AmericanEnglish:      agentsAmericanEnglishName,
-		language.CanadianFrench:       agentsCanadianFrenchName,
-		language.Dutch:                agentsDutchName,
-		language.French:               agentsFrenchName,
-		language.German:               agentsGermanName,
-		language.Italian:              agentsItalianName,
-		language.Japanese:             agentsJapaneseName,
-		language.Korean:               agentsKoreanName,
-		language.LatinAmericanSpanish: agentsLatinAmericanSpanishName,
-		language.Russian:              agentsRussianName,
-		language.SimplifiedChinese:    agentsSimplifiedChineseName,
-		language.Spanish:              agentsSpanishName,
-		language.TraditionalChinese:   agentsTraditionalChineseName}
+		language.AmericanEnglish:      agentsAmericanEnglishPhrase,
+		language.CanadianFrench:       agentsCanadianFrenchPhrase,
+		language.Dutch:                agentsDutchPhrase,
+		language.French:               agentsFrenchPhrase,
+		language.German:               agentsGermanPhrase,
+		language.Italian:              agentsItalianPhrase,
+		language.Japanese:             agentsJapanesePhrase,
+		language.Korean:               agentsKoreanPhrase,
+		language.LatinAmericanSpanish: agentsLatinAmericanSpanishPhrase,
+		language.Russian:              agentsRussianPhrase,
+		language.SimplifiedChinese:    agentsSimplifiedChinesePhrase,
+		language.Spanish:              agentsSpanishPhrase,
+		language.TraditionalChinese:   agentsTraditionalChinesePhrase}
 )
 
 var (

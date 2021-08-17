@@ -159,19 +159,19 @@ var (
 
 var (
 	bluebearPhrase = nook.Languages{
-		language.AmericanEnglish:      bluebearAmericanEnglishName,
-		language.CanadianFrench:       bluebearCanadianFrenchName,
-		language.Dutch:                bluebearDutchName,
-		language.French:               bluebearFrenchName,
-		language.German:               bluebearGermanName,
-		language.Italian:              bluebearItalianName,
-		language.Japanese:             bluebearJapaneseName,
-		language.Korean:               bluebearKoreanName,
-		language.LatinAmericanSpanish: bluebearLatinAmericanSpanishName,
-		language.Russian:              bluebearRussianName,
-		language.SimplifiedChinese:    bluebearSimplifiedChineseName,
-		language.Spanish:              bluebearSpanishName,
-		language.TraditionalChinese:   bluebearTraditionalChineseName}
+		language.AmericanEnglish:      bluebearAmericanEnglishPhrase,
+		language.CanadianFrench:       bluebearCanadianFrenchPhrase,
+		language.Dutch:                bluebearDutchPhrase,
+		language.French:               bluebearFrenchPhrase,
+		language.German:               bluebearGermanPhrase,
+		language.Italian:              bluebearItalianPhrase,
+		language.Japanese:             bluebearJapanesePhrase,
+		language.Korean:               bluebearKoreanPhrase,
+		language.LatinAmericanSpanish: bluebearLatinAmericanSpanishPhrase,
+		language.Russian:              bluebearRussianPhrase,
+		language.SimplifiedChinese:    bluebearSimplifiedChinesePhrase,
+		language.Spanish:              bluebearSpanishPhrase,
+		language.TraditionalChinese:   bluebearTraditionalChinesePhrase}
 )
 
 var (

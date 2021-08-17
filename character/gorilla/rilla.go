@@ -159,19 +159,19 @@ var (
 
 var (
 	rillaPhrase = nook.Languages{
-		language.AmericanEnglish:      rillaAmericanEnglishName,
-		language.CanadianFrench:       rillaCanadianFrenchName,
-		language.Dutch:                rillaDutchName,
-		language.French:               rillaFrenchName,
-		language.German:               rillaGermanName,
-		language.Italian:              rillaItalianName,
-		language.Japanese:             rillaJapaneseName,
-		language.Korean:               rillaKoreanName,
-		language.LatinAmericanSpanish: rillaLatinAmericanSpanishName,
-		language.Russian:              rillaRussianName,
-		language.SimplifiedChinese:    rillaSimplifiedChineseName,
-		language.Spanish:              rillaSpanishName,
-		language.TraditionalChinese:   rillaTraditionalChineseName}
+		language.AmericanEnglish:      rillaAmericanEnglishPhrase,
+		language.CanadianFrench:       rillaCanadianFrenchPhrase,
+		language.Dutch:                rillaDutchPhrase,
+		language.French:               rillaFrenchPhrase,
+		language.German:               rillaGermanPhrase,
+		language.Italian:              rillaItalianPhrase,
+		language.Japanese:             rillaJapanesePhrase,
+		language.Korean:               rillaKoreanPhrase,
+		language.LatinAmericanSpanish: rillaLatinAmericanSpanishPhrase,
+		language.Russian:              rillaRussianPhrase,
+		language.SimplifiedChinese:    rillaSimplifiedChinesePhrase,
+		language.Spanish:              rillaSpanishPhrase,
+		language.TraditionalChinese:   rillaTraditionalChinesePhrase}
 )
 
 var (

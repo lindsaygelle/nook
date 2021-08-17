@@ -159,19 +159,19 @@ var (
 
 var (
 	pippyPhrase = nook.Languages{
-		language.AmericanEnglish:      pippyAmericanEnglishName,
-		language.CanadianFrench:       pippyCanadianFrenchName,
-		language.Dutch:                pippyDutchName,
-		language.French:               pippyFrenchName,
-		language.German:               pippyGermanName,
-		language.Italian:              pippyItalianName,
-		language.Japanese:             pippyJapaneseName,
-		language.Korean:               pippyKoreanName,
-		language.LatinAmericanSpanish: pippyLatinAmericanSpanishName,
-		language.Russian:              pippyRussianName,
-		language.SimplifiedChinese:    pippySimplifiedChineseName,
-		language.Spanish:              pippySpanishName,
-		language.TraditionalChinese:   pippyTraditionalChineseName}
+		language.AmericanEnglish:      pippyAmericanEnglishPhrase,
+		language.CanadianFrench:       pippyCanadianFrenchPhrase,
+		language.Dutch:                pippyDutchPhrase,
+		language.French:               pippyFrenchPhrase,
+		language.German:               pippyGermanPhrase,
+		language.Italian:              pippyItalianPhrase,
+		language.Japanese:             pippyJapanesePhrase,
+		language.Korean:               pippyKoreanPhrase,
+		language.LatinAmericanSpanish: pippyLatinAmericanSpanishPhrase,
+		language.Russian:              pippyRussianPhrase,
+		language.SimplifiedChinese:    pippySimplifiedChinesePhrase,
+		language.Spanish:              pippySpanishPhrase,
+		language.TraditionalChinese:   pippyTraditionalChinesePhrase}
 )
 
 var (

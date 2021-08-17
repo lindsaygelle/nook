@@ -159,19 +159,19 @@ var (
 
 var (
 	celiaPhrase = nook.Languages{
-		language.AmericanEnglish:      celiaAmericanEnglishName,
-		language.CanadianFrench:       celiaCanadianFrenchName,
-		language.Dutch:                celiaDutchName,
-		language.French:               celiaFrenchName,
-		language.German:               celiaGermanName,
-		language.Italian:              celiaItalianName,
-		language.Japanese:             celiaJapaneseName,
-		language.Korean:               celiaKoreanName,
-		language.LatinAmericanSpanish: celiaLatinAmericanSpanishName,
-		language.Russian:              celiaRussianName,
-		language.SimplifiedChinese:    celiaSimplifiedChineseName,
-		language.Spanish:              celiaSpanishName,
-		language.TraditionalChinese:   celiaTraditionalChineseName}
+		language.AmericanEnglish:      celiaAmericanEnglishPhrase,
+		language.CanadianFrench:       celiaCanadianFrenchPhrase,
+		language.Dutch:                celiaDutchPhrase,
+		language.French:               celiaFrenchPhrase,
+		language.German:               celiaGermanPhrase,
+		language.Italian:              celiaItalianPhrase,
+		language.Japanese:             celiaJapanesePhrase,
+		language.Korean:               celiaKoreanPhrase,
+		language.LatinAmericanSpanish: celiaLatinAmericanSpanishPhrase,
+		language.Russian:              celiaRussianPhrase,
+		language.SimplifiedChinese:    celiaSimplifiedChinesePhrase,
+		language.Spanish:              celiaSpanishPhrase,
+		language.TraditionalChinese:   celiaTraditionalChinesePhrase}
 )
 
 var (

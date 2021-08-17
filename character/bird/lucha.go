@@ -159,19 +159,19 @@ var (
 
 var (
 	luchaPhrase = nook.Languages{
-		language.AmericanEnglish:      luchaAmericanEnglishName,
-		language.CanadianFrench:       luchaCanadianFrenchName,
-		language.Dutch:                luchaDutchName,
-		language.French:               luchaFrenchName,
-		language.German:               luchaGermanName,
-		language.Italian:              luchaItalianName,
-		language.Japanese:             luchaJapaneseName,
-		language.Korean:               luchaKoreanName,
-		language.LatinAmericanSpanish: luchaLatinAmericanSpanishName,
-		language.Russian:              luchaRussianName,
-		language.SimplifiedChinese:    luchaSimplifiedChineseName,
-		language.Spanish:              luchaSpanishName,
-		language.TraditionalChinese:   luchaTraditionalChineseName}
+		language.AmericanEnglish:      luchaAmericanEnglishPhrase,
+		language.CanadianFrench:       luchaCanadianFrenchPhrase,
+		language.Dutch:                luchaDutchPhrase,
+		language.French:               luchaFrenchPhrase,
+		language.German:               luchaGermanPhrase,
+		language.Italian:              luchaItalianPhrase,
+		language.Japanese:             luchaJapanesePhrase,
+		language.Korean:               luchaKoreanPhrase,
+		language.LatinAmericanSpanish: luchaLatinAmericanSpanishPhrase,
+		language.Russian:              luchaRussianPhrase,
+		language.SimplifiedChinese:    luchaSimplifiedChinesePhrase,
+		language.Spanish:              luchaSpanishPhrase,
+		language.TraditionalChinese:   luchaTraditionalChinesePhrase}
 )
 
 var (

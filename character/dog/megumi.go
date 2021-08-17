@@ -159,19 +159,19 @@ var (
 
 var (
 	megumiPhrase = nook.Languages{
-		language.AmericanEnglish:      megumiAmericanEnglishName,
-		language.CanadianFrench:       megumiCanadianFrenchName,
-		language.Dutch:                megumiDutchName,
-		language.French:               megumiFrenchName,
-		language.German:               megumiGermanName,
-		language.Italian:              megumiItalianName,
-		language.Japanese:             megumiJapaneseName,
-		language.Korean:               megumiKoreanName,
-		language.LatinAmericanSpanish: megumiLatinAmericanSpanishName,
-		language.Russian:              megumiRussianName,
-		language.SimplifiedChinese:    megumiSimplifiedChineseName,
-		language.Spanish:              megumiSpanishName,
-		language.TraditionalChinese:   megumiTraditionalChineseName}
+		language.AmericanEnglish:      megumiAmericanEnglishPhrase,
+		language.CanadianFrench:       megumiCanadianFrenchPhrase,
+		language.Dutch:                megumiDutchPhrase,
+		language.French:               megumiFrenchPhrase,
+		language.German:               megumiGermanPhrase,
+		language.Italian:              megumiItalianPhrase,
+		language.Japanese:             megumiJapanesePhrase,
+		language.Korean:               megumiKoreanPhrase,
+		language.LatinAmericanSpanish: megumiLatinAmericanSpanishPhrase,
+		language.Russian:              megumiRussianPhrase,
+		language.SimplifiedChinese:    megumiSimplifiedChinesePhrase,
+		language.Spanish:              megumiSpanishPhrase,
+		language.TraditionalChinese:   megumiTraditionalChinesePhrase}
 )
 
 var (

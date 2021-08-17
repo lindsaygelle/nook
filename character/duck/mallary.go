@@ -159,19 +159,19 @@ var (
 
 var (
 	mallaryPhrase = nook.Languages{
-		language.AmericanEnglish:      mallaryAmericanEnglishName,
-		language.CanadianFrench:       mallaryCanadianFrenchName,
-		language.Dutch:                mallaryDutchName,
-		language.French:               mallaryFrenchName,
-		language.German:               mallaryGermanName,
-		language.Italian:              mallaryItalianName,
-		language.Japanese:             mallaryJapaneseName,
-		language.Korean:               mallaryKoreanName,
-		language.LatinAmericanSpanish: mallaryLatinAmericanSpanishName,
-		language.Russian:              mallaryRussianName,
-		language.SimplifiedChinese:    mallarySimplifiedChineseName,
-		language.Spanish:              mallarySpanishName,
-		language.TraditionalChinese:   mallaryTraditionalChineseName}
+		language.AmericanEnglish:      mallaryAmericanEnglishPhrase,
+		language.CanadianFrench:       mallaryCanadianFrenchPhrase,
+		language.Dutch:                mallaryDutchPhrase,
+		language.French:               mallaryFrenchPhrase,
+		language.German:               mallaryGermanPhrase,
+		language.Italian:              mallaryItalianPhrase,
+		language.Japanese:             mallaryJapanesePhrase,
+		language.Korean:               mallaryKoreanPhrase,
+		language.LatinAmericanSpanish: mallaryLatinAmericanSpanishPhrase,
+		language.Russian:              mallaryRussianPhrase,
+		language.SimplifiedChinese:    mallarySimplifiedChinesePhrase,
+		language.Spanish:              mallarySpanishPhrase,
+		language.TraditionalChinese:   mallaryTraditionalChinesePhrase}
 )
 
 var (

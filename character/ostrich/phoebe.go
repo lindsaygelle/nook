@@ -159,19 +159,19 @@ var (
 
 var (
 	phoebePhrase = nook.Languages{
-		language.AmericanEnglish:      phoebeAmericanEnglishName,
-		language.CanadianFrench:       phoebeCanadianFrenchName,
-		language.Dutch:                phoebeDutchName,
-		language.French:               phoebeFrenchName,
-		language.German:               phoebeGermanName,
-		language.Italian:              phoebeItalianName,
-		language.Japanese:             phoebeJapaneseName,
-		language.Korean:               phoebeKoreanName,
-		language.LatinAmericanSpanish: phoebeLatinAmericanSpanishName,
-		language.Russian:              phoebeRussianName,
-		language.SimplifiedChinese:    phoebeSimplifiedChineseName,
-		language.Spanish:              phoebeSpanishName,
-		language.TraditionalChinese:   phoebeTraditionalChineseName}
+		language.AmericanEnglish:      phoebeAmericanEnglishPhrase,
+		language.CanadianFrench:       phoebeCanadianFrenchPhrase,
+		language.Dutch:                phoebeDutchPhrase,
+		language.French:               phoebeFrenchPhrase,
+		language.German:               phoebeGermanPhrase,
+		language.Italian:              phoebeItalianPhrase,
+		language.Japanese:             phoebeJapanesePhrase,
+		language.Korean:               phoebeKoreanPhrase,
+		language.LatinAmericanSpanish: phoebeLatinAmericanSpanishPhrase,
+		language.Russian:              phoebeRussianPhrase,
+		language.SimplifiedChinese:    phoebeSimplifiedChinesePhrase,
+		language.Spanish:              phoebeSpanishPhrase,
+		language.TraditionalChinese:   phoebeTraditionalChinesePhrase}
 )
 
 var (

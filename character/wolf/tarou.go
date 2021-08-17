@@ -159,19 +159,19 @@ var (
 
 var (
 	tarouPhrase = nook.Languages{
-		language.AmericanEnglish:      tarouAmericanEnglishName,
-		language.CanadianFrench:       tarouCanadianFrenchName,
-		language.Dutch:                tarouDutchName,
-		language.French:               tarouFrenchName,
-		language.German:               tarouGermanName,
-		language.Italian:              tarouItalianName,
-		language.Japanese:             tarouJapaneseName,
-		language.Korean:               tarouKoreanName,
-		language.LatinAmericanSpanish: tarouLatinAmericanSpanishName,
-		language.Russian:              tarouRussianName,
-		language.SimplifiedChinese:    tarouSimplifiedChineseName,
-		language.Spanish:              tarouSpanishName,
-		language.TraditionalChinese:   tarouTraditionalChineseName}
+		language.AmericanEnglish:      tarouAmericanEnglishPhrase,
+		language.CanadianFrench:       tarouCanadianFrenchPhrase,
+		language.Dutch:                tarouDutchPhrase,
+		language.French:               tarouFrenchPhrase,
+		language.German:               tarouGermanPhrase,
+		language.Italian:              tarouItalianPhrase,
+		language.Japanese:             tarouJapanesePhrase,
+		language.Korean:               tarouKoreanPhrase,
+		language.LatinAmericanSpanish: tarouLatinAmericanSpanishPhrase,
+		language.Russian:              tarouRussianPhrase,
+		language.SimplifiedChinese:    tarouSimplifiedChinesePhrase,
+		language.Spanish:              tarouSpanishPhrase,
+		language.TraditionalChinese:   tarouTraditionalChinesePhrase}
 )
 
 var (

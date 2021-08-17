@@ -159,19 +159,19 @@ var (
 
 var (
 	boomerPhrase = nook.Languages{
-		language.AmericanEnglish:      boomerAmericanEnglishName,
-		language.CanadianFrench:       boomerCanadianFrenchName,
-		language.Dutch:                boomerDutchName,
-		language.French:               boomerFrenchName,
-		language.German:               boomerGermanName,
-		language.Italian:              boomerItalianName,
-		language.Japanese:             boomerJapaneseName,
-		language.Korean:               boomerKoreanName,
-		language.LatinAmericanSpanish: boomerLatinAmericanSpanishName,
-		language.Russian:              boomerRussianName,
-		language.SimplifiedChinese:    boomerSimplifiedChineseName,
-		language.Spanish:              boomerSpanishName,
-		language.TraditionalChinese:   boomerTraditionalChineseName}
+		language.AmericanEnglish:      boomerAmericanEnglishPhrase,
+		language.CanadianFrench:       boomerCanadianFrenchPhrase,
+		language.Dutch:                boomerDutchPhrase,
+		language.French:               boomerFrenchPhrase,
+		language.German:               boomerGermanPhrase,
+		language.Italian:              boomerItalianPhrase,
+		language.Japanese:             boomerJapanesePhrase,
+		language.Korean:               boomerKoreanPhrase,
+		language.LatinAmericanSpanish: boomerLatinAmericanSpanishPhrase,
+		language.Russian:              boomerRussianPhrase,
+		language.SimplifiedChinese:    boomerSimplifiedChinesePhrase,
+		language.Spanish:              boomerSpanishPhrase,
+		language.TraditionalChinese:   boomerTraditionalChinesePhrase}
 )
 
 var (

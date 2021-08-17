@@ -159,19 +159,19 @@ var (
 
 var (
 	stellaPhrase = nook.Languages{
-		language.AmericanEnglish:      stellaAmericanEnglishName,
-		language.CanadianFrench:       stellaCanadianFrenchName,
-		language.Dutch:                stellaDutchName,
-		language.French:               stellaFrenchName,
-		language.German:               stellaGermanName,
-		language.Italian:              stellaItalianName,
-		language.Japanese:             stellaJapaneseName,
-		language.Korean:               stellaKoreanName,
-		language.LatinAmericanSpanish: stellaLatinAmericanSpanishName,
-		language.Russian:              stellaRussianName,
-		language.SimplifiedChinese:    stellaSimplifiedChineseName,
-		language.Spanish:              stellaSpanishName,
-		language.TraditionalChinese:   stellaTraditionalChineseName}
+		language.AmericanEnglish:      stellaAmericanEnglishPhrase,
+		language.CanadianFrench:       stellaCanadianFrenchPhrase,
+		language.Dutch:                stellaDutchPhrase,
+		language.French:               stellaFrenchPhrase,
+		language.German:               stellaGermanPhrase,
+		language.Italian:              stellaItalianPhrase,
+		language.Japanese:             stellaJapanesePhrase,
+		language.Korean:               stellaKoreanPhrase,
+		language.LatinAmericanSpanish: stellaLatinAmericanSpanishPhrase,
+		language.Russian:              stellaRussianPhrase,
+		language.SimplifiedChinese:    stellaSimplifiedChinesePhrase,
+		language.Spanish:              stellaSpanishPhrase,
+		language.TraditionalChinese:   stellaTraditionalChinesePhrase}
 )
 
 var (

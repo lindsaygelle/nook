@@ -159,19 +159,19 @@ var (
 
 var (
 	merryPhrase = nook.Languages{
-		language.AmericanEnglish:      merryAmericanEnglishName,
-		language.CanadianFrench:       merryCanadianFrenchName,
-		language.Dutch:                merryDutchName,
-		language.French:               merryFrenchName,
-		language.German:               merryGermanName,
-		language.Italian:              merryItalianName,
-		language.Japanese:             merryJapaneseName,
-		language.Korean:               merryKoreanName,
-		language.LatinAmericanSpanish: merryLatinAmericanSpanishName,
-		language.Russian:              merryRussianName,
-		language.SimplifiedChinese:    merrySimplifiedChineseName,
-		language.Spanish:              merrySpanishName,
-		language.TraditionalChinese:   merryTraditionalChineseName}
+		language.AmericanEnglish:      merryAmericanEnglishPhrase,
+		language.CanadianFrench:       merryCanadianFrenchPhrase,
+		language.Dutch:                merryDutchPhrase,
+		language.French:               merryFrenchPhrase,
+		language.German:               merryGermanPhrase,
+		language.Italian:              merryItalianPhrase,
+		language.Japanese:             merryJapanesePhrase,
+		language.Korean:               merryKoreanPhrase,
+		language.LatinAmericanSpanish: merryLatinAmericanSpanishPhrase,
+		language.Russian:              merryRussianPhrase,
+		language.SimplifiedChinese:    merrySimplifiedChinesePhrase,
+		language.Spanish:              merrySpanishPhrase,
+		language.TraditionalChinese:   merryTraditionalChinesePhrase}
 )
 
 var (

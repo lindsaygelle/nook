@@ -159,19 +159,19 @@ var (
 
 var (
 	ameliaPhrase = nook.Languages{
-		language.AmericanEnglish:      ameliaAmericanEnglishName,
-		language.CanadianFrench:       ameliaCanadianFrenchName,
-		language.Dutch:                ameliaDutchName,
-		language.French:               ameliaFrenchName,
-		language.German:               ameliaGermanName,
-		language.Italian:              ameliaItalianName,
-		language.Japanese:             ameliaJapaneseName,
-		language.Korean:               ameliaKoreanName,
-		language.LatinAmericanSpanish: ameliaLatinAmericanSpanishName,
-		language.Russian:              ameliaRussianName,
-		language.SimplifiedChinese:    ameliaSimplifiedChineseName,
-		language.Spanish:              ameliaSpanishName,
-		language.TraditionalChinese:   ameliaTraditionalChineseName}
+		language.AmericanEnglish:      ameliaAmericanEnglishPhrase,
+		language.CanadianFrench:       ameliaCanadianFrenchPhrase,
+		language.Dutch:                ameliaDutchPhrase,
+		language.French:               ameliaFrenchPhrase,
+		language.German:               ameliaGermanPhrase,
+		language.Italian:              ameliaItalianPhrase,
+		language.Japanese:             ameliaJapanesePhrase,
+		language.Korean:               ameliaKoreanPhrase,
+		language.LatinAmericanSpanish: ameliaLatinAmericanSpanishPhrase,
+		language.Russian:              ameliaRussianPhrase,
+		language.SimplifiedChinese:    ameliaSimplifiedChinesePhrase,
+		language.Spanish:              ameliaSpanishPhrase,
+		language.TraditionalChinese:   ameliaTraditionalChinesePhrase}
 )
 
 var (

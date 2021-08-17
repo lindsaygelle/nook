@@ -159,19 +159,19 @@ var (
 
 var (
 	camofrogPhrase = nook.Languages{
-		language.AmericanEnglish:      camofrogAmericanEnglishName,
-		language.CanadianFrench:       camofrogCanadianFrenchName,
-		language.Dutch:                camofrogDutchName,
-		language.French:               camofrogFrenchName,
-		language.German:               camofrogGermanName,
-		language.Italian:              camofrogItalianName,
-		language.Japanese:             camofrogJapaneseName,
-		language.Korean:               camofrogKoreanName,
-		language.LatinAmericanSpanish: camofrogLatinAmericanSpanishName,
-		language.Russian:              camofrogRussianName,
-		language.SimplifiedChinese:    camofrogSimplifiedChineseName,
-		language.Spanish:              camofrogSpanishName,
-		language.TraditionalChinese:   camofrogTraditionalChineseName}
+		language.AmericanEnglish:      camofrogAmericanEnglishPhrase,
+		language.CanadianFrench:       camofrogCanadianFrenchPhrase,
+		language.Dutch:                camofrogDutchPhrase,
+		language.French:               camofrogFrenchPhrase,
+		language.German:               camofrogGermanPhrase,
+		language.Italian:              camofrogItalianPhrase,
+		language.Japanese:             camofrogJapanesePhrase,
+		language.Korean:               camofrogKoreanPhrase,
+		language.LatinAmericanSpanish: camofrogLatinAmericanSpanishPhrase,
+		language.Russian:              camofrogRussianPhrase,
+		language.SimplifiedChinese:    camofrogSimplifiedChinesePhrase,
+		language.Spanish:              camofrogSpanishPhrase,
+		language.TraditionalChinese:   camofrogTraditionalChinesePhrase}
 )
 
 var (

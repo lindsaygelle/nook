@@ -159,19 +159,19 @@ var (
 
 var (
 	mirandaPhrase = nook.Languages{
-		language.AmericanEnglish:      mirandaAmericanEnglishName,
-		language.CanadianFrench:       mirandaCanadianFrenchName,
-		language.Dutch:                mirandaDutchName,
-		language.French:               mirandaFrenchName,
-		language.German:               mirandaGermanName,
-		language.Italian:              mirandaItalianName,
-		language.Japanese:             mirandaJapaneseName,
-		language.Korean:               mirandaKoreanName,
-		language.LatinAmericanSpanish: mirandaLatinAmericanSpanishName,
-		language.Russian:              mirandaRussianName,
-		language.SimplifiedChinese:    mirandaSimplifiedChineseName,
-		language.Spanish:              mirandaSpanishName,
-		language.TraditionalChinese:   mirandaTraditionalChineseName}
+		language.AmericanEnglish:      mirandaAmericanEnglishPhrase,
+		language.CanadianFrench:       mirandaCanadianFrenchPhrase,
+		language.Dutch:                mirandaDutchPhrase,
+		language.French:               mirandaFrenchPhrase,
+		language.German:               mirandaGermanPhrase,
+		language.Italian:              mirandaItalianPhrase,
+		language.Japanese:             mirandaJapanesePhrase,
+		language.Korean:               mirandaKoreanPhrase,
+		language.LatinAmericanSpanish: mirandaLatinAmericanSpanishPhrase,
+		language.Russian:              mirandaRussianPhrase,
+		language.SimplifiedChinese:    mirandaSimplifiedChinesePhrase,
+		language.Spanish:              mirandaSpanishPhrase,
+		language.TraditionalChinese:   mirandaTraditionalChinesePhrase}
 )
 
 var (

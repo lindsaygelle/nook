@@ -159,19 +159,19 @@ var (
 
 var (
 	puddlesPhrase = nook.Languages{
-		language.AmericanEnglish:      puddlesAmericanEnglishName,
-		language.CanadianFrench:       puddlesCanadianFrenchName,
-		language.Dutch:                puddlesDutchName,
-		language.French:               puddlesFrenchName,
-		language.German:               puddlesGermanName,
-		language.Italian:              puddlesItalianName,
-		language.Japanese:             puddlesJapaneseName,
-		language.Korean:               puddlesKoreanName,
-		language.LatinAmericanSpanish: puddlesLatinAmericanSpanishName,
-		language.Russian:              puddlesRussianName,
-		language.SimplifiedChinese:    puddlesSimplifiedChineseName,
-		language.Spanish:              puddlesSpanishName,
-		language.TraditionalChinese:   puddlesTraditionalChineseName}
+		language.AmericanEnglish:      puddlesAmericanEnglishPhrase,
+		language.CanadianFrench:       puddlesCanadianFrenchPhrase,
+		language.Dutch:                puddlesDutchPhrase,
+		language.French:               puddlesFrenchPhrase,
+		language.German:               puddlesGermanPhrase,
+		language.Italian:              puddlesItalianPhrase,
+		language.Japanese:             puddlesJapanesePhrase,
+		language.Korean:               puddlesKoreanPhrase,
+		language.LatinAmericanSpanish: puddlesLatinAmericanSpanishPhrase,
+		language.Russian:              puddlesRussianPhrase,
+		language.SimplifiedChinese:    puddlesSimplifiedChinesePhrase,
+		language.Spanish:              puddlesSpanishPhrase,
+		language.TraditionalChinese:   puddlesTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	felynePhrase = nook.Languages{
-		language.AmericanEnglish:      felyneAmericanEnglishName,
-		language.CanadianFrench:       felyneCanadianFrenchName,
-		language.Dutch:                felyneDutchName,
-		language.French:               felyneFrenchName,
-		language.German:               felyneGermanName,
-		language.Italian:              felyneItalianName,
-		language.Japanese:             felyneJapaneseName,
-		language.Korean:               felyneKoreanName,
-		language.LatinAmericanSpanish: felyneLatinAmericanSpanishName,
-		language.Russian:              felyneRussianName,
-		language.SimplifiedChinese:    felyneSimplifiedChineseName,
-		language.Spanish:              felyneSpanishName,
-		language.TraditionalChinese:   felyneTraditionalChineseName}
+		language.AmericanEnglish:      felyneAmericanEnglishPhrase,
+		language.CanadianFrench:       felyneCanadianFrenchPhrase,
+		language.Dutch:                felyneDutchPhrase,
+		language.French:               felyneFrenchPhrase,
+		language.German:               felyneGermanPhrase,
+		language.Italian:              felyneItalianPhrase,
+		language.Japanese:             felyneJapanesePhrase,
+		language.Korean:               felyneKoreanPhrase,
+		language.LatinAmericanSpanish: felyneLatinAmericanSpanishPhrase,
+		language.Russian:              felyneRussianPhrase,
+		language.SimplifiedChinese:    felyneSimplifiedChinesePhrase,
+		language.Spanish:              felyneSpanishPhrase,
+		language.TraditionalChinese:   felyneTraditionalChinesePhrase}
 )
 
 var (

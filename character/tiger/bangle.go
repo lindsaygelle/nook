@@ -159,19 +159,19 @@ var (
 
 var (
 	banglePhrase = nook.Languages{
-		language.AmericanEnglish:      bangleAmericanEnglishName,
-		language.CanadianFrench:       bangleCanadianFrenchName,
-		language.Dutch:                bangleDutchName,
-		language.French:               bangleFrenchName,
-		language.German:               bangleGermanName,
-		language.Italian:              bangleItalianName,
-		language.Japanese:             bangleJapaneseName,
-		language.Korean:               bangleKoreanName,
-		language.LatinAmericanSpanish: bangleLatinAmericanSpanishName,
-		language.Russian:              bangleRussianName,
-		language.SimplifiedChinese:    bangleSimplifiedChineseName,
-		language.Spanish:              bangleSpanishName,
-		language.TraditionalChinese:   bangleTraditionalChineseName}
+		language.AmericanEnglish:      bangleAmericanEnglishPhrase,
+		language.CanadianFrench:       bangleCanadianFrenchPhrase,
+		language.Dutch:                bangleDutchPhrase,
+		language.French:               bangleFrenchPhrase,
+		language.German:               bangleGermanPhrase,
+		language.Italian:              bangleItalianPhrase,
+		language.Japanese:             bangleJapanesePhrase,
+		language.Korean:               bangleKoreanPhrase,
+		language.LatinAmericanSpanish: bangleLatinAmericanSpanishPhrase,
+		language.Russian:              bangleRussianPhrase,
+		language.SimplifiedChinese:    bangleSimplifiedChinesePhrase,
+		language.Spanish:              bangleSpanishPhrase,
+		language.TraditionalChinese:   bangleTraditionalChinesePhrase}
 )
 
 var (

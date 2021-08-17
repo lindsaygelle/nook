@@ -159,19 +159,19 @@ var (
 
 var (
 	olafPhrase = nook.Languages{
-		language.AmericanEnglish:      olafAmericanEnglishName,
-		language.CanadianFrench:       olafCanadianFrenchName,
-		language.Dutch:                olafDutchName,
-		language.French:               olafFrenchName,
-		language.German:               olafGermanName,
-		language.Italian:              olafItalianName,
-		language.Japanese:             olafJapaneseName,
-		language.Korean:               olafKoreanName,
-		language.LatinAmericanSpanish: olafLatinAmericanSpanishName,
-		language.Russian:              olafRussianName,
-		language.SimplifiedChinese:    olafSimplifiedChineseName,
-		language.Spanish:              olafSpanishName,
-		language.TraditionalChinese:   olafTraditionalChineseName}
+		language.AmericanEnglish:      olafAmericanEnglishPhrase,
+		language.CanadianFrench:       olafCanadianFrenchPhrase,
+		language.Dutch:                olafDutchPhrase,
+		language.French:               olafFrenchPhrase,
+		language.German:               olafGermanPhrase,
+		language.Italian:              olafItalianPhrase,
+		language.Japanese:             olafJapanesePhrase,
+		language.Korean:               olafKoreanPhrase,
+		language.LatinAmericanSpanish: olafLatinAmericanSpanishPhrase,
+		language.Russian:              olafRussianPhrase,
+		language.SimplifiedChinese:    olafSimplifiedChinesePhrase,
+		language.Spanish:              olafSpanishPhrase,
+		language.TraditionalChinese:   olafTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	tiaraPhrase = nook.Languages{
-		language.AmericanEnglish:      tiaraAmericanEnglishName,
-		language.CanadianFrench:       tiaraCanadianFrenchName,
-		language.Dutch:                tiaraDutchName,
-		language.French:               tiaraFrenchName,
-		language.German:               tiaraGermanName,
-		language.Italian:              tiaraItalianName,
-		language.Japanese:             tiaraJapaneseName,
-		language.Korean:               tiaraKoreanName,
-		language.LatinAmericanSpanish: tiaraLatinAmericanSpanishName,
-		language.Russian:              tiaraRussianName,
-		language.SimplifiedChinese:    tiaraSimplifiedChineseName,
-		language.Spanish:              tiaraSpanishName,
-		language.TraditionalChinese:   tiaraTraditionalChineseName}
+		language.AmericanEnglish:      tiaraAmericanEnglishPhrase,
+		language.CanadianFrench:       tiaraCanadianFrenchPhrase,
+		language.Dutch:                tiaraDutchPhrase,
+		language.French:               tiaraFrenchPhrase,
+		language.German:               tiaraGermanPhrase,
+		language.Italian:              tiaraItalianPhrase,
+		language.Japanese:             tiaraJapanesePhrase,
+		language.Korean:               tiaraKoreanPhrase,
+		language.LatinAmericanSpanish: tiaraLatinAmericanSpanishPhrase,
+		language.Russian:              tiaraRussianPhrase,
+		language.SimplifiedChinese:    tiaraSimplifiedChinesePhrase,
+		language.Spanish:              tiaraSpanishPhrase,
+		language.TraditionalChinese:   tiaraTraditionalChinesePhrase}
 )
 
 var (

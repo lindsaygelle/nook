@@ -159,19 +159,19 @@ var (
 
 var (
 	champagnePhrase = nook.Languages{
-		language.AmericanEnglish:      champagneAmericanEnglishName,
-		language.CanadianFrench:       champagneCanadianFrenchName,
-		language.Dutch:                champagneDutchName,
-		language.French:               champagneFrenchName,
-		language.German:               champagneGermanName,
-		language.Italian:              champagneItalianName,
-		language.Japanese:             champagneJapaneseName,
-		language.Korean:               champagneKoreanName,
-		language.LatinAmericanSpanish: champagneLatinAmericanSpanishName,
-		language.Russian:              champagneRussianName,
-		language.SimplifiedChinese:    champagneSimplifiedChineseName,
-		language.Spanish:              champagneSpanishName,
-		language.TraditionalChinese:   champagneTraditionalChineseName}
+		language.AmericanEnglish:      champagneAmericanEnglishPhrase,
+		language.CanadianFrench:       champagneCanadianFrenchPhrase,
+		language.Dutch:                champagneDutchPhrase,
+		language.French:               champagneFrenchPhrase,
+		language.German:               champagneGermanPhrase,
+		language.Italian:              champagneItalianPhrase,
+		language.Japanese:             champagneJapanesePhrase,
+		language.Korean:               champagneKoreanPhrase,
+		language.LatinAmericanSpanish: champagneLatinAmericanSpanishPhrase,
+		language.Russian:              champagneRussianPhrase,
+		language.SimplifiedChinese:    champagneSimplifiedChinesePhrase,
+		language.Spanish:              champagneSpanishPhrase,
+		language.TraditionalChinese:   champagneTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	weldonPhrase = nook.Languages{
-		language.AmericanEnglish:      weldonAmericanEnglishName,
-		language.CanadianFrench:       weldonCanadianFrenchName,
-		language.Dutch:                weldonDutchName,
-		language.French:               weldonFrenchName,
-		language.German:               weldonGermanName,
-		language.Italian:              weldonItalianName,
-		language.Japanese:             weldonJapaneseName,
-		language.Korean:               weldonKoreanName,
-		language.LatinAmericanSpanish: weldonLatinAmericanSpanishName,
-		language.Russian:              weldonRussianName,
-		language.SimplifiedChinese:    weldonSimplifiedChineseName,
-		language.Spanish:              weldonSpanishName,
-		language.TraditionalChinese:   weldonTraditionalChineseName}
+		language.AmericanEnglish:      weldonAmericanEnglishPhrase,
+		language.CanadianFrench:       weldonCanadianFrenchPhrase,
+		language.Dutch:                weldonDutchPhrase,
+		language.French:               weldonFrenchPhrase,
+		language.German:               weldonGermanPhrase,
+		language.Italian:              weldonItalianPhrase,
+		language.Japanese:             weldonJapanesePhrase,
+		language.Korean:               weldonKoreanPhrase,
+		language.LatinAmericanSpanish: weldonLatinAmericanSpanishPhrase,
+		language.Russian:              weldonRussianPhrase,
+		language.SimplifiedChinese:    weldonSimplifiedChinesePhrase,
+		language.Spanish:              weldonSpanishPhrase,
+		language.TraditionalChinese:   weldonTraditionalChinesePhrase}
 )
 
 var (

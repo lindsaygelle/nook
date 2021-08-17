@@ -159,19 +159,19 @@ var (
 
 var (
 	anchovyPhrase = nook.Languages{
-		language.AmericanEnglish:      anchovyAmericanEnglishName,
-		language.CanadianFrench:       anchovyCanadianFrenchName,
-		language.Dutch:                anchovyDutchName,
-		language.French:               anchovyFrenchName,
-		language.German:               anchovyGermanName,
-		language.Italian:              anchovyItalianName,
-		language.Japanese:             anchovyJapaneseName,
-		language.Korean:               anchovyKoreanName,
-		language.LatinAmericanSpanish: anchovyLatinAmericanSpanishName,
-		language.Russian:              anchovyRussianName,
-		language.SimplifiedChinese:    anchovySimplifiedChineseName,
-		language.Spanish:              anchovySpanishName,
-		language.TraditionalChinese:   anchovyTraditionalChineseName}
+		language.AmericanEnglish:      anchovyAmericanEnglishPhrase,
+		language.CanadianFrench:       anchovyCanadianFrenchPhrase,
+		language.Dutch:                anchovyDutchPhrase,
+		language.French:               anchovyFrenchPhrase,
+		language.German:               anchovyGermanPhrase,
+		language.Italian:              anchovyItalianPhrase,
+		language.Japanese:             anchovyJapanesePhrase,
+		language.Korean:               anchovyKoreanPhrase,
+		language.LatinAmericanSpanish: anchovyLatinAmericanSpanishPhrase,
+		language.Russian:              anchovyRussianPhrase,
+		language.SimplifiedChinese:    anchovySimplifiedChinesePhrase,
+		language.Spanish:              anchovySpanishPhrase,
+		language.TraditionalChinese:   anchovyTraditionalChinesePhrase}
 )
 
 var (

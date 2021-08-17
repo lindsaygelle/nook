@@ -159,19 +159,19 @@ var (
 
 var (
 	admiralPhrase = nook.Languages{
-		language.AmericanEnglish:      admiralAmericanEnglishName,
-		language.CanadianFrench:       admiralCanadianFrenchName,
-		language.Dutch:                admiralDutchName,
-		language.French:               admiralFrenchName,
-		language.German:               admiralGermanName,
-		language.Italian:              admiralItalianName,
-		language.Japanese:             admiralJapaneseName,
-		language.Korean:               admiralKoreanName,
-		language.LatinAmericanSpanish: admiralLatinAmericanSpanishName,
-		language.Russian:              admiralRussianName,
-		language.SimplifiedChinese:    admiralSimplifiedChineseName,
-		language.Spanish:              admiralSpanishName,
-		language.TraditionalChinese:   admiralTraditionalChineseName}
+		language.AmericanEnglish:      admiralAmericanEnglishPhrase,
+		language.CanadianFrench:       admiralCanadianFrenchPhrase,
+		language.Dutch:                admiralDutchPhrase,
+		language.French:               admiralFrenchPhrase,
+		language.German:               admiralGermanPhrase,
+		language.Italian:              admiralItalianPhrase,
+		language.Japanese:             admiralJapanesePhrase,
+		language.Korean:               admiralKoreanPhrase,
+		language.LatinAmericanSpanish: admiralLatinAmericanSpanishPhrase,
+		language.Russian:              admiralRussianPhrase,
+		language.SimplifiedChinese:    admiralSimplifiedChinesePhrase,
+		language.Spanish:              admiralSpanishPhrase,
+		language.TraditionalChinese:   admiralTraditionalChinesePhrase}
 )
 
 var (

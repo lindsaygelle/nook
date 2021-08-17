@@ -159,19 +159,19 @@ var (
 
 var (
 	meganPhrase = nook.Languages{
-		language.AmericanEnglish:      meganAmericanEnglishName,
-		language.CanadianFrench:       meganCanadianFrenchName,
-		language.Dutch:                meganDutchName,
-		language.French:               meganFrenchName,
-		language.German:               meganGermanName,
-		language.Italian:              meganItalianName,
-		language.Japanese:             meganJapaneseName,
-		language.Korean:               meganKoreanName,
-		language.LatinAmericanSpanish: meganLatinAmericanSpanishName,
-		language.Russian:              meganRussianName,
-		language.SimplifiedChinese:    meganSimplifiedChineseName,
-		language.Spanish:              meganSpanishName,
-		language.TraditionalChinese:   meganTraditionalChineseName}
+		language.AmericanEnglish:      meganAmericanEnglishPhrase,
+		language.CanadianFrench:       meganCanadianFrenchPhrase,
+		language.Dutch:                meganDutchPhrase,
+		language.French:               meganFrenchPhrase,
+		language.German:               meganGermanPhrase,
+		language.Italian:              meganItalianPhrase,
+		language.Japanese:             meganJapanesePhrase,
+		language.Korean:               meganKoreanPhrase,
+		language.LatinAmericanSpanish: meganLatinAmericanSpanishPhrase,
+		language.Russian:              meganRussianPhrase,
+		language.SimplifiedChinese:    meganSimplifiedChinesePhrase,
+		language.Spanish:              meganSpanishPhrase,
+		language.TraditionalChinese:   meganTraditionalChinesePhrase}
 )
 
 var (

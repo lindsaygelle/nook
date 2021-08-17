@@ -159,19 +159,19 @@ var (
 
 var (
 	gwenPhrase = nook.Languages{
-		language.AmericanEnglish:      gwenAmericanEnglishName,
-		language.CanadianFrench:       gwenCanadianFrenchName,
-		language.Dutch:                gwenDutchName,
-		language.French:               gwenFrenchName,
-		language.German:               gwenGermanName,
-		language.Italian:              gwenItalianName,
-		language.Japanese:             gwenJapaneseName,
-		language.Korean:               gwenKoreanName,
-		language.LatinAmericanSpanish: gwenLatinAmericanSpanishName,
-		language.Russian:              gwenRussianName,
-		language.SimplifiedChinese:    gwenSimplifiedChineseName,
-		language.Spanish:              gwenSpanishName,
-		language.TraditionalChinese:   gwenTraditionalChineseName}
+		language.AmericanEnglish:      gwenAmericanEnglishPhrase,
+		language.CanadianFrench:       gwenCanadianFrenchPhrase,
+		language.Dutch:                gwenDutchPhrase,
+		language.French:               gwenFrenchPhrase,
+		language.German:               gwenGermanPhrase,
+		language.Italian:              gwenItalianPhrase,
+		language.Japanese:             gwenJapanesePhrase,
+		language.Korean:               gwenKoreanPhrase,
+		language.LatinAmericanSpanish: gwenLatinAmericanSpanishPhrase,
+		language.Russian:              gwenRussianPhrase,
+		language.SimplifiedChinese:    gwenSimplifiedChinesePhrase,
+		language.Spanish:              gwenSpanishPhrase,
+		language.TraditionalChinese:   gwenTraditionalChinesePhrase}
 )
 
 var (

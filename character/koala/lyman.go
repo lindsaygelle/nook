@@ -159,19 +159,19 @@ var (
 
 var (
 	lymanPhrase = nook.Languages{
-		language.AmericanEnglish:      lymanAmericanEnglishName,
-		language.CanadianFrench:       lymanCanadianFrenchName,
-		language.Dutch:                lymanDutchName,
-		language.French:               lymanFrenchName,
-		language.German:               lymanGermanName,
-		language.Italian:              lymanItalianName,
-		language.Japanese:             lymanJapaneseName,
-		language.Korean:               lymanKoreanName,
-		language.LatinAmericanSpanish: lymanLatinAmericanSpanishName,
-		language.Russian:              lymanRussianName,
-		language.SimplifiedChinese:    lymanSimplifiedChineseName,
-		language.Spanish:              lymanSpanishName,
-		language.TraditionalChinese:   lymanTraditionalChineseName}
+		language.AmericanEnglish:      lymanAmericanEnglishPhrase,
+		language.CanadianFrench:       lymanCanadianFrenchPhrase,
+		language.Dutch:                lymanDutchPhrase,
+		language.French:               lymanFrenchPhrase,
+		language.German:               lymanGermanPhrase,
+		language.Italian:              lymanItalianPhrase,
+		language.Japanese:             lymanJapanesePhrase,
+		language.Korean:               lymanKoreanPhrase,
+		language.LatinAmericanSpanish: lymanLatinAmericanSpanishPhrase,
+		language.Russian:              lymanRussianPhrase,
+		language.SimplifiedChinese:    lymanSimplifiedChinesePhrase,
+		language.Spanish:              lymanSpanishPhrase,
+		language.TraditionalChinese:   lymanTraditionalChinesePhrase}
 )
 
 var (

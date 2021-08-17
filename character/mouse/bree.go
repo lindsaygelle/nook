@@ -159,19 +159,19 @@ var (
 
 var (
 	breePhrase = nook.Languages{
-		language.AmericanEnglish:      breeAmericanEnglishName,
-		language.CanadianFrench:       breeCanadianFrenchName,
-		language.Dutch:                breeDutchName,
-		language.French:               breeFrenchName,
-		language.German:               breeGermanName,
-		language.Italian:              breeItalianName,
-		language.Japanese:             breeJapaneseName,
-		language.Korean:               breeKoreanName,
-		language.LatinAmericanSpanish: breeLatinAmericanSpanishName,
-		language.Russian:              breeRussianName,
-		language.SimplifiedChinese:    breeSimplifiedChineseName,
-		language.Spanish:              breeSpanishName,
-		language.TraditionalChinese:   breeTraditionalChineseName}
+		language.AmericanEnglish:      breeAmericanEnglishPhrase,
+		language.CanadianFrench:       breeCanadianFrenchPhrase,
+		language.Dutch:                breeDutchPhrase,
+		language.French:               breeFrenchPhrase,
+		language.German:               breeGermanPhrase,
+		language.Italian:              breeItalianPhrase,
+		language.Japanese:             breeJapanesePhrase,
+		language.Korean:               breeKoreanPhrase,
+		language.LatinAmericanSpanish: breeLatinAmericanSpanishPhrase,
+		language.Russian:              breeRussianPhrase,
+		language.SimplifiedChinese:    breeSimplifiedChinesePhrase,
+		language.Spanish:              breeSpanishPhrase,
+		language.TraditionalChinese:   breeTraditionalChinesePhrase}
 )
 
 var (

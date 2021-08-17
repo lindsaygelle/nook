@@ -159,19 +159,19 @@ var (
 
 var (
 	hamletPhrase = nook.Languages{
-		language.AmericanEnglish:      hamletAmericanEnglishName,
-		language.CanadianFrench:       hamletCanadianFrenchName,
-		language.Dutch:                hamletDutchName,
-		language.French:               hamletFrenchName,
-		language.German:               hamletGermanName,
-		language.Italian:              hamletItalianName,
-		language.Japanese:             hamletJapaneseName,
-		language.Korean:               hamletKoreanName,
-		language.LatinAmericanSpanish: hamletLatinAmericanSpanishName,
-		language.Russian:              hamletRussianName,
-		language.SimplifiedChinese:    hamletSimplifiedChineseName,
-		language.Spanish:              hamletSpanishName,
-		language.TraditionalChinese:   hamletTraditionalChineseName}
+		language.AmericanEnglish:      hamletAmericanEnglishPhrase,
+		language.CanadianFrench:       hamletCanadianFrenchPhrase,
+		language.Dutch:                hamletDutchPhrase,
+		language.French:               hamletFrenchPhrase,
+		language.German:               hamletGermanPhrase,
+		language.Italian:              hamletItalianPhrase,
+		language.Japanese:             hamletJapanesePhrase,
+		language.Korean:               hamletKoreanPhrase,
+		language.LatinAmericanSpanish: hamletLatinAmericanSpanishPhrase,
+		language.Russian:              hamletRussianPhrase,
+		language.SimplifiedChinese:    hamletSimplifiedChinesePhrase,
+		language.Spanish:              hamletSpanishPhrase,
+		language.TraditionalChinese:   hamletTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	merenguePhrase = nook.Languages{
-		language.AmericanEnglish:      merengueAmericanEnglishName,
-		language.CanadianFrench:       merengueCanadianFrenchName,
-		language.Dutch:                merengueDutchName,
-		language.French:               merengueFrenchName,
-		language.German:               merengueGermanName,
-		language.Italian:              merengueItalianName,
-		language.Japanese:             merengueJapaneseName,
-		language.Korean:               merengueKoreanName,
-		language.LatinAmericanSpanish: merengueLatinAmericanSpanishName,
-		language.Russian:              merengueRussianName,
-		language.SimplifiedChinese:    merengueSimplifiedChineseName,
-		language.Spanish:              merengueSpanishName,
-		language.TraditionalChinese:   merengueTraditionalChineseName}
+		language.AmericanEnglish:      merengueAmericanEnglishPhrase,
+		language.CanadianFrench:       merengueCanadianFrenchPhrase,
+		language.Dutch:                merengueDutchPhrase,
+		language.French:               merengueFrenchPhrase,
+		language.German:               merengueGermanPhrase,
+		language.Italian:              merengueItalianPhrase,
+		language.Japanese:             merengueJapanesePhrase,
+		language.Korean:               merengueKoreanPhrase,
+		language.LatinAmericanSpanish: merengueLatinAmericanSpanishPhrase,
+		language.Russian:              merengueRussianPhrase,
+		language.SimplifiedChinese:    merengueSimplifiedChinesePhrase,
+		language.Spanish:              merengueSpanishPhrase,
+		language.TraditionalChinese:   merengueTraditionalChinesePhrase}
 )
 
 var (

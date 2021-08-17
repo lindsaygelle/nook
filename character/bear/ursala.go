@@ -159,19 +159,19 @@ var (
 
 var (
 	ursalaPhrase = nook.Languages{
-		language.AmericanEnglish:      ursalaAmericanEnglishName,
-		language.CanadianFrench:       ursalaCanadianFrenchName,
-		language.Dutch:                ursalaDutchName,
-		language.French:               ursalaFrenchName,
-		language.German:               ursalaGermanName,
-		language.Italian:              ursalaItalianName,
-		language.Japanese:             ursalaJapaneseName,
-		language.Korean:               ursalaKoreanName,
-		language.LatinAmericanSpanish: ursalaLatinAmericanSpanishName,
-		language.Russian:              ursalaRussianName,
-		language.SimplifiedChinese:    ursalaSimplifiedChineseName,
-		language.Spanish:              ursalaSpanishName,
-		language.TraditionalChinese:   ursalaTraditionalChineseName}
+		language.AmericanEnglish:      ursalaAmericanEnglishPhrase,
+		language.CanadianFrench:       ursalaCanadianFrenchPhrase,
+		language.Dutch:                ursalaDutchPhrase,
+		language.French:               ursalaFrenchPhrase,
+		language.German:               ursalaGermanPhrase,
+		language.Italian:              ursalaItalianPhrase,
+		language.Japanese:             ursalaJapanesePhrase,
+		language.Korean:               ursalaKoreanPhrase,
+		language.LatinAmericanSpanish: ursalaLatinAmericanSpanishPhrase,
+		language.Russian:              ursalaRussianPhrase,
+		language.SimplifiedChinese:    ursalaSimplifiedChinesePhrase,
+		language.Spanish:              ursalaSpanishPhrase,
+		language.TraditionalChinese:   ursalaTraditionalChinesePhrase}
 )
 
 var (

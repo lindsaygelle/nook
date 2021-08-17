@@ -159,19 +159,19 @@ var (
 
 var (
 	sheldonPhrase = nook.Languages{
-		language.AmericanEnglish:      sheldonAmericanEnglishName,
-		language.CanadianFrench:       sheldonCanadianFrenchName,
-		language.Dutch:                sheldonDutchName,
-		language.French:               sheldonFrenchName,
-		language.German:               sheldonGermanName,
-		language.Italian:              sheldonItalianName,
-		language.Japanese:             sheldonJapaneseName,
-		language.Korean:               sheldonKoreanName,
-		language.LatinAmericanSpanish: sheldonLatinAmericanSpanishName,
-		language.Russian:              sheldonRussianName,
-		language.SimplifiedChinese:    sheldonSimplifiedChineseName,
-		language.Spanish:              sheldonSpanishName,
-		language.TraditionalChinese:   sheldonTraditionalChineseName}
+		language.AmericanEnglish:      sheldonAmericanEnglishPhrase,
+		language.CanadianFrench:       sheldonCanadianFrenchPhrase,
+		language.Dutch:                sheldonDutchPhrase,
+		language.French:               sheldonFrenchPhrase,
+		language.German:               sheldonGermanPhrase,
+		language.Italian:              sheldonItalianPhrase,
+		language.Japanese:             sheldonJapanesePhrase,
+		language.Korean:               sheldonKoreanPhrase,
+		language.LatinAmericanSpanish: sheldonLatinAmericanSpanishPhrase,
+		language.Russian:              sheldonRussianPhrase,
+		language.SimplifiedChinese:    sheldonSimplifiedChinesePhrase,
+		language.Spanish:              sheldonSpanishPhrase,
+		language.TraditionalChinese:   sheldonTraditionalChinesePhrase}
 )
 
 var (

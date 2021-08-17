@@ -159,19 +159,19 @@ var (
 
 var (
 	macPhrase = nook.Languages{
-		language.AmericanEnglish:      macAmericanEnglishName,
-		language.CanadianFrench:       macCanadianFrenchName,
-		language.Dutch:                macDutchName,
-		language.French:               macFrenchName,
-		language.German:               macGermanName,
-		language.Italian:              macItalianName,
-		language.Japanese:             macJapaneseName,
-		language.Korean:               macKoreanName,
-		language.LatinAmericanSpanish: macLatinAmericanSpanishName,
-		language.Russian:              macRussianName,
-		language.SimplifiedChinese:    macSimplifiedChineseName,
-		language.Spanish:              macSpanishName,
-		language.TraditionalChinese:   macTraditionalChineseName}
+		language.AmericanEnglish:      macAmericanEnglishPhrase,
+		language.CanadianFrench:       macCanadianFrenchPhrase,
+		language.Dutch:                macDutchPhrase,
+		language.French:               macFrenchPhrase,
+		language.German:               macGermanPhrase,
+		language.Italian:              macItalianPhrase,
+		language.Japanese:             macJapanesePhrase,
+		language.Korean:               macKoreanPhrase,
+		language.LatinAmericanSpanish: macLatinAmericanSpanishPhrase,
+		language.Russian:              macRussianPhrase,
+		language.SimplifiedChinese:    macSimplifiedChinesePhrase,
+		language.Spanish:              macSpanishPhrase,
+		language.TraditionalChinese:   macTraditionalChinesePhrase}
 )
 
 var (

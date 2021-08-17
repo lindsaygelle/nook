@@ -159,19 +159,19 @@ var (
 
 var (
 	elisePhrase = nook.Languages{
-		language.AmericanEnglish:      eliseAmericanEnglishName,
-		language.CanadianFrench:       eliseCanadianFrenchName,
-		language.Dutch:                eliseDutchName,
-		language.French:               eliseFrenchName,
-		language.German:               eliseGermanName,
-		language.Italian:              eliseItalianName,
-		language.Japanese:             eliseJapaneseName,
-		language.Korean:               eliseKoreanName,
-		language.LatinAmericanSpanish: eliseLatinAmericanSpanishName,
-		language.Russian:              eliseRussianName,
-		language.SimplifiedChinese:    eliseSimplifiedChineseName,
-		language.Spanish:              eliseSpanishName,
-		language.TraditionalChinese:   eliseTraditionalChineseName}
+		language.AmericanEnglish:      eliseAmericanEnglishPhrase,
+		language.CanadianFrench:       eliseCanadianFrenchPhrase,
+		language.Dutch:                eliseDutchPhrase,
+		language.French:               eliseFrenchPhrase,
+		language.German:               eliseGermanPhrase,
+		language.Italian:              eliseItalianPhrase,
+		language.Japanese:             eliseJapanesePhrase,
+		language.Korean:               eliseKoreanPhrase,
+		language.LatinAmericanSpanish: eliseLatinAmericanSpanishPhrase,
+		language.Russian:              eliseRussianPhrase,
+		language.SimplifiedChinese:    eliseSimplifiedChinesePhrase,
+		language.Spanish:              eliseSpanishPhrase,
+		language.TraditionalChinese:   eliseTraditionalChinesePhrase}
 )
 
 var (

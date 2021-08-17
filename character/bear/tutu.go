@@ -159,19 +159,19 @@ var (
 
 var (
 	tutuPhrase = nook.Languages{
-		language.AmericanEnglish:      tutuAmericanEnglishName,
-		language.CanadianFrench:       tutuCanadianFrenchName,
-		language.Dutch:                tutuDutchName,
-		language.French:               tutuFrenchName,
-		language.German:               tutuGermanName,
-		language.Italian:              tutuItalianName,
-		language.Japanese:             tutuJapaneseName,
-		language.Korean:               tutuKoreanName,
-		language.LatinAmericanSpanish: tutuLatinAmericanSpanishName,
-		language.Russian:              tutuRussianName,
-		language.SimplifiedChinese:    tutuSimplifiedChineseName,
-		language.Spanish:              tutuSpanishName,
-		language.TraditionalChinese:   tutuTraditionalChineseName}
+		language.AmericanEnglish:      tutuAmericanEnglishPhrase,
+		language.CanadianFrench:       tutuCanadianFrenchPhrase,
+		language.Dutch:                tutuDutchPhrase,
+		language.French:               tutuFrenchPhrase,
+		language.German:               tutuGermanPhrase,
+		language.Italian:              tutuItalianPhrase,
+		language.Japanese:             tutuJapanesePhrase,
+		language.Korean:               tutuKoreanPhrase,
+		language.LatinAmericanSpanish: tutuLatinAmericanSpanishPhrase,
+		language.Russian:              tutuRussianPhrase,
+		language.SimplifiedChinese:    tutuSimplifiedChinesePhrase,
+		language.Spanish:              tutuSpanishPhrase,
+		language.TraditionalChinese:   tutuTraditionalChinesePhrase}
 )
 
 var (

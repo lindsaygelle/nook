@@ -159,19 +159,19 @@ var (
 
 var (
 	leopoldPhrase = nook.Languages{
-		language.AmericanEnglish:      leopoldAmericanEnglishName,
-		language.CanadianFrench:       leopoldCanadianFrenchName,
-		language.Dutch:                leopoldDutchName,
-		language.French:               leopoldFrenchName,
-		language.German:               leopoldGermanName,
-		language.Italian:              leopoldItalianName,
-		language.Japanese:             leopoldJapaneseName,
-		language.Korean:               leopoldKoreanName,
-		language.LatinAmericanSpanish: leopoldLatinAmericanSpanishName,
-		language.Russian:              leopoldRussianName,
-		language.SimplifiedChinese:    leopoldSimplifiedChineseName,
-		language.Spanish:              leopoldSpanishName,
-		language.TraditionalChinese:   leopoldTraditionalChineseName}
+		language.AmericanEnglish:      leopoldAmericanEnglishPhrase,
+		language.CanadianFrench:       leopoldCanadianFrenchPhrase,
+		language.Dutch:                leopoldDutchPhrase,
+		language.French:               leopoldFrenchPhrase,
+		language.German:               leopoldGermanPhrase,
+		language.Italian:              leopoldItalianPhrase,
+		language.Japanese:             leopoldJapanesePhrase,
+		language.Korean:               leopoldKoreanPhrase,
+		language.LatinAmericanSpanish: leopoldLatinAmericanSpanishPhrase,
+		language.Russian:              leopoldRussianPhrase,
+		language.SimplifiedChinese:    leopoldSimplifiedChinesePhrase,
+		language.Spanish:              leopoldSpanishPhrase,
+		language.TraditionalChinese:   leopoldTraditionalChinesePhrase}
 )
 
 var (

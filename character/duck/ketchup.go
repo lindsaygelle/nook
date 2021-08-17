@@ -159,19 +159,19 @@ var (
 
 var (
 	ketchupPhrase = nook.Languages{
-		language.AmericanEnglish:      ketchupAmericanEnglishName,
-		language.CanadianFrench:       ketchupCanadianFrenchName,
-		language.Dutch:                ketchupDutchName,
-		language.French:               ketchupFrenchName,
-		language.German:               ketchupGermanName,
-		language.Italian:              ketchupItalianName,
-		language.Japanese:             ketchupJapaneseName,
-		language.Korean:               ketchupKoreanName,
-		language.LatinAmericanSpanish: ketchupLatinAmericanSpanishName,
-		language.Russian:              ketchupRussianName,
-		language.SimplifiedChinese:    ketchupSimplifiedChineseName,
-		language.Spanish:              ketchupSpanishName,
-		language.TraditionalChinese:   ketchupTraditionalChineseName}
+		language.AmericanEnglish:      ketchupAmericanEnglishPhrase,
+		language.CanadianFrench:       ketchupCanadianFrenchPhrase,
+		language.Dutch:                ketchupDutchPhrase,
+		language.French:               ketchupFrenchPhrase,
+		language.German:               ketchupGermanPhrase,
+		language.Italian:              ketchupItalianPhrase,
+		language.Japanese:             ketchupJapanesePhrase,
+		language.Korean:               ketchupKoreanPhrase,
+		language.LatinAmericanSpanish: ketchupLatinAmericanSpanishPhrase,
+		language.Russian:              ketchupRussianPhrase,
+		language.SimplifiedChinese:    ketchupSimplifiedChinesePhrase,
+		language.Spanish:              ketchupSpanishPhrase,
+		language.TraditionalChinese:   ketchupTraditionalChinesePhrase}
 )
 
 var (

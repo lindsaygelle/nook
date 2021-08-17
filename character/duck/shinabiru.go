@@ -159,19 +159,19 @@ var (
 
 var (
 	shinabiruPhrase = nook.Languages{
-		language.AmericanEnglish:      shinabiruAmericanEnglishName,
-		language.CanadianFrench:       shinabiruCanadianFrenchName,
-		language.Dutch:                shinabiruDutchName,
-		language.French:               shinabiruFrenchName,
-		language.German:               shinabiruGermanName,
-		language.Italian:              shinabiruItalianName,
-		language.Japanese:             shinabiruJapaneseName,
-		language.Korean:               shinabiruKoreanName,
-		language.LatinAmericanSpanish: shinabiruLatinAmericanSpanishName,
-		language.Russian:              shinabiruRussianName,
-		language.SimplifiedChinese:    shinabiruSimplifiedChineseName,
-		language.Spanish:              shinabiruSpanishName,
-		language.TraditionalChinese:   shinabiruTraditionalChineseName}
+		language.AmericanEnglish:      shinabiruAmericanEnglishPhrase,
+		language.CanadianFrench:       shinabiruCanadianFrenchPhrase,
+		language.Dutch:                shinabiruDutchPhrase,
+		language.French:               shinabiruFrenchPhrase,
+		language.German:               shinabiruGermanPhrase,
+		language.Italian:              shinabiruItalianPhrase,
+		language.Japanese:             shinabiruJapanesePhrase,
+		language.Korean:               shinabiruKoreanPhrase,
+		language.LatinAmericanSpanish: shinabiruLatinAmericanSpanishPhrase,
+		language.Russian:              shinabiruRussianPhrase,
+		language.SimplifiedChinese:    shinabiruSimplifiedChinesePhrase,
+		language.Spanish:              shinabiruSpanishPhrase,
+		language.TraditionalChinese:   shinabiruTraditionalChinesePhrase}
 )
 
 var (

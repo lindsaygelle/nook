@@ -159,19 +159,19 @@ var (
 
 var (
 	jambettePhrase = nook.Languages{
-		language.AmericanEnglish:      jambetteAmericanEnglishName,
-		language.CanadianFrench:       jambetteCanadianFrenchName,
-		language.Dutch:                jambetteDutchName,
-		language.French:               jambetteFrenchName,
-		language.German:               jambetteGermanName,
-		language.Italian:              jambetteItalianName,
-		language.Japanese:             jambetteJapaneseName,
-		language.Korean:               jambetteKoreanName,
-		language.LatinAmericanSpanish: jambetteLatinAmericanSpanishName,
-		language.Russian:              jambetteRussianName,
-		language.SimplifiedChinese:    jambetteSimplifiedChineseName,
-		language.Spanish:              jambetteSpanishName,
-		language.TraditionalChinese:   jambetteTraditionalChineseName}
+		language.AmericanEnglish:      jambetteAmericanEnglishPhrase,
+		language.CanadianFrench:       jambetteCanadianFrenchPhrase,
+		language.Dutch:                jambetteDutchPhrase,
+		language.French:               jambetteFrenchPhrase,
+		language.German:               jambetteGermanPhrase,
+		language.Italian:              jambetteItalianPhrase,
+		language.Japanese:             jambetteJapanesePhrase,
+		language.Korean:               jambetteKoreanPhrase,
+		language.LatinAmericanSpanish: jambetteLatinAmericanSpanishPhrase,
+		language.Russian:              jambetteRussianPhrase,
+		language.SimplifiedChinese:    jambetteSimplifiedChinesePhrase,
+		language.Spanish:              jambetteSpanishPhrase,
+		language.TraditionalChinese:   jambetteTraditionalChinesePhrase}
 )
 
 var (

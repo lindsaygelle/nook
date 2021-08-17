@@ -159,19 +159,19 @@ var (
 
 var (
 	frecklesPhrase = nook.Languages{
-		language.AmericanEnglish:      frecklesAmericanEnglishName,
-		language.CanadianFrench:       frecklesCanadianFrenchName,
-		language.Dutch:                frecklesDutchName,
-		language.French:               frecklesFrenchName,
-		language.German:               frecklesGermanName,
-		language.Italian:              frecklesItalianName,
-		language.Japanese:             frecklesJapaneseName,
-		language.Korean:               frecklesKoreanName,
-		language.LatinAmericanSpanish: frecklesLatinAmericanSpanishName,
-		language.Russian:              frecklesRussianName,
-		language.SimplifiedChinese:    frecklesSimplifiedChineseName,
-		language.Spanish:              frecklesSpanishName,
-		language.TraditionalChinese:   frecklesTraditionalChineseName}
+		language.AmericanEnglish:      frecklesAmericanEnglishPhrase,
+		language.CanadianFrench:       frecklesCanadianFrenchPhrase,
+		language.Dutch:                frecklesDutchPhrase,
+		language.French:               frecklesFrenchPhrase,
+		language.German:               frecklesGermanPhrase,
+		language.Italian:              frecklesItalianPhrase,
+		language.Japanese:             frecklesJapanesePhrase,
+		language.Korean:               frecklesKoreanPhrase,
+		language.LatinAmericanSpanish: frecklesLatinAmericanSpanishPhrase,
+		language.Russian:              frecklesRussianPhrase,
+		language.SimplifiedChinese:    frecklesSimplifiedChinesePhrase,
+		language.Spanish:              frecklesSpanishPhrase,
+		language.TraditionalChinese:   frecklesTraditionalChinesePhrase}
 )
 
 var (

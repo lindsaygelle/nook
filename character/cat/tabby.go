@@ -159,19 +159,19 @@ var (
 
 var (
 	tabbyPhrase = nook.Languages{
-		language.AmericanEnglish:      tabbyAmericanEnglishName,
-		language.CanadianFrench:       tabbyCanadianFrenchName,
-		language.Dutch:                tabbyDutchName,
-		language.French:               tabbyFrenchName,
-		language.German:               tabbyGermanName,
-		language.Italian:              tabbyItalianName,
-		language.Japanese:             tabbyJapaneseName,
-		language.Korean:               tabbyKoreanName,
-		language.LatinAmericanSpanish: tabbyLatinAmericanSpanishName,
-		language.Russian:              tabbyRussianName,
-		language.SimplifiedChinese:    tabbySimplifiedChineseName,
-		language.Spanish:              tabbySpanishName,
-		language.TraditionalChinese:   tabbyTraditionalChineseName}
+		language.AmericanEnglish:      tabbyAmericanEnglishPhrase,
+		language.CanadianFrench:       tabbyCanadianFrenchPhrase,
+		language.Dutch:                tabbyDutchPhrase,
+		language.French:               tabbyFrenchPhrase,
+		language.German:               tabbyGermanPhrase,
+		language.Italian:              tabbyItalianPhrase,
+		language.Japanese:             tabbyJapanesePhrase,
+		language.Korean:               tabbyKoreanPhrase,
+		language.LatinAmericanSpanish: tabbyLatinAmericanSpanishPhrase,
+		language.Russian:              tabbyRussianPhrase,
+		language.SimplifiedChinese:    tabbySimplifiedChinesePhrase,
+		language.Spanish:              tabbySpanishPhrase,
+		language.TraditionalChinese:   tabbyTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	quillsonPhrase = nook.Languages{
-		language.AmericanEnglish:      quillsonAmericanEnglishName,
-		language.CanadianFrench:       quillsonCanadianFrenchName,
-		language.Dutch:                quillsonDutchName,
-		language.French:               quillsonFrenchName,
-		language.German:               quillsonGermanName,
-		language.Italian:              quillsonItalianName,
-		language.Japanese:             quillsonJapaneseName,
-		language.Korean:               quillsonKoreanName,
-		language.LatinAmericanSpanish: quillsonLatinAmericanSpanishName,
-		language.Russian:              quillsonRussianName,
-		language.SimplifiedChinese:    quillsonSimplifiedChineseName,
-		language.Spanish:              quillsonSpanishName,
-		language.TraditionalChinese:   quillsonTraditionalChineseName}
+		language.AmericanEnglish:      quillsonAmericanEnglishPhrase,
+		language.CanadianFrench:       quillsonCanadianFrenchPhrase,
+		language.Dutch:                quillsonDutchPhrase,
+		language.French:               quillsonFrenchPhrase,
+		language.German:               quillsonGermanPhrase,
+		language.Italian:              quillsonItalianPhrase,
+		language.Japanese:             quillsonJapanesePhrase,
+		language.Korean:               quillsonKoreanPhrase,
+		language.LatinAmericanSpanish: quillsonLatinAmericanSpanishPhrase,
+		language.Russian:              quillsonRussianPhrase,
+		language.SimplifiedChinese:    quillsonSimplifiedChinesePhrase,
+		language.Spanish:              quillsonSpanishPhrase,
+		language.TraditionalChinese:   quillsonTraditionalChinesePhrase}
 )
 
 var (

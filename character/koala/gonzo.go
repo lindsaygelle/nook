@@ -159,19 +159,19 @@ var (
 
 var (
 	gonzoPhrase = nook.Languages{
-		language.AmericanEnglish:      gonzoAmericanEnglishName,
-		language.CanadianFrench:       gonzoCanadianFrenchName,
-		language.Dutch:                gonzoDutchName,
-		language.French:               gonzoFrenchName,
-		language.German:               gonzoGermanName,
-		language.Italian:              gonzoItalianName,
-		language.Japanese:             gonzoJapaneseName,
-		language.Korean:               gonzoKoreanName,
-		language.LatinAmericanSpanish: gonzoLatinAmericanSpanishName,
-		language.Russian:              gonzoRussianName,
-		language.SimplifiedChinese:    gonzoSimplifiedChineseName,
-		language.Spanish:              gonzoSpanishName,
-		language.TraditionalChinese:   gonzoTraditionalChineseName}
+		language.AmericanEnglish:      gonzoAmericanEnglishPhrase,
+		language.CanadianFrench:       gonzoCanadianFrenchPhrase,
+		language.Dutch:                gonzoDutchPhrase,
+		language.French:               gonzoFrenchPhrase,
+		language.German:               gonzoGermanPhrase,
+		language.Italian:              gonzoItalianPhrase,
+		language.Japanese:             gonzoJapanesePhrase,
+		language.Korean:               gonzoKoreanPhrase,
+		language.LatinAmericanSpanish: gonzoLatinAmericanSpanishPhrase,
+		language.Russian:              gonzoRussianPhrase,
+		language.SimplifiedChinese:    gonzoSimplifiedChinesePhrase,
+		language.Spanish:              gonzoSpanishPhrase,
+		language.TraditionalChinese:   gonzoTraditionalChinesePhrase}
 )
 
 var (

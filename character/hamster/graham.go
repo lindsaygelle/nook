@@ -159,19 +159,19 @@ var (
 
 var (
 	grahamPhrase = nook.Languages{
-		language.AmericanEnglish:      grahamAmericanEnglishName,
-		language.CanadianFrench:       grahamCanadianFrenchName,
-		language.Dutch:                grahamDutchName,
-		language.French:               grahamFrenchName,
-		language.German:               grahamGermanName,
-		language.Italian:              grahamItalianName,
-		language.Japanese:             grahamJapaneseName,
-		language.Korean:               grahamKoreanName,
-		language.LatinAmericanSpanish: grahamLatinAmericanSpanishName,
-		language.Russian:              grahamRussianName,
-		language.SimplifiedChinese:    grahamSimplifiedChineseName,
-		language.Spanish:              grahamSpanishName,
-		language.TraditionalChinese:   grahamTraditionalChineseName}
+		language.AmericanEnglish:      grahamAmericanEnglishPhrase,
+		language.CanadianFrench:       grahamCanadianFrenchPhrase,
+		language.Dutch:                grahamDutchPhrase,
+		language.French:               grahamFrenchPhrase,
+		language.German:               grahamGermanPhrase,
+		language.Italian:              grahamItalianPhrase,
+		language.Japanese:             grahamJapanesePhrase,
+		language.Korean:               grahamKoreanPhrase,
+		language.LatinAmericanSpanish: grahamLatinAmericanSpanishPhrase,
+		language.Russian:              grahamRussianPhrase,
+		language.SimplifiedChinese:    grahamSimplifiedChinesePhrase,
+		language.Spanish:              grahamSpanishPhrase,
+		language.TraditionalChinese:   grahamTraditionalChinesePhrase}
 )
 
 var (

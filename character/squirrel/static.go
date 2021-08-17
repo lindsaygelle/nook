@@ -159,19 +159,19 @@ var (
 
 var (
 	staticPhrase = nook.Languages{
-		language.AmericanEnglish:      staticAmericanEnglishName,
-		language.CanadianFrench:       staticCanadianFrenchName,
-		language.Dutch:                staticDutchName,
-		language.French:               staticFrenchName,
-		language.German:               staticGermanName,
-		language.Italian:              staticItalianName,
-		language.Japanese:             staticJapaneseName,
-		language.Korean:               staticKoreanName,
-		language.LatinAmericanSpanish: staticLatinAmericanSpanishName,
-		language.Russian:              staticRussianName,
-		language.SimplifiedChinese:    staticSimplifiedChineseName,
-		language.Spanish:              staticSpanishName,
-		language.TraditionalChinese:   staticTraditionalChineseName}
+		language.AmericanEnglish:      staticAmericanEnglishPhrase,
+		language.CanadianFrench:       staticCanadianFrenchPhrase,
+		language.Dutch:                staticDutchPhrase,
+		language.French:               staticFrenchPhrase,
+		language.German:               staticGermanPhrase,
+		language.Italian:              staticItalianPhrase,
+		language.Japanese:             staticJapanesePhrase,
+		language.Korean:               staticKoreanPhrase,
+		language.LatinAmericanSpanish: staticLatinAmericanSpanishPhrase,
+		language.Russian:              staticRussianPhrase,
+		language.SimplifiedChinese:    staticSimplifiedChinesePhrase,
+		language.Spanish:              staticSpanishPhrase,
+		language.TraditionalChinese:   staticTraditionalChinesePhrase}
 )
 
 var (

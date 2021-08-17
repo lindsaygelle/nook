@@ -159,19 +159,19 @@ var (
 
 var (
 	pompomPhrase = nook.Languages{
-		language.AmericanEnglish:      pompomAmericanEnglishName,
-		language.CanadianFrench:       pompomCanadianFrenchName,
-		language.Dutch:                pompomDutchName,
-		language.French:               pompomFrenchName,
-		language.German:               pompomGermanName,
-		language.Italian:              pompomItalianName,
-		language.Japanese:             pompomJapaneseName,
-		language.Korean:               pompomKoreanName,
-		language.LatinAmericanSpanish: pompomLatinAmericanSpanishName,
-		language.Russian:              pompomRussianName,
-		language.SimplifiedChinese:    pompomSimplifiedChineseName,
-		language.Spanish:              pompomSpanishName,
-		language.TraditionalChinese:   pompomTraditionalChineseName}
+		language.AmericanEnglish:      pompomAmericanEnglishPhrase,
+		language.CanadianFrench:       pompomCanadianFrenchPhrase,
+		language.Dutch:                pompomDutchPhrase,
+		language.French:               pompomFrenchPhrase,
+		language.German:               pompomGermanPhrase,
+		language.Italian:              pompomItalianPhrase,
+		language.Japanese:             pompomJapanesePhrase,
+		language.Korean:               pompomKoreanPhrase,
+		language.LatinAmericanSpanish: pompomLatinAmericanSpanishPhrase,
+		language.Russian:              pompomRussianPhrase,
+		language.SimplifiedChinese:    pompomSimplifiedChinesePhrase,
+		language.Spanish:              pompomSpanishPhrase,
+		language.TraditionalChinese:   pompomTraditionalChinesePhrase}
 )
 
 var (

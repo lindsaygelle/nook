@@ -159,19 +159,19 @@ var (
 
 var (
 	chicoPhrase = nook.Languages{
-		language.AmericanEnglish:      chicoAmericanEnglishName,
-		language.CanadianFrench:       chicoCanadianFrenchName,
-		language.Dutch:                chicoDutchName,
-		language.French:               chicoFrenchName,
-		language.German:               chicoGermanName,
-		language.Italian:              chicoItalianName,
-		language.Japanese:             chicoJapaneseName,
-		language.Korean:               chicoKoreanName,
-		language.LatinAmericanSpanish: chicoLatinAmericanSpanishName,
-		language.Russian:              chicoRussianName,
-		language.SimplifiedChinese:    chicoSimplifiedChineseName,
-		language.Spanish:              chicoSpanishName,
-		language.TraditionalChinese:   chicoTraditionalChineseName}
+		language.AmericanEnglish:      chicoAmericanEnglishPhrase,
+		language.CanadianFrench:       chicoCanadianFrenchPhrase,
+		language.Dutch:                chicoDutchPhrase,
+		language.French:               chicoFrenchPhrase,
+		language.German:               chicoGermanPhrase,
+		language.Italian:              chicoItalianPhrase,
+		language.Japanese:             chicoJapanesePhrase,
+		language.Korean:               chicoKoreanPhrase,
+		language.LatinAmericanSpanish: chicoLatinAmericanSpanishPhrase,
+		language.Russian:              chicoRussianPhrase,
+		language.SimplifiedChinese:    chicoSimplifiedChinesePhrase,
+		language.Spanish:              chicoSpanishPhrase,
+		language.TraditionalChinese:   chicoTraditionalChinesePhrase}
 )
 
 var (

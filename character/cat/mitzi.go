@@ -159,19 +159,19 @@ var (
 
 var (
 	mitziPhrase = nook.Languages{
-		language.AmericanEnglish:      mitziAmericanEnglishName,
-		language.CanadianFrench:       mitziCanadianFrenchName,
-		language.Dutch:                mitziDutchName,
-		language.French:               mitziFrenchName,
-		language.German:               mitziGermanName,
-		language.Italian:              mitziItalianName,
-		language.Japanese:             mitziJapaneseName,
-		language.Korean:               mitziKoreanName,
-		language.LatinAmericanSpanish: mitziLatinAmericanSpanishName,
-		language.Russian:              mitziRussianName,
-		language.SimplifiedChinese:    mitziSimplifiedChineseName,
-		language.Spanish:              mitziSpanishName,
-		language.TraditionalChinese:   mitziTraditionalChineseName}
+		language.AmericanEnglish:      mitziAmericanEnglishPhrase,
+		language.CanadianFrench:       mitziCanadianFrenchPhrase,
+		language.Dutch:                mitziDutchPhrase,
+		language.French:               mitziFrenchPhrase,
+		language.German:               mitziGermanPhrase,
+		language.Italian:              mitziItalianPhrase,
+		language.Japanese:             mitziJapanesePhrase,
+		language.Korean:               mitziKoreanPhrase,
+		language.LatinAmericanSpanish: mitziLatinAmericanSpanishPhrase,
+		language.Russian:              mitziRussianPhrase,
+		language.SimplifiedChinese:    mitziSimplifiedChinesePhrase,
+		language.Spanish:              mitziSpanishPhrase,
+		language.TraditionalChinese:   mitziTraditionalChinesePhrase}
 )
 
 var (

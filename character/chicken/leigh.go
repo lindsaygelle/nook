@@ -159,19 +159,19 @@ var (
 
 var (
 	leighPhrase = nook.Languages{
-		language.AmericanEnglish:      leighAmericanEnglishName,
-		language.CanadianFrench:       leighCanadianFrenchName,
-		language.Dutch:                leighDutchName,
-		language.French:               leighFrenchName,
-		language.German:               leighGermanName,
-		language.Italian:              leighItalianName,
-		language.Japanese:             leighJapaneseName,
-		language.Korean:               leighKoreanName,
-		language.LatinAmericanSpanish: leighLatinAmericanSpanishName,
-		language.Russian:              leighRussianName,
-		language.SimplifiedChinese:    leighSimplifiedChineseName,
-		language.Spanish:              leighSpanishName,
-		language.TraditionalChinese:   leighTraditionalChineseName}
+		language.AmericanEnglish:      leighAmericanEnglishPhrase,
+		language.CanadianFrench:       leighCanadianFrenchPhrase,
+		language.Dutch:                leighDutchPhrase,
+		language.French:               leighFrenchPhrase,
+		language.German:               leighGermanPhrase,
+		language.Italian:              leighItalianPhrase,
+		language.Japanese:             leighJapanesePhrase,
+		language.Korean:               leighKoreanPhrase,
+		language.LatinAmericanSpanish: leighLatinAmericanSpanishPhrase,
+		language.Russian:              leighRussianPhrase,
+		language.SimplifiedChinese:    leighSimplifiedChinesePhrase,
+		language.Spanish:              leighSpanishPhrase,
+		language.TraditionalChinese:   leighTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	broccoloPhrase = nook.Languages{
-		language.AmericanEnglish:      broccoloAmericanEnglishName,
-		language.CanadianFrench:       broccoloCanadianFrenchName,
-		language.Dutch:                broccoloDutchName,
-		language.French:               broccoloFrenchName,
-		language.German:               broccoloGermanName,
-		language.Italian:              broccoloItalianName,
-		language.Japanese:             broccoloJapaneseName,
-		language.Korean:               broccoloKoreanName,
-		language.LatinAmericanSpanish: broccoloLatinAmericanSpanishName,
-		language.Russian:              broccoloRussianName,
-		language.SimplifiedChinese:    broccoloSimplifiedChineseName,
-		language.Spanish:              broccoloSpanishName,
-		language.TraditionalChinese:   broccoloTraditionalChineseName}
+		language.AmericanEnglish:      broccoloAmericanEnglishPhrase,
+		language.CanadianFrench:       broccoloCanadianFrenchPhrase,
+		language.Dutch:                broccoloDutchPhrase,
+		language.French:               broccoloFrenchPhrase,
+		language.German:               broccoloGermanPhrase,
+		language.Italian:              broccoloItalianPhrase,
+		language.Japanese:             broccoloJapanesePhrase,
+		language.Korean:               broccoloKoreanPhrase,
+		language.LatinAmericanSpanish: broccoloLatinAmericanSpanishPhrase,
+		language.Russian:              broccoloRussianPhrase,
+		language.SimplifiedChinese:    broccoloSimplifiedChinesePhrase,
+		language.Spanish:              broccoloSpanishPhrase,
+		language.TraditionalChinese:   broccoloTraditionalChinesePhrase}
 )
 
 var (

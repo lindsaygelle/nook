@@ -159,19 +159,19 @@ var (
 
 var (
 	rodeoPhrase = nook.Languages{
-		language.AmericanEnglish:      rodeoAmericanEnglishName,
-		language.CanadianFrench:       rodeoCanadianFrenchName,
-		language.Dutch:                rodeoDutchName,
-		language.French:               rodeoFrenchName,
-		language.German:               rodeoGermanName,
-		language.Italian:              rodeoItalianName,
-		language.Japanese:             rodeoJapaneseName,
-		language.Korean:               rodeoKoreanName,
-		language.LatinAmericanSpanish: rodeoLatinAmericanSpanishName,
-		language.Russian:              rodeoRussianName,
-		language.SimplifiedChinese:    rodeoSimplifiedChineseName,
-		language.Spanish:              rodeoSpanishName,
-		language.TraditionalChinese:   rodeoTraditionalChineseName}
+		language.AmericanEnglish:      rodeoAmericanEnglishPhrase,
+		language.CanadianFrench:       rodeoCanadianFrenchPhrase,
+		language.Dutch:                rodeoDutchPhrase,
+		language.French:               rodeoFrenchPhrase,
+		language.German:               rodeoGermanPhrase,
+		language.Italian:              rodeoItalianPhrase,
+		language.Japanese:             rodeoJapanesePhrase,
+		language.Korean:               rodeoKoreanPhrase,
+		language.LatinAmericanSpanish: rodeoLatinAmericanSpanishPhrase,
+		language.Russian:              rodeoRussianPhrase,
+		language.SimplifiedChinese:    rodeoSimplifiedChinesePhrase,
+		language.Spanish:              rodeoSpanishPhrase,
+		language.TraditionalChinese:   rodeoTraditionalChinesePhrase}
 )
 
 var (

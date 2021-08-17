@@ -159,19 +159,19 @@ var (
 
 var (
 	piperPhrase = nook.Languages{
-		language.AmericanEnglish:      piperAmericanEnglishName,
-		language.CanadianFrench:       piperCanadianFrenchName,
-		language.Dutch:                piperDutchName,
-		language.French:               piperFrenchName,
-		language.German:               piperGermanName,
-		language.Italian:              piperItalianName,
-		language.Japanese:             piperJapaneseName,
-		language.Korean:               piperKoreanName,
-		language.LatinAmericanSpanish: piperLatinAmericanSpanishName,
-		language.Russian:              piperRussianName,
-		language.SimplifiedChinese:    piperSimplifiedChineseName,
-		language.Spanish:              piperSpanishName,
-		language.TraditionalChinese:   piperTraditionalChineseName}
+		language.AmericanEnglish:      piperAmericanEnglishPhrase,
+		language.CanadianFrench:       piperCanadianFrenchPhrase,
+		language.Dutch:                piperDutchPhrase,
+		language.French:               piperFrenchPhrase,
+		language.German:               piperGermanPhrase,
+		language.Italian:              piperItalianPhrase,
+		language.Japanese:             piperJapanesePhrase,
+		language.Korean:               piperKoreanPhrase,
+		language.LatinAmericanSpanish: piperLatinAmericanSpanishPhrase,
+		language.Russian:              piperRussianPhrase,
+		language.SimplifiedChinese:    piperSimplifiedChinesePhrase,
+		language.Spanish:              piperSpanishPhrase,
+		language.TraditionalChinese:   piperTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	shepPhrase = nook.Languages{
-		language.AmericanEnglish:      shepAmericanEnglishName,
-		language.CanadianFrench:       shepCanadianFrenchName,
-		language.Dutch:                shepDutchName,
-		language.French:               shepFrenchName,
-		language.German:               shepGermanName,
-		language.Italian:              shepItalianName,
-		language.Japanese:             shepJapaneseName,
-		language.Korean:               shepKoreanName,
-		language.LatinAmericanSpanish: shepLatinAmericanSpanishName,
-		language.Russian:              shepRussianName,
-		language.SimplifiedChinese:    shepSimplifiedChineseName,
-		language.Spanish:              shepSpanishName,
-		language.TraditionalChinese:   shepTraditionalChineseName}
+		language.AmericanEnglish:      shepAmericanEnglishPhrase,
+		language.CanadianFrench:       shepCanadianFrenchPhrase,
+		language.Dutch:                shepDutchPhrase,
+		language.French:               shepFrenchPhrase,
+		language.German:               shepGermanPhrase,
+		language.Italian:              shepItalianPhrase,
+		language.Japanese:             shepJapanesePhrase,
+		language.Korean:               shepKoreanPhrase,
+		language.LatinAmericanSpanish: shepLatinAmericanSpanishPhrase,
+		language.Russian:              shepRussianPhrase,
+		language.SimplifiedChinese:    shepSimplifiedChinesePhrase,
+		language.Spanish:              shepSpanishPhrase,
+		language.TraditionalChinese:   shepTraditionalChinesePhrase}
 )
 
 var (

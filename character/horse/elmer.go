@@ -159,19 +159,19 @@ var (
 
 var (
 	elmerPhrase = nook.Languages{
-		language.AmericanEnglish:      elmerAmericanEnglishName,
-		language.CanadianFrench:       elmerCanadianFrenchName,
-		language.Dutch:                elmerDutchName,
-		language.French:               elmerFrenchName,
-		language.German:               elmerGermanName,
-		language.Italian:              elmerItalianName,
-		language.Japanese:             elmerJapaneseName,
-		language.Korean:               elmerKoreanName,
-		language.LatinAmericanSpanish: elmerLatinAmericanSpanishName,
-		language.Russian:              elmerRussianName,
-		language.SimplifiedChinese:    elmerSimplifiedChineseName,
-		language.Spanish:              elmerSpanishName,
-		language.TraditionalChinese:   elmerTraditionalChineseName}
+		language.AmericanEnglish:      elmerAmericanEnglishPhrase,
+		language.CanadianFrench:       elmerCanadianFrenchPhrase,
+		language.Dutch:                elmerDutchPhrase,
+		language.French:               elmerFrenchPhrase,
+		language.German:               elmerGermanPhrase,
+		language.Italian:              elmerItalianPhrase,
+		language.Japanese:             elmerJapanesePhrase,
+		language.Korean:               elmerKoreanPhrase,
+		language.LatinAmericanSpanish: elmerLatinAmericanSpanishPhrase,
+		language.Russian:              elmerRussianPhrase,
+		language.SimplifiedChinese:    elmerSimplifiedChinesePhrase,
+		language.Spanish:              elmerSpanishPhrase,
+		language.TraditionalChinese:   elmerTraditionalChinesePhrase}
 )
 
 var (

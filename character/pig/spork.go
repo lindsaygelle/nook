@@ -159,19 +159,19 @@ var (
 
 var (
 	sporkPhrase = nook.Languages{
-		language.AmericanEnglish:      sporkAmericanEnglishName,
-		language.CanadianFrench:       sporkCanadianFrenchName,
-		language.Dutch:                sporkDutchName,
-		language.French:               sporkFrenchName,
-		language.German:               sporkGermanName,
-		language.Italian:              sporkItalianName,
-		language.Japanese:             sporkJapaneseName,
-		language.Korean:               sporkKoreanName,
-		language.LatinAmericanSpanish: sporkLatinAmericanSpanishName,
-		language.Russian:              sporkRussianName,
-		language.SimplifiedChinese:    sporkSimplifiedChineseName,
-		language.Spanish:              sporkSpanishName,
-		language.TraditionalChinese:   sporkTraditionalChineseName}
+		language.AmericanEnglish:      sporkAmericanEnglishPhrase,
+		language.CanadianFrench:       sporkCanadianFrenchPhrase,
+		language.Dutch:                sporkDutchPhrase,
+		language.French:               sporkFrenchPhrase,
+		language.German:               sporkGermanPhrase,
+		language.Italian:              sporkItalianPhrase,
+		language.Japanese:             sporkJapanesePhrase,
+		language.Korean:               sporkKoreanPhrase,
+		language.LatinAmericanSpanish: sporkLatinAmericanSpanishPhrase,
+		language.Russian:              sporkRussianPhrase,
+		language.SimplifiedChinese:    sporkSimplifiedChinesePhrase,
+		language.Spanish:              sporkSpanishPhrase,
+		language.TraditionalChinese:   sporkTraditionalChinesePhrase}
 )
 
 var (

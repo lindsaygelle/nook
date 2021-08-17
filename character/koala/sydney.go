@@ -159,19 +159,19 @@ var (
 
 var (
 	sydneyPhrase = nook.Languages{
-		language.AmericanEnglish:      sydneyAmericanEnglishName,
-		language.CanadianFrench:       sydneyCanadianFrenchName,
-		language.Dutch:                sydneyDutchName,
-		language.French:               sydneyFrenchName,
-		language.German:               sydneyGermanName,
-		language.Italian:              sydneyItalianName,
-		language.Japanese:             sydneyJapaneseName,
-		language.Korean:               sydneyKoreanName,
-		language.LatinAmericanSpanish: sydneyLatinAmericanSpanishName,
-		language.Russian:              sydneyRussianName,
-		language.SimplifiedChinese:    sydneySimplifiedChineseName,
-		language.Spanish:              sydneySpanishName,
-		language.TraditionalChinese:   sydneyTraditionalChineseName}
+		language.AmericanEnglish:      sydneyAmericanEnglishPhrase,
+		language.CanadianFrench:       sydneyCanadianFrenchPhrase,
+		language.Dutch:                sydneyDutchPhrase,
+		language.French:               sydneyFrenchPhrase,
+		language.German:               sydneyGermanPhrase,
+		language.Italian:              sydneyItalianPhrase,
+		language.Japanese:             sydneyJapanesePhrase,
+		language.Korean:               sydneyKoreanPhrase,
+		language.LatinAmericanSpanish: sydneyLatinAmericanSpanishPhrase,
+		language.Russian:              sydneyRussianPhrase,
+		language.SimplifiedChinese:    sydneySimplifiedChinesePhrase,
+		language.Spanish:              sydneySpanishPhrase,
+		language.TraditionalChinese:   sydneyTraditionalChinesePhrase}
 )
 
 var (

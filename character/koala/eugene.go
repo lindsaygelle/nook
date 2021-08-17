@@ -159,19 +159,19 @@ var (
 
 var (
 	eugenePhrase = nook.Languages{
-		language.AmericanEnglish:      eugeneAmericanEnglishName,
-		language.CanadianFrench:       eugeneCanadianFrenchName,
-		language.Dutch:                eugeneDutchName,
-		language.French:               eugeneFrenchName,
-		language.German:               eugeneGermanName,
-		language.Italian:              eugeneItalianName,
-		language.Japanese:             eugeneJapaneseName,
-		language.Korean:               eugeneKoreanName,
-		language.LatinAmericanSpanish: eugeneLatinAmericanSpanishName,
-		language.Russian:              eugeneRussianName,
-		language.SimplifiedChinese:    eugeneSimplifiedChineseName,
-		language.Spanish:              eugeneSpanishName,
-		language.TraditionalChinese:   eugeneTraditionalChineseName}
+		language.AmericanEnglish:      eugeneAmericanEnglishPhrase,
+		language.CanadianFrench:       eugeneCanadianFrenchPhrase,
+		language.Dutch:                eugeneDutchPhrase,
+		language.French:               eugeneFrenchPhrase,
+		language.German:               eugeneGermanPhrase,
+		language.Italian:              eugeneItalianPhrase,
+		language.Japanese:             eugeneJapanesePhrase,
+		language.Korean:               eugeneKoreanPhrase,
+		language.LatinAmericanSpanish: eugeneLatinAmericanSpanishPhrase,
+		language.Russian:              eugeneRussianPhrase,
+		language.SimplifiedChinese:    eugeneSimplifiedChinesePhrase,
+		language.Spanish:              eugeneSpanishPhrase,
+		language.TraditionalChinese:   eugeneTraditionalChinesePhrase}
 )
 
 var (

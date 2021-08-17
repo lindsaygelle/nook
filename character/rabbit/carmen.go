@@ -159,19 +159,19 @@ var (
 
 var (
 	carmenPhrase = nook.Languages{
-		language.AmericanEnglish:      carmenAmericanEnglishName,
-		language.CanadianFrench:       carmenCanadianFrenchName,
-		language.Dutch:                carmenDutchName,
-		language.French:               carmenFrenchName,
-		language.German:               carmenGermanName,
-		language.Italian:              carmenItalianName,
-		language.Japanese:             carmenJapaneseName,
-		language.Korean:               carmenKoreanName,
-		language.LatinAmericanSpanish: carmenLatinAmericanSpanishName,
-		language.Russian:              carmenRussianName,
-		language.SimplifiedChinese:    carmenSimplifiedChineseName,
-		language.Spanish:              carmenSpanishName,
-		language.TraditionalChinese:   carmenTraditionalChineseName}
+		language.AmericanEnglish:      carmenAmericanEnglishPhrase,
+		language.CanadianFrench:       carmenCanadianFrenchPhrase,
+		language.Dutch:                carmenDutchPhrase,
+		language.French:               carmenFrenchPhrase,
+		language.German:               carmenGermanPhrase,
+		language.Italian:              carmenItalianPhrase,
+		language.Japanese:             carmenJapanesePhrase,
+		language.Korean:               carmenKoreanPhrase,
+		language.LatinAmericanSpanish: carmenLatinAmericanSpanishPhrase,
+		language.Russian:              carmenRussianPhrase,
+		language.SimplifiedChinese:    carmenSimplifiedChinesePhrase,
+		language.Spanish:              carmenSpanishPhrase,
+		language.TraditionalChinese:   carmenTraditionalChinesePhrase}
 )
 
 var (

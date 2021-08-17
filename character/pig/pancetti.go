@@ -159,19 +159,19 @@ var (
 
 var (
 	pancettiPhrase = nook.Languages{
-		language.AmericanEnglish:      pancettiAmericanEnglishName,
-		language.CanadianFrench:       pancettiCanadianFrenchName,
-		language.Dutch:                pancettiDutchName,
-		language.French:               pancettiFrenchName,
-		language.German:               pancettiGermanName,
-		language.Italian:              pancettiItalianName,
-		language.Japanese:             pancettiJapaneseName,
-		language.Korean:               pancettiKoreanName,
-		language.LatinAmericanSpanish: pancettiLatinAmericanSpanishName,
-		language.Russian:              pancettiRussianName,
-		language.SimplifiedChinese:    pancettiSimplifiedChineseName,
-		language.Spanish:              pancettiSpanishName,
-		language.TraditionalChinese:   pancettiTraditionalChineseName}
+		language.AmericanEnglish:      pancettiAmericanEnglishPhrase,
+		language.CanadianFrench:       pancettiCanadianFrenchPhrase,
+		language.Dutch:                pancettiDutchPhrase,
+		language.French:               pancettiFrenchPhrase,
+		language.German:               pancettiGermanPhrase,
+		language.Italian:              pancettiItalianPhrase,
+		language.Japanese:             pancettiJapanesePhrase,
+		language.Korean:               pancettiKoreanPhrase,
+		language.LatinAmericanSpanish: pancettiLatinAmericanSpanishPhrase,
+		language.Russian:              pancettiRussianPhrase,
+		language.SimplifiedChinese:    pancettiSimplifiedChinesePhrase,
+		language.Spanish:              pancettiSpanishPhrase,
+		language.TraditionalChinese:   pancettiTraditionalChinesePhrase}
 )
 
 var (

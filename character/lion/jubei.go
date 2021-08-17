@@ -159,19 +159,19 @@ var (
 
 var (
 	jubeiPhrase = nook.Languages{
-		language.AmericanEnglish:      jubeiAmericanEnglishName,
-		language.CanadianFrench:       jubeiCanadianFrenchName,
-		language.Dutch:                jubeiDutchName,
-		language.French:               jubeiFrenchName,
-		language.German:               jubeiGermanName,
-		language.Italian:              jubeiItalianName,
-		language.Japanese:             jubeiJapaneseName,
-		language.Korean:               jubeiKoreanName,
-		language.LatinAmericanSpanish: jubeiLatinAmericanSpanishName,
-		language.Russian:              jubeiRussianName,
-		language.SimplifiedChinese:    jubeiSimplifiedChineseName,
-		language.Spanish:              jubeiSpanishName,
-		language.TraditionalChinese:   jubeiTraditionalChineseName}
+		language.AmericanEnglish:      jubeiAmericanEnglishPhrase,
+		language.CanadianFrench:       jubeiCanadianFrenchPhrase,
+		language.Dutch:                jubeiDutchPhrase,
+		language.French:               jubeiFrenchPhrase,
+		language.German:               jubeiGermanPhrase,
+		language.Italian:              jubeiItalianPhrase,
+		language.Japanese:             jubeiJapanesePhrase,
+		language.Korean:               jubeiKoreanPhrase,
+		language.LatinAmericanSpanish: jubeiLatinAmericanSpanishPhrase,
+		language.Russian:              jubeiRussianPhrase,
+		language.SimplifiedChinese:    jubeiSimplifiedChinesePhrase,
+		language.Spanish:              jubeiSpanishPhrase,
+		language.TraditionalChinese:   jubeiTraditionalChinesePhrase}
 )
 
 var (

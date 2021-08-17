@@ -159,19 +159,19 @@ var (
 
 var (
 	kabukiPhrase = nook.Languages{
-		language.AmericanEnglish:      kabukiAmericanEnglishName,
-		language.CanadianFrench:       kabukiCanadianFrenchName,
-		language.Dutch:                kabukiDutchName,
-		language.French:               kabukiFrenchName,
-		language.German:               kabukiGermanName,
-		language.Italian:              kabukiItalianName,
-		language.Japanese:             kabukiJapaneseName,
-		language.Korean:               kabukiKoreanName,
-		language.LatinAmericanSpanish: kabukiLatinAmericanSpanishName,
-		language.Russian:              kabukiRussianName,
-		language.SimplifiedChinese:    kabukiSimplifiedChineseName,
-		language.Spanish:              kabukiSpanishName,
-		language.TraditionalChinese:   kabukiTraditionalChineseName}
+		language.AmericanEnglish:      kabukiAmericanEnglishPhrase,
+		language.CanadianFrench:       kabukiCanadianFrenchPhrase,
+		language.Dutch:                kabukiDutchPhrase,
+		language.French:               kabukiFrenchPhrase,
+		language.German:               kabukiGermanPhrase,
+		language.Italian:              kabukiItalianPhrase,
+		language.Japanese:             kabukiJapanesePhrase,
+		language.Korean:               kabukiKoreanPhrase,
+		language.LatinAmericanSpanish: kabukiLatinAmericanSpanishPhrase,
+		language.Russian:              kabukiRussianPhrase,
+		language.SimplifiedChinese:    kabukiSimplifiedChinesePhrase,
+		language.Spanish:              kabukiSpanishPhrase,
+		language.TraditionalChinese:   kabukiTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	savannahPhrase = nook.Languages{
-		language.AmericanEnglish:      savannahAmericanEnglishName,
-		language.CanadianFrench:       savannahCanadianFrenchName,
-		language.Dutch:                savannahDutchName,
-		language.French:               savannahFrenchName,
-		language.German:               savannahGermanName,
-		language.Italian:              savannahItalianName,
-		language.Japanese:             savannahJapaneseName,
-		language.Korean:               savannahKoreanName,
-		language.LatinAmericanSpanish: savannahLatinAmericanSpanishName,
-		language.Russian:              savannahRussianName,
-		language.SimplifiedChinese:    savannahSimplifiedChineseName,
-		language.Spanish:              savannahSpanishName,
-		language.TraditionalChinese:   savannahTraditionalChineseName}
+		language.AmericanEnglish:      savannahAmericanEnglishPhrase,
+		language.CanadianFrench:       savannahCanadianFrenchPhrase,
+		language.Dutch:                savannahDutchPhrase,
+		language.French:               savannahFrenchPhrase,
+		language.German:               savannahGermanPhrase,
+		language.Italian:              savannahItalianPhrase,
+		language.Japanese:             savannahJapanesePhrase,
+		language.Korean:               savannahKoreanPhrase,
+		language.LatinAmericanSpanish: savannahLatinAmericanSpanishPhrase,
+		language.Russian:              savannahRussianPhrase,
+		language.SimplifiedChinese:    savannahSimplifiedChinesePhrase,
+		language.Spanish:              savannahSpanishPhrase,
+		language.TraditionalChinese:   savannahTraditionalChinesePhrase}
 )
 
 var (

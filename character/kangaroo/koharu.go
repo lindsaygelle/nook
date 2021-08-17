@@ -159,19 +159,19 @@ var (
 
 var (
 	koharuPhrase = nook.Languages{
-		language.AmericanEnglish:      koharuAmericanEnglishName,
-		language.CanadianFrench:       koharuCanadianFrenchName,
-		language.Dutch:                koharuDutchName,
-		language.French:               koharuFrenchName,
-		language.German:               koharuGermanName,
-		language.Italian:              koharuItalianName,
-		language.Japanese:             koharuJapaneseName,
-		language.Korean:               koharuKoreanName,
-		language.LatinAmericanSpanish: koharuLatinAmericanSpanishName,
-		language.Russian:              koharuRussianName,
-		language.SimplifiedChinese:    koharuSimplifiedChineseName,
-		language.Spanish:              koharuSpanishName,
-		language.TraditionalChinese:   koharuTraditionalChineseName}
+		language.AmericanEnglish:      koharuAmericanEnglishPhrase,
+		language.CanadianFrench:       koharuCanadianFrenchPhrase,
+		language.Dutch:                koharuDutchPhrase,
+		language.French:               koharuFrenchPhrase,
+		language.German:               koharuGermanPhrase,
+		language.Italian:              koharuItalianPhrase,
+		language.Japanese:             koharuJapanesePhrase,
+		language.Korean:               koharuKoreanPhrase,
+		language.LatinAmericanSpanish: koharuLatinAmericanSpanishPhrase,
+		language.Russian:              koharuRussianPhrase,
+		language.SimplifiedChinese:    koharuSimplifiedChinesePhrase,
+		language.Spanish:              koharuSpanishPhrase,
+		language.TraditionalChinese:   koharuTraditionalChinesePhrase}
 )
 
 var (

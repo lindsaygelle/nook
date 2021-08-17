@@ -159,19 +159,19 @@ var (
 
 var (
 	midgePhrase = nook.Languages{
-		language.AmericanEnglish:      midgeAmericanEnglishName,
-		language.CanadianFrench:       midgeCanadianFrenchName,
-		language.Dutch:                midgeDutchName,
-		language.French:               midgeFrenchName,
-		language.German:               midgeGermanName,
-		language.Italian:              midgeItalianName,
-		language.Japanese:             midgeJapaneseName,
-		language.Korean:               midgeKoreanName,
-		language.LatinAmericanSpanish: midgeLatinAmericanSpanishName,
-		language.Russian:              midgeRussianName,
-		language.SimplifiedChinese:    midgeSimplifiedChineseName,
-		language.Spanish:              midgeSpanishName,
-		language.TraditionalChinese:   midgeTraditionalChineseName}
+		language.AmericanEnglish:      midgeAmericanEnglishPhrase,
+		language.CanadianFrench:       midgeCanadianFrenchPhrase,
+		language.Dutch:                midgeDutchPhrase,
+		language.French:               midgeFrenchPhrase,
+		language.German:               midgeGermanPhrase,
+		language.Italian:              midgeItalianPhrase,
+		language.Japanese:             midgeJapanesePhrase,
+		language.Korean:               midgeKoreanPhrase,
+		language.LatinAmericanSpanish: midgeLatinAmericanSpanishPhrase,
+		language.Russian:              midgeRussianPhrase,
+		language.SimplifiedChinese:    midgeSimplifiedChinesePhrase,
+		language.Spanish:              midgeSpanishPhrase,
+		language.TraditionalChinese:   midgeTraditionalChinesePhrase}
 )
 
 var (

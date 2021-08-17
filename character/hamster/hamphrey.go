@@ -159,19 +159,19 @@ var (
 
 var (
 	hamphreyPhrase = nook.Languages{
-		language.AmericanEnglish:      hamphreyAmericanEnglishName,
-		language.CanadianFrench:       hamphreyCanadianFrenchName,
-		language.Dutch:                hamphreyDutchName,
-		language.French:               hamphreyFrenchName,
-		language.German:               hamphreyGermanName,
-		language.Italian:              hamphreyItalianName,
-		language.Japanese:             hamphreyJapaneseName,
-		language.Korean:               hamphreyKoreanName,
-		language.LatinAmericanSpanish: hamphreyLatinAmericanSpanishName,
-		language.Russian:              hamphreyRussianName,
-		language.SimplifiedChinese:    hamphreySimplifiedChineseName,
-		language.Spanish:              hamphreySpanishName,
-		language.TraditionalChinese:   hamphreyTraditionalChineseName}
+		language.AmericanEnglish:      hamphreyAmericanEnglishPhrase,
+		language.CanadianFrench:       hamphreyCanadianFrenchPhrase,
+		language.Dutch:                hamphreyDutchPhrase,
+		language.French:               hamphreyFrenchPhrase,
+		language.German:               hamphreyGermanPhrase,
+		language.Italian:              hamphreyItalianPhrase,
+		language.Japanese:             hamphreyJapanesePhrase,
+		language.Korean:               hamphreyKoreanPhrase,
+		language.LatinAmericanSpanish: hamphreyLatinAmericanSpanishPhrase,
+		language.Russian:              hamphreyRussianPhrase,
+		language.SimplifiedChinese:    hamphreySimplifiedChinesePhrase,
+		language.Spanish:              hamphreySpanishPhrase,
+		language.TraditionalChinese:   hamphreyTraditionalChinesePhrase}
 )
 
 var (

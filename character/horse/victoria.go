@@ -159,19 +159,19 @@ var (
 
 var (
 	victoriaPhrase = nook.Languages{
-		language.AmericanEnglish:      victoriaAmericanEnglishName,
-		language.CanadianFrench:       victoriaCanadianFrenchName,
-		language.Dutch:                victoriaDutchName,
-		language.French:               victoriaFrenchName,
-		language.German:               victoriaGermanName,
-		language.Italian:              victoriaItalianName,
-		language.Japanese:             victoriaJapaneseName,
-		language.Korean:               victoriaKoreanName,
-		language.LatinAmericanSpanish: victoriaLatinAmericanSpanishName,
-		language.Russian:              victoriaRussianName,
-		language.SimplifiedChinese:    victoriaSimplifiedChineseName,
-		language.Spanish:              victoriaSpanishName,
-		language.TraditionalChinese:   victoriaTraditionalChineseName}
+		language.AmericanEnglish:      victoriaAmericanEnglishPhrase,
+		language.CanadianFrench:       victoriaCanadianFrenchPhrase,
+		language.Dutch:                victoriaDutchPhrase,
+		language.French:               victoriaFrenchPhrase,
+		language.German:               victoriaGermanPhrase,
+		language.Italian:              victoriaItalianPhrase,
+		language.Japanese:             victoriaJapanesePhrase,
+		language.Korean:               victoriaKoreanPhrase,
+		language.LatinAmericanSpanish: victoriaLatinAmericanSpanishPhrase,
+		language.Russian:              victoriaRussianPhrase,
+		language.SimplifiedChinese:    victoriaSimplifiedChinesePhrase,
+		language.Spanish:              victoriaSpanishPhrase,
+		language.TraditionalChinese:   victoriaTraditionalChinesePhrase}
 )
 
 var (

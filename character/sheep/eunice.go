@@ -159,19 +159,19 @@ var (
 
 var (
 	eunicePhrase = nook.Languages{
-		language.AmericanEnglish:      euniceAmericanEnglishName,
-		language.CanadianFrench:       euniceCanadianFrenchName,
-		language.Dutch:                euniceDutchName,
-		language.French:               euniceFrenchName,
-		language.German:               euniceGermanName,
-		language.Italian:              euniceItalianName,
-		language.Japanese:             euniceJapaneseName,
-		language.Korean:               euniceKoreanName,
-		language.LatinAmericanSpanish: euniceLatinAmericanSpanishName,
-		language.Russian:              euniceRussianName,
-		language.SimplifiedChinese:    euniceSimplifiedChineseName,
-		language.Spanish:              euniceSpanishName,
-		language.TraditionalChinese:   euniceTraditionalChineseName}
+		language.AmericanEnglish:      euniceAmericanEnglishPhrase,
+		language.CanadianFrench:       euniceCanadianFrenchPhrase,
+		language.Dutch:                euniceDutchPhrase,
+		language.French:               euniceFrenchPhrase,
+		language.German:               euniceGermanPhrase,
+		language.Italian:              euniceItalianPhrase,
+		language.Japanese:             euniceJapanesePhrase,
+		language.Korean:               euniceKoreanPhrase,
+		language.LatinAmericanSpanish: euniceLatinAmericanSpanishPhrase,
+		language.Russian:              euniceRussianPhrase,
+		language.SimplifiedChinese:    euniceSimplifiedChinesePhrase,
+		language.Spanish:              euniceSpanishPhrase,
+		language.TraditionalChinese:   euniceTraditionalChinesePhrase}
 )
 
 var (

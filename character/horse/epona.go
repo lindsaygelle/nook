@@ -159,19 +159,19 @@ var (
 
 var (
 	eponaPhrase = nook.Languages{
-		language.AmericanEnglish:      eponaAmericanEnglishName,
-		language.CanadianFrench:       eponaCanadianFrenchName,
-		language.Dutch:                eponaDutchName,
-		language.French:               eponaFrenchName,
-		language.German:               eponaGermanName,
-		language.Italian:              eponaItalianName,
-		language.Japanese:             eponaJapaneseName,
-		language.Korean:               eponaKoreanName,
-		language.LatinAmericanSpanish: eponaLatinAmericanSpanishName,
-		language.Russian:              eponaRussianName,
-		language.SimplifiedChinese:    eponaSimplifiedChineseName,
-		language.Spanish:              eponaSpanishName,
-		language.TraditionalChinese:   eponaTraditionalChineseName}
+		language.AmericanEnglish:      eponaAmericanEnglishPhrase,
+		language.CanadianFrench:       eponaCanadianFrenchPhrase,
+		language.Dutch:                eponaDutchPhrase,
+		language.French:               eponaFrenchPhrase,
+		language.German:               eponaGermanPhrase,
+		language.Italian:              eponaItalianPhrase,
+		language.Japanese:             eponaJapanesePhrase,
+		language.Korean:               eponaKoreanPhrase,
+		language.LatinAmericanSpanish: eponaLatinAmericanSpanishPhrase,
+		language.Russian:              eponaRussianPhrase,
+		language.SimplifiedChinese:    eponaSimplifiedChinesePhrase,
+		language.Spanish:              eponaSpanishPhrase,
+		language.TraditionalChinese:   eponaTraditionalChinesePhrase}
 )
 
 var (

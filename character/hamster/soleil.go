@@ -159,19 +159,19 @@ var (
 
 var (
 	soleilPhrase = nook.Languages{
-		language.AmericanEnglish:      soleilAmericanEnglishName,
-		language.CanadianFrench:       soleilCanadianFrenchName,
-		language.Dutch:                soleilDutchName,
-		language.French:               soleilFrenchName,
-		language.German:               soleilGermanName,
-		language.Italian:              soleilItalianName,
-		language.Japanese:             soleilJapaneseName,
-		language.Korean:               soleilKoreanName,
-		language.LatinAmericanSpanish: soleilLatinAmericanSpanishName,
-		language.Russian:              soleilRussianName,
-		language.SimplifiedChinese:    soleilSimplifiedChineseName,
-		language.Spanish:              soleilSpanishName,
-		language.TraditionalChinese:   soleilTraditionalChineseName}
+		language.AmericanEnglish:      soleilAmericanEnglishPhrase,
+		language.CanadianFrench:       soleilCanadianFrenchPhrase,
+		language.Dutch:                soleilDutchPhrase,
+		language.French:               soleilFrenchPhrase,
+		language.German:               soleilGermanPhrase,
+		language.Italian:              soleilItalianPhrase,
+		language.Japanese:             soleilJapanesePhrase,
+		language.Korean:               soleilKoreanPhrase,
+		language.LatinAmericanSpanish: soleilLatinAmericanSpanishPhrase,
+		language.Russian:              soleilRussianPhrase,
+		language.SimplifiedChinese:    soleilSimplifiedChinesePhrase,
+		language.Spanish:              soleilSpanishPhrase,
+		language.TraditionalChinese:   soleilTraditionalChinesePhrase}
 )
 
 var (

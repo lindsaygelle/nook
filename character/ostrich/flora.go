@@ -159,19 +159,19 @@ var (
 
 var (
 	floraPhrase = nook.Languages{
-		language.AmericanEnglish:      floraAmericanEnglishName,
-		language.CanadianFrench:       floraCanadianFrenchName,
-		language.Dutch:                floraDutchName,
-		language.French:               floraFrenchName,
-		language.German:               floraGermanName,
-		language.Italian:              floraItalianName,
-		language.Japanese:             floraJapaneseName,
-		language.Korean:               floraKoreanName,
-		language.LatinAmericanSpanish: floraLatinAmericanSpanishName,
-		language.Russian:              floraRussianName,
-		language.SimplifiedChinese:    floraSimplifiedChineseName,
-		language.Spanish:              floraSpanishName,
-		language.TraditionalChinese:   floraTraditionalChineseName}
+		language.AmericanEnglish:      floraAmericanEnglishPhrase,
+		language.CanadianFrench:       floraCanadianFrenchPhrase,
+		language.Dutch:                floraDutchPhrase,
+		language.French:               floraFrenchPhrase,
+		language.German:               floraGermanPhrase,
+		language.Italian:              floraItalianPhrase,
+		language.Japanese:             floraJapanesePhrase,
+		language.Korean:               floraKoreanPhrase,
+		language.LatinAmericanSpanish: floraLatinAmericanSpanishPhrase,
+		language.Russian:              floraRussianPhrase,
+		language.SimplifiedChinese:    floraSimplifiedChinesePhrase,
+		language.Spanish:              floraSpanishPhrase,
+		language.TraditionalChinese:   floraTraditionalChinesePhrase}
 )
 
 var (

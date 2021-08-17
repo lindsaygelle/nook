@@ -159,19 +159,19 @@ var (
 
 var (
 	ozziePhrase = nook.Languages{
-		language.AmericanEnglish:      ozzieAmericanEnglishName,
-		language.CanadianFrench:       ozzieCanadianFrenchName,
-		language.Dutch:                ozzieDutchName,
-		language.French:               ozzieFrenchName,
-		language.German:               ozzieGermanName,
-		language.Italian:              ozzieItalianName,
-		language.Japanese:             ozzieJapaneseName,
-		language.Korean:               ozzieKoreanName,
-		language.LatinAmericanSpanish: ozzieLatinAmericanSpanishName,
-		language.Russian:              ozzieRussianName,
-		language.SimplifiedChinese:    ozzieSimplifiedChineseName,
-		language.Spanish:              ozzieSpanishName,
-		language.TraditionalChinese:   ozzieTraditionalChineseName}
+		language.AmericanEnglish:      ozzieAmericanEnglishPhrase,
+		language.CanadianFrench:       ozzieCanadianFrenchPhrase,
+		language.Dutch:                ozzieDutchPhrase,
+		language.French:               ozzieFrenchPhrase,
+		language.German:               ozzieGermanPhrase,
+		language.Italian:              ozzieItalianPhrase,
+		language.Japanese:             ozzieJapanesePhrase,
+		language.Korean:               ozzieKoreanPhrase,
+		language.LatinAmericanSpanish: ozzieLatinAmericanSpanishPhrase,
+		language.Russian:              ozzieRussianPhrase,
+		language.SimplifiedChinese:    ozzieSimplifiedChinesePhrase,
+		language.Spanish:              ozzieSpanishPhrase,
+		language.TraditionalChinese:   ozzieTraditionalChinesePhrase}
 )
 
 var (

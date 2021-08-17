@@ -159,19 +159,19 @@ var (
 
 var (
 	ponchoPhrase = nook.Languages{
-		language.AmericanEnglish:      ponchoAmericanEnglishName,
-		language.CanadianFrench:       ponchoCanadianFrenchName,
-		language.Dutch:                ponchoDutchName,
-		language.French:               ponchoFrenchName,
-		language.German:               ponchoGermanName,
-		language.Italian:              ponchoItalianName,
-		language.Japanese:             ponchoJapaneseName,
-		language.Korean:               ponchoKoreanName,
-		language.LatinAmericanSpanish: ponchoLatinAmericanSpanishName,
-		language.Russian:              ponchoRussianName,
-		language.SimplifiedChinese:    ponchoSimplifiedChineseName,
-		language.Spanish:              ponchoSpanishName,
-		language.TraditionalChinese:   ponchoTraditionalChineseName}
+		language.AmericanEnglish:      ponchoAmericanEnglishPhrase,
+		language.CanadianFrench:       ponchoCanadianFrenchPhrase,
+		language.Dutch:                ponchoDutchPhrase,
+		language.French:               ponchoFrenchPhrase,
+		language.German:               ponchoGermanPhrase,
+		language.Italian:              ponchoItalianPhrase,
+		language.Japanese:             ponchoJapanesePhrase,
+		language.Korean:               ponchoKoreanPhrase,
+		language.LatinAmericanSpanish: ponchoLatinAmericanSpanishPhrase,
+		language.Russian:              ponchoRussianPhrase,
+		language.SimplifiedChinese:    ponchoSimplifiedChinesePhrase,
+		language.Spanish:              ponchoSpanishPhrase,
+		language.TraditionalChinese:   ponchoTraditionalChinesePhrase}
 )
 
 var (

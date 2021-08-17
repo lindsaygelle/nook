@@ -159,19 +159,19 @@ var (
 
 var (
 	pironkonPhrase = nook.Languages{
-		language.AmericanEnglish:      pironkonAmericanEnglishName,
-		language.CanadianFrench:       pironkonCanadianFrenchName,
-		language.Dutch:                pironkonDutchName,
-		language.French:               pironkonFrenchName,
-		language.German:               pironkonGermanName,
-		language.Italian:              pironkonItalianName,
-		language.Japanese:             pironkonJapaneseName,
-		language.Korean:               pironkonKoreanName,
-		language.LatinAmericanSpanish: pironkonLatinAmericanSpanishName,
-		language.Russian:              pironkonRussianName,
-		language.SimplifiedChinese:    pironkonSimplifiedChineseName,
-		language.Spanish:              pironkonSpanishName,
-		language.TraditionalChinese:   pironkonTraditionalChineseName}
+		language.AmericanEnglish:      pironkonAmericanEnglishPhrase,
+		language.CanadianFrench:       pironkonCanadianFrenchPhrase,
+		language.Dutch:                pironkonDutchPhrase,
+		language.French:               pironkonFrenchPhrase,
+		language.German:               pironkonGermanPhrase,
+		language.Italian:              pironkonItalianPhrase,
+		language.Japanese:             pironkonJapanesePhrase,
+		language.Korean:               pironkonKoreanPhrase,
+		language.LatinAmericanSpanish: pironkonLatinAmericanSpanishPhrase,
+		language.Russian:              pironkonRussianPhrase,
+		language.SimplifiedChinese:    pironkonSimplifiedChinesePhrase,
+		language.Spanish:              pironkonSpanishPhrase,
+		language.TraditionalChinese:   pironkonTraditionalChinesePhrase}
 )
 
 var (

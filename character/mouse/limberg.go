@@ -159,19 +159,19 @@ var (
 
 var (
 	limbergPhrase = nook.Languages{
-		language.AmericanEnglish:      limbergAmericanEnglishName,
-		language.CanadianFrench:       limbergCanadianFrenchName,
-		language.Dutch:                limbergDutchName,
-		language.French:               limbergFrenchName,
-		language.German:               limbergGermanName,
-		language.Italian:              limbergItalianName,
-		language.Japanese:             limbergJapaneseName,
-		language.Korean:               limbergKoreanName,
-		language.LatinAmericanSpanish: limbergLatinAmericanSpanishName,
-		language.Russian:              limbergRussianName,
-		language.SimplifiedChinese:    limbergSimplifiedChineseName,
-		language.Spanish:              limbergSpanishName,
-		language.TraditionalChinese:   limbergTraditionalChineseName}
+		language.AmericanEnglish:      limbergAmericanEnglishPhrase,
+		language.CanadianFrench:       limbergCanadianFrenchPhrase,
+		language.Dutch:                limbergDutchPhrase,
+		language.French:               limbergFrenchPhrase,
+		language.German:               limbergGermanPhrase,
+		language.Italian:              limbergItalianPhrase,
+		language.Japanese:             limbergJapanesePhrase,
+		language.Korean:               limbergKoreanPhrase,
+		language.LatinAmericanSpanish: limbergLatinAmericanSpanishPhrase,
+		language.Russian:              limbergRussianPhrase,
+		language.SimplifiedChinese:    limbergSimplifiedChinesePhrase,
+		language.Spanish:              limbergSpanishPhrase,
+		language.TraditionalChinese:   limbergTraditionalChinesePhrase}
 )
 
 var (

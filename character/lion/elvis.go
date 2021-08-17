@@ -159,19 +159,19 @@ var (
 
 var (
 	elvisPhrase = nook.Languages{
-		language.AmericanEnglish:      elvisAmericanEnglishName,
-		language.CanadianFrench:       elvisCanadianFrenchName,
-		language.Dutch:                elvisDutchName,
-		language.French:               elvisFrenchName,
-		language.German:               elvisGermanName,
-		language.Italian:              elvisItalianName,
-		language.Japanese:             elvisJapaneseName,
-		language.Korean:               elvisKoreanName,
-		language.LatinAmericanSpanish: elvisLatinAmericanSpanishName,
-		language.Russian:              elvisRussianName,
-		language.SimplifiedChinese:    elvisSimplifiedChineseName,
-		language.Spanish:              elvisSpanishName,
-		language.TraditionalChinese:   elvisTraditionalChineseName}
+		language.AmericanEnglish:      elvisAmericanEnglishPhrase,
+		language.CanadianFrench:       elvisCanadianFrenchPhrase,
+		language.Dutch:                elvisDutchPhrase,
+		language.French:               elvisFrenchPhrase,
+		language.German:               elvisGermanPhrase,
+		language.Italian:              elvisItalianPhrase,
+		language.Japanese:             elvisJapanesePhrase,
+		language.Korean:               elvisKoreanPhrase,
+		language.LatinAmericanSpanish: elvisLatinAmericanSpanishPhrase,
+		language.Russian:              elvisRussianPhrase,
+		language.SimplifiedChinese:    elvisSimplifiedChinesePhrase,
+		language.Spanish:              elvisSpanishPhrase,
+		language.TraditionalChinese:   elvisTraditionalChinesePhrase}
 )
 
 var (

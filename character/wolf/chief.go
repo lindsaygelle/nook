@@ -159,19 +159,19 @@ var (
 
 var (
 	chiefPhrase = nook.Languages{
-		language.AmericanEnglish:      chiefAmericanEnglishName,
-		language.CanadianFrench:       chiefCanadianFrenchName,
-		language.Dutch:                chiefDutchName,
-		language.French:               chiefFrenchName,
-		language.German:               chiefGermanName,
-		language.Italian:              chiefItalianName,
-		language.Japanese:             chiefJapaneseName,
-		language.Korean:               chiefKoreanName,
-		language.LatinAmericanSpanish: chiefLatinAmericanSpanishName,
-		language.Russian:              chiefRussianName,
-		language.SimplifiedChinese:    chiefSimplifiedChineseName,
-		language.Spanish:              chiefSpanishName,
-		language.TraditionalChinese:   chiefTraditionalChineseName}
+		language.AmericanEnglish:      chiefAmericanEnglishPhrase,
+		language.CanadianFrench:       chiefCanadianFrenchPhrase,
+		language.Dutch:                chiefDutchPhrase,
+		language.French:               chiefFrenchPhrase,
+		language.German:               chiefGermanPhrase,
+		language.Italian:              chiefItalianPhrase,
+		language.Japanese:             chiefJapanesePhrase,
+		language.Korean:               chiefKoreanPhrase,
+		language.LatinAmericanSpanish: chiefLatinAmericanSpanishPhrase,
+		language.Russian:              chiefRussianPhrase,
+		language.SimplifiedChinese:    chiefSimplifiedChinesePhrase,
+		language.Spanish:              chiefSpanishPhrase,
+		language.TraditionalChinese:   chiefTraditionalChinesePhrase}
 )
 
 var (

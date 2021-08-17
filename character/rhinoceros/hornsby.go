@@ -159,19 +159,19 @@ var (
 
 var (
 	hornsbyPhrase = nook.Languages{
-		language.AmericanEnglish:      hornsbyAmericanEnglishName,
-		language.CanadianFrench:       hornsbyCanadianFrenchName,
-		language.Dutch:                hornsbyDutchName,
-		language.French:               hornsbyFrenchName,
-		language.German:               hornsbyGermanName,
-		language.Italian:              hornsbyItalianName,
-		language.Japanese:             hornsbyJapaneseName,
-		language.Korean:               hornsbyKoreanName,
-		language.LatinAmericanSpanish: hornsbyLatinAmericanSpanishName,
-		language.Russian:              hornsbyRussianName,
-		language.SimplifiedChinese:    hornsbySimplifiedChineseName,
-		language.Spanish:              hornsbySpanishName,
-		language.TraditionalChinese:   hornsbyTraditionalChineseName}
+		language.AmericanEnglish:      hornsbyAmericanEnglishPhrase,
+		language.CanadianFrench:       hornsbyCanadianFrenchPhrase,
+		language.Dutch:                hornsbyDutchPhrase,
+		language.French:               hornsbyFrenchPhrase,
+		language.German:               hornsbyGermanPhrase,
+		language.Italian:              hornsbyItalianPhrase,
+		language.Japanese:             hornsbyJapanesePhrase,
+		language.Korean:               hornsbyKoreanPhrase,
+		language.LatinAmericanSpanish: hornsbyLatinAmericanSpanishPhrase,
+		language.Russian:              hornsbyRussianPhrase,
+		language.SimplifiedChinese:    hornsbySimplifiedChinesePhrase,
+		language.Spanish:              hornsbySpanishPhrase,
+		language.TraditionalChinese:   hornsbyTraditionalChinesePhrase}
 )
 
 var (

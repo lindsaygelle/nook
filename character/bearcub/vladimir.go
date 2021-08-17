@@ -159,19 +159,19 @@ var (
 
 var (
 	vladimirPhrase = nook.Languages{
-		language.AmericanEnglish:      vladimirAmericanEnglishName,
-		language.CanadianFrench:       vladimirCanadianFrenchName,
-		language.Dutch:                vladimirDutchName,
-		language.French:               vladimirFrenchName,
-		language.German:               vladimirGermanName,
-		language.Italian:              vladimirItalianName,
-		language.Japanese:             vladimirJapaneseName,
-		language.Korean:               vladimirKoreanName,
-		language.LatinAmericanSpanish: vladimirLatinAmericanSpanishName,
-		language.Russian:              vladimirRussianName,
-		language.SimplifiedChinese:    vladimirSimplifiedChineseName,
-		language.Spanish:              vladimirSpanishName,
-		language.TraditionalChinese:   vladimirTraditionalChineseName}
+		language.AmericanEnglish:      vladimirAmericanEnglishPhrase,
+		language.CanadianFrench:       vladimirCanadianFrenchPhrase,
+		language.Dutch:                vladimirDutchPhrase,
+		language.French:               vladimirFrenchPhrase,
+		language.German:               vladimirGermanPhrase,
+		language.Italian:              vladimirItalianPhrase,
+		language.Japanese:             vladimirJapanesePhrase,
+		language.Korean:               vladimirKoreanPhrase,
+		language.LatinAmericanSpanish: vladimirLatinAmericanSpanishPhrase,
+		language.Russian:              vladimirRussianPhrase,
+		language.SimplifiedChinese:    vladimirSimplifiedChinesePhrase,
+		language.Spanish:              vladimirSpanishPhrase,
+		language.TraditionalChinese:   vladimirTraditionalChinesePhrase}
 )
 
 var (

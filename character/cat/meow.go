@@ -159,19 +159,19 @@ var (
 
 var (
 	meowPhrase = nook.Languages{
-		language.AmericanEnglish:      meowAmericanEnglishName,
-		language.CanadianFrench:       meowCanadianFrenchName,
-		language.Dutch:                meowDutchName,
-		language.French:               meowFrenchName,
-		language.German:               meowGermanName,
-		language.Italian:              meowItalianName,
-		language.Japanese:             meowJapaneseName,
-		language.Korean:               meowKoreanName,
-		language.LatinAmericanSpanish: meowLatinAmericanSpanishName,
-		language.Russian:              meowRussianName,
-		language.SimplifiedChinese:    meowSimplifiedChineseName,
-		language.Spanish:              meowSpanishName,
-		language.TraditionalChinese:   meowTraditionalChineseName}
+		language.AmericanEnglish:      meowAmericanEnglishPhrase,
+		language.CanadianFrench:       meowCanadianFrenchPhrase,
+		language.Dutch:                meowDutchPhrase,
+		language.French:               meowFrenchPhrase,
+		language.German:               meowGermanPhrase,
+		language.Italian:              meowItalianPhrase,
+		language.Japanese:             meowJapanesePhrase,
+		language.Korean:               meowKoreanPhrase,
+		language.LatinAmericanSpanish: meowLatinAmericanSpanishPhrase,
+		language.Russian:              meowRussianPhrase,
+		language.SimplifiedChinese:    meowSimplifiedChinesePhrase,
+		language.Spanish:              meowSpanishPhrase,
+		language.TraditionalChinese:   meowTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	rhodaPhrase = nook.Languages{
-		language.AmericanEnglish:      rhodaAmericanEnglishName,
-		language.CanadianFrench:       rhodaCanadianFrenchName,
-		language.Dutch:                rhodaDutchName,
-		language.French:               rhodaFrenchName,
-		language.German:               rhodaGermanName,
-		language.Italian:              rhodaItalianName,
-		language.Japanese:             rhodaJapaneseName,
-		language.Korean:               rhodaKoreanName,
-		language.LatinAmericanSpanish: rhodaLatinAmericanSpanishName,
-		language.Russian:              rhodaRussianName,
-		language.SimplifiedChinese:    rhodaSimplifiedChineseName,
-		language.Spanish:              rhodaSpanishName,
-		language.TraditionalChinese:   rhodaTraditionalChineseName}
+		language.AmericanEnglish:      rhodaAmericanEnglishPhrase,
+		language.CanadianFrench:       rhodaCanadianFrenchPhrase,
+		language.Dutch:                rhodaDutchPhrase,
+		language.French:               rhodaFrenchPhrase,
+		language.German:               rhodaGermanPhrase,
+		language.Italian:              rhodaItalianPhrase,
+		language.Japanese:             rhodaJapanesePhrase,
+		language.Korean:               rhodaKoreanPhrase,
+		language.LatinAmericanSpanish: rhodaLatinAmericanSpanishPhrase,
+		language.Russian:              rhodaRussianPhrase,
+		language.SimplifiedChinese:    rhodaSimplifiedChinesePhrase,
+		language.Spanish:              rhodaSpanishPhrase,
+		language.TraditionalChinese:   rhodaTraditionalChinesePhrase}
 )
 
 var (

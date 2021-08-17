@@ -159,19 +159,19 @@ var (
 
 var (
 	cupcakePhrase = nook.Languages{
-		language.AmericanEnglish:      cupcakeAmericanEnglishName,
-		language.CanadianFrench:       cupcakeCanadianFrenchName,
-		language.Dutch:                cupcakeDutchName,
-		language.French:               cupcakeFrenchName,
-		language.German:               cupcakeGermanName,
-		language.Italian:              cupcakeItalianName,
-		language.Japanese:             cupcakeJapaneseName,
-		language.Korean:               cupcakeKoreanName,
-		language.LatinAmericanSpanish: cupcakeLatinAmericanSpanishName,
-		language.Russian:              cupcakeRussianName,
-		language.SimplifiedChinese:    cupcakeSimplifiedChineseName,
-		language.Spanish:              cupcakeSpanishName,
-		language.TraditionalChinese:   cupcakeTraditionalChineseName}
+		language.AmericanEnglish:      cupcakeAmericanEnglishPhrase,
+		language.CanadianFrench:       cupcakeCanadianFrenchPhrase,
+		language.Dutch:                cupcakeDutchPhrase,
+		language.French:               cupcakeFrenchPhrase,
+		language.German:               cupcakeGermanPhrase,
+		language.Italian:              cupcakeItalianPhrase,
+		language.Japanese:             cupcakeJapanesePhrase,
+		language.Korean:               cupcakeKoreanPhrase,
+		language.LatinAmericanSpanish: cupcakeLatinAmericanSpanishPhrase,
+		language.Russian:              cupcakeRussianPhrase,
+		language.SimplifiedChinese:    cupcakeSimplifiedChinesePhrase,
+		language.Spanish:              cupcakeSpanishPhrase,
+		language.TraditionalChinese:   cupcakeTraditionalChinesePhrase}
 )
 
 var (

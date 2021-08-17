@@ -159,19 +159,19 @@ var (
 
 var (
 	whitneyPhrase = nook.Languages{
-		language.AmericanEnglish:      whitneyAmericanEnglishName,
-		language.CanadianFrench:       whitneyCanadianFrenchName,
-		language.Dutch:                whitneyDutchName,
-		language.French:               whitneyFrenchName,
-		language.German:               whitneyGermanName,
-		language.Italian:              whitneyItalianName,
-		language.Japanese:             whitneyJapaneseName,
-		language.Korean:               whitneyKoreanName,
-		language.LatinAmericanSpanish: whitneyLatinAmericanSpanishName,
-		language.Russian:              whitneyRussianName,
-		language.SimplifiedChinese:    whitneySimplifiedChineseName,
-		language.Spanish:              whitneySpanishName,
-		language.TraditionalChinese:   whitneyTraditionalChineseName}
+		language.AmericanEnglish:      whitneyAmericanEnglishPhrase,
+		language.CanadianFrench:       whitneyCanadianFrenchPhrase,
+		language.Dutch:                whitneyDutchPhrase,
+		language.French:               whitneyFrenchPhrase,
+		language.German:               whitneyGermanPhrase,
+		language.Italian:              whitneyItalianPhrase,
+		language.Japanese:             whitneyJapanesePhrase,
+		language.Korean:               whitneyKoreanPhrase,
+		language.LatinAmericanSpanish: whitneyLatinAmericanSpanishPhrase,
+		language.Russian:              whitneyRussianPhrase,
+		language.SimplifiedChinese:    whitneySimplifiedChinesePhrase,
+		language.Spanish:              whitneySpanishPhrase,
+		language.TraditionalChinese:   whitneyTraditionalChinesePhrase}
 )
 
 var (

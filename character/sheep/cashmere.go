@@ -159,19 +159,19 @@ var (
 
 var (
 	cashmerePhrase = nook.Languages{
-		language.AmericanEnglish:      cashmereAmericanEnglishName,
-		language.CanadianFrench:       cashmereCanadianFrenchName,
-		language.Dutch:                cashmereDutchName,
-		language.French:               cashmereFrenchName,
-		language.German:               cashmereGermanName,
-		language.Italian:              cashmereItalianName,
-		language.Japanese:             cashmereJapaneseName,
-		language.Korean:               cashmereKoreanName,
-		language.LatinAmericanSpanish: cashmereLatinAmericanSpanishName,
-		language.Russian:              cashmereRussianName,
-		language.SimplifiedChinese:    cashmereSimplifiedChineseName,
-		language.Spanish:              cashmereSpanishName,
-		language.TraditionalChinese:   cashmereTraditionalChineseName}
+		language.AmericanEnglish:      cashmereAmericanEnglishPhrase,
+		language.CanadianFrench:       cashmereCanadianFrenchPhrase,
+		language.Dutch:                cashmereDutchPhrase,
+		language.French:               cashmereFrenchPhrase,
+		language.German:               cashmereGermanPhrase,
+		language.Italian:              cashmereItalianPhrase,
+		language.Japanese:             cashmereJapanesePhrase,
+		language.Korean:               cashmereKoreanPhrase,
+		language.LatinAmericanSpanish: cashmereLatinAmericanSpanishPhrase,
+		language.Russian:              cashmereRussianPhrase,
+		language.SimplifiedChinese:    cashmereSimplifiedChinesePhrase,
+		language.Spanish:              cashmereSpanishPhrase,
+		language.TraditionalChinese:   cashmereTraditionalChinesePhrase}
 )
 
 var (

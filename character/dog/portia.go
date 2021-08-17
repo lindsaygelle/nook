@@ -159,19 +159,19 @@ var (
 
 var (
 	portiaPhrase = nook.Languages{
-		language.AmericanEnglish:      portiaAmericanEnglishName,
-		language.CanadianFrench:       portiaCanadianFrenchName,
-		language.Dutch:                portiaDutchName,
-		language.French:               portiaFrenchName,
-		language.German:               portiaGermanName,
-		language.Italian:              portiaItalianName,
-		language.Japanese:             portiaJapaneseName,
-		language.Korean:               portiaKoreanName,
-		language.LatinAmericanSpanish: portiaLatinAmericanSpanishName,
-		language.Russian:              portiaRussianName,
-		language.SimplifiedChinese:    portiaSimplifiedChineseName,
-		language.Spanish:              portiaSpanishName,
-		language.TraditionalChinese:   portiaTraditionalChineseName}
+		language.AmericanEnglish:      portiaAmericanEnglishPhrase,
+		language.CanadianFrench:       portiaCanadianFrenchPhrase,
+		language.Dutch:                portiaDutchPhrase,
+		language.French:               portiaFrenchPhrase,
+		language.German:               portiaGermanPhrase,
+		language.Italian:              portiaItalianPhrase,
+		language.Japanese:             portiaJapanesePhrase,
+		language.Korean:               portiaKoreanPhrase,
+		language.LatinAmericanSpanish: portiaLatinAmericanSpanishPhrase,
+		language.Russian:              portiaRussianPhrase,
+		language.SimplifiedChinese:    portiaSimplifiedChinesePhrase,
+		language.Spanish:              portiaSpanishPhrase,
+		language.TraditionalChinese:   portiaTraditionalChinesePhrase}
 )
 
 var (

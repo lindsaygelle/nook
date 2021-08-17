@@ -159,19 +159,19 @@ var (
 
 var (
 	pashminaPhrase = nook.Languages{
-		language.AmericanEnglish:      pashminaAmericanEnglishName,
-		language.CanadianFrench:       pashminaCanadianFrenchName,
-		language.Dutch:                pashminaDutchName,
-		language.French:               pashminaFrenchName,
-		language.German:               pashminaGermanName,
-		language.Italian:              pashminaItalianName,
-		language.Japanese:             pashminaJapaneseName,
-		language.Korean:               pashminaKoreanName,
-		language.LatinAmericanSpanish: pashminaLatinAmericanSpanishName,
-		language.Russian:              pashminaRussianName,
-		language.SimplifiedChinese:    pashminaSimplifiedChineseName,
-		language.Spanish:              pashminaSpanishName,
-		language.TraditionalChinese:   pashminaTraditionalChineseName}
+		language.AmericanEnglish:      pashminaAmericanEnglishPhrase,
+		language.CanadianFrench:       pashminaCanadianFrenchPhrase,
+		language.Dutch:                pashminaDutchPhrase,
+		language.French:               pashminaFrenchPhrase,
+		language.German:               pashminaGermanPhrase,
+		language.Italian:              pashminaItalianPhrase,
+		language.Japanese:             pashminaJapanesePhrase,
+		language.Korean:               pashminaKoreanPhrase,
+		language.LatinAmericanSpanish: pashminaLatinAmericanSpanishPhrase,
+		language.Russian:              pashminaRussianPhrase,
+		language.SimplifiedChinese:    pashminaSimplifiedChinesePhrase,
+		language.Spanish:              pashminaSpanishPhrase,
+		language.TraditionalChinese:   pashminaTraditionalChinesePhrase}
 )
 
 var (

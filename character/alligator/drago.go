@@ -159,19 +159,19 @@ var (
 
 var (
 	dragoPhrase = nook.Languages{
-		language.AmericanEnglish:      dragoAmericanEnglishName,
-		language.CanadianFrench:       dragoCanadianFrenchName,
-		language.Dutch:                dragoDutchName,
-		language.French:               dragoFrenchName,
-		language.German:               dragoGermanName,
-		language.Italian:              dragoItalianName,
-		language.Japanese:             dragoJapaneseName,
-		language.Korean:               dragoKoreanName,
-		language.LatinAmericanSpanish: dragoLatinAmericanSpanishName,
-		language.Russian:              dragoRussianName,
-		language.SimplifiedChinese:    dragoSimplifiedChineseName,
-		language.Spanish:              dragoSpanishName,
-		language.TraditionalChinese:   dragoTraditionalChineseName}
+		language.AmericanEnglish:      dragoAmericanEnglishPhrase,
+		language.CanadianFrench:       dragoCanadianFrenchPhrase,
+		language.Dutch:                dragoDutchPhrase,
+		language.French:               dragoFrenchPhrase,
+		language.German:               dragoGermanPhrase,
+		language.Italian:              dragoItalianPhrase,
+		language.Japanese:             dragoJapanesePhrase,
+		language.Korean:               dragoKoreanPhrase,
+		language.LatinAmericanSpanish: dragoLatinAmericanSpanishPhrase,
+		language.Russian:              dragoRussianPhrase,
+		language.SimplifiedChinese:    dragoSimplifiedChinesePhrase,
+		language.Spanish:              dragoSpanishPhrase,
+		language.TraditionalChinese:   dragoTraditionalChinesePhrase}
 )
 
 var (

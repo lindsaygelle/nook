@@ -159,19 +159,19 @@ var (
 
 var (
 	mathildaPhrase = nook.Languages{
-		language.AmericanEnglish:      mathildaAmericanEnglishName,
-		language.CanadianFrench:       mathildaCanadianFrenchName,
-		language.Dutch:                mathildaDutchName,
-		language.French:               mathildaFrenchName,
-		language.German:               mathildaGermanName,
-		language.Italian:              mathildaItalianName,
-		language.Japanese:             mathildaJapaneseName,
-		language.Korean:               mathildaKoreanName,
-		language.LatinAmericanSpanish: mathildaLatinAmericanSpanishName,
-		language.Russian:              mathildaRussianName,
-		language.SimplifiedChinese:    mathildaSimplifiedChineseName,
-		language.Spanish:              mathildaSpanishName,
-		language.TraditionalChinese:   mathildaTraditionalChineseName}
+		language.AmericanEnglish:      mathildaAmericanEnglishPhrase,
+		language.CanadianFrench:       mathildaCanadianFrenchPhrase,
+		language.Dutch:                mathildaDutchPhrase,
+		language.French:               mathildaFrenchPhrase,
+		language.German:               mathildaGermanPhrase,
+		language.Italian:              mathildaItalianPhrase,
+		language.Japanese:             mathildaJapanesePhrase,
+		language.Korean:               mathildaKoreanPhrase,
+		language.LatinAmericanSpanish: mathildaLatinAmericanSpanishPhrase,
+		language.Russian:              mathildaRussianPhrase,
+		language.SimplifiedChinese:    mathildaSimplifiedChinesePhrase,
+		language.Spanish:              mathildaSpanishPhrase,
+		language.TraditionalChinese:   mathildaTraditionalChinesePhrase}
 )
 
 var (

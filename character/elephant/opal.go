@@ -159,19 +159,19 @@ var (
 
 var (
 	opalPhrase = nook.Languages{
-		language.AmericanEnglish:      opalAmericanEnglishName,
-		language.CanadianFrench:       opalCanadianFrenchName,
-		language.Dutch:                opalDutchName,
-		language.French:               opalFrenchName,
-		language.German:               opalGermanName,
-		language.Italian:              opalItalianName,
-		language.Japanese:             opalJapaneseName,
-		language.Korean:               opalKoreanName,
-		language.LatinAmericanSpanish: opalLatinAmericanSpanishName,
-		language.Russian:              opalRussianName,
-		language.SimplifiedChinese:    opalSimplifiedChineseName,
-		language.Spanish:              opalSpanishName,
-		language.TraditionalChinese:   opalTraditionalChineseName}
+		language.AmericanEnglish:      opalAmericanEnglishPhrase,
+		language.CanadianFrench:       opalCanadianFrenchPhrase,
+		language.Dutch:                opalDutchPhrase,
+		language.French:               opalFrenchPhrase,
+		language.German:               opalGermanPhrase,
+		language.Italian:              opalItalianPhrase,
+		language.Japanese:             opalJapanesePhrase,
+		language.Korean:               opalKoreanPhrase,
+		language.LatinAmericanSpanish: opalLatinAmericanSpanishPhrase,
+		language.Russian:              opalRussianPhrase,
+		language.SimplifiedChinese:    opalSimplifiedChinesePhrase,
+		language.Spanish:              opalSpanishPhrase,
+		language.TraditionalChinese:   opalTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	jeremiahPhrase = nook.Languages{
-		language.AmericanEnglish:      jeremiahAmericanEnglishName,
-		language.CanadianFrench:       jeremiahCanadianFrenchName,
-		language.Dutch:                jeremiahDutchName,
-		language.French:               jeremiahFrenchName,
-		language.German:               jeremiahGermanName,
-		language.Italian:              jeremiahItalianName,
-		language.Japanese:             jeremiahJapaneseName,
-		language.Korean:               jeremiahKoreanName,
-		language.LatinAmericanSpanish: jeremiahLatinAmericanSpanishName,
-		language.Russian:              jeremiahRussianName,
-		language.SimplifiedChinese:    jeremiahSimplifiedChineseName,
-		language.Spanish:              jeremiahSpanishName,
-		language.TraditionalChinese:   jeremiahTraditionalChineseName}
+		language.AmericanEnglish:      jeremiahAmericanEnglishPhrase,
+		language.CanadianFrench:       jeremiahCanadianFrenchPhrase,
+		language.Dutch:                jeremiahDutchPhrase,
+		language.French:               jeremiahFrenchPhrase,
+		language.German:               jeremiahGermanPhrase,
+		language.Italian:              jeremiahItalianPhrase,
+		language.Japanese:             jeremiahJapanesePhrase,
+		language.Korean:               jeremiahKoreanPhrase,
+		language.LatinAmericanSpanish: jeremiahLatinAmericanSpanishPhrase,
+		language.Russian:              jeremiahRussianPhrase,
+		language.SimplifiedChinese:    jeremiahSimplifiedChinesePhrase,
+		language.Spanish:              jeremiahSpanishPhrase,
+		language.TraditionalChinese:   jeremiahTraditionalChinesePhrase}
 )
 
 var (

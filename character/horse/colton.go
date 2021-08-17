@@ -159,19 +159,19 @@ var (
 
 var (
 	coltonPhrase = nook.Languages{
-		language.AmericanEnglish:      coltonAmericanEnglishName,
-		language.CanadianFrench:       coltonCanadianFrenchName,
-		language.Dutch:                coltonDutchName,
-		language.French:               coltonFrenchName,
-		language.German:               coltonGermanName,
-		language.Italian:              coltonItalianName,
-		language.Japanese:             coltonJapaneseName,
-		language.Korean:               coltonKoreanName,
-		language.LatinAmericanSpanish: coltonLatinAmericanSpanishName,
-		language.Russian:              coltonRussianName,
-		language.SimplifiedChinese:    coltonSimplifiedChineseName,
-		language.Spanish:              coltonSpanishName,
-		language.TraditionalChinese:   coltonTraditionalChineseName}
+		language.AmericanEnglish:      coltonAmericanEnglishPhrase,
+		language.CanadianFrench:       coltonCanadianFrenchPhrase,
+		language.Dutch:                coltonDutchPhrase,
+		language.French:               coltonFrenchPhrase,
+		language.German:               coltonGermanPhrase,
+		language.Italian:              coltonItalianPhrase,
+		language.Japanese:             coltonJapanesePhrase,
+		language.Korean:               coltonKoreanPhrase,
+		language.LatinAmericanSpanish: coltonLatinAmericanSpanishPhrase,
+		language.Russian:              coltonRussianPhrase,
+		language.SimplifiedChinese:    coltonSimplifiedChinesePhrase,
+		language.Spanish:              coltonSpanishPhrase,
+		language.TraditionalChinese:   coltonTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	faithPhrase = nook.Languages{
-		language.AmericanEnglish:      faithAmericanEnglishName,
-		language.CanadianFrench:       faithCanadianFrenchName,
-		language.Dutch:                faithDutchName,
-		language.French:               faithFrenchName,
-		language.German:               faithGermanName,
-		language.Italian:              faithItalianName,
-		language.Japanese:             faithJapaneseName,
-		language.Korean:               faithKoreanName,
-		language.LatinAmericanSpanish: faithLatinAmericanSpanishName,
-		language.Russian:              faithRussianName,
-		language.SimplifiedChinese:    faithSimplifiedChineseName,
-		language.Spanish:              faithSpanishName,
-		language.TraditionalChinese:   faithTraditionalChineseName}
+		language.AmericanEnglish:      faithAmericanEnglishPhrase,
+		language.CanadianFrench:       faithCanadianFrenchPhrase,
+		language.Dutch:                faithDutchPhrase,
+		language.French:               faithFrenchPhrase,
+		language.German:               faithGermanPhrase,
+		language.Italian:              faithItalianPhrase,
+		language.Japanese:             faithJapanesePhrase,
+		language.Korean:               faithKoreanPhrase,
+		language.LatinAmericanSpanish: faithLatinAmericanSpanishPhrase,
+		language.Russian:              faithRussianPhrase,
+		language.SimplifiedChinese:    faithSimplifiedChinesePhrase,
+		language.Spanish:              faithSpanishPhrase,
+		language.TraditionalChinese:   faithTraditionalChinesePhrase}
 )
 
 var (

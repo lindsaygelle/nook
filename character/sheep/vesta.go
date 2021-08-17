@@ -159,19 +159,19 @@ var (
 
 var (
 	vestaPhrase = nook.Languages{
-		language.AmericanEnglish:      vestaAmericanEnglishName,
-		language.CanadianFrench:       vestaCanadianFrenchName,
-		language.Dutch:                vestaDutchName,
-		language.French:               vestaFrenchName,
-		language.German:               vestaGermanName,
-		language.Italian:              vestaItalianName,
-		language.Japanese:             vestaJapaneseName,
-		language.Korean:               vestaKoreanName,
-		language.LatinAmericanSpanish: vestaLatinAmericanSpanishName,
-		language.Russian:              vestaRussianName,
-		language.SimplifiedChinese:    vestaSimplifiedChineseName,
-		language.Spanish:              vestaSpanishName,
-		language.TraditionalChinese:   vestaTraditionalChineseName}
+		language.AmericanEnglish:      vestaAmericanEnglishPhrase,
+		language.CanadianFrench:       vestaCanadianFrenchPhrase,
+		language.Dutch:                vestaDutchPhrase,
+		language.French:               vestaFrenchPhrase,
+		language.German:               vestaGermanPhrase,
+		language.Italian:              vestaItalianPhrase,
+		language.Japanese:             vestaJapanesePhrase,
+		language.Korean:               vestaKoreanPhrase,
+		language.LatinAmericanSpanish: vestaLatinAmericanSpanishPhrase,
+		language.Russian:              vestaRussianPhrase,
+		language.SimplifiedChinese:    vestaSimplifiedChinesePhrase,
+		language.Spanish:              vestaSpanishPhrase,
+		language.TraditionalChinese:   vestaTraditionalChinesePhrase}
 )
 
 var (

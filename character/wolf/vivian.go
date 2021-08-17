@@ -159,19 +159,19 @@ var (
 
 var (
 	vivianPhrase = nook.Languages{
-		language.AmericanEnglish:      vivianAmericanEnglishName,
-		language.CanadianFrench:       vivianCanadianFrenchName,
-		language.Dutch:                vivianDutchName,
-		language.French:               vivianFrenchName,
-		language.German:               vivianGermanName,
-		language.Italian:              vivianItalianName,
-		language.Japanese:             vivianJapaneseName,
-		language.Korean:               vivianKoreanName,
-		language.LatinAmericanSpanish: vivianLatinAmericanSpanishName,
-		language.Russian:              vivianRussianName,
-		language.SimplifiedChinese:    vivianSimplifiedChineseName,
-		language.Spanish:              vivianSpanishName,
-		language.TraditionalChinese:   vivianTraditionalChineseName}
+		language.AmericanEnglish:      vivianAmericanEnglishPhrase,
+		language.CanadianFrench:       vivianCanadianFrenchPhrase,
+		language.Dutch:                vivianDutchPhrase,
+		language.French:               vivianFrenchPhrase,
+		language.German:               vivianGermanPhrase,
+		language.Italian:              vivianItalianPhrase,
+		language.Japanese:             vivianJapanesePhrase,
+		language.Korean:               vivianKoreanPhrase,
+		language.LatinAmericanSpanish: vivianLatinAmericanSpanishPhrase,
+		language.Russian:              vivianRussianPhrase,
+		language.SimplifiedChinese:    vivianSimplifiedChinesePhrase,
+		language.Spanish:              vivianSpanishPhrase,
+		language.TraditionalChinese:   vivianTraditionalChinesePhrase}
 )
 
 var (

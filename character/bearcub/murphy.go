@@ -159,19 +159,19 @@ var (
 
 var (
 	murphyPhrase = nook.Languages{
-		language.AmericanEnglish:      murphyAmericanEnglishName,
-		language.CanadianFrench:       murphyCanadianFrenchName,
-		language.Dutch:                murphyDutchName,
-		language.French:               murphyFrenchName,
-		language.German:               murphyGermanName,
-		language.Italian:              murphyItalianName,
-		language.Japanese:             murphyJapaneseName,
-		language.Korean:               murphyKoreanName,
-		language.LatinAmericanSpanish: murphyLatinAmericanSpanishName,
-		language.Russian:              murphyRussianName,
-		language.SimplifiedChinese:    murphySimplifiedChineseName,
-		language.Spanish:              murphySpanishName,
-		language.TraditionalChinese:   murphyTraditionalChineseName}
+		language.AmericanEnglish:      murphyAmericanEnglishPhrase,
+		language.CanadianFrench:       murphyCanadianFrenchPhrase,
+		language.Dutch:                murphyDutchPhrase,
+		language.French:               murphyFrenchPhrase,
+		language.German:               murphyGermanPhrase,
+		language.Italian:              murphyItalianPhrase,
+		language.Japanese:             murphyJapanesePhrase,
+		language.Korean:               murphyKoreanPhrase,
+		language.LatinAmericanSpanish: murphyLatinAmericanSpanishPhrase,
+		language.Russian:              murphyRussianPhrase,
+		language.SimplifiedChinese:    murphySimplifiedChinesePhrase,
+		language.Spanish:              murphySpanishPhrase,
+		language.TraditionalChinese:   murphyTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	yodelPhrase = nook.Languages{
-		language.AmericanEnglish:      yodelAmericanEnglishName,
-		language.CanadianFrench:       yodelCanadianFrenchName,
-		language.Dutch:                yodelDutchName,
-		language.French:               yodelFrenchName,
-		language.German:               yodelGermanName,
-		language.Italian:              yodelItalianName,
-		language.Japanese:             yodelJapaneseName,
-		language.Korean:               yodelKoreanName,
-		language.LatinAmericanSpanish: yodelLatinAmericanSpanishName,
-		language.Russian:              yodelRussianName,
-		language.SimplifiedChinese:    yodelSimplifiedChineseName,
-		language.Spanish:              yodelSpanishName,
-		language.TraditionalChinese:   yodelTraditionalChineseName}
+		language.AmericanEnglish:      yodelAmericanEnglishPhrase,
+		language.CanadianFrench:       yodelCanadianFrenchPhrase,
+		language.Dutch:                yodelDutchPhrase,
+		language.French:               yodelFrenchPhrase,
+		language.German:               yodelGermanPhrase,
+		language.Italian:              yodelItalianPhrase,
+		language.Japanese:             yodelJapanesePhrase,
+		language.Korean:               yodelKoreanPhrase,
+		language.LatinAmericanSpanish: yodelLatinAmericanSpanishPhrase,
+		language.Russian:              yodelRussianPhrase,
+		language.SimplifiedChinese:    yodelSimplifiedChinesePhrase,
+		language.Spanish:              yodelSpanishPhrase,
+		language.TraditionalChinese:   yodelTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	wolfgangPhrase = nook.Languages{
-		language.AmericanEnglish:      wolfgangAmericanEnglishName,
-		language.CanadianFrench:       wolfgangCanadianFrenchName,
-		language.Dutch:                wolfgangDutchName,
-		language.French:               wolfgangFrenchName,
-		language.German:               wolfgangGermanName,
-		language.Italian:              wolfgangItalianName,
-		language.Japanese:             wolfgangJapaneseName,
-		language.Korean:               wolfgangKoreanName,
-		language.LatinAmericanSpanish: wolfgangLatinAmericanSpanishName,
-		language.Russian:              wolfgangRussianName,
-		language.SimplifiedChinese:    wolfgangSimplifiedChineseName,
-		language.Spanish:              wolfgangSpanishName,
-		language.TraditionalChinese:   wolfgangTraditionalChineseName}
+		language.AmericanEnglish:      wolfgangAmericanEnglishPhrase,
+		language.CanadianFrench:       wolfgangCanadianFrenchPhrase,
+		language.Dutch:                wolfgangDutchPhrase,
+		language.French:               wolfgangFrenchPhrase,
+		language.German:               wolfgangGermanPhrase,
+		language.Italian:              wolfgangItalianPhrase,
+		language.Japanese:             wolfgangJapanesePhrase,
+		language.Korean:               wolfgangKoreanPhrase,
+		language.LatinAmericanSpanish: wolfgangLatinAmericanSpanishPhrase,
+		language.Russian:              wolfgangRussianPhrase,
+		language.SimplifiedChinese:    wolfgangSimplifiedChinesePhrase,
+		language.Spanish:              wolfgangSpanishPhrase,
+		language.TraditionalChinese:   wolfgangTraditionalChinesePhrase}
 )
 
 var (

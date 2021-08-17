@@ -159,19 +159,19 @@ var (
 
 var (
 	loboPhrase = nook.Languages{
-		language.AmericanEnglish:      loboAmericanEnglishName,
-		language.CanadianFrench:       loboCanadianFrenchName,
-		language.Dutch:                loboDutchName,
-		language.French:               loboFrenchName,
-		language.German:               loboGermanName,
-		language.Italian:              loboItalianName,
-		language.Japanese:             loboJapaneseName,
-		language.Korean:               loboKoreanName,
-		language.LatinAmericanSpanish: loboLatinAmericanSpanishName,
-		language.Russian:              loboRussianName,
-		language.SimplifiedChinese:    loboSimplifiedChineseName,
-		language.Spanish:              loboSpanishName,
-		language.TraditionalChinese:   loboTraditionalChineseName}
+		language.AmericanEnglish:      loboAmericanEnglishPhrase,
+		language.CanadianFrench:       loboCanadianFrenchPhrase,
+		language.Dutch:                loboDutchPhrase,
+		language.French:               loboFrenchPhrase,
+		language.German:               loboGermanPhrase,
+		language.Italian:              loboItalianPhrase,
+		language.Japanese:             loboJapanesePhrase,
+		language.Korean:               loboKoreanPhrase,
+		language.LatinAmericanSpanish: loboLatinAmericanSpanishPhrase,
+		language.Russian:              loboRussianPhrase,
+		language.SimplifiedChinese:    loboSimplifiedChinesePhrase,
+		language.Spanish:              loboSpanishPhrase,
+		language.TraditionalChinese:   loboTraditionalChinesePhrase}
 )
 
 var (

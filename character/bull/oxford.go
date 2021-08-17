@@ -159,19 +159,19 @@ var (
 
 var (
 	oxfordPhrase = nook.Languages{
-		language.AmericanEnglish:      oxfordAmericanEnglishName,
-		language.CanadianFrench:       oxfordCanadianFrenchName,
-		language.Dutch:                oxfordDutchName,
-		language.French:               oxfordFrenchName,
-		language.German:               oxfordGermanName,
-		language.Italian:              oxfordItalianName,
-		language.Japanese:             oxfordJapaneseName,
-		language.Korean:               oxfordKoreanName,
-		language.LatinAmericanSpanish: oxfordLatinAmericanSpanishName,
-		language.Russian:              oxfordRussianName,
-		language.SimplifiedChinese:    oxfordSimplifiedChineseName,
-		language.Spanish:              oxfordSpanishName,
-		language.TraditionalChinese:   oxfordTraditionalChineseName}
+		language.AmericanEnglish:      oxfordAmericanEnglishPhrase,
+		language.CanadianFrench:       oxfordCanadianFrenchPhrase,
+		language.Dutch:                oxfordDutchPhrase,
+		language.French:               oxfordFrenchPhrase,
+		language.German:               oxfordGermanPhrase,
+		language.Italian:              oxfordItalianPhrase,
+		language.Japanese:             oxfordJapanesePhrase,
+		language.Korean:               oxfordKoreanPhrase,
+		language.LatinAmericanSpanish: oxfordLatinAmericanSpanishPhrase,
+		language.Russian:              oxfordRussianPhrase,
+		language.SimplifiedChinese:    oxfordSimplifiedChinesePhrase,
+		language.Spanish:              oxfordSpanishPhrase,
+		language.TraditionalChinese:   oxfordTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	ganonPhrase = nook.Languages{
-		language.AmericanEnglish:      ganonAmericanEnglishName,
-		language.CanadianFrench:       ganonCanadianFrenchName,
-		language.Dutch:                ganonDutchName,
-		language.French:               ganonFrenchName,
-		language.German:               ganonGermanName,
-		language.Italian:              ganonItalianName,
-		language.Japanese:             ganonJapaneseName,
-		language.Korean:               ganonKoreanName,
-		language.LatinAmericanSpanish: ganonLatinAmericanSpanishName,
-		language.Russian:              ganonRussianName,
-		language.SimplifiedChinese:    ganonSimplifiedChineseName,
-		language.Spanish:              ganonSpanishName,
-		language.TraditionalChinese:   ganonTraditionalChineseName}
+		language.AmericanEnglish:      ganonAmericanEnglishPhrase,
+		language.CanadianFrench:       ganonCanadianFrenchPhrase,
+		language.Dutch:                ganonDutchPhrase,
+		language.French:               ganonFrenchPhrase,
+		language.German:               ganonGermanPhrase,
+		language.Italian:              ganonItalianPhrase,
+		language.Japanese:             ganonJapanesePhrase,
+		language.Korean:               ganonKoreanPhrase,
+		language.LatinAmericanSpanish: ganonLatinAmericanSpanishPhrase,
+		language.Russian:              ganonRussianPhrase,
+		language.SimplifiedChinese:    ganonSimplifiedChinesePhrase,
+		language.Spanish:              ganonSpanishPhrase,
+		language.TraditionalChinese:   ganonTraditionalChinesePhrase}
 )
 
 var (

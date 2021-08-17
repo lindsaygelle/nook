@@ -159,19 +159,19 @@ var (
 
 var (
 	cousteauPhrase = nook.Languages{
-		language.AmericanEnglish:      cousteauAmericanEnglishName,
-		language.CanadianFrench:       cousteauCanadianFrenchName,
-		language.Dutch:                cousteauDutchName,
-		language.French:               cousteauFrenchName,
-		language.German:               cousteauGermanName,
-		language.Italian:              cousteauItalianName,
-		language.Japanese:             cousteauJapaneseName,
-		language.Korean:               cousteauKoreanName,
-		language.LatinAmericanSpanish: cousteauLatinAmericanSpanishName,
-		language.Russian:              cousteauRussianName,
-		language.SimplifiedChinese:    cousteauSimplifiedChineseName,
-		language.Spanish:              cousteauSpanishName,
-		language.TraditionalChinese:   cousteauTraditionalChineseName}
+		language.AmericanEnglish:      cousteauAmericanEnglishPhrase,
+		language.CanadianFrench:       cousteauCanadianFrenchPhrase,
+		language.Dutch:                cousteauDutchPhrase,
+		language.French:               cousteauFrenchPhrase,
+		language.German:               cousteauGermanPhrase,
+		language.Italian:              cousteauItalianPhrase,
+		language.Japanese:             cousteauJapanesePhrase,
+		language.Korean:               cousteauKoreanPhrase,
+		language.LatinAmericanSpanish: cousteauLatinAmericanSpanishPhrase,
+		language.Russian:              cousteauRussianPhrase,
+		language.SimplifiedChinese:    cousteauSimplifiedChinesePhrase,
+		language.Spanish:              cousteauSpanishPhrase,
+		language.TraditionalChinese:   cousteauTraditionalChinesePhrase}
 )
 
 var (

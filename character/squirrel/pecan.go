@@ -159,19 +159,19 @@ var (
 
 var (
 	pecanPhrase = nook.Languages{
-		language.AmericanEnglish:      pecanAmericanEnglishName,
-		language.CanadianFrench:       pecanCanadianFrenchName,
-		language.Dutch:                pecanDutchName,
-		language.French:               pecanFrenchName,
-		language.German:               pecanGermanName,
-		language.Italian:              pecanItalianName,
-		language.Japanese:             pecanJapaneseName,
-		language.Korean:               pecanKoreanName,
-		language.LatinAmericanSpanish: pecanLatinAmericanSpanishName,
-		language.Russian:              pecanRussianName,
-		language.SimplifiedChinese:    pecanSimplifiedChineseName,
-		language.Spanish:              pecanSpanishName,
-		language.TraditionalChinese:   pecanTraditionalChineseName}
+		language.AmericanEnglish:      pecanAmericanEnglishPhrase,
+		language.CanadianFrench:       pecanCanadianFrenchPhrase,
+		language.Dutch:                pecanDutchPhrase,
+		language.French:               pecanFrenchPhrase,
+		language.German:               pecanGermanPhrase,
+		language.Italian:              pecanItalianPhrase,
+		language.Japanese:             pecanJapanesePhrase,
+		language.Korean:               pecanKoreanPhrase,
+		language.LatinAmericanSpanish: pecanLatinAmericanSpanishPhrase,
+		language.Russian:              pecanRussianPhrase,
+		language.SimplifiedChinese:    pecanSimplifiedChinesePhrase,
+		language.Spanish:              pecanSpanishPhrase,
+		language.TraditionalChinese:   pecanTraditionalChinesePhrase}
 )
 
 var (

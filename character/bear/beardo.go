@@ -159,19 +159,19 @@ var (
 
 var (
 	beardoPhrase = nook.Languages{
-		language.AmericanEnglish:      beardoAmericanEnglishName,
-		language.CanadianFrench:       beardoCanadianFrenchName,
-		language.Dutch:                beardoDutchName,
-		language.French:               beardoFrenchName,
-		language.German:               beardoGermanName,
-		language.Italian:              beardoItalianName,
-		language.Japanese:             beardoJapaneseName,
-		language.Korean:               beardoKoreanName,
-		language.LatinAmericanSpanish: beardoLatinAmericanSpanishName,
-		language.Russian:              beardoRussianName,
-		language.SimplifiedChinese:    beardoSimplifiedChineseName,
-		language.Spanish:              beardoSpanishName,
-		language.TraditionalChinese:   beardoTraditionalChineseName}
+		language.AmericanEnglish:      beardoAmericanEnglishPhrase,
+		language.CanadianFrench:       beardoCanadianFrenchPhrase,
+		language.Dutch:                beardoDutchPhrase,
+		language.French:               beardoFrenchPhrase,
+		language.German:               beardoGermanPhrase,
+		language.Italian:              beardoItalianPhrase,
+		language.Japanese:             beardoJapanesePhrase,
+		language.Korean:               beardoKoreanPhrase,
+		language.LatinAmericanSpanish: beardoLatinAmericanSpanishPhrase,
+		language.Russian:              beardoRussianPhrase,
+		language.SimplifiedChinese:    beardoSimplifiedChinesePhrase,
+		language.Spanish:              beardoSpanishPhrase,
+		language.TraditionalChinese:   beardoTraditionalChinesePhrase}
 )
 
 var (

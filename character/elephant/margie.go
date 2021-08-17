@@ -159,19 +159,19 @@ var (
 
 var (
 	margiePhrase = nook.Languages{
-		language.AmericanEnglish:      margieAmericanEnglishName,
-		language.CanadianFrench:       margieCanadianFrenchName,
-		language.Dutch:                margieDutchName,
-		language.French:               margieFrenchName,
-		language.German:               margieGermanName,
-		language.Italian:              margieItalianName,
-		language.Japanese:             margieJapaneseName,
-		language.Korean:               margieKoreanName,
-		language.LatinAmericanSpanish: margieLatinAmericanSpanishName,
-		language.Russian:              margieRussianName,
-		language.SimplifiedChinese:    margieSimplifiedChineseName,
-		language.Spanish:              margieSpanishName,
-		language.TraditionalChinese:   margieTraditionalChineseName}
+		language.AmericanEnglish:      margieAmericanEnglishPhrase,
+		language.CanadianFrench:       margieCanadianFrenchPhrase,
+		language.Dutch:                margieDutchPhrase,
+		language.French:               margieFrenchPhrase,
+		language.German:               margieGermanPhrase,
+		language.Italian:              margieItalianPhrase,
+		language.Japanese:             margieJapanesePhrase,
+		language.Korean:               margieKoreanPhrase,
+		language.LatinAmericanSpanish: margieLatinAmericanSpanishPhrase,
+		language.Russian:              margieRussianPhrase,
+		language.SimplifiedChinese:    margieSimplifiedChinesePhrase,
+		language.Spanish:              margieSpanishPhrase,
+		language.TraditionalChinese:   margieTraditionalChinesePhrase}
 )
 
 var (

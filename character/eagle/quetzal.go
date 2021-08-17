@@ -159,19 +159,19 @@ var (
 
 var (
 	quetzalPhrase = nook.Languages{
-		language.AmericanEnglish:      quetzalAmericanEnglishName,
-		language.CanadianFrench:       quetzalCanadianFrenchName,
-		language.Dutch:                quetzalDutchName,
-		language.French:               quetzalFrenchName,
-		language.German:               quetzalGermanName,
-		language.Italian:              quetzalItalianName,
-		language.Japanese:             quetzalJapaneseName,
-		language.Korean:               quetzalKoreanName,
-		language.LatinAmericanSpanish: quetzalLatinAmericanSpanishName,
-		language.Russian:              quetzalRussianName,
-		language.SimplifiedChinese:    quetzalSimplifiedChineseName,
-		language.Spanish:              quetzalSpanishName,
-		language.TraditionalChinese:   quetzalTraditionalChineseName}
+		language.AmericanEnglish:      quetzalAmericanEnglishPhrase,
+		language.CanadianFrench:       quetzalCanadianFrenchPhrase,
+		language.Dutch:                quetzalDutchPhrase,
+		language.French:               quetzalFrenchPhrase,
+		language.German:               quetzalGermanPhrase,
+		language.Italian:              quetzalItalianPhrase,
+		language.Japanese:             quetzalJapanesePhrase,
+		language.Korean:               quetzalKoreanPhrase,
+		language.LatinAmericanSpanish: quetzalLatinAmericanSpanishPhrase,
+		language.Russian:              quetzalRussianPhrase,
+		language.SimplifiedChinese:    quetzalSimplifiedChinesePhrase,
+		language.Spanish:              quetzalSpanishPhrase,
+		language.TraditionalChinese:   quetzalTraditionalChinesePhrase}
 )
 
 var (

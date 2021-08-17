@@ -159,19 +159,19 @@ var (
 
 var (
 	pudgePhrase = nook.Languages{
-		language.AmericanEnglish:      pudgeAmericanEnglishName,
-		language.CanadianFrench:       pudgeCanadianFrenchName,
-		language.Dutch:                pudgeDutchName,
-		language.French:               pudgeFrenchName,
-		language.German:               pudgeGermanName,
-		language.Italian:              pudgeItalianName,
-		language.Japanese:             pudgeJapaneseName,
-		language.Korean:               pudgeKoreanName,
-		language.LatinAmericanSpanish: pudgeLatinAmericanSpanishName,
-		language.Russian:              pudgeRussianName,
-		language.SimplifiedChinese:    pudgeSimplifiedChineseName,
-		language.Spanish:              pudgeSpanishName,
-		language.TraditionalChinese:   pudgeTraditionalChineseName}
+		language.AmericanEnglish:      pudgeAmericanEnglishPhrase,
+		language.CanadianFrench:       pudgeCanadianFrenchPhrase,
+		language.Dutch:                pudgeDutchPhrase,
+		language.French:               pudgeFrenchPhrase,
+		language.German:               pudgeGermanPhrase,
+		language.Italian:              pudgeItalianPhrase,
+		language.Japanese:             pudgeJapanesePhrase,
+		language.Korean:               pudgeKoreanPhrase,
+		language.LatinAmericanSpanish: pudgeLatinAmericanSpanishPhrase,
+		language.Russian:              pudgeRussianPhrase,
+		language.SimplifiedChinese:    pudgeSimplifiedChinesePhrase,
+		language.Spanish:              pudgeSpanishPhrase,
+		language.TraditionalChinese:   pudgeTraditionalChinesePhrase}
 )
 
 var (

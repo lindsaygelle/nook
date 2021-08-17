@@ -159,19 +159,19 @@ var (
 
 var (
 	marinaPhrase = nook.Languages{
-		language.AmericanEnglish:      marinaAmericanEnglishName,
-		language.CanadianFrench:       marinaCanadianFrenchName,
-		language.Dutch:                marinaDutchName,
-		language.French:               marinaFrenchName,
-		language.German:               marinaGermanName,
-		language.Italian:              marinaItalianName,
-		language.Japanese:             marinaJapaneseName,
-		language.Korean:               marinaKoreanName,
-		language.LatinAmericanSpanish: marinaLatinAmericanSpanishName,
-		language.Russian:              marinaRussianName,
-		language.SimplifiedChinese:    marinaSimplifiedChineseName,
-		language.Spanish:              marinaSpanishName,
-		language.TraditionalChinese:   marinaTraditionalChineseName}
+		language.AmericanEnglish:      marinaAmericanEnglishPhrase,
+		language.CanadianFrench:       marinaCanadianFrenchPhrase,
+		language.Dutch:                marinaDutchPhrase,
+		language.French:               marinaFrenchPhrase,
+		language.German:               marinaGermanPhrase,
+		language.Italian:              marinaItalianPhrase,
+		language.Japanese:             marinaJapanesePhrase,
+		language.Korean:               marinaKoreanPhrase,
+		language.LatinAmericanSpanish: marinaLatinAmericanSpanishPhrase,
+		language.Russian:              marinaRussianPhrase,
+		language.SimplifiedChinese:    marinaSimplifiedChinesePhrase,
+		language.Spanish:              marinaSpanishPhrase,
+		language.TraditionalChinese:   marinaTraditionalChinesePhrase}
 )
 
 var (

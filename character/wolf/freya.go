@@ -159,19 +159,19 @@ var (
 
 var (
 	freyaPhrase = nook.Languages{
-		language.AmericanEnglish:      freyaAmericanEnglishName,
-		language.CanadianFrench:       freyaCanadianFrenchName,
-		language.Dutch:                freyaDutchName,
-		language.French:               freyaFrenchName,
-		language.German:               freyaGermanName,
-		language.Italian:              freyaItalianName,
-		language.Japanese:             freyaJapaneseName,
-		language.Korean:               freyaKoreanName,
-		language.LatinAmericanSpanish: freyaLatinAmericanSpanishName,
-		language.Russian:              freyaRussianName,
-		language.SimplifiedChinese:    freyaSimplifiedChineseName,
-		language.Spanish:              freyaSpanishName,
-		language.TraditionalChinese:   freyaTraditionalChineseName}
+		language.AmericanEnglish:      freyaAmericanEnglishPhrase,
+		language.CanadianFrench:       freyaCanadianFrenchPhrase,
+		language.Dutch:                freyaDutchPhrase,
+		language.French:               freyaFrenchPhrase,
+		language.German:               freyaGermanPhrase,
+		language.Italian:              freyaItalianPhrase,
+		language.Japanese:             freyaJapanesePhrase,
+		language.Korean:               freyaKoreanPhrase,
+		language.LatinAmericanSpanish: freyaLatinAmericanSpanishPhrase,
+		language.Russian:              freyaRussianPhrase,
+		language.SimplifiedChinese:    freyaSimplifiedChinesePhrase,
+		language.Spanish:              freyaSpanishPhrase,
+		language.TraditionalChinese:   freyaTraditionalChinesePhrase}
 )
 
 var (

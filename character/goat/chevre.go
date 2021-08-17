@@ -159,19 +159,19 @@ var (
 
 var (
 	chevrePhrase = nook.Languages{
-		language.AmericanEnglish:      chevreAmericanEnglishName,
-		language.CanadianFrench:       chevreCanadianFrenchName,
-		language.Dutch:                chevreDutchName,
-		language.French:               chevreFrenchName,
-		language.German:               chevreGermanName,
-		language.Italian:              chevreItalianName,
-		language.Japanese:             chevreJapaneseName,
-		language.Korean:               chevreKoreanName,
-		language.LatinAmericanSpanish: chevreLatinAmericanSpanishName,
-		language.Russian:              chevreRussianName,
-		language.SimplifiedChinese:    chevreSimplifiedChineseName,
-		language.Spanish:              chevreSpanishName,
-		language.TraditionalChinese:   chevreTraditionalChineseName}
+		language.AmericanEnglish:      chevreAmericanEnglishPhrase,
+		language.CanadianFrench:       chevreCanadianFrenchPhrase,
+		language.Dutch:                chevreDutchPhrase,
+		language.French:               chevreFrenchPhrase,
+		language.German:               chevreGermanPhrase,
+		language.Italian:              chevreItalianPhrase,
+		language.Japanese:             chevreJapanesePhrase,
+		language.Korean:               chevreKoreanPhrase,
+		language.LatinAmericanSpanish: chevreLatinAmericanSpanishPhrase,
+		language.Russian:              chevreRussianPhrase,
+		language.SimplifiedChinese:    chevreSimplifiedChinesePhrase,
+		language.Spanish:              chevreSpanishPhrase,
+		language.TraditionalChinese:   chevreTraditionalChinesePhrase}
 )
 
 var (

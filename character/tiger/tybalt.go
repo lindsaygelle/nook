@@ -159,19 +159,19 @@ var (
 
 var (
 	tybaltPhrase = nook.Languages{
-		language.AmericanEnglish:      tybaltAmericanEnglishName,
-		language.CanadianFrench:       tybaltCanadianFrenchName,
-		language.Dutch:                tybaltDutchName,
-		language.French:               tybaltFrenchName,
-		language.German:               tybaltGermanName,
-		language.Italian:              tybaltItalianName,
-		language.Japanese:             tybaltJapaneseName,
-		language.Korean:               tybaltKoreanName,
-		language.LatinAmericanSpanish: tybaltLatinAmericanSpanishName,
-		language.Russian:              tybaltRussianName,
-		language.SimplifiedChinese:    tybaltSimplifiedChineseName,
-		language.Spanish:              tybaltSpanishName,
-		language.TraditionalChinese:   tybaltTraditionalChineseName}
+		language.AmericanEnglish:      tybaltAmericanEnglishPhrase,
+		language.CanadianFrench:       tybaltCanadianFrenchPhrase,
+		language.Dutch:                tybaltDutchPhrase,
+		language.French:               tybaltFrenchPhrase,
+		language.German:               tybaltGermanPhrase,
+		language.Italian:              tybaltItalianPhrase,
+		language.Japanese:             tybaltJapanesePhrase,
+		language.Korean:               tybaltKoreanPhrase,
+		language.LatinAmericanSpanish: tybaltLatinAmericanSpanishPhrase,
+		language.Russian:              tybaltRussianPhrase,
+		language.SimplifiedChinese:    tybaltSimplifiedChinesePhrase,
+		language.Spanish:              tybaltSpanishPhrase,
+		language.TraditionalChinese:   tybaltTraditionalChinesePhrase}
 )
 
 var (

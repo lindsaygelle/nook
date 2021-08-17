@@ -159,19 +159,19 @@ var (
 
 var (
 	octavianPhrase = nook.Languages{
-		language.AmericanEnglish:      octavianAmericanEnglishName,
-		language.CanadianFrench:       octavianCanadianFrenchName,
-		language.Dutch:                octavianDutchName,
-		language.French:               octavianFrenchName,
-		language.German:               octavianGermanName,
-		language.Italian:              octavianItalianName,
-		language.Japanese:             octavianJapaneseName,
-		language.Korean:               octavianKoreanName,
-		language.LatinAmericanSpanish: octavianLatinAmericanSpanishName,
-		language.Russian:              octavianRussianName,
-		language.SimplifiedChinese:    octavianSimplifiedChineseName,
-		language.Spanish:              octavianSpanishName,
-		language.TraditionalChinese:   octavianTraditionalChineseName}
+		language.AmericanEnglish:      octavianAmericanEnglishPhrase,
+		language.CanadianFrench:       octavianCanadianFrenchPhrase,
+		language.Dutch:                octavianDutchPhrase,
+		language.French:               octavianFrenchPhrase,
+		language.German:               octavianGermanPhrase,
+		language.Italian:              octavianItalianPhrase,
+		language.Japanese:             octavianJapanesePhrase,
+		language.Korean:               octavianKoreanPhrase,
+		language.LatinAmericanSpanish: octavianLatinAmericanSpanishPhrase,
+		language.Russian:              octavianRussianPhrase,
+		language.SimplifiedChinese:    octavianSimplifiedChinesePhrase,
+		language.Spanish:              octavianSpanishPhrase,
+		language.TraditionalChinese:   octavianTraditionalChinesePhrase}
 )
 
 var (

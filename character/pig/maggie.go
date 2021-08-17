@@ -159,19 +159,19 @@ var (
 
 var (
 	maggiePhrase = nook.Languages{
-		language.AmericanEnglish:      maggieAmericanEnglishName,
-		language.CanadianFrench:       maggieCanadianFrenchName,
-		language.Dutch:                maggieDutchName,
-		language.French:               maggieFrenchName,
-		language.German:               maggieGermanName,
-		language.Italian:              maggieItalianName,
-		language.Japanese:             maggieJapaneseName,
-		language.Korean:               maggieKoreanName,
-		language.LatinAmericanSpanish: maggieLatinAmericanSpanishName,
-		language.Russian:              maggieRussianName,
-		language.SimplifiedChinese:    maggieSimplifiedChineseName,
-		language.Spanish:              maggieSpanishName,
-		language.TraditionalChinese:   maggieTraditionalChineseName}
+		language.AmericanEnglish:      maggieAmericanEnglishPhrase,
+		language.CanadianFrench:       maggieCanadianFrenchPhrase,
+		language.Dutch:                maggieDutchPhrase,
+		language.French:               maggieFrenchPhrase,
+		language.German:               maggieGermanPhrase,
+		language.Italian:              maggieItalianPhrase,
+		language.Japanese:             maggieJapanesePhrase,
+		language.Korean:               maggieKoreanPhrase,
+		language.LatinAmericanSpanish: maggieLatinAmericanSpanishPhrase,
+		language.Russian:              maggieRussianPhrase,
+		language.SimplifiedChinese:    maggieSimplifiedChinesePhrase,
+		language.Spanish:              maggieSpanishPhrase,
+		language.TraditionalChinese:   maggieTraditionalChinesePhrase}
 )
 
 var (

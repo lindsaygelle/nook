@@ -54,3 +54,54 @@ docker run -it --rm --name nook nook
 Nook at the package level only exports the concrete types consumed by this package. The philosophy was to keep each package extensible, without the concern of
 searching through various subpackages to find all types that make up the package. Through this, ideally, the pattern will keep the imports relatively straightforward and simple. It should also allow each child package to focus on using only the known set of building blocks to create its exports, and limit
 the exposure to coding towards circular dependencies. Most of the decisions were shaped by the content of the Animal Crossing series, versus developer preference. For example, the initial concept was to have all characters live at the root package, but name conflicts, data types, and maintance became an issue. Having each character exist in its own directory was also attempted, but imports became confusing. All recommendations welcome, but for now this appears to be the best trade off.
+
+## Extending
+Nook was built with extensibility in mind. The simplest way to add to the functionality of the package is to import the concrete type and apply the required changes.
+
+### Character
+Below is an example of adding functionality to the `nook.Character` type.
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "github.com/lindsaygelle/nook"
+    "github.com/lindsaygelle/nook/character/alligator"
+    "golang.org/x/text/language"
+)
+
+var (
+    alligators = []nook.Villager{
+        alligator.Alfonso,
+        alligator.Alli}
+)
+
+type Villager struct{
+    nook.Villager
+}
+
+func (v Villager) Greet() string {
+    return fmt.Sprintf("%s! My name is %s. Nice to meet you.", v.Phrase.Must(language.AmericanEnglish).Vale, v.Name.Must(language.AmericanEnglish).Value)
+}
+
+func makeVillager(villager nook.Villager) Villager {
+    return Villager{villager}
+}
+
+func makeVillagers(villagers ...nook.Villager) []Villager {
+    v := make([]Villager, len(villagers))
+    for i, villager := range villagers {
+        v[i] = makeVillager(villager)
+    }
+    return villagers
+}
+
+func main() {
+    villagers := makeVillagers(alligators...) 
+    for _, villager := range villagers {
+        fmt.Println(villager.Greet())
+    }
+}
+```

@@ -159,19 +159,19 @@ var (
 
 var (
 	shoukichiPhrase = nook.Languages{
-		language.AmericanEnglish:      shoukichiAmericanEnglishName,
-		language.CanadianFrench:       shoukichiCanadianFrenchName,
-		language.Dutch:                shoukichiDutchName,
-		language.French:               shoukichiFrenchName,
-		language.German:               shoukichiGermanName,
-		language.Italian:              shoukichiItalianName,
-		language.Japanese:             shoukichiJapaneseName,
-		language.Korean:               shoukichiKoreanName,
-		language.LatinAmericanSpanish: shoukichiLatinAmericanSpanishName,
-		language.Russian:              shoukichiRussianName,
-		language.SimplifiedChinese:    shoukichiSimplifiedChineseName,
-		language.Spanish:              shoukichiSpanishName,
-		language.TraditionalChinese:   shoukichiTraditionalChineseName}
+		language.AmericanEnglish:      shoukichiAmericanEnglishPhrase,
+		language.CanadianFrench:       shoukichiCanadianFrenchPhrase,
+		language.Dutch:                shoukichiDutchPhrase,
+		language.French:               shoukichiFrenchPhrase,
+		language.German:               shoukichiGermanPhrase,
+		language.Italian:              shoukichiItalianPhrase,
+		language.Japanese:             shoukichiJapanesePhrase,
+		language.Korean:               shoukichiKoreanPhrase,
+		language.LatinAmericanSpanish: shoukichiLatinAmericanSpanishPhrase,
+		language.Russian:              shoukichiRussianPhrase,
+		language.SimplifiedChinese:    shoukichiSimplifiedChinesePhrase,
+		language.Spanish:              shoukichiSpanishPhrase,
+		language.TraditionalChinese:   shoukichiTraditionalChinesePhrase}
 )
 
 var (

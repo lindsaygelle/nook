@@ -159,19 +159,19 @@ var (
 
 var (
 	tiffanyPhrase = nook.Languages{
-		language.AmericanEnglish:      tiffanyAmericanEnglishName,
-		language.CanadianFrench:       tiffanyCanadianFrenchName,
-		language.Dutch:                tiffanyDutchName,
-		language.French:               tiffanyFrenchName,
-		language.German:               tiffanyGermanName,
-		language.Italian:              tiffanyItalianName,
-		language.Japanese:             tiffanyJapaneseName,
-		language.Korean:               tiffanyKoreanName,
-		language.LatinAmericanSpanish: tiffanyLatinAmericanSpanishName,
-		language.Russian:              tiffanyRussianName,
-		language.SimplifiedChinese:    tiffanySimplifiedChineseName,
-		language.Spanish:              tiffanySpanishName,
-		language.TraditionalChinese:   tiffanyTraditionalChineseName}
+		language.AmericanEnglish:      tiffanyAmericanEnglishPhrase,
+		language.CanadianFrench:       tiffanyCanadianFrenchPhrase,
+		language.Dutch:                tiffanyDutchPhrase,
+		language.French:               tiffanyFrenchPhrase,
+		language.German:               tiffanyGermanPhrase,
+		language.Italian:              tiffanyItalianPhrase,
+		language.Japanese:             tiffanyJapanesePhrase,
+		language.Korean:               tiffanyKoreanPhrase,
+		language.LatinAmericanSpanish: tiffanyLatinAmericanSpanishPhrase,
+		language.Russian:              tiffanyRussianPhrase,
+		language.SimplifiedChinese:    tiffanySimplifiedChinesePhrase,
+		language.Spanish:              tiffanySpanishPhrase,
+		language.TraditionalChinese:   tiffanyTraditionalChinesePhrase}
 )
 
 var (

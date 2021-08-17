@@ -159,19 +159,19 @@ var (
 
 var (
 	igglyPhrase = nook.Languages{
-		language.AmericanEnglish:      igglyAmericanEnglishName,
-		language.CanadianFrench:       igglyCanadianFrenchName,
-		language.Dutch:                igglyDutchName,
-		language.French:               igglyFrenchName,
-		language.German:               igglyGermanName,
-		language.Italian:              igglyItalianName,
-		language.Japanese:             igglyJapaneseName,
-		language.Korean:               igglyKoreanName,
-		language.LatinAmericanSpanish: igglyLatinAmericanSpanishName,
-		language.Russian:              igglyRussianName,
-		language.SimplifiedChinese:    igglySimplifiedChineseName,
-		language.Spanish:              igglySpanishName,
-		language.TraditionalChinese:   igglyTraditionalChineseName}
+		language.AmericanEnglish:      igglyAmericanEnglishPhrase,
+		language.CanadianFrench:       igglyCanadianFrenchPhrase,
+		language.Dutch:                igglyDutchPhrase,
+		language.French:               igglyFrenchPhrase,
+		language.German:               igglyGermanPhrase,
+		language.Italian:              igglyItalianPhrase,
+		language.Japanese:             igglyJapanesePhrase,
+		language.Korean:               igglyKoreanPhrase,
+		language.LatinAmericanSpanish: igglyLatinAmericanSpanishPhrase,
+		language.Russian:              igglyRussianPhrase,
+		language.SimplifiedChinese:    igglySimplifiedChinesePhrase,
+		language.Spanish:              igglySpanishPhrase,
+		language.TraditionalChinese:   igglyTraditionalChinesePhrase}
 )
 
 var (

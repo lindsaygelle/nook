@@ -159,19 +159,19 @@ var (
 
 var (
 	klausPhrase = nook.Languages{
-		language.AmericanEnglish:      klausAmericanEnglishName,
-		language.CanadianFrench:       klausCanadianFrenchName,
-		language.Dutch:                klausDutchName,
-		language.French:               klausFrenchName,
-		language.German:               klausGermanName,
-		language.Italian:              klausItalianName,
-		language.Japanese:             klausJapaneseName,
-		language.Korean:               klausKoreanName,
-		language.LatinAmericanSpanish: klausLatinAmericanSpanishName,
-		language.Russian:              klausRussianName,
-		language.SimplifiedChinese:    klausSimplifiedChineseName,
-		language.Spanish:              klausSpanishName,
-		language.TraditionalChinese:   klausTraditionalChineseName}
+		language.AmericanEnglish:      klausAmericanEnglishPhrase,
+		language.CanadianFrench:       klausCanadianFrenchPhrase,
+		language.Dutch:                klausDutchPhrase,
+		language.French:               klausFrenchPhrase,
+		language.German:               klausGermanPhrase,
+		language.Italian:              klausItalianPhrase,
+		language.Japanese:             klausJapanesePhrase,
+		language.Korean:               klausKoreanPhrase,
+		language.LatinAmericanSpanish: klausLatinAmericanSpanishPhrase,
+		language.Russian:              klausRussianPhrase,
+		language.SimplifiedChinese:    klausSimplifiedChinesePhrase,
+		language.Spanish:              klausSpanishPhrase,
+		language.TraditionalChinese:   klausTraditionalChinesePhrase}
 )
 
 var (

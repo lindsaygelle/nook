@@ -159,19 +159,19 @@ var (
 
 var (
 	chelseaPhrase = nook.Languages{
-		language.AmericanEnglish:      chelseaAmericanEnglishName,
-		language.CanadianFrench:       chelseaCanadianFrenchName,
-		language.Dutch:                chelseaDutchName,
-		language.French:               chelseaFrenchName,
-		language.German:               chelseaGermanName,
-		language.Italian:              chelseaItalianName,
-		language.Japanese:             chelseaJapaneseName,
-		language.Korean:               chelseaKoreanName,
-		language.LatinAmericanSpanish: chelseaLatinAmericanSpanishName,
-		language.Russian:              chelseaRussianName,
-		language.SimplifiedChinese:    chelseaSimplifiedChineseName,
-		language.Spanish:              chelseaSpanishName,
-		language.TraditionalChinese:   chelseaTraditionalChineseName}
+		language.AmericanEnglish:      chelseaAmericanEnglishPhrase,
+		language.CanadianFrench:       chelseaCanadianFrenchPhrase,
+		language.Dutch:                chelseaDutchPhrase,
+		language.French:               chelseaFrenchPhrase,
+		language.German:               chelseaGermanPhrase,
+		language.Italian:              chelseaItalianPhrase,
+		language.Japanese:             chelseaJapanesePhrase,
+		language.Korean:               chelseaKoreanPhrase,
+		language.LatinAmericanSpanish: chelseaLatinAmericanSpanishPhrase,
+		language.Russian:              chelseaRussianPhrase,
+		language.SimplifiedChinese:    chelseaSimplifiedChinesePhrase,
+		language.Spanish:              chelseaSpanishPhrase,
+		language.TraditionalChinese:   chelseaTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	piglegPhrase = nook.Languages{
-		language.AmericanEnglish:      piglegAmericanEnglishName,
-		language.CanadianFrench:       piglegCanadianFrenchName,
-		language.Dutch:                piglegDutchName,
-		language.French:               piglegFrenchName,
-		language.German:               piglegGermanName,
-		language.Italian:              piglegItalianName,
-		language.Japanese:             piglegJapaneseName,
-		language.Korean:               piglegKoreanName,
-		language.LatinAmericanSpanish: piglegLatinAmericanSpanishName,
-		language.Russian:              piglegRussianName,
-		language.SimplifiedChinese:    piglegSimplifiedChineseName,
-		language.Spanish:              piglegSpanishName,
-		language.TraditionalChinese:   piglegTraditionalChineseName}
+		language.AmericanEnglish:      piglegAmericanEnglishPhrase,
+		language.CanadianFrench:       piglegCanadianFrenchPhrase,
+		language.Dutch:                piglegDutchPhrase,
+		language.French:               piglegFrenchPhrase,
+		language.German:               piglegGermanPhrase,
+		language.Italian:              piglegItalianPhrase,
+		language.Japanese:             piglegJapanesePhrase,
+		language.Korean:               piglegKoreanPhrase,
+		language.LatinAmericanSpanish: piglegLatinAmericanSpanishPhrase,
+		language.Russian:              piglegRussianPhrase,
+		language.SimplifiedChinese:    piglegSimplifiedChinesePhrase,
+		language.Spanish:              piglegSpanishPhrase,
+		language.TraditionalChinese:   piglegTraditionalChinesePhrase}
 )
 
 var (

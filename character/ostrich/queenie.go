@@ -159,19 +159,19 @@ var (
 
 var (
 	queeniePhrase = nook.Languages{
-		language.AmericanEnglish:      queenieAmericanEnglishName,
-		language.CanadianFrench:       queenieCanadianFrenchName,
-		language.Dutch:                queenieDutchName,
-		language.French:               queenieFrenchName,
-		language.German:               queenieGermanName,
-		language.Italian:              queenieItalianName,
-		language.Japanese:             queenieJapaneseName,
-		language.Korean:               queenieKoreanName,
-		language.LatinAmericanSpanish: queenieLatinAmericanSpanishName,
-		language.Russian:              queenieRussianName,
-		language.SimplifiedChinese:    queenieSimplifiedChineseName,
-		language.Spanish:              queenieSpanishName,
-		language.TraditionalChinese:   queenieTraditionalChineseName}
+		language.AmericanEnglish:      queenieAmericanEnglishPhrase,
+		language.CanadianFrench:       queenieCanadianFrenchPhrase,
+		language.Dutch:                queenieDutchPhrase,
+		language.French:               queenieFrenchPhrase,
+		language.German:               queenieGermanPhrase,
+		language.Italian:              queenieItalianPhrase,
+		language.Japanese:             queenieJapanesePhrase,
+		language.Korean:               queenieKoreanPhrase,
+		language.LatinAmericanSpanish: queenieLatinAmericanSpanishPhrase,
+		language.Russian:              queenieRussianPhrase,
+		language.SimplifiedChinese:    queenieSimplifiedChinesePhrase,
+		language.Spanish:              queenieSpanishPhrase,
+		language.TraditionalChinese:   queenieTraditionalChinesePhrase}
 )
 
 var (

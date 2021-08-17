@@ -159,19 +159,19 @@ var (
 
 var (
 	nosegayPhrase = nook.Languages{
-		language.AmericanEnglish:      nosegayAmericanEnglishName,
-		language.CanadianFrench:       nosegayCanadianFrenchName,
-		language.Dutch:                nosegayDutchName,
-		language.French:               nosegayFrenchName,
-		language.German:               nosegayGermanName,
-		language.Italian:              nosegayItalianName,
-		language.Japanese:             nosegayJapaneseName,
-		language.Korean:               nosegayKoreanName,
-		language.LatinAmericanSpanish: nosegayLatinAmericanSpanishName,
-		language.Russian:              nosegayRussianName,
-		language.SimplifiedChinese:    nosegaySimplifiedChineseName,
-		language.Spanish:              nosegaySpanishName,
-		language.TraditionalChinese:   nosegayTraditionalChineseName}
+		language.AmericanEnglish:      nosegayAmericanEnglishPhrase,
+		language.CanadianFrench:       nosegayCanadianFrenchPhrase,
+		language.Dutch:                nosegayDutchPhrase,
+		language.French:               nosegayFrenchPhrase,
+		language.German:               nosegayGermanPhrase,
+		language.Italian:              nosegayItalianPhrase,
+		language.Japanese:             nosegayJapanesePhrase,
+		language.Korean:               nosegayKoreanPhrase,
+		language.LatinAmericanSpanish: nosegayLatinAmericanSpanishPhrase,
+		language.Russian:              nosegayRussianPhrase,
+		language.SimplifiedChinese:    nosegaySimplifiedChinesePhrase,
+		language.Spanish:              nosegaySpanishPhrase,
+		language.TraditionalChinese:   nosegayTraditionalChinesePhrase}
 )
 
 var (

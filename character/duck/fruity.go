@@ -159,19 +159,19 @@ var (
 
 var (
 	fruityPhrase = nook.Languages{
-		language.AmericanEnglish:      fruityAmericanEnglishName,
-		language.CanadianFrench:       fruityCanadianFrenchName,
-		language.Dutch:                fruityDutchName,
-		language.French:               fruityFrenchName,
-		language.German:               fruityGermanName,
-		language.Italian:              fruityItalianName,
-		language.Japanese:             fruityJapaneseName,
-		language.Korean:               fruityKoreanName,
-		language.LatinAmericanSpanish: fruityLatinAmericanSpanishName,
-		language.Russian:              fruityRussianName,
-		language.SimplifiedChinese:    fruitySimplifiedChineseName,
-		language.Spanish:              fruitySpanishName,
-		language.TraditionalChinese:   fruityTraditionalChineseName}
+		language.AmericanEnglish:      fruityAmericanEnglishPhrase,
+		language.CanadianFrench:       fruityCanadianFrenchPhrase,
+		language.Dutch:                fruityDutchPhrase,
+		language.French:               fruityFrenchPhrase,
+		language.German:               fruityGermanPhrase,
+		language.Italian:              fruityItalianPhrase,
+		language.Japanese:             fruityJapanesePhrase,
+		language.Korean:               fruityKoreanPhrase,
+		language.LatinAmericanSpanish: fruityLatinAmericanSpanishPhrase,
+		language.Russian:              fruityRussianPhrase,
+		language.SimplifiedChinese:    fruitySimplifiedChinesePhrase,
+		language.Spanish:              fruitySpanishPhrase,
+		language.TraditionalChinese:   fruityTraditionalChinesePhrase}
 )
 
 var (

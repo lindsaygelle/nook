@@ -159,19 +159,19 @@ var (
 
 var (
 	berthaPhrase = nook.Languages{
-		language.AmericanEnglish:      berthaAmericanEnglishName,
-		language.CanadianFrench:       berthaCanadianFrenchName,
-		language.Dutch:                berthaDutchName,
-		language.French:               berthaFrenchName,
-		language.German:               berthaGermanName,
-		language.Italian:              berthaItalianName,
-		language.Japanese:             berthaJapaneseName,
-		language.Korean:               berthaKoreanName,
-		language.LatinAmericanSpanish: berthaLatinAmericanSpanishName,
-		language.Russian:              berthaRussianName,
-		language.SimplifiedChinese:    berthaSimplifiedChineseName,
-		language.Spanish:              berthaSpanishName,
-		language.TraditionalChinese:   berthaTraditionalChineseName}
+		language.AmericanEnglish:      berthaAmericanEnglishPhrase,
+		language.CanadianFrench:       berthaCanadianFrenchPhrase,
+		language.Dutch:                berthaDutchPhrase,
+		language.French:               berthaFrenchPhrase,
+		language.German:               berthaGermanPhrase,
+		language.Italian:              berthaItalianPhrase,
+		language.Japanese:             berthaJapanesePhrase,
+		language.Korean:               berthaKoreanPhrase,
+		language.LatinAmericanSpanish: berthaLatinAmericanSpanishPhrase,
+		language.Russian:              berthaRussianPhrase,
+		language.SimplifiedChinese:    berthaSimplifiedChinesePhrase,
+		language.Spanish:              berthaSpanishPhrase,
+		language.TraditionalChinese:   berthaTraditionalChinesePhrase}
 )
 
 var (

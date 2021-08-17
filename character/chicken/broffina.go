@@ -159,19 +159,19 @@ var (
 
 var (
 	broffinaPhrase = nook.Languages{
-		language.AmericanEnglish:      broffinaAmericanEnglishName,
-		language.CanadianFrench:       broffinaCanadianFrenchName,
-		language.Dutch:                broffinaDutchName,
-		language.French:               broffinaFrenchName,
-		language.German:               broffinaGermanName,
-		language.Italian:              broffinaItalianName,
-		language.Japanese:             broffinaJapaneseName,
-		language.Korean:               broffinaKoreanName,
-		language.LatinAmericanSpanish: broffinaLatinAmericanSpanishName,
-		language.Russian:              broffinaRussianName,
-		language.SimplifiedChinese:    broffinaSimplifiedChineseName,
-		language.Spanish:              broffinaSpanishName,
-		language.TraditionalChinese:   broffinaTraditionalChineseName}
+		language.AmericanEnglish:      broffinaAmericanEnglishPhrase,
+		language.CanadianFrench:       broffinaCanadianFrenchPhrase,
+		language.Dutch:                broffinaDutchPhrase,
+		language.French:               broffinaFrenchPhrase,
+		language.German:               broffinaGermanPhrase,
+		language.Italian:              broffinaItalianPhrase,
+		language.Japanese:             broffinaJapanesePhrase,
+		language.Korean:               broffinaKoreanPhrase,
+		language.LatinAmericanSpanish: broffinaLatinAmericanSpanishPhrase,
+		language.Russian:              broffinaRussianPhrase,
+		language.SimplifiedChinese:    broffinaSimplifiedChinesePhrase,
+		language.Spanish:              broffinaSpanishPhrase,
+		language.TraditionalChinese:   broffinaTraditionalChinesePhrase}
 )
 
 var (

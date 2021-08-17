@@ -159,19 +159,19 @@ var (
 
 var (
 	gastonPhrase = nook.Languages{
-		language.AmericanEnglish:      gastonAmericanEnglishName,
-		language.CanadianFrench:       gastonCanadianFrenchName,
-		language.Dutch:                gastonDutchName,
-		language.French:               gastonFrenchName,
-		language.German:               gastonGermanName,
-		language.Italian:              gastonItalianName,
-		language.Japanese:             gastonJapaneseName,
-		language.Korean:               gastonKoreanName,
-		language.LatinAmericanSpanish: gastonLatinAmericanSpanishName,
-		language.Russian:              gastonRussianName,
-		language.SimplifiedChinese:    gastonSimplifiedChineseName,
-		language.Spanish:              gastonSpanishName,
-		language.TraditionalChinese:   gastonTraditionalChineseName}
+		language.AmericanEnglish:      gastonAmericanEnglishPhrase,
+		language.CanadianFrench:       gastonCanadianFrenchPhrase,
+		language.Dutch:                gastonDutchPhrase,
+		language.French:               gastonFrenchPhrase,
+		language.German:               gastonGermanPhrase,
+		language.Italian:              gastonItalianPhrase,
+		language.Japanese:             gastonJapanesePhrase,
+		language.Korean:               gastonKoreanPhrase,
+		language.LatinAmericanSpanish: gastonLatinAmericanSpanishPhrase,
+		language.Russian:              gastonRussianPhrase,
+		language.SimplifiedChinese:    gastonSimplifiedChinesePhrase,
+		language.Spanish:              gastonSpanishPhrase,
+		language.TraditionalChinese:   gastonTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	fuchsiaPhrase = nook.Languages{
-		language.AmericanEnglish:      fuchsiaAmericanEnglishName,
-		language.CanadianFrench:       fuchsiaCanadianFrenchName,
-		language.Dutch:                fuchsiaDutchName,
-		language.French:               fuchsiaFrenchName,
-		language.German:               fuchsiaGermanName,
-		language.Italian:              fuchsiaItalianName,
-		language.Japanese:             fuchsiaJapaneseName,
-		language.Korean:               fuchsiaKoreanName,
-		language.LatinAmericanSpanish: fuchsiaLatinAmericanSpanishName,
-		language.Russian:              fuchsiaRussianName,
-		language.SimplifiedChinese:    fuchsiaSimplifiedChineseName,
-		language.Spanish:              fuchsiaSpanishName,
-		language.TraditionalChinese:   fuchsiaTraditionalChineseName}
+		language.AmericanEnglish:      fuchsiaAmericanEnglishPhrase,
+		language.CanadianFrench:       fuchsiaCanadianFrenchPhrase,
+		language.Dutch:                fuchsiaDutchPhrase,
+		language.French:               fuchsiaFrenchPhrase,
+		language.German:               fuchsiaGermanPhrase,
+		language.Italian:              fuchsiaItalianPhrase,
+		language.Japanese:             fuchsiaJapanesePhrase,
+		language.Korean:               fuchsiaKoreanPhrase,
+		language.LatinAmericanSpanish: fuchsiaLatinAmericanSpanishPhrase,
+		language.Russian:              fuchsiaRussianPhrase,
+		language.SimplifiedChinese:    fuchsiaSimplifiedChinesePhrase,
+		language.Spanish:              fuchsiaSpanishPhrase,
+		language.TraditionalChinese:   fuchsiaTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	tipperPhrase = nook.Languages{
-		language.AmericanEnglish:      tipperAmericanEnglishName,
-		language.CanadianFrench:       tipperCanadianFrenchName,
-		language.Dutch:                tipperDutchName,
-		language.French:               tipperFrenchName,
-		language.German:               tipperGermanName,
-		language.Italian:              tipperItalianName,
-		language.Japanese:             tipperJapaneseName,
-		language.Korean:               tipperKoreanName,
-		language.LatinAmericanSpanish: tipperLatinAmericanSpanishName,
-		language.Russian:              tipperRussianName,
-		language.SimplifiedChinese:    tipperSimplifiedChineseName,
-		language.Spanish:              tipperSpanishName,
-		language.TraditionalChinese:   tipperTraditionalChineseName}
+		language.AmericanEnglish:      tipperAmericanEnglishPhrase,
+		language.CanadianFrench:       tipperCanadianFrenchPhrase,
+		language.Dutch:                tipperDutchPhrase,
+		language.French:               tipperFrenchPhrase,
+		language.German:               tipperGermanPhrase,
+		language.Italian:              tipperItalianPhrase,
+		language.Japanese:             tipperJapanesePhrase,
+		language.Korean:               tipperKoreanPhrase,
+		language.LatinAmericanSpanish: tipperLatinAmericanSpanishPhrase,
+		language.Russian:              tipperRussianPhrase,
+		language.SimplifiedChinese:    tipperSimplifiedChinesePhrase,
+		language.Spanish:              tipperSpanishPhrase,
+		language.TraditionalChinese:   tipperTraditionalChinesePhrase}
 )
 
 var (

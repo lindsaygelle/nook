@@ -159,19 +159,19 @@ var (
 
 var (
 	petuniaPhrase = nook.Languages{
-		language.AmericanEnglish:      petuniaAmericanEnglishName,
-		language.CanadianFrench:       petuniaCanadianFrenchName,
-		language.Dutch:                petuniaDutchName,
-		language.French:               petuniaFrenchName,
-		language.German:               petuniaGermanName,
-		language.Italian:              petuniaItalianName,
-		language.Japanese:             petuniaJapaneseName,
-		language.Korean:               petuniaKoreanName,
-		language.LatinAmericanSpanish: petuniaLatinAmericanSpanishName,
-		language.Russian:              petuniaRussianName,
-		language.SimplifiedChinese:    petuniaSimplifiedChineseName,
-		language.Spanish:              petuniaSpanishName,
-		language.TraditionalChinese:   petuniaTraditionalChineseName}
+		language.AmericanEnglish:      petuniaAmericanEnglishPhrase,
+		language.CanadianFrench:       petuniaCanadianFrenchPhrase,
+		language.Dutch:                petuniaDutchPhrase,
+		language.French:               petuniaFrenchPhrase,
+		language.German:               petuniaGermanPhrase,
+		language.Italian:              petuniaItalianPhrase,
+		language.Japanese:             petuniaJapanesePhrase,
+		language.Korean:               petuniaKoreanPhrase,
+		language.LatinAmericanSpanish: petuniaLatinAmericanSpanishPhrase,
+		language.Russian:              petuniaRussianPhrase,
+		language.SimplifiedChinese:    petuniaSimplifiedChinesePhrase,
+		language.Spanish:              petuniaSpanishPhrase,
+		language.TraditionalChinese:   petuniaTraditionalChinesePhrase}
 )
 
 var (

@@ -159,19 +159,19 @@ var (
 
 var (
 	canberraPhrase = nook.Languages{
-		language.AmericanEnglish:      canberraAmericanEnglishName,
-		language.CanadianFrench:       canberraCanadianFrenchName,
-		language.Dutch:                canberraDutchName,
-		language.French:               canberraFrenchName,
-		language.German:               canberraGermanName,
-		language.Italian:              canberraItalianName,
-		language.Japanese:             canberraJapaneseName,
-		language.Korean:               canberraKoreanName,
-		language.LatinAmericanSpanish: canberraLatinAmericanSpanishName,
-		language.Russian:              canberraRussianName,
-		language.SimplifiedChinese:    canberraSimplifiedChineseName,
-		language.Spanish:              canberraSpanishName,
-		language.TraditionalChinese:   canberraTraditionalChineseName}
+		language.AmericanEnglish:      canberraAmericanEnglishPhrase,
+		language.CanadianFrench:       canberraCanadianFrenchPhrase,
+		language.Dutch:                canberraDutchPhrase,
+		language.French:               canberraFrenchPhrase,
+		language.German:               canberraGermanPhrase,
+		language.Italian:              canberraItalianPhrase,
+		language.Japanese:             canberraJapanesePhrase,
+		language.Korean:               canberraKoreanPhrase,
+		language.LatinAmericanSpanish: canberraLatinAmericanSpanishPhrase,
+		language.Russian:              canberraRussianPhrase,
+		language.SimplifiedChinese:    canberraSimplifiedChinesePhrase,
+		language.Spanish:              canberraSpanishPhrase,
+		language.TraditionalChinese:   canberraTraditionalChinesePhrase}
 )
 
 var (
