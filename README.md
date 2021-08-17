@@ -55,10 +55,35 @@ Nook at the package level only exports the concrete types consumed by this packa
 searching through various subpackages to find all types that make up the package. Through this, ideally, the pattern will keep the imports relatively straightforward and simple. It should also allow each child package to focus on using only the known set of building blocks to create its exports, and limit
 the exposure to coding towards circular dependencies. Most of the decisions were shaped by the content of the Animal Crossing series, versus developer preference. For example, the initial concept was to have all characters live at the root package, but name conflicts, data types, and maintance became an issue. Having each character exist in its own directory was also attempted, but imports became confusing. All recommendations welcome, but for now this appears to be the best trade off.
 
-## Extending
-Nook was built with extensibility in mind. The simplest way to add to the functionality of the package is to import the concrete type and apply the required changes.
+## Usage
+The nook package can be used as the starting point for your own Animal Crossing program. By default all current Animal Crossing characters are provided. These can be imported by referencing the type of animal and the characters name.
 
-### Character
+```go
+package main
+
+import (
+	"encoding/json"
+    "fmt"
+
+    "github.com/lindsaygelle/nook"
+    "github.com/lindsaygelle/nook/character/cat"
+)
+
+func main() {
+    for _, cat := range []nook.Villager{cat.Rover, cat.Tabby} {
+        b, err := json.Marshal(cat)
+        if err != nil {
+            panic(err)
+        }
+        fmt.Println(string(b))
+    }
+}
+```
+
+## Extending
+Nook was built with extensibility in mind. The simplest way to add to the functionality of the package is to import the concrete type and apply the required changes or functionality.
+
+### Villager
 Below is an example of adding functionality to the `nook.Villager` type.
 
 ```go
@@ -105,5 +130,66 @@ func main() {
     for _, villager := range villagers {
         fmt.Println(villager.Greet())
     }
+}
+```
+
+Another example is adding an outfit to one of your favourite Animal Crossing villagers. 
+
+```go 
+package main
+
+import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+
+	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/character/duck"
+	"golang.org/x/text/language"
+)
+
+type Outfit struct {
+	Name nook.Languages
+}
+
+type Villager struct {
+	nook.Villager
+	Outfit Outfit
+}
+
+var (
+	outfitFrogTeeAmericanEnglish = nook.Name{
+		Language: language.AmericanEnglish, Value: "Frog Tee"}
+)
+
+var (
+	outfitFrogTeeName = nook.Languages{
+		language.AmericanEnglish: outfitFrogTeeAmericanEnglish}
+)
+
+var (
+	outfitFrogTee = Outfit{
+		Name: outfitFrogTeeName}
+)
+
+var (
+	Scoot = newVillager(duck.Scoot, outfitFrogTee)
+)
+
+func newVillager(villager nook.Villager, outfit Outfit) Villager {
+	return Villager{
+		Villager: villager,
+		Outfit:   outfit}
+}
+
+func main() {
+	buffer := new(bytes.Buffer)
+	encoder := json.NewEncoder(buffer)
+	encoder.SetIndent("", "\t")
+	err := encoder.Encode(Scoot)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(buffer.String())
 }
 ```
