@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+  nook:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: nook
+    image: nook:latest
