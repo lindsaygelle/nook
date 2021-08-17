@@ -62,7 +62,7 @@ The nook package can be used as the starting point for your own Animal Crossing 
 package main
 
 import (
-	"encoding/json"
+    "encoding/json"
     "fmt"
 
     "github.com/lindsaygelle/nook"
