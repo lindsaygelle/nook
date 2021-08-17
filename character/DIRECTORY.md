@@ -1,6 +1,7 @@
 # Directory
+Below are the contents of the character package. The table details the total number of Animal Crossing characters by animal type.
 ## Character
-|Animal|Number|
+|Animal|Count|
 |---|---|
 |[Alligator](./alligator)|9|
 |[Alpaca](./alpaca)|2|

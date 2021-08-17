@@ -21,7 +21,6 @@ The information for this package has largely been sourced from various Wiki page
 All contributions and corrections are welcome and encouraged.
 
 ## Go
-
 This package can be added as a dependency using Go's package manager.
 
 ### Install
@@ -32,7 +31,6 @@ go get -u github.com/lindsaygelle/nook
 ```
 
 ## Docker
-
 This code can be run and executed from within a Docker Container. 
 Below are the instructions to use the provided Dockerfile as the development and testing environment.
 
@@ -51,3 +49,8 @@ Developing and running Go from within the Container.
 
 docker run -it --rm --name nook nook
 ```
+
+## Contents
+Nook at the package level only exports the concrete types consumed by this package. The philosophy was to keep each package extensible, without the concern of
+searching through various subpackages to find all types that make up the package. Through this, ideally, the pattern will keep the imports relatively straightforward and simple. It should also allow each child package to focus on using only the known set of building blocks to create its exports, and limit
+the exposure to coding towards circular dependencies. Most of the decisions were shaped by the content of the Animal Crossing series, versus developer preference. For example, the initial concept was to have all characters live at the root package, but name conflicts, data types, and maintance became an issue. Having each character exist in its own directory was also attempted, but imports became confusing. All recommendations welcome, but for now this appears to be the best trade off.
