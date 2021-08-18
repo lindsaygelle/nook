@@ -50,6 +50,8 @@ Developing and running Go from within the Container.
 docker run -it --rm --name nook nook
 ```
 
+A `docker-compose.yml` file has also been added for convience.
+
 ## Contents
 Nook at the package level only exports the concrete types consumed by this package. The philosophy was to keep each package extensible, without the concern of
 searching through various subpackages to find all types that make up the package. Through this, ideally, the pattern will keep the imports relatively straightforward and simple. It should also allow each child package to focus on using only the known set of building blocks to create its exports, and limit
@@ -107,7 +109,6 @@ func main() {
 ## Extending
 Nook was built with extensibility in mind. The simplest way to add to the functionality of the package is to import the concrete type and apply the required changes or functionality.
 
-### Villager
 Below is an example of adding functionality to the `nook.Villager` type.
 
 ```go
