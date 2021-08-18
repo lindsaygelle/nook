@@ -7,8 +7,8 @@ import (
 
 var (
 	Villagers = nook.Villagers{
-		character.Biff:    Biff,
 		character.Bitty:   Bitty,
+		character.Biff:    Biff,
 		character.Bertha:  Bertha,
 		character.Bubbles: Bubbles,
 		character.Clara:   Clara,

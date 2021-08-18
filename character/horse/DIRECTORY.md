@@ -1,16 +1,16 @@
 # Directory
 Below is a summary of the characters exported by the horse package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Annalise](./character/horse/annalise.go)|Female|No|
 |[Buck](./character/horse/buck.go)|Male|No|
-|[Colton](./character/horse/colton.go)|Male|No|
-|[Clyde](./character/horse/clyde.go)|Male|No|
 |[Cleo](./character/horse/cleo.go)|Female|No|
-|[Epona](./character/horse/epona.go)|Female|No|
+|[Clyde](./character/horse/clyde.go)|Male|No|
+|[Colton](./character/horse/colton.go)|Male|No|
 |[Ed](./character/horse/ed.go)|Male|No|
 |[Elmer](./character/horse/elmer.go)|Male|No|
+|[Epona](./character/horse/epona.go)|Female|No|
 |[Filly](./character/horse/filly.go)|Female|No|
 |[Julian](./character/horse/julian.go)|Male|No|
 |[Papi](./character/horse/papi.go)|Male|No|

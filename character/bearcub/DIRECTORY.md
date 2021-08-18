@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the bearcub package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Barold](./character/bearcub/barold.go)|Male|No|
@@ -12,8 +12,8 @@ Below is a summary of the characters exported by the bearcub package.
 |[Judy](./character/bearcub/judy.go)|Female|No|
 |[Kody](./character/bearcub/kody.go)|Male|No|
 |[June](./character/bearcub/june.go)|Female|No|
-|[Maple](./character/bearcub/maple.go)|Female|No|
 |[Marty](./character/bearcub/marty.go)|Male|No|
+|[Maple](./character/bearcub/maple.go)|Female|No|
 |[Murphy](./character/bearcub/murphy.go)|Male|No|
 |[Olive](./character/bearcub/olive.go)|Female|No|
 |[Pekoe](./character/bearcub/pekoe.go)|Female|No|

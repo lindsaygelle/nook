@@ -8,6 +8,6 @@ import (
 var (
 	Residents = nook.Residents{
 		character.Label: Label,
-		character.Sable: Sable,
-		character.Mabel: Mabel}
+		character.Mabel: Mabel,
+		character.Sable: Sable}
 )

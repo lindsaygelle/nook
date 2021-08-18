@@ -11,10 +11,10 @@ var (
 		character.Canberra: Canberra,
 		character.Eugene:   Eugene,
 		character.Faith:    Faith,
+		character.Gonzo:    Gonzo,
 		character.Huggy:    Huggy,
 		character.Lyman:    Lyman,
 		character.Melba:    Melba,
-		character.Gonzo:    Gonzo,
 		character.Ozzie:    Ozzie,
 		character.Sydney:   Sydney,
 		character.Yuka:     Yuka}

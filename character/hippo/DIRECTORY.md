@@ -1,10 +1,10 @@
 # Directory
 Below is a summary of the characters exported by the hippo package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
-|[Biff](./character/hippo/biff.go)|Male|No|
 |[Bitty](./character/hippo/bitty.go)|Female|No|
+|[Biff](./character/hippo/biff.go)|Male|No|
 |[Bertha](./character/hippo/bertha.go)|Female|No|
 |[Bubbles](./character/hippo/bubbles.go)|Female|No|
 |[Clara](./character/hippo/clara.go)|Female|No|

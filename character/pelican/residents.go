@@ -7,7 +7,7 @@ import (
 
 var (
 	Residents = nook.Residents{
-		character.Pete:    Pete,
 		character.Pelly:   Pelly,
+		character.Pete:    Pete,
 		character.Phyllis: Phyllis}
 )

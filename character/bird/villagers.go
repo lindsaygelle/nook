@@ -8,17 +8,17 @@ import (
 var (
 	Villagers = nook.Villagers{
 		character.Ace:       Ace,
-		character.Anchovy:   Anchovy,
 		character.Admiral:   Admiral,
+		character.Anchovy:   Anchovy,
 		character.Flash:     Flash,
-		character.Jacques:   Jacques,
 		character.Jacob:     Jacob,
-		character.Joe:       Joe,
+		character.Jacques:   Jacques,
 		character.Jay:       Jay,
 		character.Jitters:   Jitters,
+		character.Joe:       Joe,
 		character.Lucha:     Lucha,
-		character.Medli:     Medli,
 		character.MadamRosa: MadamRosa,
+		character.Medli:     Medli,
 		character.Midge:     Midge,
 		character.Otis:      Otis,
 		character.Peck:      Peck,
@@ -26,6 +26,6 @@ var (
 		character.Robin:     Robin,
 		character.Shoukichi: Shoukichi,
 		character.Sparro:    Sparro,
-		character.Twirp:     Twirp,
-		character.Twiggy:    Twiggy}
+		character.Twiggy:    Twiggy,
+		character.Twirp:     Twirp}
 )

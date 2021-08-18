@@ -1,11 +1,11 @@
 # Directory
 Below is a summary of the characters exported by the chicken package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Becky](./character/chicken/becky.go)|Female|No|
-|[Ava](./character/chicken/ava.go)|Female|No|
 |[Benedict](./character/chicken/benedict.go)|Male|No|
+|[Ava](./character/chicken/ava.go)|Female|No|
 |[Betty](./character/chicken/betty.go)|Female|No|
 |[Broffina](./character/chicken/broffina.go)|Female|No|
 |[Egbert](./character/chicken/egbert.go)|Male|No|

@@ -1,10 +1,10 @@
 # Directory
 Below is a summary of the characters exported by the deer package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
-|[Bam](./character/deer/bam.go)|Male|No|
 |[Beau](./character/deer/beau.go)|Male|No|
+|[Bam](./character/deer/bam.go)|Male|No|
 |[Bruce](./character/deer/bruce.go)|Male|No|
 |[Chelsea](./character/deer/chelsea.go)|Female|No|
 |[Deirdre](./character/deer/deirdre.go)|Female|No|

@@ -7,6 +7,6 @@ import (
 
 var (
 	Residents = nook.Residents{
-		character.Joan:     Joan,
-		character.DaisyMae: DaisyMae}
+		character.DaisyMae: DaisyMae,
+		character.Joan:     Joan}
 )

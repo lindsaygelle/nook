@@ -8,8 +8,8 @@ import (
 var (
 	Villagers = nook.Villagers{
 		character.Becky:    Becky,
-		character.Ava:      Ava,
 		character.Benedict: Benedict,
+		character.Ava:      Ava,
 		character.Betty:    Betty,
 		character.Broffina: Broffina,
 		character.Egbert:   Egbert,

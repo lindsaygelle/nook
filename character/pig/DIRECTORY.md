@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the pig package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Agnes](./character/pig/agnes.go)|Female|No|
@@ -12,13 +12,13 @@ Below is a summary of the characters exported by the pig package.
 |[Gala](./character/pig/gala.go)|Female|No|
 |[Hambo](./character/pig/hambo.go)|Male|No|
 |[Hugh](./character/pig/hugh.go)|Male|No|
+|[Kevin](./character/pig/kevin.go)|Male|No|
 |[Lucy](./character/pig/lucy.go)|Female|No|
 |[Maggie](./character/pig/maggie.go)|Female|No|
 |[Pancetti](./character/pig/pancetti.go)|Female|No|
 |[Peggy](./character/pig/peggy.go)|Female|No|
 |[Pigleg](./character/pig/pigleg.go)|Male|No|
-|[Kevin](./character/pig/kevin.go)|Male|No|
 |[Rasher](./character/pig/rasher.go)|Male|No|
-|[Spork](./character/pig/spork.go)|Male|No|
-|[SueE](./character/pig/suee.go)|Female|No|
+|[Spork Crackle](./character/pig/spork.go)|Male|No|
 |[Truffles](./character/pig/truffles.go)|Female|No|
+|[Sue E](./character/pig/suee.go)|Female|No|

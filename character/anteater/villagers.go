@@ -7,9 +7,9 @@ import (
 
 var (
 	Villagers = nook.Villagers{
-		character.Annalisa: Annalisa,
 		character.Antonio:  Antonio,
 		character.Anabelle: Anabelle,
+		character.Annalisa: Annalisa,
 		character.Cyrano:   Cyrano,
 		character.Lulu:     Lulu,
 		character.Nosegay:  Nosegay,

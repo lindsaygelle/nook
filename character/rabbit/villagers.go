@@ -10,14 +10,14 @@ var (
 		character.Bonbon:   Bonbon,
 		character.Bunnie:   Bunnie,
 		character.Carmen:   Carmen,
-		character.Cole:     Cole,
 		character.Chrissy:  Chrissy,
 		character.Claude:   Claude,
 		character.Coco:     Coco,
+		character.Cole:     Cole,
 		character.Doc:      Doc,
 		character.Dotty:    Dotty,
-		character.Gabi:     Gabi,
 		character.Francine: Francine,
+		character.Gabi:     Gabi,
 		character.Gaston:   Gaston,
 		character.Genji:    Genji,
 		character.Hopkins:  Hopkins,
@@ -25,7 +25,7 @@ var (
 		character.OHare:    OHare,
 		character.Pippy:    Pippy,
 		character.Ruby:     Ruby,
-		character.Toby:     Toby,
+		character.Snake:    Snake,
 		character.Tiffany:  Tiffany,
-		character.Snake:    Snake}
+		character.Toby:     Toby}
 )

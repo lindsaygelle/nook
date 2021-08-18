@@ -1,4 +1,4 @@
-package owl
+package monkey
 
 import (
 	"github.com/lindsaygelle/nook"
@@ -7,6 +7,5 @@ import (
 
 var (
 	Residents = nook.Residents{
-		character.Blathers: Blathers,
-		character.Celeste:  Celeste}
+		character.Porter: Porter}
 )

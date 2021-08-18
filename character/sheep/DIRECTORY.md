@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the sheep package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Baabara](./character/sheep/baabara.go)|Female|No|
@@ -18,4 +18,4 @@ Below is a summary of the characters exported by the sheep package.
 |[Wendy](./character/sheep/wendy.go)|Female|No|
 |[Woolio](./character/sheep/woolio.go)|Male|No|
 |[Willow](./character/sheep/willow.go)|Female|No|
-|[Etoile](./character/sheep/etoile.go)|Female|No|
+|[Étoile](./character/sheep/etoile.go)|Female|No|

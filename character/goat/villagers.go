@@ -9,9 +9,9 @@ var (
 	Villagers = nook.Villagers{
 		character.Billy:    Billy,
 		character.Chevre:   Chevre,
-		character.Gruff:    Gruff,
 		character.Iggy:     Iggy,
 		character.Kidd:     Kidd,
+		character.Gruff:    Gruff,
 		character.Nan:      Nan,
 		character.Pashmina: Pashmina,
 		character.Sherb:    Sherb,

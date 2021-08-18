@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the cow package.
-## Characters
+# Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Belle](./character/cow/belle.go)|Female|No|

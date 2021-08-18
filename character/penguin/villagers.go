@@ -7,15 +7,15 @@ import (
 
 var (
 	Villagers = nook.Villagers{
-		character.Analog:   Analog,
 		character.Aurora:   Aurora,
+		character.Analog:   Analog,
 		character.Boomer:   Boomer,
 		character.Cube:     Cube,
 		character.Flo:      Flo,
 		character.Friga:    Friga,
 		character.Gwen:     Gwen,
-		character.Iggly:    Iggly,
 		character.Hopper:   Hopper,
+		character.Iggly:    Iggly,
 		character.Nobuo:    Nobuo,
 		character.Puck:     Puck,
 		character.Roald:    Roald,

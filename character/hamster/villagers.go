@@ -11,8 +11,8 @@ var (
 		character.Clay:     Clay,
 		character.Flurry:   Flurry,
 		character.Graham:   Graham,
-		character.Hamlet:   Hamlet,
 		character.Hamphrey: Hamphrey,
+		character.Hamlet:   Hamlet,
 		character.Holden:   Holden,
 		character.Rodney:   Rodney,
 		character.Soleil:   Soleil}
