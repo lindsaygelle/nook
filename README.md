@@ -59,12 +59,6 @@ the exposure to coding towards circular dependencies. Most of the decisions were
 The nook package can be used as the starting point for your own Animal Crossing program. By default all current Animal Crossing characters are provided. These can be imported by referencing the type of animal and the characters name.
 
 ```go
-
-```
-
-Characters are also exported in bulk. These can be accessed by using the animal type and the villagers or residents variable.
-
-```go
 package main
 
 import (
@@ -82,6 +76,29 @@ func main() {
 			panic(err)
 		}
 		fmt.Println(string(b))
+	}
+}
+
+```
+
+Characters are also exported in bulk. These can be accessed by using the animal type and the villagers or residents variable.
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/lindsaygelle/nook/character/dog"
+	"golang.org/x/text/language"
+)
+
+func main() {
+	for _, villager := range dog.Villagers {
+		fmt.Println(fmt.Sprintf("%s is a villager in Animal Crossing", villager.Name.Must(language.AmericanEnglish)))
+	}
+	for _, resident := range dog.Residents {
+		fmt.Println(fmt.Sprintf("%s is a resident in Animal Crossing", resident.Name.Must(language.AmericanEnglish)))
 	}
 }
 
