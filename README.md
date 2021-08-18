@@ -59,25 +59,32 @@ the exposure to coding towards circular dependencies. Most of the decisions were
 The nook package can be used as the starting point for your own Animal Crossing program. By default all current Animal Crossing characters are provided. These can be imported by referencing the type of animal and the characters name.
 
 ```go
+
+```
+
+Characters are also exported in bulk. These can be accessed by using the animal type and the villagers or residents variable.
+
+```go
 package main
 
 import (
-    "encoding/json"
-    "fmt"
+	"encoding/json"
+	"fmt"
 
-    "github.com/lindsaygelle/nook"
-    "github.com/lindsaygelle/nook/character/cat"
+	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/character/cat"
 )
 
 func main() {
-    for _, cat := range []nook.Villager{cat.Rover, cat.Tabby} {
-        b, err := json.Marshal(cat)
-        if err != nil {
-            panic(err)
-        }
-        fmt.Println(string(b))
-    }
+	for _, cat := range []nook.Villager{cat.Ankha, cat.Tabby} {
+		b, err := json.Marshal(cat)
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println(string(b))
+	}
 }
+
 ```
 
 ## Extending
@@ -90,47 +97,48 @@ Below is an example of adding functionality to the `nook.Villager` type.
 package main
 
 import (
-    "fmt"
+	"fmt"
 
-    "github.com/lindsaygelle/nook"
-    "github.com/lindsaygelle/nook/character/alligator"
-    "golang.org/x/text/language"
+	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/character/alligator"
+	"golang.org/x/text/language"
 )
 
 var (
-    alligators = []nook.Villager{
-        alligator.Alfonso,
-        alligator.Alli}
+	alligators = []nook.Villager{
+		alligator.Alfonso,
+		alligator.Alli}
 )
 
-type Villager struct{
-    nook.Villager
+type Villager struct {
+	nook.Villager
 }
 
 func (v Villager) Greet() string {
-    name := v.Name.Must(language.AmericanEnglish).Value
-    phrase := v.Phrase.Must(language.AmericanEnglish).Value
-    return fmt.Sprintf("%s! My name is %s. Nice to meet you.", phrase, name)
+	name := v.Name.Must(language.AmericanEnglish).Value
+	phrase := v.Phrase.Must(language.AmericanEnglish).Value
+	return fmt.Sprintf("%s! My name is %s. Nice to meet you.", phrase, name)
 }
 
 func makeVillager(villager nook.Villager) Villager {
-    return Villager{villager}
+	return Villager{villager}
 }
 
 func makeVillagers(villagers ...nook.Villager) []Villager {
-    v := make([]Villager, len(villagers))
-    for i, villager := range villagers {
-        v[i] = makeVillager(villager)
-    }
-    return villagers
+	v := make([]Villager, len(villagers))
+	for i, villager := range villagers {
+		v[i] = makeVillager(villager)
+	}
+	return v
 }
 
 func main() {
-    villagers := makeVillagers(alligators...) 
-    for _, villager := range villagers {
-        fmt.Println(villager.Greet())
-    }
+	villagers := makeVillagers(alligators...)
+	for _, villager := range villagers {
+		fmt.Println(villager.Greet())
+	}
 }
+
 ```
 
 Another example is adding an outfit to one of your favourite Animal Crossing villagers. 
@@ -192,4 +200,5 @@ func main() {
 	}
 	fmt.Println(buffer.String())
 }
+
 ```
