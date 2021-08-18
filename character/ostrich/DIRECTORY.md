@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the ostrich package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Blanche](./character/ostrich/blanche.go)|Female|No|

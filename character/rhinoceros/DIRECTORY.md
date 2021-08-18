@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the rhinoceros package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Hornsby](./character/rhinoceros/hornsby.go)|Male|No|

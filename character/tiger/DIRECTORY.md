@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the tiger package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Bianca](./character/tiger/bianca.go)|Female|No|

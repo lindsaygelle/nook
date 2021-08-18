@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the rabbit package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Bonbon](./character/rabbit/bonbon.go)|Female|No|

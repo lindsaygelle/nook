@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the hamster package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Apple](./character/hamster/apple.go)|Female|No|

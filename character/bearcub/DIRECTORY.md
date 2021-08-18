@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the bearcub package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Barold](./character/bearcub/barold.go)|Male|No|

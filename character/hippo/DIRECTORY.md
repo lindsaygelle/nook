@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the hippo package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Biff](./character/hippo/biff.go)|Male|No|

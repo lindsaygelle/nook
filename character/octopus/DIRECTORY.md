@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the octopus package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Inkwell](./character/octopus/inkwell.go)|Male|No|

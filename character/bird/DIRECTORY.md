@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the bird package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Ace](./character/bird/ace.go)|Male|No|

@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the chameleon package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Flick](./character/chameleon/flick.go)|Male|Yes|

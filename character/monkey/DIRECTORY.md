@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the monkey package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Champ](./character/monkey/champ.go)|Male|No|

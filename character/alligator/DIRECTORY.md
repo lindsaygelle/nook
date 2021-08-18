@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the alligator package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Alfonso](./character/alligator/alfonso.go)|Male|No|

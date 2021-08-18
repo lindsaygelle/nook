@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the hedgehog package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Label](./character/hedgehog/label.go)|Female|Yes|

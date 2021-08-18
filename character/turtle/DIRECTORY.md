@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the turtle package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Leilani](./character/turtle/leilani.go)|Female|Yes|

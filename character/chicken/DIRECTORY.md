@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the chicken package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Becky](./character/chicken/becky.go)|Female|No|

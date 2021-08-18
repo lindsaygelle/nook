@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the cat package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Ankha](./character/cat/ankha.go)|Female|No|

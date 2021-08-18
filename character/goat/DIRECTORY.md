@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the goat package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Billy](./character/goat/billy.go)|Male|No|

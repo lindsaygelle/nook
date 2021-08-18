@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the beaver package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[CJ](./character/beaver/cj.go)|Male|Yes|

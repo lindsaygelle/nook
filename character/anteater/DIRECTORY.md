@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the anteater package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Annalisa](./character/anteater/annalisa.go)|Female|No|

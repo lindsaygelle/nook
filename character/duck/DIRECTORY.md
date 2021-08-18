@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the duck package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Bill](./character/duck/bill.go)|Male|No|

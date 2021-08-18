@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the elephant package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Axel](./character/elephant/axel.go)|Male|No|

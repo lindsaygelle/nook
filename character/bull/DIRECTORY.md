@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the bull package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Angus](./character/bull/angus.go)|Male|No|

@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the lion package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Aziz](./character/lion/aziz.go)|Male|No|

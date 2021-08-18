@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the pelican package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Pete](./character/pelican/pete.go)|Male|Yes|

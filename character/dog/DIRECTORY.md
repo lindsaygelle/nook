@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the dog package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Benjamin](./character/dog/benjamin.go)|Male|No|

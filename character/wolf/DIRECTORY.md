@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the wolf package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Audie](./character/wolf/audie.go)|Female|No|

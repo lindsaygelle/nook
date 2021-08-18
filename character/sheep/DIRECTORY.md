@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the sheep package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Baabara](./character/sheep/baabara.go)|Female|No|

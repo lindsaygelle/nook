@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the seagull package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Gullivarrr](./character/seagull/gullivarrr.go)|Male|Yes|

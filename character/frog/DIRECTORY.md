@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the frog package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Camofrog](./character/frog/camofrog.go)|Male|No|

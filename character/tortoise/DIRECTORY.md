@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the tortoise package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Cornimer](./character/tortoise/cornimer.go)|Male|Yes|

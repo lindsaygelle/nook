@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the deer package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Bam](./character/deer/bam.go)|Male|No|

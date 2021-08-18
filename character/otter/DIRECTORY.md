@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the otter package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Lyle](./character/otter/lyle.go)|Male|Yes|

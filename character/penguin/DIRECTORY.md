@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the penguin package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Analog](./character/penguin/analog.go)|Male|No|

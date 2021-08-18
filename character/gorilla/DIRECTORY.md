@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the gorilla package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Al](./character/gorilla/al.go)|Male|No|

@@ -1,6 +1,6 @@
 # Directory
 Below is a summary of the characters exported by the kangaroo package.
-# Characters
+## Characters
 |Name|Gender|Special|
 |---|---|---|
 |[Astrid](./character/kangaroo/astrid.go)|Female|No|
