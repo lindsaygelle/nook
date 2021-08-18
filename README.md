@@ -97,11 +97,53 @@ import (
 
 func main() {
 	for _, villager := range dog.Villagers {
-		fmt.Println(fmt.Sprintf("%s is a villager in Animal Crossing", villager.Name.Must(language.AmericanEnglish)))
+		fmt.Println(fmt.Sprintf("%s is a villager in Animal Crossing", villager.Name.Must(language.AmericanEnglish).Value))
 	}
 	for _, resident := range dog.Residents {
-		fmt.Println(fmt.Sprintf("%s is a resident in Animal Crossing", resident.Name.Must(language.AmericanEnglish)))
+		fmt.Println(fmt.Sprintf("%s is a resident in Animal Crossing", resident.Name.Must(language.AmericanEnglish).Value))
 	}
+}
+
+```
+
+Another example creating a simple API.
+
+```go
+package main
+
+import (
+	"encoding/json"
+	"net/http"
+
+	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/character/cat"
+	"github.com/lindsaygelle/nook/character/dog"
+	"github.com/lindsaygelle/nook/character/wolf"
+)
+
+func rootHandler(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(http.StatusOK)
+	w.Write(nil)
+}
+
+func createVillagersHandler(villagers nook.Villagers) http.HandlerFunc {
+	b, err := json.Marshal(villagers)
+	if err != nil {
+		panic(err)
+	}
+	return func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json;charset=utf-8")
+		w.WriteHeader(http.StatusOK)
+		w.Write(b)
+	}
+}
+
+func main() {
+	http.HandleFunc("/", rootHandler)
+	http.HandleFunc("/cats", createVillagersHandler(cat.Villagers))
+	http.HandleFunc("/dogs", createVillagersHandler(dog.Villagers))
+	http.HandleFunc("/wolves", createVillagersHandler(wolf.Villagers))
+	http.ListenAndServe(":8080", nil)
 }
 
 ```
