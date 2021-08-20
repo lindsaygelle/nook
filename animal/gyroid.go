@@ -18,5 +18,6 @@ var (
 
 var (
 	Gyroid = nook.Animal{
+		Key:  nook.Key("Gyroid"),
 		Name: gyroidName}
 )

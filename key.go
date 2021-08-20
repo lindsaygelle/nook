@@ -1,4 +1,4 @@
 package nook
 
-// Key is the namespace for a Character.
+// Key is a language agnostic name for a value.
 type Key string

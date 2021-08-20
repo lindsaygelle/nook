@@ -18,5 +18,6 @@ var (
 
 var (
 	Octopus = nook.Animal{
+		Key:  nook.Key("Octopus"),
 		Name: octopusName}
 )

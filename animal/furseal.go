@@ -8,7 +8,7 @@ import (
 var (
 	fursealNameAmericanEnglish = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "Furseal"}
+		Value:    "Fur seal"}
 )
 
 var (
@@ -18,5 +18,6 @@ var (
 
 var (
 	Furseal = nook.Animal{
+		Key:  nook.Key("Furseal"),
 		Name: fursealName}
 )

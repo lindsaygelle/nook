@@ -18,5 +18,6 @@ var (
 
 var (
 	Wolf = nook.Animal{
+		Key:  nook.Key("Wolf"),
 		Name: wolfName}
 )
