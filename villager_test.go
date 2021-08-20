@@ -10,6 +10,7 @@ import (
 func testVillager(t *testing.T, v nook.Villager) {
 	testVillagerPersonality(t, v)
 	testVillagerPhrase(t, v)
+	testVillagerSpecial(t, v)
 }
 
 func testVillagerPersonality(t *testing.T, v nook.Villager) {
@@ -21,5 +22,11 @@ func testVillagerPersonality(t *testing.T, v nook.Villager) {
 func testVillagerPhrase(t *testing.T, v nook.Villager) {
 	if ok := len(v.Phrase) != 0; !ok {
 		t.Fatalf("len(%s.Phrase) == 0", v.Key)
+	}
+}
+
+func testVillagerSpecial(t *testing.T, v nook.Villager) {
+	if ok := v.Special == false; !ok {
+		t.Fatalf("%s.Special != false", v.Key)
 	}
 }

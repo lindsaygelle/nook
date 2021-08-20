@@ -100,7 +100,8 @@ var (
 		Code:     joeCode,
 		Key:      character.Joe,
 		Gender:   gender.Male,
-		Name:     joeName}
+		Name:     joeName,
+		Special:  false}
 )
 
 var (

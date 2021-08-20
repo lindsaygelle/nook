@@ -100,7 +100,8 @@ var (
 		Code:     bangleCode,
 		Key:      character.Bangle,
 		Gender:   gender.Female,
-		Name:     bangleName}
+		Name:     bangleName,
+		Special:  false}
 )
 
 var (

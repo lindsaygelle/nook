@@ -100,7 +100,8 @@ var (
 		Code:     inkwellCode,
 		Key:      character.Inkwell,
 		Gender:   gender.Male,
-		Name:     inkwellName}
+		Name:     inkwellName,
+		Special:  false}
 )
 
 var (

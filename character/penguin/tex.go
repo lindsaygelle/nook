@@ -100,7 +100,8 @@ var (
 		Code:     texCode,
 		Key:      character.Tex,
 		Gender:   gender.Male,
-		Name:     texName}
+		Name:     texName,
+		Special:  false}
 )
 
 var (

@@ -100,7 +100,8 @@ var (
 		Code:     cookieCode,
 		Key:      character.Cookie,
 		Gender:   gender.Female,
-		Name:     cookieName}
+		Name:     cookieName,
+		Special:  false}
 )
 
 var (

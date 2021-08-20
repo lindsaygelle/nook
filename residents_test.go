@@ -10,6 +10,7 @@ func TestResidents(t *testing.T) {
 	for animal, residents := range residents {
 		residents.Each(func(k nook.Key, r nook.Resident) {
 			testCharacter(t, animal, r.Character)
+			testResident(t, animal, r)
 		})
 	}
 }

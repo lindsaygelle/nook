@@ -100,7 +100,8 @@ var (
 		Code:     ribbotCode,
 		Key:      character.Ribbot,
 		Gender:   gender.Male,
-		Name:     ribbotName}
+		Name:     ribbotName,
+		Special:  false}
 )
 
 var (

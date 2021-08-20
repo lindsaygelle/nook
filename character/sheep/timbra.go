@@ -100,7 +100,8 @@ var (
 		Code:     timbraCode,
 		Key:      character.Timbra,
 		Gender:   gender.Female,
-		Name:     timbraName}
+		Name:     timbraName,
+		Special:  false}
 )
 
 var (

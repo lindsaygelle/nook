@@ -100,7 +100,8 @@ var (
 		Code:     ganonCode,
 		Key:      character.Ganon,
 		Gender:   gender.Male,
-		Name:     ganonName}
+		Name:     ganonName,
+		Special:  false}
 )
 
 var (

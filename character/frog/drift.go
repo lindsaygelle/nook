@@ -100,7 +100,8 @@ var (
 		Code:     driftCode,
 		Key:      character.Drift,
 		Gender:   gender.Male,
-		Name:     driftName}
+		Name:     driftName,
+		Special:  false}
 )
 
 var (

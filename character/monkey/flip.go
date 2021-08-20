@@ -100,7 +100,8 @@ var (
 		Code:     flipCode,
 		Key:      character.Flip,
 		Gender:   gender.Male,
-		Name:     flipName}
+		Name:     flipName,
+		Special:  false}
 )
 
 var (

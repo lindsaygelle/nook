@@ -7,6 +7,7 @@ import (
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/gender"
+
 	"golang.org/x/text/language"
 )
 
@@ -99,7 +100,8 @@ var (
 		Code:     tomnookCode,
 		Key:      character.TomNook,
 		Gender:   gender.Male,
-		Name:     tomnookName}
+		Name:     tomnookName,
+		Special:  true}
 )
 
 var (

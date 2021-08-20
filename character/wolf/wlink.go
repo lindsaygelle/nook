@@ -100,7 +100,8 @@ var (
 		Code:     wlinkCode,
 		Key:      character.WLink,
 		Gender:   gender.Male,
-		Name:     wlinkName}
+		Name:     wlinkName,
+		Special:  false}
 )
 
 var (

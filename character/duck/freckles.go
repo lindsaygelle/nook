@@ -100,7 +100,8 @@ var (
 		Code:     frecklesCode,
 		Key:      character.Freckles,
 		Gender:   gender.Female,
-		Name:     frecklesName}
+		Name:     frecklesName,
+		Special:  false}
 )
 
 var (

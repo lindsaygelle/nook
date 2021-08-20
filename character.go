@@ -9,4 +9,5 @@ type Character struct {
 	Key      Key
 	Gender   Gender
 	Name     Languages
+	Special  bool
 }

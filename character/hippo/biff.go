@@ -100,7 +100,8 @@ var (
 		Code:     biffCode,
 		Key:      character.Biff,
 		Gender:   gender.Male,
-		Name:     biffName}
+		Name:     biffName,
+		Special:  false}
 )
 
 var (

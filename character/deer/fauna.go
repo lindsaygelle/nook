@@ -100,7 +100,8 @@ var (
 		Code:     faunaCode,
 		Key:      character.Fauna,
 		Gender:   gender.Female,
-		Name:     faunaName}
+		Name:     faunaName,
+		Special:  false}
 )
 
 var (

@@ -100,7 +100,8 @@ var (
 		Code:     vicheCode,
 		Key:      character.Viche,
 		Gender:   gender.Female,
-		Name:     vicheName}
+		Name:     vicheName,
+		Special:  false}
 )
 
 var (

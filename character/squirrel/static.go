@@ -100,7 +100,8 @@ var (
 		Code:     staticCode,
 		Key:      character.Static,
 		Gender:   gender.Male,
-		Name:     staticName}
+		Name:     staticName,
+		Special:  false}
 )
 
 var (
