@@ -1,4 +1,6 @@
 # Nook
+[![Go Reference](https://pkg.go.dev/badge/github.com/lindsaygelle/nook.svg)](https://pkg.go.dev/github.com/lindsaygelle/nook)
+
 Nook exports basic information for characters that appear in the video game series Animal Crossing.
 
 Specifically this package centers on the organisation and classification of residents versus villagers, as well as
@@ -38,7 +40,6 @@ Below are the instructions to use the provided Dockerfile as the development and
 Building the Container.
 
 ```sh
-
 docker build . -t nook
 ```
 
@@ -46,7 +47,6 @@ docker build . -t nook
 Developing and running Go from within the Container.
 
 ```sh
-
 docker run -it --rm --name nook nook
 ```
 
