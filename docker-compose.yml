@@ -1,8 +1,8 @@
 version: "3"
 
-services: 
+services:
   nook:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
     container_name: nook

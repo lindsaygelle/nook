@@ -1,21 +1,8 @@
-// Nook exports basic information for characters that appear in the video game series Animal Crossing.
+// Package nook provides a comprehensive collection of character information from the video game series, Animal Crossing.
 //
-// Specifically this package centers on the organisation and classification of residents versus villagers, as well as
-// defining the common attributes between them.
+// This package focuses on organizing and classifying characters into two main categories: residents and villagers.
+// Residents are essential characters in the game world, playing unique roles and often serving as quest givers. They cannot be invited as homeowners to the player's town, city, or island. Examples of residents include Isabelle, Tom Nook, and Guliver.
+// Villagers, on the other hand, form the larger world population and can be invited to stay in the player's town, city, or island. They possess distinct personalities, homes, and can receive gifts. Alfonso, Tabby, and Eggbert are among the charming villagers you may encounter.
 //
-// Residents in the context of this package are Animal Crossing characters that cannot
-// be invited as home owners within the players town, city, or island. Residents perform a special role within the world
-// and often are quest givers. An example of a Resident would be Isabelle, Tom Nook or Guliver.
-//
-// Villagers are Animal Crossing characters that can be invited to stay in the players town, city or island,
-// and make up the larger world population. Characters such as Alfonso, Tabby and Eggbert are all examples of Villagers. Villagers
-// can be given gifts, have personalities and homes.
-//
-// This package separates and organises Animal Crossing characters by their animal type. This is a requirement due to the large number
-// of characters there are in the series, and that some characters overlap with other components in name.
-// An example of this is the name Petunia, who is both a Cow and a Rhinoceros. Another example is Snooty, which is the name of one of the wolves and a personality type.
-//
-// The information for this package has largely been sourced from various Wiki pages across the internet.
-//
-// All contributions and corrections are welcome and encouraged.
+// To manage the vast number of characters in the series and potential naming overlaps, this package thoughtfully categorizes characters based on their animal type. For example, the name Petunia is shared by both a Cow and a Rhinoceros character, while Snooty is the name of both a wolf character and a personality type.
 package nook
