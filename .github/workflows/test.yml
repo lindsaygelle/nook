@@ -1,0 +1,33 @@
+name: "test"
+
+on:
+  pull_request:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  main:
+    defaults:
+      run:
+        shell: "bash"
+    permissions:
+      contents: "read"
+    runs-on: "${{ matrix.os }}"
+    strategy:
+      fail-fast: false
+      matrix:
+        go:
+          - "1.18"
+          - "1.19"
+          - "1.20"
+        os:
+          - "macos-latest"
+          - "ubuntu-latest"
+          - "windows-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+      - uses: "actions/setup-go@v3"
+        with:
+          go-version: "${{ matrix.go }}"
+      - run: "go test"

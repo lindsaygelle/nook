@@ -1,65 +1,60 @@
 # Nook
+![Nook](https://repository-images.githubusercontent.com/396270808/54f16924-c7d4-403d-b946-d7501d7cbbe7)
+
 [![Go Reference](https://pkg.go.dev/badge/github.com/lindsaygelle/nook.svg)](https://pkg.go.dev/github.com/lindsaygelle/nook)
 
-Nook exports basic information for characters that appear in the video game series Animal Crossing.
+Nook exports basic information for characters that appear in the video game series [Animal Crossing](https://animal-crossing.com/).
 
-Specifically this package centers on the organisation and classification of residents versus villagers, as well as
-defining the common attributes between them.
+# Introduction
+This package centers on the organisation and classification of residents versus villagers, as well as defining the common attributes between them.
 
 Residents in the context of this package are Animal Crossing characters that cannot
-be invited as home owners within the players town, city, or island. Residents perform a special role within the world
-and often are quest givers. An example of a Resident would be Isabelle, Tom Nook or Guliver.
+be invited as home owners within the players town, city, or island. Residents perform a special role within the world and often are quest givers. An example of a Resident would be [Isabelle](./character/dog/isabelle.go), [Tom Nook](./character/raccoon/tomnook.go) or [Guliver](./character/seagull/gulliver.go).
 
-Villagers are Animal Crossing characters that can be invited to stay in the players town, city or island,
-and make up the larger world population. Characters such as Alfonso, Tabby and Eggbert are all examples of Villagers. Villagers
+Villagers are Animal Crossing characters that can be invited to stay in the players town, city or island, and make up the larger world population. Characters such as [Alfonso](./character/alligator/alfonso.go), [Tabby](./character/cat/tabby.go) and [Egbert](./character/chicken/egbert.go) are all examples of Villagers. Villagers
 can be given gifts, have personalities and homes.
 
-This package separates and organises Animal Crossing characters by their animal type. This is a requirement due to the large number
-of characters there are in the series, and that some characters overlap with other components in name. 
-An example of this is the name Petunia, who is both a Cow and a Rhinoceros. Another example is Snooty, which is the name of one of the wolves and a personality type.
+# Design
+# Overview
+This package separates and organises Animal Crossing characters by their animal type. This is a requirement due to the large number of characters there are in the series, and that some characters overlap with other components in name. An example of this is the name Petunia, who is both a [Cow](./character/cow/petunia.go) and a [Rhinoceros](./character/rhinoceros/petunia.go). Another example is Snooty, which is the name of one of the wolves and a [personality type](./personality/).
 
-The information for this package has largely been sourced from various Wiki pages across the internet.
+## Organisation
+Nook at the package level only exports the concrete types consumed by this package. The philosophy was to keep each package extensible, without the concern of searching through various subpackages to find all types that make up the package. Through this, ideally, the pattern will keep the imports relatively straightforward and simple. It should also allow each child package to focus on using only the known set of building blocks to create its exports, and limit the exposure to coding towards circular dependencies. Most of the decisions were shaped by the content of the Animal Crossing series, versus developer preference. For example, the initial concept was to have all characters live at the root package, but name conflicts, data types, and maintenance became an issue. Having each character exist in its own directory was also attempted, but imports became confusing. All recommendations welcome, but for now this appears to be the best trade off.
 
-All contributions and corrections are welcome and encouraged.
+# Disclaimer
+The information for this package has largely been sourced from various Wiki pages across the internet. All contributions and corrections are welcome and encouraged. If there are any corrections, please feel free to raise them in a pull request.
 
-## Go
-This package can be added as a dependency using Go's package manager.
-
-### Install
-Adding the package.
+# Installation
+Add Nook as a dependency to your Go project using the following command:
 
 ```sh
 go get -u github.com/lindsaygelle/nook
 ```
 
-## Docker
-This code can be run and executed from within a Docker Container. 
-Below are the instructions to use the provided Dockerfile as the development and testing environment.
+# Docker
+You can utilize Nook within a Docker container with the provided Dockerfile. Here's how to build and run the container:
 
-### Building 
+## Building
 Building the Container.
 
 ```sh
 docker build . -t nook
 ```
 
-### Running
+## Running
 Developing and running Go from within the Container.
 
 ```sh
 docker run -it --rm --name nook nook
 ```
 
-A `docker-compose.yml` file has also been added for convience.
+A [`docker-compose.yml`](./docker-compose.yml) file has also been added for convenience.
 
-## Contents
-Nook at the package level only exports the concrete types consumed by this package. The philosophy was to keep each package extensible, without the concern of
-searching through various subpackages to find all types that make up the package. Through this, ideally, the pattern will keep the imports relatively straightforward and simple. It should also allow each child package to focus on using only the known set of building blocks to create its exports, and limit
-the exposure to coding towards circular dependencies. Most of the decisions were shaped by the content of the Animal Crossing series, versus developer preference. For example, the initial concept was to have all characters live at the root package, but name conflicts, data types, and maintance became an issue. Having each character exist in its own directory was also attempted, but imports became confusing. All recommendations welcome, but for now this appears to be the best trade off.
 
-## Usage
+# Usage
 The nook package can be used as the starting point for your own Animal Crossing program. By default all current Animal Crossing characters are provided. These can be imported by referencing the type of animal and the characters name.
 
+## Accessing individual villagers:
 ```go
 package main
 
@@ -83,6 +78,7 @@ func main() {
 
 ```
 
+## Accessing villagers in bulk:
 Characters are also exported in bulk. These can be accessed by using the animal type and the villagers or residents variable.
 
 ```go
@@ -106,7 +102,7 @@ func main() {
 
 ```
 
-Another example creating a simple API.
+## Creating a simple API:
 
 ```go
 package main
@@ -148,10 +144,10 @@ func main() {
 
 ```
 
-## Extending
-Nook was built with extensibility in mind. The simplest way to add to the functionality of the package is to import the concrete type and apply the required changes or functionality.
+# Extending
+Nook was designed with extensibility in mind. You can easily add new functionality by importing the relevant concrete types and applying the required changes. For example, you can create your custom attributes for villagers:
 
-Below is an example of adding functionality to the `nook.Villager` type.
+Below is an example of adding functionality to the [`nook.Villager`](./villager.go) type.
 
 ```go
 package main
@@ -201,9 +197,9 @@ func main() {
 
 ```
 
-Another example is adding an outfit to one of your favourite Animal Crossing villagers. 
+Another example is adding an outfit to one of your favourite Animal Crossing villagers.
 
-```go 
+```go
 package main
 
 import (
@@ -262,3 +258,6 @@ func main() {
 }
 
 ```
+
+# Conclusion
+Nook is a valuable resource for Animal Crossing enthusiasts and developers. With its comprehensive character database, easy integration, and extensibility, Nook becomes a powerful tool for creating fun and engaging projects related to the beloved Animal Crossing series. Feel free to contribute, and happy coding!

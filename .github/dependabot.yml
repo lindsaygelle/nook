@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Go dependency updates
+  - package-ecosystem: "go"
+    directory: "/"
+    schedule:
+      interval: "daily"
