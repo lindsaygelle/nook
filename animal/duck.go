@@ -5,19 +5,30 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+    // duck is the common reference for the Duck animal type.
+    duck = "Duck"
+)
+
 var (
+	// duckNameAmericanEnglish represents the American English name for the Duck animal type.
 	duckNameAmericanEnglish = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "Duck"}
+		Value:    duck,
+	}
 )
 
 var (
+	// duckName contains the names of the Duck animal type in different languages.
 	duckName = nook.Languages{
-		language.AmericanEnglish: duckNameAmericanEnglish}
+		language.AmericanEnglish: duckNameAmericanEnglish,
+	}
 )
 
 var (
+	// Duck represents an duck animal in the Animal Crossing series.
 	Duck = nook.Animal{
-		Key:  nook.Key("Duck"),
-		Name: duckName}
+		Key:  nook.Key(duck),
+		Name: duckName,
+	}
 )

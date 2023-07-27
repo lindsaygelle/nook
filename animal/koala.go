@@ -5,19 +5,30 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+    // koala is the common reference for the Koala animal type.
+    koala = "Koala"
+)
+
 var (
+	// koalaNameAmericanEnglish represents the American English name for the Koala animal type.
 	koalaNameAmericanEnglish = nook.Name{
 		Language: language.AmericanEnglish,
-		Value:    "Koala"}
+		Value:    koala,
+	}
 )
 
 var (
+	// koalaName contains the names of the Koala animal type in different languages.
 	koalaName = nook.Languages{
-		language.AmericanEnglish: koalaNameAmericanEnglish}
+		language.AmericanEnglish: koalaNameAmericanEnglish,
+	}
 )
 
 var (
+	// Koala represents an koala animal in the Animal Crossing series.
 	Koala = nook.Animal{
-		Key:  nook.Key("Koala"),
-		Name: koalaName}
+		Key:  nook.Key(koala),
+		Name: koalaName,
+	}
 )

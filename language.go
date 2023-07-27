@@ -27,7 +27,7 @@ func (v Languages) Each(fn func(language.Tag, Name)) {
 	}
 }
 
-// Each performs a for-each loop across Languages, executing the argument function for the Name at the current key.
+// EachWithBreak performs a for-each loop across Languages, executing the argument function for the Name at the current key.
 // Unlike Languages.Each it is possible to break out of the loop by returning true as a callback.
 func (v Languages) EachWithBreak(fn func(language.Tag, Name) bool) {
 	for k, v := range v {
