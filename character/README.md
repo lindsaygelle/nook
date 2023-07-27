@@ -1,7 +1,7 @@
 # Character
 Character exports the `nook.Key` references for all `nook.Character` instances.
 
-The character package also contains all Animal Crossing characters, organised into their own separate packages grouped by animal type. 
+The character package also contains all Animal Crossing characters, organised into their own separate packages grouped by animal type.
 
 This was a requirement due to some Animal Crossing characters sharing the same name. It was also a preference when trying to adopt the most scalable
 and hassle free approach when extending and maintaining the numerous characters that are being added to, and modified with each installment to the series. It also allowed for each character to be placed within its own file, relative to the animal type it has. This makes it easier to extend and test each character, without hundreds of lines of code being grouped into a single file.

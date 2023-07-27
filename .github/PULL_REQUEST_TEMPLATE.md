@@ -1,68 +1,25 @@
-<!--  Thanks for sending a pull request!  Here are some tips for you:
+### Description
+[Provide a brief description of the changes in this pull request.]
 
-1. If this is your first time contributing to this project, please read our contributor guidelines: [Link to contributor guidelines]
-2. Please label this pull request according to what type of change you are addressing.
-3. Ensure you have added or run the appropriate tests for your PR.
-4. If you want *faster* PR reviews, please follow our best practices: [Link to best practices]
-5. If the PR is unfinished, please mark it accordingly.
--->
+### Related Issue
+[Reference any related issue(s) or feature request(s) here. For example: "Closes #123"]
 
-#### What type of PR is this?
+### Changes Made
+[Explain the changes you made in this pull request. Include any relevant details about code modifications, added features, or bug fixes.]
 
-<!--
-Add one of the following kinds:
-/kind bug
-/kind cleanup
-/kind documentation
-/kind feature
+### Screenshots (if applicable)
+[If your changes include visual updates or additions, provide screenshots to showcase them.]
 
-Optionally add one or more of the following kinds if applicable:
-/kind api-change
-/kind deprecation
-/kind failing-test
-/kind flake
-/kind regression
--->
+### How to Test
+[Explain how reviewers or others can test your changes. Include specific steps, commands, or scenarios to verify the functionality.]
 
-#### What this PR does / why we need it:
+### Checklist
+- [ ] I have followed the coding style guidelines of the project.
+- [ ] My code passes all existing unit tests.
+- [ ] I have added new unit tests to cover the changes where applicable.
+- [ ] I have updated the documentation to reflect the changes.
+- [ ] My changes do not introduce any new warnings or errors.
+- [ ] I have tested my changes thoroughly.
 
-#### Which issue(s) this PR fixes:
-<!--
-*Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
-_If PR is about `failing-tests or flakes`, please post the related issues/tests in a comment and do not use `Fixes`_*
--->
-Fixes #
-
-#### Special notes for your reviewer:
-
-#### Does this PR introduce a user-facing change?
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
--->
-```release-note
-
-```
-
-#### Additional documentation e.g., usage docs, etc.:
-
-<!--
-This section can be blank if this pull request does not require a release note.
-
-When adding links which point to resources within git repositories, like
-KEPs or supporting documentation, please reference a specific commit and avoid
-linking directly to the master branch. This ensures that links reference a
-specific point in time, rather than a document that may change over time.
-
-See here for guidance on getting permanent links to files: https://help.github.com/en/articles/getting-permanent-links-to-files
-
-Please use the following format for linking documentation:
-- [KEP]: <link>
-- [Usage]: <link>
-- [Other doc]: <link>
--->
-```docs
-
-```
+### Additional Notes
+[Include any additional information, context, or notes that might be helpful for reviewers.]

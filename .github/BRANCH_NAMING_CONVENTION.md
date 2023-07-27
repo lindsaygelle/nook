@@ -1,36 +1,69 @@
-# Branch naming convention
+# Branch Naming Convention
 
-## Branch naming
+This document outlines the branch naming convention to be followed for our project/repository. Consistent and descriptive branch names help us maintain a clear and organized codebase.
 
-> Please note for new pull requests create new branches from current `dev` branch only.
+## Types of Branches
 
-Branch name should include type of your contribution and context. Please follow next pattern for naming your branches:
+### 1. Feature Branches
 
-```bash
-feature/add-some-feature
-technical/some-technical-improvements
-bugfix/fix-some-bug-name
-```
+Feature branches are used to develop new features or enhancements. They should be created from the `main` branch.
 
-## Before PR actions
+Naming Convention: `feature/descriptive-feature-name`
 
-### Squash commits
+Example: `feature/user-authentication`
 
-Please squash all branch commits into the one before opening your PR from your fork. It's simple to do with the git:
+### 2. Bugfix Branches
 
-```bash
-git rebase -i [hash your first commit of your branch]~1
-git rebase -i 6467fe36232401fa740af067cfd8ac9ec932fed2~1 # example
-```
+Bugfix branches are used to address and fix bugs or issues in the code. They should be created from the `main` branch.
 
-### Add commit description
+Naming Convention: `bugfix/descriptive-bug-description`
 
-Please complete your commit description following next pattern:
+Example: `bugfix/navigation-bar-overflow`
 
-```code
-Technical/Add info files # should be the same name as your branch name
+### 3. Hotfix Branches
 
-* Added license, changelog, contributing, code of conduct docs
-* Added GitHub templates
-* Updated project license link
-```
+Hotfix branches are used to address critical issues that need immediate attention and cannot wait for the next regular release. They should be created from the `main` branch.
+
+Naming Convention: `hotfix/descriptive-hotfix-description`
+
+Example: `hotfix/critical-security-vulnerability`
+
+## Special Cases
+
+### 1. Release Branches
+
+Release branches are used to prepare the codebase for a new release. They are created from the `main` branch when the code is ready for deployment. They might be prefixed with the release version.
+
+Naming Convention: `release/version`
+
+Example: `release/1.0.0`
+
+### 2. Main Branch
+
+The main branch is the primary branch of the repository and represents the latest stable version of the project.
+
+Branch Name: `main`
+
+## General Guidelines
+
+- Use lowercase letters for branch names.
+- Use hyphens to separate words in the branch names (e.g., `feature/new-feature`).
+- Keep branch names concise and descriptive.
+- Avoid using abbreviations or acronyms unless they are widely understood in the context of the project.
+
+## Examples
+
+### Good Examples
+
+- `feature/user-profile`
+- `bugfix/login-page-styling`
+- `hotfix/404-page-error`
+
+### Bad Examples
+
+- `f/newfeature` (too short and lacks descriptive information)
+- `fix` (not descriptive enough)
+
+Remember to always follow this branch naming convention to ensure clarity and consistency in our code repository.
+
+If you have any questions or need further clarification, feel free to reach out to the team.
