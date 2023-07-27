@@ -5,7 +5,6 @@ Nook exports basic information for characters that appear in the video game seri
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/lindsaygelle/nook.svg)](https://pkg.go.dev/github.com/lindsaygelle/nook)
 [![GitHub](https://img.shields.io/github/license/lindsaygelle/nook)](/LICENSE)
-[![Test](https://github.com/lindsaygelle/nook/actions/workflows/tests.yml/badge.svg)](https://github.com/lindsaygelle/nook/actions/workflows/test.yml)
 
 
 ## Introduction
