@@ -25,7 +25,7 @@ func (v Villagers) Each(fn func(Key, Villager)) {
 	}
 }
 
-// Each performs a for-each loop across Villagers, executing the argument function for the Villager at the current key.
+// EachWithBreak performs a for-each loop across Villagers, executing the argument function for the Villager at the current key.
 // Unlike Villagers.Each it is possible to break out of the loop by returning true.
 func (v Villagers) EachWithBreak(fn func(Key, Villager) bool) {
 	for k, v := range v {
