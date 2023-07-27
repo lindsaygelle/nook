@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Villagers is a collection of Villager.
+// Villagers is a collection of Villager characters, where each Villager is identified by a unique Key.
 type Villagers map[Key]Villager
 
 // Add adds a Villager to the collection.
@@ -12,21 +12,23 @@ func (v Villagers) Add(villager Villager) {
 	v[villager.Key] = villager
 }
 
-// Del removes a Villager from Villagers using the argument key.
+// Del removes a Villager from Villagers using the specified Key.
+// It returns true if the Villager was found and removed, otherwise false.
 func (v Villagers) Del(key Key) bool {
+	_, found := v[key]
 	delete(v, key)
-	return v.Has(key)
+	return found
 }
 
-// Each performs a for-each loop across Villagers, executing the argument function for the Villager at the current key.
+// Each iterates over each Villager in the collection, executing the specified function for each one.
 func (v Villagers) Each(fn func(Key, Villager)) {
 	for k, v := range v {
 		fn(k, v)
 	}
 }
 
-// Each performs a for-each loop across Villagers, executing the argument function for the Villager at the current key.
-// Unlike Villagers.Each it is possible to break out of the loop by returning true.
+// EachWithBreak iterates over each Villager in the collection, executing the specified function for each one.
+// It is possible to break out of the loop by returning true as a callback.
 func (v Villagers) EachWithBreak(fn func(Key, Villager) bool) {
 	for k, v := range v {
 		if fn(k, v) {
@@ -35,21 +37,22 @@ func (v Villagers) EachWithBreak(fn func(Key, Villager) bool) {
 	}
 }
 
-// Get returns a Villager from Villagers using the argument key.
-// Returns an additional boolean indicating whether the Villager was found.
+// Get retrieves a Villager from Villagers using the specified Key.
+// It returns the Villager and a boolean indicating whether the Villager was found.
 func (v Villagers) Get(key Key) (Villager, bool) {
 	villager, ok := v[key]
 	return villager, ok
 }
 
-// Has returns a boolean indicating whether the Villager exists for the argument key.
+// Has checks if a Villager exists for the specified Key in the collection.
+// It returns true if the Villager is found, otherwise false.
 func (v Villagers) Has(key Key) bool {
 	_, ok := v.Get(key)
 	return ok
 }
 
-// Must returns a Villager from Villagers using the argument key.
-// Unlike Villagers.Get, Villagers.Must panics on the condition a Villager cannot be retrieved for the given key.
+// Must retrieves a Villager from Villagers using the specified Key.
+// Unlike Villagers.Get, Villagers.Must panics if a Villager cannot be retrieved for the given Key.
 func (v Villagers) Must(key Key) Villager {
 	villager, ok := v.Get(key)
 	if !ok {

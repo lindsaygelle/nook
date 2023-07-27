@@ -6,29 +6,31 @@ import (
 	"golang.org/x/text/language"
 )
 
-// Languages is a collection of language information.
+// Languages is a collection of language information, where each language tag maps to a Name.
 type Languages map[language.Tag]Name
 
-// Add adds a Name to the collection. Add uses Name.Language as the key to be retrieved from the Languages.
+// Add adds a Name to the collection. The Name.Language is used as the key to store it in Languages.
 func (v Languages) Add(name Name) {
 	v[name.Language] = name
 }
 
-// Del removes a Name from Languages using the argument key.
+// Del removes a Name from Languages using the specified language tag as the key.
+// It returns true if the Name was found and removed, otherwise false.
 func (v Languages) Del(key language.Tag) bool {
+	_, found := v[key]
 	delete(v, key)
-	return v.Has(key)
+	return found
 }
 
-// Each performs a for-each loop across Languages, executing the argument function for the Name at the current key.
+// Each iterates over each language entry in Languages, executing the specified function for each Name.
 func (v Languages) Each(fn func(language.Tag, Name)) {
 	for k, v := range v {
 		fn(k, v)
 	}
 }
 
-// Each performs a for-each loop across Languages, executing the argument function for the Name at the current key.
-// Unlike Languages.Each it is possible to break out of the loop by returning true as a callback.
+// EachWithBreak iterates over each language entry in Languages, executing the specified function for each Name.
+// It is possible to break out of the loop by returning true as a callback.
 func (v Languages) EachWithBreak(fn func(language.Tag, Name) bool) {
 	for k, v := range v {
 		if fn(k, v) {
@@ -37,21 +39,22 @@ func (v Languages) EachWithBreak(fn func(language.Tag, Name) bool) {
 	}
 }
 
-// Get returns a Name from Languages using the argument key.
-// Returns an additional boolean indicating whether the Name was found.
+// Get retrieves a Name from Languages using the specified language tag as the key.
+// It returns the Name and a boolean indicating whether the Name was found.
 func (v Languages) Get(key language.Tag) (Name, bool) {
 	name, ok := v[key]
 	return name, ok
 }
 
-// Has returns a boolean indicating whether the Name exists for the argument key.
+// Has checks if a Name exists for the specified language tag in Languages.
+// It returns true if the Name is found, otherwise false.
 func (v Languages) Has(key language.Tag) bool {
 	_, ok := v.Get(key)
 	return ok
 }
 
-// Must returns a Name from Languages using the argument key.
-// Unlike Languages.Get, Languages.Must panics on the condition a Name cannot be retrieved for the given key.
+// Must retrieves a Name from Languages using the specified language tag as the key.
+// Unlike Languages.Get, Languages.Must panics if a Name cannot be retrieved for the given key.
 func (v Languages) Must(key language.Tag) Name {
 	name, ok := v.Get(key)
 	if !ok {
