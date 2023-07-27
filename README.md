@@ -43,7 +43,7 @@ docker run -it --rm --name nook nook
 ## Docker-compose
 A [`docker-compose.yml`](./docker-compose.yml) file has also been added for convenience.
 
-## Usage
+# Usage
 The nook package can be used as the starting point for your own Animal Crossing program. By default all current Animal Crossing characters are provided. These can be imported by referencing the type of animal and the characters name.
 
 Accessing individual villagers:

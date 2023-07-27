@@ -1,12 +1,14 @@
 package nook
 
-// Villager is the representation of an Animal Crossing character that can be invited to live within the players town, city or island.
-// Characters that are Villagers can be home owners and befriend the player. The player can exchange gifts and decorations
-// with any Villager character. All Villagers have personalities and unique phrases that accompany them.
-// Examples of characters that are villagers are Tabby the cat, Snooty the wolf and Alfonso the alligator.
+// Villager represents an Animal Crossing character that can be invited to live within the player's town, city, or island.
+// Villagers are home owners and can befriend the player, allowing gift and decoration exchanges.
+// Each Villager has a unique personality and set of phrases that accompany them.
 type Villager struct {
 	Character
 
+	// Personality represents the personality type of the Villager.
 	Personality Personality
-	Phrase      Languages
+
+	// Phrase contains the unique phrases associated with the Villager in different languages.
+	Phrase Languages
 }
