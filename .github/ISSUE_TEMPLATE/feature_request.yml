@@ -5,7 +5,8 @@ title: "(short issue description)"
 labels:
   - feature-request
   - needs-triage
-assignees: []
+assignees:
+  - lindsaygelle
 body:
   - type: textarea
     id: description
