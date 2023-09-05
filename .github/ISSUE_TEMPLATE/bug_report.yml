@@ -1,10 +1,11 @@
 ---
-name: "Bug Report"
+name: Bug Report
 description: Report a bug
-title: "(short issue description)"
+title: (short issue description)
 labels:
-  - "bug"
-assignees: []
+  - bug
+assignees:
+  - lindsaygelle
 body:
   - type: textarea
     id: description
