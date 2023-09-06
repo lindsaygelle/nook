@@ -12,16 +12,19 @@ import (
 )
 
 var (
+	// Define Alfonso's birthday.
 	alfonsoBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.June}
 )
 
 var (
+	// Define Alfonso's code.
 	alfonsoCode = nook.Code{
 		Value: "crd00"}
 )
 
+// Define Alfonso's names in various languages.
 var (
 	alfonsoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -77,6 +80,7 @@ var (
 )
 
 var (
+	// Define Alfonso's names in different languages as a map.
 	alfonsoName = nook.Languages{
 		language.AmericanEnglish:      alfonsoAmericanEnglishName,
 		language.CanadianFrench:       alfonsoCanadianFrenchName,
@@ -94,6 +98,7 @@ var (
 )
 
 var (
+	// Define Alfonso's character attributes.
 	alfonsoCharacter = nook.Character{
 		Animal:   animal.Alligator,
 		Birthday: alfonsoBirthday,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Define Alfonso's phrases in different languages.
 var (
 	alfonsoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -115,7 +121,7 @@ var (
 
 	alfonsoDutchPhrase = nook.Name{
 		Language: language.Dutch,
-		Value:    "it⁠'⁠sa me"}
+		Value:    "it'sa me"}
 
 	alfonsoFrenchPhrase = nook.Name{
 		Language: language.French,
@@ -159,6 +165,7 @@ var (
 )
 
 var (
+	// Define Alfonso's phrases in different languages as a map.
 	alfonsoPhrase = nook.Languages{
 		language.AmericanEnglish:      alfonsoAmericanEnglishPhrase,
 		language.CanadianFrench:       alfonsoCanadianFrenchPhrase,
@@ -176,6 +183,7 @@ var (
 )
 
 var (
+	// Alfonso as a villager with his character, personality, and phrases.
 	Alfonso = nook.Villager{
 		Character:   alfonsoCharacter,
 		Personality: personality.Lazy,
