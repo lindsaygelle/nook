@@ -12,16 +12,19 @@ import (
 )
 
 var (
+	// Define Cyrus' birthday.
 	cyrusBirthday = nook.Birthday{
 		Day:   26,
 		Month: time.January}
 )
 
 var (
+	// Define Cyrus' code.
 	cyrusCode = nook.Code{
 		Value: "alp"}
 )
 
+// Define Cyrus' names in various languages.
 var (
 	cyrusAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -77,6 +80,7 @@ var (
 )
 
 var (
+	// Define Cyrus' names in different languages as a map.
 	cyrusName = nook.Languages{
 		language.AmericanEnglish:      cyrusAmericanEnglishName,
 		language.CanadianFrench:       cyrusCanadianFrenchName,
@@ -94,6 +98,7 @@ var (
 )
 
 var (
+	// Define Cyrus' character attributes.
 	cyrusCharacter = nook.Character{
 		Animal:   animal.Alpaca,
 		Birthday: cyrusBirthday,
@@ -105,6 +110,7 @@ var (
 )
 
 var (
+	// Cyrus as a resident.
 	Cyrus = nook.Resident{
 		Character: cyrusCharacter}
 )
