@@ -12,16 +12,19 @@ import (
 )
 
 var (
+	// Define Reese's birthday.
 	reeseBirthday = nook.Birthday{
 		Day:   5,
 		Month: time.July}
 )
 
 var (
+	// Define Reese's code.
 	reeseCode = nook.Code{
 		Value: "alw"}
 )
 
+// Define Reese's names in various languages.
 var (
 	reeseAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -77,6 +80,7 @@ var (
 )
 
 var (
+	// Define Reese's names in different languages as a map.
 	reeseName = nook.Languages{
 		language.AmericanEnglish:      reeseAmericanEnglishName,
 		language.CanadianFrench:       reeseCanadianFrenchName,
@@ -94,6 +98,7 @@ var (
 )
 
 var (
+	// Define Reese's character attributes.
 	reeseCharacter = nook.Character{
 		Animal:   animal.Alpaca,
 		Birthday: reeseBirthday,
@@ -105,6 +110,7 @@ var (
 )
 
 var (
+	// Reese as a resident.
 	Reese = nook.Resident{
 		Character: reeseCharacter}
 )
