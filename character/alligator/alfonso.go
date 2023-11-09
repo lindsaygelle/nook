@@ -11,20 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// alfonsoBirthday represents Alfonso's birthday (June 9th).
 var (
-	// Define Alfonso's birthday.
 	alfonsoBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.June}
 )
 
+// alfonsoCode represents Alfonso's unique code ("crd00").
 var (
-	// Define Alfonso's code.
 	alfonsoCode = nook.Code{
 		Value: "crd00"}
 )
 
-// Define Alfonso's names in various languages.
+// Different names for Alfonso in various languages.
 var (
 	alfonsoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -79,8 +79,8 @@ var (
 		Value:    "阿泥"}
 )
 
+// alfonsoName represents Alfonso's name in different languages.
 var (
-	// Define Alfonso's names in different languages as a map.
 	alfonsoName = nook.Languages{
 		language.AmericanEnglish:      alfonsoAmericanEnglishName,
 		language.CanadianFrench:       alfonsoCanadianFrenchName,
@@ -97,8 +97,8 @@ var (
 		language.TraditionalChinese:   alfonsoTraditionalChineseName}
 )
 
+// alfonsoCharacter represents Alfonso's character information.
 var (
-	// Define Alfonso's character attributes.
 	alfonsoCharacter = nook.Character{
 		Animal:   animal.Alligator,
 		Birthday: alfonsoBirthday,
@@ -109,7 +109,7 @@ var (
 		Special:  false}
 )
 
-// Define Alfonso's phrases in different languages.
+// Different phrases spoken by Alfonso in various languages.
 var (
 	alfonsoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -164,8 +164,8 @@ var (
 		Value:    "鱷泥"}
 )
 
+// alfonsoPhrase represents Alfonso's phrases in different languages.
 var (
-	// Define Alfonso's phrases in different languages as a map.
 	alfonsoPhrase = nook.Languages{
 		language.AmericanEnglish:      alfonsoAmericanEnglishPhrase,
 		language.CanadianFrench:       alfonsoCanadianFrenchPhrase,
@@ -182,8 +182,8 @@ var (
 		language.TraditionalChinese:   alfonsoTraditionalChinesePhrase}
 )
 
+// Alfonso represents the character Alfonso with his complete information.
 var (
-	// Alfonso as a villager with his character, personality, and phrases.
 	Alfonso = nook.Villager{
 		Character:   alfonsoCharacter,
 		Personality: personality.Lazy,

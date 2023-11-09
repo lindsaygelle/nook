@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// dragoBirthday represents Drago's birthday (February 12th).
 var (
 	dragoBirthday = nook.Birthday{
 		Day:   12,
 		Month: time.February}
 )
 
+// dragoCode represents Drago's unique code ("crd08").
 var (
 	dragoCode = nook.Code{
 		Value: "crd08"}
 )
 
+// Different names for Drago in various languages.
 var (
 	dragoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "阿龍"}
 )
 
+// dragoName represents Drago's name in different languages.
 var (
 	dragoName = nook.Languages{
 		language.AmericanEnglish:      dragoAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   dragoTraditionalChineseName}
 )
 
+// dragoCharacter represents Drago's character information.
 var (
 	dragoCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Drago in various languages.
 var (
 	dragoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "然後"}
 )
 
+// dragoPhrase represents Drago's phrases in different languages.
 var (
 	dragoPhrase = nook.Languages{
 		language.AmericanEnglish:      dragoAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   dragoTraditionalChinesePhrase}
 )
 
+// Drago represents the character Drago with his complete information.
 var (
 	Drago = nook.Villager{
 		Character:   dragoCharacter,

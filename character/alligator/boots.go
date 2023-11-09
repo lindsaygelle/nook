@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// bootsBirthday represents Boots' birthday (August 7th).
 var (
 	bootsBirthday = nook.Birthday{
 		Day:   7,
 		Month: time.August}
 )
 
+// bootsCode represents Boots' unique code ("crd02").
 var (
 	bootsCode = nook.Code{
 		Value: "crd02"}
 )
 
+// Different names for Boots in various languages.
 var (
 	bootsAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "豐年"}
 )
 
+// bootsName represents Boots' name in different languages.
 var (
 	bootsName = nook.Languages{
 		language.AmericanEnglish:      bootsAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   bootsTraditionalChineseName}
 )
 
+// bootsCharacter represents Boots' character information.
 var (
 	bootsCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Boots in various languages.
 var (
 	bootsAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "跳"}
 )
 
+// bootsPhrase represents Boots' phrases in different languages.
 var (
 	bootsPhrase = nook.Languages{
 		language.AmericanEnglish:      bootsAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   bootsTraditionalChinesePhrase}
 )
 
+// Boots represents the character Boots with his complete information.
 var (
 	Boots = nook.Villager{
 		Character:   bootsCharacter,

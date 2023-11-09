@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// gayleBirthday represents Gayle's birthday (May 17th).
 var (
 	gayleBirthday = nook.Birthday{
 		Day:   17,
 		Month: time.May}
 )
 
+// gayleCode represents Gayle's unique code ("crd07").
 var (
 	gayleCode = nook.Code{
 		Value: "crd07"}
 )
 
+// Different names for Gayle in various languages.
 var (
 	gayleAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "愛莉"}
 )
 
+// gayleName represents Gayle's name in different languages.
 var (
 	gayleName = nook.Languages{
 		language.AmericanEnglish:      gayleAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   gayleTraditionalChineseName}
 )
 
+// gayleCharacter represents Gayle's character information.
 var (
 	gayleCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Gayle in various languages.
 var (
 	gayleAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "鱷莉"}
 )
 
+// gaylePhrase represents Gayle's phrases in different languages.
 var (
 	gaylePhrase = nook.Languages{
 		language.AmericanEnglish:      gayleAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   gayleTraditionalChinesePhrase}
 )
 
+// Gayle represents the character Gayle with her complete information.
 var (
 	Gayle = nook.Villager{
 		Character:   gayleCharacter,

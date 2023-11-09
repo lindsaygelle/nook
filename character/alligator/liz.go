@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// lizBirthday represents Liz's birthday (Unknown).
 var (
 	lizBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
+// lizCode represents Liz's unique code (Empty string).
 var (
 	lizCode = nook.Code{
 		Value: ""}
 )
 
+// Different names for Liz in various languages.
 var (
 	lizAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    ""}
 )
 
+// lizName represents Liz's name in different languages.
 var (
 	lizName = nook.Languages{
 		language.AmericanEnglish:      lizAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   lizTraditionalChineseName}
 )
 
+// lizCharacter represents Liz's character information.
 var (
 	lizCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Liz in various languages.
 var (
 	lizAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    ""}
 )
 
+// lizPhrase represents Liz's phrases in different languages.
 var (
 	lizPhrase = nook.Languages{
 		language.AmericanEnglish:      lizAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   lizTraditionalChinesePhrase}
 )
 
+// Liz represents the character Liz with her complete information.
 var (
 	Liz = nook.Villager{
 		Character:   lizCharacter,

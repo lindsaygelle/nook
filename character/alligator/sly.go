@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// slyBirthday represents Sly's birthday (November 15th).
 var (
 	slyBirthday = nook.Birthday{
 		Day:   15,
 		Month: time.November}
 )
 
+// slyCode represents Sly's unique code ("crd06").
 var (
 	slyCode = nook.Code{
 		Value: "crd06"}
 )
 
+// Different names for Sly in various languages.
 var (
 	slyAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "海德"}
 )
 
+// slyName represents Sly's name in different languages.
 var (
 	slyName = nook.Languages{
 		language.AmericanEnglish:      slyAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   slyTraditionalChineseName}
 )
 
+// slyCharacter represents Sly's character information.
 var (
 	slyCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Sly in various languages.
 var (
 	slyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "唰唰"}
 )
 
+// slyPhrase represents Sly's phrases in different languages.
 var (
 	slyPhrase = nook.Languages{
 		language.AmericanEnglish:      slyAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   slyTraditionalChinesePhrase}
 )
 
+// Sly represents the character Sly with his complete information.
 var (
 	Sly = nook.Villager{
 		Character:   slyCharacter,
