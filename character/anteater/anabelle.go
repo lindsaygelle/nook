@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// anabelleBirthday represents Anabelle's birthday (February 16th).
 var (
 	anabelleBirthday = nook.Birthday{
 		Day:   16,
 		Month: time.February}
 )
 
+// anabelleCode represents Anabelle's unique code ("ant03").
 var (
 	anabelleCode = nook.Code{
 		Value: "ant03"}
 )
 
+// Different names for Anabelle in various languages.
 var (
 	anabelleAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "有美"}
 )
 
+// anabelleName represents Anabelle's name in different languages.
 var (
 	anabelleName = nook.Languages{
 		language.AmericanEnglish:      anabelleAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   anabelleTraditionalChineseName}
 )
 
+// anabelleCharacter represents Anabelle's character information.
 var (
 	anabelleCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Anabelle in various languages.
 var (
 	anabelleAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "真的假的"}
 )
 
+// anabellePhrase represents Anabelle's phrases in different languages.
 var (
 	anabellePhrase = nook.Languages{
 		language.AmericanEnglish:      anabelleAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   anabelleTraditionalChinesePhrase}
 )
 
+// Anabelle represents the character Anabelle with her complete information.
 var (
 	Anabelle = nook.Villager{
 		Character:   anabelleCharacter,

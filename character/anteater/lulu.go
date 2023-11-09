@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// luluBirthday represents Lulu's birthday (Month and Day not specified).
 var (
 	luluBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
+// luluCode represents Lulu's unique code (not specified).
 var (
 	luluCode = nook.Code{
 		Value: ""}
 )
 
+// Different names for Lulu in various languages.
 var (
 	luluAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    ""}
 )
 
+// luluName represents Lulu's name in different languages.
 var (
 	luluName = nook.Languages{
 		language.AmericanEnglish:      luluAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   luluTraditionalChineseName}
 )
 
+// luluCharacter represents Lulu's character information.
 var (
 	luluCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Lulu in various languages.
 var (
 	luluAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    ""}
 )
 
+// luluPhrase represents Lulu's phrases in different languages.
 var (
 	luluPhrase = nook.Languages{
 		language.AmericanEnglish:      luluAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   luluTraditionalChinesePhrase}
 )
 
+// Lulu represents the character Lulu with her complete information.
 var (
 	Lulu = nook.Villager{
 		Character:   luluCharacter,

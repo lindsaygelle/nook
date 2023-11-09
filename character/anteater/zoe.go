@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// zoeBirthday represents Zoe's birthday (Unknown).
 var (
 	zoeBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
+// zoeCode represents Zoe's unique code (Unknown).
 var (
 	zoeCode = nook.Code{
 		Value: ""}
 )
 
+// Different names for Zoe in various languages.
 var (
 	zoeAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    ""}
 )
 
+// zoeName represents Zoe's name in different languages.
 var (
 	zoeName = nook.Languages{
 		language.AmericanEnglish:      zoeAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   zoeTraditionalChineseName}
 )
 
+// zoeCharacter represents Zoe's character information.
 var (
 	zoeCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Zoe in various languages.
 var (
 	zoeAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    ""}
 )
 
+// zoePhrase represents Zoe's phrases in different languages.
 var (
 	zoePhrase = nook.Languages{
 		language.AmericanEnglish:      zoeAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   zoeTraditionalChinesePhrase}
 )
 
+// Zoe represents the character Zoe with her complete information.
 var (
 	Zoe = nook.Villager{
 		Character:   zoeCharacter,

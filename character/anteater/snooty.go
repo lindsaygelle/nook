@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// snootyBirthday represents Snooty's birthday (October 24th).
 var (
 	snootyBirthday = nook.Birthday{
 		Day:   24,
 		Month: time.October}
 )
 
+// snootyCode represents Snooty's unique code.
 var (
 	snootyCode = nook.Code{
 		Value: "ant06"}
 )
 
+// Different names for Snooty in various languages.
 var (
 	snootyAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "貴妃"}
 )
 
+// snootyName represents Snooty's name in different languages.
 var (
 	snootyName = nook.Languages{
 		language.AmericanEnglish:      snootyAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   snootyTraditionalChineseName}
 )
 
+// snootyCharacter represents Snooty's character information.
 var (
 	snootyCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Snooty in various languages.
 var (
 	snootyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "麻煩了"}
 )
 
+// snootyPhrase represents Snooty's phrases in different languages.
 var (
 	snootyPhrase = nook.Languages{
 		language.AmericanEnglish:      snootyAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   snootyTraditionalChinesePhrase}
 )
 
+// Snooty represents the character Snooty with her complete information.
 var (
 	Snooty = nook.Villager{
 		Character:   snootyCharacter,

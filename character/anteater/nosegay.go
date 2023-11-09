@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// nosegayBirthday represents Nosegay's birthday (Month and Day not specified).
 var (
 	nosegayBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
+// nosegayCode represents Nosegay's unique code (not specified).
 var (
 	nosegayCode = nook.Code{
 		Value: ""}
 )
 
+// Different names for Nosegay in various languages.
 var (
 	nosegayAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    ""}
 )
 
+// nosegayName represents Nosegay's name in different languages.
 var (
 	nosegayName = nook.Languages{
 		language.AmericanEnglish:      nosegayAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   nosegayTraditionalChineseName}
 )
 
+// nosegayCharacter represents Nosegay's character information.
 var (
 	nosegayCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Nosegay in various languages.
 var (
 	nosegayAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    ""}
 )
 
+// nosegayPhrase represents Nosegay's phrases in different languages.
 var (
 	nosegayPhrase = nook.Languages{
 		language.AmericanEnglish:      nosegayAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   nosegayTraditionalChinesePhrase}
 )
 
+// Nosegay represents the character Nosegay with her complete information.
 var (
 	Nosegay = nook.Villager{
 		Character:   nosegayCharacter,
