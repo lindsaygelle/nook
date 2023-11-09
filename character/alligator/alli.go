@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// alliBirthday represents Alli's birthday (November 8th).
 var (
 	alliBirthday = nook.Birthday{
 		Day:   8,
 		Month: time.November}
 )
 
+// alliCode represents Alli's unique code ("crd01").
 var (
 	alliCode = nook.Code{
 		Value: "crd01"}
 )
 
+// Different names for Alli in various languages.
 var (
 	alliAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "鱷羅思"}
 )
 
+// alliName represents Alli's name in different languages.
 var (
 	alliName = nook.Languages{
 		language.AmericanEnglish:      alliAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   alliTraditionalChineseName}
 )
 
+// alliCharacter represents Alli's character information.
 var (
 	alliCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Alli in various languages.
 var (
 	alliAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "鱷魚皮"}
 )
 
+// alliPhrase represents Alli's phrases in different languages.
 var (
 	alliPhrase = nook.Languages{
 		language.AmericanEnglish:      alliAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   alliTraditionalChinesePhrase}
 )
 
+// Alli represents the character Alli with her complete information.
 var (
 	Alli = nook.Villager{
 		Character:   alliCharacter,

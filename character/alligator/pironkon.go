@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// pironkonBirthday represents Pironkon's birthday (Unknown).
 var (
 	pironkonBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
+// pironkonCode represents Pironkon's unique code (Empty string).
 var (
 	pironkonCode = nook.Code{
 		Value: ""}
 )
 
+// Different names for Pironkon in various languages.
 var (
 	pironkonAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    ""}
 )
 
+// pironkonName represents Pironkon's name in different languages.
 var (
 	pironkonName = nook.Languages{
 		language.AmericanEnglish:      pironkonAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   pironkonTraditionalChineseName}
 )
 
+// pironkonCharacter represents Pironkon's character information.
 var (
 	pironkonCharacter = nook.Character{
 		Animal:   animal.Alligator,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Pironkon in various languages.
 var (
 	pironkonAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    ""}
 )
 
+// pironkonPhrase represents Pironkon's phrases in different languages.
 var (
 	pironkonPhrase = nook.Languages{
 		language.AmericanEnglish:      pironkonAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   pironkonTraditionalChinesePhrase}
 )
 
+// Pironkon represents the character Pironkon with his complete information.
 var (
 	Pironkon = nook.Villager{
 		Character:   pironkonCharacter,
