@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// meganBirthday represents Megan's birthday (March 13th).
 var (
 	meganBirthday = nook.Birthday{
 		Day:   13,
 		Month: time.March}
 )
 
+// meganCode represents Megan's unique code (BEA15).
 var (
 	meganCode = nook.Code{
 		Value: "bea15"}
 )
 
+// Different names for Megan in various languages.
 var (
 	meganAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "糖果"}
 )
 
+// meganName represents Megan's name in different languages.
 var (
 	meganName = nook.Languages{
 		language.AmericanEnglish:      meganAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   meganTraditionalChineseName}
 )
 
+// meganCharacter represents Megan's character information.
 var (
 	meganCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Megan in various languages.
 var (
 	meganAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "舔舔"}
 )
 
+// meganPhrase represents Megan's phrases in different languages.
 var (
 	meganPhrase = nook.Languages{
 		language.AmericanEnglish:      meganAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   meganTraditionalChinesePhrase}
 )
 
+// Megan represents the character Megan with her complete information.
 var (
 	Megan = nook.Villager{
 		Character:   meganCharacter,

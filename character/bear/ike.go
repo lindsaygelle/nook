@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// ikeBirthday represents Ike's birthday (May 16th).
 var (
 	ikeBirthday = nook.Birthday{
 		Day:   16,
 		Month: time.May}
 )
 
+// ikeCode represents Ike's unique code (BEA11).
 var (
 	ikeCode = nook.Code{
 		Value: "bea11"}
 )
 
+// Different names for Ike in various languages.
 var (
 	ikeAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "大功"}
 )
 
+// ikeName represents Ike's name in different languages.
 var (
 	ikeName = nook.Languages{
 		language.AmericanEnglish:      ikeAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   ikeTraditionalChineseName}
 )
 
+// ikeCharacter represents Ike's character information.
 var (
 	ikeCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Ike in various languages.
 var (
 	ikeAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "施主"}
 )
 
+// ikePhrase represents Ike's phrases in different languages.
 var (
 	ikePhrase = nook.Languages{
 		language.AmericanEnglish:      ikeAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   ikeTraditionalChinesePhrase}
 )
 
+// Ike represents the character Ike with his complete information.
 var (
 	Ike = nook.Villager{
 		Character:   ikeCharacter,

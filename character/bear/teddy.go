@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// teddyBirthday represents Teddy's birthday (September 26th).
 var (
 	teddyBirthday = nook.Birthday{
 		Day:   26,
 		Month: time.September}
 )
 
+// teddyCode represents Teddy's unique code (BEA00).
 var (
 	teddyCode = nook.Code{
 		Value: "bea00"}
 )
 
+// Different names for Teddy in various languages.
 var (
 	teddyAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "太平"}
 )
 
+// teddyName represents Teddy's name in different languages.
 var (
 	teddyName = nook.Languages{
 		language.AmericanEnglish:      teddyAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   teddyTraditionalChineseName}
 )
 
+// teddyCharacter represents Teddy's character information.
 var (
 	teddyCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Teddy in various languages.
 var (
 	teddyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "太好了"}
 )
 
+// teddyPhrase represents Teddy's phrases in different languages.
 var (
 	teddyPhrase = nook.Languages{
 		language.AmericanEnglish:      teddyAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   teddyTraditionalChinesePhrase}
 )
 
+// Teddy represents the character Teddy with his complete information.
 var (
 	Teddy = nook.Villager{
 		Character:   teddyCharacter,

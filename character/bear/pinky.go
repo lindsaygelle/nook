@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// pinkyBirthday represents Pinky's birthday (September 9th).
 var (
 	pinkyBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.September}
 )
 
+// pinkyCode represents Pinky's unique code (BEA01).
 var (
 	pinkyCode = nook.Code{
 		Value: "bea01"}
 )
 
+// Different names for Pinky in various languages.
 var (
 	pinkyAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "丹丹"}
 )
 
+// pinkyName represents Pinky's name in different languages.
 var (
 	pinkyName = nook.Languages{
 		language.AmericanEnglish:      pinkyAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   pinkyTraditionalChineseName}
 )
 
+// pinkyCharacter represents Pinky's character information.
 var (
 	pinkyCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Pinky in various languages.
 var (
 	pinkyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "哇喔"}
 )
 
+// pinkyPhrase represents Pinky's phrases in different languages.
 var (
 	pinkyPhrase = nook.Languages{
 		language.AmericanEnglish:      pinkyAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   pinkyTraditionalChinesePhrase}
 )
 
+// Pinky represents the character Pinky with her complete information.
 var (
 	Pinky = nook.Villager{
 		Character:   pinkyCharacter,

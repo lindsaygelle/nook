@@ -5,8 +5,8 @@ import (
 	"github.com/lindsaygelle/nook/character"
 )
 
+// Villagers is map of villager instances.
 var (
-	// Villagers is a collection of Animal Crossing alligator villagers.
 	Villagers = nook.Villagers{
 		character.Alli:     Alli,
 		character.Alfonso:  Alfonso,

@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// tutuBirthday represents Tutu's birthday (September 15th).
 var (
 	tutuBirthday = nook.Birthday{
 		Day:   15,
 		Month: time.September}
 )
 
+// tutuCode represents Tutu's unique code (BEA07).
 var (
 	tutuCode = nook.Code{
 		Value: "bea07"}
 )
 
+// Different names for Tutu in various languages.
 var (
 	tutuAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "戀戀"}
 )
 
+// tutuName represents Tutu's name in different languages.
 var (
 	tutuName = nook.Languages{
 		language.AmericanEnglish:      tutuAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   tutuTraditionalChineseName}
 )
 
+// tutuCharacter represents Tutu's character information.
 var (
 	tutuCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Tutu in various languages.
 var (
 	tutuAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "加油"}
 )
 
+// tutuPhrase represents Tutu's phrases in different languages.
 var (
 	tutuPhrase = nook.Languages{
 		language.AmericanEnglish:      tutuAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   tutuTraditionalChinesePhrase}
 )
 
+// Tutu represents the character Tutu with her complete information.
 var (
 	Tutu = nook.Villager{
 		Character:   tutuCharacter,

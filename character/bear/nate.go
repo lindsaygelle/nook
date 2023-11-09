@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// nateBirthday represents Nate's birthday (August 16th).
 var (
 	nateBirthday = nook.Birthday{
 		Day:   16,
 		Month: time.August}
 )
 
+// nateCode represents Nate's unique code (BEA05).
 var (
 	nateCode = nook.Code{
 		Value: "bea05"}
 )
 
+// Different names for Nate in various languages.
 var (
 	nateAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "巴克思"}
 )
 
+// nateName represents Nate's name in different languages.
 var (
 	nateName = nook.Languages{
 		language.AmericanEnglish:      nateAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   nateTraditionalChineseName}
 )
 
+// nateCharacter represents Nate's character information.
 var (
 	nateCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Nate in various languages.
 var (
 	nateAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "嗯是"}
 )
 
+// natePhrase represents Nate's phrases in different languages.
 var (
 	natePhrase = nook.Languages{
 		language.AmericanEnglish:      nateAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   nateTraditionalChinesePhrase}
 )
 
+// Nate represents the character Nate with his complete information.
 var (
 	Nate = nook.Villager{
 		Character:   nateCharacter,

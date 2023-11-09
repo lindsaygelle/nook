@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// chowBirthday represents Chow's birthday (July 22nd).
 var (
 	chowBirthday = nook.Birthday{
 		Day:   22,
 		Month: time.July}
 )
 
+// chowCode represents Chow's unique code (bea03).
 var (
 	chowCode = nook.Code{
 		Value: "bea03"}
 )
 
+// Different names for Chow in various languages.
 var (
 	chowAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "朝陽"}
 )
 
+// chowName represents Chow's name in different languages.
 var (
 	chowName = nook.Languages{
 		language.AmericanEnglish:      chowAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   chowTraditionalChineseName}
 )
 
+// chowCharacter represents Chow's character information.
 var (
 	chowCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Chow in various languages.
 var (
 	chowAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "有喔"}
 )
 
+// chowPhrase represents Chow's phrases in different languages.
 var (
 	chowPhrase = nook.Languages{
 		language.AmericanEnglish:      chowAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   chowTraditionalChinesePhrase}
 )
 
+// Chow represents the character Chow with his complete information.
 var (
 	Chow = nook.Villager{
 		Character:   chowCharacter,

@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// ursalaBirthday represents Ursala's birthday (January 16th).
 var (
 	ursalaBirthday = nook.Birthday{
 		Day:   16,
 		Month: time.January}
 )
 
+// ursalaCode represents Ursala's unique code (BEA08).
 var (
 	ursalaCode = nook.Code{
 		Value: "bea08"}
 )
 
+// Different names for Ursala in various languages.
 var (
 	ursalaAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "妮雅"}
 )
 
+// ursalaName represents Ursala's name in different languages.
 var (
 	ursalaName = nook.Languages{
 		language.AmericanEnglish:      ursalaAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   ursalaTraditionalChineseName}
 )
 
+// ursalaCharacter represents Ursala's character information.
 var (
 	ursalaCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Ursala in various languages.
 var (
 	ursalaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "呀吶"}
 )
 
+// ursalaPhrase represents Ursala's phrases in different languages.
 var (
 	ursalaPhrase = nook.Languages{
 		language.AmericanEnglish:      ursalaAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   ursalaTraditionalChinesePhrase}
 )
 
+// Ursala represents the character Ursala with her complete information.
 var (
 	Ursala = nook.Villager{
 		Character:   ursalaCharacter,

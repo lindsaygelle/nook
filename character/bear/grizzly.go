@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// grizzlyBirthday represents Grizzly's birthday (July 31st).
 var (
 	grizzlyBirthday = nook.Birthday{
 		Day:   31,
 		Month: time.July}
 )
 
+// grizzlyCode represents Grizzly's unique code (BEA09).
 var (
 	grizzlyCode = nook.Code{
 		Value: "bea09"}
 )
 
+// Different names for Grizzly in various languages.
 var (
 	grizzlyAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "穆穆"}
 )
 
+// grizzlyName represents Grizzly's name in different languages.
 var (
 	grizzlyName = nook.Languages{
 		language.AmericanEnglish:      grizzlyAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   grizzlyTraditionalChineseName}
 )
 
+// grizzlyCharacter represents Grizzly's character information.
 var (
 	grizzlyCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Grizzly in various languages.
 var (
 	grizzlyAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "熊熊"}
 )
 
+// grizzlyPhrase represents Grizzly's phrases in different languages.
 var (
 	grizzlyPhrase = nook.Languages{
 		language.AmericanEnglish:      grizzlyAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   grizzlyTraditionalChinesePhrase}
 )
 
+// Grizzly represents the character Grizzly with his complete information.
 var (
 	Grizzly = nook.Villager{
 		Character:   grizzlyCharacter,
