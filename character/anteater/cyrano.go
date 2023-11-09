@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// cyranoBirthday represents Cyrano's birthday (March 9th).
 var (
 	cyranoBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.March}
 )
 
+// cyranoCode represents Cyrano's unique code ("ant00").
 var (
 	cyranoCode = nook.Code{
 		Value: "ant00"}
 )
 
+// Different names for Cyrano in various languages.
 var (
 	cyranoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "陽明"}
 )
 
+// cyranoName represents Cyrano's name in different languages.
 var (
 	cyranoName = nook.Languages{
 		language.AmericanEnglish:      cyranoAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   cyranoTraditionalChineseName}
 )
 
+// cyranoCharacter represents Cyrano's character information.
 var (
 	cyranoCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Cyrano in various languages.
 var (
 	cyranoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "有的"}
 )
 
+// cyranoPhrase represents Cyrano's phrases in different languages.
 var (
 	cyranoPhrase = nook.Languages{
 		language.AmericanEnglish:      cyranoAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   cyranoTraditionalChinesePhrase}
 )
 
+// Cyrano represents the character Cyrano with his complete information.
 var (
 	Cyrano = nook.Villager{
 		Character:   cyranoCharacter,

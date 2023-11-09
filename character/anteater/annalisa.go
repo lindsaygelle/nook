@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// annalisaBirthday represents Annalisa's birthday (February 6th).
 var (
 	annalisaBirthday = nook.Birthday{
 		Day:   6,
 		Month: time.February}
 )
 
+// annalisaCode represents Annalisa's unique code ("ant08").
 var (
 	annalisaCode = nook.Code{
 		Value: "ant08"}
 )
 
+// Different names for Annalisa in various languages.
 var (
 	annalisaAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "小雅"}
 )
 
+// annalisaName represents Annalisa's name in different languages.
 var (
 	annalisaName = nook.Languages{
 		language.AmericanEnglish:      annalisaAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   annalisaTraditionalChineseName}
 )
 
+// annalisaCharacter represents Annalisa's character information.
 var (
 	annalisaCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Annalisa in various languages.
 var (
 	annalisaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "優雅"}
 )
 
+// annalisaPhrase represents Annalisa's phrases in different languages.
 var (
 	annalisaPhrase = nook.Languages{
 		language.AmericanEnglish:      annalisaAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   annalisaTraditionalChinesePhrase}
 )
 
+// Annalisa represents the character Annalisa with her complete information.
 var (
 	Annalisa = nook.Villager{
 		Character:   annalisaCharacter,

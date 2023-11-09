@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// antonioBirthday represents Antonio's birthday (October 20th).
 var (
 	antonioBirthday = nook.Birthday{
 		Day:   20,
 		Month: time.October}
 )
 
+// antonioCode represents Antonio's unique code ("ant01").
 var (
 	antonioCode = nook.Code{
 		Value: "ant01"}
 )
 
+// Different names for Antonio in various languages.
 var (
 	antonioAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "阿誠"}
 )
 
+// antonioName represents Antonio's name in different languages.
 var (
 	antonioName = nook.Languages{
 		language.AmericanEnglish:      antonioAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   antonioTraditionalChineseName}
 )
 
+// antonioCharacter represents Antonio's character information.
 var (
 	antonioCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Antonio in various languages.
 var (
 	antonioAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "真誠"}
 )
 
+// antonioPhrase represents Antonio's phrases in different languages.
 var (
 	antonioPhrase = nook.Languages{
 		language.AmericanEnglish:      antonioAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   antonioTraditionalChinesePhrase}
 )
 
+// Antonio represents the character Antonio with his complete information.
 var (
 	Antonio = nook.Villager{
 		Character:   antonioCharacter,

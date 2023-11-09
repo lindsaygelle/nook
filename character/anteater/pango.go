@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// pangoBirthday represents Pango's birthday (November 9th).
 var (
 	pangoBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.November}
 )
 
+// pangoCode represents Pango's unique code.
 var (
 	pangoCode = nook.Code{
 		Value: "ant02"}
 )
 
+// Different names for Pango in various languages.
 var (
 	pangoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "佩希"}
 )
 
+// pangoName represents Pango's name in different languages.
 var (
 	pangoName = nook.Languages{
 		language.AmericanEnglish:      pangoAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   pangoTraditionalChineseName}
 )
 
+// pangoCharacter represents Pango's character information.
 var (
 	pangoCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Pango in various languages.
 var (
 	pangoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "希希"}
 )
 
+// pangoPhrase represents Pango's phrases in different languages.
 var (
 	pangoPhrase = nook.Languages{
 		language.AmericanEnglish:      pangoAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   pangoTraditionalChinesePhrase}
 )
 
+// Pango represents the character Pango with her complete information.
 var (
 	Pango = nook.Villager{
 		Character:   pangoCharacter,

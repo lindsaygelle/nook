@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// olafBirthday represents Olaf's birthday (May 19th).
 var (
 	olafBirthday = nook.Birthday{
 		Day:   19,
 		Month: time.May}
 )
 
+// olafCode represents Olaf's unique code.
 var (
 	olafCode = nook.Code{
 		Value: "ant09"}
 )
 
+// Different names for Olaf in various languages.
 var (
 	olafAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "安東尼"}
 )
 
+// olafName represents Olaf's name in different languages.
 var (
 	olafName = nook.Languages{
 		language.AmericanEnglish:      olafAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   olafTraditionalChineseName}
 )
 
+// olafCharacter represents Olaf's character information.
 var (
 	olafCharacter = nook.Character{
 		Animal:   animal.Anteater,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Olaf in various languages.
 var (
 	olafAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "歐啦"}
 )
 
+// olafPhrase represents Olaf's phrases in different languages.
 var (
 	olafPhrase = nook.Languages{
 		language.AmericanEnglish:      olafAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   olafTraditionalChinesePhrase}
 )
 
+// Olaf represents the character Olaf with his complete information.
 var (
 	Olaf = nook.Villager{
 		Character:   olafCharacter,
