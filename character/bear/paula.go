@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// paulaBirthday represents Paula's birthday (March 22nd).
 var (
 	paulaBirthday = nook.Birthday{
 		Day:   22,
 		Month: time.March}
 )
 
+// paulaCode represents Paula's unique code (BEA10).
 var (
 	paulaCode = nook.Code{
 		Value: "bea10"}
 )
 
+// Different names for Paula in various languages.
 var (
 	paulaAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "瑞秋"}
 )
 
+// paulaName represents Paula's name in different languages.
 var (
 	paulaName = nook.Languages{
 		language.AmericanEnglish:      paulaAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   paulaTraditionalChineseName}
 )
 
+// paulaCharacter represents Paula's character information.
 var (
 	paulaCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Paula in various languages.
 var (
 	paulaAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "耶呼"}
 )
 
+// paulaPhrase represents Paula's phrases in different languages.
 var (
 	paulaPhrase = nook.Languages{
 		language.AmericanEnglish:      paulaAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   paulaTraditionalChinesePhrase}
 )
 
+// Paula represents the character Paula with her complete information.
 var (
 	Paula = nook.Villager{
 		Character:   paulaCharacter,

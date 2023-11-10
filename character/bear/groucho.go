@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// grouchoBirthday represents Groucho's birthday (October 23rd).
 var (
 	grouchoBirthday = nook.Birthday{
 		Day:   23,
 		Month: time.October}
 )
 
+// grouchoCode represents Groucho's unique code (BEA06).
 var (
 	grouchoCode = nook.Code{
 		Value: "bea06"}
 )
 
+// Different names for Groucho in various languages.
 var (
 	grouchoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "爪爪"}
 )
 
+// grouchoName represents Groucho's name in different languages.
 var (
 	grouchoName = nook.Languages{
 		language.AmericanEnglish:      grouchoAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   grouchoTraditionalChineseName}
 )
 
+// grouchoCharacter represents Groucho's character information.
 var (
 	grouchoCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Groucho in various languages.
 var (
 	grouchoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "哇哇"}
 )
 
+// grouchoPhrase represents Groucho's phrases in different languages.
 var (
 	grouchoPhrase = nook.Languages{
 		language.AmericanEnglish:      grouchoAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   grouchoTraditionalChinesePhrase}
 )
 
+// Groucho represents the character Groucho with his complete information.
 var (
 	Groucho = nook.Villager{
 		Character:   grouchoCharacter,

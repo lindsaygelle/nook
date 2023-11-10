@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// dozerBirthday represents Dozer's birthday (Unknown).
 var (
 	dozerBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
+// dozerCode represents Dozer's unique code (Unknown).
 var (
 	dozerCode = nook.Code{
 		Value: ""}
 )
 
+// Different names for Dozer in various languages.
 var (
 	dozerAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    ""}
 )
 
+// dozerName represents Dozer's name in different languages.
 var (
 	dozerName = nook.Languages{
 		language.AmericanEnglish:      dozerAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   dozerTraditionalChineseName}
 )
 
+// dozerCharacter represents Dozer's character information.
 var (
 	dozerCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Dozer in various languages.
 var (
 	dozerAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    ""}
 )
 
+// dozerPhrase represents Dozer's phrases in different languages.
 var (
 	dozerPhrase = nook.Languages{
 		language.AmericanEnglish:      dozerAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   dozerTraditionalChinesePhrase}
 )
 
+// Dozer represents the character Dozer with his complete information.
 var (
 	Dozer = nook.Villager{
 		Character:   dozerCharacter,

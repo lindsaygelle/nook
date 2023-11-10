@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// curtBirthday represents Curt's birthday (July 1st).
 var (
 	curtBirthday = nook.Birthday{
 		Day:   1,
 		Month: time.July}
 )
 
+// curtCode represents Curt's unique code (bea02).
 var (
 	curtCode = nook.Code{
 		Value: "bea02"}
 )
 
+// Different names for Curt in various languages.
 var (
 	curtAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "鐵熊"}
 )
 
+// curtName represents Curt's name in different languages.
 var (
 	curtName = nook.Languages{
 		language.AmericanEnglish:      curtAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   curtTraditionalChineseName}
 )
 
+// curtCharacter represents Curt's character information.
 var (
 	curtCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Curt in various languages.
 var (
 	curtAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "嗯唔"}
 )
 
+// curtPhrase represents Curt's phrases in different languages.
 var (
 	curtPhrase = nook.Languages{
 		language.AmericanEnglish:      curtAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   curtTraditionalChinesePhrase}
 )
 
+// Curt represents the character Curt with his complete information.
 var (
 	Curt = nook.Villager{
 		Character:   curtCharacter,

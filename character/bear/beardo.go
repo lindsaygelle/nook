@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// beardoBirthday represents Beardo's birthday (September 27th).
 var (
 	beardoBirthday = nook.Birthday{
 		Day:   27,
 		Month: time.September}
 )
 
+// beardoCode represents Beardo's unique code (bea13).
 var (
 	beardoCode = nook.Code{
 		Value: "bea13"}
 )
 
+// Different names for Beardo in various languages.
 var (
 	beardoAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "熊大叔"}
 )
 
+// beardoName represents Beardo's name in different languages.
 var (
 	beardoName = nook.Languages{
 		language.AmericanEnglish:      beardoAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   beardoTraditionalChineseName}
 )
 
+// beardoCharacter represents Beardo's character information.
 var (
 	beardoCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Beardo in various languages.
 var (
 	beardoAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "咳咳"}
 )
 
+// beardoPhrase represents Beardo's phrases in different languages.
 var (
 	beardoPhrase = nook.Languages{
 		language.AmericanEnglish:      beardoAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   beardoTraditionalChinesePhrase}
 )
 
+// Beardo represents the character Beardo with his complete information.
 var (
 	Beardo = nook.Villager{
 		Character:   beardoCharacter,

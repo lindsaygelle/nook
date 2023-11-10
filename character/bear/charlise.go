@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// charliseBirthday represents Charlise's birthday (April 17th).
 var (
 	charliseBirthday = nook.Birthday{
 		Day:   17,
 		Month: time.April}
 )
 
+// charliseCode represents Charlise's unique code (bea12).
 var (
 	charliseCode = nook.Code{
 		Value: "bea12"}
 )
 
+// Different names for Charlise in various languages.
 var (
 	charliseAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -76,6 +79,7 @@ var (
 		Value:    "恰咪"}
 )
 
+// charliseName represents Charlise's name in different languages.
 var (
 	charliseName = nook.Languages{
 		language.AmericanEnglish:      charliseAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   charliseTraditionalChineseName}
 )
 
+// charliseCharacter represents Charlise's character information.
 var (
 	charliseCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Charlise in various languages.
 var (
 	charliseAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "唷咻"}
 )
 
+// charlisePhrase represents Charlise's phrases in different languages.
 var (
 	charlisePhrase = nook.Languages{
 		language.AmericanEnglish:      charliseAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   charliseTraditionalChinesePhrase}
 )
 
+// Charlise represents the character Charlise with her complete information.
 var (
 	Charlise = nook.Villager{
 		Character:   charliseCharacter,

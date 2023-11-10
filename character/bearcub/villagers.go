@@ -5,6 +5,7 @@ import (
 	"github.com/lindsaygelle/nook/character"
 )
 
+// Villagers is map of villager instances.
 var (
 	Villagers = nook.Villagers{
 		character.Barold:   Barold,

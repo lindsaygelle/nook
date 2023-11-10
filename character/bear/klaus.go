@@ -11,17 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
+// klausBirthday represents Klaus's birthday (March 31st).
 var (
 	klausBirthday = nook.Birthday{
 		Day:   31,
 		Month: time.March}
 )
 
+// klausCode represents Klaus's unique code (BEA14).
 var (
 	klausCode = nook.Code{
 		Value: "bea14"}
 )
 
+// Different names for Klaus in various languages.
 var (
 	klausAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
@@ -73,9 +76,10 @@ var (
 
 	klausTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    "熊戰士"}
+		Value:    "熊战士"}
 )
 
+// klausName represents Klaus's name in different languages.
 var (
 	klausName = nook.Languages{
 		language.AmericanEnglish:      klausAmericanEnglishName,
@@ -93,6 +97,7 @@ var (
 		language.TraditionalChinese:   klausTraditionalChineseName}
 )
 
+// klausCharacter represents Klaus's character information.
 var (
 	klausCharacter = nook.Character{
 		Animal:   animal.Bear,
@@ -104,6 +109,7 @@ var (
 		Special:  false}
 )
 
+// Different phrases spoken by Klaus in various languages.
 var (
 	klausAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
@@ -158,6 +164,7 @@ var (
 		Value:    "Over"}
 )
 
+// klausPhrase represents Klaus's phrases in different languages.
 var (
 	klausPhrase = nook.Languages{
 		language.AmericanEnglish:      klausAmericanEnglishPhrase,
@@ -175,6 +182,7 @@ var (
 		language.TraditionalChinese:   klausTraditionalChinesePhrase}
 )
 
+// Klaus represents the character Klaus with his complete information.
 var (
 	Klaus = nook.Villager{
 		Character:   klausCharacter,
