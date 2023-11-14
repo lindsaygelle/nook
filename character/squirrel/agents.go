@@ -12,172 +12,204 @@ import (
 )
 
 var (
-	agentsBirthday = nook.Birthday{
+	// agentSBirthday represents Agent S' birthday (July 2nd).
+	agentSBirthday = nook.Birthday{
 		Day:   2,
 		Month: time.July}
 )
 
 var (
-	agentsCode = nook.Code{
+	// agentSCode represents Agent S' unique code ("squ05").
+	agentSCode = nook.Code{
 		Value: "squ05"}
 )
 
 var (
-	agentsAmericanEnglishName = nook.Name{
+	// agentSAmericanEnglishName represents Agent S' name in American English.
+	agentSAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Agent S"}
 
-	agentsCanadianFrenchName = nook.Name{
+	// agentSCanadianFrenchName represents Agent S' name in Canadian French.
+	agentSCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "Ninjette"}
 
-	agentsDutchName = nook.Name{
+	// agentSDutchName represents Agent S' name in Dutch.
+	agentSDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    "Agent S"}
 
-	agentsFrenchName = nook.Name{
+	// agentSFrenchName represents Agent S' name in French.
+	agentSFrenchName = nook.Name{
 		Language: language.French,
 		Value:    "Ninjette"}
 
-	agentsGermanName = nook.Name{
+	// agentSGermanName represents Agent S' name in German.
+	agentSGermanName = nook.Name{
 		Language: language.German,
 		Value:    "Karin"}
 
-	agentsItalianName = nook.Name{
+	// agentSItalianName represents Agent S' name in Italian.
+	agentSItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    "Agente S"}
 
-	agentsJapaneseName = nook.Name{
+	// agentSJapaneseName represents Agent S' name in Japanese.
+	agentSJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "２ごう"}
 
-	agentsKoreanName = nook.Name{
+	// agentSKoreanName represents Agent S' name in Korean.
+	agentSKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    "2호"}
 
-	agentsLatinAmericanSpanishName = nook.Name{
+	// agentSLatinAmericanSpanishName represents Agent S' name in Latin American Spanish.
+	agentSLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "Fardilia"}
 
-	agentsRussianName = nook.Name{
+	// agentSRussianName represents Agent S' name in Russian.
+	agentSRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    "Агент С"}
 
-	agentsSimplifiedChineseName = nook.Name{
+	// agentSSimplifiedChineseName represents Agent S' name in Simplified Chinese.
+	agentSSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "阿二"}
 
-	agentsSpanishName = nook.Name{
+	// agentSSpanishName represents Agent S' name in Spanish.
+	agentSSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    "Fardilia"}
 
-	agentsTraditionalChineseName = nook.Name{
+	// agentSTraditionalChineseName represents Agent S' name in Traditional Chinese.
+	agentSTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    "阿二"}
 )
 
 var (
-	agentsName = nook.Languages{
-		language.AmericanEnglish:      agentsAmericanEnglishName,
-		language.CanadianFrench:       agentsCanadianFrenchName,
-		language.Dutch:                agentsDutchName,
-		language.French:               agentsFrenchName,
-		language.German:               agentsGermanName,
-		language.Italian:              agentsItalianName,
-		language.Japanese:             agentsJapaneseName,
-		language.Korean:               agentsKoreanName,
-		language.LatinAmericanSpanish: agentsLatinAmericanSpanishName,
-		language.Russian:              agentsRussianName,
-		language.SimplifiedChinese:    agentsSimplifiedChineseName,
-		language.Spanish:              agentsSpanishName,
-		language.TraditionalChinese:   agentsTraditionalChineseName}
+	// agentSName represents Agent S' name in different languages.
+	agentSName = nook.Languages{
+		language.AmericanEnglish:      agentSAmericanEnglishName,
+		language.CanadianFrench:       agentSCanadianFrenchName,
+		language.Dutch:                agentSDutchName,
+		language.French:               agentSFrenchName,
+		language.German:               agentSGermanName,
+		language.Italian:              agentSItalianName,
+		language.Japanese:             agentSJapaneseName,
+		language.Korean:               agentSKoreanName,
+		language.LatinAmericanSpanish: agentSLatinAmericanSpanishName,
+		language.Russian:              agentSRussianName,
+		language.SimplifiedChinese:    agentSSimplifiedChineseName,
+		language.Spanish:              agentSSpanishName,
+		language.TraditionalChinese:   agentSTraditionalChineseName}
 )
 
 var (
-	agentsCharacter = nook.Character{
+	// agentSCharacter represents Agent S' character information.
+	agentSCharacter = nook.Character{
 		Animal:   animal.Squirrel,
-		Birthday: agentsBirthday,
-		Code:     agentsCode,
+		Birthday: agentSBirthday,
+		Code:     agentSCode,
 		Key:      character.AgentS,
 		Gender:   gender.Female,
-		Name:     agentsName,
+		Name:     agentSName,
 		Special:  false}
 )
 
 var (
-	agentsAmericanEnglishPhrase = nook.Name{
+	// agentSAmericanEnglishPhrase represents Agent S' phrase in American English.
+	agentSAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "sidekick"}
 
-	agentsCanadianFrenchPhrase = nook.Name{
+	// agentSCanadianFrenchPhrase represents Agent S' phrase in Canadian French.
+	agentSCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "haï-ya"}
 
-	agentsDutchPhrase = nook.Name{
+	// agentSDutchPhrase represents Agent S' phrase in Dutch.
+	agentSDutchPhrase = nook.Name{
 		Language: language.Dutch,
 		Value:    "sidekick"}
 
-	agentsFrenchPhrase = nook.Name{
+	// agentSFrenchPhrase represents Agent S' phrase in French.
+	agentSFrenchPhrase = nook.Name{
 		Language: language.French,
 		Value:    "poto"}
 
-	agentsGermanPhrase = nook.Name{
+	// agentSGermanPhrase represents Agent S' phrase in German.
+	agentSGermanPhrase = nook.Name{
 		Language: language.German,
 		Value:    "strampl"}
 
-	agentsItalianPhrase = nook.Name{
+	// agentSItalianPhrase represents Agent S' phrase in Italian.
+	agentSItalianPhrase = nook.Name{
 		Language: language.Italian,
 		Value:    "spalla"}
 
-	agentsJapanesePhrase = nook.Name{
+	// agentSJapanesePhrase represents Agent S' phrase in Japanese.
+	agentSJapanesePhrase = nook.Name{
 		Language: language.Japanese,
 		Value:    "せいやっ"}
 
-	agentsKoreanPhrase = nook.Name{
+	// agentSKoreanPhrase represents Agent S' phrase in Korean.
+	agentSKoreanPhrase = nook.Name{
 		Language: language.Korean,
 		Value:    "흠냐"}
 
-	agentsLatinAmericanSpanishPhrase = nook.Name{
+	// agentSLatinAmericanSpanishPhrase represents Agent S' phrase in Latin American Spanish.
+	agentSLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "hai-ááá"}
 
-	agentsRussianPhrase = nook.Name{
+	// agentSRussianPhrase represents Agent S' phrase in Russian.
+	agentSRussianPhrase = nook.Name{
 		Language: language.Russian,
 		Value:    "коллега"}
 
-	agentsSimplifiedChinesePhrase = nook.Name{
+	// agentSSimplifiedChinesePhrase represents Agent S' phrase in Simplified Chinese.
+	agentSSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "嘿唷"}
 
-	agentsSpanishPhrase = nook.Name{
+	// agentSSpanishPhrase represents Agent S' phrase in Spanish.
+	agentSSpanishPhrase = nook.Name{
 		Language: language.Spanish,
 		Value:    "piñita"}
 
-	agentsTraditionalChinesePhrase = nook.Name{
+	// agentSTraditionalChinesePhrase represents Agent S' phrase in Traditional Chinese.
+	agentSTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    "嘿唷"}
 )
 
 var (
-	agentsPhrase = nook.Languages{
-		language.AmericanEnglish:      agentsAmericanEnglishPhrase,
-		language.CanadianFrench:       agentsCanadianFrenchPhrase,
-		language.Dutch:                agentsDutchPhrase,
-		language.French:               agentsFrenchPhrase,
-		language.German:               agentsGermanPhrase,
-		language.Italian:              agentsItalianPhrase,
-		language.Japanese:             agentsJapanesePhrase,
-		language.Korean:               agentsKoreanPhrase,
-		language.LatinAmericanSpanish: agentsLatinAmericanSpanishPhrase,
-		language.Russian:              agentsRussianPhrase,
-		language.SimplifiedChinese:    agentsSimplifiedChinesePhrase,
-		language.Spanish:              agentsSpanishPhrase,
-		language.TraditionalChinese:   agentsTraditionalChinesePhrase}
+	// agentSPhrase represents Agent S' phrases in different languages.
+	agentSPhrase = nook.Languages{
+		language.AmericanEnglish:      agentSAmericanEnglishPhrase,
+		language.CanadianFrench:       agentSCanadianFrenchPhrase,
+		language.Dutch:                agentSDutchPhrase,
+		language.French:               agentSFrenchPhrase,
+		language.German:               agentSGermanPhrase,
+		language.Italian:              agentSItalianPhrase,
+		language.Japanese:             agentSJapanesePhrase,
+		language.Korean:               agentSKoreanPhrase,
+		language.LatinAmericanSpanish: agentSLatinAmericanSpanishPhrase,
+		language.Russian:              agentSRussianPhrase,
+		language.SimplifiedChinese:    agentSSimplifiedChinesePhrase,
+		language.Spanish:              agentSSpanishPhrase,
+		language.TraditionalChinese:   agentSTraditionalChinesePhrase}
 )
 
 var (
+	// AgentS represents the character Agent S with her complete information.
 	AgentS = nook.Villager{
-		Character:   agentsCharacter,
+		Character:   agentSCharacter,
 		Personality: personality.Peppy,
-		Phrase:      agentsPhrase}
+		Phrase:      agentSPhrase}
 )
