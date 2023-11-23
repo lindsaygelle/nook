@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// ohareCode represents O'Hare's unique code.
+	// ohareCode represents O'Hare's unique code ("rbt15").
 	ohareCode = nook.Code{
 		Value: "rbt15"}
 )

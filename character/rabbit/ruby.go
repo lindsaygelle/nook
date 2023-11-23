@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// rubyCode represents Ruby's unique code.
+	// rubyCode represents Ruby's unique code ("rbt09").
 	rubyCode = nook.Code{
 		Value: "rbt09"}
 )

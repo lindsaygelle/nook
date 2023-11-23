@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// genjiCode represents Genji's unique code.
+	// genjiCode represents Genji's unique code ("rbt08").
 	genjiCode = nook.Code{
 		Value: "rbt08"}
 )

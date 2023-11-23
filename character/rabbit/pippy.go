@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// pippyCode represents Pippy's unique code.
+	// pippyCode represents Pippy's unique code ("rbt06").
 	pippyCode = nook.Code{
 		Value: "rbt06"}
 )

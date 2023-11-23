@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// bonbonCode represents Bonbon's unique code.
+	// bonbonCode represents Bonbon's unique code ("rbt17").
 	bonbonCode = nook.Code{
 		Value: "rbt17"}
 )

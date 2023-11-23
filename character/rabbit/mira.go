@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// miraCode represents Mira's unique code.
+	// miraCode represents Mira's unique code ("rbt19").
 	miraCode = nook.Code{
 		Value: "rbt19"}
 )

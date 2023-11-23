@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// chrissyCode represents Chrissy's unique code.
+	// chrissyCode represents Chrissy's unique code ("rbt13").
 	chrissyCode = nook.Code{
 		Value: "rbt13"}
 )
