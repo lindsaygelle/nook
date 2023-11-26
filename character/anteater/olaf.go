@@ -11,7 +11,7 @@ import (
 	"golang.org/x/text/language"
 )
 
-// olafBirthday represents Olaf's birthday (May 19th).
+// olafBirthday represents Olaf's birthday.
 var (
 	olafBirthday = nook.Birthday{
 		Day:   19,

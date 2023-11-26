@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// genBirthday represents Gen's birthday (Month and Day values are placeholders).
+	// genBirthday represents Gen's birthday.
 	genBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
 var (
-	// genCode represents Gen's unique code (empty string for now).
+	// genCode represents Gen's unique code.
 	genCode = nook.Code{
 		Value: ""}
 )

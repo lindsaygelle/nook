@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// audieBirthday represents Audie's birthday (August 31st).
+	// audieBirthday represents Audie's birthday.
 	audieBirthday = nook.Birthday{
 		Day:   31,
 		Month: time.August}
 )
 
 var (
-	// audieCode represents Audie's unique code ("wol12").
+	// audieCode represents Audie's unique code.
 	audieCode = nook.Code{
 		Value: "wol12"}
 )

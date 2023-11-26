@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// stellaBirthday represents Stella's birthday (April 9th).
+	// stellaBirthday represents Stella's birthday.
 	stellaBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.April}
 )
 
 var (
-	// stellaCode represents Stella's unique code ("shp03").
+	// stellaCode represents Stella's unique code.
 	stellaCode = nook.Code{
 		Value: "shp03"}
 )

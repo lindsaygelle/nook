@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// kitBirthday represents Kit's birthday (unknown).
+	// kitBirthday represents Kit's birthday.
 	kitBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
 var (
-	// kitCode represents Kit's unique code (unknown).
+	// kitCode represents Kit's unique code.
 	kitCode = nook.Code{
 		Value: ""}
 )

@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// bangleBirthday represents Bangle's birthday (August 27th).
+	// bangleBirthday represents Bangle's birthday.
 	bangleBirthday = nook.Birthday{
 		Day:   27,
 		Month: time.August}
 )
 
 var (
-	// bangleCode represents Bangle's unique code ("tig03").
+	// bangleCode represents Bangle's unique code.
 	bangleCode = nook.Code{
 		Value: "tig03"}
 )

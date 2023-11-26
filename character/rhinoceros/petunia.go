@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// petuniaBirthday represents Petunia's birthday (unknown).
+	// petuniaBirthday represents Petunia's birthday.
 	petuniaBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
 var (
-	// petuniaCode represents Petunia's unique code (unknown).
+	// petuniaCode represents Petunia's unique code.
 	petuniaCode = nook.Code{
 		Value: ""}
 )

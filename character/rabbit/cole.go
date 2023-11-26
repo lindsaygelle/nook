@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// coleCode represents Cole's unique code ("rbt18").
+	// coleCode represents Cole's unique code.
 	coleCode = nook.Code{
 		Value: "rbt18"}
 )

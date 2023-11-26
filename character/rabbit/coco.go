@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// cocoCode represents Coco's unique code ("rbt02").
+	// cocoCode represents Coco's unique code.
 	cocoCode = nook.Code{
 		Value: "rbt02"}
 )

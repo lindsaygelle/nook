@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// gastonCode represents Gaston's unique code ("rbt04").
+	// gastonCode represents Gaston's unique code.
 	gastonCode = nook.Code{
 		Value: "rbt04"}
 )

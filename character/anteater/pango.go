@@ -11,7 +11,7 @@ import (
 	"golang.org/x/text/language"
 )
 
-// pangoBirthday represents Pango's birthday (November 9th).
+// pangoBirthday represents Pango's birthday.
 var (
 	pangoBirthday = nook.Birthday{
 		Day:   9,

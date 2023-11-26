@@ -11,14 +11,14 @@ import (
 	"golang.org/x/text/language"
 )
 
-// cyranoBirthday represents Cyrano's birthday (March 9th).
+// cyranoBirthday represents Cyrano's birthday.
 var (
 	cyranoBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.March}
 )
 
-// cyranoCode represents Cyrano's unique code ("ant00").
+// cyranoCode represents Cyrano's unique code.
 var (
 	cyranoCode = nook.Code{
 		Value: "ant00"}

@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// docCode represents Doc's unique code ("rbt10").
+	// docCode represents Doc's unique code.
 	docCode = nook.Code{
 		Value: "rbt10"}
 )

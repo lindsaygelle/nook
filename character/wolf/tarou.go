@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// tarouBirthday represents Tarou's birthday (January 0th).
+	// tarouBirthday represents Tarou's birthday.
 	tarouBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
 var (
-	// tarouCode represents Tarou's unique code (empty string).
+	// tarouCode represents Tarou's unique code.
 	tarouCode = nook.Code{
 		Value: ""}
 )

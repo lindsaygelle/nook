@@ -19,7 +19,7 @@ var (
 )
 
 var (
-	// snakeCode represents Snake's unique code ("rbt03").
+	// snakeCode represents Snake's unique code.
 	snakeCode = nook.Code{
 		Value: "rbt03"}
 )

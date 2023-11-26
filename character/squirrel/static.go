@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// staticBirthday represents Static's birthday (July 9th).
+	// staticBirthday represents Static's birthday.
 	staticBirthday = nook.Birthday{
 		Day:   9,
 		Month: time.July}
 )
 
 var (
-	// staticCode represents Static's unique code ("squ08").
+	// staticCode represents Static's unique code.
 	staticCode = nook.Code{
 		Value: "squ08"}
 )
