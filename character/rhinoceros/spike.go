@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// spikeBirthday represents Spike's birthday (June 17th).
+	// spikeBirthday represents Spike's birthday.
 	spikeBirthday = nook.Birthday{
 		Day:   17,
 		Month: time.June}
 )
 
 var (
-	// spikeCode represents Spike's unique code ("rhn02").
+	// spikeCode represents Spike's unique code.
 	spikeCode = nook.Code{
 		Value: "rhn02"}
 )

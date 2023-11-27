@@ -11,14 +11,14 @@ import (
 	"golang.org/x/text/language"
 )
 
-// dozerBirthday represents Dozer's birthday (Unknown).
+// dozerBirthday represents Dozer's birthday.
 var (
 	dozerBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
-// dozerCode represents Dozer's unique code (Unknown).
+// dozerCode represents Dozer's unique code.
 var (
 	dozerCode = nook.Code{
 		Value: ""}

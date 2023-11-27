@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// tiaraBirthday represents Tiara's birthday (unknown).
+	// tiaraBirthday represents Tiara's birthday.
 	tiaraBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
 var (
-	// tiaraCode represents Tiara's unique code (unknown).
+	// tiaraCode represents Tiara's unique code.
 	tiaraCode = nook.Code{
 		Value: ""}
 )

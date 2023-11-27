@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// timbraBirthday represents Timbra's birthday (October 21st).
+	// timbraBirthday represents Timbra's birthday.
 	timbraBirthday = nook.Birthday{
 		Day:   21,
 		Month: time.October}
 )
 
 var (
-	// timbraCode represents Timbra's unique code ("shp10").
+	// timbraCode represents Timbra's unique code.
 	timbraCode = nook.Code{
 		Value: "shp10"}
 )

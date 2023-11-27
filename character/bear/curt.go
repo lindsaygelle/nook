@@ -11,14 +11,14 @@ import (
 	"golang.org/x/text/language"
 )
 
-// curtBirthday represents Curt's birthday (July 1st).
+// curtBirthday represents Curt's birthday.
 var (
 	curtBirthday = nook.Birthday{
 		Day:   1,
 		Month: time.July}
 )
 
-// curtCode represents Curt's unique code (bea02).
+// curtCode represents Curt's unique code.
 var (
 	curtCode = nook.Code{
 		Value: "bea02"}

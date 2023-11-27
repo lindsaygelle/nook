@@ -12,14 +12,14 @@ import (
 )
 
 var (
-	// vicheBirthday represents Viche's birthday (July 7th).
+	// vicheBirthday represents Viche's birthday.
 	vicheBirthday = nook.Birthday{
 		Day:   7,
 		Month: time.July}
 )
 
 var (
-	// vicheCode represents Viche's unique code ("squ20").
+	// vicheCode represents Viche's unique code.
 	vicheCode = nook.Code{
 		Value: "squ20"}
 )
