@@ -3,8 +3,11 @@
 
 Nook exports basic information for characters that appear in the video game series [Animal Crossing](https://animal-crossing.com/).
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/lindsaygelle/nook.svg)](https://pkg.go.dev/github.com/lindsaygelle/nook)
-[![GitHub](https://img.shields.io/github/license/lindsaygelle/nook)](/LICENSE)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/lindsaygelle/nook)](https://pkg.go.dev/github.com/lindsaygelle/nook)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lindsaygelle/nook)](https://goreportcard.com/report/github.com/lindsaygelle/nook)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/lindsaygelle/nook)](https://github.com/lindsaygelle/nook/releases)
+[![GitHub](https://img.shields.io/github/license/lindsaygelle/nook)](LICENSE.txt)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 
 ## Introduction
