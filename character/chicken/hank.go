@@ -12,71 +12,87 @@ import (
 )
 
 var (
+	// hankBirthday represents hank birthday.
 	hankBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
 )
 
 var (
+	// hankCode represents hank code.
 	hankCode = nook.Code{
 		Value: ""}
 )
 
 var (
+	// hankAmericanEnglishName represents hank american english name.
 	hankAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Hank"}
 
+	// hankCanadianFrenchName represents hank canadian french name.
 	hankCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    ""}
 
+	// hankDutchName represents hank dutch name.
 	hankDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// hankFrenchName represents hank french name.
 	hankFrenchName = nook.Name{
 		Language: language.French,
 		Value:    "Bruce"}
 
+	// hankGermanName represents hank german name.
 	hankGermanName = nook.Name{
 		Language: language.German,
 		Value:    "Galiardo"}
 
+	// hankItalianName represents hank italian name.
 	hankItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    "Pettore"}
 
+	// hankJapaneseName represents hank japanese name.
 	hankJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "タツた"}
 
+	// hankKoreanName represents hank korean name.
 	hankKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    ""}
 
+	// hankLatinAmericanSpanishName represents hank latin american spanish name.
 	hankLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    ""}
 
+	// hankRussianName represents hank russian name.
 	hankRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// hankSimplifiedChineseName represents hank simplified chinese name.
 	hankSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "丁丁"}
 
+	// hankSpanishName represents hank spanish name.
 	hankSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    "Claudio"}
 
+	// hankTraditionalChineseName represents hank traditional chinese name.
 	hankTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
 )
 
 var (
+	// hankName represents hank name.
 	hankName = nook.Languages{
 		language.AmericanEnglish:      hankAmericanEnglishName,
 		language.CanadianFrench:       hankCanadianFrenchName,
@@ -94,6 +110,7 @@ var (
 )
 
 var (
+	// hankCharacter represents hank character.
 	hankCharacter = nook.Character{
 		Animal:   animal.Chicken,
 		Birthday: hankBirthday,
@@ -105,60 +122,74 @@ var (
 )
 
 var (
+	// hankAmericanEnglishPhrase represents hank american english phrase.
 	hankAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "buhk buhk"}
 
+	// hankCanadianFrenchPhrase represents hank canadian french phrase.
 	hankCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    ""}
 
+	// hankDutchPhrase represents hank dutch phrase.
 	hankDutchPhrase = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// hankFrenchPhrase represents hank french phrase.
 	hankFrenchPhrase = nook.Name{
 		Language: language.French,
 		Value:    "cocorico"}
 
+	// hankGermanPhrase represents hank german phrase.
 	hankGermanPhrase = nook.Name{
 		Language: language.German,
 		Value:    "bakbak"}
 
+	// hankItalianPhrase represents hank italian phrase.
 	hankItalianPhrase = nook.Name{
 		Language: language.Italian,
 		Value:    "boh boh"}
 
+	// hankJapanesePhrase represents hank japanese phrase.
 	hankJapanesePhrase = nook.Name{
 		Language: language.Japanese,
 		Value:    "じゃん"}
 
+	// hankKoreanPhrase represents hank korean phrase.
 	hankKoreanPhrase = nook.Name{
 		Language: language.Korean,
 		Value:    ""}
 
+	// hankLatinAmericanSpanishPhrase represents hank latin american spanish phrase.
 	hankLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    ""}
 
+	// hankRussianPhrase represents hank russian phrase.
 	hankRussianPhrase = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// hankSimplifiedChinesePhrase represents hank simplified chinese phrase.
 	hankSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "啾啾"}
 
+	// hankSpanishPhrase represents hank spanish phrase.
 	hankSpanishPhrase = nook.Name{
 		Language: language.Spanish,
 		Value:    "cocorico"}
 
+	// hankTraditionalChinesePhrase represents hank traditional chinese phrase.
 	hankTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
 )
 
 var (
+	// hankPhrase represents hank phrase.
 	hankPhrase = nook.Languages{
 		language.AmericanEnglish:      hankAmericanEnglishPhrase,
 		language.CanadianFrench:       hankCanadianFrenchPhrase,
@@ -176,6 +207,7 @@ var (
 )
 
 var (
+	// Hank represents hank.
 	Hank = nook.Villager{
 		Character:   hankCharacter,
 		Personality: personality.Jock,

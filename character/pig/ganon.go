@@ -12,71 +12,87 @@ import (
 )
 
 var (
+	// ganonBirthday represents ganon birthday.
 	ganonBirthday = nook.Birthday{
 		Day:   21,
 		Month: time.February}
 )
 
 var (
+	// ganonCode represents ganon code.
 	ganonCode = nook.Code{
 		Value: "pig18"}
 )
 
 var (
+	// ganonAmericanEnglishName represents ganon american english name.
 	ganonAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Ganon"}
 
+	// ganonCanadianFrenchName represents ganon canadian french name.
 	ganonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "Ganon"}
 
+	// ganonDutchName represents ganon dutch name.
 	ganonDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// ganonFrenchName represents ganon french name.
 	ganonFrenchName = nook.Name{
 		Language: language.French,
 		Value:    "Ganon"}
 
+	// ganonGermanName represents ganon german name.
 	ganonGermanName = nook.Name{
 		Language: language.German,
 		Value:    "Ganon"}
 
+	// ganonItalianName represents ganon italian name.
 	ganonItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    "Ganon"}
 
+	// ganonJapaneseName represents ganon japanese name.
 	ganonJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "ガノン"}
 
+	// ganonKoreanName represents ganon korean name.
 	ganonKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    "가논"}
 
+	// ganonLatinAmericanSpanishName represents ganon latin american spanish name.
 	ganonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "Ganon"}
 
+	// ganonRussianName represents ganon russian name.
 	ganonRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// ganonSimplifiedChineseName represents ganon simplified chinese name.
 	ganonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    ""}
 
+	// ganonSpanishName represents ganon spanish name.
 	ganonSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    "Ganon"}
 
+	// ganonTraditionalChineseName represents ganon traditional chinese name.
 	ganonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
 )
 
 var (
+	// ganonName represents ganon name.
 	ganonName = nook.Languages{
 		language.AmericanEnglish:      ganonAmericanEnglishName,
 		language.CanadianFrench:       ganonCanadianFrenchName,
@@ -94,6 +110,7 @@ var (
 )
 
 var (
+	// ganonCharacter represents ganon character.
 	ganonCharacter = nook.Character{
 		Animal:   animal.Pig,
 		Birthday: ganonBirthday,
@@ -105,60 +122,74 @@ var (
 )
 
 var (
+	// ganonAmericanEnglishPhrase represents ganon american english phrase.
 	ganonAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "heh heh"}
 
+	// ganonCanadianFrenchPhrase represents ganon canadian french phrase.
 	ganonCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "ganouïrk"}
 
+	// ganonDutchPhrase represents ganon dutch phrase.
 	ganonDutchPhrase = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// ganonFrenchPhrase represents ganon french phrase.
 	ganonFrenchPhrase = nook.Name{
 		Language: language.French,
 		Value:    "ganouïrk"}
 
+	// ganonGermanPhrase represents ganon german phrase.
 	ganonGermanPhrase = nook.Name{
 		Language: language.German,
 		Value:    "ganoink"}
 
+	// ganonItalianPhrase represents ganon italian phrase.
 	ganonItalianPhrase = nook.Name{
 		Language: language.Italian,
 		Value:    "trisgrunf"}
 
+	// ganonJapanesePhrase represents ganon japanese phrase.
 	ganonJapanesePhrase = nook.Name{
 		Language: language.Japanese,
 		Value:    "フォース"}
 
+	// ganonKoreanPhrase represents ganon korean phrase.
 	ganonKoreanPhrase = nook.Name{
 		Language: language.Korean,
 		Value:    "포스"}
 
+	// ganonLatinAmericanSpanishPhrase represents ganon latin american spanish phrase.
 	ganonLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "ganoink"}
 
+	// ganonRussianPhrase represents ganon russian phrase.
 	ganonRussianPhrase = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// ganonSimplifiedChinesePhrase represents ganon simplified chinese phrase.
 	ganonSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    ""}
 
+	// ganonSpanishPhrase represents ganon spanish phrase.
 	ganonSpanishPhrase = nook.Name{
 		Language: language.Spanish,
 		Value:    "ganoink"}
 
+	// ganonTraditionalChinesePhrase represents ganon traditional chinese phrase.
 	ganonTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
 )
 
 var (
+	// ganonPhrase represents ganon phrase.
 	ganonPhrase = nook.Languages{
 		language.AmericanEnglish:      ganonAmericanEnglishPhrase,
 		language.CanadianFrench:       ganonCanadianFrenchPhrase,
@@ -176,6 +207,7 @@ var (
 )
 
 var (
+	// Ganon represents ganon.
 	Ganon = nook.Villager{
 		Character:   ganonCharacter,
 		Personality: personality.Cranky,
