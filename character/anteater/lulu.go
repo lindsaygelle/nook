@@ -13,6 +13,7 @@ import (
 
 // luluBirthday represents Lulu's birthday.
 var (
+	// luluBirthday represents lulu birthday.
 	luluBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
@@ -20,60 +21,74 @@ var (
 
 // luluCode represents Lulu's unique code.
 var (
+	// luluCode represents lulu code.
 	luluCode = nook.Code{
 		Value: ""}
 )
 
 // Different names for Lulu in various languages.
 var (
+	// luluAmericanEnglishName represents lulu american english name.
 	luluAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Lulu"}
 
+	// luluCanadianFrenchName represents lulu canadian french name.
 	luluCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    ""}
 
+	// luluDutchName represents lulu dutch name.
 	luluDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// luluFrenchName represents lulu french name.
 	luluFrenchName = nook.Name{
 		Language: language.French,
 		Value:    ""}
 
+	// luluGermanName represents lulu german name.
 	luluGermanName = nook.Name{
 		Language: language.German,
 		Value:    ""}
 
+	// luluItalianName represents lulu italian name.
 	luluItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    ""}
 
+	// luluJapaneseName represents lulu japanese name.
 	luluJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "ルル"}
 
+	// luluKoreanName represents lulu korean name.
 	luluKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    ""}
 
+	// luluLatinAmericanSpanishName represents lulu latin american spanish name.
 	luluLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    ""}
 
+	// luluRussianName represents lulu russian name.
 	luluRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// luluSimplifiedChineseName represents lulu simplified chinese name.
 	luluSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    ""}
 
+	// luluSpanishName represents lulu spanish name.
 	luluSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    ""}
 
+	// luluTraditionalChineseName represents lulu traditional chinese name.
 	luluTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
@@ -81,6 +96,7 @@ var (
 
 // luluName represents Lulu's name in different languages.
 var (
+	// luluName represents lulu name.
 	luluName = nook.Languages{
 		language.AmericanEnglish:      luluAmericanEnglishName,
 		language.CanadianFrench:       luluCanadianFrenchName,
@@ -99,6 +115,7 @@ var (
 
 // luluCharacter represents Lulu's character information.
 var (
+	// luluCharacter represents lulu character.
 	luluCharacter = nook.Character{
 		Animal:   animal.Anteater,
 		Birthday: luluBirthday,
@@ -111,54 +128,67 @@ var (
 
 // Different phrases spoken by Lulu in various languages.
 var (
+	// luluAmericanEnglishPhrase represents lulu american english phrase.
 	luluAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "あらあら"}
 
+	// luluCanadianFrenchPhrase represents lulu canadian french phrase.
 	luluCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    ""}
 
+	// luluDutchPhrase represents lulu dutch phrase.
 	luluDutchPhrase = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// luluFrenchPhrase represents lulu french phrase.
 	luluFrenchPhrase = nook.Name{
 		Language: language.French,
 		Value:    ""}
 
+	// luluGermanPhrase represents lulu german phrase.
 	luluGermanPhrase = nook.Name{
 		Language: language.German,
 		Value:    ""}
 
+	// luluItalianPhrase represents lulu italian phrase.
 	luluItalianPhrase = nook.Name{
 		Language: language.Italian,
 		Value:    ""}
 
+	// luluJapanesePhrase represents lulu japanese phrase.
 	luluJapanesePhrase = nook.Name{
 		Language: language.Japanese,
 		Value:    "あらあら"}
 
+	// luluKoreanPhrase represents lulu korean phrase.
 	luluKoreanPhrase = nook.Name{
 		Language: language.Korean,
 		Value:    ""}
 
+	// luluLatinAmericanSpanishPhrase represents lulu latin american spanish phrase.
 	luluLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    ""}
 
+	// luluRussianPhrase represents lulu russian phrase.
 	luluRussianPhrase = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// luluSimplifiedChinesePhrase represents lulu simplified chinese phrase.
 	luluSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    ""}
 
+	// luluSpanishPhrase represents lulu spanish phrase.
 	luluSpanishPhrase = nook.Name{
 		Language: language.Spanish,
 		Value:    ""}
 
+	// luluTraditionalChinesePhrase represents lulu traditional chinese phrase.
 	luluTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
@@ -166,6 +196,7 @@ var (
 
 // luluPhrase represents Lulu's phrases in different languages.
 var (
+	// luluPhrase represents lulu phrase.
 	luluPhrase = nook.Languages{
 		language.AmericanEnglish:      luluAmericanEnglishPhrase,
 		language.CanadianFrench:       luluCanadianFrenchPhrase,
@@ -184,6 +215,7 @@ var (
 
 // Lulu represents the character Lulu with her complete information.
 var (
+	// Lulu represents lulu.
 	Lulu = nook.Villager{
 		Character:   luluCharacter,
 		Personality: personality.Snooty,

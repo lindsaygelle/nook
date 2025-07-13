@@ -12,71 +12,87 @@ import (
 )
 
 var (
+	// porterBirthday represents porter birthday.
 	porterBirthday = nook.Birthday{
 		Day:   17,
 		Month: time.April}
 )
 
 var (
+	// porterCode represents porter code.
 	porterCode = nook.Code{
 		Value: "mnk"}
 )
 
 var (
+	// porterAmericanEnglishName represents porter american english name.
 	porterAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Porter"}
 
+	// porterCanadianFrenchName represents porter canadian french name.
 	porterCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "Lazare"}
 
+	// porterDutchName represents porter dutch name.
 	porterDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    "Porter"}
 
+	// porterFrenchName represents porter french name.
 	porterFrenchName = nook.Name{
 		Language: language.French,
 		Value:    "Lazare"}
 
+	// porterGermanName represents porter german name.
 	porterGermanName = nook.Name{
 		Language: language.German,
 		Value:    "Flip"}
 
+	// porterItalianName represents porter italian name.
 	porterItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    "Ciufciuf"}
 
+	// porterJapaneseName represents porter japanese name.
 	porterJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "えきいんさん"}
 
+	// porterKoreanName represents porter korean name.
 	porterKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    "역무원"}
 
+	// porterLatinAmericanSpanishName represents porter latin american spanish name.
 	porterLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "Estasio"}
 
+	// porterRussianName represents porter russian name.
 	porterRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    "Портер"}
 
+	// porterSimplifiedChineseName represents porter simplified chinese name.
 	porterSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "车长叔叔"}
 
+	// porterSpanishName represents porter spanish name.
 	porterSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    "Estasio"}
 
+	// porterTraditionalChineseName represents porter traditional chinese name.
 	porterTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    "車長叔叔"}
 )
 
 var (
+	// porterName represents porter name.
 	porterName = nook.Languages{
 		language.AmericanEnglish:      porterAmericanEnglishName,
 		language.CanadianFrench:       porterCanadianFrenchName,
@@ -94,6 +110,7 @@ var (
 )
 
 var (
+	// porterCharacter represents porter character.
 	porterCharacter = nook.Character{
 		Animal:   animal.Monkey,
 		Birthday: porterBirthday,
@@ -105,6 +122,7 @@ var (
 )
 
 var (
+	// Porter represents porter.
 	Porter = nook.Resident{
 		Character: porterCharacter}
 )

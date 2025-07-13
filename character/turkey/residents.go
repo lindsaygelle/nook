@@ -6,6 +6,7 @@ import (
 )
 
 var (
+	// Residents represents residents.
 	Residents = nook.Residents{
 		character.Franklin: Franklin}
 )

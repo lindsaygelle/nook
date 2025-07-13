@@ -12,71 +12,87 @@ import (
 )
 
 var (
+	// camofrogBirthday represents camofrog birthday.
 	camofrogBirthday = nook.Birthday{
 		Day:   5,
 		Month: time.June}
 )
 
 var (
+	// camofrogCode represents camofrog code.
 	camofrogCode = nook.Code{
 		Value: "flg03"}
 )
 
 var (
+	// camofrogAmericanEnglishName represents camofrog american english name.
 	camofrogAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Camofrog"}
 
+	// camofrogCanadianFrenchName represents camofrog canadian french name.
 	camofrogCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "Milos"}
 
+	// camofrogDutchName represents camofrog dutch name.
 	camofrogDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    "Camofrog"}
 
+	// camofrogFrenchName represents camofrog french name.
 	camofrogFrenchName = nook.Name{
 		Language: language.French,
 		Value:    "Milos"}
 
+	// camofrogGermanName represents camofrog german name.
 	camofrogGermanName = nook.Name{
 		Language: language.German,
 		Value:    "Tarno"}
 
+	// camofrogItalianName represents camofrog italian name.
 	camofrogItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    "Crambo"}
 
+	// camofrogJapaneseName represents camofrog japanese name.
 	camofrogJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "フルメタル"}
 
+	// camofrogKoreanName represents camofrog korean name.
 	camofrogKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    "충성"}
 
+	// camofrogLatinAmericanSpanishName represents camofrog latin american spanish name.
 	camofrogLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "Comando"}
 
+	// camofrogRussianName represents camofrog russian name.
 	camofrogRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    "Камофрог"}
 
+	// camofrogSimplifiedChineseName represents camofrog simplified chinese name.
 	camofrogSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "迷仔"}
 
+	// camofrogSpanishName represents camofrog spanish name.
 	camofrogSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    "Comando"}
 
+	// camofrogTraditionalChineseName represents camofrog traditional chinese name.
 	camofrogTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    "迷仔"}
 )
 
 var (
+	// camofrogName represents camofrog name.
 	camofrogName = nook.Languages{
 		language.AmericanEnglish:      camofrogAmericanEnglishName,
 		language.CanadianFrench:       camofrogCanadianFrenchName,
@@ -94,6 +110,7 @@ var (
 )
 
 var (
+	// camofrogCharacter represents camofrog character.
 	camofrogCharacter = nook.Character{
 		Animal:   animal.Frog,
 		Birthday: camofrogBirthday,
@@ -105,60 +122,74 @@ var (
 )
 
 var (
+	// camofrogAmericanEnglishPhrase represents camofrog american english phrase.
 	camofrogAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "ten-hut"}
 
+	// camofrogCanadianFrenchPhrase represents camofrog canadian french phrase.
 	camofrogCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    "kaki"}
 
+	// camofrogDutchPhrase represents camofrog dutch phrase.
 	camofrogDutchPhrase = nook.Name{
 		Language: language.Dutch,
 		Value:    "geef acht"}
 
+	// camofrogFrenchPhrase represents camofrog french phrase.
 	camofrogFrenchPhrase = nook.Name{
 		Language: language.French,
 		Value:    "taïaut"}
 
+	// camofrogGermanPhrase represents camofrog german phrase.
 	camofrogGermanPhrase = nook.Name{
 		Language: language.German,
 		Value:    "quak-quak"}
 
+	// camofrogItalianPhrase represents camofrog italian phrase.
 	camofrogItalianPhrase = nook.Name{
 		Language: language.Italian,
 		Value:    "attacroak"}
 
+	// camofrogJapanesePhrase represents camofrog japanese phrase.
 	camofrogJapanesePhrase = nook.Name{
 		Language: language.Japanese,
 		Value:    "わい"}
 
+	// camofrogKoreanPhrase represents camofrog korean phrase.
 	camofrogKoreanPhrase = nook.Name{
 		Language: language.Korean,
 		Value:    "와이"}
 
+	// camofrogLatinAmericanSpanishPhrase represents camofrog latin american spanish phrase.
 	camofrogLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    "croooa"}
 
+	// camofrogRussianPhrase represents camofrog russian phrase.
 	camofrogRussianPhrase = nook.Name{
 		Language: language.Russian,
 		Value:    "шагом-квак"}
 
+	// camofrogSimplifiedChinesePhrase represents camofrog simplified chinese phrase.
 	camofrogSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "喂"}
 
+	// camofrogSpanishPhrase represents camofrog spanish phrase.
 	camofrogSpanishPhrase = nook.Name{
 		Language: language.Spanish,
 		Value:    "recluta"}
 
+	// camofrogTraditionalChinesePhrase represents camofrog traditional chinese phrase.
 	camofrogTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    "喂"}
 )
 
 var (
+	// camofrogPhrase represents camofrog phrase.
 	camofrogPhrase = nook.Languages{
 		language.AmericanEnglish:      camofrogAmericanEnglishPhrase,
 		language.CanadianFrench:       camofrogCanadianFrenchPhrase,
@@ -176,6 +207,7 @@ var (
 )
 
 var (
+	// Camofrog represents camofrog.
 	Camofrog = nook.Villager{
 		Character:   camofrogCharacter,
 		Personality: personality.Cranky,

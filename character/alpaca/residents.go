@@ -6,6 +6,7 @@ import (
 )
 
 var (
+	// Residents is map of Resident instances.
 	Residents = nook.Residents{
 		character.Cyrus: Cyrus,
 		character.Reese: Reese}

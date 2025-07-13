@@ -36,3 +36,7 @@ cover: ## Runs the tests and check & view the test coverage
 
 cover-all: TARGET := ./...
 cover-all: cover
+
+# Runs go fmt recursively
+format:
+	gofmt -l -s -w .

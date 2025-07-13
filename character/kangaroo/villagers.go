@@ -7,6 +7,7 @@ import (
 
 // Villagers is map of villager instances.
 var (
+	// Villagers represents villagers.
 	Villagers = nook.Villagers{
 		character.Astrid:   Astrid,
 		character.Carrie:   Carrie,

@@ -13,6 +13,7 @@ import (
 
 // dozerBirthday represents Dozer's birthday.
 var (
+	// dozerBirthday represents dozer birthday.
 	dozerBirthday = nook.Birthday{
 		Day:   0,
 		Month: time.Month(0)}
@@ -20,60 +21,74 @@ var (
 
 // dozerCode represents Dozer's unique code.
 var (
+	// dozerCode represents dozer code.
 	dozerCode = nook.Code{
 		Value: ""}
 )
 
 // Different names for Dozer in various languages.
 var (
+	// dozerAmericanEnglishName represents dozer american english name.
 	dozerAmericanEnglishName = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "Dozer"}
 
+	// dozerCanadianFrenchName represents dozer canadian french name.
 	dozerCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    ""}
 
+	// dozerDutchName represents dozer dutch name.
 	dozerDutchName = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// dozerFrenchName represents dozer french name.
 	dozerFrenchName = nook.Name{
 		Language: language.French,
 		Value:    "Doudou"}
 
+	// dozerGermanName represents dozer german name.
 	dozerGermanName = nook.Name{
 		Language: language.German,
 		Value:    "Nicki"}
 
+	// dozerItalianName represents dozer italian name.
 	dozerItalianName = nook.Name{
 		Language: language.Italian,
 		Value:    "Ronfo"}
 
+	// dozerJapaneseName represents dozer japanese name.
 	dozerJapaneseName = nook.Name{
 		Language: language.Japanese,
 		Value:    "スリープ"}
 
+	// dozerKoreanName represents dozer korean name.
 	dozerKoreanName = nook.Name{
 		Language: language.Korean,
 		Value:    ""}
 
+	// dozerLatinAmericanSpanishName represents dozer latin american spanish name.
 	dozerLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    ""}
 
+	// dozerRussianName represents dozer russian name.
 	dozerRussianName = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// dozerSimplifiedChineseName represents dozer simplified chinese name.
 	dozerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "忪忪"}
 
+	// dozerSpanishName represents dozer spanish name.
 	dozerSpanishName = nook.Name{
 		Language: language.Spanish,
 		Value:    "Toño"}
 
+	// dozerTraditionalChineseName represents dozer traditional chinese name.
 	dozerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
@@ -81,6 +96,7 @@ var (
 
 // dozerName represents Dozer's name in different languages.
 var (
+	// dozerName represents dozer name.
 	dozerName = nook.Languages{
 		language.AmericanEnglish:      dozerAmericanEnglishName,
 		language.CanadianFrench:       dozerCanadianFrenchName,
@@ -99,6 +115,7 @@ var (
 
 // dozerCharacter represents Dozer's character information.
 var (
+	// dozerCharacter represents dozer character.
 	dozerCharacter = nook.Character{
 		Animal:   animal.Bear,
 		Birthday: dozerBirthday,
@@ -111,54 +128,67 @@ var (
 
 // Different phrases spoken by Dozer in various languages.
 var (
+	// dozerAmericanEnglishPhrase represents dozer american english phrase.
 	dozerAmericanEnglishPhrase = nook.Name{
 		Language: language.AmericanEnglish,
 		Value:    "zzzzzz"}
 
+	// dozerCanadianFrenchPhrase represents dozer canadian french phrase.
 	dozerCanadianFrenchPhrase = nook.Name{
 		Language: language.CanadianFrench,
 		Value:    ""}
 
+	// dozerDutchPhrase represents dozer dutch phrase.
 	dozerDutchPhrase = nook.Name{
 		Language: language.Dutch,
 		Value:    ""}
 
+	// dozerFrenchPhrase represents dozer french phrase.
 	dozerFrenchPhrase = nook.Name{
 		Language: language.French,
 		Value:    "zzzzzz"}
 
+	// dozerGermanPhrase represents dozer german phrase.
 	dozerGermanPhrase = nook.Name{
 		Language: language.German,
 		Value:    "schnarch"}
 
+	// dozerItalianPhrase represents dozer italian phrase.
 	dozerItalianPhrase = nook.Name{
 		Language: language.Italian,
 		Value:    "zzzzzz"}
 
+	// dozerJapanesePhrase represents dozer japanese phrase.
 	dozerJapanesePhrase = nook.Name{
 		Language: language.Japanese,
 		Value:    "でアリ"}
 
+	// dozerKoreanPhrase represents dozer korean phrase.
 	dozerKoreanPhrase = nook.Name{
 		Language: language.Korean,
 		Value:    ""}
 
+	// dozerLatinAmericanSpanishPhrase represents dozer latin american spanish phrase.
 	dozerLatinAmericanSpanishPhrase = nook.Name{
 		Language: language.LatinAmericanSpanish,
 		Value:    ""}
 
+	// dozerRussianPhrase represents dozer russian phrase.
 	dozerRussianPhrase = nook.Name{
 		Language: language.Russian,
 		Value:    ""}
 
+	// dozerSimplifiedChinesePhrase represents dozer simplified chinese phrase.
 	dozerSimplifiedChinesePhrase = nook.Name{
 		Language: language.SimplifiedChinese,
 		Value:    "咕"}
 
+	// dozerSpanishPhrase represents dozer spanish phrase.
 	dozerSpanishPhrase = nook.Name{
 		Language: language.Spanish,
 		Value:    "zzzzzz"}
 
+	// dozerTraditionalChinesePhrase represents dozer traditional chinese phrase.
 	dozerTraditionalChinesePhrase = nook.Name{
 		Language: language.TraditionalChinese,
 		Value:    ""}
@@ -166,6 +196,7 @@ var (
 
 // dozerPhrase represents Dozer's phrases in different languages.
 var (
+	// dozerPhrase represents dozer phrase.
 	dozerPhrase = nook.Languages{
 		language.AmericanEnglish:      dozerAmericanEnglishPhrase,
 		language.CanadianFrench:       dozerCanadianFrenchPhrase,
@@ -184,6 +215,7 @@ var (
 
 // Dozer represents the character Dozer with his complete information.
 var (
+	// Dozer represents dozer.
 	Dozer = nook.Villager{
 		Character:   dozerCharacter,
 		Personality: personality.Lazy,

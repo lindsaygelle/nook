@@ -4,8 +4,8 @@ FROM alpine:latest
 # Install necessary dependencies for building Go applications
 RUN apk add --no-cache ca-certificates git
 
-# Set the latest Go version as an environment variable
-ENV GO_VERSION=1.21.0
+# Set the go.mod Go version as an environment variable
+ENV GO_VERSION=1.23.0
 
 # Download and install the latest Go binary
 RUN wget -q https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz && \
