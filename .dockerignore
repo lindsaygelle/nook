@@ -1,0 +1,17 @@
+.devcontainer
+.dockerignore
+.editorconfig
+.env
+.venv
+.virtualenv
+.git
+.github
+.gitignore
+.gitignore
+*.md
+Dockerfile
+LICENSE
+NOTICE
+VERSION
+docker-compose.yml
+requirements*.txt
