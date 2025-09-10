@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v6
       - uses: goreleaser/goreleaser-action@v6
         with:
           distribution: goreleaser
