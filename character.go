@@ -11,7 +11,8 @@ type Character struct {
 	// Code is a unique identifier for the character.
 	Code Code
 
-	// Key is a unique identifier for the character.
+	// Key is the character's canonical package key.
+	// Keys are not guaranteed to be globally unique across animal types.
 	Key Key
 
 	// Gender represents the gender of the character.
