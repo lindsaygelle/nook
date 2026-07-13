@@ -22,6 +22,35 @@ var gameReleaseOrder = map[nook.Key]int{
 	game.PocketCamp.Key:          11,
 }
 
+func sortedCharacterGames(games []nook.Game) []nook.Game {
+	out := append([]nook.Game(nil), games...)
+	slices.SortFunc(out, compareGamesByReleaseOrder)
+	return out
+}
+
+func compareGamesByReleaseOrder(a, b nook.Game) int {
+	left, ok := gameReleaseOrder[a.Key]
+	if !ok {
+		left = len(gameReleaseOrder)
+	}
+	right, ok := gameReleaseOrder[b.Key]
+	if !ok {
+		right = len(gameReleaseOrder)
+	}
+	switch {
+	case left < right:
+		return -1
+	case left > right:
+		return 1
+	case a.Key < b.Key:
+		return -1
+	case a.Key > b.Key:
+		return 1
+	default:
+		return 0
+	}
+}
+
 // CharacterGames returns a character's game appearance history in release
 // order.
 func CharacterGames(character nook.Character) ([]nook.Game, bool) {
@@ -71,33 +100,4 @@ func LastAppearanceByID(id string) (nook.Game, bool) {
 		return nook.Game{}, false
 	}
 	return games[len(games)-1], true
-}
-
-func sortedCharacterGames(games []nook.Game) []nook.Game {
-	out := append([]nook.Game(nil), games...)
-	slices.SortFunc(out, compareGamesByReleaseOrder)
-	return out
-}
-
-func compareGamesByReleaseOrder(a, b nook.Game) int {
-	left, ok := gameReleaseOrder[a.Key]
-	if !ok {
-		left = len(gameReleaseOrder)
-	}
-	right, ok := gameReleaseOrder[b.Key]
-	if !ok {
-		right = len(gameReleaseOrder)
-	}
-	switch {
-	case left < right:
-		return -1
-	case left > right:
-		return 1
-	case a.Key < b.Key:
-		return -1
-	case a.Key > b.Key:
-		return 1
-	default:
-		return 0
-	}
 }
