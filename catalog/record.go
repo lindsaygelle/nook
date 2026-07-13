@@ -140,6 +140,17 @@ func ResidentRecordsByBirthMonth(month time.Month) []ResidentRecord {
 	return records
 }
 
+// ResidentRecordsByGame returns all residents that appear in the provided
+// game. Results are ordered by animal key and then character key.
+func ResidentRecordsByGame(gameKey nook.Key) []ResidentRecord {
+	residents := ResidentsByGame(gameKey)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
 // VillagerRecordOf converts a domain villager into its API-facing record.
 func VillagerRecordOf(villager nook.Villager) VillagerRecord {
 	return VillagerRecord{
@@ -198,11 +209,11 @@ func VillagerRecordsByBirthday(month time.Month, day uint8) []VillagerRecord {
 	return records
 }
 
-// VillagerRecordsByPersonality returns all villagers whose localized
-// personality name matches the provided value after normalization. Results are
-// ordered by animal key and then character key.
-func VillagerRecordsByPersonality(tag language.Tag, personality string) []VillagerRecord {
-	villagers := VillagersByPersonality(tag, personality)
+// VillagerRecordsByBirthMonth returns all villagers whose birthday month
+// exactly matches the provided month. Results are ordered by animal key and
+// then character key.
+func VillagerRecordsByBirthMonth(month time.Month) []VillagerRecord {
+	villagers := VillagersByBirthMonth(month)
 	records := make([]VillagerRecord, 0, len(villagers))
 	for _, villager := range villagers {
 		records = append(records, VillagerRecordOf(villager))
@@ -210,11 +221,22 @@ func VillagerRecordsByPersonality(tag language.Tag, personality string) []Villag
 	return records
 }
 
-// VillagerRecordsByBirthMonth returns all villagers whose birthday month
-// exactly matches the provided month. Results are ordered by animal key and
-// then character key.
-func VillagerRecordsByBirthMonth(month time.Month) []VillagerRecord {
-	villagers := VillagersByBirthMonth(month)
+// VillagerRecordsByGame returns all villagers that appear in the provided
+// game. Results are ordered by animal key and then character key.
+func VillagerRecordsByGame(gameKey nook.Key) []VillagerRecord {
+	villagers := VillagersByGame(gameKey)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByPersonality returns all villagers whose localized
+// personality name matches the provided value after normalization. Results are
+// ordered by animal key and then character key.
+func VillagerRecordsByPersonality(tag language.Tag, personality string) []VillagerRecord {
+	villagers := VillagersByPersonality(tag, personality)
 	records := make([]VillagerRecord, 0, len(villagers))
 	for _, villager := range villagers {
 		records = append(records, VillagerRecordOf(villager))

@@ -11,6 +11,7 @@ import (
 	"github.com/lindsaygelle/nook/character/dog"
 	"github.com/lindsaygelle/nook/character/mouse"
 	"github.com/lindsaygelle/nook/character/raccoon"
+	"github.com/lindsaygelle/nook/game"
 	"golang.org/x/text/language"
 )
 
@@ -136,6 +137,34 @@ func TestResidentRecordsByBirthMonth(t *testing.T) {
 	}
 }
 
+func TestResidentRecordsByGame(t *testing.T) {
+	records := catalog.ResidentRecordsByGame(game.NewLeaf.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.ResidentRecordsByGame(NewLeaf) returned no records")
+	}
+
+	foundTomNook := false
+	for i, record := range records {
+		if record.ID == "Raccoon:TomNook" {
+			foundTomNook = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.ResidentRecordsByGame(NewLeaf)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.ResidentRecordsByGame(NewLeaf)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundTomNook {
+		t.Fatal("catalog.ResidentRecordsByGame(NewLeaf) missing Tom Nook")
+	}
+}
+
 func TestLocalizedValuesOfOmitsEmptyValues(t *testing.T) {
 	values := catalog.LocalizedValuesOf(mouse.Carmen.Name)
 
@@ -237,6 +266,34 @@ func TestVillagerRecordsByBirthMonth(t *testing.T) {
 	}
 }
 
+func TestVillagerRecordsByGame(t *testing.T) {
+	records := catalog.VillagerRecordsByGame(game.DoubutsuNoMoriPlus.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.VillagerRecordsByGame(DoubutsuNoMoriPlus) returned no records")
+	}
+
+	foundAnkha := false
+	for i, record := range records {
+		if record.ID == "Cat:Ankha" {
+			foundAnkha = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.VillagerRecordsByGame(DoubutsuNoMoriPlus)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.VillagerRecordsByGame(DoubutsuNoMoriPlus)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundAnkha {
+		t.Fatal("catalog.VillagerRecordsByGame(DoubutsuNoMoriPlus) missing Ankha")
+	}
+}
+
 func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if _, ok := catalog.ResidentRecordsByAnimal("missing"); ok {
 		t.Fatal("catalog.ResidentRecordsByAnimal(missing) unexpectedly found a bucket")
@@ -265,8 +322,14 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if records := catalog.ResidentRecordsByBirthMonth(0); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByBirthMonth(0)) = %d", len(records))
 	}
+	if records := catalog.ResidentRecordsByGame(""); len(records) != 0 {
+		t.Fatalf("len(catalog.ResidentRecordsByGame(\"\")) = %d", len(records))
+	}
 	if records := catalog.VillagerRecordsByBirthMonth(0); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByBirthMonth(0)) = %d", len(records))
+	}
+	if records := catalog.VillagerRecordsByGame(""); len(records) != 0 {
+		t.Fatalf("len(catalog.VillagerRecordsByGame(\"\")) = %d", len(records))
 	}
 	if records := catalog.VillagerRecordsByPersonality(language.AmericanEnglish, ""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByPersonality(en-US, blank)) = %d", len(records))
