@@ -38,7 +38,7 @@ var (
 	// cornimerDutchName represents cornimer dutch name.
 	cornimerDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Cornimer"}
 
 	// cornimerFrenchName represents cornimer french name.
 	cornimerFrenchName = nook.Name{
@@ -73,12 +73,12 @@ var (
 	// cornimerRussianName represents cornimer russian name.
 	cornimerRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Корнимер"}
 
 	// cornimerSimplifiedChineseName represents cornimer simplified chinese name.
 	cornimerSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "橡伯"}
 
 	// cornimerSpanishName represents cornimer spanish name.
 	cornimerSpanishName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// cornimerTraditionalChineseName represents cornimer traditional chinese name.
 	cornimerTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "橡伯"}
 )
 
 var (

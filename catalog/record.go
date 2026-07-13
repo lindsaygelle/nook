@@ -1,6 +1,11 @@
 package catalog
 
-import "github.com/lindsaygelle/nook"
+import (
+	"time"
+
+	"github.com/lindsaygelle/nook"
+	"golang.org/x/text/language"
+)
 
 // LocalizedValues is an API-facing representation of localized strings keyed by
 // BCP 47 language tag.
@@ -71,6 +76,55 @@ func ResidentRecordOf(resident nook.Resident) ResidentRecord {
 	}
 }
 
+// ResidentRecordByCode returns a transport-friendly resident record using an
+// exact code match after normalization.
+func ResidentRecordByCode(code string) (ResidentRecord, bool) {
+	resident, ok := ResidentByCode(code)
+	if !ok {
+		return ResidentRecord{}, false
+	}
+	return ResidentRecordOf(resident), true
+}
+
+// ResidentRecordsByAnimal returns a resident bucket as deterministically sorted
+// transport-friendly records ordered by animal key and then character key.
+func ResidentRecordsByAnimal(animalKey nook.Key) ([]ResidentRecord, bool) {
+	residents, ok := ResidentListByAnimal(animalKey)
+	if !ok {
+		return nil, false
+	}
+
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records, true
+}
+
+// ResidentRecordsByBirthday returns all residents whose birthday exactly
+// matches the provided month and day. Results are ordered by animal key and
+// then character key.
+func ResidentRecordsByBirthday(month time.Month, day uint8) []ResidentRecord {
+	residents := ResidentsByBirthday(month, day)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
+// ResidentRecordsByBirthMonth returns all residents whose birthday month
+// exactly matches the provided month. Results are ordered by animal key and
+// then character key.
+func ResidentRecordsByBirthMonth(month time.Month) []ResidentRecord {
+	residents := ResidentsByBirthMonth(month)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
 // VillagerRecordOf converts a domain villager into its API-facing record.
 func VillagerRecordOf(villager nook.Villager) VillagerRecord {
 	return VillagerRecord{
@@ -78,4 +132,66 @@ func VillagerRecordOf(villager nook.Villager) VillagerRecord {
 		Personality:     LocalizedValuesOf(villager.Personality.Name),
 		Phrase:          LocalizedValuesOf(villager.Phrase),
 	}
+}
+
+// VillagerRecordByCode returns a transport-friendly villager record using an
+// exact code match after normalization.
+func VillagerRecordByCode(code string) (VillagerRecord, bool) {
+	villager, ok := VillagerByCode(code)
+	if !ok {
+		return VillagerRecord{}, false
+	}
+	return VillagerRecordOf(villager), true
+}
+
+// VillagerRecordsByAnimal returns a villager bucket as deterministically
+// sorted transport-friendly records ordered by animal key and then character
+// key.
+func VillagerRecordsByAnimal(animalKey nook.Key) ([]VillagerRecord, bool) {
+	villagers, ok := VillagerListByAnimal(animalKey)
+	if !ok {
+		return nil, false
+	}
+
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records, true
+}
+
+// VillagerRecordsByBirthday returns all villagers whose birthday exactly
+// matches the provided month and day. Results are ordered by animal key and
+// then character key.
+func VillagerRecordsByBirthday(month time.Month, day uint8) []VillagerRecord {
+	villagers := VillagersByBirthday(month, day)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByPersonality returns all villagers whose localized
+// personality name matches the provided value after normalization. Results are
+// ordered by animal key and then character key.
+func VillagerRecordsByPersonality(tag language.Tag, personality string) []VillagerRecord {
+	villagers := VillagersByPersonality(tag, personality)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByBirthMonth returns all villagers whose birthday month
+// exactly matches the provided month. Results are ordered by animal key and
+// then character key.
+func VillagerRecordsByBirthMonth(month time.Month) []VillagerRecord {
+	villagers := VillagersByBirthMonth(month)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
 }

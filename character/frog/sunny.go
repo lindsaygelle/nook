@@ -48,7 +48,7 @@ var (
 	// sunnyGermanName represents sunny german name.
 	sunnyGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "Sunny"}
 
 	// sunnyItalianName represents sunny italian name.
 	sunnyItalianName = nook.Name{

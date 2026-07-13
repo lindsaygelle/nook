@@ -38,7 +38,7 @@ var (
 	// vicheDutchName represents Viche's name in Dutch.
 	vicheDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Viché"}
 
 	// vicheFrenchName represents Viche's name in French.
 	vicheFrenchName = nook.Name{
@@ -73,12 +73,12 @@ var (
 	// vicheRussianName represents Viche's name in Russian.
 	vicheRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Виче"}
 
 	// vicheSimplifiedChineseName represents Viche's name in Simplified Chinese.
 	vicheSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "弥莎"}
 
 	// vicheSpanishName represents Viche's name in Spanish.
 	vicheSpanishName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// vicheTraditionalChineseName represents Viche's name in Traditional Chinese.
 	vicheTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "瀰莎"}
 )
 
 var (

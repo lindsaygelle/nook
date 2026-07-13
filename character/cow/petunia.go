@@ -38,7 +38,7 @@ var (
 	// petuniaDutchName represents petunia dutch name.
 	petuniaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Petunia"}
 
 	// petuniaFrenchName represents petunia french name.
 	petuniaFrenchName = nook.Name{
@@ -63,7 +63,7 @@ var (
 	// petuniaKoreanName represents petunia korean name.
 	petuniaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "페튜니아"}
 
 	// petuniaLatinAmericanSpanishName represents petunia latin american spanish name.
 	petuniaLatinAmericanSpanishName = nook.Name{

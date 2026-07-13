@@ -36,27 +36,27 @@ var (
 	// pironkonCanadianFrenchName represents pironkon canadian french name.
 	pironkonCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Roswell"}
 
 	// pironkonDutchName represents pironkon dutch name.
 	pironkonDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Roswell"}
 
 	// pironkonFrenchName represents pironkon french name.
 	pironkonFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "Roswell"}
 
 	// pironkonGermanName represents pironkon german name.
 	pironkonGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "Juri"}
 
 	// pironkonItalianName represents pironkon italian name.
 	pironkonItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "Ulfo"}
 
 	// pironkonJapaneseName represents pironkon japanese name.
 	pironkonJapaneseName = nook.Name{
@@ -66,32 +66,32 @@ var (
 	// pironkonKoreanName represents pironkon korean name.
 	pironkonKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "삐로코"}
 
 	// pironkonLatinAmericanSpanishName represents pironkon latin american spanish name.
 	pironkonLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Roswell"}
 
 	// pironkonRussianName represents pironkon russian name.
 	pironkonRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Розуэлл"}
 
 	// pironkonSimplifiedChineseName represents pironkon simplified chinese name.
 	pironkonSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "皮隆孔"}
 
 	// pironkonSpanishName represents pironkon spanish name.
 	pironkonSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "Roswell"}
 
 	// pironkonTraditionalChineseName represents pironkon traditional chinese name.
 	pironkonTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "皮隆孔"}
 )
 
 // pironkonName represents Pironkon's name in different languages.

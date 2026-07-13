@@ -33,27 +33,27 @@ var (
 	// petuniaCanadianFrenchName represents Petunia's name in Canadian French.
 	petuniaCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Azalée"}
 
 	// petuniaDutchName represents Petunia's name in Dutch.
 	petuniaDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Azalea"}
 
 	// petuniaFrenchName represents Petunia's name in French.
 	petuniaFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "Azalée"}
 
 	// petuniaGermanName represents Petunia's name in German.
 	petuniaGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "Jasmin"}
 
 	// petuniaItalianName represents Petunia's name in Italian.
 	petuniaItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "Ortensia"}
 
 	// petuniaJapaneseName represents Petunia's name in Japanese.
 	petuniaJapaneseName = nook.Name{
@@ -63,32 +63,32 @@ var (
 	// petuniaKoreanName represents Petunia's name in Korean.
 	petuniaKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "페튜니아"}
 
 	// petuniaLatinAmericanSpanishName represents Petunia's name in Latin American Spanish.
 	petuniaLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Azalea"}
 
 	// petuniaRussianName represents Petunia's name in Russian.
 	petuniaRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Азалия"}
 
 	// petuniaSimplifiedChineseName represents Petunia's name in Simplified Chinese.
 	petuniaSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "碧芊"}
 
 	// petuniaSpanishName represents Petunia's name in Spanish.
 	petuniaSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "Azalea"}
 
 	// petuniaTraditionalChineseName represents Petunia's name in Traditional Chinese.
 	petuniaTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "碧芊"}
 )
 
 var (

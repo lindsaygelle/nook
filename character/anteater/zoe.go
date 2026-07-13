@@ -36,12 +36,12 @@ var (
 	// zoeCanadianFrenchName represents zoe canadian french name.
 	zoeCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Cléo"}
 
 	// zoeDutchName represents zoe dutch name.
 	zoeDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Zoe"}
 
 	// zoeFrenchName represents zoe french name.
 	zoeFrenchName = nook.Name{
@@ -66,17 +66,17 @@ var (
 	// zoeKoreanName represents zoe korean name.
 	zoeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "소면"}
 
 	// zoeLatinAmericanSpanishName represents zoe latin american spanish name.
 	zoeLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Naricia"}
 
 	// zoeRussianName represents zoe russian name.
 	zoeRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Зои"}
 
 	// zoeSimplifiedChineseName represents zoe simplified chinese name.
 	zoeSimplifiedChineseName = nook.Name{
@@ -91,7 +91,7 @@ var (
 	// zoeTraditionalChineseName represents zoe traditional chinese name.
 	zoeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "米粉"}
 )
 
 // zoeName represents Zoe's name in different languages.

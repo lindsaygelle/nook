@@ -33,12 +33,12 @@ var (
 	// faithCanadianFrenchName represents faith canadian french name.
 	faithCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Kolette"}
 
 	// faithDutchName represents faith dutch name.
 	faithDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Faith"}
 
 	// faithFrenchName represents faith french name.
 	faithFrenchName = nook.Name{
@@ -63,22 +63,22 @@ var (
 	// faithKoreanName represents faith korean name.
 	faithKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "마치"}
 
 	// faithLatinAmericanSpanishName represents faith latin american spanish name.
 	faithLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Felicia"}
 
 	// faithRussianName represents faith russian name.
 	faithRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Фэйт"}
 
 	// faithSimplifiedChineseName represents faith simplified chinese name.
 	faithSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "游琪"}
 
 	// faithSpanishName represents faith spanish name.
 	faithSpanishName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// faithTraditionalChineseName represents faith traditional chinese name.
 	faithTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "游琪"}
 )
 
 var (
