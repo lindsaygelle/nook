@@ -78,7 +78,7 @@ var (
 	// giovanniSimplifiedChineseName represents giovanni simplified chinese name.
 	giovanniSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "露哥"}
 
 	// giovanniSpanishName represents giovanni spanish name.
 	giovanniSpanishName = nook.Name{

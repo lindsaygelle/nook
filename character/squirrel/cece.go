@@ -38,7 +38,7 @@ var (
 	// ceceDutchName represents Cece's name in Dutch.
 	ceceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Cece"}
 
 	// ceceFrenchName represents Cece's name in French.
 	ceceFrenchName = nook.Name{
@@ -73,12 +73,12 @@ var (
 	// ceceRussianName represents Cece's name in Russian.
 	ceceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Сесе"}
 
 	// ceceSimplifiedChineseName represents Cece's name in Simplified Chinese.
 	ceceSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "霓莎"}
 
 	// ceceSpanishName represents Cece's name in Spanish.
 	ceceSpanishName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// ceceTraditionalChineseName represents Cece's name in Traditional Chinese.
 	ceceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "霓莎"}
 )
 
 var (

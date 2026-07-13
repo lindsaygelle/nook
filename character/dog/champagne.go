@@ -33,27 +33,27 @@ var (
 	// champagneCanadianFrenchName represents champagne canadian french name.
 	champagneCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Foufou"}
 
 	// champagneDutchName represents champagne dutch name.
 	champagneDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Frett"}
 
 	// champagneFrenchName represents champagne french name.
 	champagneFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "Foufou"}
 
 	// champagneGermanName represents champagne german name.
 	champagneGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "Jupp"}
 
 	// champagneItalianName represents champagne italian name.
 	champagneItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "Lionello"}
 
 	// champagneJapaneseName represents champagne japanese name.
 	champagneJapaneseName = nook.Name{
@@ -63,32 +63,32 @@ var (
 	// champagneKoreanName represents champagne korean name.
 	champagneKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "샹펜"}
 
 	// champagneLatinAmericanSpanishName represents champagne latin american spanish name.
 	champagneLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Ulises"}
 
 	// champagneRussianName represents champagne russian name.
 	champagneRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Фретт"}
 
 	// champagneSimplifiedChineseName represents champagne simplified chinese name.
 	champagneSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "祥平"}
 
 	// champagneSpanishName represents champagne spanish name.
 	champagneSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "Ulises"}
 
 	// champagneTraditionalChineseName represents champagne traditional chinese name.
 	champagneTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "祥平"}
 )
 
 var (

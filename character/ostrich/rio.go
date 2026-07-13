@@ -33,12 +33,12 @@ var (
 	// rioCanadianFrenchName represents rio canadian french name.
 	rioCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Estrella"}
 
 	// rioDutchName represents rio dutch name.
 	rioDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Rio"}
 
 	// rioFrenchName represents rio french name.
 	rioFrenchName = nook.Name{
@@ -63,17 +63,17 @@ var (
 	// rioKoreanName represents rio korean name.
 	rioKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "데자네"}
 
 	// rioLatinAmericanSpanishName represents rio latin american spanish name.
 	rioLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Río"}
 
 	// rioRussianName represents rio russian name.
 	rioRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Рио"}
 
 	// rioSimplifiedChineseName represents rio simplified chinese name.
 	rioSimplifiedChineseName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// rioTraditionalChineseName represents rio traditional chinese name.
 	rioTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "勒內盧"}
 )
 
 var (

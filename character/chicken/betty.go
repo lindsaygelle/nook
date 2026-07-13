@@ -63,7 +63,7 @@ var (
 	// bettyKoreanName represents betty korean name.
 	bettyKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "베티"}
 
 	// bettyLatinAmericanSpanishName represents betty latin american spanish name.
 	bettyLatinAmericanSpanishName = nook.Name{

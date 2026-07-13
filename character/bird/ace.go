@@ -33,12 +33,12 @@ var (
 	// aceCanadianFrenchName represents ace canadian french name.
 	aceCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Boumboum"}
 
 	// aceDutchName represents ace dutch name.
 	aceDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Ace"}
 
 	// aceFrenchName represents ace french name.
 	aceFrenchName = nook.Name{
@@ -63,17 +63,17 @@ var (
 	// aceKoreanName represents ace korean name.
 	aceKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "페더"}
 
 	// aceLatinAmericanSpanishName represents ace latin american spanish name.
 	aceLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Uno"}
 
 	// aceRussianName represents ace russian name.
 	aceRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Эйс"}
 
 	// aceSimplifiedChineseName represents ace simplified chinese name.
 	aceSimplifiedChineseName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// aceTraditionalChineseName represents ace traditional chinese name.
 	aceTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "羽毛"}
 )
 
 var (

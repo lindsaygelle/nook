@@ -78,7 +78,7 @@ var (
 	// beppeSimplifiedChineseName represents beppe simplified chinese name.
 	beppeSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "车仔"}
 
 	// beppeSpanishName represents beppe spanish name.
 	beppeSpanishName = nook.Name{

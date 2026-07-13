@@ -48,7 +48,7 @@ var (
 	// pierreGermanName represents pierre german name.
 	pierreGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "Pierre"}
 
 	// pierreItalianName represents pierre italian name.
 	pierreItalianName = nook.Name{

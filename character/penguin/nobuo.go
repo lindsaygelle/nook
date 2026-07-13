@@ -33,27 +33,27 @@ var (
 	// nobuoCanadianFrenchName represents nobuo canadian french name.
 	nobuoCanadianFrenchName = nook.Name{
 		Language: language.CanadianFrench,
-		Value:    ""}
+		Value:    "Zinzin"}
 
 	// nobuoDutchName represents nobuo dutch name.
 	nobuoDutchName = nook.Name{
 		Language: language.Dutch,
-		Value:    ""}
+		Value:    "Chabwick"}
 
 	// nobuoFrenchName represents nobuo french name.
 	nobuoFrenchName = nook.Name{
 		Language: language.French,
-		Value:    ""}
+		Value:    "Zinzin"}
 
 	// nobuoGermanName represents nobuo german name.
 	nobuoGermanName = nook.Name{
 		Language: language.German,
-		Value:    ""}
+		Value:    "Achim"}
 
 	// nobuoItalianName represents nobuo italian name.
 	nobuoItalianName = nook.Name{
 		Language: language.Italian,
-		Value:    ""}
+		Value:    "Ottone"}
 
 	// nobuoJapaneseName represents nobuo japanese name.
 	nobuoJapaneseName = nook.Name{
@@ -63,32 +63,32 @@ var (
 	// nobuoKoreanName represents nobuo korean name.
 	nobuoKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "펭구"}
 
 	// nobuoLatinAmericanSpanishName represents nobuo latin american spanish name.
 	nobuoLatinAmericanSpanishName = nook.Name{
 		Language: language.LatinAmericanSpanish,
-		Value:    ""}
+		Value:    "Gabino"}
 
 	// nobuoRussianName represents nobuo russian name.
 	nobuoRussianName = nook.Name{
 		Language: language.Russian,
-		Value:    ""}
+		Value:    "Чебвик"}
 
 	// nobuoSimplifiedChineseName represents nobuo simplified chinese name.
 	nobuoSimplifiedChineseName = nook.Name{
 		Language: language.SimplifiedChinese,
-		Value:    ""}
+		Value:    "信雄"}
 
 	// nobuoSpanishName represents nobuo spanish name.
 	nobuoSpanishName = nook.Name{
 		Language: language.Spanish,
-		Value:    ""}
+		Value:    "Gabino"}
 
 	// nobuoTraditionalChineseName represents nobuo traditional chinese name.
 	nobuoTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "信雄"}
 )
 
 var (

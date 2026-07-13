@@ -63,7 +63,7 @@ var (
 	// janeKoreanName represents jane korean name.
 	janeKoreanName = nook.Name{
 		Language: language.Korean,
-		Value:    ""}
+		Value:    "제인"}
 
 	// janeLatinAmericanSpanishName represents jane latin american spanish name.
 	janeLatinAmericanSpanishName = nook.Name{
@@ -88,7 +88,7 @@ var (
 	// janeTraditionalChineseName represents jane traditional chinese name.
 	janeTraditionalChineseName = nook.Name{
 		Language: language.TraditionalChinese,
-		Value:    ""}
+		Value:    "珍珍"}
 )
 
 var (

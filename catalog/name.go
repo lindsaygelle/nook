@@ -37,12 +37,7 @@ func ResidentsByName(tag language.Tag, name string) []nook.Resident {
 		}
 	}
 
-	slices.SortFunc(residents, func(a, b nook.Resident) int {
-		if a.Animal.Key != b.Animal.Key {
-			return strings.Compare(string(a.Animal.Key), string(b.Animal.Key))
-		}
-		return strings.Compare(string(a.Key), string(b.Key))
-	})
+	slices.SortFunc(residents, compareResidents)
 	return residents
 }
 
@@ -69,11 +64,6 @@ func VillagersByName(tag language.Tag, name string) []nook.Villager {
 		}
 	}
 
-	slices.SortFunc(villagers, func(a, b nook.Villager) int {
-		if a.Animal.Key != b.Animal.Key {
-			return strings.Compare(string(a.Animal.Key), string(b.Animal.Key))
-		}
-		return strings.Compare(string(a.Key), string(b.Key))
-	})
+	slices.SortFunc(villagers, compareVillagers)
 	return villagers
 }
