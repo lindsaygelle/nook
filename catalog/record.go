@@ -177,6 +177,18 @@ func ResidentRecordsByGame(gameKey nook.Key) []ResidentRecord {
 	return records
 }
 
+// ResidentRecordsByGender returns all residents whose gender exactly matches
+// the provided gender key. Results are ordered by animal key and then
+// character key.
+func ResidentRecordsByGender(genderKey nook.Key) []ResidentRecord {
+	residents := ResidentsByGender(genderKey)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
 // VillagerRecordOf converts a domain villager into its API-facing record.
 func VillagerRecordOf(villager nook.Villager) VillagerRecord {
 	return VillagerRecord{
@@ -251,6 +263,18 @@ func VillagerRecordsByBirthMonth(month time.Month) []VillagerRecord {
 // game. Results are ordered by animal key and then character key.
 func VillagerRecordsByGame(gameKey nook.Key) []VillagerRecord {
 	villagers := VillagersByGame(gameKey)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByGender returns all villagers whose gender exactly matches
+// the provided gender key. Results are ordered by animal key and then
+// character key.
+func VillagerRecordsByGender(genderKey nook.Key) []VillagerRecord {
+	villagers := VillagersByGender(genderKey)
 	records := make([]VillagerRecord, 0, len(villagers))
 	for _, villager := range villagers {
 		records = append(records, VillagerRecordOf(villager))
