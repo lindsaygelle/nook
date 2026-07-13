@@ -15,6 +15,17 @@ import (
 	"golang.org/x/text/language"
 )
 
+func TestGameRecordOf(t *testing.T) {
+	record := catalog.GameRecordOf(game.NewLeaf)
+
+	if record.Key != string(game.NewLeaf.Key) {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Key = %s", record.Key)
+	}
+	if record.Name[language.AmericanEnglish.String()] != "Animal Crossing: New Leaf" {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Name[en-US] = %s", record.Name[language.AmericanEnglish.String()])
+	}
+}
+
 func TestCharacterRecordOf(t *testing.T) {
 	record := catalog.CharacterRecordOf(cat.Ankha.Character)
 
@@ -36,6 +47,15 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.Name[language.AmericanEnglish.String()] != "Ankha" {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Name[en-US] = %s", record.Name[language.AmericanEnglish.String()])
 	}
+	if len(record.Games) != 9 {
+		t.Fatalf("len(catalog.CharacterRecordOf(cat.Ankha).Games) = %d", len(record.Games))
+	}
+	if record.Games[0].Key != string(game.DoubutsuNoMoriPlus.Key) {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Games[0].Key = %s", record.Games[0].Key)
+	}
+	if record.Games[len(record.Games)-1].Key != string(game.PocketCamp.Key) {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Games[last].Key = %s", record.Games[len(record.Games)-1].Key)
+	}
 }
 
 func TestVillagerRecordOf(t *testing.T) {
@@ -53,6 +73,9 @@ func TestVillagerRecordOf(t *testing.T) {
 	if record.Phrase[language.AmericanEnglish.String()] != "me meow" {
 		t.Fatalf("catalog.VillagerRecordOf(cat.Ankha).Phrase[en-US] = %s", record.Phrase[language.AmericanEnglish.String()])
 	}
+	if len(record.Games) != 9 {
+		t.Fatalf("len(catalog.VillagerRecordOf(cat.Ankha).Games) = %d", len(record.Games))
+	}
 }
 
 func TestResidentRecordOf(t *testing.T) {
@@ -66,6 +89,9 @@ func TestResidentRecordOf(t *testing.T) {
 	}
 	if record.Code != "rcn/rco" {
 		t.Fatalf("catalog.ResidentRecordOf(raccoon.TomNook).Code = %s", record.Code)
+	}
+	if len(record.Games) == 0 {
+		t.Fatal("catalog.ResidentRecordOf(raccoon.TomNook).Games returned no games")
 	}
 }
 

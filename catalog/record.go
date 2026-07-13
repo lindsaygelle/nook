@@ -17,14 +17,21 @@ type BirthdayRecord struct {
 	Month uint8 `json:"month"`
 }
 
+// GameRecord is a transport-friendly game representation.
+type GameRecord struct {
+	Key  string          `json:"key"`
+	Name LocalizedValues `json:"name"`
+}
+
 // CharacterRecord is a flattened API-facing representation of a character.
 type CharacterRecord struct {
 	AnimalKey string          `json:"animal_key"`
 	Birthday  BirthdayRecord  `json:"birthday"`
 	Code      string          `json:"code,omitempty"`
-	ID        string          `json:"id"`
+	Games     []GameRecord    `json:"games"`
 	Gender    LocalizedValues `json:"gender"`
 	GenderKey string          `json:"gender_key"`
+	ID        string          `json:"id"`
 	Key       string          `json:"key"`
 	Name      LocalizedValues `json:"name"`
 	Special   bool            `json:"special"`
@@ -56,8 +63,26 @@ func LocalizedValuesOf(values nook.Languages) LocalizedValues {
 	return out
 }
 
+// GameRecordOf converts a domain game into its API-facing record.
+func GameRecordOf(game nook.Game) GameRecord {
+	return GameRecord{
+		Key:  string(game.Key),
+		Name: LocalizedValuesOf(game.Name),
+	}
+}
+
+func gameRecordsOf(games []nook.Game) []GameRecord {
+	records := make([]GameRecord, 0, len(games))
+	for _, game := range games {
+		records = append(records, GameRecordOf(game))
+	}
+	return records
+}
+
 // CharacterRecordOf converts a domain character into its API-facing record.
 func CharacterRecordOf(character nook.Character) CharacterRecord {
+	games := gameRecordsOf(sortedCharacterGames(character.Games))
+
 	return CharacterRecord{
 		AnimalKey: string(character.Animal.Key),
 		Birthday: BirthdayRecord{
@@ -65,9 +90,10 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 			Month: uint8(character.Birthday.Month),
 		},
 		Code:      character.Code.Value,
-		ID:        string(character.ID()),
+		Games:     games,
 		Gender:    LocalizedValuesOf(character.Gender.Name),
 		GenderKey: string(character.Gender.Key),
+		ID:        string(character.ID()),
 		Key:       string(character.Key),
 		Name:      LocalizedValuesOf(character.Name),
 		Special:   character.Special,
