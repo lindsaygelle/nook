@@ -13,6 +13,7 @@ import (
 	"github.com/lindsaygelle/nook/character/raccoon"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
@@ -308,6 +309,22 @@ func TestVillagerRecordsByPersonality(t *testing.T) {
 	}
 }
 
+func TestVillagerRecordsByPersonalityKey(t *testing.T) {
+	records := catalog.VillagerRecordsByPersonalityKey(personality.Snooty.Key)
+	if len(records) != 66 {
+		t.Fatalf("len(catalog.VillagerRecordsByPersonalityKey(Snooty)) = %d", len(records))
+	}
+	if records[0].Key != string(character.Alli) {
+		t.Fatalf("catalog.VillagerRecordsByPersonalityKey(Snooty)[0].Key = %s", records[0].Key)
+	}
+	if records[len(records)-1].Key != string(character.Whitney) {
+		t.Fatalf("catalog.VillagerRecordsByPersonalityKey(Snooty)[last].Key = %s", records[len(records)-1].Key)
+	}
+	if records[0].PersonalityKey != string(personality.Snooty.Key) {
+		t.Fatalf("catalog.VillagerRecordsByPersonalityKey(Snooty)[0].PersonalityKey = %s", records[0].PersonalityKey)
+	}
+}
+
 func TestVillagerRecordsByBirthMonth(t *testing.T) {
 	records := catalog.VillagerRecordsByBirthMonth(time.September)
 	if len(records) != 32 {
@@ -431,5 +448,8 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	}
 	if records := catalog.VillagerRecordsByPersonality(language.French, "snooty"); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByPersonality(fr, snooty)) = %d", len(records))
+	}
+	if records := catalog.VillagerRecordsByPersonalityKey(""); len(records) != 0 {
+		t.Fatalf("len(catalog.VillagerRecordsByPersonalityKey(\"\")) = %d", len(records))
 	}
 }
