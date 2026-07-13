@@ -124,9 +124,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: domBirthday,
 		Code:     domCode,
-		Key:      character.Dom,
-		Gender:   gender.Male,
 		Games:    domGames,
+		Gender:   gender.Male,
+		Key:      character.Dom,
 		Name:     domName,
 		Special:  false}
 )

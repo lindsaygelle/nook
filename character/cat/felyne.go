@@ -124,9 +124,9 @@ var (
 		Animal:   animal.Cat,
 		Birthday: felyneBirthday,
 		Code:     felyneCode,
-		Key:      character.Felyne,
-		Gender:   gender.Male,
 		Games:    felyneGames,
+		Gender:   gender.Male,
+		Key:      character.Felyne,
 		Name:     felyneName,
 		Special:  false}
 )

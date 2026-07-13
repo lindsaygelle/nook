@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Raccoon,
 		Birthday: tomnookBirthday,
 		Code:     tomnookCode,
-		Key:      character.TomNook,
-		Gender:   gender.Male,
 		Games:    tomnookGames,
+		Gender:   gender.Male,
+		Key:      character.TomNook,
 		Name:     tomnookName,
 		Special:  true}
 )

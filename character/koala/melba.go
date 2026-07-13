@@ -129,9 +129,9 @@ var (
 		Animal:   animal.Koala,
 		Birthday: melbaBirthday,
 		Code:     melbaCode,
-		Key:      character.Melba,
-		Gender:   gender.Female,
 		Games:    melbaGames,
+		Gender:   gender.Female,
+		Key:      character.Melba,
 		Name:     melbaName,
 		Special:  false}
 )

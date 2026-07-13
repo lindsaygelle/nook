@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Kangaroo,
 		Birthday: astridBirthday,
 		Code:     astridCode,
-		Key:      character.Astrid,
-		Gender:   gender.Female,
 		Games:    astridGames,
+		Gender:   gender.Female,
+		Key:      character.Astrid,
 		Name:     astridName,
 		Special:  false}
 )

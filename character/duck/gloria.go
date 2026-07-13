@@ -128,9 +128,9 @@ var (
 		Animal:   animal.Duck,
 		Birthday: gloriaBirthday,
 		Code:     gloriaCode,
-		Key:      character.Gloria,
-		Gender:   gender.Female,
 		Games:    gloriaGames,
+		Gender:   gender.Female,
+		Key:      character.Gloria,
 		Name:     gloriaName,
 		Special:  false}
 )

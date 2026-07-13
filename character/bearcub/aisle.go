@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Bearcub,
 		Birthday: aisleBirthday,
 		Code:     aisleCode,
-		Key:      character.Aisle,
-		Gender:   gender.Male,
 		Games:    aisleGames,
+		Gender:   gender.Male,
+		Key:      character.Aisle,
 		Name:     aisleName,
 		Special:  false}
 )

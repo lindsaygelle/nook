@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Ostrich,
 		Birthday: floraBirthday,
 		Code:     floraCode,
-		Key:      character.Flora,
-		Gender:   gender.Female,
 		Games:    floraGames,
+		Gender:   gender.Female,
+		Key:      character.Flora,
 		Name:     floraName,
 		Special:  false}
 )

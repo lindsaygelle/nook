@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: tarouBirthday,
 		Code:     tarouCode,
-		Key:      character.Tarou,
-		Gender:   gender.Male,
 		Games:    tarouGames,
+		Gender:   gender.Male,
+		Key:      character.Tarou,
 		Name:     tarouName,
 		Special:  false}
 )

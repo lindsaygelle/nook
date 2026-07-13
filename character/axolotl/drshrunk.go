@@ -128,9 +128,9 @@ var (
 		Animal:   animal.Axolotl,
 		Birthday: drshrunkBirthday,
 		Code:     drshrunkCode,
-		Key:      character.DrShrunk,
-		Gender:   gender.Male,
 		Games:    drshrunkGames,
+		Gender:   gender.Male,
+		Key:      character.DrShrunk,
 		Name:     drshrunkName,
 		Special:  true}
 )

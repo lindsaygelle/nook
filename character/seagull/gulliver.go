@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Seagull,
 		Birthday: gulliverBirthday,
 		Code:     gulliverCode,
-		Key:      character.Gulliver,
-		Gender:   gender.Male,
 		Games:    gulliverGames,
+		Gender:   gender.Male,
+		Key:      character.Gulliver,
 		Name:     gulliverName,
 		Special:  true}
 )

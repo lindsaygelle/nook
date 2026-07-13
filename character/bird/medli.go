@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: medliBirthday,
 		Code:     medliCode,
-		Key:      character.Medli,
-		Gender:   gender.Female,
 		Games:    medliGames,
+		Gender:   gender.Female,
+		Key:      character.Medli,
 		Name:     medliName,
 		Special:  false}
 )

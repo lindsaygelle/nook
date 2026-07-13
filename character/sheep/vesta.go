@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: vestaBirthday,
 		Code:     vestaCode,
-		Key:      character.Vesta,
-		Gender:   gender.Female,
 		Games:    vestaGames,
+		Gender:   gender.Female,
+		Key:      character.Vesta,
 		Name:     vestaName,
 		Special:  false}
 )

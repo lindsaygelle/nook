@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Horse,
 		Birthday: eponaBirthday,
 		Code:     eponaCode,
-		Key:      character.Epona,
-		Gender:   gender.Female,
 		Games:    eponaGames,
+		Gender:   gender.Female,
+		Key:      character.Epona,
 		Name:     eponaName,
 		Special:  false}
 )

@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Beaver,
 		Birthday: chipBirthday,
 		Code:     chipCode,
-		Key:      character.Chip,
-		Gender:   gender.Male,
 		Games:    chipGames,
+		Gender:   gender.Male,
+		Key:      character.Chip,
 		Name:     chipName,
 		Special:  true}
 )

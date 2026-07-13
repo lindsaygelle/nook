@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: sprinkleBirthday,
 		Code:     sprinkleCode,
-		Key:      character.Sprinkle,
-		Gender:   gender.Female,
 		Games:    sprinkleGames,
+		Gender:   gender.Female,
+		Key:      character.Sprinkle,
 		Name:     sprinkleName,
 		Special:  false}
 )

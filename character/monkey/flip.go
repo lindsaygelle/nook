@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Monkey,
 		Birthday: flipBirthday,
 		Code:     flipCode,
-		Key:      character.Flip,
-		Gender:   gender.Male,
 		Games:    flipGames,
+		Gender:   gender.Male,
+		Key:      character.Flip,
 		Name:     flipName,
 		Special:  false}
 )

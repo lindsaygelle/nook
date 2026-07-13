@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Frog,
 		Birthday: cousteauBirthday,
 		Code:     cousteauCode,
-		Key:      character.Cousteau,
-		Gender:   gender.Male,
 		Games:    cousteauGames,
+		Gender:   gender.Male,
+		Key:      character.Cousteau,
 		Name:     cousteauName,
 		Special:  false}
 )

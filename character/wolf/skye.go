@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: skyeBirthday,
 		Code:     skyeCode,
-		Key:      character.Skye,
-		Gender:   gender.Female,
 		Games:    skyeGames,
+		Gender:   gender.Female,
+		Key:      character.Skye,
 		Name:     skyeName,
 		Special:  false}
 )

@@ -124,9 +124,9 @@ var (
 		Animal:   animal.Chameleon,
 		Birthday: flickBirthday,
 		Code:     flickCode,
-		Key:      character.Flick,
-		Gender:   gender.Male,
 		Games:    flickGames,
+		Gender:   gender.Male,
+		Key:      character.Flick,
 		Name:     flickName,
 		Special:  true}
 )

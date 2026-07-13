@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: twirpBirthday,
 		Code:     twirpCode,
-		Key:      character.Twirp,
-		Gender:   gender.Male,
 		Games:    twirpGames,
+		Gender:   gender.Male,
+		Key:      character.Twirp,
 		Name:     twirpName,
 		Special:  false}
 )

@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Frog,
 		Birthday: ribbotBirthday,
 		Code:     ribbotCode,
-		Key:      character.Ribbot,
-		Gender:   gender.Male,
 		Games:    ribbotGames,
+		Gender:   gender.Male,
+		Key:      character.Ribbot,
 		Name:     ribbotName,
 		Special:  false}
 )

@@ -130,9 +130,9 @@ var (
 		Animal:   animal.Rhinoceros,
 		Birthday: spikeBirthday,
 		Code:     spikeCode,
-		Key:      character.Spike,
-		Gender:   gender.Male,
 		Games:    spikeGames,
+		Gender:   gender.Male,
+		Key:      character.Spike,
 		Name:     spikeName,
 		Special:  false}
 )

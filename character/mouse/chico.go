@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: chicoBirthday,
 		Code:     chicoCode,
-		Key:      character.Chico,
-		Gender:   gender.Male,
 		Games:    chicoGames,
+		Gender:   gender.Male,
+		Key:      character.Chico,
 		Name:     chicoName,
 		Special:  false}
 )

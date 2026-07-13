@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: callyBirthday,
 		Code:     callyCode,
-		Key:      character.Cally,
-		Gender:   gender.Female,
 		Games:    callyGames,
+		Gender:   gender.Female,
+		Key:      character.Cally,
 		Name:     callyName,
 		Special:  false}
 )

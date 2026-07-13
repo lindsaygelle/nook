@@ -126,9 +126,9 @@ var (
 		Animal:   animal.Turtle,
 		Birthday: leilaBirthday,
 		Code:     leilaCode,
-		Key:      character.Leila,
-		Gender:   gender.Female,
 		Games:    leilaGames,
+		Gender:   gender.Female,
+		Key:      character.Leila,
 		Name:     leilaName,
 		Special:  true}
 )

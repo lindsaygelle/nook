@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: megumiBirthday,
 		Code:     megumiCode,
-		Key:      character.Megumi,
-		Gender:   gender.Female,
 		Games:    megumiGames,
+		Gender:   gender.Female,
+		Key:      character.Megumi,
 		Name:     megumiName,
 		Special:  false}
 )

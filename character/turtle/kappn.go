@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Turtle,
 		Birthday: kappnBirthday,
 		Code:     kappnCode,
-		Key:      character.Kappn,
-		Gender:   gender.Male,
 		Games:    kappnGames,
+		Gender:   gender.Male,
+		Key:      character.Kappn,
 		Name:     kappnName,
 		Special:  true}
 )

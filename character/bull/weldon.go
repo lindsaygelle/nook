@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Bull,
 		Birthday: weldonBirthday,
 		Code:     weldonCode,
-		Key:      character.Weldon,
-		Gender:   gender.Male,
 		Games:    weldonGames,
+		Gender:   gender.Male,
+		Key:      character.Weldon,
 		Name:     weldonName,
 		Special:  false}
 )

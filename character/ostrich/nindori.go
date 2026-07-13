@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Ostrich,
 		Birthday: nindoriBirthday,
 		Code:     nindoriCode,
-		Key:      character.Nindori,
-		Gender:   gender.Male,
 		Games:    nindoriGames,
+		Gender:   gender.Male,
+		Key:      character.Nindori,
 		Name:     nindoriName,
 		Special:  false}
 )

@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Elephant,
 		Birthday: dizzyBirthday,
 		Code:     dizzyCode,
-		Key:      character.Dizzy,
-		Gender:   gender.Male,
 		Games:    dizzyGames,
+		Gender:   gender.Male,
+		Key:      character.Dizzy,
 		Name:     dizzyName,
 		Special:  false}
 )

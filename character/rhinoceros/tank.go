@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Rhinoceros,
 		Birthday: tankBirthday,
 		Code:     tankCode,
-		Key:      character.Tank,
-		Gender:   gender.Male,
 		Games:    tankGames,
+		Gender:   gender.Male,
+		Key:      character.Tank,
 		Name:     tankName,
 		Special:  false}
 )

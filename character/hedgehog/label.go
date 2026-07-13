@@ -128,9 +128,9 @@ var (
 		Animal:   animal.Hedgehog,
 		Birthday: labelBirthday,
 		Code:     labelCode,
-		Key:      character.Label,
-		Gender:   gender.Female,
 		Games:    labelGames,
+		Gender:   gender.Female,
+		Key:      character.Label,
 		Name:     labelName,
 		Special:  true}
 )

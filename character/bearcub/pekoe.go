@@ -128,9 +128,9 @@ var (
 		Animal:   animal.Bearcub,
 		Birthday: pekoeBirthday,
 		Code:     pekoeCode,
-		Key:      character.Pekoe,
-		Gender:   gender.Female,
 		Games:    pekoeGames,
+		Gender:   gender.Female,
+		Key:      character.Pekoe,
 		Name:     pekoeName,
 		Special:  false}
 )

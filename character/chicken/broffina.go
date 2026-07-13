@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Chicken,
 		Birthday: broffinaBirthday,
 		Code:     broffinaCode,
-		Key:      character.Broffina,
-		Gender:   gender.Female,
 		Games:    broffinaGames,
+		Gender:   gender.Female,
+		Key:      character.Broffina,
 		Name:     broffinaName,
 		Special:  false}
 )

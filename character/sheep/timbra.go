@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: timbraBirthday,
 		Code:     timbraCode,
-		Key:      character.Timbra,
-		Gender:   gender.Female,
 		Games:    timbraGames,
+		Gender:   gender.Female,
+		Key:      character.Timbra,
 		Name:     timbraName,
 		Special:  false}
 )

@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: kksliderBirthday,
 		Code:     kksliderCode,
-		Key:      character.KKSlider,
-		Gender:   gender.Male,
 		Games:    kksliderGames,
+		Gender:   gender.Male,
+		Key:      character.KKSlider,
 		Name:     kksliderName,
 		Special:  true}
 )

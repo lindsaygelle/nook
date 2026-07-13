@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Koala,
 		Birthday: yukaBirthday,
 		Code:     yukaCode,
-		Key:      character.Yuka,
-		Gender:   gender.Female,
 		Games:    yukaGames,
+		Gender:   gender.Female,
+		Key:      character.Yuka,
 		Name:     yukaName,
 		Special:  false}
 )

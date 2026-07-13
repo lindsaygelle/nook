@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Bearcub,
 		Birthday: mapleBirthday,
 		Code:     mapleCode,
-		Key:      character.Maple,
-		Gender:   gender.Female,
 		Games:    mapleGames,
+		Gender:   gender.Female,
+		Key:      character.Maple,
 		Name:     mapleName,
 		Special:  false}
 )

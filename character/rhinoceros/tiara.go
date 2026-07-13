@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Rhinoceros,
 		Birthday: tiaraBirthday,
 		Code:     tiaraCode,
-		Key:      character.Tiara,
-		Gender:   gender.Female,
 		Games:    tiaraGames,
+		Gender:   gender.Female,
+		Key:      character.Tiara,
 		Name:     tiaraName,
 		Special:  false}
 )

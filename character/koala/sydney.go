@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Koala,
 		Birthday: sydneyBirthday,
 		Code:     sydneyCode,
-		Key:      character.Sydney,
-		Gender:   gender.Female,
 		Games:    sydneyGames,
+		Gender:   gender.Female,
+		Key:      character.Sydney,
 		Name:     sydneyName,
 		Special:  false}
 )

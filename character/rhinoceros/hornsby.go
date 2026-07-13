@@ -130,9 +130,9 @@ var (
 		Animal:   animal.Rhinoceros,
 		Birthday: hornsbyBirthday,
 		Code:     hornsbyCode,
-		Key:      character.Hornsby,
-		Gender:   gender.Male,
 		Games:    hornsbyGames,
+		Gender:   gender.Male,
+		Key:      character.Hornsby,
 		Name:     hornsbyName,
 		Special:  false}
 )

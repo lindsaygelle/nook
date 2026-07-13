@@ -123,9 +123,9 @@ var (
 		Animal:   animal.FrillneckedLizard,
 		Birthday: frillardBirthday,
 		Code:     frillardCode,
-		Key:      character.Frillard,
-		Gender:   gender.Male,
 		Games:    frillardGames,
+		Gender:   gender.Male,
+		Key:      character.Frillard,
 		Name:     frillardName,
 		Special:  true}
 )

@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Goat,
 		Birthday: pashminaBirthday,
 		Code:     pashminaCode,
-		Key:      character.Pashmina,
-		Gender:   gender.Female,
 		Games:    pashminaGames,
+		Gender:   gender.Female,
+		Key:      character.Pashmina,
 		Name:     pashminaName,
 		Special:  false}
 )

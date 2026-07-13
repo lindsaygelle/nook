@@ -129,9 +129,9 @@ var (
 		Animal:   animal.Owl,
 		Birthday: celesteBirthday,
 		Code:     celesteCode,
-		Key:      character.Celeste,
-		Gender:   gender.Female,
 		Games:    celesteGames,
+		Gender:   gender.Female,
+		Key:      character.Celeste,
 		Name:     celesteName,
 		Special:  true}
 )

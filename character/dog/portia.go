@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: portiaBirthday,
 		Code:     portiaCode,
-		Key:      character.Portia,
-		Gender:   gender.Female,
 		Games:    portiaGames,
+		Gender:   gender.Female,
+		Key:      character.Portia,
 		Name:     portiaName,
 		Special:  false}
 )

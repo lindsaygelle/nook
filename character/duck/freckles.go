@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Duck,
 		Birthday: frecklesBirthday,
 		Code:     frecklesCode,
-		Key:      character.Freckles,
-		Gender:   gender.Female,
 		Games:    frecklesGames,
+		Gender:   gender.Female,
+		Key:      character.Freckles,
 		Name:     frecklesName,
 		Special:  false}
 )

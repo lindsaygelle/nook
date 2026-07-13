@@ -129,9 +129,9 @@ var (
 		Animal:   animal.Gorilla,
 		Birthday: violetBirthday,
 		Code:     violetCode,
-		Key:      character.Violet,
-		Gender:   gender.Female,
 		Games:    violetGames,
+		Gender:   gender.Female,
+		Key:      character.Violet,
 		Name:     violetName,
 		Special:  false}
 )

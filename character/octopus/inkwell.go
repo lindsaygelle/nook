@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Octopus,
 		Birthday: inkwellBirthday,
 		Code:     inkwellCode,
-		Key:      character.Inkwell,
-		Gender:   gender.Male,
 		Games:    inkwellGames,
+		Gender:   gender.Male,
+		Key:      character.Inkwell,
 		Name:     inkwellName,
 		Special:  false}
 )

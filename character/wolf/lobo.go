@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: loboBirthday,
 		Code:     loboCode,
-		Key:      character.Lobo,
-		Gender:   gender.Male,
 		Games:    loboGames,
+		Gender:   gender.Male,
+		Key:      character.Lobo,
 		Name:     loboName,
 		Special:  false}
 )

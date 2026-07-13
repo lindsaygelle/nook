@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Sloth,
 		Birthday: leifBirthday,
 		Code:     leifCode,
-		Key:      character.Leif,
-		Gender:   gender.Male,
 		Games:    leifGames,
+		Gender:   gender.Male,
+		Key:      character.Leif,
 		Name:     leifName,
 		Special:  true}
 )

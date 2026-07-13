@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Anteater,
 		Birthday: anabelleBirthday,
 		Code:     anabelleCode,
-		Key:      character.Anabelle,
-		Gender:   gender.Female,
 		Games:    anabelleGames,
+		Gender:   gender.Female,
+		Key:      character.Anabelle,
 		Name:     anabelleName,
 		Special:  false}
 )

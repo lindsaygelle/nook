@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: rizzoBirthday,
 		Code:     rizzoCode,
-		Key:      character.Rizzo,
-		Gender:   gender.Male,
 		Games:    rizzoGames,
+		Gender:   gender.Male,
+		Key:      character.Rizzo,
 		Name:     rizzoName,
 		Special:  false}
 )

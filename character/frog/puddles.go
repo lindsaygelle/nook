@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Frog,
 		Birthday: puddlesBirthday,
 		Code:     puddlesCode,
-		Key:      character.Puddles,
-		Gender:   gender.Female,
 		Games:    puddlesGames,
+		Gender:   gender.Female,
+		Key:      character.Puddles,
 		Name:     puddlesName,
 		Special:  false}
 )

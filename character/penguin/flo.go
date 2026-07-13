@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: floBirthday,
 		Code:     floCode,
-		Key:      character.Flo,
-		Gender:   gender.Female,
 		Games:    floGames,
+		Gender:   gender.Female,
+		Key:      character.Flo,
 		Name:     floName,
 		Special:  false}
 )

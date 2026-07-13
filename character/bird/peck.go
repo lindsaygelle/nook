@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: peckBirthday,
 		Code:     peckCode,
-		Key:      character.Peck,
-		Gender:   gender.Male,
 		Games:    peckGames,
+		Gender:   gender.Male,
+		Key:      character.Peck,
 		Name:     peckName,
 		Special:  false}
 )

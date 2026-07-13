@@ -124,9 +124,9 @@ var (
 		Animal:   animal.Monkey,
 		Birthday: champBirthday,
 		Code:     champCode,
-		Key:      character.Champ,
-		Gender:   gender.Male,
 		Games:    champGames,
+		Gender:   gender.Male,
+		Key:      character.Champ,
 		Name:     champName,
 		Special:  false}
 )

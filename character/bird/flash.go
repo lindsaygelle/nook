@@ -125,9 +125,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: flashBirthday,
 		Code:     flashCode,
-		Key:      character.Flash,
-		Gender:   gender.Male,
 		Games:    flashGames,
+		Gender:   gender.Male,
+		Key:      character.Flash,
 		Name:     flashName,
 		Special:  false}
 )

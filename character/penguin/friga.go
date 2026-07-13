@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: frigaBirthday,
 		Code:     frigaCode,
-		Key:      character.Friga,
-		Gender:   gender.Female,
 		Games:    frigaGames,
+		Gender:   gender.Female,
+		Key:      character.Friga,
 		Name:     frigaName,
 		Special:  false}
 )

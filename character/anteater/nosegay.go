@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Anteater,
 		Birthday: nosegayBirthday,
 		Code:     nosegayCode,
-		Key:      character.Nosegay,
-		Gender:   gender.Female,
 		Games:    nosegayGames,
+		Gender:   gender.Female,
+		Key:      character.Nosegay,
 		Name:     nosegayName,
 		Special:  false}
 )

@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: luchaBirthday,
 		Code:     luchaCode,
-		Key:      character.Lucha,
-		Gender:   gender.Male,
 		Games:    luchaGames,
+		Gender:   gender.Male,
+		Key:      character.Lucha,
 		Name:     luchaName,
 		Special:  false}
 )

@@ -125,9 +125,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: nobuoBirthday,
 		Code:     nobuoCode,
-		Key:      character.Nobuo,
-		Gender:   gender.Male,
 		Games:    nobuoGames,
+		Gender:   gender.Male,
+		Key:      character.Nobuo,
 		Name:     nobuoName,
 		Special:  false}
 )

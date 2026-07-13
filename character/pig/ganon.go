@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Pig,
 		Birthday: ganonBirthday,
 		Code:     ganonCode,
-		Key:      character.Ganon,
-		Gender:   gender.Male,
 		Games:    ganonGames,
+		Gender:   gender.Male,
+		Key:      character.Ganon,
 		Name:     ganonName,
 		Special:  false}
 )

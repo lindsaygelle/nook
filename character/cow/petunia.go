@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Cow,
 		Birthday: petuniaBirthday,
 		Code:     petuniaCode,
-		Key:      character.Petunia,
-		Gender:   gender.Female,
 		Games:    petuniaGames,
+		Gender:   gender.Female,
+		Key:      character.Petunia,
 		Name:     petuniaName,
 		Special:  false}
 )

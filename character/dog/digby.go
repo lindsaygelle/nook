@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: digbyBirthday,
 		Code:     digbyCode,
-		Key:      character.Digby,
-		Gender:   gender.Male,
 		Games:    digbyGames,
+		Gender:   gender.Male,
+		Key:      character.Digby,
 		Name:     digbyName,
 		Special:  true}
 )

@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Hippo,
 		Birthday: hippeuxBirthday,
 		Code:     hippeuxCode,
-		Key:      character.Hippeux,
-		Gender:   gender.Male,
 		Games:    hippeuxGames,
+		Gender:   gender.Male,
+		Key:      character.Hippeux,
 		Name:     hippeuxName,
 		Special:  false}
 )

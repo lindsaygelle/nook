@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: freyaBirthday,
 		Code:     freyaCode,
-		Key:      character.Freya,
-		Gender:   gender.Female,
 		Games:    freyaGames,
+		Gender:   gender.Female,
+		Key:      character.Freya,
 		Name:     freyaName,
 		Special:  false}
 )

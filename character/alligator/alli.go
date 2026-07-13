@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Alligator,
 		Birthday: alliBirthday,
 		Code:     alliCode,
-		Key:      character.Alli,
-		Gender:   gender.Female,
 		Games:    alliGames,
+		Gender:   gender.Female,
+		Key:      character.Alli,
 		Name:     alliName,
 		Special:  false}
 )

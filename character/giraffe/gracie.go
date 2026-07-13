@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Giraffe,
 		Birthday: gracieBirthday,
 		Code:     gracieCode,
-		Key:      character.Gracie,
-		Gender:   gender.Female,
 		Games:    gracieGames,
+		Gender:   gender.Female,
+		Key:      character.Gracie,
 		Name:     gracieName,
 		Special:  true}
 )

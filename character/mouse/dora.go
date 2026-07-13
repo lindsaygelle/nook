@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: doraBirthday,
 		Code:     doraCode,
-		Key:      character.Dora,
-		Gender:   gender.Female,
 		Games:    doraGames,
+		Gender:   gender.Female,
+		Key:      character.Dora,
 		Name:     doraName,
 		Special:  false}
 )

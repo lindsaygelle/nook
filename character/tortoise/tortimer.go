@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Tortoise,
 		Birthday: tortimerBirthday,
 		Code:     tortimerCode,
-		Key:      character.Tortimer,
-		Gender:   gender.Male,
 		Games:    tortimerGames,
+		Gender:   gender.Male,
+		Key:      character.Tortimer,
 		Name:     tortimerName,
 		Special:  true}
 )

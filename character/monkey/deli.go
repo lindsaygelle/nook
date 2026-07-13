@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Monkey,
 		Birthday: deliBirthday,
 		Code:     deliCode,
-		Key:      character.Deli,
-		Gender:   gender.Male,
 		Games:    deliGames,
+		Gender:   gender.Male,
+		Key:      character.Deli,
 		Name:     deliName,
 		Special:  false}
 )

@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Goat,
 		Birthday: gruffBirthday,
 		Code:     gruffCode,
-		Key:      character.Gruff,
-		Gender:   gender.Male,
 		Games:    gruffGames,
+		Gender:   gender.Male,
+		Key:      character.Gruff,
 		Name:     gruffName,
 		Special:  false}
 )

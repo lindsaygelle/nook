@@ -139,9 +139,9 @@ var (
 		Animal:   animal.Anteater,
 		Birthday: pangoBirthday,
 		Code:     pangoCode,
-		Key:      character.Pango,
-		Gender:   gender.Female,
 		Games:    pangoGames,
+		Gender:   gender.Female,
+		Key:      character.Pango,
 		Name:     pangoName,
 		Special:  false}
 )

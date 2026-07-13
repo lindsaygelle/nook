@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Koala,
 		Birthday: canberraBirthday,
 		Code:     canberraCode,
-		Key:      character.Canberra,
-		Gender:   gender.Female,
 		Games:    canberraGames,
+		Gender:   gender.Female,
+		Key:      character.Canberra,
 		Name:     canberraName,
 		Special:  false}
 )

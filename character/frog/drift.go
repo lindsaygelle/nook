@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Frog,
 		Birthday: driftBirthday,
 		Code:     driftCode,
-		Key:      character.Drift,
-		Gender:   gender.Male,
 		Games:    driftGames,
+		Gender:   gender.Male,
+		Key:      character.Drift,
 		Name:     driftName,
 		Special:  false}
 )

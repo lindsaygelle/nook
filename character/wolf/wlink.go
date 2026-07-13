@@ -123,9 +123,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: wlinkBirthday,
 		Code:     wlinkCode,
-		Key:      character.WLink,
-		Gender:   gender.Male,
 		Games:    wlinkGames,
+		Gender:   gender.Male,
+		Key:      character.WLink,
 		Name:     wlinkName,
 		Special:  false}
 )

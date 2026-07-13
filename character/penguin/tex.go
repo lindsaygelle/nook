@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: texBirthday,
 		Code:     texCode,
-		Key:      character.Tex,
-		Gender:   gender.Male,
 		Games:    texGames,
+		Gender:   gender.Male,
+		Key:      character.Tex,
 		Name:     texName,
 		Special:  false}
 )

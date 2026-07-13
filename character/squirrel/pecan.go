@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: pecanBirthday,
 		Code:     pecanCode,
-		Key:      character.Pecan,
-		Gender:   gender.Female,
 		Games:    pecanGames,
+		Gender:   gender.Female,
+		Key:      character.Pecan,
 		Name:     pecanName,
 		Special:  false}
 )

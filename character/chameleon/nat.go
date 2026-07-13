@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Chameleon,
 		Birthday: natBirthday,
 		Code:     natCode,
-		Key:      character.Nat,
-		Gender:   gender.Male,
 		Games:    natGames,
+		Gender:   gender.Male,
+		Key:      character.Nat,
 		Name:     natName,
 		Special:  true}
 )

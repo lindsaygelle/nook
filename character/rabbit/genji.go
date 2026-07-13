@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Rabbit,
 		Birthday: genjiBirthday,
 		Code:     genjiCode,
-		Key:      character.Genji,
-		Gender:   gender.Male,
 		Games:    genjiGames,
+		Gender:   gender.Male,
+		Key:      character.Genji,
 		Name:     genjiName,
 		Special:  false}
 )

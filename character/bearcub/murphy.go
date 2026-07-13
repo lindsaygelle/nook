@@ -130,9 +130,9 @@ var (
 		Animal:   animal.Bearcub,
 		Birthday: murphyBirthday,
 		Code:     murphyCode,
-		Key:      character.Murphy,
-		Gender:   gender.Male,
 		Games:    murphyGames,
+		Gender:   gender.Male,
+		Key:      character.Murphy,
 		Name:     murphyName,
 		Special:  false}
 )

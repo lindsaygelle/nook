@@ -131,9 +131,9 @@ var (
 		Animal:   animal.Cat,
 		Birthday: ankhaBirthday,
 		Code:     ankhaCode,
-		Key:      character.Ankha,
-		Gender:   gender.Female,
 		Games:    ankhaGames,
+		Gender:   gender.Female,
+		Key:      character.Ankha,
 		Name:     ankhaName,
 		Special:  false}
 )

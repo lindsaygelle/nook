@@ -125,9 +125,9 @@ var (
 		Animal:   animal.Gorilla,
 		Birthday: rillaBirthday,
 		Code:     rillaCode,
-		Key:      character.Rilla,
-		Gender:   gender.Female,
 		Games:    rillaGames,
+		Gender:   gender.Female,
+		Key:      character.Rilla,
 		Name:     rillaName,
 		Special:  false}
 )

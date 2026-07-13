@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Octopus,
 		Birthday: octavianBirthday,
 		Code:     octavianCode,
-		Key:      character.Octavian,
-		Gender:   gender.Male,
 		Games:    octavianGames,
+		Gender:   gender.Male,
+		Key:      character.Octavian,
 		Name:     octavianName,
 		Special:  false}
 )

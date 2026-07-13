@@ -128,9 +128,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: igglyBirthday,
 		Code:     igglyCode,
-		Key:      character.Iggly,
-		Gender:   gender.Male,
 		Games:    igglyGames,
+		Gender:   gender.Male,
+		Key:      character.Iggly,
 		Name:     igglyName,
 		Special:  false}
 )

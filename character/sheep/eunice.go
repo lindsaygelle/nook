@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: euniceBirthday,
 		Code:     euniceCode,
-		Key:      character.Eunice,
-		Gender:   gender.Female,
 		Games:    euniceGames,
+		Gender:   gender.Female,
+		Key:      character.Eunice,
 		Name:     euniceName,
 		Special:  false}
 )

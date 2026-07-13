@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: fritaBirthday,
 		Code:     fritaCode,
-		Key:      character.Frita,
-		Gender:   gender.Female,
 		Games:    fritaGames,
+		Gender:   gender.Female,
+		Key:      character.Frita,
 		Name:     fritaName,
 		Special:  false}
 )

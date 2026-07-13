@@ -129,9 +129,9 @@ var (
 		Animal:   animal.Ostrich,
 		Birthday: rioBirthday,
 		Code:     rioCode,
-		Key:      character.Rio,
-		Gender:   gender.Female,
 		Games:    rioGames,
+		Gender:   gender.Female,
+		Key:      character.Rio,
 		Name:     rioName,
 		Special:  false}
 )

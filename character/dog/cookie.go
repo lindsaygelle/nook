@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: cookieBirthday,
 		Code:     cookieCode,
-		Key:      character.Cookie,
-		Gender:   gender.Female,
 		Games:    cookieGames,
+		Gender:   gender.Female,
+		Key:      character.Cookie,
 		Name:     cookieName,
 		Special:  false}
 )

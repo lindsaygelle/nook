@@ -130,9 +130,9 @@ var (
 		Animal:   animal.Goat,
 		Birthday: nanBirthday,
 		Code:     nanCode,
-		Key:      character.Nan,
-		Gender:   gender.Female,
 		Games:    nanGames,
+		Gender:   gender.Female,
+		Key:      character.Nan,
 		Name:     nanName,
 		Special:  false}
 )

@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: sheldonBirthday,
 		Code:     sheldonCode,
-		Key:      character.Sheldon,
-		Gender:   gender.Male,
 		Games:    sheldonGames,
+		Gender:   gender.Male,
+		Key:      character.Sheldon,
 		Name:     sheldonName,
 		Special:  false}
 )

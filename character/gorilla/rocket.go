@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Gorilla,
 		Birthday: rocketBirthday,
 		Code:     rocketCode,
-		Key:      character.Rocket,
-		Gender:   gender.Female,
 		Games:    rocketGames,
+		Gender:   gender.Female,
+		Key:      character.Rocket,
 		Name:     rocketName,
 		Special:  false}
 )

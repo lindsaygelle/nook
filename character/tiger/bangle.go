@@ -132,9 +132,9 @@ var (
 		Animal:   animal.Tiger,
 		Birthday: bangleBirthday,
 		Code:     bangleCode,
-		Key:      character.Bangle,
-		Gender:   gender.Female,
 		Games:    bangleGames,
+		Gender:   gender.Female,
+		Key:      character.Bangle,
 		Name:     bangleName,
 		Special:  false}
 )

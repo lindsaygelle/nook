@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Hamster,
 		Birthday: flurryBirthday,
 		Code:     flurryCode,
-		Key:      character.Flurry,
-		Gender:   gender.Female,
 		Games:    flurryGames,
+		Gender:   gender.Female,
+		Key:      character.Flurry,
 		Name:     flurryName,
 		Special:  false}
 )

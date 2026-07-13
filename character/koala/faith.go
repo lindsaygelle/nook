@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Koala,
 		Birthday: faithBirthday,
 		Code:     faithCode,
-		Key:      character.Faith,
-		Gender:   gender.Female,
 		Games:    faithGames,
+		Gender:   gender.Female,
+		Key:      character.Faith,
 		Name:     faithName,
 		Special:  false}
 )

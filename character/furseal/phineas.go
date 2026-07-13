@@ -127,9 +127,9 @@ var (
 		Animal:   animal.FurSeal,
 		Birthday: phineasBirthday,
 		Code:     phineasCode,
-		Key:      character.Phineas,
-		Gender:   gender.Male,
 		Games:    phineasGames,
+		Gender:   gender.Male,
+		Key:      character.Phineas,
 		Name:     phineasName,
 		Special:  true}
 )

@@ -133,9 +133,9 @@ var (
 		Animal:   animal.Reindeer,
 		Birthday: jingleBirthday,
 		Code:     jingleCode,
-		Key:      character.Jingle,
-		Gender:   gender.Male,
 		Games:    jingleGames,
+		Gender:   gender.Male,
+		Key:      character.Jingle,
 		Name:     jingleName,
 		Special:  true}
 )

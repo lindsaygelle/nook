@@ -126,9 +126,9 @@ var (
 		Animal:   animal.Tapir,
 		Birthday: lunaBirthday,
 		Code:     lunaCode,
-		Key:      character.Luna,
-		Gender:   gender.Female,
 		Games:    lunaGames,
+		Gender:   gender.Female,
+		Key:      character.Luna,
 		Name:     lunaName,
 		Special:  true}
 )

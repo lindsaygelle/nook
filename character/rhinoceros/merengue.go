@@ -127,9 +127,9 @@ var (
 		Animal:   animal.Rhinoceros,
 		Birthday: merengueBirthday,
 		Code:     merengueCode,
-		Key:      character.Merengue,
-		Gender:   gender.Female,
 		Games:    merengueGames,
+		Gender:   gender.Female,
+		Key:      character.Merengue,
 		Name:     merengueName,
 		Special:  false}
 )

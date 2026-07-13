@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Penguin,
 		Birthday: gwenBirthday,
 		Code:     gwenCode,
-		Key:      character.Gwen,
-		Gender:   gender.Female,
 		Games:    gwenGames,
+		Gender:   gender.Female,
+		Key:      character.Gwen,
 		Name:     gwenName,
 		Special:  false}
 )

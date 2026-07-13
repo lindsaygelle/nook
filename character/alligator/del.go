@@ -134,9 +134,9 @@ var (
 		Animal:   animal.Alligator,
 		Birthday: delBirthday,
 		Code:     delCode,
-		Key:      character.Del,
-		Gender:   gender.Male,
 		Games:    delGames,
+		Gender:   gender.Male,
+		Key:      character.Del,
 		Name:     delName,
 		Special:  false}
 )

@@ -130,9 +130,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: cashmereBirthday,
 		Code:     cashmereCode,
-		Key:      character.Cashmere,
-		Gender:   gender.Female,
 		Games:    cashmereGames,
+		Gender:   gender.Female,
+		Key:      character.Cashmere,
 		Name:     cashmereName,
 		Special:  false}
 )

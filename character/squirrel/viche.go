@@ -124,9 +124,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: vicheBirthday,
 		Code:     vicheCode,
-		Key:      character.Viche,
-		Gender:   gender.Female,
 		Games:    vicheGames,
+		Gender:   gender.Female,
+		Key:      character.Viche,
 		Name:     vicheName,
 		Special:  false}
 )

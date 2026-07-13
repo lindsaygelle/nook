@@ -124,9 +124,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: audieBirthday,
 		Code:     audieCode,
-		Key:      character.Audie,
-		Gender:   gender.Female,
 		Games:    audieGames,
+		Gender:   gender.Female,
+		Key:      character.Audie,
 		Name:     audieName,
 		Special:  false}
 )

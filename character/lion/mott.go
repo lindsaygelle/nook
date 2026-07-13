@@ -128,9 +128,9 @@ var (
 		Animal:   animal.Lion,
 		Birthday: mottBirthday,
 		Code:     mottCode,
-		Key:      character.Mott,
-		Gender:   gender.Male,
 		Games:    mottGames,
+		Gender:   gender.Male,
+		Key:      character.Mott,
 		Name:     mottName,
 		Special:  false}
 )
