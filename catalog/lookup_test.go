@@ -13,6 +13,7 @@ import (
 	mousecharacters "github.com/lindsaygelle/nook/character/mouse"
 	rabbitcharacters "github.com/lindsaygelle/nook/character/rabbit"
 	raccooncharacters "github.com/lindsaygelle/nook/character/raccoon"
+	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
@@ -201,6 +202,26 @@ func TestVillagersByPersonalityDeterministic(t *testing.T) {
 	}
 }
 
+func TestVillagersByPersonalityKeyDeterministic(t *testing.T) {
+	villagers := catalog.VillagersByPersonalityKey(personality.Snooty.Key)
+	if len(villagers) != 66 {
+		t.Fatalf("len(catalog.VillagersByPersonalityKey(Snooty)) = %d", len(villagers))
+	}
+	if villagers[0].Animal.Key != animal.Alligator.Key || villagers[0].Key != character.Alli {
+		t.Fatalf("catalog.VillagersByPersonalityKey(Snooty)[0] = %s/%s", villagers[0].Animal.Key, villagers[0].Key)
+	}
+	if villagers[len(villagers)-1].Animal.Key != animal.Wolf.Key || villagers[len(villagers)-1].Key != character.Whitney {
+		t.Fatalf("catalog.VillagersByPersonalityKey(Snooty)[last] = %s/%s", villagers[len(villagers)-1].Animal.Key, villagers[len(villagers)-1].Key)
+	}
+	for i := 1; i < len(villagers); i++ {
+		leftAnimal := string(villagers[i-1].Animal.Key)
+		rightAnimal := string(villagers[i].Animal.Key)
+		if leftAnimal > rightAnimal || (leftAnimal == rightAnimal && string(villagers[i-1].Key) > string(villagers[i].Key)) {
+			t.Fatalf("catalog.VillagersByPersonalityKey(Snooty) not sorted at %s/%s > %s/%s", villagers[i-1].Animal.Key, villagers[i-1].Key, villagers[i].Animal.Key, villagers[i].Key)
+		}
+	}
+}
+
 func TestVillagerListByAnimalSorted(t *testing.T) {
 	villagers, ok := catalog.VillagerListByAnimal(animal.Mouse.Key)
 	if !ok {
@@ -264,5 +285,8 @@ func TestMissingAnimalBucket(t *testing.T) {
 	}
 	if villagers := catalog.VillagersByPersonality(language.French, "snooty"); len(villagers) != 0 {
 		t.Fatalf("len(catalog.VillagersByPersonality(fr, snooty)) = %d", len(villagers))
+	}
+	if villagers := catalog.VillagersByPersonalityKey(""); len(villagers) != 0 {
+		t.Fatalf("len(catalog.VillagersByPersonalityKey(\"\")) = %d", len(villagers))
 	}
 }

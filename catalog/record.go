@@ -293,3 +293,15 @@ func VillagerRecordsByPersonality(tag language.Tag, personality string) []Villag
 	}
 	return records
 }
+
+// VillagerRecordsByPersonalityKey returns all villagers whose personality
+// exactly matches the provided personality key. Results are ordered by animal
+// key and then character key.
+func VillagerRecordsByPersonalityKey(personalityKey nook.Key) []VillagerRecord {
+	villagers := VillagersByPersonalityKey(personalityKey)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
