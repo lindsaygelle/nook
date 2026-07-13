@@ -12,6 +12,7 @@ import (
 	"github.com/lindsaygelle/nook/character/mouse"
 	"github.com/lindsaygelle/nook/character/raccoon"
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/gender"
 	"golang.org/x/text/language"
 )
 
@@ -191,6 +192,37 @@ func TestResidentRecordsByGame(t *testing.T) {
 	}
 }
 
+func TestResidentRecordsByGender(t *testing.T) {
+	records := catalog.ResidentRecordsByGender(gender.Female.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.ResidentRecordsByGender(Female) returned no records")
+	}
+
+	foundCeleste := false
+	for i, record := range records {
+		if record.GenderKey != string(gender.Female.Key) {
+			t.Fatalf("catalog.ResidentRecordsByGender(Female)[%d].GenderKey = %s", i, record.GenderKey)
+		}
+		if record.ID == "Owl:Celeste" {
+			foundCeleste = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.ResidentRecordsByGender(Female)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.ResidentRecordsByGender(Female)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundCeleste {
+		t.Fatal("catalog.ResidentRecordsByGender(Female) missing Celeste")
+	}
+}
+
 func TestLocalizedValuesOfOmitsEmptyValues(t *testing.T) {
 	values := catalog.LocalizedValuesOf(mouse.Carmen.Name)
 
@@ -320,6 +352,37 @@ func TestVillagerRecordsByGame(t *testing.T) {
 	}
 }
 
+func TestVillagerRecordsByGender(t *testing.T) {
+	records := catalog.VillagerRecordsByGender(gender.Male.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.VillagerRecordsByGender(Male) returned no records")
+	}
+
+	foundMarshal := false
+	for i, record := range records {
+		if record.GenderKey != string(gender.Male.Key) {
+			t.Fatalf("catalog.VillagerRecordsByGender(Male)[%d].GenderKey = %s", i, record.GenderKey)
+		}
+		if record.ID == "Squirrel:Marshal" {
+			foundMarshal = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.VillagerRecordsByGender(Male)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.VillagerRecordsByGender(Male)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundMarshal {
+		t.Fatal("catalog.VillagerRecordsByGender(Male) missing Marshal")
+	}
+}
+
 func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if _, ok := catalog.ResidentRecordsByAnimal("missing"); ok {
 		t.Fatal("catalog.ResidentRecordsByAnimal(missing) unexpectedly found a bucket")
@@ -351,11 +414,17 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if records := catalog.ResidentRecordsByGame(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByGame(\"\")) = %d", len(records))
 	}
+	if records := catalog.ResidentRecordsByGender(""); len(records) != 0 {
+		t.Fatalf("len(catalog.ResidentRecordsByGender(\"\")) = %d", len(records))
+	}
 	if records := catalog.VillagerRecordsByBirthMonth(0); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByBirthMonth(0)) = %d", len(records))
 	}
 	if records := catalog.VillagerRecordsByGame(""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByGame(\"\")) = %d", len(records))
+	}
+	if records := catalog.VillagerRecordsByGender(""); len(records) != 0 {
+		t.Fatalf("len(catalog.VillagerRecordsByGender(\"\")) = %d", len(records))
 	}
 	if records := catalog.VillagerRecordsByPersonality(language.AmericanEnglish, ""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByPersonality(en-US, blank)) = %d", len(records))
