@@ -18,39 +18,39 @@ func newGame(key, name string) nook.Game {
 }
 
 var (
-	// DoubutsuNoMori represents Doubutsu no Mori.
-	DoubutsuNoMori = newGame("DoubutsuNoMori", "Doubutsu no Mori")
-
-	// DoubutsuNoMoriPlus represents Doubutsu no Mori+.
-	DoubutsuNoMoriPlus = newGame("DoubutsuNoMoriPlus", "Doubutsu no Mori+")
+	// AmiiboFestival represents Animal Crossing: amiibo Festival.
+	AmiiboFestival = newGame("AmiiboFestival", "Animal Crossing: amiibo Festival")
 
 	// AnimalCrossing represents Animal Crossing.
 	AnimalCrossing = newGame("AnimalCrossing", "Animal Crossing")
 
-	// DoubutsuNoMoriEPlus represents Doubutsu no Mori e+.
-	DoubutsuNoMoriEPlus = newGame("DoubutsuNoMoriEPlus", "Doubutsu no Mori e+")
+	// CityFolk represents Animal Crossing: City Folk.
+	CityFolk = newGame("CityFolk", "Animal Crossing: City Folk")
 
 	// DongwuSenlin represents Dongwu Senlin.
 	DongwuSenlin = newGame("DongwuSenlin", "Dongwu Senlin")
 
-	// WildWorld represents Animal Crossing: Wild World.
-	WildWorld = newGame("WildWorld", "Animal Crossing: Wild World")
+	// DoubutsuNoMori represents Doubutsu no Mori.
+	DoubutsuNoMori = newGame("DoubutsuNoMori", "Doubutsu no Mori")
 
-	// CityFolk represents Animal Crossing: City Folk.
-	CityFolk = newGame("CityFolk", "Animal Crossing: City Folk")
+	// DoubutsuNoMoriEPlus represents Doubutsu no Mori e+.
+	DoubutsuNoMoriEPlus = newGame("DoubutsuNoMoriEPlus", "Doubutsu no Mori e+")
 
-	// NewLeaf represents Animal Crossing: New Leaf.
-	NewLeaf = newGame("NewLeaf", "Animal Crossing: New Leaf")
-
-	// NewHorizons represents Animal Crossing: New Horizons.
-	NewHorizons = newGame("NewHorizons", "Animal Crossing: New Horizons")
+	// DoubutsuNoMoriPlus represents Doubutsu no Mori+.
+	DoubutsuNoMoriPlus = newGame("DoubutsuNoMoriPlus", "Doubutsu no Mori+")
 
 	// HappyHomeDesigner represents Animal Crossing: Happy Home Designer.
 	HappyHomeDesigner = newGame("HappyHomeDesigner", "Animal Crossing: Happy Home Designer")
 
-	// AmiiboFestival represents Animal Crossing: amiibo Festival.
-	AmiiboFestival = newGame("AmiiboFestival", "Animal Crossing: amiibo Festival")
+	// NewHorizons represents Animal Crossing: New Horizons.
+	NewHorizons = newGame("NewHorizons", "Animal Crossing: New Horizons")
+
+	// NewLeaf represents Animal Crossing: New Leaf.
+	NewLeaf = newGame("NewLeaf", "Animal Crossing: New Leaf")
 
 	// PocketCamp represents Animal Crossing: Pocket Camp.
 	PocketCamp = newGame("PocketCamp", "Animal Crossing: Pocket Camp")
+
+	// WildWorld represents Animal Crossing: Wild World.
+	WildWorld = newGame("WildWorld", "Animal Crossing: Wild World")
 )
