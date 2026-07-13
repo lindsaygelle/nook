@@ -148,3 +148,41 @@ var AllVillagers = map[nook.Key]nook.Villagers{
 	animal.Tiger.Key:      tiger.Villagers,
 	animal.Wolf.Key:       wolf.Villagers,
 }
+
+// ResidentByID returns a resident using an exact composed character identifier
+// match after normalization.
+func ResidentByID(id string) (nook.Resident, bool) {
+	query := NormalizeLookupValue(id)
+	if query == "" {
+		return nook.Resident{}, false
+	}
+
+	for _, bucket := range AllResidents {
+		for _, resident := range bucket {
+			if NormalizeLookupValue(string(resident.Character.ID())) != query {
+				continue
+			}
+			return resident, true
+		}
+	}
+	return nook.Resident{}, false
+}
+
+// VillagerByID returns a villager using an exact composed character identifier
+// match after normalization.
+func VillagerByID(id string) (nook.Villager, bool) {
+	query := NormalizeLookupValue(id)
+	if query == "" {
+		return nook.Villager{}, false
+	}
+
+	for _, bucket := range AllVillagers {
+		for _, villager := range bucket {
+			if NormalizeLookupValue(string(villager.Character.ID())) != query {
+				continue
+			}
+			return villager, true
+		}
+	}
+	return nook.Villager{}, false
+}

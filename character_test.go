@@ -32,15 +32,12 @@ func testCharacterBirthday(t *testing.T, c nook.Character) {
 
 func testCharacterID(t *testing.T, c nook.Character) {
 	id := c.ID()
-	if ok := id.Ok(); !ok {
-		t.Fatalf("%s.ID().Ok() != true", c.Key)
+	if id == "" {
+		t.Fatalf("%s.ID() is empty", c.Key)
 	}
-	animalKey, characterKey, ok := id.Parts()
-	if !ok {
-		t.Fatalf("%s.ID().Parts() did not parse", c.Key)
-	}
-	if animalKey != c.Animal.Key || characterKey != c.Key {
-		t.Fatalf("%s.ID().Parts() = %s/%s", c.Key, animalKey, characterKey)
+	expected := nook.Key(string(c.Animal.Key) + ":" + string(c.Key))
+	if id != expected {
+		t.Fatalf("%s.ID() = %s", c.Key, id)
 	}
 }
 

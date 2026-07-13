@@ -65,7 +65,7 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 			Month: uint8(character.Birthday.Month),
 		},
 		Code:      character.Code.Value,
-		ID:        character.ID().String(),
+		ID:        string(character.ID()),
 		Gender:    LocalizedValuesOf(character.Gender.Name),
 		GenderKey: string(character.Gender.Key),
 		Key:       string(character.Key),
