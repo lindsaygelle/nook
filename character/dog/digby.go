@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// digbyGames represents digby game appearances.
+	digbyGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: digbyBirthday,
 		Code:     digbyCode,
-		Key:      character.Digby,
+		Games:    digbyGames,
 		Gender:   gender.Male,
+		Key:      character.Digby,
 		Name:     digbyName,
 		Special:  true}
 )

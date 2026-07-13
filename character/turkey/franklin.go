@@ -6,9 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// franklinGames represents franklin game appearances.
+	franklinGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +130,9 @@ var (
 		Animal:   animal.Turkey,
 		Birthday: franklinBirthday,
 		Code:     franklinCode,
-		Key:      character.Franklin,
+		Games:    franklinGames,
 		Gender:   gender.Male,
+		Key:      character.Franklin,
 		Name:     franklinName,
 		Special:  true}
 )

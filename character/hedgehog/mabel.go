@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// mabelGames represents mabel game appearances.
+	mabelGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +132,9 @@ var (
 		Animal:   animal.Hedgehog,
 		Birthday: mabelBirthday,
 		Code:     mabelCode,
-		Key:      character.Mabel,
+		Games:    mabelGames,
 		Gender:   gender.Female,
+		Key:      character.Mabel,
 		Name:     mabelName,
 		Special:  true}
 )

@@ -6,9 +6,19 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// flossieGames represents flossie game appearances.
+	flossieGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+	}
 )
 
 var (
@@ -115,8 +125,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: flossieBirthday,
 		Code:     flossieCode,
-		Key:      character.Flossie,
+		Games:    flossieGames,
 		Gender:   gender.Female,
+		Key:      character.Flossie,
 		Name:     flossieName,
 		Special:  false}
 )

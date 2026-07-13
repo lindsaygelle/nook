@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// quillsonGames represents quillson game appearances.
+	quillsonGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Duck,
 		Birthday: quillsonBirthday,
 		Code:     quillsonCode,
-		Key:      character.Quillson,
+		Games:    quillsonGames,
 		Gender:   gender.Male,
+		Key:      character.Quillson,
 		Name:     quillsonName,
 		Special:  false}
 )

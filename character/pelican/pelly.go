@@ -6,9 +6,28 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// pellyGames represents pelly game appearances.
+	pellyGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +134,9 @@ var (
 		Animal:   animal.Pelican,
 		Birthday: pellyBirthday,
 		Code:     pellyCode,
-		Key:      character.Pelly,
+		Games:    pellyGames,
 		Gender:   gender.Female,
+		Key:      character.Pelly,
 		Name:     pellyName,
 		Special:  true}
 )

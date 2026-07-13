@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// rodeoGames represents rodeo game appearances.
+	rodeoGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +129,9 @@ var (
 		Animal:   animal.Bull,
 		Birthday: rodeoBirthday,
 		Code:     rodeoCode,
-		Key:      character.Rodeo,
+		Games:    rodeoGames,
 		Gender:   gender.Male,
+		Key:      character.Rodeo,
 		Name:     rodeoName,
 		Special:  false}
 )

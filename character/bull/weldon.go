@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// weldonGames represents weldon game appearances.
+	weldonGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Bull,
 		Birthday: weldonBirthday,
 		Code:     weldonCode,
-		Key:      character.Weldon,
+		Games:    weldonGames,
 		Gender:   gender.Male,
+		Key:      character.Weldon,
 		Name:     weldonName,
 		Special:  false}
 )

@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// patriciaGames represents patricia game appearances.
+	patriciaGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Rhinoceros,
 		Birthday: patriciaBirthday,
 		Code:     patriciaCode,
-		Key:      character.Patricia,
+		Games:    patriciaGames,
 		Gender:   gender.Female,
+		Key:      character.Patricia,
 		Name:     patriciaName,
 		Special:  false}
 )

@@ -6,12 +6,31 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // pinkyBirthday represents Pinky's birthday.
+var (
+	// pinkyGames represents pinky game appearances.
+	pinkyGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
+)
+
 var (
 	// pinkyBirthday represents pinky birthday.
 	pinkyBirthday = nook.Birthday{
@@ -120,8 +139,9 @@ var (
 		Animal:   animal.Bear,
 		Birthday: pinkyBirthday,
 		Code:     pinkyCode,
-		Key:      character.Pinky,
+		Games:    pinkyGames,
 		Gender:   gender.Female,
+		Key:      character.Pinky,
 		Name:     pinkyName,
 		Special:  false}
 )

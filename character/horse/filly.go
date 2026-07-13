@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// fillyGames represents filly game appearances.
+	fillyGames = []nook.Game{
+		game.HappyHomeDesigner,
+		game.NewLeaf,
+	}
 )
 
 var (
@@ -115,8 +124,9 @@ var (
 		Animal:   animal.Horse,
 		Birthday: fillyBirthday,
 		Code:     fillyCode,
-		Key:      character.Filly,
+		Games:    fillyGames,
 		Gender:   gender.Female,
+		Key:      character.Filly,
 		Name:     fillyName,
 		Special:  false}
 )

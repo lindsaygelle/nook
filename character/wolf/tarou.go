@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// tarouGames represents tarou game appearances.
+	tarouGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Wolf,
 		Birthday: tarouBirthday,
 		Code:     tarouCode,
-		Key:      character.Tarou,
+		Games:    tarouGames,
 		Gender:   gender.Male,
+		Key:      character.Tarou,
 		Name:     tarouName,
 		Special:  false}
 )

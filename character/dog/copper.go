@@ -6,9 +6,27 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// copperGames represents copper game appearances.
+	copperGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +133,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: copperBirthday,
 		Code:     copperCode,
-		Key:      character.Copper,
+		Games:    copperGames,
 		Gender:   gender.Male,
+		Key:      character.Copper,
 		Name:     copperName,
 		Special:  true}
 )

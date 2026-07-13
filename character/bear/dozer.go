@@ -6,12 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // dozerBirthday represents Dozer's birthday.
+var (
+	// dozerGames represents dozer game appearances.
+	dozerGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+	}
+)
+
 var (
 	// dozerBirthday represents dozer birthday.
 	dozerBirthday = nook.Birthday{
@@ -120,8 +132,9 @@ var (
 		Animal:   animal.Bear,
 		Birthday: dozerBirthday,
 		Code:     dozerCode,
-		Key:      character.Dozer,
+		Games:    dozerGames,
 		Gender:   gender.Male,
+		Key:      character.Dozer,
 		Name:     dozerName,
 		Special:  false}
 )

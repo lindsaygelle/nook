@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// otisGames represents otis game appearances.
+	otisGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: otisBirthday,
 		Code:     otisCode,
-		Key:      character.Otis,
+		Games:    otisGames,
 		Gender:   gender.Male,
+		Key:      character.Otis,
 		Name:     otisName,
 		Special:  false}
 )

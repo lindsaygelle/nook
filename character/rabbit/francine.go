@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// francineGames represents francine game appearances.
+	francineGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +129,9 @@ var (
 		Animal:   animal.Rabbit,
 		Birthday: francineBirthday,
 		Code:     francineCode,
-		Key:      character.Francine,
+		Games:    francineGames,
 		Gender:   gender.Female,
+		Key:      character.Francine,
 		Name:     francineName,
 		Special:  false}
 )

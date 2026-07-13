@@ -6,9 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// tiffanyGames represents tiffany game appearances.
+	tiffanyGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +130,9 @@ var (
 		Animal:   animal.Rabbit,
 		Birthday: tiffanyBirthday,
 		Code:     tiffanyCode,
-		Key:      character.Tiffany,
+		Games:    tiffanyGames,
 		Gender:   gender.Female,
+		Key:      character.Tiffany,
 		Name:     tiffanyName,
 		Special:  false}
 )

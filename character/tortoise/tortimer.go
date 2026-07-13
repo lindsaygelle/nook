@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// tortimerGames represents tortimer game appearances.
+	tortimerGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +132,9 @@ var (
 		Animal:   animal.Tortoise,
 		Birthday: tortimerBirthday,
 		Code:     tortimerCode,
-		Key:      character.Tortimer,
+		Games:    tortimerGames,
 		Gender:   gender.Male,
+		Key:      character.Tortimer,
 		Name:     tortimerName,
 		Special:  true}
 )

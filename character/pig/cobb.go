@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// cobbGames represents cobb game appearances.
+	cobbGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +132,9 @@ var (
 		Animal:   animal.Pig,
 		Birthday: cobbBirthday,
 		Code:     cobbCode,
-		Key:      character.Cobb,
+		Games:    cobbGames,
 		Gender:   gender.Male,
+		Key:      character.Cobb,
 		Name:     cobbName,
 		Special:  false}
 )

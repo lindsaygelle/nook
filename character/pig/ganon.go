@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// ganonGames represents ganon game appearances.
+	ganonGames = []nook.Game{
+		game.NewLeaf,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Pig,
 		Birthday: ganonBirthday,
 		Code:     ganonCode,
-		Key:      character.Ganon,
+		Games:    ganonGames,
 		Gender:   gender.Male,
+		Key:      character.Ganon,
 		Name:     ganonName,
 		Special:  false}
 )

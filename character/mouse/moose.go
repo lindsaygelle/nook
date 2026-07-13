@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// mooseGames represents moose game appearances.
+	mooseGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +128,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: mooseBirthday,
 		Code:     mooseCode,
-		Key:      character.Moose,
+		Games:    mooseGames,
 		Gender:   gender.Male,
+		Key:      character.Moose,
 		Name:     mooseName,
 		Special:  false}
 )

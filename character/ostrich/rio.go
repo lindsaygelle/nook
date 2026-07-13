@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// rioGames represents rio game appearances.
+	rioGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +129,9 @@ var (
 		Animal:   animal.Ostrich,
 		Birthday: rioBirthday,
 		Code:     rioCode,
-		Key:      character.Rio,
+		Games:    rioGames,
 		Gender:   gender.Female,
+		Key:      character.Rio,
 		Name:     rioName,
 		Special:  false}
 )

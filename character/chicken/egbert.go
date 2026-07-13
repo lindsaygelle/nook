@@ -6,9 +6,28 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// egbertGames represents egbert game appearances.
+	egbertGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +134,9 @@ var (
 		Animal:   animal.Chicken,
 		Birthday: egbertBirthday,
 		Code:     egbertCode,
-		Key:      character.Egbert,
+		Games:    egbertGames,
 		Gender:   gender.Male,
+		Key:      character.Egbert,
 		Name:     egbertName,
 		Special:  false}
 )

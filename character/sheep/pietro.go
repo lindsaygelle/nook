@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// pietroGames represents pietro game appearances.
+	pietroGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Sheep,
 		Birthday: pietroBirthday,
 		Code:     pietroCode,
-		Key:      character.Pietro,
+		Games:    pietroGames,
 		Gender:   gender.Male,
+		Key:      character.Pietro,
 		Name:     pietroName,
 		Special:  false}
 )

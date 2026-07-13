@@ -6,9 +6,28 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// jayGames represents jay game appearances.
+	jayGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +134,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: jayBirthday,
 		Code:     jayCode,
-		Key:      character.Jay,
+		Games:    jayGames,
 		Gender:   gender.Male,
+		Key:      character.Jay,
 		Name:     jayName,
 		Special:  false}
 )

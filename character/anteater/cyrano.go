@@ -6,12 +6,31 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // cyranoBirthday represents Cyrano's birthday.
+var (
+	// cyranoGames represents cyrano game appearances.
+	cyranoGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
+)
+
 var (
 	// cyranoBirthday represents cyrano birthday.
 	cyranoBirthday = nook.Birthday{
@@ -120,8 +139,9 @@ var (
 		Animal:   animal.Anteater,
 		Birthday: cyranoBirthday,
 		Code:     cyranoCode,
-		Key:      character.Cyrano,
+		Games:    cyranoGames,
 		Gender:   gender.Male,
+		Key:      character.Cyrano,
 		Name:     cyranoName,
 		Special:  false}
 )

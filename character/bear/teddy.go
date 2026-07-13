@@ -6,12 +6,31 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // teddyBirthday represents Teddy's birthday.
+var (
+	// teddyGames represents teddy game appearances.
+	teddyGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
+)
+
 var (
 	// teddyBirthday represents teddy birthday.
 	teddyBirthday = nook.Birthday{
@@ -120,8 +139,9 @@ var (
 		Animal:   animal.Bear,
 		Birthday: teddyBirthday,
 		Code:     teddyCode,
-		Key:      character.Teddy,
+		Games:    teddyGames,
 		Gender:   gender.Male,
+		Key:      character.Teddy,
 		Name:     teddyName,
 		Special:  false}
 )

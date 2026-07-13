@@ -6,12 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // olafBirthday represents Olaf's birthday.
+var (
+	// olafGames represents olaf game appearances.
+	olafGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// olafBirthday represents olaf birthday.
 	olafBirthday = nook.Birthday{
@@ -120,8 +132,9 @@ var (
 		Animal:   animal.Anteater,
 		Birthday: olafBirthday,
 		Code:     olafCode,
-		Key:      character.Olaf,
+		Games:    olafGames,
 		Gender:   gender.Male,
+		Key:      character.Olaf,
 		Name:     olafName,
 		Special:  false}
 )

@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// wilburGames represents wilbur game appearances.
+	wilburGames = []nook.Game{
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +124,9 @@ var (
 		Animal:   animal.Dodo,
 		Birthday: wilburBirthday,
 		Code:     wilburCode,
-		Key:      character.Wilbur,
+		Games:    wilburGames,
 		Gender:   gender.Male,
+		Key:      character.Wilbur,
 		Name:     wilburName,
 		Special:  true}
 )

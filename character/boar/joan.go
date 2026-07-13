@@ -6,9 +6,27 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// joanGames represents joan game appearances.
+	joanGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +133,9 @@ var (
 		Animal:   animal.Boar,
 		Birthday: joanBirthday,
 		Code:     joanCode,
-		Key:      character.Joan,
+		Games:    joanGames,
 		Gender:   gender.Female,
+		Key:      character.Joan,
 		Name:     joanName,
 		Special:  true}
 )

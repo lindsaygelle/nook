@@ -6,9 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// margieGames represents margie game appearances.
+	margieGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +130,9 @@ var (
 		Animal:   animal.Elephant,
 		Birthday: margieBirthday,
 		Code:     margieCode,
-		Key:      character.Margie,
+		Games:    margieGames,
 		Gender:   gender.Female,
+		Key:      character.Margie,
 		Name:     margieName,
 		Special:  false}
 )

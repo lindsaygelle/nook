@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// ketchupGames represents ketchup game appearances.
+	ketchupGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +126,9 @@ var (
 		Animal:   animal.Duck,
 		Birthday: ketchupBirthday,
 		Code:     ketchupCode,
-		Key:      character.Ketchup,
+		Games:    ketchupGames,
 		Gender:   gender.Female,
+		Key:      character.Ketchup,
 		Name:     ketchupName,
 		Special:  false}
 )

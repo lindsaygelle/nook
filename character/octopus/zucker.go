@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// zuckerGames represents zucker game appearances.
+	zuckerGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Octopus,
 		Birthday: zuckerBirthday,
 		Code:     zuckerCode,
-		Key:      character.Zucker,
+		Games:    zuckerGames,
 		Gender:   gender.Male,
+		Key:      character.Zucker,
 		Name:     zuckerName,
 		Special:  false}
 )

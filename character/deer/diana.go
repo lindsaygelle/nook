@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// dianaGames represents diana game appearances.
+	dianaGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Deer,
 		Birthday: dianaBirthday,
 		Code:     dianaCode,
-		Key:      character.Diana,
+		Games:    dianaGames,
 		Gender:   gender.Female,
+		Key:      character.Diana,
 		Name:     dianaName,
 		Special:  false}
 )

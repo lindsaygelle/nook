@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// cjGames represents cj game appearances.
+	cjGames = []nook.Game{
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +124,9 @@ var (
 		Animal:   animal.Beaver,
 		Birthday: cjBirthday,
 		Code:     cjCode,
-		Key:      character.CJ,
+		Games:    cjGames,
 		Gender:   gender.Male,
+		Key:      character.CJ,
 		Name:     cjName,
 		Special:  true}
 )

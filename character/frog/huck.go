@@ -6,9 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// huckGames represents huck game appearances.
+	huckGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +130,9 @@ var (
 		Animal:   animal.Frog,
 		Birthday: huckBirthday,
 		Code:     huckCode,
-		Key:      character.Huck,
+		Games:    huckGames,
 		Gender:   gender.Male,
+		Key:      character.Huck,
 		Name:     huckName,
 		Special:  false}
 )

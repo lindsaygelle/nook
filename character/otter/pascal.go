@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// pascalGames represents pascal game appearances.
+	pascalGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +129,9 @@ var (
 		Animal:   animal.Otter,
 		Birthday: pascalBirthday,
 		Code:     pascalCode,
-		Key:      character.Pascal,
+		Games:    pascalGames,
 		Gender:   gender.Male,
+		Key:      character.Pascal,
 		Name:     pascalName,
 		Special:  true}
 )

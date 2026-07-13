@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// boydGames represents boyd game appearances.
+	boydGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +126,9 @@ var (
 		Animal:   animal.Gorilla,
 		Birthday: boydBirthday,
 		Code:     boydCode,
-		Key:      character.Boyd,
+		Games:    boydGames,
 		Gender:   gender.Male,
+		Key:      character.Boyd,
 		Name:     boydName,
 		Special:  false}
 )

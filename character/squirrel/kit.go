@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// kitGames represents kit game appearances.
+	kitGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: kitBirthday,
 		Code:     kitCode,
-		Key:      character.Kit,
+		Games:    kitGames,
 		Gender:   gender.Male,
+		Key:      character.Kit,
 		Name:     kitName,
 		Special:  false}
 )

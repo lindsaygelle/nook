@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// quetzalGames represents quetzal game appearances.
+	quetzalGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Eagle,
 		Birthday: quetzalBirthday,
 		Code:     quetzalCode,
-		Key:      character.Quetzal,
+		Games:    quetzalGames,
 		Gender:   gender.Male,
+		Key:      character.Quetzal,
 		Name:     quetzalName,
 		Special:  false}
 )

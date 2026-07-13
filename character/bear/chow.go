@@ -6,12 +6,31 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // chowBirthday represents Chow's birthday.
+var (
+	// chowGames represents chow game appearances.
+	chowGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
+)
+
 var (
 	// chowBirthday represents chow birthday.
 	chowBirthday = nook.Birthday{
@@ -120,8 +139,9 @@ var (
 		Animal:   animal.Bear,
 		Birthday: chowBirthday,
 		Code:     chowCode,
-		Key:      character.Chow,
+		Games:    chowGames,
 		Gender:   gender.Male,
+		Key:      character.Chow,
 		Name:     chowName,
 		Special:  false}
 )

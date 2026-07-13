@@ -6,9 +6,28 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// roccoGames represents rocco game appearances.
+	roccoGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +134,9 @@ var (
 		Animal:   animal.Hippo,
 		Birthday: roccoBirthday,
 		Code:     roccoCode,
-		Key:      character.Rocco,
+		Games:    roccoGames,
 		Gender:   gender.Male,
+		Key:      character.Rocco,
 		Name:     roccoName,
 		Special:  false}
 )

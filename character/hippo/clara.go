@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// claraGames represents clara game appearances.
+	claraGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Hippo,
 		Birthday: claraBirthday,
 		Code:     claraCode,
-		Key:      character.Clara,
+		Games:    claraGames,
 		Gender:   gender.Female,
+		Key:      character.Clara,
 		Name:     claraName,
 		Special:  false}
 )

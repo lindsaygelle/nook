@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// megumiGames represents megumi game appearances.
+	megumiGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: megumiBirthday,
 		Code:     megumiCode,
-		Key:      character.Megumi,
+		Games:    megumiGames,
 		Gender:   gender.Female,
+		Key:      character.Megumi,
 		Name:     megumiName,
 		Special:  false}
 )

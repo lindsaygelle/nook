@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// isabelleGames represents isabelle game appearances.
+	isabelleGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Dog,
 		Birthday: isabelleBirthday,
 		Code:     isabelleCode,
-		Key:      character.Isabelle,
+		Games:    isabelleGames,
 		Gender:   gender.Female,
+		Key:      character.Isabelle,
 		Name:     isabelleName,
 		Special:  true}
 )

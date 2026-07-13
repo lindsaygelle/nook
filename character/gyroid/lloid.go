@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// lloidGames represents lloid game appearances.
+	lloidGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +132,9 @@ var (
 		Animal:   animal.Gyroid,
 		Birthday: lloidBirthday,
 		Code:     lloidCode,
-		Key:      character.Lloid,
+		Games:    lloidGames,
 		Gender:   gender.Male,
+		Key:      character.Lloid,
 		Name:     lloidName,
 		Special:  true}
 )

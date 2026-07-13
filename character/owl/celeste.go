@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// celesteGames represents celeste game appearances.
+	celesteGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +129,9 @@ var (
 		Animal:   animal.Owl,
 		Birthday: celesteBirthday,
 		Code:     celesteCode,
-		Key:      character.Celeste,
+		Games:    celesteGames,
 		Gender:   gender.Female,
+		Key:      character.Celeste,
 		Name:     celesteName,
 		Special:  true}
 )

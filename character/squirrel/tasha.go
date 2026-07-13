@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// tashaGames represents tasha game appearances.
+	tashaGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +126,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: tashaBirthday,
 		Code:     tashaCode,
-		Key:      character.Tasha,
+		Games:    tashaGames,
 		Gender:   gender.Female,
+		Key:      character.Tasha,
 		Name:     tashaName,
 		Special:  false}
 )

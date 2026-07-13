@@ -6,12 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // delBirthday represents Del's birthday.
+var (
+	// delGames represents del game appearances.
+	delGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// delBirthday represents del birthday.
 	delBirthday = nook.Birthday{
@@ -120,8 +134,9 @@ var (
 		Animal:   animal.Alligator,
 		Birthday: delBirthday,
 		Code:     delCode,
-		Key:      character.Del,
+		Games:    delGames,
 		Gender:   gender.Male,
+		Key:      character.Del,
 		Name:     delName,
 		Special:  false}
 )

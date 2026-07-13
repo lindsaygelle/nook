@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// waltGames represents walt game appearances.
+	waltGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Kangaroo,
 		Birthday: waltBirthday,
 		Code:     waltCode,
-		Key:      character.Walt,
+		Games:    waltGames,
 		Gender:   gender.Male,
+		Key:      character.Walt,
 		Name:     waltName,
 		Special:  false}
 )

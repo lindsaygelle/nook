@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// miraGames represents mira game appearances.
+	miraGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Rabbit,
 		Birthday: miraBirthday,
 		Code:     miraCode,
-		Key:      character.Mira,
+		Games:    miraGames,
 		Gender:   gender.Female,
+		Key:      character.Mira,
 		Name:     miraName,
 		Special:  false}
 )

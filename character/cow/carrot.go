@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// carrotGames represents carrot game appearances.
+	carrotGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Cow,
 		Birthday: carrotBirthday,
 		Code:     carrotCode,
-		Key:      character.Carrot,
+		Games:    carrotGames,
 		Gender:   gender.Female,
+		Key:      character.Carrot,
 		Name:     carrotName,
 		Special:  false}
 )

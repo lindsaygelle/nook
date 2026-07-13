@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// bettinaGames represents bettina game appearances.
+	bettinaGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +128,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: bettinaBirthday,
 		Code:     bettinaCode,
-		Key:      character.Bettina,
+		Games:    bettinaGames,
 		Gender:   gender.Female,
+		Key:      character.Bettina,
 		Name:     bettinaName,
 		Special:  false}
 )

@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// croqueGames represents croque game appearances.
+	croqueGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Frog,
 		Birthday: croqueBirthday,
 		Code:     croqueCode,
-		Key:      character.Croque,
+		Games:    croqueGames,
 		Gender:   gender.Male,
+		Key:      character.Croque,
 		Name:     croqueName,
 		Special:  false}
 )

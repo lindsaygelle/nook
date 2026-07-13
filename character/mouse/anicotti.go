@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// anicottiGames represents anicotti game appearances.
+	anicottiGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +132,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: anicottiBirthday,
 		Code:     anicottiCode,
-		Key:      character.Anicotti,
+		Games:    anicottiGames,
 		Gender:   gender.Female,
+		Key:      character.Anicotti,
 		Name:     anicottiName,
 		Special:  false}
 )

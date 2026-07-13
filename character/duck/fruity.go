@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// fruityGames represents fruity game appearances.
+	fruityGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Duck,
 		Birthday: fruityBirthday,
 		Code:     fruityCode,
-		Key:      character.Fruity,
+		Games:    fruityGames,
 		Gender:   gender.Male,
+		Key:      character.Fruity,
 		Name:     fruityName,
 		Special:  false}
 )

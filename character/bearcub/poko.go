@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// pokoGames represents poko game appearances.
+	pokoGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Bearcub,
 		Birthday: pokoBirthday,
 		Code:     pokoCode,
-		Key:      character.Poko,
+		Games:    pokoGames,
 		Gender:   gender.Male,
+		Key:      character.Poko,
 		Name:     pokoName,
 		Special:  false}
 )

@@ -6,12 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // pironkonBirthday represents Pironkon's birthday.
+var (
+	// pironkonGames represents pironkon game appearances.
+	pironkonGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// pironkonBirthday represents pironkon birthday.
 	pironkonBirthday = nook.Birthday{
@@ -120,8 +130,9 @@ var (
 		Animal:   animal.Alligator,
 		Birthday: pironkonBirthday,
 		Code:     pironkonCode,
-		Key:      character.Pironkon,
+		Games:    pironkonGames,
 		Gender:   gender.Male,
+		Key:      character.Pironkon,
 		Name:     pironkonName,
 		Special:  false}
 )

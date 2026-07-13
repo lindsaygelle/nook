@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// shoukichiGames represents shoukichi game appearances.
+	shoukichiGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: shoukichiBirthday,
 		Code:     shoukichiCode,
-		Key:      character.Shoukichi,
+		Games:    shoukichiGames,
 		Gender:   gender.Male,
+		Key:      character.Shoukichi,
 		Name:     shoukichiName,
 		Special:  false}
 )

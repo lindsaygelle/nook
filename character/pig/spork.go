@@ -6,9 +6,27 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// sporkGames represents spork game appearances.
+	sporkGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +133,9 @@ var (
 		Animal:   animal.Pig,
 		Birthday: sporkBirthday,
 		Code:     sporkCode,
-		Key:      character.Spork,
+		Games:    sporkGames,
 		Gender:   gender.Male,
+		Key:      character.Spork,
 		Name:     sporkName,
 		Special:  false}
 )

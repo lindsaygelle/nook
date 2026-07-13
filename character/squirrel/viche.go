@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// vicheGames represents viche game appearances.
+	vicheGames = []nook.Game{
+		game.NewHorizons,
+		game.NewLeaf,
+	}
 )
 
 var (
@@ -115,8 +124,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: vicheBirthday,
 		Code:     vicheCode,
-		Key:      character.Viche,
+		Games:    vicheGames,
 		Gender:   gender.Female,
+		Key:      character.Viche,
 		Name:     vicheName,
 		Special:  false}
 )

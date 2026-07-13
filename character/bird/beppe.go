@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// beppeGames represents beppe game appearances.
+	beppeGames = []nook.Game{
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +123,9 @@ var (
 		Animal:   animal.Bird,
 		Birthday: beppeBirthday,
 		Code:     beppeCode,
-		Key:      character.Beppe,
+		Games:    beppeGames,
 		Gender:   gender.Male,
+		Key:      character.Beppe,
 		Name:     beppeName,
 		Special:  true}
 )

@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// poppyGames represents poppy game appearances.
+	poppyGames = []nook.Game{
+		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +128,9 @@ var (
 		Animal:   animal.Squirrel,
 		Birthday: poppyBirthday,
 		Code:     poppyCode,
-		Key:      character.Poppy,
+		Games:    poppyGames,
 		Gender:   gender.Female,
+		Key:      character.Poppy,
 		Name:     poppyName,
 		Special:  false}
 )

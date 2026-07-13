@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// velmaGames represents velma game appearances.
+	velmaGames = []nook.Game{
+		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +132,9 @@ var (
 		Animal:   animal.Goat,
 		Birthday: velmaBirthday,
 		Code:     velmaCode,
-		Key:      character.Velma,
+		Games:    velmaGames,
 		Gender:   gender.Female,
+		Key:      character.Velma,
 		Name:     velmaName,
 		Special:  false}
 )

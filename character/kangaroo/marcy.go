@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// marcyGames represents marcy game appearances.
+	marcyGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Kangaroo,
 		Birthday: marcyBirthday,
 		Code:     marcyCode,
-		Key:      character.Marcy,
+		Games:    marcyGames,
 		Gender:   gender.Female,
+		Key:      character.Marcy,
 		Name:     marcyName,
 		Special:  false}
 )

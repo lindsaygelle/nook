@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// bonbonGames represents bonbon game appearances.
+	bonbonGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Rabbit,
 		Birthday: bonbonBirthday,
 		Code:     bonbonCode,
-		Key:      character.Bonbon,
+		Games:    bonbonGames,
 		Gender:   gender.Female,
+		Key:      character.Bonbon,
 		Name:     bonbonName,
 		Special:  false}
 )

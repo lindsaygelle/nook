@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// gretaGames represents greta game appearances.
+	gretaGames = []nook.Game{
+		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +127,9 @@ var (
 		Animal:   animal.Mouse,
 		Birthday: gretaBirthday,
 		Code:     gretaCode,
-		Key:      character.Greta,
+		Games:    gretaGames,
 		Gender:   gender.Female,
+		Key:      character.Greta,
 		Name:     gretaName,
 		Special:  false}
 )

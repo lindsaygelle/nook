@@ -6,9 +6,19 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// cornimerGames represents cornimer game appearances.
+	cornimerGames = []nook.Game{
+		game.NewHorizons,
+		game.NewLeaf,
+		game.WildWorld,
+	}
 )
 
 var (
@@ -115,8 +125,9 @@ var (
 		Animal:   animal.Tortoise,
 		Birthday: cornimerBirthday,
 		Code:     cornimerCode,
-		Key:      character.Cornimer,
+		Games:    cornimerGames,
 		Gender:   gender.Male,
+		Key:      character.Cornimer,
 		Name:     cornimerName,
 		Special:  true}
 )

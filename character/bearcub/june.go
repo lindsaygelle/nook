@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// juneGames represents june game appearances.
+	juneGames = []nook.Game{
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -115,8 +128,9 @@ var (
 		Animal:   animal.Bearcub,
 		Birthday: juneBirthday,
 		Code:     juneCode,
-		Key:      character.June,
+		Games:    juneGames,
 		Gender:   gender.Female,
+		Key:      character.June,
 		Name:     juneName,
 		Special:  false}
 )
