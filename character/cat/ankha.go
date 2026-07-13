@@ -15,14 +15,14 @@ import (
 var (
 	// ankhaGames represents ankha game appearances.
 	ankhaGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
-		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

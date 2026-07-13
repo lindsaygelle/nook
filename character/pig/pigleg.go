@@ -15,9 +15,9 @@ import (
 var (
 	// piglegGames represents pigleg game appearances.
 	piglegGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

@@ -15,8 +15,8 @@ import (
 var (
 	// felyneGames represents felyne game appearances.
 	felyneGames = []nook.Game{
-		game.NewLeaf,
 		game.HappyHomeDesigner,
+		game.NewLeaf,
 	}
 )
 

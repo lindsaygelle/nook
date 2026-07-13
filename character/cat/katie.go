@@ -15,13 +15,13 @@ import (
 var (
 	// katieGames represents katie game appearances.
 	katieGames = []nook.Game{
-		game.WildWorld,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
+		game.WildWorld,
 	}
 )
 

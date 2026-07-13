@@ -15,14 +15,14 @@ import (
 var (
 	// margieGames represents margie game appearances.
 	margieGames = []nook.Game{
-		game.DoubutsuNoMoriEPlus,
-		game.WildWorld,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
+		game.WildWorld,
 	}
 )
 

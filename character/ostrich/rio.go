@@ -15,11 +15,11 @@ import (
 var (
 	// rioGames represents rio game appearances.
 	rioGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
 		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 		game.NewHorizons,
 		game.PocketCamp,
 	}

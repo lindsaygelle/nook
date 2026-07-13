@@ -16,11 +16,11 @@ import (
 var (
 	// charliseGames represents charlise game appearances.
 	charliseGames = []nook.Game{
-		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

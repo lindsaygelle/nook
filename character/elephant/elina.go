@@ -15,9 +15,9 @@ import (
 var (
 	// elinaGames represents elina game appearances.
 	elinaGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

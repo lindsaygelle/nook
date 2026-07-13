@@ -15,11 +15,11 @@ import (
 var (
 	// svenGames represents sven game appearances.
 	svenGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
 		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

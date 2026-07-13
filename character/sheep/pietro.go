@@ -15,10 +15,10 @@ import (
 var (
 	// pietroGames represents pietro game appearances.
 	pietroGames = []nook.Game{
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

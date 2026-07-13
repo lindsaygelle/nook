@@ -15,10 +15,10 @@ import (
 var (
 	// hippeuxGames represents hippeux game appearances.
 	hippeuxGames = []nook.Game{
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

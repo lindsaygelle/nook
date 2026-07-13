@@ -16,8 +16,8 @@ var (
 	// boydGames represents boyd game appearances.
 	boydGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

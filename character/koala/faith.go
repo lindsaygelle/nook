@@ -15,9 +15,9 @@ import (
 var (
 	// faithGames represents faith game appearances.
 	faithGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 		game.NewHorizons,
 		game.PocketCamp,
 	}

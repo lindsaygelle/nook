@@ -15,9 +15,9 @@ import (
 var (
 	// flossieGames represents flossie game appearances.
 	flossieGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

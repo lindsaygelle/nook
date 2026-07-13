@@ -15,10 +15,10 @@ import (
 var (
 	// shepGames represents shep game appearances.
 	shepGames = []nook.Game{
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

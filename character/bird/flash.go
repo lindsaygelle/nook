@@ -15,9 +15,9 @@ import (
 var (
 	// flashGames represents flash game appearances.
 	flashGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

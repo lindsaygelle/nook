@@ -15,10 +15,10 @@ import (
 var (
 	// leifGames represents leif game appearances.
 	leifGames = []nook.Game{
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

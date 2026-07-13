@@ -16,8 +16,8 @@ var (
 	// vivianGames represents vivian game appearances.
 	vivianGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

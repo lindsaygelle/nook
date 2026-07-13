@@ -16,8 +16,8 @@ var (
 	// ketchupGames represents ketchup game appearances.
 	ketchupGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

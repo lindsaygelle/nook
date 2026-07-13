@@ -1,6 +1,26 @@
 package catalog
 
-import "github.com/lindsaygelle/nook"
+import (
+	"slices"
+
+	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/game"
+)
+
+var gameReleaseOrder = map[nook.Key]int{
+	game.DoubutsuNoMori.Key:      0,
+	game.DoubutsuNoMoriPlus.Key:  1,
+	game.AnimalCrossing.Key:      2,
+	game.DoubutsuNoMoriEPlus.Key: 3,
+	game.DongwuSenlin.Key:        4,
+	game.WildWorld.Key:           5,
+	game.CityFolk.Key:            6,
+	game.NewLeaf.Key:             7,
+	game.NewHorizons.Key:         8,
+	game.HappyHomeDesigner.Key:   9,
+	game.AmiiboFestival.Key:      10,
+	game.PocketCamp.Key:          11,
+}
 
 // CharacterGames returns a character's game appearance history in release
 // order.
@@ -8,7 +28,7 @@ func CharacterGames(character nook.Character) ([]nook.Game, bool) {
 	if character.ID() == "" || character.Games == nil {
 		return nil, false
 	}
-	return append([]nook.Game(nil), character.Games...), true
+	return sortedCharacterGames(character.Games), true
 }
 
 // CharacterGamesByID returns a character's game appearance history using an
@@ -51,4 +71,33 @@ func LastAppearanceByID(id string) (nook.Game, bool) {
 		return nook.Game{}, false
 	}
 	return games[len(games)-1], true
+}
+
+func sortedCharacterGames(games []nook.Game) []nook.Game {
+	out := append([]nook.Game(nil), games...)
+	slices.SortFunc(out, compareGamesByReleaseOrder)
+	return out
+}
+
+func compareGamesByReleaseOrder(a, b nook.Game) int {
+	left, ok := gameReleaseOrder[a.Key]
+	if !ok {
+		left = len(gameReleaseOrder)
+	}
+	right, ok := gameReleaseOrder[b.Key]
+	if !ok {
+		right = len(gameReleaseOrder)
+	}
+	switch {
+	case left < right:
+		return -1
+	case left > right:
+		return 1
+	case a.Key < b.Key:
+		return -1
+	case a.Key > b.Key:
+		return 1
+	default:
+		return 0
+	}
 }

@@ -16,8 +16,8 @@ var (
 	// maggieGames represents maggie game appearances.
 	maggieGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

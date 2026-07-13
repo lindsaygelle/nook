@@ -15,8 +15,8 @@ import (
 var (
 	// ceceGames represents cece game appearances.
 	ceceGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 	}
 )
 

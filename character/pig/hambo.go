@@ -15,11 +15,11 @@ import (
 var (
 	// hamboGames represents hambo game appearances.
 	hamboGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
 		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

@@ -15,8 +15,8 @@ import (
 var (
 	// chelseaGames represents chelsea game appearances.
 	chelseaGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

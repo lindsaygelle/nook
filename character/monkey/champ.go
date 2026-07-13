@@ -15,8 +15,8 @@ import (
 var (
 	// champGames represents champ game appearances.
 	champGames = []nook.Game{
-		game.WildWorld,
 		game.CityFolk,
+		game.WildWorld,
 	}
 )
 

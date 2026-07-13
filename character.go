@@ -13,7 +13,7 @@ type Character struct {
 	// Code is a unique identifier for the character.
 	Code Code
 
-	// Games contains the character's game appearance history in release order.
+	// Games contains the character's game appearances.
 	Games []Game
 
 	// Gender represents the gender of the character.

@@ -15,11 +15,11 @@ import (
 var (
 	// bessieGames represents bessie game appearances.
 	bessieGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
 		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

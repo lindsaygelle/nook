@@ -15,16 +15,16 @@ import (
 var (
 	// blathersGames represents blathers game appearances.
 	blathersGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
-		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
-		game.WildWorld,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
+		game.WildWorld,
 	}
 )
 

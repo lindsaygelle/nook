@@ -15,11 +15,11 @@ import (
 var (
 	// pluckyGames represents plucky game appearances.
 	pluckyGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
+		game.DoubutsuNoMoriPlus,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

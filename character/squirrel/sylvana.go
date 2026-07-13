@@ -16,8 +16,8 @@ var (
 	// sylvanaGames represents sylvana game appearances.
 	sylvanaGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

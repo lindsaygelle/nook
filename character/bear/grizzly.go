@@ -16,16 +16,16 @@ import (
 var (
 	// grizzlyGames represents grizzly game appearances.
 	grizzlyGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
-		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
-		game.DongwuSenlin,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

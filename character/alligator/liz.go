@@ -16,11 +16,11 @@ import (
 var (
 	// lizGames represents liz game appearances.
 	lizGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
 		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

@@ -15,8 +15,8 @@ import (
 var (
 	// rillaGames represents rilla game appearances.
 	rillaGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

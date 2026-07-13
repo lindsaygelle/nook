@@ -15,10 +15,10 @@ import (
 var (
 	// leilaGames represents leila game appearances.
 	leilaGames = []nook.Game{
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 	}
 )
 

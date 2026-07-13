@@ -15,8 +15,8 @@ import (
 var (
 	// chaiGames represents chai game appearances.
 	chaiGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

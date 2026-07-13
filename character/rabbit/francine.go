@@ -15,12 +15,12 @@ import (
 var (
 	// francineGames represents francine game appearances.
 	francineGames = []nook.Game{
-		game.DoubutsuNoMoriEPlus,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

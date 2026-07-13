@@ -16,8 +16,8 @@ var (
 	// tashaGames represents tasha game appearances.
 	tashaGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

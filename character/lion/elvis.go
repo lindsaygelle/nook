@@ -15,13 +15,13 @@ import (
 var (
 	// elvisGames represents elvis game appearances.
 	elvisGames = []nook.Game{
-		game.WildWorld,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
+		game.WildWorld,
 	}
 )
 

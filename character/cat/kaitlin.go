@@ -15,8 +15,8 @@ import (
 var (
 	// kaitlinGames represents kaitlin game appearances.
 	kaitlinGames = []nook.Game{
-		game.WildWorld,
 		game.CityFolk,
+		game.WildWorld,
 	}
 )
 

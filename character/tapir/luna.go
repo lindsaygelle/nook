@@ -15,10 +15,10 @@ import (
 var (
 	// lunaGames represents luna game appearances.
 	lunaGames = []nook.Game{
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 	}
 )
 

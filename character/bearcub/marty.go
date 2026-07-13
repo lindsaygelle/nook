@@ -15,8 +15,8 @@ import (
 var (
 	// martyGames represents marty game appearances.
 	martyGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

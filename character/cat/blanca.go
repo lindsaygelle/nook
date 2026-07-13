@@ -15,15 +15,15 @@ import (
 var (
 	// blancaGames represents blanca game appearances.
 	blancaGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
-		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
-		game.WildWorld,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
+		game.WildWorld,
 	}
 )
 

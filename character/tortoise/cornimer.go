@@ -15,9 +15,9 @@ import (
 var (
 	// cornimerGames represents cornimer game appearances.
 	cornimerGames = []nook.Game{
-		game.WildWorld,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
+		game.WildWorld,
 	}
 )
 

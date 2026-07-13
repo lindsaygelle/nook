@@ -15,13 +15,13 @@ import (
 var (
 	// whitneyGames represents whitney game appearances.
 	whitneyGames = []nook.Game{
-		game.WildWorld,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.CityFolk,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
+		game.WildWorld,
 	}
 )
 

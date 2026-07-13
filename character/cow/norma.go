@@ -16,8 +16,8 @@ var (
 	// normaGames represents norma game appearances.
 	normaGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

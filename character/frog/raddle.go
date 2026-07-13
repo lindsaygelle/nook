@@ -16,8 +16,8 @@ var (
 	// raddleGames represents raddle game appearances.
 	raddleGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

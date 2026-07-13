@@ -16,11 +16,11 @@ import (
 var (
 	// zoeGames represents zoe game appearances.
 	zoeGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
 		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 		game.NewHorizons,
 		game.PocketCamp,
 	}

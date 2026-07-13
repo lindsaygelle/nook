@@ -15,9 +15,9 @@ import (
 var (
 	// yodelGames represents yodel game appearances.
 	yodelGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
 	}
 )
 

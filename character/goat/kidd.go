@@ -15,11 +15,11 @@ import (
 var (
 	// kiddGames represents kidd game appearances.
 	kiddGames = []nook.Game{
-		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

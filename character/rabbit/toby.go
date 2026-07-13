@@ -15,8 +15,8 @@ import (
 var (
 	// tobyGames represents toby game appearances.
 	tobyGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

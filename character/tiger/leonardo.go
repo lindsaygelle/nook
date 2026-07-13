@@ -15,11 +15,11 @@ import (
 var (
 	// leonardoGames represents leonardo game appearances.
 	leonardoGames = []nook.Game{
-		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

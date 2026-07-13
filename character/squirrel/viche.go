@@ -15,8 +15,8 @@ import (
 var (
 	// vicheGames represents viche game appearances.
 	vicheGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 	}
 )
 

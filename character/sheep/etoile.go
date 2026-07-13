@@ -15,8 +15,8 @@ import (
 var (
 	// etoileGames represents etoile game appearances.
 	etoileGames = []nook.Game{
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

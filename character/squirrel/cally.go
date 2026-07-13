@@ -15,15 +15,15 @@ import (
 var (
 	// callyGames represents cally game appearances.
 	callyGames = []nook.Game{
-		game.DoubutsuNoMori,
-		game.DoubutsuNoMoriPlus,
-		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
-		game.DongwuSenlin,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.DongwuSenlin,
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriEPlus,
+		game.DoubutsuNoMoriPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

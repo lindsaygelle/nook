@@ -15,13 +15,13 @@ import (
 var (
 	// franklinGames represents franklin game appearances.
 	franklinGames = []nook.Game{
-		game.AnimalCrossing,
-		game.DoubutsuNoMoriEPlus,
-		game.CityFolk,
-		game.NewLeaf,
-		game.NewHorizons,
-		game.HappyHomeDesigner,
 		game.AmiiboFestival,
+		game.AnimalCrossing,
+		game.CityFolk,
+		game.DoubutsuNoMoriEPlus,
+		game.HappyHomeDesigner,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

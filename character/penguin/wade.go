@@ -16,8 +16,8 @@ var (
 	// wadeGames represents wade game appearances.
 	wadeGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

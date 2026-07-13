@@ -15,11 +15,11 @@ import (
 var (
 	// dobieGames represents dobie game appearances.
 	dobieGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
+		game.DoubutsuNoMoriPlus,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

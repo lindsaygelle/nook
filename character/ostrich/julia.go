@@ -16,8 +16,8 @@ var (
 	// juliaGames represents julia game appearances.
 	juliaGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

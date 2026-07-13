@@ -16,8 +16,8 @@ var (
 	// hopkinsGames represents hopkins game appearances.
 	hopkinsGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

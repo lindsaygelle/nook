@@ -15,13 +15,13 @@ import (
 var (
 	// annaliseGames represents annalise game appearances.
 	annaliseGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
+		game.AmiiboFestival,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
-		game.NewHorizons,
+		game.DoubutsuNoMoriPlus,
 		game.HappyHomeDesigner,
-		game.AmiiboFestival,
+		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

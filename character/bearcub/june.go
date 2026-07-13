@@ -15,11 +15,11 @@ import (
 var (
 	// juneGames represents june game appearances.
 	juneGames = []nook.Game{
-		game.DoubutsuNoMoriPlus,
 		game.AnimalCrossing,
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
+		game.DoubutsuNoMoriPlus,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )

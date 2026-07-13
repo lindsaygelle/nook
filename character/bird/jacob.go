@@ -16,8 +16,8 @@ var (
 	// jacobGames represents jacob game appearances.
 	jacobGames = []nook.Game{
 		game.DoubutsuNoMoriEPlus,
-		game.NewLeaf,
 		game.NewHorizons,
+		game.NewLeaf,
 		game.PocketCamp,
 	}
 )
