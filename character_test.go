@@ -13,6 +13,7 @@ func testCharacter(t *testing.T, animal nook.Key, c nook.Character) {
 	}
 	testCharacterAnimal(t, animal, c)
 	testCharacterBirthday(t, c)
+	testCharacterID(t, c)
 	testCharacterGender(t, c)
 	testCharacterName(t, c)
 }
@@ -29,9 +30,23 @@ func testCharacterBirthday(t *testing.T, c nook.Character) {
 	}
 }
 
+func testCharacterID(t *testing.T, c nook.Character) {
+	id := c.ID()
+	if id == "" {
+		t.Fatalf("%s.ID() is empty", c.Key)
+	}
+	expected := nook.Key(string(c.Animal.Key) + ":" + string(c.Key))
+	if id != expected {
+		t.Fatalf("%s.ID() = %s", c.Key, id)
+	}
+}
+
 func testCharacterGender(t *testing.T, c nook.Character) {
 	if ok := reflect.ValueOf(c.Gender).IsZero(); ok {
 		t.Fatalf("%s.Gender is a zero value", c.Key)
+	}
+	if c.Gender.Key == "" {
+		t.Fatalf("%s.Gender.Key is empty", c.Key)
 	}
 }
 

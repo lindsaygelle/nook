@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// lazy is the common reference for the Lazy personality.
+	lazy = "Lazy"
+)
+
 var (
 	// lazyAmericanEnglishName represents the American English name for the Lazy personality.
 	lazyAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// Lazy represents the Lazy personality in the Animal Crossing series.
 	Lazy = nook.Personality{
+		Key:  nook.Key(lazy),
 		Name: lazyName}
 )

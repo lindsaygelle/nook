@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// snooty is the common reference for the Snooty personality.
+	snooty = "Snooty"
+)
+
 var (
 	// snootyAmericanEnglishName represents the American English name for the Snooty personality.
 	snootyAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// Snooty represents the Snooty personality in the Animal Crossing series.
 	Snooty = nook.Personality{
+		Key:  nook.Key(snooty),
 		Name: snootyName}
 )

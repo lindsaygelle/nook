@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// smug is the common reference for the Smug personality.
+	smug = "Smug"
+)
+
 var (
 	// smugAmericanEnglishName represents the American English name for the Smug personality.
 	smugAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// Smug represents the Smug personality in the Animal Crossing series.
 	Smug = nook.Personality{
+		Key:  nook.Key(smug),
 		Name: smugName}
 )

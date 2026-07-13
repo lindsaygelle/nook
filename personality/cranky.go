@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// cranky is the common reference for the Cranky personality.
+	cranky = "Cranky"
+)
+
 var (
 	// crankyAmericanEnglishName represents the American English name for the Cranky personality.
 	crankyAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// Cranky represents the Cranky personality in the Animal Crossing series.
 	Cranky = nook.Personality{
+		Key:  nook.Key(cranky),
 		Name: crankyName}
 )

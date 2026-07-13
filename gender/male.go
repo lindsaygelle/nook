@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// male is the common reference for the Male gender type.
+	male = "Male"
+)
+
 var (
 	// maleAmericanEnglishName represents the American English name for the Male gender type.
 	maleAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// Male represents the Male gender type in the Animal Crossing series.
 	Male = nook.Gender{
+		Key:  nook.Key(male),
 		Name: maleName}
 )

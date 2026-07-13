@@ -20,8 +20,14 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.AnimalKey != string(animal.Cat.Key) {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).AnimalKey = %s", record.AnimalKey)
 	}
+	if record.ID != "Cat:Ankha" {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).ID = %s", record.ID)
+	}
 	if record.Key != "Ankha" {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Key = %s", record.Key)
+	}
+	if record.GenderKey != "Female" {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).GenderKey = %s", record.GenderKey)
 	}
 	if record.Birthday.Day != 22 || record.Birthday.Month != 9 {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Birthday = %#v", record.Birthday)
@@ -37,6 +43,9 @@ func TestVillagerRecordOf(t *testing.T) {
 	if record.Special {
 		t.Fatal("catalog.VillagerRecordOf(cat.Ankha).Special unexpectedly true")
 	}
+	if record.PersonalityKey != "Snooty" {
+		t.Fatalf("catalog.VillagerRecordOf(cat.Ankha).PersonalityKey = %s", record.PersonalityKey)
+	}
 	if record.Personality[language.AmericanEnglish.String()] != "Snooty" {
 		t.Fatalf("catalog.VillagerRecordOf(cat.Ankha).Personality[en-US] = %s", record.Personality[language.AmericanEnglish.String()])
 	}
@@ -50,6 +59,9 @@ func TestResidentRecordOf(t *testing.T) {
 
 	if !record.Special {
 		t.Fatal("catalog.ResidentRecordOf(raccoon.TomNook).Special unexpectedly false")
+	}
+	if record.ID != "Raccoon:TomNook" {
+		t.Fatalf("catalog.ResidentRecordOf(raccoon.TomNook).ID = %s", record.ID)
 	}
 	if record.Code != "rcn/rco" {
 		t.Fatalf("catalog.ResidentRecordOf(raccoon.TomNook).Code = %s", record.Code)
@@ -66,6 +78,16 @@ func TestResidentRecordByCode(t *testing.T) {
 	}
 	if !record.Special {
 		t.Fatal("catalog.ResidentRecordByCode(rcn/rco).Special unexpectedly false")
+	}
+}
+
+func TestResidentRecordByID(t *testing.T) {
+	record, ok := catalog.ResidentRecordByID("raccoon:TomNook")
+	if !ok {
+		t.Fatal("catalog.ResidentRecordByID(raccoon:TomNook) not found")
+	}
+	if record.Key != string(character.TomNook) {
+		t.Fatalf("catalog.ResidentRecordByID(raccoon:TomNook).Key = %s", record.Key)
 	}
 }
 
@@ -135,6 +157,16 @@ func TestVillagerRecordByCode(t *testing.T) {
 	}
 	if record.Phrase[language.AmericanEnglish.String()] != "bitty" {
 		t.Fatalf("catalog.VillagerRecordByCode(duk13).Phrase[en-US] = %s", record.Phrase[language.AmericanEnglish.String()])
+	}
+}
+
+func TestVillagerRecordByID(t *testing.T) {
+	record, ok := catalog.VillagerRecordByID("duck:Ketchup")
+	if !ok {
+		t.Fatal("catalog.VillagerRecordByID(duck:Ketchup) not found")
+	}
+	if record.Key != string(character.Ketchup) {
+		t.Fatalf("catalog.VillagerRecordByID(duck:Ketchup).Key = %s", record.Key)
 	}
 }
 
@@ -215,8 +247,14 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if _, ok := catalog.ResidentRecordByCode(""); ok {
 		t.Fatal("catalog.ResidentRecordByCode(blank) unexpectedly found a character")
 	}
+	if _, ok := catalog.ResidentRecordByID(""); ok {
+		t.Fatal("catalog.ResidentRecordByID(blank) unexpectedly found a character")
+	}
 	if _, ok := catalog.VillagerRecordByCode("missing"); ok {
 		t.Fatal("catalog.VillagerRecordByCode(missing) unexpectedly found a character")
+	}
+	if _, ok := catalog.VillagerRecordByID("missing"); ok {
+		t.Fatal("catalog.VillagerRecordByID(missing) unexpectedly found a character")
 	}
 	if records := catalog.ResidentRecordsByBirthday(0, 0); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByBirthday(0, 0)) = %d", len(records))
