@@ -8,24 +8,18 @@ import (
 )
 
 var gameReleaseOrder = map[nook.Key]int{
-	game.DoubutsuNoMori.Key:      0,
-	game.DoubutsuNoMoriPlus.Key:  1,
-	game.AnimalCrossing.Key:      2,
-	game.DoubutsuNoMoriEPlus.Key: 3,
-	game.DongwuSenlin.Key:        4,
-	game.WildWorld.Key:           5,
-	game.CityFolk.Key:            6,
-	game.NewLeaf.Key:             7,
-	game.NewHorizons.Key:         8,
-	game.HappyHomeDesigner.Key:   9,
 	game.AmiiboFestival.Key:      10,
+	game.AnimalCrossing.Key:      2,
+	game.CityFolk.Key:            6,
+	game.DongwuSenlin.Key:        4,
+	game.DoubutsuNoMori.Key:      0,
+	game.DoubutsuNoMoriEPlus.Key: 3,
+	game.DoubutsuNoMoriPlus.Key:  1,
+	game.HappyHomeDesigner.Key:   9,
+	game.NewHorizons.Key:         8,
+	game.NewLeaf.Key:             7,
 	game.PocketCamp.Key:          11,
-}
-
-func sortedCharacterGames(games []nook.Game) []nook.Game {
-	out := append([]nook.Game(nil), games...)
-	slices.SortFunc(out, compareGamesByReleaseOrder)
-	return out
+	game.WildWorld.Key:           5,
 }
 
 func compareGamesByReleaseOrder(a, b nook.Game) int {
@@ -49,6 +43,12 @@ func compareGamesByReleaseOrder(a, b nook.Game) int {
 	default:
 		return 0
 	}
+}
+
+func sortedCharacterGames(games []nook.Game) []nook.Game {
+	out := append([]nook.Game(nil), games...)
+	slices.SortFunc(out, compareGamesByReleaseOrder)
+	return out
 }
 
 // CharacterGames returns a character's game appearance history in release
