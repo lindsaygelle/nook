@@ -22,7 +22,9 @@ type CharacterRecord struct {
 	AnimalKey string          `json:"animal_key"`
 	Birthday  BirthdayRecord  `json:"birthday"`
 	Code      string          `json:"code,omitempty"`
+	ID        string          `json:"id"`
 	Gender    LocalizedValues `json:"gender"`
+	GenderKey string          `json:"gender_key"`
 	Key       string          `json:"key"`
 	Name      LocalizedValues `json:"name"`
 	Special   bool            `json:"special"`
@@ -36,8 +38,9 @@ type ResidentRecord struct {
 // VillagerRecord is an API-facing representation of a villager.
 type VillagerRecord struct {
 	CharacterRecord
-	Personality LocalizedValues `json:"personality"`
-	Phrase      LocalizedValues `json:"phrase"`
+	PersonalityKey string          `json:"personality_key"`
+	Personality    LocalizedValues `json:"personality"`
+	Phrase         LocalizedValues `json:"phrase"`
 }
 
 // LocalizedValuesOf converts language-tagged values into a transport-friendly
@@ -61,11 +64,13 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 			Day:   character.Birthday.Day,
 			Month: uint8(character.Birthday.Month),
 		},
-		Code:    character.Code.Value,
-		Gender:  LocalizedValuesOf(character.Gender.Name),
-		Key:     string(character.Key),
-		Name:    LocalizedValuesOf(character.Name),
-		Special: character.Special,
+		Code:      character.Code.Value,
+		ID:        character.ID().String(),
+		Gender:    LocalizedValuesOf(character.Gender.Name),
+		GenderKey: string(character.Gender.Key),
+		Key:       string(character.Key),
+		Name:      LocalizedValuesOf(character.Name),
+		Special:   character.Special,
 	}
 }
 
@@ -80,6 +85,16 @@ func ResidentRecordOf(resident nook.Resident) ResidentRecord {
 // exact code match after normalization.
 func ResidentRecordByCode(code string) (ResidentRecord, bool) {
 	resident, ok := ResidentByCode(code)
+	if !ok {
+		return ResidentRecord{}, false
+	}
+	return ResidentRecordOf(resident), true
+}
+
+// ResidentRecordByID returns a transport-friendly resident record using an
+// exact global character identifier match after normalization.
+func ResidentRecordByID(id string) (ResidentRecord, bool) {
+	resident, ok := ResidentByID(id)
 	if !ok {
 		return ResidentRecord{}, false
 	}
@@ -129,6 +144,7 @@ func ResidentRecordsByBirthMonth(month time.Month) []ResidentRecord {
 func VillagerRecordOf(villager nook.Villager) VillagerRecord {
 	return VillagerRecord{
 		CharacterRecord: CharacterRecordOf(villager.Character),
+		PersonalityKey:  string(villager.Personality.Key),
 		Personality:     LocalizedValuesOf(villager.Personality.Name),
 		Phrase:          LocalizedValuesOf(villager.Phrase),
 	}
@@ -138,6 +154,16 @@ func VillagerRecordOf(villager nook.Villager) VillagerRecord {
 // exact code match after normalization.
 func VillagerRecordByCode(code string) (VillagerRecord, bool) {
 	villager, ok := VillagerByCode(code)
+	if !ok {
+		return VillagerRecord{}, false
+	}
+	return VillagerRecordOf(villager), true
+}
+
+// VillagerRecordByID returns a transport-friendly villager record using an
+// exact global character identifier match after normalization.
+func VillagerRecordByID(id string) (VillagerRecord, bool) {
+	villager, ok := VillagerByID(id)
 	if !ok {
 		return VillagerRecord{}, false
 	}

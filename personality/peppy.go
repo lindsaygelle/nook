@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// peppy is the common reference for the Peppy personality.
+	peppy = "Peppy"
+)
+
 var (
 	// peppyAmericanEnglishName represents the American English name for the Peppy personality.
 	peppyAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// Peppy represents the Peppy personality in the Animal Crossing series.
 	Peppy = nook.Personality{
+		Key:  nook.Key(peppy),
 		Name: peppyName}
 )

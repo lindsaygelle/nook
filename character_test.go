@@ -13,6 +13,7 @@ func testCharacter(t *testing.T, animal nook.Key, c nook.Character) {
 	}
 	testCharacterAnimal(t, animal, c)
 	testCharacterBirthday(t, c)
+	testCharacterID(t, c)
 	testCharacterGender(t, c)
 	testCharacterName(t, c)
 }
@@ -29,9 +30,26 @@ func testCharacterBirthday(t *testing.T, c nook.Character) {
 	}
 }
 
+func testCharacterID(t *testing.T, c nook.Character) {
+	id := c.ID()
+	if ok := id.Ok(); !ok {
+		t.Fatalf("%s.ID().Ok() != true", c.Key)
+	}
+	animalKey, characterKey, ok := id.Parts()
+	if !ok {
+		t.Fatalf("%s.ID().Parts() did not parse", c.Key)
+	}
+	if animalKey != c.Animal.Key || characterKey != c.Key {
+		t.Fatalf("%s.ID().Parts() = %s/%s", c.Key, animalKey, characterKey)
+	}
+}
+
 func testCharacterGender(t *testing.T, c nook.Character) {
 	if ok := reflect.ValueOf(c.Gender).IsZero(); ok {
 		t.Fatalf("%s.Gender is a zero value", c.Key)
+	}
+	if c.Gender.Key == "" {
+		t.Fatalf("%s.Gender.Key is empty", c.Key)
 	}
 }
 

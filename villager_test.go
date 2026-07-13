@@ -17,6 +17,9 @@ func testVillagerPersonality(t *testing.T, v nook.Villager) {
 	if ok := reflect.ValueOf(v.Personality).IsZero(); ok {
 		t.Fatalf("%s.Personality is a zero value", v.Key)
 	}
+	if v.Personality.Key == "" {
+		t.Fatalf("%s.Personality.Key is empty", v.Key)
+	}
 }
 
 func testVillagerPhrase(t *testing.T, v nook.Villager) {

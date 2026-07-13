@@ -5,6 +5,11 @@ import (
 	"golang.org/x/text/language"
 )
 
+const (
+	// bigSister is the common reference for the BigSister personality.
+	bigSister = "BigSister"
+)
+
 var (
 	// bigSisterAmericanEnglishName represents the American English name for the BigSister personality.
 	bigSisterAmericanEnglishName = nook.Name{
@@ -21,5 +26,6 @@ var (
 var (
 	// BigSister represents the BigSister personality in the Animal Crossing series.
 	BigSister = nook.Personality{
+		Key:  nook.Key(bigSister),
 		Name: bigSisterName}
 )

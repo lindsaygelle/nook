@@ -77,6 +77,16 @@ func TestResidentByCode(t *testing.T) {
 	}
 }
 
+func TestResidentByID(t *testing.T) {
+	resident, ok := catalog.ResidentByID(" raccoon:TomNook ")
+	if !ok {
+		t.Fatal("catalog.ResidentByID(raccoon:TomNook) not found")
+	}
+	if resident.Key != raccooncharacters.TomNook.Key {
+		t.Fatalf("catalog.ResidentByID(raccoon:TomNook).Key = %s", resident.Key)
+	}
+}
+
 func TestResidentsByBirthdaySorted(t *testing.T) {
 	residents := catalog.ResidentsByBirthday(time.December, 20)
 	if len(residents) != 2 {
@@ -132,6 +142,16 @@ func TestVillagerByCode(t *testing.T) {
 	}
 	if villager.Key != duckcharacters.Ketchup.Key {
 		t.Fatalf("catalog.VillagerByCode(duk13).Key = %s", villager.Key)
+	}
+}
+
+func TestVillagerByID(t *testing.T) {
+	villager, ok := catalog.VillagerByID(" duck:Ketchup ")
+	if !ok {
+		t.Fatal("catalog.VillagerByID(duck:Ketchup) not found")
+	}
+	if villager.Key != duckcharacters.Ketchup.Key {
+		t.Fatalf("catalog.VillagerByID(duck:Ketchup).Key = %s", villager.Key)
 	}
 }
 
@@ -218,8 +238,14 @@ func TestMissingAnimalBucket(t *testing.T) {
 	if _, ok := catalog.ResidentByCode(""); ok {
 		t.Fatal("catalog.ResidentByCode(blank) unexpectedly found a character")
 	}
+	if _, ok := catalog.ResidentByID(""); ok {
+		t.Fatal("catalog.ResidentByID(blank) unexpectedly found a character")
+	}
 	if _, ok := catalog.VillagerByCode("missing"); ok {
 		t.Fatal("catalog.VillagerByCode(missing) unexpectedly found a character")
+	}
+	if _, ok := catalog.VillagerByID("missing"); ok {
+		t.Fatal("catalog.VillagerByID(missing) unexpectedly found a character")
 	}
 	if residents := catalog.ResidentsByBirthday(0, 0); len(residents) != 0 {
 		t.Fatalf("len(catalog.ResidentsByBirthday(0, 0)) = %d", len(residents))
