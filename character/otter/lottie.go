@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// lottieGames represents lottie game appearances.
+	lottieGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +129,7 @@ var (
 		Code:     lottieCode,
 		Key:      character.Lottie,
 		Gender:   gender.Female,
+		Games:    lottieGames,
 		Name:     lottieName,
 		Special:  true}
 )

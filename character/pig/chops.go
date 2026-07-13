@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// chopsGames represents chops game appearances.
+	chopsGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +129,7 @@ var (
 		Code:     chopsCode,
 		Key:      character.Chops,
 		Gender:   gender.Male,
+		Games:    chopsGames,
 		Name:     chopsName,
 		Special:  false}
 )

@@ -6,12 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // dragoBirthday represents Drago's birthday.
+var (
+	// dragoGames represents drago game appearances.
+	dragoGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// dragoBirthday represents drago birthday.
 	dragoBirthday = nook.Birthday{
@@ -122,6 +134,7 @@ var (
 		Code:     dragoCode,
 		Key:      character.Drago,
 		Gender:   gender.Male,
+		Games:    dragoGames,
 		Name:     dragoName,
 		Special:  false}
 )

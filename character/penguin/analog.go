@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// analogGames represents analog game appearances.
+	analogGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -117,6 +125,7 @@ var (
 		Code:     analogCode,
 		Key:      character.Analog,
 		Gender:   gender.Male,
+		Games:    analogGames,
 		Name:     analogName,
 		Special:  false}
 )

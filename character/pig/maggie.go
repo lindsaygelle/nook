@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// maggieGames represents maggie game appearances.
+	maggieGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +128,7 @@ var (
 		Code:     maggieCode,
 		Key:      character.Maggie,
 		Gender:   gender.Female,
+		Games:    maggieGames,
 		Name:     maggieName,
 		Special:  false}
 )

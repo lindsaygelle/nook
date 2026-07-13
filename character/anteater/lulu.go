@@ -6,12 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // luluBirthday represents Lulu's birthday.
+var (
+	// luluGames represents lulu game appearances.
+	luluGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+	}
+)
+
 var (
 	// luluBirthday represents lulu birthday.
 	luluBirthday = nook.Birthday{
@@ -122,6 +134,7 @@ var (
 		Code:     luluCode,
 		Key:      character.Lulu,
 		Gender:   gender.Female,
+		Games:    luluGames,
 		Name:     luluName,
 		Special:  false}
 )

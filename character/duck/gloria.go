@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// gloriaGames represents gloria game appearances.
+	gloriaGames = []nook.Game{
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +130,7 @@ var (
 		Code:     gloriaCode,
 		Key:      character.Gloria,
 		Gender:   gender.Female,
+		Games:    gloriaGames,
 		Name:     gloriaName,
 		Special:  false}
 )

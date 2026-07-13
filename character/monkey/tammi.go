@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// tammiGames represents tammi game appearances.
+	tammiGames = []nook.Game{
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +131,7 @@ var (
 		Code:     tammiCode,
 		Key:      character.Tammi,
 		Gender:   gender.Female,
+		Games:    tammiGames,
 		Name:     tammiName,
 		Special:  false}
 )

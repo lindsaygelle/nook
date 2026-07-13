@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// raddleGames represents raddle game appearances.
+	raddleGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +128,7 @@ var (
 		Code:     raddleCode,
 		Key:      character.Raddle,
 		Gender:   gender.Male,
+		Games:    raddleGames,
 		Name:     raddleName,
 		Special:  false}
 )

@@ -6,12 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // anabelleBirthday represents Anabelle's birthday.
+var (
+	// anabelleGames represents anabelle game appearances.
+	anabelleGames = []nook.Game{
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// anabelleBirthday represents anabelle birthday.
 	anabelleBirthday = nook.Birthday{
@@ -122,6 +136,7 @@ var (
 		Code:     anabelleCode,
 		Key:      character.Anabelle,
 		Gender:   gender.Female,
+		Games:    anabelleGames,
 		Name:     anabelleName,
 		Special:  false}
 )

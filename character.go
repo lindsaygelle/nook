@@ -20,6 +20,9 @@ type Character struct {
 	// Gender represents the gender of the character.
 	Gender Gender
 
+	// Games contains the character's game appearance history in release order.
+	Games []Game
+
 	// Name contains the names of the character in different languages.
 	Name Languages
 

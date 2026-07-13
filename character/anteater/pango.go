@@ -6,12 +6,31 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // pangoBirthday represents Pango's birthday.
+var (
+	// pangoGames represents pango game appearances.
+	pangoGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// pangoBirthday represents pango birthday.
 	pangoBirthday = nook.Birthday{
@@ -122,6 +141,7 @@ var (
 		Code:     pangoCode,
 		Key:      character.Pango,
 		Gender:   gender.Female,
+		Games:    pangoGames,
 		Name:     pangoName,
 		Special:  false}
 )

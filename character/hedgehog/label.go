@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// labelGames represents label game appearances.
+	labelGames = []nook.Game{
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +130,7 @@ var (
 		Code:     labelCode,
 		Key:      character.Label,
 		Gender:   gender.Female,
+		Games:    labelGames,
 		Name:     labelName,
 		Special:  true}
 )

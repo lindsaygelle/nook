@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// leilaniGames represents leilani game appearances.
+	leilaniGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+	}
 )
 
 var (
@@ -117,6 +128,7 @@ var (
 		Code:     leilaniCode,
 		Key:      character.Leilani,
 		Gender:   gender.Female,
+		Games:    leilaniGames,
 		Name:     leilaniName,
 		Special:  true}
 )

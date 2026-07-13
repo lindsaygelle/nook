@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// felyneGames represents felyne game appearances.
+	felyneGames = []nook.Game{
+		game.NewLeaf,
+		game.HappyHomeDesigner,
+	}
 )
 
 var (
@@ -117,6 +126,7 @@ var (
 		Code:     felyneCode,
 		Key:      character.Felyne,
 		Gender:   gender.Male,
+		Games:    felyneGames,
 		Name:     felyneName,
 		Special:  false}
 )

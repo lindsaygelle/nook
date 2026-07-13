@@ -6,9 +6,26 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// rickyGames represents ricky game appearances.
+	rickyGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +134,7 @@ var (
 		Code:     rickyCode,
 		Key:      character.Ricky,
 		Gender:   gender.Male,
+		Games:    rickyGames,
 		Name:     rickyName,
 		Special:  false}
 )

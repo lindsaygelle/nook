@@ -12,6 +12,11 @@ import (
 )
 
 var (
+	// shakiGames represents shaki game appearances.
+	shakiGames = []nook.Game{}
+)
+
+var (
 	// shakiBirthday represents shaki birthday.
 	shakiBirthday = nook.Birthday{
 		Day:   0,
@@ -117,6 +122,7 @@ var (
 		Code:     shakiCode,
 		Key:      character.Shaki,
 		Gender:   gender.Female,
+		Games:    shakiGames,
 		Name:     shakiName,
 		Special:  true}
 )

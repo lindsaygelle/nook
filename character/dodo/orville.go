@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// orvilleGames represents orville game appearances.
+	orvilleGames = []nook.Game{
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +126,7 @@ var (
 		Code:     orvilleCode,
 		Key:      character.Orville,
 		Gender:   gender.Male,
+		Games:    orvilleGames,
 		Name:     orvilleName,
 		Special:  true}
 )

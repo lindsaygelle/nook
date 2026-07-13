@@ -6,9 +6,28 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// mathildaGames represents mathilda game appearances.
+	mathildaGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +136,7 @@ var (
 		Code:     mathildaCode,
 		Key:      character.Mathilda,
 		Gender:   gender.Female,
+		Games:    mathildaGames,
 		Name:     mathildaName,
 		Special:  false}
 )

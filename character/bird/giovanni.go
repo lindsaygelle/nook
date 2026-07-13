@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// giovanniGames represents giovanni game appearances.
+	giovanniGames = []nook.Game{
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +125,7 @@ var (
 		Code:     giovanniCode,
 		Key:      character.Giovanni,
 		Gender:   gender.Male,
+		Games:    giovanniGames,
 		Name:     giovanniName,
 		Special:  true}
 )

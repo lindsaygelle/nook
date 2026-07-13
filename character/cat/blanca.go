@@ -6,9 +6,25 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// blancaGames represents blanca game appearances.
+	blancaGames = []nook.Game{
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+	}
 )
 
 var (
@@ -117,6 +133,7 @@ var (
 		Code:     blancaCode,
 		Key:      character.Blanca,
 		Gender:   gender.Female,
+		Games:    blancaGames,
 		Name:     blancaName,
 		Special:  true}
 )

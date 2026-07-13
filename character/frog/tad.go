@@ -6,9 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// tadGames represents tad game appearances.
+	tadGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +132,7 @@ var (
 		Code:     tadCode,
 		Key:      character.Tad,
 		Gender:   gender.Male,
+		Games:    tadGames,
 		Name:     tadName,
 		Special:  false}
 )

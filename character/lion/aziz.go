@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// azizGames represents aziz game appearances.
+	azizGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+	}
 )
 
 var (
@@ -117,6 +129,7 @@ var (
 		Code:     azizCode,
 		Key:      character.Aziz,
 		Gender:   gender.Male,
+		Games:    azizGames,
 		Name:     azizName,
 		Special:  false}
 )

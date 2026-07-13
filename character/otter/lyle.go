@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// lyleGames represents lyle game appearances.
+	lyleGames = []nook.Game{
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +131,7 @@ var (
 		Code:     lyleCode,
 		Key:      character.Lyle,
 		Gender:   gender.Male,
+		Games:    lyleGames,
 		Name:     lyleName,
 		Special:  true}
 )

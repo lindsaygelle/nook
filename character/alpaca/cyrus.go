@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// cyrusGames represents cyrus game appearances.
+	cyrusGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -118,6 +130,7 @@ var (
 		Code:     cyrusCode,
 		Key:      character.Cyrus,
 		Gender:   gender.Male,
+		Games:    cyrusGames,
 		Name:     cyrusName,
 		Special:  true}
 )

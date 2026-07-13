@@ -6,9 +6,19 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// chelseaGames represents chelsea game appearances.
+	chelseaGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +127,7 @@ var (
 		Code:     chelseaCode,
 		Key:      character.Chelsea,
 		Gender:   gender.Female,
+		Games:    chelseaGames,
 		Name:     chelseaName,
 		Special:  false}
 )

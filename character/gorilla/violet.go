@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// violetGames represents violet game appearances.
+	violetGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +131,7 @@ var (
 		Code:     violetCode,
 		Key:      character.Violet,
 		Gender:   gender.Female,
+		Games:    violetGames,
 		Name:     violetName,
 		Special:  false}
 )

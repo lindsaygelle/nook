@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// rolloGames represents rollo game appearances.
+	rolloGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+	}
 )
 
 var (
@@ -117,6 +129,7 @@ var (
 		Code:     rolloCode,
 		Key:      character.Rollo,
 		Gender:   gender.Male,
+		Games:    rolloGames,
 		Name:     rolloName,
 		Special:  false}
 )

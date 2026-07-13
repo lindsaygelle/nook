@@ -6,9 +6,22 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// drshrunkGames represents drshrunk game appearances.
+	drshrunkGames = []nook.Game{
+		game.WildWorld,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+	}
 )
 
 var (
@@ -117,6 +130,7 @@ var (
 		Code:     drshrunkCode,
 		Key:      character.DrShrunk,
 		Gender:   gender.Male,
+		Games:    drshrunkGames,
 		Name:     drshrunkName,
 		Special:  true}
 )

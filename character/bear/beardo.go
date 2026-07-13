@@ -6,12 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // beardoBirthday represents Beardo's birthday.
+var (
+	// beardoGames represents beardo game appearances.
+	beardoGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// beardoBirthday represents beardo birthday.
 	beardoBirthday = nook.Birthday{
@@ -122,6 +134,7 @@ var (
 		Code:     beardoCode,
 		Key:      character.Beardo,
 		Gender:   gender.Male,
+		Games:    beardoGames,
 		Name:     beardoName,
 		Special:  false}
 )

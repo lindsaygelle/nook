@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// sueeGames represents suee game appearances.
+	sueeGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+	}
 )
 
 var (
@@ -117,6 +129,7 @@ var (
 		Code:     sueeCode,
 		Key:      character.SueE,
 		Gender:   gender.Female,
+		Games:    sueeGames,
 		Name:     sueeName,
 		Special:  false}
 )

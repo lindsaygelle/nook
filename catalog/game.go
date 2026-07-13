@@ -2,33 +2,25 @@ package catalog
 
 import "github.com/lindsaygelle/nook"
 
-var gamesByNormalizedCharacterID = func() map[string][]nook.Game {
-	out := make(map[string][]nook.Game, len(gamesByCharacterID))
-	for id, games := range gamesByCharacterID {
-		out[NormalizeLookupValue(string(id))] = games
-	}
-	return out
-}()
-
 // CharacterGames returns a character's game appearance history in release
 // order.
 func CharacterGames(character nook.Character) ([]nook.Game, bool) {
-	return CharacterGamesByID(string(character.ID()))
+	if character.ID() == "" || character.Games == nil {
+		return nil, false
+	}
+	return append([]nook.Game(nil), character.Games...), true
 }
 
 // CharacterGamesByID returns a character's game appearance history using an
 // exact global character identifier match after normalization.
 func CharacterGamesByID(id string) ([]nook.Game, bool) {
-	query := NormalizeLookupValue(id)
-	if query == "" {
-		return nil, false
+	if resident, ok := ResidentByID(id); ok {
+		return CharacterGames(resident.Character)
 	}
-
-	games, ok := gamesByNormalizedCharacterID[query]
-	if !ok {
-		return nil, false
+	if villager, ok := VillagerByID(id); ok {
+		return CharacterGames(villager.Character)
 	}
-	return append([]nook.Game(nil), games...), true
+	return nil, false
 }
 
 // FirstAppearance returns the earliest known game appearance for a character.

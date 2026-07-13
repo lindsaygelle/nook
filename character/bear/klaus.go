@@ -6,12 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // klausBirthday represents Klaus's birthday.
+var (
+	// klausGames represents klaus game appearances.
+	klausGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// klausBirthday represents klaus birthday.
 	klausBirthday = nook.Birthday{
@@ -122,6 +134,7 @@ var (
 		Code:     klausCode,
 		Key:      character.Klaus,
 		Gender:   gender.Male,
+		Games:    klausGames,
 		Name:     klausName,
 		Special:  false}
 )

@@ -6,9 +6,24 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// donresettiGames represents donresetti game appearances.
+	donresettiGames = []nook.Game{
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+	}
 )
 
 var (
@@ -117,6 +132,7 @@ var (
 		Code:     donresettiCode,
 		Key:      character.DonResetti,
 		Gender:   gender.Male,
+		Games:    donresettiGames,
 		Name:     donresettiName,
 		Special:  true}
 )

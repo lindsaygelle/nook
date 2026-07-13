@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// champGames represents champ game appearances.
+	champGames = []nook.Game{
+		game.WildWorld,
+		game.CityFolk,
+	}
 )
 
 var (
@@ -117,6 +126,7 @@ var (
 		Code:     champCode,
 		Key:      character.Champ,
 		Gender:   gender.Male,
+		Games:    champGames,
 		Name:     champName,
 		Special:  false}
 )

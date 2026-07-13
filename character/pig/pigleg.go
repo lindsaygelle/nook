@@ -6,9 +6,19 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// piglegGames represents pigleg game appearances.
+	piglegGames = []nook.Game{
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -117,6 +127,7 @@ var (
 		Code:     piglegCode,
 		Key:      character.Pigleg,
 		Gender:   gender.Male,
+		Games:    piglegGames,
 		Name:     piglegName,
 		Special:  false}
 )

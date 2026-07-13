@@ -6,12 +6,30 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // grouchoBirthday represents Groucho's birthday.
+var (
+	// grouchoGames represents groucho game appearances.
+	grouchoGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// grouchoBirthday represents groucho birthday.
 	grouchoBirthday = nook.Birthday{
@@ -122,6 +140,7 @@ var (
 		Code:     grouchoCode,
 		Key:      character.Groucho,
 		Gender:   gender.Male,
+		Games:    grouchoGames,
 		Name:     grouchoName,
 		Special:  false}
 )

@@ -6,9 +6,21 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// bessieGames represents bessie game appearances.
+	bessieGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+	}
 )
 
 var (
@@ -117,6 +129,7 @@ var (
 		Code:     bessieCode,
 		Key:      character.Bessie,
 		Gender:   gender.Female,
+		Games:    bessieGames,
 		Name:     bessieName,
 		Special:  false}
 )

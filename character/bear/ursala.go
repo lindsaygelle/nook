@@ -6,12 +6,27 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // ursalaBirthday represents Ursala's birthday.
+var (
+	// ursalaGames represents ursala game appearances.
+	ursalaGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// ursalaBirthday represents ursala birthday.
 	ursalaBirthday = nook.Birthday{
@@ -122,6 +137,7 @@ var (
 		Code:     ursalaCode,
 		Key:      character.Ursala,
 		Gender:   gender.Female,
+		Games:    ursalaGames,
 		Name:     ursalaName,
 		Special:  false}
 )

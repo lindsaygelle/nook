@@ -6,12 +6,30 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
 )
 
 // tutuBirthday represents Tutu's birthday.
+var (
+	// tutuGames represents tutu game appearances.
+	tutuGames = []nook.Game{
+		game.DoubutsuNoMori,
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+		game.DongwuSenlin,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
+)
+
 var (
 	// tutuBirthday represents tutu birthday.
 	tutuBirthday = nook.Birthday{
@@ -122,6 +140,7 @@ var (
 		Code:     tutuCode,
 		Key:      character.Tutu,
 		Gender:   gender.Female,
+		Games:    tutuGames,
 		Name:     tutuName,
 		Special:  false}
 )

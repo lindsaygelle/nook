@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// daisymaeGames represents daisymae game appearances.
+	daisymaeGames = []nook.Game{
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +126,7 @@ var (
 		Code:     daisymaeCode,
 		Key:      character.DaisyMae,
 		Gender:   gender.Female,
+		Games:    daisymaeGames,
 		Name:     daisymaeName,
 		Special:  true}
 )

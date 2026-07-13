@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// madamrosaGames represents madamrosa game appearances.
+	madamrosaGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -117,6 +125,7 @@ var (
 		Code:     madamrosaCode,
 		Key:      character.MadamRosa,
 		Gender:   gender.Female,
+		Games:    madamrosaGames,
 		Name:     madamrosaName,
 		Special:  false}
 )

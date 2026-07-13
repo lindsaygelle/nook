@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// flickGames represents flick game appearances.
+	flickGames = []nook.Game{
+		game.NewHorizons,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +126,7 @@ var (
 		Code:     flickCode,
 		Key:      character.Flick,
 		Gender:   gender.Male,
+		Games:    flickGames,
 		Name:     flickName,
 		Special:  true}
 )

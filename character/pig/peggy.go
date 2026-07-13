@@ -6,9 +6,23 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// peggyGames represents peggy game appearances.
+	peggyGames = []nook.Game{
+		game.DoubutsuNoMoriEPlus,
+		game.CityFolk,
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+		game.PocketCamp,
+	}
 )
 
 var (
@@ -117,6 +131,7 @@ var (
 		Code:     peggyCode,
 		Key:      character.Peggy,
 		Gender:   gender.Female,
+		Games:    peggyGames,
 		Name:     peggyName,
 		Special:  false}
 )

@@ -6,9 +6,20 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// lunaGames represents luna game appearances.
+	lunaGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+		game.HappyHomeDesigner,
+		game.AmiiboFestival,
+	}
 )
 
 var (
@@ -117,6 +128,7 @@ var (
 		Code:     lunaCode,
 		Key:      character.Luna,
 		Gender:   gender.Female,
+		Games:    lunaGames,
 		Name:     lunaName,
 		Special:  true}
 )

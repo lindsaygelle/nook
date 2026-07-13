@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// frillardGames represents frillard game appearances.
+	frillardGames = []nook.Game{
+		game.CityFolk,
+	}
 )
 
 var (
@@ -117,6 +125,7 @@ var (
 		Code:     frillardCode,
 		Key:      character.Frillard,
 		Gender:   gender.Male,
+		Games:    frillardGames,
 		Name:     frillardName,
 		Special:  true}
 )

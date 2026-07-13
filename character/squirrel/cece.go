@@ -6,9 +6,18 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// ceceGames represents cece game appearances.
+	ceceGames = []nook.Game{
+		game.NewLeaf,
+		game.NewHorizons,
+	}
 )
 
 var (
@@ -117,6 +126,7 @@ var (
 		Code:     ceceCode,
 		Key:      character.Cece,
 		Gender:   gender.Female,
+		Games:    ceceGames,
 		Name:     ceceName,
 		Special:  false}
 )

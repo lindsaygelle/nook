@@ -6,9 +6,17 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// gullivarrrGames represents gullivarrr game appearances.
+	gullivarrrGames = []nook.Game{
+		game.NewHorizons,
+	}
 )
 
 var (
@@ -117,6 +125,7 @@ var (
 		Code:     gullivarrrCode,
 		Key:      character.Gullivarrr,
 		Gender:   gender.Male,
+		Games:    gullivarrrGames,
 		Name:     gullivarrrName,
 		Special:  true}
 )

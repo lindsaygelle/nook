@@ -6,9 +6,19 @@ import (
 	"github.com/lindsaygelle/nook"
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
+	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"golang.org/x/text/language"
+)
+
+var (
+	// flashGames represents flash game appearances.
+	flashGames = []nook.Game{
+		game.DoubutsuNoMoriPlus,
+		game.AnimalCrossing,
+		game.DoubutsuNoMoriEPlus,
+	}
 )
 
 var (
@@ -117,6 +127,7 @@ var (
 		Code:     flashCode,
 		Key:      character.Flash,
 		Gender:   gender.Male,
+		Games:    flashGames,
 		Name:     flashName,
 		Special:  false}
 )
