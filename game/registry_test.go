@@ -14,6 +14,9 @@ func TestByKey(t *testing.T) {
 	if got.Key != game.NewHorizons.Key {
 		t.Fatalf("game.ByKey(%s).Key = %s", game.NewHorizons.Key, got.Key)
 	}
+	if got.ReleaseOrder != 12 {
+		t.Fatalf("game.ByKey(%s).ReleaseOrder = %d", game.NewHorizons.Key, got.ReleaseOrder)
+	}
 }
 
 func TestByKeyMissing(t *testing.T) {
@@ -30,8 +33,20 @@ func TestList(t *testing.T) {
 	if games[0].Key != game.DoubutsuNoMori.Key {
 		t.Fatalf("game.List()[0].Key = %s", games[0].Key)
 	}
+	if games[0].ReleaseOrder != 1 {
+		t.Fatalf("game.List()[0].ReleaseOrder = %d", games[0].ReleaseOrder)
+	}
 	if games[len(games)-1].Key != game.NewHorizons.Key {
 		t.Fatalf("game.List()[last].Key = %s", games[len(games)-1].Key)
+	}
+	if games[len(games)-1].ReleaseOrder != 12 {
+		t.Fatalf("game.List()[last].ReleaseOrder = %d", games[len(games)-1].ReleaseOrder)
+	}
+
+	for i := 1; i < len(games); i++ {
+		if games[i-1].ReleaseOrder >= games[i].ReleaseOrder {
+			t.Fatalf("game.List() release order not increasing at %s >= %s", games[i-1].Key, games[i].Key)
+		}
 	}
 }
 

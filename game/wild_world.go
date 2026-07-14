@@ -28,7 +28,8 @@ var (
 var (
 	// WildWorld represents Animal Crossing: Wild World.
 	WildWorld = nook.Game{
-		Key:  nook.Key(wildWorld),
-		Name: wildWorldName,
+		Key:          nook.Key(wildWorld),
+		Name:         wildWorldName,
+		ReleaseOrder: 6,
 	}
 )

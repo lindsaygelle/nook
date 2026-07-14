@@ -4,16 +4,7 @@ import (
 	"slices"
 
 	"github.com/lindsaygelle/nook"
-	"github.com/lindsaygelle/nook/game"
 )
-
-var gameReleaseOrder = func() map[nook.Key]int {
-	order := make(map[nook.Key]int, len(game.List()))
-	for i, game := range game.List() {
-		order[game.Key] = i
-	}
-	return order
-}()
 
 func characterAppearsInGame(character nook.Character, gameKey nook.Key) bool {
 	if gameKey == "" {
@@ -29,19 +20,17 @@ func characterAppearsInGame(character nook.Character, gameKey nook.Key) bool {
 }
 
 func compareGamesByReleaseOrder(a, b nook.Game) int {
-	left, ok := gameReleaseOrder[a.Key]
-	if !ok {
-		left = len(gameReleaseOrder)
-	}
-	right, ok := gameReleaseOrder[b.Key]
-	if !ok {
-		right = len(gameReleaseOrder)
+	switch {
+	case a.ReleaseOrder == 0 && b.ReleaseOrder != 0:
+		return 1
+	case a.ReleaseOrder != 0 && b.ReleaseOrder == 0:
+		return -1
+	case a.ReleaseOrder < b.ReleaseOrder:
+		return -1
+	case a.ReleaseOrder > b.ReleaseOrder:
+		return 1
 	}
 	switch {
-	case left < right:
-		return -1
-	case left > right:
-		return 1
 	case a.Key < b.Key:
 		return -1
 	case a.Key > b.Key:
