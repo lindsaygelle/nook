@@ -3,6 +3,7 @@ package game
 import "github.com/lindsaygelle/nook"
 
 var (
+	// games contains the canonical games in deterministic series order.
 	games = []nook.Game{
 		DoubutsuNoMori,
 		DoubutsuNoMoriPlus,
@@ -17,6 +18,10 @@ var (
 		PocketCamp,
 		NewHorizons,
 	}
+)
+
+var (
+	// gamesByKey contains canonical games indexed by key.
 	gamesByKey = func() map[nook.Key]nook.Game {
 		index := make(map[nook.Key]nook.Game, len(games))
 		for _, game := range games {

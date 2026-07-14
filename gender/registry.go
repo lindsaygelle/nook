@@ -3,10 +3,15 @@ package gender
 import "github.com/lindsaygelle/nook"
 
 var (
+	// genders contains the canonical genders in deterministic key order.
 	genders = []nook.Gender{
 		Female,
 		Male,
 	}
+)
+
+var (
+	// gendersByKey contains canonical genders indexed by key.
 	gendersByKey = func() map[nook.Key]nook.Gender {
 		index := make(map[nook.Key]nook.Gender, len(genders))
 		for _, gender := range genders {

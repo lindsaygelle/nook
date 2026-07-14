@@ -3,6 +3,7 @@ package animal
 import "github.com/lindsaygelle/nook"
 
 var (
+	// animals contains the canonical animals in deterministic key order.
 	animals = []nook.Animal{
 		Alligator,
 		Alpaca,
@@ -70,6 +71,10 @@ var (
 		Walrus,
 		Wolf,
 	}
+)
+
+var (
+	// animalsByKey contains canonical animals indexed by key.
 	animalsByKey = func() map[nook.Key]nook.Animal {
 		index := make(map[nook.Key]nook.Animal, len(animals))
 		for _, animal := range animals {

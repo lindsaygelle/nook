@@ -3,6 +3,7 @@ package personality
 import "github.com/lindsaygelle/nook"
 
 var (
+	// personalities contains the canonical personalities in deterministic key order.
 	personalities = []nook.Personality{
 		BigSister,
 		Cranky,
@@ -13,6 +14,10 @@ var (
 		Smug,
 		Snooty,
 	}
+)
+
+var (
+	// personalitiesByKey contains canonical personalities indexed by key.
 	personalitiesByKey = func() map[nook.Key]nook.Personality {
 		index := make(map[nook.Key]nook.Personality, len(personalities))
 		for _, personality := range personalities {
