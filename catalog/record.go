@@ -112,7 +112,7 @@ func GameRecordOf(game nook.Game) GameRecord {
 
 // CharacterRecordOf converts a domain character into its API-facing record.
 func CharacterRecordOf(character nook.Character) CharacterRecord {
-	games := gameRecordsOf(sortedCharacterGames(character.Games))
+	games := gameRecordsOf(character.GamesByReleaseOrder())
 
 	return CharacterRecord{
 		AnimalKey: string(character.Animal.Key),
