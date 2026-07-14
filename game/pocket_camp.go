@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -47,6 +48,14 @@ var (
 )
 
 var (
+	// pocketCampPlatforms contains Animal Crossing: Pocket Camp's release platforms in deterministic key order.
+	pocketCampPlatforms = []nook.Platform{
+		platform.Android,
+		platform.IOS,
+	}
+)
+
+var (
 	// pocketCampReleaseDates contains Animal Crossing: Pocket Camp's regional release history in chronological order.
 	pocketCampReleaseDates = []nook.ReleaseDate{
 		pocketCampReleaseDateAustralia,
@@ -59,6 +68,7 @@ var (
 	PocketCamp = nook.Game{
 		Key:          nook.Key(pocketCamp),
 		Name:         pocketCampName,
+		Platforms:    pocketCampPlatforms,
 		ReleaseDates: pocketCampReleaseDates,
 		ReleaseOrder: 11,
 	}

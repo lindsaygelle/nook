@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -39,6 +40,13 @@ var (
 )
 
 var (
+	// newHorizonsPlatforms contains Animal Crossing: New Horizons' release platforms in deterministic key order.
+	newHorizonsPlatforms = []nook.Platform{
+		platform.NintendoSwitch,
+	}
+)
+
+var (
 	// newHorizonsReleaseDates contains Animal Crossing: New Horizons' regional release history in chronological order.
 	newHorizonsReleaseDates = []nook.ReleaseDate{
 		newHorizonsReleaseDateWorldwide,
@@ -50,6 +58,7 @@ var (
 	NewHorizons = nook.Game{
 		Key:          nook.Key(newHorizons),
 		Name:         newHorizonsName,
+		Platforms:    newHorizonsPlatforms,
 		ReleaseDates: newHorizonsReleaseDates,
 		ReleaseOrder: 12,
 	}

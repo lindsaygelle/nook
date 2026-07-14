@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 )
 
@@ -20,6 +21,9 @@ func TestByKey(t *testing.T) {
 	}
 	if len(got.ReleaseDates) != 1 {
 		t.Fatalf("len(game.ByKey(%s).ReleaseDates) = %d", game.NewHorizons.Key, len(got.ReleaseDates))
+	}
+	if len(got.Platforms) != 1 {
+		t.Fatalf("len(game.ByKey(%s).Platforms) = %d", game.NewHorizons.Key, len(got.Platforms))
 	}
 }
 
@@ -101,5 +105,30 @@ func TestReleaseDateByRegion(t *testing.T) {
 func TestReleaseDateByRegionMissing(t *testing.T) {
 	if _, ok := game.DoubutsuNoMori.ReleaseDateByRegion(region.Europe.Key); ok {
 		t.Fatalf("game.DoubutsuNoMori.ReleaseDateByRegion(%s) unexpectedly found a release date", region.Europe.Key)
+	}
+}
+
+func TestOnPlatform(t *testing.T) {
+	if !game.NewHorizons.OnPlatform(platform.NintendoSwitch.Key) {
+		t.Fatalf("game.NewHorizons.OnPlatform(%s) = false", platform.NintendoSwitch.Key)
+	}
+	if game.NewHorizons.OnPlatform(platform.WiiU.Key) {
+		t.Fatalf("game.NewHorizons.OnPlatform(%s) = true", platform.WiiU.Key)
+	}
+}
+
+func TestPlatformByKey(t *testing.T) {
+	found, ok := game.PocketCamp.PlatformByKey(platform.IOS.Key)
+	if !ok {
+		t.Fatalf("game.PocketCamp.PlatformByKey(%s) not found", platform.IOS.Key)
+	}
+	if found.Key != platform.IOS.Key {
+		t.Fatalf("game.PocketCamp.PlatformByKey(%s).Key = %s", platform.IOS.Key, found.Key)
+	}
+}
+
+func TestPlatformByKeyMissing(t *testing.T) {
+	if _, ok := game.CityFolk.PlatformByKey(platform.NintendoSwitch.Key); ok {
+		t.Fatalf("game.CityFolk.PlatformByKey(%s) unexpectedly found a platform", platform.NintendoSwitch.Key)
 	}
 }

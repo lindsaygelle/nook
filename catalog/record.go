@@ -26,10 +26,17 @@ type ReleaseDateRecord struct {
 	Year      uint16          `json:"year"`
 }
 
+// PlatformRecord is a transport-friendly game platform representation.
+type PlatformRecord struct {
+	Key  string          `json:"key"`
+	Name LocalizedValues `json:"name"`
+}
+
 // GameRecord is a transport-friendly game representation.
 type GameRecord struct {
 	Key          string              `json:"key"`
 	Name         LocalizedValues     `json:"name"`
+	Platforms    []PlatformRecord    `json:"platforms"`
 	ReleaseDates []ReleaseDateRecord `json:"release_dates"`
 	ReleaseOrder uint8               `json:"release_order"`
 }
@@ -65,6 +72,21 @@ func gameRecordsOf(games []nook.Game) []GameRecord {
 	records := make([]GameRecord, 0, len(games))
 	for _, game := range games {
 		records = append(records, GameRecordOf(game))
+	}
+	return records
+}
+
+func platformRecordOf(platform nook.Platform) PlatformRecord {
+	return PlatformRecord{
+		Key:  string(platform.Key),
+		Name: LocalizedValuesOf(platform.Name),
+	}
+}
+
+func platformRecordsOf(platforms []nook.Platform) []PlatformRecord {
+	records := make([]PlatformRecord, 0, len(platforms))
+	for _, platform := range platforms {
+		records = append(records, platformRecordOf(platform))
 	}
 	return records
 }
@@ -105,6 +127,7 @@ func GameRecordOf(game nook.Game) GameRecord {
 	return GameRecord{
 		Key:          string(game.Key),
 		Name:         LocalizedValuesOf(game.Name),
+		Platforms:    platformRecordsOf(game.Platforms),
 		ReleaseDates: releaseDateRecordsOf(game.ReleaseDates),
 		ReleaseOrder: game.ReleaseOrder,
 	}

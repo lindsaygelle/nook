@@ -8,6 +8,10 @@ type Game struct {
 	// Name contains the localized names of the game.
 	Name Languages
 
+	// Platforms contains the game's known release platforms in deterministic
+	// key order.
+	Platforms []Platform
+
 	// ReleaseDates contains the game's known regional release history in
 	// chronological order.
 	ReleaseDates []ReleaseDate
@@ -30,6 +34,27 @@ func (g Game) LastReleaseDate() (ReleaseDate, bool) {
 		return ReleaseDate{}, false
 	}
 	return g.ReleaseDates[len(g.ReleaseDates)-1], true
+}
+
+// OnPlatform reports whether the game released on the provided platform.
+func (g Game) OnPlatform(platformKey Key) bool {
+	_, ok := g.PlatformByKey(platformKey)
+	return ok
+}
+
+// PlatformByKey returns the game's platform with the provided key.
+func (g Game) PlatformByKey(platformKey Key) (Platform, bool) {
+	if platformKey == "" {
+		return Platform{}, false
+	}
+
+	for _, platform := range g.Platforms {
+		if platform.Key == platformKey {
+			return platform, true
+		}
+	}
+
+	return Platform{}, false
 }
 
 // ReleaseDateByRegion returns the game's release date for the provided region.

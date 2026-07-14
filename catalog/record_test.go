@@ -14,6 +14,7 @@ import (
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -29,6 +30,15 @@ func TestGameRecordOf(t *testing.T) {
 	}
 	if record.ReleaseOrder != game.NewLeaf.ReleaseOrder {
 		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).ReleaseOrder = %d", record.ReleaseOrder)
+	}
+	if len(record.Platforms) != 1 {
+		t.Fatalf("len(catalog.GameRecordOf(game.NewLeaf).Platforms) = %d", len(record.Platforms))
+	}
+	if record.Platforms[0].Key != string(platform.Nintendo3DS.Key) {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Platforms[0].Key = %s", record.Platforms[0].Key)
+	}
+	if record.Platforms[0].Name[language.AmericanEnglish.String()] != "Nintendo 3DS" {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Platforms[0].Name[en-US] = %s", record.Platforms[0].Name[language.AmericanEnglish.String()])
 	}
 	if len(record.ReleaseDates) != 4 {
 		t.Fatalf("len(catalog.GameRecordOf(game.NewLeaf).ReleaseDates) = %d", len(record.ReleaseDates))

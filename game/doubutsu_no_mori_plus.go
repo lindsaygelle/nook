@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -39,6 +40,13 @@ var (
 )
 
 var (
+	// doubutsuNoMoriPlusPlatforms contains Doubutsu no Mori+'s release platforms in deterministic key order.
+	doubutsuNoMoriPlusPlatforms = []nook.Platform{
+		platform.GameCube,
+	}
+)
+
+var (
 	// doubutsuNoMoriPlusReleaseDates contains Doubutsu no Mori+'s regional release history in chronological order.
 	doubutsuNoMoriPlusReleaseDates = []nook.ReleaseDate{
 		doubutsuNoMoriPlusReleaseDateJapan,
@@ -50,6 +58,7 @@ var (
 	DoubutsuNoMoriPlus = nook.Game{
 		Key:          nook.Key(doubutsuNoMoriPlus),
 		Name:         doubutsuNoMoriPlusName,
+		Platforms:    doubutsuNoMoriPlusPlatforms,
 		ReleaseDates: doubutsuNoMoriPlusReleaseDates,
 		ReleaseOrder: 2,
 	}
