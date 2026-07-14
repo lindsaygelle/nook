@@ -55,7 +55,7 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.Games[0].Key != string(game.DoubutsuNoMoriPlus.Key) {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Games[0].Key = %s", record.Games[0].Key)
 	}
-	if record.Games[len(record.Games)-1].Key != string(game.PocketCamp.Key) {
+	if record.Games[len(record.Games)-1].Key != string(game.NewHorizons.Key) {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Games[last].Key = %s", record.Games[len(record.Games)-1].Key)
 	}
 }

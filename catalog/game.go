@@ -7,20 +7,13 @@ import (
 	"github.com/lindsaygelle/nook/game"
 )
 
-var gameReleaseOrder = map[nook.Key]int{
-	game.AmiiboFestival.Key:      10,
-	game.AnimalCrossing.Key:      2,
-	game.CityFolk.Key:            6,
-	game.DongwuSenlin.Key:        4,
-	game.DoubutsuNoMori.Key:      0,
-	game.DoubutsuNoMoriEPlus.Key: 3,
-	game.DoubutsuNoMoriPlus.Key:  1,
-	game.HappyHomeDesigner.Key:   9,
-	game.NewHorizons.Key:         8,
-	game.NewLeaf.Key:             7,
-	game.PocketCamp.Key:          11,
-	game.WildWorld.Key:           5,
-}
+var gameReleaseOrder = func() map[nook.Key]int {
+	order := make(map[nook.Key]int, len(game.List()))
+	for i, game := range game.List() {
+		order[game.Key] = i
+	}
+	return order
+}()
 
 func characterAppearsInGame(character nook.Character, gameKey nook.Key) bool {
 	if gameKey == "" {
