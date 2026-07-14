@@ -1,7 +1,10 @@
 package game
 
 import (
+	"time"
+
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
 
@@ -19,9 +22,26 @@ var (
 )
 
 var (
+	// doubutsuNoMoriEPlusReleaseDateJapan represents Doubutsu no Mori e+'s release date in Japan.
+	doubutsuNoMoriEPlusReleaseDateJapan = nook.ReleaseDate{
+		Day:    27,
+		Month:  time.June,
+		Region: region.Japan,
+		Year:   2003,
+	}
+)
+
+var (
 	// doubutsuNoMoriEPlusName contains the localized names of Doubutsu no Mori e+.
 	doubutsuNoMoriEPlusName = nook.Languages{
 		language.AmericanEnglish: doubutsuNoMoriEPlusNameAmericanEnglish,
+	}
+)
+
+var (
+	// doubutsuNoMoriEPlusReleaseDates contains Doubutsu no Mori e+'s regional release history in chronological order.
+	doubutsuNoMoriEPlusReleaseDates = []nook.ReleaseDate{
+		doubutsuNoMoriEPlusReleaseDateJapan,
 	}
 )
 
@@ -30,6 +50,7 @@ var (
 	DoubutsuNoMoriEPlus = nook.Game{
 		Key:          nook.Key(doubutsuNoMoriEPlus),
 		Name:         doubutsuNoMoriEPlusName,
+		ReleaseDates: doubutsuNoMoriEPlusReleaseDates,
 		ReleaseOrder: 4,
 	}
 )

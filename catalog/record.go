@@ -17,10 +17,21 @@ type BirthdayRecord struct {
 	Month uint8 `json:"month"`
 }
 
+// ReleaseDateRecord is a transport-friendly game release date representation.
+type ReleaseDateRecord struct {
+	Day       uint8           `json:"day"`
+	Month     uint8           `json:"month"`
+	Region    LocalizedValues `json:"region"`
+	RegionKey string          `json:"region_key"`
+	Year      uint16          `json:"year"`
+}
+
 // GameRecord is a transport-friendly game representation.
 type GameRecord struct {
-	Key  string          `json:"key"`
-	Name LocalizedValues `json:"name"`
+	Key          string              `json:"key"`
+	Name         LocalizedValues     `json:"name"`
+	ReleaseDates []ReleaseDateRecord `json:"release_dates"`
+	ReleaseOrder uint8               `json:"release_order"`
 }
 
 // CharacterRecord is a flattened API-facing representation of a character.
@@ -50,6 +61,32 @@ type VillagerRecord struct {
 	Phrase         LocalizedValues `json:"phrase"`
 }
 
+func gameRecordsOf(games []nook.Game) []GameRecord {
+	records := make([]GameRecord, 0, len(games))
+	for _, game := range games {
+		records = append(records, GameRecordOf(game))
+	}
+	return records
+}
+
+func releaseDateRecordOf(releaseDate nook.ReleaseDate) ReleaseDateRecord {
+	return ReleaseDateRecord{
+		Day:       releaseDate.Day,
+		Month:     uint8(releaseDate.Month),
+		Region:    LocalizedValuesOf(releaseDate.Region.Name),
+		RegionKey: string(releaseDate.Region.Key),
+		Year:      releaseDate.Year,
+	}
+}
+
+func releaseDateRecordsOf(releaseDates []nook.ReleaseDate) []ReleaseDateRecord {
+	records := make([]ReleaseDateRecord, 0, len(releaseDates))
+	for _, releaseDate := range releaseDates {
+		records = append(records, releaseDateRecordOf(releaseDate))
+	}
+	return records
+}
+
 // LocalizedValuesOf converts language-tagged values into a transport-friendly
 // map and omits empty values.
 func LocalizedValuesOf(values nook.Languages) LocalizedValues {
@@ -66,17 +103,11 @@ func LocalizedValuesOf(values nook.Languages) LocalizedValues {
 // GameRecordOf converts a domain game into its API-facing record.
 func GameRecordOf(game nook.Game) GameRecord {
 	return GameRecord{
-		Key:  string(game.Key),
-		Name: LocalizedValuesOf(game.Name),
+		Key:          string(game.Key),
+		Name:         LocalizedValuesOf(game.Name),
+		ReleaseDates: releaseDateRecordsOf(game.ReleaseDates),
+		ReleaseOrder: game.ReleaseOrder,
 	}
-}
-
-func gameRecordsOf(games []nook.Game) []GameRecord {
-	records := make([]GameRecord, 0, len(games))
-	for _, game := range games {
-		records = append(records, GameRecordOf(game))
-	}
-	return records
 }
 
 // CharacterRecordOf converts a domain character into its API-facing record.

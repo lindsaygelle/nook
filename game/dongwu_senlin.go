@@ -1,7 +1,10 @@
 package game
 
 import (
+	"time"
+
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
 
@@ -19,9 +22,26 @@ var (
 )
 
 var (
+	// dongwuSenlinReleaseDateChina represents Dongwu Senlin's release date in China.
+	dongwuSenlinReleaseDateChina = nook.ReleaseDate{
+		Day:    1,
+		Month:  time.June,
+		Region: region.China,
+		Year:   2006,
+	}
+)
+
+var (
 	// dongwuSenlinName contains the localized names of Dongwu Senlin.
 	dongwuSenlinName = nook.Languages{
 		language.AmericanEnglish: dongwuSenlinNameAmericanEnglish,
+	}
+)
+
+var (
+	// dongwuSenlinReleaseDates contains Dongwu Senlin's regional release history in chronological order.
+	dongwuSenlinReleaseDates = []nook.ReleaseDate{
+		dongwuSenlinReleaseDateChina,
 	}
 )
 
@@ -30,6 +50,7 @@ var (
 	DongwuSenlin = nook.Game{
 		Key:          nook.Key(dongwuSenlin),
 		Name:         dongwuSenlinName,
+		ReleaseDates: dongwuSenlinReleaseDates,
 		ReleaseOrder: 5,
 	}
 )
