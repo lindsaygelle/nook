@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -63,6 +64,13 @@ var (
 )
 
 var (
+	// amiiboFestivalPlatforms contains Animal Crossing: amiibo Festival's release platforms in deterministic key order.
+	amiiboFestivalPlatforms = []nook.Platform{
+		platform.WiiU,
+	}
+)
+
+var (
 	// amiiboFestivalReleaseDates contains Animal Crossing: amiibo Festival's regional release history in chronological order.
 	amiiboFestivalReleaseDates = []nook.ReleaseDate{
 		amiiboFestivalReleaseDateJapan,
@@ -77,6 +85,7 @@ var (
 	AmiiboFestival = nook.Game{
 		Key:          nook.Key(amiiboFestival),
 		Name:         amiiboFestivalName,
+		Platforms:    amiiboFestivalPlatforms,
 		ReleaseDates: amiiboFestivalReleaseDates,
 		ReleaseOrder: 10,
 	}

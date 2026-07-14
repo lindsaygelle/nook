@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -39,6 +40,13 @@ var (
 )
 
 var (
+	// dongwuSenlinPlatforms contains Dongwu Senlin's release platforms in deterministic key order.
+	dongwuSenlinPlatforms = []nook.Platform{
+		platform.IQuePlayer,
+	}
+)
+
+var (
 	// dongwuSenlinReleaseDates contains Dongwu Senlin's regional release history in chronological order.
 	dongwuSenlinReleaseDates = []nook.ReleaseDate{
 		dongwuSenlinReleaseDateChina,
@@ -50,6 +58,7 @@ var (
 	DongwuSenlin = nook.Game{
 		Key:          nook.Key(dongwuSenlin),
 		Name:         dongwuSenlinName,
+		Platforms:    dongwuSenlinPlatforms,
 		ReleaseDates: dongwuSenlinReleaseDates,
 		ReleaseOrder: 5,
 	}

@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -63,6 +64,13 @@ var (
 )
 
 var (
+	// wildWorldPlatforms contains Animal Crossing: Wild World's release platforms in deterministic key order.
+	wildWorldPlatforms = []nook.Platform{
+		platform.NintendoDS,
+	}
+)
+
+var (
 	// wildWorldReleaseDates contains Animal Crossing: Wild World's regional release history in chronological order.
 	wildWorldReleaseDates = []nook.ReleaseDate{
 		wildWorldReleaseDateJapan,
@@ -77,6 +85,7 @@ var (
 	WildWorld = nook.Game{
 		Key:          nook.Key(wildWorld),
 		Name:         wildWorldName,
+		Platforms:    wildWorldPlatforms,
 		ReleaseDates: wildWorldReleaseDates,
 		ReleaseOrder: 6,
 	}

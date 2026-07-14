@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -55,6 +56,13 @@ var (
 )
 
 var (
+	// animalCrossingPlatforms contains Animal Crossing's release platforms in deterministic key order.
+	animalCrossingPlatforms = []nook.Platform{
+		platform.GameCube,
+	}
+)
+
+var (
 	// animalCrossingReleaseDates contains Animal Crossing's regional release history in chronological order.
 	animalCrossingReleaseDates = []nook.ReleaseDate{
 		animalCrossingReleaseDateNorthAmerica,
@@ -68,6 +76,7 @@ var (
 	AnimalCrossing = nook.Game{
 		Key:          nook.Key(animalCrossing),
 		Name:         animalCrossingName,
+		Platforms:    animalCrossingPlatforms,
 		ReleaseDates: animalCrossingReleaseDates,
 		ReleaseOrder: 3,
 	}

@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -63,6 +64,13 @@ var (
 )
 
 var (
+	// cityFolkPlatforms contains Animal Crossing: City Folk's release platforms in deterministic key order.
+	cityFolkPlatforms = []nook.Platform{
+		platform.Wii,
+	}
+)
+
+var (
 	// cityFolkReleaseDates contains Animal Crossing: City Folk's regional release history in chronological order.
 	cityFolkReleaseDates = []nook.ReleaseDate{
 		cityFolkReleaseDateNorthAmerica,
@@ -77,6 +85,7 @@ var (
 	CityFolk = nook.Game{
 		Key:          nook.Key(cityFolk),
 		Name:         cityFolkName,
+		Platforms:    cityFolkPlatforms,
 		ReleaseDates: cityFolkReleaseDates,
 		ReleaseOrder: 7,
 	}

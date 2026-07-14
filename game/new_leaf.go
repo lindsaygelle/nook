@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -63,6 +64,13 @@ var (
 )
 
 var (
+	// newLeafPlatforms contains Animal Crossing: New Leaf's release platforms in deterministic key order.
+	newLeafPlatforms = []nook.Platform{
+		platform.Nintendo3DS,
+	}
+)
+
+var (
 	// newLeafReleaseDates contains Animal Crossing: New Leaf's regional release history in chronological order.
 	newLeafReleaseDates = []nook.ReleaseDate{
 		newLeafReleaseDateJapan,
@@ -77,6 +85,7 @@ var (
 	NewLeaf = nook.Game{
 		Key:          nook.Key(newLeaf),
 		Name:         newLeafName,
+		Platforms:    newLeafPlatforms,
 		ReleaseDates: newLeafReleaseDates,
 		ReleaseOrder: 8,
 	}

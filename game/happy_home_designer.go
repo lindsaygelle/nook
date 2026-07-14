@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
@@ -63,6 +64,13 @@ var (
 )
 
 var (
+	// happyHomeDesignerPlatforms contains Animal Crossing: Happy Home Designer's release platforms in deterministic key order.
+	happyHomeDesignerPlatforms = []nook.Platform{
+		platform.Nintendo3DS,
+	}
+)
+
+var (
 	// happyHomeDesignerReleaseDates contains Animal Crossing: Happy Home Designer's regional release history in chronological order.
 	happyHomeDesignerReleaseDates = []nook.ReleaseDate{
 		happyHomeDesignerReleaseDateJapan,
@@ -77,6 +85,7 @@ var (
 	HappyHomeDesigner = nook.Game{
 		Key:          nook.Key(happyHomeDesigner),
 		Name:         happyHomeDesignerName,
+		Platforms:    happyHomeDesignerPlatforms,
 		ReleaseDates: happyHomeDesignerReleaseDates,
 		ReleaseOrder: 9,
 	}
