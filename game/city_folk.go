@@ -1,7 +1,10 @@
 package game
 
 import (
+	"time"
+
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
 
@@ -19,9 +22,53 @@ var (
 )
 
 var (
+	// cityFolkReleaseDateAustralia represents Animal Crossing: City Folk's release date in Australia.
+	cityFolkReleaseDateAustralia = nook.ReleaseDate{
+		Day:    4,
+		Month:  time.December,
+		Region: region.Australia,
+		Year:   2008,
+	}
+
+	// cityFolkReleaseDateEurope represents Animal Crossing: City Folk's release date in Europe.
+	cityFolkReleaseDateEurope = nook.ReleaseDate{
+		Day:    5,
+		Month:  time.December,
+		Region: region.Europe,
+		Year:   2008,
+	}
+
+	// cityFolkReleaseDateJapan represents Animal Crossing: City Folk's release date in Japan.
+	cityFolkReleaseDateJapan = nook.ReleaseDate{
+		Day:    20,
+		Month:  time.November,
+		Region: region.Japan,
+		Year:   2008,
+	}
+
+	// cityFolkReleaseDateNorthAmerica represents Animal Crossing: City Folk's release date in North America.
+	cityFolkReleaseDateNorthAmerica = nook.ReleaseDate{
+		Day:    16,
+		Month:  time.November,
+		Region: region.NorthAmerica,
+		Year:   2008,
+	}
+)
+
+var (
 	// cityFolkName contains the localized names of Animal Crossing: City Folk.
 	cityFolkName = nook.Languages{
 		language.AmericanEnglish: cityFolkNameAmericanEnglish,
+	}
+)
+
+var (
+	// cityFolkReleaseDates contains Animal Crossing: City Folk's regional release history in chronological order.
+	cityFolkReleaseDates = []nook.ReleaseDate{
+		cityFolkReleaseDateNorthAmerica,
+		cityFolkReleaseDateJapan,
+		cityFolkReleaseDateAustralia,
+		cityFolkReleaseDateEurope,
 	}
 )
 
@@ -30,6 +77,7 @@ var (
 	CityFolk = nook.Game{
 		Key:          nook.Key(cityFolk),
 		Name:         cityFolkName,
+		ReleaseDates: cityFolkReleaseDates,
 		ReleaseOrder: 7,
 	}
 )

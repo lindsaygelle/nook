@@ -14,6 +14,7 @@ import (
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
+	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
 
@@ -25,6 +26,21 @@ func TestGameRecordOf(t *testing.T) {
 	}
 	if record.Name[language.AmericanEnglish.String()] != "Animal Crossing: New Leaf" {
 		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Name[en-US] = %s", record.Name[language.AmericanEnglish.String()])
+	}
+	if record.ReleaseOrder != game.NewLeaf.ReleaseOrder {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).ReleaseOrder = %d", record.ReleaseOrder)
+	}
+	if len(record.ReleaseDates) != 4 {
+		t.Fatalf("len(catalog.GameRecordOf(game.NewLeaf).ReleaseDates) = %d", len(record.ReleaseDates))
+	}
+	if record.ReleaseDates[0].RegionKey != string(region.Japan.Key) {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).ReleaseDates[0].RegionKey = %s", record.ReleaseDates[0].RegionKey)
+	}
+	if record.ReleaseDates[0].Region[language.AmericanEnglish.String()] != "Japan" {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).ReleaseDates[0].Region[en-US] = %s", record.ReleaseDates[0].Region[language.AmericanEnglish.String()])
+	}
+	if record.ReleaseDates[0].Year != 2012 || record.ReleaseDates[0].Month != 11 || record.ReleaseDates[0].Day != 8 {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).ReleaseDates[0] = %#v", record.ReleaseDates[0])
 	}
 }
 

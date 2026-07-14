@@ -1,7 +1,10 @@
 package game
 
 import (
+	"time"
+
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
 )
 
@@ -19,9 +22,26 @@ var (
 )
 
 var (
+	// newHorizonsReleaseDateWorldwide represents Animal Crossing: New Horizons' worldwide release date.
+	newHorizonsReleaseDateWorldwide = nook.ReleaseDate{
+		Day:    20,
+		Month:  time.March,
+		Region: region.Worldwide,
+		Year:   2020,
+	}
+)
+
+var (
 	// newHorizonsName contains the localized names of Animal Crossing: New Horizons.
 	newHorizonsName = nook.Languages{
 		language.AmericanEnglish: newHorizonsNameAmericanEnglish,
+	}
+)
+
+var (
+	// newHorizonsReleaseDates contains Animal Crossing: New Horizons' regional release history in chronological order.
+	newHorizonsReleaseDates = []nook.ReleaseDate{
+		newHorizonsReleaseDateWorldwide,
 	}
 )
 
@@ -30,6 +50,7 @@ var (
 	NewHorizons = nook.Game{
 		Key:          nook.Key(newHorizons),
 		Name:         newHorizonsName,
+		ReleaseDates: newHorizonsReleaseDates,
 		ReleaseOrder: 12,
 	}
 )
