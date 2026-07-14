@@ -28,7 +28,8 @@ var (
 var (
 	// CityFolk represents Animal Crossing: City Folk.
 	CityFolk = nook.Game{
-		Key:  nook.Key(cityFolk),
-		Name: cityFolkName,
+		Key:          nook.Key(cityFolk),
+		Name:         cityFolkName,
+		ReleaseOrder: 7,
 	}
 )

@@ -4,23 +4,7 @@ import (
 	"slices"
 
 	"github.com/lindsaygelle/nook"
-	"github.com/lindsaygelle/nook/game"
 )
-
-var gameReleaseOrder = map[nook.Key]int{
-	game.AmiiboFestival.Key:      10,
-	game.AnimalCrossing.Key:      2,
-	game.CityFolk.Key:            6,
-	game.DongwuSenlin.Key:        4,
-	game.DoubutsuNoMori.Key:      0,
-	game.DoubutsuNoMoriEPlus.Key: 3,
-	game.DoubutsuNoMoriPlus.Key:  1,
-	game.HappyHomeDesigner.Key:   9,
-	game.NewHorizons.Key:         8,
-	game.NewLeaf.Key:             7,
-	game.PocketCamp.Key:          11,
-	game.WildWorld.Key:           5,
-}
 
 func characterAppearsInGame(character nook.Character, gameKey nook.Key) bool {
 	if gameKey == "" {
@@ -36,19 +20,17 @@ func characterAppearsInGame(character nook.Character, gameKey nook.Key) bool {
 }
 
 func compareGamesByReleaseOrder(a, b nook.Game) int {
-	left, ok := gameReleaseOrder[a.Key]
-	if !ok {
-		left = len(gameReleaseOrder)
-	}
-	right, ok := gameReleaseOrder[b.Key]
-	if !ok {
-		right = len(gameReleaseOrder)
+	switch {
+	case a.ReleaseOrder == 0 && b.ReleaseOrder != 0:
+		return 1
+	case a.ReleaseOrder != 0 && b.ReleaseOrder == 0:
+		return -1
+	case a.ReleaseOrder < b.ReleaseOrder:
+		return -1
+	case a.ReleaseOrder > b.ReleaseOrder:
+		return 1
 	}
 	switch {
-	case left < right:
-		return -1
-	case left > right:
-		return 1
 	case a.Key < b.Key:
 		return -1
 	case a.Key > b.Key:

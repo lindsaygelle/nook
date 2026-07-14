@@ -28,7 +28,8 @@ var (
 var (
 	// DongwuSenlin represents Dongwu Senlin.
 	DongwuSenlin = nook.Game{
-		Key:  nook.Key(dongwuSenlin),
-		Name: dongwuSenlinName,
+		Key:          nook.Key(dongwuSenlin),
+		Name:         dongwuSenlinName,
+		ReleaseOrder: 5,
 	}
 )

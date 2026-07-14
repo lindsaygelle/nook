@@ -28,7 +28,8 @@ var (
 var (
 	// PocketCamp represents Animal Crossing: Pocket Camp.
 	PocketCamp = nook.Game{
-		Key:  nook.Key(pocketCamp),
-		Name: pocketCampName,
+		Key:          nook.Key(pocketCamp),
+		Name:         pocketCampName,
+		ReleaseOrder: 11,
 	}
 )

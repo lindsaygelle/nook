@@ -25,10 +25,10 @@ func TestCharacterGamesByID(t *testing.T) {
 		game.DoubutsuNoMoriEPlus.Key,
 		game.CityFolk.Key,
 		game.NewLeaf.Key,
-		game.NewHorizons.Key,
 		game.HappyHomeDesigner.Key,
 		game.AmiiboFestival.Key,
 		game.PocketCamp.Key,
+		game.NewHorizons.Key,
 	}
 
 	if len(games) != len(expected) {
@@ -75,7 +75,7 @@ func TestFirstAndLastAppearanceByID(t *testing.T) {
 	if !ok {
 		t.Fatal("catalog.LastAppearanceByID(dog:Isabelle) not found")
 	}
-	if last.Key != game.PocketCamp.Key {
+	if last.Key != game.NewHorizons.Key {
 		t.Fatalf("catalog.LastAppearanceByID(dog:Isabelle).Key = %s", last.Key)
 	}
 }
@@ -93,7 +93,7 @@ func TestFirstAndLastAppearanceByCharacter(t *testing.T) {
 	if !ok {
 		t.Fatal("catalog.LastAppearance(Isabelle) not found")
 	}
-	if last.Key != game.PocketCamp.Key {
+	if last.Key != game.NewHorizons.Key {
 		t.Fatalf("catalog.LastAppearance(Isabelle).Key = %s", last.Key)
 	}
 }

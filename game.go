@@ -7,4 +7,7 @@ type Game struct {
 
 	// Name contains the localized names of the game.
 	Name Languages
+
+	// ReleaseOrder is the series chronology position of the game.
+	ReleaseOrder uint8
 }

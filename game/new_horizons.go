@@ -28,7 +28,8 @@ var (
 var (
 	// NewHorizons represents Animal Crossing: New Horizons.
 	NewHorizons = nook.Game{
-		Key:  nook.Key(newHorizons),
-		Name: newHorizonsName,
+		Key:          nook.Key(newHorizons),
+		Name:         newHorizonsName,
+		ReleaseOrder: 12,
 	}
 )

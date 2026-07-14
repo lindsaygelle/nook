@@ -28,7 +28,8 @@ var (
 var (
 	// HappyHomeDesigner represents Animal Crossing: Happy Home Designer.
 	HappyHomeDesigner = nook.Game{
-		Key:  nook.Key(happyHomeDesigner),
-		Name: happyHomeDesignerName,
+		Key:          nook.Key(happyHomeDesigner),
+		Name:         happyHomeDesignerName,
+		ReleaseOrder: 9,
 	}
 )

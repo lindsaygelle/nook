@@ -28,7 +28,8 @@ var (
 var (
 	// AmiiboFestival represents Animal Crossing: amiibo Festival.
 	AmiiboFestival = nook.Game{
-		Key:  nook.Key(amiiboFestival),
-		Name: amiiboFestivalName,
+		Key:          nook.Key(amiiboFestival),
+		Name:         amiiboFestivalName,
+		ReleaseOrder: 10,
 	}
 )

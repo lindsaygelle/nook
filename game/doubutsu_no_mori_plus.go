@@ -28,7 +28,8 @@ var (
 var (
 	// DoubutsuNoMoriPlus represents Doubutsu no Mori+.
 	DoubutsuNoMoriPlus = nook.Game{
-		Key:  nook.Key(doubutsuNoMoriPlus),
-		Name: doubutsuNoMoriPlusName,
+		Key:          nook.Key(doubutsuNoMoriPlus),
+		Name:         doubutsuNoMoriPlusName,
+		ReleaseOrder: 2,
 	}
 )
