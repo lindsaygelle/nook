@@ -78,6 +78,15 @@ func (c Character) FirstGame() (Game, bool) {
 	return games[0], true
 }
 
+// FirstReleaseDate returns the earliest known release date for the character.
+func (c Character) FirstReleaseDate() (ReleaseDate, bool) {
+	game, ok := c.FirstGame()
+	if !ok {
+		return ReleaseDate{}, false
+	}
+	return game.FirstReleaseDate()
+}
+
 // GameByKey returns the character's game appearance for the provided game key.
 func (c Character) GameByKey(gameKey Key) (Game, bool) {
 	if gameKey == "" {
@@ -91,6 +100,38 @@ func (c Character) GameByKey(gameKey Key) (Game, bool) {
 	}
 
 	return Game{}, false
+}
+
+// GamesOnPlatform returns a boolean indicating whether the character appears on
+// the provided platform in any known game appearance.
+func (c Character) GamesOnPlatform(platformKey Key) bool {
+	if platformKey == "" {
+		return false
+	}
+
+	for _, game := range c.Games {
+		if game.OnPlatform(platformKey) {
+			return true
+		}
+	}
+
+	return false
+}
+
+// GamesReleasedInRegion returns a boolean indicating whether the character
+// appears in any game that released in the provided region.
+func (c Character) GamesReleasedInRegion(regionKey Key) bool {
+	if regionKey == "" {
+		return false
+	}
+
+	for _, game := range c.Games {
+		if _, ok := game.ReleaseDateByRegion(regionKey); ok {
+			return true
+		}
+	}
+
+	return false
 }
 
 // GamesByReleaseOrder returns the character's game appearances sorted into
@@ -117,4 +158,13 @@ func (c Character) LastGame() (Game, bool) {
 		return Game{}, false
 	}
 	return games[len(games)-1], true
+}
+
+// LastReleaseDate returns the latest known release date for the character.
+func (c Character) LastReleaseDate() (ReleaseDate, bool) {
+	game, ok := c.LastGame()
+	if !ok {
+		return ReleaseDate{}, false
+	}
+	return game.LastReleaseDate()
 }

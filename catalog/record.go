@@ -43,16 +43,18 @@ type GameRecord struct {
 
 // CharacterRecord is a flattened API-facing representation of a character.
 type CharacterRecord struct {
-	AnimalKey string          `json:"animal_key"`
-	Birthday  BirthdayRecord  `json:"birthday"`
-	Code      string          `json:"code,omitempty"`
-	Games     []GameRecord    `json:"games"`
-	Gender    LocalizedValues `json:"gender"`
-	GenderKey string          `json:"gender_key"`
-	ID        string          `json:"id"`
-	Key       string          `json:"key"`
-	Name      LocalizedValues `json:"name"`
-	Special   bool            `json:"special"`
+	AnimalKey        string             `json:"animal_key"`
+	Birthday         BirthdayRecord     `json:"birthday"`
+	Code             string             `json:"code,omitempty"`
+	FirstReleaseDate *ReleaseDateRecord `json:"first_release_date,omitempty"`
+	Games            []GameRecord       `json:"games"`
+	Gender           LocalizedValues    `json:"gender"`
+	GenderKey        string             `json:"gender_key"`
+	ID               string             `json:"id"`
+	Key              string             `json:"key"`
+	LastReleaseDate  *ReleaseDateRecord `json:"last_release_date,omitempty"`
+	Name             LocalizedValues    `json:"name"`
+	Special          bool               `json:"special"`
 }
 
 // ResidentRecord is an API-facing representation of a resident.
@@ -109,6 +111,15 @@ func releaseDateRecordsOf(releaseDates []nook.ReleaseDate) []ReleaseDateRecord {
 	return records
 }
 
+func releaseDateRecordPointerOf(releaseDate nook.ReleaseDate, ok bool) *ReleaseDateRecord {
+	if !ok {
+		return nil
+	}
+
+	record := releaseDateRecordOf(releaseDate)
+	return &record
+}
+
 // LocalizedValuesOf converts language-tagged values into a transport-friendly
 // map and omits empty values.
 func LocalizedValuesOf(values nook.Languages) LocalizedValues {
@@ -143,14 +154,16 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 			Day:   character.Birthday.Day,
 			Month: uint8(character.Birthday.Month),
 		},
-		Code:      character.Code.Value,
-		Games:     games,
-		Gender:    LocalizedValuesOf(character.Gender.Name),
-		GenderKey: string(character.Gender.Key),
-		ID:        string(character.ID()),
-		Key:       string(character.Key),
-		Name:      LocalizedValuesOf(character.Name),
-		Special:   character.Special,
+		Code:             character.Code.Value,
+		FirstReleaseDate: releaseDateRecordPointerOf(character.FirstReleaseDate()),
+		Games:            games,
+		Gender:           LocalizedValuesOf(character.Gender.Name),
+		GenderKey:        string(character.Gender.Key),
+		ID:               string(character.ID()),
+		Key:              string(character.Key),
+		LastReleaseDate:  releaseDateRecordPointerOf(character.LastReleaseDate()),
+		Name:             LocalizedValuesOf(character.Name),
+		Special:          character.Special,
 	}
 }
 

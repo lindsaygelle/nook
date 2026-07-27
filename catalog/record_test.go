@@ -11,6 +11,7 @@ import (
 	"github.com/lindsaygelle/nook/character/dog"
 	"github.com/lindsaygelle/nook/character/mouse"
 	"github.com/lindsaygelle/nook/character/raccoon"
+	"github.com/lindsaygelle/nook/character/squirrel"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
@@ -75,6 +76,12 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.Name[language.AmericanEnglish.String()] != "Ankha" {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Name[en-US] = %s", record.Name[language.AmericanEnglish.String()])
 	}
+	if record.FirstReleaseDate == nil {
+		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).FirstReleaseDate unexpectedly nil")
+	}
+	if record.FirstReleaseDate.Year != 2001 || record.FirstReleaseDate.Month != 12 || record.FirstReleaseDate.Day != 14 {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).FirstReleaseDate = %#v", record.FirstReleaseDate)
+	}
 	if len(record.Games) != 9 {
 		t.Fatalf("len(catalog.CharacterRecordOf(cat.Ankha).Games) = %d", len(record.Games))
 	}
@@ -83,6 +90,23 @@ func TestCharacterRecordOf(t *testing.T) {
 	}
 	if record.Games[len(record.Games)-1].Key != string(game.NewHorizons.Key) {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Games[last].Key = %s", record.Games[len(record.Games)-1].Key)
+	}
+	if record.LastReleaseDate == nil {
+		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).LastReleaseDate unexpectedly nil")
+	}
+	if record.LastReleaseDate.Year != 2020 || record.LastReleaseDate.Month != 3 || record.LastReleaseDate.Day != 20 {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).LastReleaseDate = %#v", record.LastReleaseDate)
+	}
+}
+
+func TestCharacterRecordOfWithoutReleaseDates(t *testing.T) {
+	record := catalog.CharacterRecordOf(squirrel.Shaki.Character)
+
+	if record.FirstReleaseDate != nil {
+		t.Fatalf("catalog.CharacterRecordOf(squirrel.Shaki).FirstReleaseDate = %#v", record.FirstReleaseDate)
+	}
+	if record.LastReleaseDate != nil {
+		t.Fatalf("catalog.CharacterRecordOf(squirrel.Shaki).LastReleaseDate = %#v", record.LastReleaseDate)
 	}
 }
 
