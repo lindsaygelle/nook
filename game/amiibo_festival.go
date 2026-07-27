@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
@@ -83,6 +84,7 @@ var (
 var (
 	// AmiiboFestival represents Animal Crossing: amiibo Festival.
 	AmiiboFestival = nook.Game{
+		Category:     gamecategory.Spinoff,
 		Key:          nook.Key(amiiboFestival),
 		Name:         amiiboFestivalName,
 		Platforms:    amiiboFestivalPlatforms,

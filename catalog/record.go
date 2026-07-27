@@ -32,8 +32,15 @@ type PlatformRecord struct {
 	Name LocalizedValues `json:"name"`
 }
 
+// GameCategoryRecord is a transport-friendly game category representation.
+type GameCategoryRecord struct {
+	Key  string          `json:"key"`
+	Name LocalizedValues `json:"name"`
+}
+
 // GameRecord is a transport-friendly game representation.
 type GameRecord struct {
+	Category     GameCategoryRecord  `json:"category"`
 	Key          string              `json:"key"`
 	Name         LocalizedValues     `json:"name"`
 	Platforms    []PlatformRecord    `json:"platforms"`
@@ -76,6 +83,13 @@ func gameRecordsOf(games []nook.Game) []GameRecord {
 		records = append(records, GameRecordOf(game))
 	}
 	return records
+}
+
+func gameCategoryRecordOf(category nook.GameCategory) GameCategoryRecord {
+	return GameCategoryRecord{
+		Key:  string(category.Key),
+		Name: LocalizedValuesOf(category.Name),
+	}
 }
 
 func platformRecordOf(platform nook.Platform) PlatformRecord {
@@ -136,6 +150,7 @@ func LocalizedValuesOf(values nook.Languages) LocalizedValues {
 // GameRecordOf converts a domain game into its API-facing record.
 func GameRecordOf(game nook.Game) GameRecord {
 	return GameRecord{
+		Category:     gameCategoryRecordOf(game.Category),
 		Key:          string(game.Key),
 		Name:         LocalizedValuesOf(game.Name),
 		Platforms:    platformRecordsOf(game.Platforms),

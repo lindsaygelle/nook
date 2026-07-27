@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
@@ -83,6 +84,7 @@ var (
 var (
 	// WildWorld represents Animal Crossing: Wild World.
 	WildWorld = nook.Game{
+		Category:     gamecategory.Mainline,
 		Key:          nook.Key(wildWorld),
 		Name:         wildWorldName,
 		Platforms:    wildWorldPlatforms,

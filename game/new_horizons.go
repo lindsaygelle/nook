@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
@@ -56,6 +57,7 @@ var (
 var (
 	// NewHorizons represents Animal Crossing: New Horizons.
 	NewHorizons = nook.Game{
+		Category:     gamecategory.Mainline,
 		Key:          nook.Key(newHorizons),
 		Name:         newHorizonsName,
 		Platforms:    newHorizonsPlatforms,

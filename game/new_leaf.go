@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
@@ -83,6 +84,7 @@ var (
 var (
 	// NewLeaf represents Animal Crossing: New Leaf.
 	NewLeaf = nook.Game{
+		Category:     gamecategory.Mainline,
 		Key:          nook.Key(newLeaf),
 		Name:         newLeafName,
 		Platforms:    newLeafPlatforms,
