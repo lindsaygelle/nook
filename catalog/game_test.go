@@ -12,6 +12,7 @@ import (
 	squirrelcharacters "github.com/lindsaygelle/nook/character/squirrel"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gamecategory"
+	"github.com/lindsaygelle/nook/platform"
 )
 
 func TestCharacterGamesByID(t *testing.T) {
@@ -236,6 +237,44 @@ func TestResidentsByGameCategoryEmptyKey(t *testing.T) {
 	}
 }
 
+func TestResidentsByGamePlatform(t *testing.T) {
+	residents := catalog.ResidentsByGamePlatform(platform.NintendoSwitch.Key)
+	if len(residents) == 0 {
+		t.Fatal("catalog.ResidentsByGamePlatform(NintendoSwitch) returned no residents")
+	}
+
+	foundIsabelle := false
+	for i, resident := range residents {
+		if len(resident.Character.GamesByPlatform(platform.NintendoSwitch.Key)) == 0 {
+			t.Fatalf("catalog.ResidentsByGamePlatform(NintendoSwitch)[%d] missing Nintendo Switch appearance", i)
+		}
+		if resident.Character.Animal.Key == animal.Dog.Key && resident.Character.Key == character.Isabelle {
+			foundIsabelle = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := residents[i-1]
+		if resident.Character.Animal.Key < prev.Character.Animal.Key {
+			t.Fatalf("catalog.ResidentsByGamePlatform(NintendoSwitch)[%d] not sorted by animal key", i)
+		}
+		if resident.Character.Animal.Key == prev.Character.Animal.Key && resident.Character.Key < prev.Character.Key {
+			t.Fatalf("catalog.ResidentsByGamePlatform(NintendoSwitch)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundIsabelle {
+		t.Fatal("catalog.ResidentsByGamePlatform(NintendoSwitch) missing Isabelle")
+	}
+}
+
+func TestResidentsByGamePlatformEmptyKey(t *testing.T) {
+	residents := catalog.ResidentsByGamePlatform("")
+	if residents != nil {
+		t.Fatalf("catalog.ResidentsByGamePlatform(\"\") = %#v", residents)
+	}
+}
+
 func TestVillagersByGame(t *testing.T) {
 	villagers := catalog.VillagersByGame(game.DoubutsuNoMoriPlus.Key)
 	if len(villagers) == 0 {
@@ -309,6 +348,44 @@ func TestVillagersByGameCategoryEmptyKey(t *testing.T) {
 	villagers := catalog.VillagersByGameCategory("")
 	if villagers != nil {
 		t.Fatalf("catalog.VillagersByGameCategory(\"\") = %#v", villagers)
+	}
+}
+
+func TestVillagersByGamePlatform(t *testing.T) {
+	villagers := catalog.VillagersByGamePlatform(platform.Android.Key)
+	if len(villagers) == 0 {
+		t.Fatal("catalog.VillagersByGamePlatform(Android) returned no villagers")
+	}
+
+	foundAnkha := false
+	for i, villager := range villagers {
+		if len(villager.Character.GamesByPlatform(platform.Android.Key)) == 0 {
+			t.Fatalf("catalog.VillagersByGamePlatform(Android)[%d] missing Android appearance", i)
+		}
+		if villager.Character.Animal.Key == animal.Cat.Key && villager.Character.Key == character.Ankha {
+			foundAnkha = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := villagers[i-1]
+		if villager.Character.Animal.Key < prev.Character.Animal.Key {
+			t.Fatalf("catalog.VillagersByGamePlatform(Android)[%d] not sorted by animal key", i)
+		}
+		if villager.Character.Animal.Key == prev.Character.Animal.Key && villager.Character.Key < prev.Character.Key {
+			t.Fatalf("catalog.VillagersByGamePlatform(Android)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundAnkha {
+		t.Fatal("catalog.VillagersByGamePlatform(Android) missing Ankha")
+	}
+}
+
+func TestVillagersByGamePlatformEmptyKey(t *testing.T) {
+	villagers := catalog.VillagersByGamePlatform("")
+	if villagers != nil {
+		t.Fatalf("catalog.VillagersByGamePlatform(\"\") = %#v", villagers)
 	}
 }
 

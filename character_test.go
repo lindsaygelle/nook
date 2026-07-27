@@ -143,6 +143,27 @@ func TestCharacterGamesByCategory(t *testing.T) {
 	}
 }
 
+func TestCharacterGamesByPlatform(t *testing.T) {
+	games := dogcharacters.Isabelle.Character.GamesByPlatform(platform.Nintendo3DS.Key)
+	if len(games) != 2 {
+		t.Fatalf("len(%s.GamesByPlatform(%s)) = %d", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, len(games))
+	}
+	if games[0].Key != game.NewLeaf.Key {
+		t.Fatalf("%s.GamesByPlatform(%s)[0].Key = %s", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, games[0].Key)
+	}
+	if games[len(games)-1].Key != game.HappyHomeDesigner.Key {
+		t.Fatalf("%s.GamesByPlatform(%s)[last].Key = %s", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, games[len(games)-1].Key)
+	}
+
+	games = dogcharacters.Isabelle.Character.GamesByPlatform(platform.Android.Key)
+	if len(games) != 1 {
+		t.Fatalf("len(%s.GamesByPlatform(%s)) = %d", dogcharacters.Isabelle.Key, platform.Android.Key, len(games))
+	}
+	if games[0].Key != game.PocketCamp.Key {
+		t.Fatalf("%s.GamesByPlatform(%s)[0].Key = %s", dogcharacters.Isabelle.Key, platform.Android.Key, games[0].Key)
+	}
+}
+
 func TestCharacterGameCategories(t *testing.T) {
 	categories := dogcharacters.Isabelle.Character.GameCategories()
 	if len(categories) != 3 {
@@ -252,6 +273,9 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if len(squirrelcharacters.Shaki.Character.GamesByCategory(gamecategory.Mainline.Key)) != 0 {
 		t.Fatalf("len(%s.GamesByCategory(%s)) = %d", squirrelcharacters.Shaki.Key, gamecategory.Mainline.Key, len(squirrelcharacters.Shaki.Character.GamesByCategory(gamecategory.Mainline.Key)))
+	}
+	if len(squirrelcharacters.Shaki.Character.GamesByPlatform(platform.NintendoSwitch.Key)) != 0 {
+		t.Fatalf("len(%s.GamesByPlatform(%s)) = %d", squirrelcharacters.Shaki.Key, platform.NintendoSwitch.Key, len(squirrelcharacters.Shaki.Character.GamesByPlatform(platform.NintendoSwitch.Key)))
 	}
 	if len(squirrelcharacters.Shaki.Character.GamePlatforms()) != 0 {
 		t.Fatalf("len(%s.GamePlatforms()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GamePlatforms()))
