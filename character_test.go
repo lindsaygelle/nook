@@ -9,6 +9,8 @@ import (
 	dogcharacters "github.com/lindsaygelle/nook/character/dog"
 	squirrelcharacters "github.com/lindsaygelle/nook/character/squirrel"
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/platform"
+	"github.com/lindsaygelle/nook/region"
 )
 
 func testCharacter(t *testing.T, animal nook.Key, c nook.Character) {
@@ -87,6 +89,24 @@ func TestCharacterFirstAndLastGame(t *testing.T) {
 	}
 }
 
+func TestCharacterFirstAndLastReleaseDate(t *testing.T) {
+	first, ok := catcharacters.Ankha.Character.FirstReleaseDate()
+	if !ok {
+		t.Fatalf("%s.FirstReleaseDate() not found", catcharacters.Ankha.Key)
+	}
+	if first.Year != 2001 || first.Month != 12 || first.Day != 14 {
+		t.Fatalf("%s.FirstReleaseDate() = %#v", catcharacters.Ankha.Key, first)
+	}
+
+	last, ok := dogcharacters.Isabelle.Character.LastReleaseDate()
+	if !ok {
+		t.Fatalf("%s.LastReleaseDate() not found", dogcharacters.Isabelle.Key)
+	}
+	if last.Year != 2020 || last.Month != 3 || last.Day != 20 {
+		t.Fatalf("%s.LastReleaseDate() = %#v", dogcharacters.Isabelle.Key, last)
+	}
+}
+
 func TestCharacterGameByKey(t *testing.T) {
 	found, ok := dogcharacters.Isabelle.Character.GameByKey(game.NewLeaf.Key)
 	if !ok {
@@ -121,11 +141,35 @@ func TestCharacterGamesByReleaseOrder(t *testing.T) {
 	}
 }
 
+func TestCharacterGamesOnPlatform(t *testing.T) {
+	if !dogcharacters.Isabelle.Character.GamesOnPlatform(platform.Nintendo3DS.Key) {
+		t.Fatalf("%s.GamesOnPlatform(%s) = false", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key)
+	}
+	if dogcharacters.Isabelle.Character.GamesOnPlatform(platform.Nintendo64.Key) {
+		t.Fatalf("%s.GamesOnPlatform(%s) = true", dogcharacters.Isabelle.Key, platform.Nintendo64.Key)
+	}
+}
+
+func TestCharacterGamesReleasedInRegion(t *testing.T) {
+	if !dogcharacters.Isabelle.Character.GamesReleasedInRegion(region.Japan.Key) {
+		t.Fatalf("%s.GamesReleasedInRegion(%s) = false", dogcharacters.Isabelle.Key, region.Japan.Key)
+	}
+	if catcharacters.Ankha.Character.GamesReleasedInRegion(region.China.Key) {
+		t.Fatalf("%s.GamesReleasedInRegion(%s) = true", catcharacters.Ankha.Key, region.China.Key)
+	}
+}
+
 func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if _, ok := squirrelcharacters.Shaki.Character.FirstGame(); ok {
 		t.Fatalf("%s.FirstGame() unexpectedly found a game", squirrelcharacters.Shaki.Key)
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.LastGame(); ok {
 		t.Fatalf("%s.LastGame() unexpectedly found a game", squirrelcharacters.Shaki.Key)
+	}
+	if _, ok := squirrelcharacters.Shaki.Character.FirstReleaseDate(); ok {
+		t.Fatalf("%s.FirstReleaseDate() unexpectedly found a release date", squirrelcharacters.Shaki.Key)
+	}
+	if _, ok := squirrelcharacters.Shaki.Character.LastReleaseDate(); ok {
+		t.Fatalf("%s.LastReleaseDate() unexpectedly found a release date", squirrelcharacters.Shaki.Key)
 	}
 }
