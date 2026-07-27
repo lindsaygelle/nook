@@ -122,6 +122,27 @@ func TestCharacterGameByKey(t *testing.T) {
 	}
 }
 
+func TestCharacterGamesByCategory(t *testing.T) {
+	games := catcharacters.Ankha.Character.GamesByCategory(gamecategory.Mainline.Key)
+	if len(games) != 6 {
+		t.Fatalf("len(%s.GamesByCategory(%s)) = %d", catcharacters.Ankha.Key, gamecategory.Mainline.Key, len(games))
+	}
+	if games[0].Key != game.DoubutsuNoMoriPlus.Key {
+		t.Fatalf("%s.GamesByCategory(%s)[0].Key = %s", catcharacters.Ankha.Key, gamecategory.Mainline.Key, games[0].Key)
+	}
+	if games[len(games)-1].Key != game.NewHorizons.Key {
+		t.Fatalf("%s.GamesByCategory(%s)[last].Key = %s", catcharacters.Ankha.Key, gamecategory.Mainline.Key, games[len(games)-1].Key)
+	}
+
+	games = catcharacters.Ankha.Character.GamesByCategory(gamecategory.Mobile.Key)
+	if len(games) != 1 {
+		t.Fatalf("len(%s.GamesByCategory(%s)) = %d", catcharacters.Ankha.Key, gamecategory.Mobile.Key, len(games))
+	}
+	if games[0].Key != game.PocketCamp.Key {
+		t.Fatalf("%s.GamesByCategory(%s)[0].Key = %s", catcharacters.Ankha.Key, gamecategory.Mobile.Key, games[0].Key)
+	}
+}
+
 func TestCharacterGameCategories(t *testing.T) {
 	categories := dogcharacters.Isabelle.Character.GameCategories()
 	if len(categories) != 3 {
@@ -228,6 +249,9 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if len(squirrelcharacters.Shaki.Character.GameCategories()) != 0 {
 		t.Fatalf("len(%s.GameCategories()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GameCategories()))
+	}
+	if len(squirrelcharacters.Shaki.Character.GamesByCategory(gamecategory.Mainline.Key)) != 0 {
+		t.Fatalf("len(%s.GamesByCategory(%s)) = %d", squirrelcharacters.Shaki.Key, gamecategory.Mainline.Key, len(squirrelcharacters.Shaki.Character.GamesByCategory(gamecategory.Mainline.Key)))
 	}
 	if len(squirrelcharacters.Shaki.Character.GamePlatforms()) != 0 {
 		t.Fatalf("len(%s.GamePlatforms()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GamePlatforms()))

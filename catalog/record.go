@@ -294,6 +294,18 @@ func ResidentRecordsByGame(gameKey nook.Key) []ResidentRecord {
 	return records
 }
 
+// ResidentRecordsByGameCategory returns all residents that appear in at least
+// one game within the provided category. Results are ordered by animal key and
+// then character key.
+func ResidentRecordsByGameCategory(categoryKey nook.Key) []ResidentRecord {
+	residents := ResidentsByGameCategory(categoryKey)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
 // ResidentRecordsByGender returns all residents whose gender exactly matches
 // the provided gender key. Results are ordered by animal key and then
 // character key.
@@ -380,6 +392,18 @@ func VillagerRecordsByBirthMonth(month time.Month) []VillagerRecord {
 // game. Results are ordered by animal key and then character key.
 func VillagerRecordsByGame(gameKey nook.Key) []VillagerRecord {
 	villagers := VillagersByGame(gameKey)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByGameCategory returns all villagers that appear in at least
+// one game within the provided category. Results are ordered by animal key and
+// then character key.
+func VillagerRecordsByGameCategory(categoryKey nook.Key) []VillagerRecord {
+	villagers := VillagersByGameCategory(categoryKey)
 	records := make([]VillagerRecord, 0, len(villagers))
 	for _, villager := range villagers {
 		records = append(records, VillagerRecordOf(villager))
