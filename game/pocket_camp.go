@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
@@ -66,6 +67,7 @@ var (
 var (
 	// PocketCamp represents Animal Crossing: Pocket Camp.
 	PocketCamp = nook.Game{
+		Category:     gamecategory.Mobile,
 		Key:          nook.Key(pocketCamp),
 		Name:         pocketCampName,
 		Platforms:    pocketCampPlatforms,

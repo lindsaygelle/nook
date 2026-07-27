@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 )
@@ -24,6 +25,9 @@ func TestByKey(t *testing.T) {
 	}
 	if len(got.Platforms) != 1 {
 		t.Fatalf("len(game.ByKey(%s).Platforms) = %d", game.NewHorizons.Key, len(got.Platforms))
+	}
+	if got.Category.Key != gamecategory.Mainline.Key {
+		t.Fatalf("game.ByKey(%s).Category.Key = %s", game.NewHorizons.Key, got.Category.Key)
 	}
 }
 
@@ -130,5 +134,30 @@ func TestPlatformByKey(t *testing.T) {
 func TestPlatformByKeyMissing(t *testing.T) {
 	if _, ok := game.CityFolk.PlatformByKey(platform.NintendoSwitch.Key); ok {
 		t.Fatalf("game.CityFolk.PlatformByKey(%s) unexpectedly found a platform", platform.NintendoSwitch.Key)
+	}
+}
+
+func TestHasCategory(t *testing.T) {
+	if !game.NewHorizons.HasCategory(gamecategory.Mainline.Key) {
+		t.Fatalf("game.NewHorizons.HasCategory(%s) = false", gamecategory.Mainline.Key)
+	}
+	if game.NewHorizons.HasCategory(gamecategory.Spinoff.Key) {
+		t.Fatalf("game.NewHorizons.HasCategory(%s) = true", gamecategory.Spinoff.Key)
+	}
+}
+
+func TestCategoryByKey(t *testing.T) {
+	found, ok := game.PocketCamp.CategoryByKey(gamecategory.Mobile.Key)
+	if !ok {
+		t.Fatalf("game.PocketCamp.CategoryByKey(%s) not found", gamecategory.Mobile.Key)
+	}
+	if found.Key != gamecategory.Mobile.Key {
+		t.Fatalf("game.PocketCamp.CategoryByKey(%s).Key = %s", gamecategory.Mobile.Key, found.Key)
+	}
+}
+
+func TestCategoryByKeyMissing(t *testing.T) {
+	if _, ok := game.CityFolk.CategoryByKey(gamecategory.Mobile.Key); ok {
+		t.Fatalf("game.CityFolk.CategoryByKey(%s) unexpectedly found a category", gamecategory.Mobile.Key)
 	}
 }

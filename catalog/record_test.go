@@ -13,6 +13,7 @@ import (
 	"github.com/lindsaygelle/nook/character/raccoon"
 	"github.com/lindsaygelle/nook/character/squirrel"
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/gender"
 	"github.com/lindsaygelle/nook/personality"
 	"github.com/lindsaygelle/nook/platform"
@@ -31,6 +32,12 @@ func TestGameRecordOf(t *testing.T) {
 	}
 	if record.ReleaseOrder != game.NewLeaf.ReleaseOrder {
 		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).ReleaseOrder = %d", record.ReleaseOrder)
+	}
+	if record.Category.Key != string(gamecategory.Mainline.Key) {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Category.Key = %s", record.Category.Key)
+	}
+	if record.Category.Name[language.AmericanEnglish.String()] != "Mainline" {
+		t.Fatalf("catalog.GameRecordOf(game.NewLeaf).Category.Name[en-US] = %s", record.Category.Name[language.AmericanEnglish.String()])
 	}
 	if len(record.Platforms) != 1 {
 		t.Fatalf("len(catalog.GameRecordOf(game.NewLeaf).Platforms) = %d", len(record.Platforms))

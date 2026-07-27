@@ -2,6 +2,9 @@ package nook
 
 // Game represents a game in the Animal Crossing series.
 type Game struct {
+	// Category describes the game's series classification.
+	Category GameCategory
+
 	// Key is the language-agnostic key of the game.
 	Key Key
 
@@ -36,10 +39,25 @@ func (g Game) LastReleaseDate() (ReleaseDate, bool) {
 	return g.ReleaseDates[len(g.ReleaseDates)-1], true
 }
 
+// HasCategory reports whether the game belongs to the provided category.
+func (g Game) HasCategory(categoryKey Key) bool {
+	_, ok := g.CategoryByKey(categoryKey)
+	return ok
+}
+
 // OnPlatform reports whether the game released on the provided platform.
 func (g Game) OnPlatform(platformKey Key) bool {
 	_, ok := g.PlatformByKey(platformKey)
 	return ok
+}
+
+// CategoryByKey returns the game's category with the provided key.
+func (g Game) CategoryByKey(categoryKey Key) (GameCategory, bool) {
+	if categoryKey == "" || g.Category.Key != categoryKey {
+		return GameCategory{}, false
+	}
+
+	return g.Category, true
 }
 
 // PlatformByKey returns the game's platform with the provided key.

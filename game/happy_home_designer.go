@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 	"golang.org/x/text/language"
@@ -83,6 +84,7 @@ var (
 var (
 	// HappyHomeDesigner represents Animal Crossing: Happy Home Designer.
 	HappyHomeDesigner = nook.Game{
+		Category:     gamecategory.Spinoff,
 		Key:          nook.Key(happyHomeDesigner),
 		Name:         happyHomeDesignerName,
 		Platforms:    happyHomeDesignerPlatforms,
