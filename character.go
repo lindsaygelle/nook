@@ -4,6 +4,17 @@ import "slices"
 
 const characterIDSeparator = ":"
 
+func compareGameCategoriesByKey(a, b GameCategory) int {
+	switch {
+	case a.Key < b.Key:
+		return -1
+	case a.Key > b.Key:
+		return 1
+	default:
+		return 0
+	}
+}
+
 func compareGamesByReleaseOrder(a, b Game) int {
 	switch {
 	case a.ReleaseOrder == 0 && b.ReleaseOrder != 0:
@@ -16,6 +27,28 @@ func compareGamesByReleaseOrder(a, b Game) int {
 		return 1
 	}
 
+	switch {
+	case a.Key < b.Key:
+		return -1
+	case a.Key > b.Key:
+		return 1
+	default:
+		return 0
+	}
+}
+
+func comparePlatformsByKey(a, b Platform) int {
+	switch {
+	case a.Key < b.Key:
+		return -1
+	case a.Key > b.Key:
+		return 1
+	default:
+		return 0
+	}
+}
+
+func compareRegionsByKey(a, b Region) int {
 	switch {
 	case a.Key < b.Key:
 		return -1
@@ -100,6 +133,70 @@ func (c Character) GameByKey(gameKey Key) (Game, bool) {
 	}
 
 	return Game{}, false
+}
+
+// GameCategories returns the unique game categories represented across the
+// character's known game appearances in deterministic key order.
+func (c Character) GameCategories() []GameCategory {
+	index := make(map[Key]GameCategory, len(c.Games))
+
+	for _, game := range c.Games {
+		if game.Category.Key == "" {
+			continue
+		}
+		index[game.Category.Key] = game.Category
+	}
+
+	categories := make([]GameCategory, 0, len(index))
+	for _, category := range index {
+		categories = append(categories, category)
+	}
+	slices.SortFunc(categories, compareGameCategoriesByKey)
+	return categories
+}
+
+// GamePlatforms returns the unique platforms represented across the
+// character's known game appearances in deterministic key order.
+func (c Character) GamePlatforms() []Platform {
+	index := make(map[Key]Platform)
+
+	for _, game := range c.Games {
+		for _, platform := range game.Platforms {
+			if platform.Key == "" {
+				continue
+			}
+			index[platform.Key] = platform
+		}
+	}
+
+	platforms := make([]Platform, 0, len(index))
+	for _, platform := range index {
+		platforms = append(platforms, platform)
+	}
+	slices.SortFunc(platforms, comparePlatformsByKey)
+	return platforms
+}
+
+// GameRegions returns the unique release regions represented across the
+// character's known game appearances in deterministic key order.
+func (c Character) GameRegions() []Region {
+	index := make(map[Key]Region)
+
+	for _, game := range c.Games {
+		for _, releaseDate := range game.ReleaseDates {
+			if releaseDate.Region.Key == "" {
+				continue
+			}
+			index[releaseDate.Region.Key] = releaseDate.Region
+		}
+	}
+
+	regions := make([]Region, 0, len(index))
+	for _, region := range index {
+		regions = append(regions, region)
+	}
+	slices.SortFunc(regions, compareRegionsByKey)
+	return regions
 }
 
 // GamesOnPlatform returns a boolean indicating whether the character appears on

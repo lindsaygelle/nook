@@ -9,6 +9,7 @@ import (
 	dogcharacters "github.com/lindsaygelle/nook/character/dog"
 	squirrelcharacters "github.com/lindsaygelle/nook/character/squirrel"
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
 )
@@ -121,6 +122,36 @@ func TestCharacterGameByKey(t *testing.T) {
 	}
 }
 
+func TestCharacterGameCategories(t *testing.T) {
+	categories := dogcharacters.Isabelle.Character.GameCategories()
+	if len(categories) != 3 {
+		t.Fatalf("len(%s.GameCategories()) = %d", dogcharacters.Isabelle.Key, len(categories))
+	}
+	if categories[0].Key != gamecategory.Mainline.Key {
+		t.Fatalf("%s.GameCategories()[0].Key = %s", dogcharacters.Isabelle.Key, categories[0].Key)
+	}
+	if categories[1].Key != gamecategory.Mobile.Key {
+		t.Fatalf("%s.GameCategories()[1].Key = %s", dogcharacters.Isabelle.Key, categories[1].Key)
+	}
+	if categories[2].Key != gamecategory.Spinoff.Key {
+		t.Fatalf("%s.GameCategories()[2].Key = %s", dogcharacters.Isabelle.Key, categories[2].Key)
+	}
+
+	categories = catcharacters.Ankha.Character.GameCategories()
+	if len(categories) != 3 {
+		t.Fatalf("len(%s.GameCategories()) = %d", catcharacters.Ankha.Key, len(categories))
+	}
+	if categories[0].Key != gamecategory.Mainline.Key {
+		t.Fatalf("%s.GameCategories()[0].Key = %s", catcharacters.Ankha.Key, categories[0].Key)
+	}
+	if categories[1].Key != gamecategory.Mobile.Key {
+		t.Fatalf("%s.GameCategories()[1].Key = %s", catcharacters.Ankha.Key, categories[1].Key)
+	}
+	if categories[2].Key != gamecategory.Spinoff.Key {
+		t.Fatalf("%s.GameCategories()[2].Key = %s", catcharacters.Ankha.Key, categories[2].Key)
+	}
+}
+
 func TestCharacterGamesByReleaseOrder(t *testing.T) {
 	games := catcharacters.Ankha.Character.GamesByReleaseOrder()
 	if len(games) != len(catcharacters.Ankha.Character.Games) {
@@ -141,12 +172,38 @@ func TestCharacterGamesByReleaseOrder(t *testing.T) {
 	}
 }
 
+func TestCharacterGamePlatforms(t *testing.T) {
+	platforms := dogcharacters.Isabelle.Character.GamePlatforms()
+	if len(platforms) != 5 {
+		t.Fatalf("len(%s.GamePlatforms()) = %d", dogcharacters.Isabelle.Key, len(platforms))
+	}
+	if platforms[0].Key != platform.Android.Key {
+		t.Fatalf("%s.GamePlatforms()[0].Key = %s", dogcharacters.Isabelle.Key, platforms[0].Key)
+	}
+	if platforms[len(platforms)-1].Key != platform.WiiU.Key {
+		t.Fatalf("%s.GamePlatforms()[last].Key = %s", dogcharacters.Isabelle.Key, platforms[len(platforms)-1].Key)
+	}
+}
+
 func TestCharacterGamesOnPlatform(t *testing.T) {
 	if !dogcharacters.Isabelle.Character.GamesOnPlatform(platform.Nintendo3DS.Key) {
 		t.Fatalf("%s.GamesOnPlatform(%s) = false", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key)
 	}
 	if dogcharacters.Isabelle.Character.GamesOnPlatform(platform.Nintendo64.Key) {
 		t.Fatalf("%s.GamesOnPlatform(%s) = true", dogcharacters.Isabelle.Key, platform.Nintendo64.Key)
+	}
+}
+
+func TestCharacterGameRegions(t *testing.T) {
+	regions := dogcharacters.Isabelle.Character.GameRegions()
+	if len(regions) != 5 {
+		t.Fatalf("len(%s.GameRegions()) = %d", dogcharacters.Isabelle.Key, len(regions))
+	}
+	if regions[0].Key != region.Australia.Key {
+		t.Fatalf("%s.GameRegions()[0].Key = %s", dogcharacters.Isabelle.Key, regions[0].Key)
+	}
+	if regions[len(regions)-1].Key != region.Worldwide.Key {
+		t.Fatalf("%s.GameRegions()[last].Key = %s", dogcharacters.Isabelle.Key, regions[len(regions)-1].Key)
 	}
 }
 
@@ -168,6 +225,15 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.FirstReleaseDate(); ok {
 		t.Fatalf("%s.FirstReleaseDate() unexpectedly found a release date", squirrelcharacters.Shaki.Key)
+	}
+	if len(squirrelcharacters.Shaki.Character.GameCategories()) != 0 {
+		t.Fatalf("len(%s.GameCategories()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GameCategories()))
+	}
+	if len(squirrelcharacters.Shaki.Character.GamePlatforms()) != 0 {
+		t.Fatalf("len(%s.GamePlatforms()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GamePlatforms()))
+	}
+	if len(squirrelcharacters.Shaki.Character.GameRegions()) != 0 {
+		t.Fatalf("len(%s.GameRegions()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GameRegions()))
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.LastReleaseDate(); ok {
 		t.Fatalf("%s.LastReleaseDate() unexpectedly found a release date", squirrelcharacters.Shaki.Key)

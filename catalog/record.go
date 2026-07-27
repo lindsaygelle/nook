@@ -38,6 +38,12 @@ type GameCategoryRecord struct {
 	Name LocalizedValues `json:"name"`
 }
 
+// RegionRecord is a transport-friendly game region representation.
+type RegionRecord struct {
+	Key  string          `json:"key"`
+	Name LocalizedValues `json:"name"`
+}
+
 // GameRecord is a transport-friendly game representation.
 type GameRecord struct {
 	Category     GameCategoryRecord  `json:"category"`
@@ -50,18 +56,21 @@ type GameRecord struct {
 
 // CharacterRecord is a flattened API-facing representation of a character.
 type CharacterRecord struct {
-	AnimalKey        string             `json:"animal_key"`
-	Birthday         BirthdayRecord     `json:"birthday"`
-	Code             string             `json:"code,omitempty"`
-	FirstReleaseDate *ReleaseDateRecord `json:"first_release_date,omitempty"`
-	Games            []GameRecord       `json:"games"`
-	Gender           LocalizedValues    `json:"gender"`
-	GenderKey        string             `json:"gender_key"`
-	ID               string             `json:"id"`
-	Key              string             `json:"key"`
-	LastReleaseDate  *ReleaseDateRecord `json:"last_release_date,omitempty"`
-	Name             LocalizedValues    `json:"name"`
-	Special          bool               `json:"special"`
+	AnimalKey        string               `json:"animal_key"`
+	Birthday         BirthdayRecord       `json:"birthday"`
+	Code             string               `json:"code,omitempty"`
+	FirstReleaseDate *ReleaseDateRecord   `json:"first_release_date,omitempty"`
+	GameCategories   []GameCategoryRecord `json:"game_categories"`
+	GamePlatforms    []PlatformRecord     `json:"game_platforms"`
+	GameRegions      []RegionRecord       `json:"game_regions"`
+	Games            []GameRecord         `json:"games"`
+	Gender           LocalizedValues      `json:"gender"`
+	GenderKey        string               `json:"gender_key"`
+	ID               string               `json:"id"`
+	Key              string               `json:"key"`
+	LastReleaseDate  *ReleaseDateRecord   `json:"last_release_date,omitempty"`
+	Name             LocalizedValues      `json:"name"`
+	Special          bool                 `json:"special"`
 }
 
 // ResidentRecord is an API-facing representation of a resident.
@@ -92,6 +101,14 @@ func gameCategoryRecordOf(category nook.GameCategory) GameCategoryRecord {
 	}
 }
 
+func gameCategoryRecordsOf(categories []nook.GameCategory) []GameCategoryRecord {
+	records := make([]GameCategoryRecord, 0, len(categories))
+	for _, category := range categories {
+		records = append(records, gameCategoryRecordOf(category))
+	}
+	return records
+}
+
 func platformRecordOf(platform nook.Platform) PlatformRecord {
 	return PlatformRecord{
 		Key:  string(platform.Key),
@@ -103,6 +120,21 @@ func platformRecordsOf(platforms []nook.Platform) []PlatformRecord {
 	records := make([]PlatformRecord, 0, len(platforms))
 	for _, platform := range platforms {
 		records = append(records, platformRecordOf(platform))
+	}
+	return records
+}
+
+func regionRecordOf(region nook.Region) RegionRecord {
+	return RegionRecord{
+		Key:  string(region.Key),
+		Name: LocalizedValuesOf(region.Name),
+	}
+}
+
+func regionRecordsOf(regions []nook.Region) []RegionRecord {
+	records := make([]RegionRecord, 0, len(regions))
+	for _, region := range regions {
+		records = append(records, regionRecordOf(region))
 	}
 	return records
 }
@@ -171,6 +203,9 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 		},
 		Code:             character.Code.Value,
 		FirstReleaseDate: releaseDateRecordPointerOf(character.FirstReleaseDate()),
+		GameCategories:   gameCategoryRecordsOf(character.GameCategories()),
+		GamePlatforms:    platformRecordsOf(character.GamePlatforms()),
+		GameRegions:      regionRecordsOf(character.GameRegions()),
 		Games:            games,
 		Gender:           LocalizedValuesOf(character.Gender.Name),
 		GenderKey:        string(character.Gender.Key),
