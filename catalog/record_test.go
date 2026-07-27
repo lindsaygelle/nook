@@ -305,6 +305,34 @@ func TestResidentRecordsByGameCategory(t *testing.T) {
 	}
 }
 
+func TestResidentRecordsByGamePlatform(t *testing.T) {
+	records := catalog.ResidentRecordsByGamePlatform(platform.NintendoSwitch.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.ResidentRecordsByGamePlatform(NintendoSwitch) returned no records")
+	}
+
+	foundIsabelle := false
+	for i, record := range records {
+		if record.ID == "Dog:Isabelle" {
+			foundIsabelle = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.ResidentRecordsByGamePlatform(NintendoSwitch)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.ResidentRecordsByGamePlatform(NintendoSwitch)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundIsabelle {
+		t.Fatal("catalog.ResidentRecordsByGamePlatform(NintendoSwitch) missing Isabelle")
+	}
+}
+
 func TestResidentRecordsByGender(t *testing.T) {
 	records := catalog.ResidentRecordsByGender(gender.Female.Key)
 	if len(records) == 0 {
@@ -509,6 +537,34 @@ func TestVillagerRecordsByGameCategory(t *testing.T) {
 	}
 }
 
+func TestVillagerRecordsByGamePlatform(t *testing.T) {
+	records := catalog.VillagerRecordsByGamePlatform(platform.Android.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.VillagerRecordsByGamePlatform(Android) returned no records")
+	}
+
+	foundAnkha := false
+	for i, record := range records {
+		if record.ID == "Cat:Ankha" {
+			foundAnkha = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.VillagerRecordsByGamePlatform(Android)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.VillagerRecordsByGamePlatform(Android)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundAnkha {
+		t.Fatal("catalog.VillagerRecordsByGamePlatform(Android) missing Ankha")
+	}
+}
+
 func TestVillagerRecordsByGender(t *testing.T) {
 	records := catalog.VillagerRecordsByGender(gender.Male.Key)
 	if len(records) == 0 {
@@ -574,6 +630,9 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if records := catalog.ResidentRecordsByGameCategory(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByGameCategory(\"\")) = %d", len(records))
 	}
+	if records := catalog.ResidentRecordsByGamePlatform(""); len(records) != 0 {
+		t.Fatalf("len(catalog.ResidentRecordsByGamePlatform(\"\")) = %d", len(records))
+	}
 	if records := catalog.ResidentRecordsByGender(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByGender(\"\")) = %d", len(records))
 	}
@@ -585,6 +644,9 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	}
 	if records := catalog.VillagerRecordsByGameCategory(""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByGameCategory(\"\")) = %d", len(records))
+	}
+	if records := catalog.VillagerRecordsByGamePlatform(""); len(records) != 0 {
+		t.Fatalf("len(catalog.VillagerRecordsByGamePlatform(\"\")) = %d", len(records))
 	}
 	if records := catalog.VillagerRecordsByGender(""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByGender(\"\")) = %d", len(records))

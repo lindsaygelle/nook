@@ -153,6 +153,24 @@ func (c Character) GamesByCategory(categoryKey Key) []Game {
 	return games
 }
 
+// GamesByPlatform returns the character's game appearances on the provided
+// platform sorted into deterministic release order.
+func (c Character) GamesByPlatform(platformKey Key) []Game {
+	if platformKey == "" {
+		return nil
+	}
+
+	games := make([]Game, 0)
+	for _, game := range c.GamesByReleaseOrder() {
+		if !game.OnPlatform(platformKey) {
+			continue
+		}
+		games = append(games, game)
+	}
+
+	return games
+}
+
 // GameCategories returns the unique game categories represented across the
 // character's known game appearances in deterministic key order.
 func (c Character) GameCategories() []GameCategory {

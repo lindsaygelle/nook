@@ -306,6 +306,18 @@ func ResidentRecordsByGameCategory(categoryKey nook.Key) []ResidentRecord {
 	return records
 }
 
+// ResidentRecordsByGamePlatform returns all residents that appear in at least
+// one game on the provided platform. Results are ordered by animal key and
+// then character key.
+func ResidentRecordsByGamePlatform(platformKey nook.Key) []ResidentRecord {
+	residents := ResidentsByGamePlatform(platformKey)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
 // ResidentRecordsByGender returns all residents whose gender exactly matches
 // the provided gender key. Results are ordered by animal key and then
 // character key.
@@ -404,6 +416,18 @@ func VillagerRecordsByGame(gameKey nook.Key) []VillagerRecord {
 // then character key.
 func VillagerRecordsByGameCategory(categoryKey nook.Key) []VillagerRecord {
 	villagers := VillagersByGameCategory(categoryKey)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByGamePlatform returns all villagers that appear in at least
+// one game on the provided platform. Results are ordered by animal key and
+// then character key.
+func VillagerRecordsByGamePlatform(platformKey nook.Key) []VillagerRecord {
+	villagers := VillagersByGamePlatform(platformKey)
 	records := make([]VillagerRecord, 0, len(villagers))
 	for _, villager := range villagers {
 		records = append(records, VillagerRecordOf(villager))
