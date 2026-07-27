@@ -135,6 +135,24 @@ func (c Character) GameByKey(gameKey Key) (Game, bool) {
 	return Game{}, false
 }
 
+// GamesByCategory returns the character's game appearances within the provided
+// category sorted into deterministic release order.
+func (c Character) GamesByCategory(categoryKey Key) []Game {
+	if categoryKey == "" {
+		return nil
+	}
+
+	games := make([]Game, 0)
+	for _, game := range c.GamesByReleaseOrder() {
+		if !game.HasCategory(categoryKey) {
+			continue
+		}
+		games = append(games, game)
+	}
+
+	return games
+}
+
 // GameCategories returns the unique game categories represented across the
 // character's known game appearances in deterministic key order.
 func (c Character) GameCategories() []GameCategory {

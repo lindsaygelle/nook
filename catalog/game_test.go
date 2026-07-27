@@ -11,6 +11,7 @@ import (
 	dogcharacters "github.com/lindsaygelle/nook/character/dog"
 	squirrelcharacters "github.com/lindsaygelle/nook/character/squirrel"
 	"github.com/lindsaygelle/nook/game"
+	"github.com/lindsaygelle/nook/gamecategory"
 )
 
 func TestCharacterGamesByID(t *testing.T) {
@@ -197,6 +198,44 @@ func TestResidentsByGameEmptyKey(t *testing.T) {
 	}
 }
 
+func TestResidentsByGameCategory(t *testing.T) {
+	residents := catalog.ResidentsByGameCategory(gamecategory.Mainline.Key)
+	if len(residents) == 0 {
+		t.Fatal("catalog.ResidentsByGameCategory(Mainline) returned no residents")
+	}
+
+	foundIsabelle := false
+	for i, resident := range residents {
+		if len(resident.Character.GamesByCategory(gamecategory.Mainline.Key)) == 0 {
+			t.Fatalf("catalog.ResidentsByGameCategory(Mainline)[%d] missing mainline appearance", i)
+		}
+		if resident.Character.Animal.Key == animal.Dog.Key && resident.Character.Key == character.Isabelle {
+			foundIsabelle = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := residents[i-1]
+		if resident.Character.Animal.Key < prev.Character.Animal.Key {
+			t.Fatalf("catalog.ResidentsByGameCategory(Mainline)[%d] not sorted by animal key", i)
+		}
+		if resident.Character.Animal.Key == prev.Character.Animal.Key && resident.Character.Key < prev.Character.Key {
+			t.Fatalf("catalog.ResidentsByGameCategory(Mainline)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundIsabelle {
+		t.Fatal("catalog.ResidentsByGameCategory(Mainline) missing Isabelle")
+	}
+}
+
+func TestResidentsByGameCategoryEmptyKey(t *testing.T) {
+	residents := catalog.ResidentsByGameCategory("")
+	if residents != nil {
+		t.Fatalf("catalog.ResidentsByGameCategory(\"\") = %#v", residents)
+	}
+}
+
 func TestVillagersByGame(t *testing.T) {
 	villagers := catalog.VillagersByGame(game.DoubutsuNoMoriPlus.Key)
 	if len(villagers) == 0 {
@@ -232,6 +271,44 @@ func TestVillagersByGameEmptyKey(t *testing.T) {
 	villagers := catalog.VillagersByGame("")
 	if villagers != nil {
 		t.Fatalf("catalog.VillagersByGame(\"\") = %#v", villagers)
+	}
+}
+
+func TestVillagersByGameCategory(t *testing.T) {
+	villagers := catalog.VillagersByGameCategory(gamecategory.Spinoff.Key)
+	if len(villagers) == 0 {
+		t.Fatal("catalog.VillagersByGameCategory(Spinoff) returned no villagers")
+	}
+
+	foundAnkha := false
+	for i, villager := range villagers {
+		if len(villager.Character.GamesByCategory(gamecategory.Spinoff.Key)) == 0 {
+			t.Fatalf("catalog.VillagersByGameCategory(Spinoff)[%d] missing spinoff appearance", i)
+		}
+		if villager.Character.Animal.Key == animal.Cat.Key && villager.Character.Key == character.Ankha {
+			foundAnkha = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := villagers[i-1]
+		if villager.Character.Animal.Key < prev.Character.Animal.Key {
+			t.Fatalf("catalog.VillagersByGameCategory(Spinoff)[%d] not sorted by animal key", i)
+		}
+		if villager.Character.Animal.Key == prev.Character.Animal.Key && villager.Character.Key < prev.Character.Key {
+			t.Fatalf("catalog.VillagersByGameCategory(Spinoff)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundAnkha {
+		t.Fatal("catalog.VillagersByGameCategory(Spinoff) missing Ankha")
+	}
+}
+
+func TestVillagersByGameCategoryEmptyKey(t *testing.T) {
+	villagers := catalog.VillagersByGameCategory("")
+	if villagers != nil {
+		t.Fatalf("catalog.VillagersByGameCategory(\"\") = %#v", villagers)
 	}
 }
 

@@ -83,6 +83,28 @@ func ResidentsByGame(gameKey nook.Key) []nook.Resident {
 	return residents
 }
 
+// ResidentsByGameCategory returns all residents that appear in at least one
+// game within the provided category. Results are sorted by animal key and then
+// character key for deterministic backend responses.
+func ResidentsByGameCategory(categoryKey nook.Key) []nook.Resident {
+	if categoryKey == "" {
+		return nil
+	}
+
+	residents := make([]nook.Resident, 0)
+	for _, bucket := range AllResidents {
+		for _, resident := range bucket {
+			if len(resident.Character.GamesByCategory(categoryKey)) == 0 {
+				continue
+			}
+			residents = append(residents, resident)
+		}
+	}
+
+	slices.SortFunc(residents, compareResidents)
+	return residents
+}
+
 // VillagersByGame returns all villagers that appear in the provided game.
 // Results are sorted by animal key and then character key for deterministic
 // backend responses.
@@ -95,6 +117,28 @@ func VillagersByGame(gameKey nook.Key) []nook.Villager {
 	for _, bucket := range AllVillagers {
 		for _, villager := range bucket {
 			if !villager.Character.AppearsInGame(gameKey) {
+				continue
+			}
+			villagers = append(villagers, villager)
+		}
+	}
+
+	slices.SortFunc(villagers, compareVillagers)
+	return villagers
+}
+
+// VillagersByGameCategory returns all villagers that appear in at least one
+// game within the provided category. Results are sorted by animal key and then
+// character key for deterministic backend responses.
+func VillagersByGameCategory(categoryKey nook.Key) []nook.Villager {
+	if categoryKey == "" {
+		return nil
+	}
+
+	villagers := make([]nook.Villager, 0)
+	for _, bucket := range AllVillagers {
+		for _, villager := range bucket {
+			if len(villager.Character.GamesByCategory(categoryKey)) == 0 {
 				continue
 			}
 			villagers = append(villagers, villager)
