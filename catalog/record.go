@@ -59,6 +59,7 @@ type CharacterRecord struct {
 	AnimalKey        string               `json:"animal_key"`
 	Birthday         BirthdayRecord       `json:"birthday"`
 	Code             string               `json:"code,omitempty"`
+	FirstGame        *GameRecord          `json:"first_game,omitempty"`
 	FirstReleaseDate *ReleaseDateRecord   `json:"first_release_date,omitempty"`
 	GameCategories   []GameCategoryRecord `json:"game_categories"`
 	GamePlatforms    []PlatformRecord     `json:"game_platforms"`
@@ -68,6 +69,7 @@ type CharacterRecord struct {
 	GenderKey        string               `json:"gender_key"`
 	ID               string               `json:"id"`
 	Key              string               `json:"key"`
+	LastGame         *GameRecord          `json:"last_game,omitempty"`
 	LastReleaseDate  *ReleaseDateRecord   `json:"last_release_date,omitempty"`
 	Name             LocalizedValues      `json:"name"`
 	Special          bool                 `json:"special"`
@@ -92,6 +94,15 @@ func gameRecordsOf(games []nook.Game) []GameRecord {
 		records = append(records, GameRecordOf(game))
 	}
 	return records
+}
+
+func gameRecordPointerOf(game nook.Game, ok bool) *GameRecord {
+	if !ok {
+		return nil
+	}
+
+	record := GameRecordOf(game)
+	return &record
 }
 
 func gameCategoryRecordOf(category nook.GameCategory) GameCategoryRecord {
@@ -202,6 +213,7 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 			Month: uint8(character.Birthday.Month),
 		},
 		Code:             character.Code.Value,
+		FirstGame:        gameRecordPointerOf(character.FirstGame()),
 		FirstReleaseDate: releaseDateRecordPointerOf(character.FirstReleaseDate()),
 		GameCategories:   gameCategoryRecordsOf(character.GameCategories()),
 		GamePlatforms:    platformRecordsOf(character.GamePlatforms()),
@@ -211,6 +223,7 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 		GenderKey:        string(character.Gender.Key),
 		ID:               string(character.ID()),
 		Key:              string(character.Key),
+		LastGame:         gameRecordPointerOf(character.LastGame()),
 		LastReleaseDate:  releaseDateRecordPointerOf(character.LastReleaseDate()),
 		Name:             LocalizedValuesOf(character.Name),
 		Special:          character.Special,

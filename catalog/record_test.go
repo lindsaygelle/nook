@@ -83,6 +83,12 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.Name[language.AmericanEnglish.String()] != "Ankha" {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Name[en-US] = %s", record.Name[language.AmericanEnglish.String()])
 	}
+	if record.FirstGame == nil {
+		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).FirstGame unexpectedly nil")
+	}
+	if record.FirstGame.Key != string(game.DoubutsuNoMoriPlus.Key) {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).FirstGame.Key = %s", record.FirstGame.Key)
+	}
 	if record.FirstReleaseDate == nil {
 		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).FirstReleaseDate unexpectedly nil")
 	}
@@ -116,6 +122,12 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.Games[len(record.Games)-1].Key != string(game.NewHorizons.Key) {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Games[last].Key = %s", record.Games[len(record.Games)-1].Key)
 	}
+	if record.LastGame == nil {
+		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).LastGame unexpectedly nil")
+	}
+	if record.LastGame.Key != string(game.NewHorizons.Key) {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).LastGame.Key = %s", record.LastGame.Key)
+	}
 	if record.LastReleaseDate == nil {
 		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).LastReleaseDate unexpectedly nil")
 	}
@@ -127,6 +139,9 @@ func TestCharacterRecordOf(t *testing.T) {
 func TestCharacterRecordOfWithoutReleaseDates(t *testing.T) {
 	record := catalog.CharacterRecordOf(squirrel.Shaki.Character)
 
+	if record.FirstGame != nil {
+		t.Fatalf("catalog.CharacterRecordOf(squirrel.Shaki).FirstGame = %#v", record.FirstGame)
+	}
 	if record.FirstReleaseDate != nil {
 		t.Fatalf("catalog.CharacterRecordOf(squirrel.Shaki).FirstReleaseDate = %#v", record.FirstReleaseDate)
 	}
@@ -138,6 +153,9 @@ func TestCharacterRecordOfWithoutReleaseDates(t *testing.T) {
 	}
 	if len(record.GameRegions) != 0 {
 		t.Fatalf("len(catalog.CharacterRecordOf(squirrel.Shaki).GameRegions) = %d", len(record.GameRegions))
+	}
+	if record.LastGame != nil {
+		t.Fatalf("catalog.CharacterRecordOf(squirrel.Shaki).LastGame = %#v", record.LastGame)
 	}
 	if record.LastReleaseDate != nil {
 		t.Fatalf("catalog.CharacterRecordOf(squirrel.Shaki).LastReleaseDate = %#v", record.LastReleaseDate)
