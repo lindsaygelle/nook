@@ -81,6 +81,12 @@ func TestCharacterRecordOf(t *testing.T) {
 	if record.Birthday.Day != 22 || record.Birthday.Month != 9 {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Birthday = %#v", record.Birthday)
 	}
+	if record.ZodiacSign == nil {
+		t.Fatal("catalog.CharacterRecordOf(cat.Ankha).ZodiacSign unexpectedly nil")
+	}
+	if record.ZodiacSign.Key != "Virgo" {
+		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).ZodiacSign.Key = %s", record.ZodiacSign.Key)
+	}
 	if record.Name[language.AmericanEnglish.String()] != "Ankha" {
 		t.Fatalf("catalog.CharacterRecordOf(cat.Ankha).Name[en-US] = %s", record.Name[language.AmericanEnglish.String()])
 	}
@@ -386,6 +392,37 @@ func TestResidentRecordsByGameRegion(t *testing.T) {
 	}
 }
 
+func TestResidentRecordsByZodiacSign(t *testing.T) {
+	records := catalog.ResidentRecordsByZodiacSign("Sagittarius")
+	if len(records) == 0 {
+		t.Fatal("catalog.ResidentRecordsByZodiacSign(Sagittarius) returned no records")
+	}
+
+	foundIsabelle := false
+	for i, record := range records {
+		if record.ZodiacSign == nil || record.ZodiacSign.Key != "Sagittarius" {
+			t.Fatalf("catalog.ResidentRecordsByZodiacSign(Sagittarius)[%d].ZodiacSign = %#v", i, record.ZodiacSign)
+		}
+		if record.ID == "Dog:Isabelle" {
+			foundIsabelle = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.ResidentRecordsByZodiacSign(Sagittarius)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.ResidentRecordsByZodiacSign(Sagittarius)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundIsabelle {
+		t.Fatal("catalog.ResidentRecordsByZodiacSign(Sagittarius) missing Isabelle")
+	}
+}
+
 func TestResidentRecordsByRole(t *testing.T) {
 	records := catalog.ResidentRecordsByRole(role.Proprietor.Key)
 	if len(records) == 0 {
@@ -684,6 +721,37 @@ func TestVillagerRecordsByGameRegion(t *testing.T) {
 	}
 }
 
+func TestVillagerRecordsByZodiacSign(t *testing.T) {
+	records := catalog.VillagerRecordsByZodiacSign("Virgo")
+	if len(records) == 0 {
+		t.Fatal("catalog.VillagerRecordsByZodiacSign(Virgo) returned no records")
+	}
+
+	foundAnkha := false
+	for i, record := range records {
+		if record.ZodiacSign == nil || record.ZodiacSign.Key != "Virgo" {
+			t.Fatalf("catalog.VillagerRecordsByZodiacSign(Virgo)[%d].ZodiacSign = %#v", i, record.ZodiacSign)
+		}
+		if record.ID == "Cat:Ankha" {
+			foundAnkha = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.VillagerRecordsByZodiacSign(Virgo)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.VillagerRecordsByZodiacSign(Virgo)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundAnkha {
+		t.Fatal("catalog.VillagerRecordsByZodiacSign(Virgo) missing Ankha")
+	}
+}
+
 func TestVillagerRecordsByGender(t *testing.T) {
 	records := catalog.VillagerRecordsByGender(gender.Male.Key)
 	if len(records) == 0 {
@@ -755,6 +823,9 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	if records := catalog.ResidentRecordsByGameRegion(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByGameRegion(\"\")) = %d", len(records))
 	}
+	if records := catalog.ResidentRecordsByZodiacSign(""); len(records) != 0 {
+		t.Fatalf("len(catalog.ResidentRecordsByZodiacSign(\"\")) = %d", len(records))
+	}
 	if records := catalog.ResidentRecordsByRole(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByRole(\"\")) = %d", len(records))
 	}
@@ -775,6 +846,9 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	}
 	if records := catalog.VillagerRecordsByGameRegion(""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByGameRegion(\"\")) = %d", len(records))
+	}
+	if records := catalog.VillagerRecordsByZodiacSign(""); len(records) != 0 {
+		t.Fatalf("len(catalog.VillagerRecordsByZodiacSign(\"\")) = %d", len(records))
 	}
 	if records := catalog.VillagerRecordsByGender(""); len(records) != 0 {
 		t.Fatalf("len(catalog.VillagerRecordsByGender(\"\")) = %d", len(records))
