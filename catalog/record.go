@@ -44,6 +44,12 @@ type RegionRecord struct {
 	Name LocalizedValues `json:"name"`
 }
 
+// RoleRecord is a transport-friendly resident role representation.
+type RoleRecord struct {
+	Key  string          `json:"key"`
+	Name LocalizedValues `json:"name"`
+}
+
 // GameRecord is a transport-friendly game representation.
 type GameRecord struct {
 	Category     GameCategoryRecord  `json:"category"`
@@ -78,6 +84,7 @@ type CharacterRecord struct {
 // ResidentRecord is an API-facing representation of a resident.
 type ResidentRecord struct {
 	CharacterRecord
+	Roles []RoleRecord `json:"roles"`
 }
 
 // VillagerRecord is an API-facing representation of a villager.
@@ -146,6 +153,21 @@ func regionRecordsOf(regions []nook.Region) []RegionRecord {
 	records := make([]RegionRecord, 0, len(regions))
 	for _, region := range regions {
 		records = append(records, regionRecordOf(region))
+	}
+	return records
+}
+
+func roleRecordOf(role nook.Role) RoleRecord {
+	return RoleRecord{
+		Key:  string(role.Key),
+		Name: LocalizedValuesOf(role.Name),
+	}
+}
+
+func roleRecordsOf(roles []nook.Role) []RoleRecord {
+	records := make([]RoleRecord, 0, len(roles))
+	for _, role := range roles {
+		records = append(records, roleRecordOf(role))
 	}
 	return records
 }
@@ -234,6 +256,7 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 func ResidentRecordOf(resident nook.Resident) ResidentRecord {
 	return ResidentRecord{
 		CharacterRecord: CharacterRecordOf(resident.Character),
+		Roles:           roleRecordsOf(resident.Roles),
 	}
 }
 
@@ -336,6 +359,17 @@ func ResidentRecordsByGamePlatform(platformKey nook.Key) []ResidentRecord {
 // and then character key.
 func ResidentRecordsByGameRegion(regionKey nook.Key) []ResidentRecord {
 	residents := ResidentsByGameRegion(regionKey)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
+// ResidentRecordsByRole returns all residents that have the provided special-
+// character role. Results are ordered by animal key and then character key.
+func ResidentRecordsByRole(roleKey nook.Key) []ResidentRecord {
+	residents := ResidentsByRole(roleKey)
 	records := make([]ResidentRecord, 0, len(residents))
 	for _, resident := range residents {
 		records = append(records, ResidentRecordOf(resident))

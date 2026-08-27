@@ -18,6 +18,7 @@ import (
 	"github.com/lindsaygelle/nook/personality"
 	"github.com/lindsaygelle/nook/platform"
 	"github.com/lindsaygelle/nook/region"
+	"github.com/lindsaygelle/nook/role"
 	"golang.org/x/text/language"
 )
 
@@ -196,6 +197,12 @@ func TestResidentRecordOf(t *testing.T) {
 	}
 	if len(record.Games) == 0 {
 		t.Fatal("catalog.ResidentRecordOf(raccoon.TomNook).Games returned no games")
+	}
+	if len(record.Roles) != 1 {
+		t.Fatalf("len(catalog.ResidentRecordOf(raccoon.TomNook).Roles) = %d", len(record.Roles))
+	}
+	if record.Roles[0].Key != string(role.Proprietor.Key) {
+		t.Fatalf("catalog.ResidentRecordOf(raccoon.TomNook).Roles[0].Key = %s", record.Roles[0].Key)
 	}
 }
 
@@ -376,6 +383,44 @@ func TestResidentRecordsByGameRegion(t *testing.T) {
 	}
 	if !foundIsabelle {
 		t.Fatal("catalog.ResidentRecordsByGameRegion(Worldwide) missing Isabelle")
+	}
+}
+
+func TestResidentRecordsByRole(t *testing.T) {
+	records := catalog.ResidentRecordsByRole(role.Proprietor.Key)
+	if len(records) == 0 {
+		t.Fatal("catalog.ResidentRecordsByRole(Proprietor) returned no records")
+	}
+
+	foundTomNook := false
+	for i, record := range records {
+		hasRole := false
+		for _, residentRole := range record.Roles {
+			if residentRole.Key == string(role.Proprietor.Key) {
+				hasRole = true
+				break
+			}
+		}
+		if !hasRole {
+			t.Fatalf("catalog.ResidentRecordsByRole(Proprietor)[%d] missing proprietor role", i)
+		}
+		if record.ID == "Raccoon:TomNook" {
+			foundTomNook = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := records[i-1]
+		if record.AnimalKey < prev.AnimalKey {
+			t.Fatalf("catalog.ResidentRecordsByRole(Proprietor)[%d] not sorted by animal key", i)
+		}
+		if record.AnimalKey == prev.AnimalKey && record.Key < prev.Key {
+			t.Fatalf("catalog.ResidentRecordsByRole(Proprietor)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundTomNook {
+		t.Fatal("catalog.ResidentRecordsByRole(Proprietor) missing Tom Nook")
 	}
 }
 
@@ -709,6 +754,9 @@ func TestRecordHelpersMissingAnimalBucket(t *testing.T) {
 	}
 	if records := catalog.ResidentRecordsByGameRegion(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByGameRegion(\"\")) = %d", len(records))
+	}
+	if records := catalog.ResidentRecordsByRole(""); len(records) != 0 {
+		t.Fatalf("len(catalog.ResidentRecordsByRole(\"\")) = %d", len(records))
 	}
 	if records := catalog.ResidentRecordsByGender(""); len(records) != 0 {
 		t.Fatalf("len(catalog.ResidentRecordsByGender(\"\")) = %d", len(records))
