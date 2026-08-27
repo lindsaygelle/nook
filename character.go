@@ -171,6 +171,24 @@ func (c Character) GamesByPlatform(platformKey Key) []Game {
 	return games
 }
 
+// GamesByRegion returns the character's game appearances with a release in the
+// provided region sorted into deterministic release order.
+func (c Character) GamesByRegion(regionKey Key) []Game {
+	if regionKey == "" {
+		return nil
+	}
+
+	games := make([]Game, 0)
+	for _, game := range c.GamesByReleaseOrder() {
+		if _, ok := game.ReleaseDateByRegion(regionKey); !ok {
+			continue
+		}
+		games = append(games, game)
+	}
+
+	return games
+}
+
 // GameCategories returns the unique game categories represented across the
 // character's known game appearances in deterministic key order.
 func (c Character) GameCategories() []GameCategory {

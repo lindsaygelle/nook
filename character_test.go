@@ -164,6 +164,30 @@ func TestCharacterGamesByPlatform(t *testing.T) {
 	}
 }
 
+func TestCharacterGamesByRegion(t *testing.T) {
+	games := dogcharacters.Isabelle.Character.GamesByRegion(region.Japan.Key)
+	if len(games) != 3 {
+		t.Fatalf("len(%s.GamesByRegion(%s)) = %d", dogcharacters.Isabelle.Key, region.Japan.Key, len(games))
+	}
+	if games[0].Key != game.NewLeaf.Key {
+		t.Fatalf("%s.GamesByRegion(%s)[0].Key = %s", dogcharacters.Isabelle.Key, region.Japan.Key, games[0].Key)
+	}
+	if games[len(games)-1].Key != game.AmiiboFestival.Key {
+		t.Fatalf("%s.GamesByRegion(%s)[last].Key = %s", dogcharacters.Isabelle.Key, region.Japan.Key, games[len(games)-1].Key)
+	}
+
+	games = dogcharacters.Isabelle.Character.GamesByRegion(region.Worldwide.Key)
+	if len(games) != 2 {
+		t.Fatalf("len(%s.GamesByRegion(%s)) = %d", dogcharacters.Isabelle.Key, region.Worldwide.Key, len(games))
+	}
+	if games[0].Key != game.PocketCamp.Key {
+		t.Fatalf("%s.GamesByRegion(%s)[0].Key = %s", dogcharacters.Isabelle.Key, region.Worldwide.Key, games[0].Key)
+	}
+	if games[len(games)-1].Key != game.NewHorizons.Key {
+		t.Fatalf("%s.GamesByRegion(%s)[last].Key = %s", dogcharacters.Isabelle.Key, region.Worldwide.Key, games[len(games)-1].Key)
+	}
+}
+
 func TestCharacterGameCategories(t *testing.T) {
 	categories := dogcharacters.Isabelle.Character.GameCategories()
 	if len(categories) != 3 {
@@ -276,6 +300,9 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if len(squirrelcharacters.Shaki.Character.GamesByPlatform(platform.NintendoSwitch.Key)) != 0 {
 		t.Fatalf("len(%s.GamesByPlatform(%s)) = %d", squirrelcharacters.Shaki.Key, platform.NintendoSwitch.Key, len(squirrelcharacters.Shaki.Character.GamesByPlatform(platform.NintendoSwitch.Key)))
+	}
+	if len(squirrelcharacters.Shaki.Character.GamesByRegion(region.Worldwide.Key)) != 0 {
+		t.Fatalf("len(%s.GamesByRegion(%s)) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, len(squirrelcharacters.Shaki.Character.GamesByRegion(region.Worldwide.Key)))
 	}
 	if len(squirrelcharacters.Shaki.Character.GamePlatforms()) != 0 {
 		t.Fatalf("len(%s.GamePlatforms()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GamePlatforms()))
