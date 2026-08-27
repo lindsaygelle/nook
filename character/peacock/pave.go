@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// paveRoles represents pave roles.
+	paveRoles = []nook.Role{
+		role.HolidayVisitor}
 )
 
 var (
@@ -138,5 +145,6 @@ var (
 var (
 	// Pave represents pave.
 	Pave = nook.Resident{
-		Character: paveCharacter}
+		Character: paveCharacter,
+		Roles:     paveRoles}
 )

@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// celesteRoles represents celeste roles.
+	celesteRoles = []nook.Role{
+		role.Government}
 )
 
 var (
@@ -139,5 +146,6 @@ var (
 var (
 	// Celeste represents celeste.
 	Celeste = nook.Resident{
-		Character: celesteCharacter}
+		Character: celesteCharacter,
+		Roles:     celesteRoles}
 )

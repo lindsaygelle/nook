@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// kksliderRoles represents kk slider roles.
+	kksliderRoles = []nook.Role{
+		role.RegularVisitor}
 )
 
 var (
@@ -144,5 +151,6 @@ var (
 var (
 	// KKSlider represents k k slider.
 	KKSlider = nook.Resident{
-		Character: kksliderCharacter}
+		Character: kksliderCharacter,
+		Roles:     kksliderRoles}
 )

@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// joanRoles represents joan roles.
+	joanRoles = []nook.Role{
+		role.RegularVisitor}
 )
 
 var (
@@ -143,5 +150,6 @@ var (
 var (
 	// Joan represents joan.
 	Joan = nook.Resident{
-		Character: joanCharacter}
+		Character: joanCharacter,
+		Roles:     joanRoles}
 )

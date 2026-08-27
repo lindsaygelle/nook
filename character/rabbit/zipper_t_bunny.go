@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// zippertbunnyRoles represents zipper t bunny roles.
+	zippertbunnyRoles = []nook.Role{
+		role.HolidayVisitor}
 )
 
 var (
@@ -138,5 +145,6 @@ var (
 var (
 	// ZipperTBunny represents zipper t bunny.
 	ZipperTBunny = nook.Resident{
-		Character: zippertbunnyCharacter}
+		Character: zippertbunnyCharacter,
+		Roles:     zippertbunnyRoles}
 )
