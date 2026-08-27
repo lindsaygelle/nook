@@ -11,5 +11,6 @@ var (
 		character.Grams:   Grams,
 		character.Kappn:   Kappn,
 		character.Leila:   Leila,
-		character.Leilani: Leilani}
+		character.Leilani: Leilani,
+	}
 )

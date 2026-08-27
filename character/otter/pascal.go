@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// pascalRoles represents pascal roles.
+	pascalRoles = []nook.Role{
+		role.RegularVisitor}
 )
 
 var (
@@ -139,5 +146,6 @@ var (
 var (
 	// Pascal represents pascal.
 	Pascal = nook.Resident{
-		Character: pascalCharacter}
+		Character: pascalCharacter,
+		Roles:     pascalRoles}
 )

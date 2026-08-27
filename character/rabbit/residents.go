@@ -8,5 +8,6 @@ import (
 var (
 	// Residents represents residents.
 	Residents = nook.Residents{
-		character.ZipperTBunny: ZipperTBunny}
+		character.ZipperTBunny: ZipperTBunny,
+	}
 )

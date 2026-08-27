@@ -8,8 +8,16 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// tortimerRoles represents tortimer roles.
+	tortimerRoles = []nook.Role{
+		role.Government,
+		role.Islander}
 )
 
 var (
@@ -142,5 +150,6 @@ var (
 var (
 	// Tortimer represents tortimer.
 	Tortimer = nook.Resident{
-		Character: tortimerCharacter}
+		Character: tortimerCharacter,
+		Roles:     tortimerRoles}
 )

@@ -7,8 +7,15 @@ import (
 	"github.com/lindsaygelle/nook/animal"
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// shakiRoles represents shaki roles.
+	shakiRoles = []nook.Role{
+		role.Unused}
 )
 
 var (
@@ -130,5 +137,6 @@ var (
 var (
 	// Shaki represents shaki.
 	Shaki = nook.Resident{
-		Character: shakiCharacter}
+		Character: shakiCharacter,
+		Roles:     shakiRoles}
 )

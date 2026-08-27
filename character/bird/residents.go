@@ -10,5 +10,6 @@ var (
 	Residents = nook.Residents{
 		character.Beppe:    Beppe,
 		character.Carlo:    Carlo,
-		character.Giovanni: Giovanni}
+		character.Giovanni: Giovanni,
+	}
 )

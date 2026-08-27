@@ -15,5 +15,6 @@ var (
 		character.Harvey:   Harvey,
 		character.Isabelle: Isabelle,
 		character.KKSlider: KKSlider,
-		character.Serena:   Serena}
+		character.Serena:   Serena,
+	}
 )

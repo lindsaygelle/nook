@@ -8,8 +8,15 @@ import (
 	"github.com/lindsaygelle/nook/character"
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gender"
+	"github.com/lindsaygelle/nook/role"
 
 	"golang.org/x/text/language"
+)
+
+var (
+	// reddRoles represents redd roles.
+	reddRoles = []nook.Role{
+		role.Proprietor}
 )
 
 var (
@@ -144,5 +151,6 @@ var (
 var (
 	// Redd represents redd.
 	Redd = nook.Resident{
-		Character: reddCharacter}
+		Character: reddCharacter,
+		Roles:     reddRoles}
 )

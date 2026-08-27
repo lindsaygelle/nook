@@ -9,5 +9,6 @@ var (
 	// Residents represents residents.
 	Residents = nook.Residents{
 		character.Cornimer: Cornimer,
-		character.Tortimer: Tortimer}
+		character.Tortimer: Tortimer,
+	}
 )

@@ -11,5 +11,6 @@ var (
 		character.Blanca:  Blanca,
 		character.Kaitlin: Kaitlin,
 		character.Katie:   Katie,
-		character.Rover:   Rover}
+		character.Rover:   Rover,
+	}
 )
