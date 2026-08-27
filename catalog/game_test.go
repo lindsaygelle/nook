@@ -13,6 +13,7 @@ import (
 	"github.com/lindsaygelle/nook/game"
 	"github.com/lindsaygelle/nook/gamecategory"
 	"github.com/lindsaygelle/nook/platform"
+	"github.com/lindsaygelle/nook/region"
 )
 
 func TestCharacterGamesByID(t *testing.T) {
@@ -275,6 +276,44 @@ func TestResidentsByGamePlatformEmptyKey(t *testing.T) {
 	}
 }
 
+func TestResidentsByGameRegion(t *testing.T) {
+	residents := catalog.ResidentsByGameRegion(region.Worldwide.Key)
+	if len(residents) == 0 {
+		t.Fatal("catalog.ResidentsByGameRegion(Worldwide) returned no residents")
+	}
+
+	foundIsabelle := false
+	for i, resident := range residents {
+		if len(resident.Character.GamesByRegion(region.Worldwide.Key)) == 0 {
+			t.Fatalf("catalog.ResidentsByGameRegion(Worldwide)[%d] missing Worldwide release appearance", i)
+		}
+		if resident.Character.Animal.Key == animal.Dog.Key && resident.Character.Key == character.Isabelle {
+			foundIsabelle = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := residents[i-1]
+		if resident.Character.Animal.Key < prev.Character.Animal.Key {
+			t.Fatalf("catalog.ResidentsByGameRegion(Worldwide)[%d] not sorted by animal key", i)
+		}
+		if resident.Character.Animal.Key == prev.Character.Animal.Key && resident.Character.Key < prev.Character.Key {
+			t.Fatalf("catalog.ResidentsByGameRegion(Worldwide)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundIsabelle {
+		t.Fatal("catalog.ResidentsByGameRegion(Worldwide) missing Isabelle")
+	}
+}
+
+func TestResidentsByGameRegionEmptyKey(t *testing.T) {
+	residents := catalog.ResidentsByGameRegion("")
+	if residents != nil {
+		t.Fatalf("catalog.ResidentsByGameRegion(\"\") = %#v", residents)
+	}
+}
+
 func TestVillagersByGame(t *testing.T) {
 	villagers := catalog.VillagersByGame(game.DoubutsuNoMoriPlus.Key)
 	if len(villagers) == 0 {
@@ -386,6 +425,44 @@ func TestVillagersByGamePlatformEmptyKey(t *testing.T) {
 	villagers := catalog.VillagersByGamePlatform("")
 	if villagers != nil {
 		t.Fatalf("catalog.VillagersByGamePlatform(\"\") = %#v", villagers)
+	}
+}
+
+func TestVillagersByGameRegion(t *testing.T) {
+	villagers := catalog.VillagersByGameRegion(region.Worldwide.Key)
+	if len(villagers) == 0 {
+		t.Fatal("catalog.VillagersByGameRegion(Worldwide) returned no villagers")
+	}
+
+	foundAnkha := false
+	for i, villager := range villagers {
+		if len(villager.Character.GamesByRegion(region.Worldwide.Key)) == 0 {
+			t.Fatalf("catalog.VillagersByGameRegion(Worldwide)[%d] missing Worldwide release appearance", i)
+		}
+		if villager.Character.Animal.Key == animal.Cat.Key && villager.Character.Key == character.Ankha {
+			foundAnkha = true
+		}
+		if i == 0 {
+			continue
+		}
+
+		prev := villagers[i-1]
+		if villager.Character.Animal.Key < prev.Character.Animal.Key {
+			t.Fatalf("catalog.VillagersByGameRegion(Worldwide)[%d] not sorted by animal key", i)
+		}
+		if villager.Character.Animal.Key == prev.Character.Animal.Key && villager.Character.Key < prev.Character.Key {
+			t.Fatalf("catalog.VillagersByGameRegion(Worldwide)[%d] not sorted by character key", i)
+		}
+	}
+	if !foundAnkha {
+		t.Fatal("catalog.VillagersByGameRegion(Worldwide) missing Ankha")
+	}
+}
+
+func TestVillagersByGameRegionEmptyKey(t *testing.T) {
+	villagers := catalog.VillagersByGameRegion("")
+	if villagers != nil {
+		t.Fatalf("catalog.VillagersByGameRegion(\"\") = %#v", villagers)
 	}
 }
 
