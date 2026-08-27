@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
-	"github.com/lindsaygelle/nook/zodiacsign"
+	"github.com/lindsaygelle/nook/zodiac"
 	"golang.org/x/text/language"
 )
 
@@ -185,7 +185,7 @@ func zodiacSignRecordPointerOf(zodiacSignKey nook.Key, ok bool) *ZodiacSignRecor
 		return nil
 	}
 
-	zodiacSign, ok := zodiacsign.ByKey(zodiacSignKey)
+	zodiacSign, ok := zodiac.ByKey(zodiacSignKey)
 	if !ok {
 		return nil
 	}

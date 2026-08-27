@@ -1,4 +1,4 @@
-package zodiacsign
+package zodiac
 
 import (
 	"github.com/lindsaygelle/nook"
