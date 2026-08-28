@@ -164,6 +164,23 @@ func TestCharacterGamesByPlatform(t *testing.T) {
 	}
 }
 
+func TestCharacterZodiacSignKey(t *testing.T) {
+	got, ok := catcharacters.Ankha.Character.ZodiacSignKey()
+	if !ok {
+		t.Fatalf("%s.ZodiacSignKey() not found", catcharacters.Ankha.Key)
+	}
+	if got != "Virgo" {
+		t.Fatalf("%s.ZodiacSignKey() = %s", catcharacters.Ankha.Key, got)
+	}
+
+	if !dogcharacters.Isabelle.Character.HasZodiacSign("Sagittarius") {
+		t.Fatalf("%s.HasZodiacSign(Sagittarius) = false", dogcharacters.Isabelle.Key)
+	}
+	if dogcharacters.Isabelle.Character.HasZodiacSign("Capricorn") {
+		t.Fatalf("%s.HasZodiacSign(Capricorn) = true", dogcharacters.Isabelle.Key)
+	}
+}
+
 func TestCharacterGamesByRegion(t *testing.T) {
 	games := dogcharacters.Isabelle.Character.GamesByRegion(region.Japan.Key)
 	if len(games) != 3 {
@@ -303,6 +320,9 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if len(squirrelcharacters.Shaki.Character.GamesByRegion(region.Worldwide.Key)) != 0 {
 		t.Fatalf("len(%s.GamesByRegion(%s)) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, len(squirrelcharacters.Shaki.Character.GamesByRegion(region.Worldwide.Key)))
+	}
+	if _, ok := (nook.Character{}).ZodiacSignKey(); ok {
+		t.Fatal("Character{}.ZodiacSignKey() unexpectedly found a zodiac sign")
 	}
 	if len(squirrelcharacters.Shaki.Character.GamePlatforms()) != 0 {
 		t.Fatalf("len(%s.GamePlatforms()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GamePlatforms()))

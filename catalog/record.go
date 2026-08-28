@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lindsaygelle/nook"
+	"github.com/lindsaygelle/nook/zodiac"
 	"golang.org/x/text/language"
 )
 
@@ -50,6 +51,12 @@ type RoleRecord struct {
 	Name LocalizedValues `json:"name"`
 }
 
+// ZodiacSignRecord is a transport-friendly zodiac sign representation.
+type ZodiacSignRecord struct {
+	Key  string          `json:"key"`
+	Name LocalizedValues `json:"name"`
+}
+
 // GameRecord is a transport-friendly game representation.
 type GameRecord struct {
 	Category     GameCategoryRecord  `json:"category"`
@@ -79,6 +86,7 @@ type CharacterRecord struct {
 	LastReleaseDate  *ReleaseDateRecord   `json:"last_release_date,omitempty"`
 	Name             LocalizedValues      `json:"name"`
 	Special          bool                 `json:"special"`
+	ZodiacSign       *ZodiacSignRecord    `json:"zodiac_sign,omitempty"`
 }
 
 // ResidentRecord is an API-facing representation of a resident.
@@ -172,6 +180,22 @@ func roleRecordsOf(roles []nook.Role) []RoleRecord {
 	return records
 }
 
+func zodiacSignRecordPointerOf(zodiacSignKey nook.Key, ok bool) *ZodiacSignRecord {
+	if !ok {
+		return nil
+	}
+
+	zodiacSign, ok := zodiac.ByKey(zodiacSignKey)
+	if !ok {
+		return nil
+	}
+
+	return &ZodiacSignRecord{
+		Key:  string(zodiacSign.Key),
+		Name: LocalizedValuesOf(zodiacSign.Name),
+	}
+}
+
 func releaseDateRecordOf(releaseDate nook.ReleaseDate) ReleaseDateRecord {
 	return ReleaseDateRecord{
 		Day:       releaseDate.Day,
@@ -249,6 +273,7 @@ func CharacterRecordOf(character nook.Character) CharacterRecord {
 		LastReleaseDate:  releaseDateRecordPointerOf(character.LastReleaseDate()),
 		Name:             LocalizedValuesOf(character.Name),
 		Special:          character.Special,
+		ZodiacSign:       zodiacSignRecordPointerOf(character.ZodiacSignKey()),
 	}
 }
 
@@ -370,6 +395,17 @@ func ResidentRecordsByGameRegion(regionKey nook.Key) []ResidentRecord {
 // character role. Results are ordered by animal key and then character key.
 func ResidentRecordsByRole(roleKey nook.Key) []ResidentRecord {
 	residents := ResidentsByRole(roleKey)
+	records := make([]ResidentRecord, 0, len(residents))
+	for _, resident := range residents {
+		records = append(records, ResidentRecordOf(resident))
+	}
+	return records
+}
+
+// ResidentRecordsByZodiacSign returns all residents with the provided zodiac
+// sign. Results are ordered by animal key and then character key.
+func ResidentRecordsByZodiacSign(zodiacSignKey nook.Key) []ResidentRecord {
+	residents := ResidentsByZodiacSign(zodiacSignKey)
 	records := make([]ResidentRecord, 0, len(residents))
 	for _, resident := range residents {
 		records = append(records, ResidentRecordOf(resident))
@@ -499,6 +535,17 @@ func VillagerRecordsByGamePlatform(platformKey nook.Key) []VillagerRecord {
 // and then character key.
 func VillagerRecordsByGameRegion(regionKey nook.Key) []VillagerRecord {
 	villagers := VillagersByGameRegion(regionKey)
+	records := make([]VillagerRecord, 0, len(villagers))
+	for _, villager := range villagers {
+		records = append(records, VillagerRecordOf(villager))
+	}
+	return records
+}
+
+// VillagerRecordsByZodiacSign returns all villagers with the provided zodiac
+// sign. Results are ordered by animal key and then character key.
+func VillagerRecordsByZodiacSign(zodiacSignKey nook.Key) []VillagerRecord {
+	villagers := VillagersByZodiacSign(zodiacSignKey)
 	records := make([]VillagerRecord, 0, len(villagers))
 	for _, villager := range villagers {
 		records = append(records, VillagerRecordOf(villager))

@@ -135,6 +135,16 @@ func (c Character) GameByKey(gameKey Key) (Game, bool) {
 	return Game{}, false
 }
 
+// HasZodiacSign reports whether the character has the provided zodiac sign.
+func (c Character) HasZodiacSign(zodiacSignKey Key) bool {
+	if zodiacSignKey == "" {
+		return false
+	}
+
+	key, ok := c.ZodiacSignKey()
+	return ok && key == zodiacSignKey
+}
+
 // GamesByCategory returns the character's game appearances within the provided
 // category sorted into deterministic release order.
 func (c Character) GamesByCategory(categoryKey Key) []Game {
@@ -318,4 +328,10 @@ func (c Character) LastReleaseDate() (ReleaseDate, bool) {
 		return ReleaseDate{}, false
 	}
 	return game.LastReleaseDate()
+}
+
+// ZodiacSignKey returns the zodiac sign key derived from the character
+// birthday.
+func (c Character) ZodiacSignKey() (Key, bool) {
+	return c.Birthday.ZodiacSignKey()
 }
