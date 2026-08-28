@@ -1,5 +1,7 @@
 package nook
 
+import "slices"
+
 // Game represents a game in the Animal Crossing series.
 type Game struct {
 	// Category describes the game's series classification.
@@ -88,4 +90,33 @@ func (g Game) ReleaseDateByRegion(regionKey Key) (ReleaseDate, bool) {
 	}
 
 	return ReleaseDate{}, false
+}
+
+// ReleaseRegions returns the unique release regions represented in the game's
+// regional release history in deterministic key order.
+func (g Game) ReleaseRegions() []Region {
+	index := make(map[Key]Region, len(g.ReleaseDates))
+
+	for _, releaseDate := range g.ReleaseDates {
+		if releaseDate.Region.Key == "" {
+			continue
+		}
+
+		index[releaseDate.Region.Key] = releaseDate.Region
+	}
+
+	regions := make([]Region, 0, len(index))
+	for _, region := range index {
+		regions = append(regions, region)
+	}
+
+	slices.SortFunc(regions, compareRegionsByKey)
+	return regions
+}
+
+// ReleasedInRegion reports whether the game has a release date for the
+// provided region.
+func (g Game) ReleasedInRegion(regionKey Key) bool {
+	_, ok := g.ReleaseDateByRegion(regionKey)
+	return ok
 }

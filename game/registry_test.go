@@ -112,6 +112,35 @@ func TestReleaseDateByRegionMissing(t *testing.T) {
 	}
 }
 
+func TestReleaseRegions(t *testing.T) {
+	regions := game.NewLeaf.ReleaseRegions()
+	if len(regions) != 4 {
+		t.Fatalf("len(game.NewLeaf.ReleaseRegions()) = %d", len(regions))
+	}
+	if regions[0].Key != region.Australia.Key {
+		t.Fatalf("game.NewLeaf.ReleaseRegions()[0].Key = %s", regions[0].Key)
+	}
+	if regions[len(regions)-1].Key != region.NorthAmerica.Key {
+		t.Fatalf("game.NewLeaf.ReleaseRegions()[last].Key = %s", regions[len(regions)-1].Key)
+	}
+
+	regions[0] = region.Worldwide
+
+	fresh := game.NewLeaf.ReleaseRegions()
+	if fresh[0].Key != region.Australia.Key {
+		t.Fatalf("game.NewLeaf.ReleaseRegions()[0].Key after mutation = %s", fresh[0].Key)
+	}
+}
+
+func TestReleasedInRegion(t *testing.T) {
+	if !game.NewHorizons.ReleasedInRegion(region.Worldwide.Key) {
+		t.Fatalf("game.NewHorizons.ReleasedInRegion(%s) = false", region.Worldwide.Key)
+	}
+	if game.NewHorizons.ReleasedInRegion(region.Japan.Key) {
+		t.Fatalf("game.NewHorizons.ReleasedInRegion(%s) = true", region.Japan.Key)
+	}
+}
+
 func TestOnPlatform(t *testing.T) {
 	if !game.NewHorizons.OnPlatform(platform.NintendoSwitch.Key) {
 		t.Fatalf("game.NewHorizons.OnPlatform(%s) = false", platform.NintendoSwitch.Key)

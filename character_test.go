@@ -90,6 +90,24 @@ func TestCharacterFirstAndLastGame(t *testing.T) {
 	}
 }
 
+func TestCharacterFirstAndLastGameByRegion(t *testing.T) {
+	first, ok := dogcharacters.Isabelle.Character.FirstGameByRegion(region.Japan.Key)
+	if !ok {
+		t.Fatalf("%s.FirstGameByRegion(%s) not found", dogcharacters.Isabelle.Key, region.Japan.Key)
+	}
+	if first.Key != game.NewLeaf.Key {
+		t.Fatalf("%s.FirstGameByRegion(%s).Key = %s", dogcharacters.Isabelle.Key, region.Japan.Key, first.Key)
+	}
+
+	last, ok := dogcharacters.Isabelle.Character.LastGameByRegion(region.Worldwide.Key)
+	if !ok {
+		t.Fatalf("%s.LastGameByRegion(%s) not found", dogcharacters.Isabelle.Key, region.Worldwide.Key)
+	}
+	if last.Key != game.NewHorizons.Key {
+		t.Fatalf("%s.LastGameByRegion(%s).Key = %s", dogcharacters.Isabelle.Key, region.Worldwide.Key, last.Key)
+	}
+}
+
 func TestCharacterFirstAndLastReleaseDate(t *testing.T) {
 	first, ok := catcharacters.Ankha.Character.FirstReleaseDate()
 	if !ok {
@@ -105,6 +123,24 @@ func TestCharacterFirstAndLastReleaseDate(t *testing.T) {
 	}
 	if last.Year != 2020 || last.Month != 3 || last.Day != 20 {
 		t.Fatalf("%s.LastReleaseDate() = %#v", dogcharacters.Isabelle.Key, last)
+	}
+}
+
+func TestCharacterFirstAndLastReleaseDateByRegion(t *testing.T) {
+	first, ok := dogcharacters.Isabelle.Character.FirstReleaseDateByRegion(region.Japan.Key)
+	if !ok {
+		t.Fatalf("%s.FirstReleaseDateByRegion(%s) not found", dogcharacters.Isabelle.Key, region.Japan.Key)
+	}
+	if first.Year != 2012 || first.Month != 11 || first.Day != 8 {
+		t.Fatalf("%s.FirstReleaseDateByRegion(%s) = %#v", dogcharacters.Isabelle.Key, region.Japan.Key, first)
+	}
+
+	last, ok := dogcharacters.Isabelle.Character.LastReleaseDateByRegion(region.Australia.Key)
+	if !ok {
+		t.Fatalf("%s.LastReleaseDateByRegion(%s) not found", dogcharacters.Isabelle.Key, region.Australia.Key)
+	}
+	if last.Year != 2017 || last.Month != 10 || last.Day != 25 {
+		t.Fatalf("%s.LastReleaseDateByRegion(%s) = %#v", dogcharacters.Isabelle.Key, region.Australia.Key, last)
 	}
 }
 
@@ -321,6 +357,15 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if len(squirrelcharacters.Shaki.Character.GamesByRegion(region.Worldwide.Key)) != 0 {
 		t.Fatalf("len(%s.GamesByRegion(%s)) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, len(squirrelcharacters.Shaki.Character.GamesByRegion(region.Worldwide.Key)))
 	}
+	if _, ok := dogcharacters.Isabelle.Character.FirstGameByRegion(""); ok {
+		t.Fatalf("%s.FirstGameByRegion(blank) unexpectedly found a game", dogcharacters.Isabelle.Key)
+	}
+	if _, ok := catcharacters.Ankha.Character.FirstGameByRegion(region.China.Key); ok {
+		t.Fatalf("%s.FirstGameByRegion(%s) unexpectedly found a game", catcharacters.Ankha.Key, region.China.Key)
+	}
+	if _, ok := squirrelcharacters.Shaki.Character.FirstReleaseDateByRegion(region.Worldwide.Key); ok {
+		t.Fatalf("%s.FirstReleaseDateByRegion(%s) unexpectedly found a release date", squirrelcharacters.Shaki.Key, region.Worldwide.Key)
+	}
 	if _, ok := (nook.Character{}).ZodiacSignKey(); ok {
 		t.Fatal("Character{}.ZodiacSignKey() unexpectedly found a zodiac sign")
 	}
@@ -332,5 +377,11 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.LastReleaseDate(); ok {
 		t.Fatalf("%s.LastReleaseDate() unexpectedly found a release date", squirrelcharacters.Shaki.Key)
+	}
+	if _, ok := squirrelcharacters.Shaki.Character.LastGameByRegion(region.Worldwide.Key); ok {
+		t.Fatalf("%s.LastGameByRegion(%s) unexpectedly found a game", squirrelcharacters.Shaki.Key, region.Worldwide.Key)
+	}
+	if _, ok := squirrelcharacters.Shaki.Character.LastReleaseDateByRegion(region.Worldwide.Key); ok {
+		t.Fatalf("%s.LastReleaseDateByRegion(%s) unexpectedly found a release date", squirrelcharacters.Shaki.Key, region.Worldwide.Key)
 	}
 }

@@ -2,6 +2,29 @@ package nook
 
 import "time"
 
+func compareReleaseDates(a, b ReleaseDate) int {
+	switch {
+	case a.Year < b.Year:
+		return -1
+	case a.Year > b.Year:
+		return 1
+	case a.Month < b.Month:
+		return -1
+	case a.Month > b.Month:
+		return 1
+	case a.Day < b.Day:
+		return -1
+	case a.Day > b.Day:
+		return 1
+	case a.Region.Key < b.Region.Key:
+		return -1
+	case a.Region.Key > b.Region.Key:
+		return 1
+	default:
+		return 0
+	}
+}
+
 // ReleaseDate represents a game's release date in a specific region.
 type ReleaseDate struct {
 	// Day is the day of the month when the game released.
@@ -15,6 +38,24 @@ type ReleaseDate struct {
 
 	// Year is the year when the game released.
 	Year uint16
+}
+
+// After reports whether the release date occurs after the provided release
+// date.
+func (r ReleaseDate) After(other ReleaseDate) bool {
+	return r.Compare(other) > 0
+}
+
+// Before reports whether the release date occurs before the provided release
+// date.
+func (r ReleaseDate) Before(other ReleaseDate) bool {
+	return r.Compare(other) < 0
+}
+
+// Compare compares two release dates by year, month, day, and then region key
+// for deterministic ordering.
+func (r ReleaseDate) Compare(other ReleaseDate) int {
+	return compareReleaseDates(r, other)
 }
 
 // Ok returns a boolean indicating whether the ReleaseDate information is
