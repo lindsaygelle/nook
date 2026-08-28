@@ -111,6 +111,16 @@ func (c Character) FirstGame() (Game, bool) {
 	return games[0], true
 }
 
+// FirstGameByRegion returns the earliest known game appearance for the
+// character in the provided release region.
+func (c Character) FirstGameByRegion(regionKey Key) (Game, bool) {
+	games := c.GamesByRegion(regionKey)
+	if len(games) == 0 {
+		return Game{}, false
+	}
+	return games[0], true
+}
+
 // FirstReleaseDate returns the earliest known release date for the character.
 func (c Character) FirstReleaseDate() (ReleaseDate, bool) {
 	game, ok := c.FirstGame()
@@ -118,6 +128,31 @@ func (c Character) FirstReleaseDate() (ReleaseDate, bool) {
 		return ReleaseDate{}, false
 	}
 	return game.FirstReleaseDate()
+}
+
+// FirstReleaseDateByRegion returns the earliest known release date for the
+// character in the provided release region.
+func (c Character) FirstReleaseDateByRegion(regionKey Key) (ReleaseDate, bool) {
+	if regionKey == "" {
+		return ReleaseDate{}, false
+	}
+
+	var first ReleaseDate
+	found := false
+
+	for _, game := range c.Games {
+		releaseDate, ok := game.ReleaseDateByRegion(regionKey)
+		if !ok || !releaseDate.Ok() {
+			continue
+		}
+
+		if !found || releaseDate.Before(first) {
+			first = releaseDate
+			found = true
+		}
+	}
+
+	return first, found
 }
 
 // GameByKey returns the character's game appearance for the provided game key.
@@ -321,6 +356,16 @@ func (c Character) LastGame() (Game, bool) {
 	return games[len(games)-1], true
 }
 
+// LastGameByRegion returns the latest known game appearance for the character
+// in the provided release region.
+func (c Character) LastGameByRegion(regionKey Key) (Game, bool) {
+	games := c.GamesByRegion(regionKey)
+	if len(games) == 0 {
+		return Game{}, false
+	}
+	return games[len(games)-1], true
+}
+
 // LastReleaseDate returns the latest known release date for the character.
 func (c Character) LastReleaseDate() (ReleaseDate, bool) {
 	game, ok := c.LastGame()
@@ -328,6 +373,31 @@ func (c Character) LastReleaseDate() (ReleaseDate, bool) {
 		return ReleaseDate{}, false
 	}
 	return game.LastReleaseDate()
+}
+
+// LastReleaseDateByRegion returns the latest known release date for the
+// character in the provided release region.
+func (c Character) LastReleaseDateByRegion(regionKey Key) (ReleaseDate, bool) {
+	if regionKey == "" {
+		return ReleaseDate{}, false
+	}
+
+	var last ReleaseDate
+	found := false
+
+	for _, game := range c.Games {
+		releaseDate, ok := game.ReleaseDateByRegion(regionKey)
+		if !ok || !releaseDate.Ok() {
+			continue
+		}
+
+		if !found || releaseDate.After(last) {
+			last = releaseDate
+			found = true
+		}
+	}
+
+	return last, found
 }
 
 // ZodiacSignKey returns the zodiac sign key derived from the character
