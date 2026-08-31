@@ -269,6 +269,28 @@ func TestCharacterGameCounts(t *testing.T) {
 	}
 }
 
+func TestCharacterReleaseYears(t *testing.T) {
+	expected := []uint16{2012, 2013, 2015, 2017, 2020}
+	if got := dogcharacters.Isabelle.Character.ReleaseYears(); !reflect.DeepEqual(got, expected) {
+		t.Fatalf("%s.ReleaseYears() = %#v", dogcharacters.Isabelle.Key, got)
+	}
+
+	expected = []uint16{2015}
+	if got := dogcharacters.Isabelle.Character.ReleaseYearsByCategory(gamecategory.Spinoff.Key); !reflect.DeepEqual(got, expected) {
+		t.Fatalf("%s.ReleaseYearsByCategory(%s) = %#v", dogcharacters.Isabelle.Key, gamecategory.Spinoff.Key, got)
+	}
+
+	expected = []uint16{2012, 2013, 2015}
+	if got := dogcharacters.Isabelle.Character.ReleaseYearsByPlatform(platform.Nintendo3DS.Key); !reflect.DeepEqual(got, expected) {
+		t.Fatalf("%s.ReleaseYearsByPlatform(%s) = %#v", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, got)
+	}
+
+	expected = []uint16{2013, 2015, 2017}
+	if got := dogcharacters.Isabelle.Character.ReleaseYearsByRegion(region.Australia.Key); !reflect.DeepEqual(got, expected) {
+		t.Fatalf("%s.ReleaseYearsByRegion(%s) = %#v", dogcharacters.Isabelle.Key, region.Australia.Key, got)
+	}
+}
+
 func TestCharacterGamesByPlatform(t *testing.T) {
 	games := dogcharacters.Isabelle.Character.GamesByPlatform(platform.Nintendo3DS.Key)
 	if len(games) != 2 {
@@ -462,6 +484,9 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if got := squirrelcharacters.Shaki.Character.GameCountByRegion(region.Worldwide.Key); got != 0 {
 		t.Fatalf("%s.GameCountByRegion(%s) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, got)
 	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseYears(); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseYears()) = %d", squirrelcharacters.Shaki.Key, len(got))
+	}
 	if _, ok := squirrelcharacters.Shaki.Character.LastGame(); ok {
 		t.Fatalf("%s.LastGame() unexpectedly found a game", squirrelcharacters.Shaki.Key)
 	}
@@ -489,6 +514,15 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if _, ok := dogcharacters.Isabelle.Character.FirstGameByPlatform(""); ok {
 		t.Fatalf("%s.FirstGameByPlatform(blank) unexpectedly found a game", dogcharacters.Isabelle.Key)
 	}
+	if got := dogcharacters.Isabelle.Character.ReleaseYearsByCategory(""); got != nil {
+		t.Fatalf("%s.ReleaseYearsByCategory(blank) = %#v", dogcharacters.Isabelle.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.ReleaseYearsByPlatform(""); got != nil {
+		t.Fatalf("%s.ReleaseYearsByPlatform(blank) = %#v", dogcharacters.Isabelle.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.ReleaseYearsByRegion(""); got != nil {
+		t.Fatalf("%s.ReleaseYearsByRegion(blank) = %#v", dogcharacters.Isabelle.Key, got)
+	}
 	if _, ok := catcharacters.Ankha.Character.FirstGameByRegion(region.China.Key); ok {
 		t.Fatalf("%s.FirstGameByRegion(%s) unexpectedly found a game", catcharacters.Ankha.Key, region.China.Key)
 	}
@@ -503,6 +537,15 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.FirstReleaseDateByPlatform(platform.NintendoSwitch.Key); ok {
 		t.Fatalf("%s.FirstReleaseDateByPlatform(%s) unexpectedly found a release date", squirrelcharacters.Shaki.Key, platform.NintendoSwitch.Key)
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseYearsByCategory(gamecategory.Mainline.Key); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseYearsByCategory(%s)) = %d", squirrelcharacters.Shaki.Key, gamecategory.Mainline.Key, len(got))
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseYearsByPlatform(platform.NintendoSwitch.Key); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseYearsByPlatform(%s)) = %d", squirrelcharacters.Shaki.Key, platform.NintendoSwitch.Key, len(got))
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseYearsByRegion(region.Worldwide.Key); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseYearsByRegion(%s)) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, len(got))
 	}
 	if _, ok := (nook.Character{}).ZodiacSignKey(); ok {
 		t.Fatal("Character{}.ZodiacSignKey() unexpectedly found a zodiac sign")

@@ -113,6 +113,49 @@ func lastReleaseDateFromGames(games []Game) (ReleaseDate, bool) {
 	return last, found
 }
 
+func releaseYearsFromGames(games []Game) []uint16 {
+	index := make(map[uint16]struct{})
+
+	for _, game := range games {
+		for _, releaseDate := range game.ReleaseDates {
+			if releaseDate.Year == 0 {
+				continue
+			}
+
+			index[releaseDate.Year] = struct{}{}
+		}
+	}
+
+	years := make([]uint16, 0, len(index))
+	for year := range index {
+		years = append(years, year)
+	}
+
+	slices.Sort(years)
+	return years
+}
+
+func releaseYearsFromGamesByRegion(games []Game, regionKey Key) []uint16 {
+	index := make(map[uint16]struct{})
+
+	for _, game := range games {
+		releaseDate, ok := game.ReleaseDateByRegion(regionKey)
+		if !ok || releaseDate.Year == 0 {
+			continue
+		}
+
+		index[releaseDate.Year] = struct{}{}
+	}
+
+	years := make([]uint16, 0, len(index))
+	for year := range index {
+		years = append(years, year)
+	}
+
+	slices.Sort(years)
+	return years
+}
+
 // Character is a composite type that combines various attributes of an Animal Crossing character.
 type Character struct {
 	// Animal represents the animal type of the character.
@@ -256,6 +299,44 @@ func (c Character) GameCountByPlatform(platformKey Key) int {
 // character in games released within the provided region.
 func (c Character) GameCountByRegion(regionKey Key) int {
 	return len(c.GamesByRegion(regionKey))
+}
+
+// ReleaseYears returns the unique release years represented across the
+// character's known regional release history in chronological order.
+func (c Character) ReleaseYears() []uint16 {
+	return releaseYearsFromGames(c.Games)
+}
+
+// ReleaseYearsByCategory returns the unique release years represented across
+// the character's known releases within the provided category in chronological
+// order.
+func (c Character) ReleaseYearsByCategory(categoryKey Key) []uint16 {
+	if categoryKey == "" {
+		return nil
+	}
+
+	return releaseYearsFromGames(c.GamesByCategory(categoryKey))
+}
+
+// ReleaseYearsByPlatform returns the unique release years represented across
+// the character's known releases on the provided platform in chronological
+// order.
+func (c Character) ReleaseYearsByPlatform(platformKey Key) []uint16 {
+	if platformKey == "" {
+		return nil
+	}
+
+	return releaseYearsFromGames(c.GamesByPlatform(platformKey))
+}
+
+// ReleaseYearsByRegion returns the unique release years represented across the
+// character's known releases in the provided region in chronological order.
+func (c Character) ReleaseYearsByRegion(regionKey Key) []uint16 {
+	if regionKey == "" {
+		return nil
+	}
+
+	return releaseYearsFromGamesByRegion(c.GamesByRegion(regionKey), regionKey)
 }
 
 // GameByKey returns the character's game appearance for the provided game key.
