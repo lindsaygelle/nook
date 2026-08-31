@@ -294,6 +294,78 @@ func TestCharacterReleaseYears(t *testing.T) {
 	}
 }
 
+func TestCharacterReleaseHistory(t *testing.T) {
+	history := dogcharacters.Isabelle.Character.ReleaseHistory()
+	if len(history) != 15 {
+		t.Fatalf("len(%s.ReleaseHistory()) = %d", dogcharacters.Isabelle.Key, len(history))
+	}
+	if history[0].Game.Key != game.NewLeaf.Key {
+		t.Fatalf("%s.ReleaseHistory()[0].Game.Key = %s", dogcharacters.Isabelle.Key, history[0].Game.Key)
+	}
+	if history[0].ReleaseDate.Year != 2012 || history[0].ReleaseDate.Month != 11 || history[0].ReleaseDate.Day != 8 || history[0].ReleaseDate.Region.Key != region.Japan.Key {
+		t.Fatalf("%s.ReleaseHistory()[0].ReleaseDate = %#v", dogcharacters.Isabelle.Key, history[0].ReleaseDate)
+	}
+	if history[len(history)-1].Game.Key != game.NewHorizons.Key {
+		t.Fatalf("%s.ReleaseHistory()[last].Game.Key = %s", dogcharacters.Isabelle.Key, history[len(history)-1].Game.Key)
+	}
+	if history[len(history)-1].ReleaseDate.Year != 2020 || history[len(history)-1].ReleaseDate.Month != 3 || history[len(history)-1].ReleaseDate.Day != 20 || history[len(history)-1].ReleaseDate.Region.Key != region.Worldwide.Key {
+		t.Fatalf("%s.ReleaseHistory()[last].ReleaseDate = %#v", dogcharacters.Isabelle.Key, history[len(history)-1].ReleaseDate)
+	}
+
+	history[0] = nook.CharacterRelease{}
+
+	fresh := dogcharacters.Isabelle.Character.ReleaseHistory()
+	if fresh[0].Game.Key != game.NewLeaf.Key {
+		t.Fatalf("%s.ReleaseHistory()[0].Game.Key after mutation = %s", dogcharacters.Isabelle.Key, fresh[0].Game.Key)
+	}
+}
+
+func TestCharacterReleaseHistoryByFilters(t *testing.T) {
+	history := dogcharacters.Isabelle.Character.ReleaseHistoryByCategory(gamecategory.Spinoff.Key)
+	if len(history) != 8 {
+		t.Fatalf("len(%s.ReleaseHistoryByCategory(%s)) = %d", dogcharacters.Isabelle.Key, gamecategory.Spinoff.Key, len(history))
+	}
+	if history[0].Game.Key != game.HappyHomeDesigner.Key || history[0].ReleaseDate.Region.Key != region.Japan.Key {
+		t.Fatalf("%s.ReleaseHistoryByCategory(%s)[0] = %#v", dogcharacters.Isabelle.Key, gamecategory.Spinoff.Key, history[0])
+	}
+	if history[len(history)-1].Game.Key != game.AmiiboFestival.Key || history[len(history)-1].ReleaseDate.Region.Key != region.Europe.Key {
+		t.Fatalf("%s.ReleaseHistoryByCategory(%s)[last] = %#v", dogcharacters.Isabelle.Key, gamecategory.Spinoff.Key, history[len(history)-1])
+	}
+
+	history = dogcharacters.Isabelle.Character.ReleaseHistoryByPlatform(platform.Nintendo3DS.Key)
+	if len(history) != 8 {
+		t.Fatalf("len(%s.ReleaseHistoryByPlatform(%s)) = %d", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, len(history))
+	}
+	if history[0].Game.Key != game.NewLeaf.Key || history[0].ReleaseDate.Region.Key != region.Japan.Key {
+		t.Fatalf("%s.ReleaseHistoryByPlatform(%s)[0] = %#v", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, history[0])
+	}
+	if history[len(history)-1].Game.Key != game.HappyHomeDesigner.Key || history[len(history)-1].ReleaseDate.Region.Key != region.Australia.Key {
+		t.Fatalf("%s.ReleaseHistoryByPlatform(%s)[last] = %#v", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, history[len(history)-1])
+	}
+
+	history = dogcharacters.Isabelle.Character.ReleaseHistoryByRegion(region.Australia.Key)
+	if len(history) != 4 {
+		t.Fatalf("len(%s.ReleaseHistoryByRegion(%s)) = %d", dogcharacters.Isabelle.Key, region.Australia.Key, len(history))
+	}
+	if history[0].Game.Key != game.NewLeaf.Key || history[0].ReleaseDate.Day != 15 {
+		t.Fatalf("%s.ReleaseHistoryByRegion(%s)[0] = %#v", dogcharacters.Isabelle.Key, region.Australia.Key, history[0])
+	}
+	if history[len(history)-1].Game.Key != game.PocketCamp.Key || history[len(history)-1].ReleaseDate.Day != 25 {
+		t.Fatalf("%s.ReleaseHistoryByRegion(%s)[last] = %#v", dogcharacters.Isabelle.Key, region.Australia.Key, history[len(history)-1])
+	}
+
+	history = dogcharacters.Isabelle.Character.ReleaseHistoryByYear(2015)
+	if len(history) != 8 {
+		t.Fatalf("len(%s.ReleaseHistoryByYear(2015)) = %d", dogcharacters.Isabelle.Key, len(history))
+	}
+	if history[0].Game.Key != game.HappyHomeDesigner.Key || history[0].ReleaseDate.Region.Key != region.Japan.Key {
+		t.Fatalf("%s.ReleaseHistoryByYear(2015)[0] = %#v", dogcharacters.Isabelle.Key, history[0])
+	}
+	if history[len(history)-1].Game.Key != game.AmiiboFestival.Key || history[len(history)-1].ReleaseDate.Region.Key != region.Europe.Key {
+		t.Fatalf("%s.ReleaseHistoryByYear(2015)[last] = %#v", dogcharacters.Isabelle.Key, history[len(history)-1])
+	}
+}
+
 func TestCharacterGamesByReleaseYear(t *testing.T) {
 	games := dogcharacters.Isabelle.Character.GamesByReleaseYear(2015)
 	if len(games) != 2 {
@@ -502,6 +574,9 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if _, ok := squirrelcharacters.Shaki.Character.FirstGame(); ok {
 		t.Fatalf("%s.FirstGame() unexpectedly found a game", squirrelcharacters.Shaki.Key)
 	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseHistory(); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseHistory()) = %d", squirrelcharacters.Shaki.Key, len(got))
+	}
 	if got := squirrelcharacters.Shaki.Character.GameCategoryCount(); got != 0 {
 		t.Fatalf("%s.GameCategoryCount() = %d", squirrelcharacters.Shaki.Key, got)
 	}
@@ -544,6 +619,18 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if got := dogcharacters.Isabelle.Character.GamesByReleaseYear(0); got != nil {
 		t.Fatalf("%s.GamesByReleaseYear(0) = %#v", dogcharacters.Isabelle.Key, got)
 	}
+	if got := dogcharacters.Isabelle.Character.ReleaseHistoryByCategory(""); got != nil {
+		t.Fatalf("%s.ReleaseHistoryByCategory(blank) = %#v", dogcharacters.Isabelle.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.ReleaseHistoryByPlatform(""); got != nil {
+		t.Fatalf("%s.ReleaseHistoryByPlatform(blank) = %#v", dogcharacters.Isabelle.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.ReleaseHistoryByRegion(""); got != nil {
+		t.Fatalf("%s.ReleaseHistoryByRegion(blank) = %#v", dogcharacters.Isabelle.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.ReleaseHistoryByYear(0); got != nil {
+		t.Fatalf("%s.ReleaseHistoryByYear(0) = %#v", dogcharacters.Isabelle.Key, got)
+	}
 	if _, ok := dogcharacters.Isabelle.Character.FirstGameByRegion(""); ok {
 		t.Fatalf("%s.FirstGameByRegion(blank) unexpectedly found a game", dogcharacters.Isabelle.Key)
 	}
@@ -579,6 +666,18 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	}
 	if got := squirrelcharacters.Shaki.Character.GamesByReleaseYear(2015); len(got) != 0 {
 		t.Fatalf("len(%s.GamesByReleaseYear(2015)) = %d", squirrelcharacters.Shaki.Key, len(got))
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseHistoryByCategory(gamecategory.Mainline.Key); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseHistoryByCategory(%s)) = %d", squirrelcharacters.Shaki.Key, gamecategory.Mainline.Key, len(got))
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseHistoryByPlatform(platform.NintendoSwitch.Key); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseHistoryByPlatform(%s)) = %d", squirrelcharacters.Shaki.Key, platform.NintendoSwitch.Key, len(got))
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseHistoryByRegion(region.Worldwide.Key); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseHistoryByRegion(%s)) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, len(got))
+	}
+	if got := squirrelcharacters.Shaki.Character.ReleaseHistoryByYear(2015); len(got) != 0 {
+		t.Fatalf("len(%s.ReleaseHistoryByYear(2015)) = %d", squirrelcharacters.Shaki.Key, len(got))
 	}
 	if got := squirrelcharacters.Shaki.Character.ReleaseYearsByCategory(gamecategory.Mainline.Key); len(got) != 0 {
 		t.Fatalf("len(%s.ReleaseYearsByCategory(%s)) = %d", squirrelcharacters.Shaki.Key, gamecategory.Mainline.Key, len(got))
