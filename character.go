@@ -59,6 +59,60 @@ func compareRegionsByKey(a, b Region) int {
 	}
 }
 
+func firstGameFromGames(games []Game) (Game, bool) {
+	if len(games) == 0 {
+		return Game{}, false
+	}
+
+	return games[0], true
+}
+
+func firstReleaseDateFromGames(games []Game) (ReleaseDate, bool) {
+	var first ReleaseDate
+	found := false
+
+	for _, game := range games {
+		releaseDate, ok := game.FirstReleaseDate()
+		if !ok || !releaseDate.Ok() {
+			continue
+		}
+
+		if !found || releaseDate.Before(first) {
+			first = releaseDate
+			found = true
+		}
+	}
+
+	return first, found
+}
+
+func lastGameFromGames(games []Game) (Game, bool) {
+	if len(games) == 0 {
+		return Game{}, false
+	}
+
+	return games[len(games)-1], true
+}
+
+func lastReleaseDateFromGames(games []Game) (ReleaseDate, bool) {
+	var last ReleaseDate
+	found := false
+
+	for _, game := range games {
+		releaseDate, ok := game.LastReleaseDate()
+		if !ok || !releaseDate.Ok() {
+			continue
+		}
+
+		if !found || releaseDate.After(last) {
+			last = releaseDate
+			found = true
+		}
+	}
+
+	return last, found
+}
+
 // Character is a composite type that combines various attributes of an Animal Crossing character.
 type Character struct {
 	// Animal represents the animal type of the character.
@@ -104,30 +158,50 @@ func (c Character) AppearsInGame(gameKey Key) bool {
 
 // FirstGame returns the earliest known game appearance for the character.
 func (c Character) FirstGame() (Game, bool) {
-	games := c.GamesByReleaseOrder()
-	if len(games) == 0 {
-		return Game{}, false
-	}
-	return games[0], true
+	return firstGameFromGames(c.GamesByReleaseOrder())
+}
+
+// FirstGameByCategory returns the earliest known game appearance for the
+// character within the provided game category.
+func (c Character) FirstGameByCategory(categoryKey Key) (Game, bool) {
+	return firstGameFromGames(c.GamesByCategory(categoryKey))
+}
+
+// FirstGameByPlatform returns the earliest known game appearance for the
+// character on the provided platform.
+func (c Character) FirstGameByPlatform(platformKey Key) (Game, bool) {
+	return firstGameFromGames(c.GamesByPlatform(platformKey))
 }
 
 // FirstGameByRegion returns the earliest known game appearance for the
 // character in the provided release region.
 func (c Character) FirstGameByRegion(regionKey Key) (Game, bool) {
-	games := c.GamesByRegion(regionKey)
-	if len(games) == 0 {
-		return Game{}, false
-	}
-	return games[0], true
+	return firstGameFromGames(c.GamesByRegion(regionKey))
 }
 
 // FirstReleaseDate returns the earliest known release date for the character.
 func (c Character) FirstReleaseDate() (ReleaseDate, bool) {
-	game, ok := c.FirstGame()
-	if !ok {
+	return firstReleaseDateFromGames(c.Games)
+}
+
+// FirstReleaseDateByCategory returns the earliest known release date for the
+// character within the provided game category.
+func (c Character) FirstReleaseDateByCategory(categoryKey Key) (ReleaseDate, bool) {
+	if categoryKey == "" {
 		return ReleaseDate{}, false
 	}
-	return game.FirstReleaseDate()
+
+	return firstReleaseDateFromGames(c.GamesByCategory(categoryKey))
+}
+
+// FirstReleaseDateByPlatform returns the earliest known release date for the
+// character on the provided platform.
+func (c Character) FirstReleaseDateByPlatform(platformKey Key) (ReleaseDate, bool) {
+	if platformKey == "" {
+		return ReleaseDate{}, false
+	}
+
+	return firstReleaseDateFromGames(c.GamesByPlatform(platformKey))
 }
 
 // FirstReleaseDateByRegion returns the earliest known release date for the
@@ -349,30 +423,50 @@ func (c Character) ID() Key {
 
 // LastGame returns the latest known game appearance for the character.
 func (c Character) LastGame() (Game, bool) {
-	games := c.GamesByReleaseOrder()
-	if len(games) == 0 {
-		return Game{}, false
-	}
-	return games[len(games)-1], true
+	return lastGameFromGames(c.GamesByReleaseOrder())
+}
+
+// LastGameByCategory returns the latest known game appearance for the
+// character within the provided game category.
+func (c Character) LastGameByCategory(categoryKey Key) (Game, bool) {
+	return lastGameFromGames(c.GamesByCategory(categoryKey))
+}
+
+// LastGameByPlatform returns the latest known game appearance for the
+// character on the provided platform.
+func (c Character) LastGameByPlatform(platformKey Key) (Game, bool) {
+	return lastGameFromGames(c.GamesByPlatform(platformKey))
 }
 
 // LastGameByRegion returns the latest known game appearance for the character
 // in the provided release region.
 func (c Character) LastGameByRegion(regionKey Key) (Game, bool) {
-	games := c.GamesByRegion(regionKey)
-	if len(games) == 0 {
-		return Game{}, false
-	}
-	return games[len(games)-1], true
+	return lastGameFromGames(c.GamesByRegion(regionKey))
 }
 
 // LastReleaseDate returns the latest known release date for the character.
 func (c Character) LastReleaseDate() (ReleaseDate, bool) {
-	game, ok := c.LastGame()
-	if !ok {
+	return lastReleaseDateFromGames(c.Games)
+}
+
+// LastReleaseDateByCategory returns the latest known release date for the
+// character within the provided game category.
+func (c Character) LastReleaseDateByCategory(categoryKey Key) (ReleaseDate, bool) {
+	if categoryKey == "" {
 		return ReleaseDate{}, false
 	}
-	return game.LastReleaseDate()
+
+	return lastReleaseDateFromGames(c.GamesByCategory(categoryKey))
+}
+
+// LastReleaseDateByPlatform returns the latest known release date for the
+// character on the provided platform.
+func (c Character) LastReleaseDateByPlatform(platformKey Key) (ReleaseDate, bool) {
+	if platformKey == "" {
+		return ReleaseDate{}, false
+	}
+
+	return lastReleaseDateFromGames(c.GamesByPlatform(platformKey))
 }
 
 // LastReleaseDateByRegion returns the latest known release date for the
