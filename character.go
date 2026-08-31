@@ -59,6 +59,14 @@ func compareRegionsByKey(a, b Region) int {
 	}
 }
 
+func compareCharacterReleases(a, b CharacterRelease) int {
+	if got := a.ReleaseDate.Compare(b.ReleaseDate); got != 0 {
+		return got
+	}
+
+	return compareGamesByReleaseOrder(a.Game, b.Game)
+}
+
 func firstGameFromGames(games []Game) (Game, bool) {
 	if len(games) == 0 {
 		return Game{}, false
@@ -171,6 +179,29 @@ func gamesByReleaseYear(games []Game, year uint16) []Game {
 	}
 
 	return filtered
+}
+
+func characterReleasesFromGames(games []Game, match func(ReleaseDate) bool) []CharacterRelease {
+	releases := make([]CharacterRelease, 0)
+
+	for _, game := range games {
+		for _, releaseDate := range game.ReleaseDates {
+			if !releaseDate.Ok() {
+				continue
+			}
+			if match != nil && !match(releaseDate) {
+				continue
+			}
+
+			releases = append(releases, CharacterRelease{
+				Game:        game,
+				ReleaseDate: releaseDate,
+			})
+		}
+	}
+
+	slices.SortFunc(releases, compareCharacterReleases)
+	return releases
 }
 
 // Character is a composite type that combines various attributes of an Animal Crossing character.
@@ -360,6 +391,56 @@ func (c Character) ReleaseYearsByRegion(regionKey Key) []uint16 {
 	}
 
 	return releaseYearsFromGamesByRegion(c.GamesByRegion(regionKey), regionKey)
+}
+
+// ReleaseHistory returns the character's known regional release history in
+// chronological order.
+func (c Character) ReleaseHistory() []CharacterRelease {
+	return characterReleasesFromGames(c.Games, nil)
+}
+
+// ReleaseHistoryByCategory returns the character's known regional release
+// history within the provided game category in chronological order.
+func (c Character) ReleaseHistoryByCategory(categoryKey Key) []CharacterRelease {
+	if categoryKey == "" {
+		return nil
+	}
+
+	return characterReleasesFromGames(c.GamesByCategory(categoryKey), nil)
+}
+
+// ReleaseHistoryByPlatform returns the character's known regional release
+// history on the provided platform in chronological order.
+func (c Character) ReleaseHistoryByPlatform(platformKey Key) []CharacterRelease {
+	if platformKey == "" {
+		return nil
+	}
+
+	return characterReleasesFromGames(c.GamesByPlatform(platformKey), nil)
+}
+
+// ReleaseHistoryByRegion returns the character's known release history for the
+// provided region in chronological order.
+func (c Character) ReleaseHistoryByRegion(regionKey Key) []CharacterRelease {
+	if regionKey == "" {
+		return nil
+	}
+
+	return characterReleasesFromGames(c.Games, func(releaseDate ReleaseDate) bool {
+		return releaseDate.Region.Key == regionKey
+	})
+}
+
+// ReleaseHistoryByYear returns the character's known release history for the
+// provided year in chronological order.
+func (c Character) ReleaseHistoryByYear(year uint16) []CharacterRelease {
+	if year == 0 {
+		return nil
+	}
+
+	return characterReleasesFromGames(c.Games, func(releaseDate ReleaseDate) bool {
+		return releaseDate.Year == year
+	})
 }
 
 // GameByKey returns the character's game appearance for the provided game key.
