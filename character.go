@@ -156,6 +156,23 @@ func releaseYearsFromGamesByRegion(games []Game, regionKey Key) []uint16 {
 	return years
 }
 
+func gamesByReleaseYear(games []Game, year uint16) []Game {
+	filtered := make([]Game, 0)
+
+	for _, game := range games {
+		for _, releaseDate := range game.ReleaseDates {
+			if releaseDate.Year != year {
+				continue
+			}
+
+			filtered = append(filtered, game)
+			break
+		}
+	}
+
+	return filtered
+}
+
 // Character is a composite type that combines various attributes of an Animal Crossing character.
 type Character struct {
 	// Animal represents the animal type of the character.
@@ -301,6 +318,12 @@ func (c Character) GameCountByRegion(regionKey Key) int {
 	return len(c.GamesByRegion(regionKey))
 }
 
+// GameCountByReleaseYear returns the number of known game appearances for the
+// character with a release in the provided year.
+func (c Character) GameCountByReleaseYear(year uint16) int {
+	return len(c.GamesByReleaseYear(year))
+}
+
 // ReleaseYears returns the unique release years represented across the
 // character's known regional release history in chronological order.
 func (c Character) ReleaseYears() []uint16 {
@@ -418,6 +441,16 @@ func (c Character) GamesByRegion(regionKey Key) []Game {
 	return games
 }
 
+// GamesByReleaseYear returns the character's game appearances with a release
+// in the provided year sorted into deterministic release order.
+func (c Character) GamesByReleaseYear(year uint16) []Game {
+	if year == 0 {
+		return nil
+	}
+
+	return gamesByReleaseYear(c.GamesByReleaseOrder(), year)
+}
+
 // GameCategories returns the unique game categories represented across the
 // character's known game appearances in deterministic key order.
 func (c Character) GameCategories() []GameCategory {
@@ -524,6 +557,16 @@ func (c Character) GamesReleasedInRegion(regionKey Key) bool {
 	}
 
 	return false
+}
+
+// GamesReleasedInYear returns a boolean indicating whether the character
+// appears in any game that released in the provided year.
+func (c Character) GamesReleasedInYear(year uint16) bool {
+	if year == 0 {
+		return false
+	}
+
+	return len(c.GamesByReleaseYear(year)) != 0
 }
 
 // GamesByReleaseOrder returns the character's game appearances sorted into
