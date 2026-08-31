@@ -229,6 +229,35 @@ func (c Character) FirstReleaseDateByRegion(regionKey Key) (ReleaseDate, bool) {
 	return first, found
 }
 
+// GameCategoryCount returns the number of unique game categories represented
+// across the character's known game appearances.
+func (c Character) GameCategoryCount() int {
+	return len(c.GameCategories())
+}
+
+// GameCount returns the number of known game appearances for the character.
+func (c Character) GameCount() int {
+	return len(c.Games)
+}
+
+// GameCountByCategory returns the number of known game appearances for the
+// character within the provided category.
+func (c Character) GameCountByCategory(categoryKey Key) int {
+	return len(c.GamesByCategory(categoryKey))
+}
+
+// GameCountByPlatform returns the number of known game appearances for the
+// character on the provided platform.
+func (c Character) GameCountByPlatform(platformKey Key) int {
+	return len(c.GamesByPlatform(platformKey))
+}
+
+// GameCountByRegion returns the number of known game appearances for the
+// character in games released within the provided region.
+func (c Character) GameCountByRegion(regionKey Key) int {
+	return len(c.GamesByRegion(regionKey))
+}
+
 // GameByKey returns the character's game appearance for the provided game key.
 func (c Character) GameByKey(gameKey Key) (Game, bool) {
 	if gameKey == "" {
@@ -350,6 +379,12 @@ func (c Character) GamePlatforms() []Platform {
 	return platforms
 }
 
+// GamePlatformCount returns the number of unique platforms represented across
+// the character's known game appearances.
+func (c Character) GamePlatformCount() int {
+	return len(c.GamePlatforms())
+}
+
 // GameRegions returns the unique release regions represented across the
 // character's known game appearances in deterministic key order.
 func (c Character) GameRegions() []Region {
@@ -370,6 +405,12 @@ func (c Character) GameRegions() []Region {
 	}
 	slices.SortFunc(regions, compareRegionsByKey)
 	return regions
+}
+
+// GameRegionCount returns the number of unique release regions represented
+// across the character's known game appearances.
+func (c Character) GameRegionCount() int {
+	return len(c.GameRegions())
 }
 
 // GamesOnPlatform returns a boolean indicating whether the character appears on

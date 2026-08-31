@@ -251,6 +251,24 @@ func TestCharacterGamesByCategory(t *testing.T) {
 	}
 }
 
+func TestCharacterGameCounts(t *testing.T) {
+	if got := catcharacters.Ankha.Character.GameCount(); got != 9 {
+		t.Fatalf("%s.GameCount() = %d", catcharacters.Ankha.Key, got)
+	}
+	if got := catcharacters.Ankha.Character.GameCountByCategory(gamecategory.Mainline.Key); got != 6 {
+		t.Fatalf("%s.GameCountByCategory(%s) = %d", catcharacters.Ankha.Key, gamecategory.Mainline.Key, got)
+	}
+	if got := catcharacters.Ankha.Character.GameCountByCategory(gamecategory.Mobile.Key); got != 1 {
+		t.Fatalf("%s.GameCountByCategory(%s) = %d", catcharacters.Ankha.Key, gamecategory.Mobile.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.GameCountByPlatform(platform.Nintendo3DS.Key); got != 2 {
+		t.Fatalf("%s.GameCountByPlatform(%s) = %d", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key, got)
+	}
+	if got := dogcharacters.Isabelle.Character.GameCountByRegion(region.Worldwide.Key); got != 2 {
+		t.Fatalf("%s.GameCountByRegion(%s) = %d", dogcharacters.Isabelle.Key, region.Worldwide.Key, got)
+	}
+}
+
 func TestCharacterGamesByPlatform(t *testing.T) {
 	games := dogcharacters.Isabelle.Character.GamesByPlatform(platform.Nintendo3DS.Key)
 	if len(games) != 2 {
@@ -343,6 +361,12 @@ func TestCharacterGameCategories(t *testing.T) {
 	}
 }
 
+func TestCharacterGameCategoryCount(t *testing.T) {
+	if got := dogcharacters.Isabelle.Character.GameCategoryCount(); got != 3 {
+		t.Fatalf("%s.GameCategoryCount() = %d", dogcharacters.Isabelle.Key, got)
+	}
+}
+
 func TestCharacterGamesByReleaseOrder(t *testing.T) {
 	games := catcharacters.Ankha.Character.GamesByReleaseOrder()
 	if len(games) != len(catcharacters.Ankha.Character.Games) {
@@ -376,6 +400,12 @@ func TestCharacterGamePlatforms(t *testing.T) {
 	}
 }
 
+func TestCharacterGamePlatformCount(t *testing.T) {
+	if got := dogcharacters.Isabelle.Character.GamePlatformCount(); got != 5 {
+		t.Fatalf("%s.GamePlatformCount() = %d", dogcharacters.Isabelle.Key, got)
+	}
+}
+
 func TestCharacterGamesOnPlatform(t *testing.T) {
 	if !dogcharacters.Isabelle.Character.GamesOnPlatform(platform.Nintendo3DS.Key) {
 		t.Fatalf("%s.GamesOnPlatform(%s) = false", dogcharacters.Isabelle.Key, platform.Nintendo3DS.Key)
@@ -398,6 +428,12 @@ func TestCharacterGameRegions(t *testing.T) {
 	}
 }
 
+func TestCharacterGameRegionCount(t *testing.T) {
+	if got := dogcharacters.Isabelle.Character.GameRegionCount(); got != 5 {
+		t.Fatalf("%s.GameRegionCount() = %d", dogcharacters.Isabelle.Key, got)
+	}
+}
+
 func TestCharacterGamesReleasedInRegion(t *testing.T) {
 	if !dogcharacters.Isabelle.Character.GamesReleasedInRegion(region.Japan.Key) {
 		t.Fatalf("%s.GamesReleasedInRegion(%s) = false", dogcharacters.Isabelle.Key, region.Japan.Key)
@@ -410,6 +446,21 @@ func TestCharacterGamesReleasedInRegion(t *testing.T) {
 func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if _, ok := squirrelcharacters.Shaki.Character.FirstGame(); ok {
 		t.Fatalf("%s.FirstGame() unexpectedly found a game", squirrelcharacters.Shaki.Key)
+	}
+	if got := squirrelcharacters.Shaki.Character.GameCategoryCount(); got != 0 {
+		t.Fatalf("%s.GameCategoryCount() = %d", squirrelcharacters.Shaki.Key, got)
+	}
+	if got := squirrelcharacters.Shaki.Character.GameCount(); got != 0 {
+		t.Fatalf("%s.GameCount() = %d", squirrelcharacters.Shaki.Key, got)
+	}
+	if got := squirrelcharacters.Shaki.Character.GameCountByCategory(gamecategory.Mainline.Key); got != 0 {
+		t.Fatalf("%s.GameCountByCategory(%s) = %d", squirrelcharacters.Shaki.Key, gamecategory.Mainline.Key, got)
+	}
+	if got := squirrelcharacters.Shaki.Character.GameCountByPlatform(platform.NintendoSwitch.Key); got != 0 {
+		t.Fatalf("%s.GameCountByPlatform(%s) = %d", squirrelcharacters.Shaki.Key, platform.NintendoSwitch.Key, got)
+	}
+	if got := squirrelcharacters.Shaki.Character.GameCountByRegion(region.Worldwide.Key); got != 0 {
+		t.Fatalf("%s.GameCountByRegion(%s) = %d", squirrelcharacters.Shaki.Key, region.Worldwide.Key, got)
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.LastGame(); ok {
 		t.Fatalf("%s.LastGame() unexpectedly found a game", squirrelcharacters.Shaki.Key)
@@ -459,8 +510,14 @@ func TestCharacterGamesWithoutKnownAppearances(t *testing.T) {
 	if len(squirrelcharacters.Shaki.Character.GamePlatforms()) != 0 {
 		t.Fatalf("len(%s.GamePlatforms()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GamePlatforms()))
 	}
+	if got := squirrelcharacters.Shaki.Character.GamePlatformCount(); got != 0 {
+		t.Fatalf("%s.GamePlatformCount() = %d", squirrelcharacters.Shaki.Key, got)
+	}
 	if len(squirrelcharacters.Shaki.Character.GameRegions()) != 0 {
 		t.Fatalf("len(%s.GameRegions()) = %d", squirrelcharacters.Shaki.Key, len(squirrelcharacters.Shaki.Character.GameRegions()))
+	}
+	if got := squirrelcharacters.Shaki.Character.GameRegionCount(); got != 0 {
+		t.Fatalf("%s.GameRegionCount() = %d", squirrelcharacters.Shaki.Key, got)
 	}
 	if _, ok := squirrelcharacters.Shaki.Character.LastReleaseDate(); ok {
 		t.Fatalf("%s.LastReleaseDate() unexpectedly found a release date", squirrelcharacters.Shaki.Key)
